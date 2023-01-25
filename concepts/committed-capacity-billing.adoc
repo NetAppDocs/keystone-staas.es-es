@@ -1,0 +1,21 @@
+---
+sidebar: sidebar 
+permalink: concepts/committed-capacity-billing.html 
+keywords: Billing based on committed capacity, committed capacity billing 
+summary: Capacidades de almacenamiento admitidas 
+---
+= Facturación basada en la capacidad comprometida
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+La facturación de NetApp Keystone (Keystone) se basa en la capacidad que tiene para usted como parte de la suscripción de Keystone.
+
+La capacidad comprometida es la capacidad comprometida para un nivel de servicio concreto mientras compra la suscripción. La capacidad comprometida puede ser la capacidad total de varios niveles de servicio en una única suscripción, tal y como hayan sido aceptados por usted y por NetApp/partner. Esta capacidad se indica en cada pedido de Keystone y se factura con independencia del consumo de capacidad real.
+
+Si desea obtener información sobre las distintas capacidades compatibles con Keystone, consulte link:../concepts/supported-storage-capacity.html["Capacidades de almacenamiento compatibles con Keystone"].

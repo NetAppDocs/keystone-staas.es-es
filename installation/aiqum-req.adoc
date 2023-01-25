@@ -1,0 +1,92 @@
+---
+sidebar: sidebar 
+permalink: installation/aiqum-req.html 
+keywords: keystone unified manager prerequisites, aiqum config keystone 
+summary: requisitos previos del administrador unificado keystone 
+---
+= Requisitos previos de Active IQ Unified Manager
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Para la configuración y habilitación de Keystone Collector, Active IQ Unified Manager (Unified Manager) debe instalarse con configuraciones específicas.
+
+Asegúrese de que se configure un servidor de Unified Manager donde esté instalado Unified Manager 9.7 o una versión posterior con la funcionalidad API Gateway habilitada.
+
+Para obtener información sobre la instalación de Unified Manager, consulte estos enlaces:
+
+* https://docs.netapp.com/us-en/active-iq-unified-manager/install-vapp/concept_requirements_for_installing_unified_manager.html["Instalación de Unified Manager en sistemas VMware vSphere"^]
+* https://docs.netapp.com/us-en/active-iq-unified-manager/install-linux/concept_requirements_for_install_unified_manager.html["Instalación de Unified Manager en sistemas Linux"^]
+
+
+
+
+== Cree usuarios de Unified Manager
+
+Debe crear los siguientes usuarios en Unified Manager para que Keystone Collector datos de uso y rendimiento:
+
+* Una cuenta de servicio para Keystone Collector con `Operator` rol de usuario. Este usuario es necesario para la recopilación de datos de uso. El servicio Keystone Collector se comunica con Unified Manager a través de API. Esta cuenta de servicio es necesaria para la comunicación.
+* A. `Database` cuenta de usuario, con la `Report Schema` función. Este usuario es necesario para la recopilación de datos de rendimiento.
+
+
+Para obtener información sobre la creación de usuarios, los tipos de usuario y los roles de usuario, consulte estos enlaces:
+
+* https://docs.netapp.com/us-en/active-iq-unified-manager/config/reference_definitions_of_user_types.html["Definiciones de tipos de usuario"^]
+* https://docs.netapp.com/us-en/active-iq-unified-manager/config/reference_definitions_of_user_roles.html["Definiciones de roles de usuario"^]
+* https://docs.netapp.com/us-en/active-iq-unified-manager/config/reference_unified_manager_roles_and_capabilities.html["Roles y funcionalidades de usuario de Unified Manager"^]
+
+
+.Pasos
+. Inicie sesión en la interfaz de usuario web de Unified Manager con sus credenciales de usuario administrador de aplicaciones. Se crea un usuario administrador predeterminado durante la instalación. Consulte https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_access_unified_manager_web_ui.html["Acceder a la interfaz de usuario web de Unified Manager"^].
+. Cree el usuario con `Operator role`. Consulte https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_add_users.html["Adición de usuarios"^].
+. Cree el `Database` usuario. Consulte https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_create_database_user.html["Creación de un usuario de base de datos"^].
+
+
+image:um-add-user.png[""]
+
+
+
+== Habilite la puerta de enlace API en Unified Manager
+
+Keystone Collector utiliza la puerta de enlace API de Unified Manager para comunicarse con clústeres de ONTAP.
+
+Puede habilitar la puerta de enlace API desde la interfaz de usuario web o mediante la ejecución de algunos comandos a través de la CLI de Unified Manager.
+
+
+
+=== Habilite la puerta de enlace API desde la interfaz de usuario web
+
+Para habilitar la puerta de enlace de API desde la interfaz de usuario web de Unified Manager, siga estos pasos:
+
+.Pasos
+. Inicie sesión en la interfaz de usuario web de Unified Manager con sus credenciales de usuario administrador de aplicaciones. Se crea un usuario administrador predeterminado durante la instalación. Consulte https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_access_unified_manager_web_ui.html["Acceder a la interfaz de usuario web de Unified Manager"^].
+. Para obtener más información acerca de cómo habilitar la puerta de enlace API, consulte https://docs.netapp.com/us-en/active-iq-unified-manager/config/concept_api_gateway.html["Habilitar API Gateway"^].
+
+
+
+
+=== Habilite la puerta de enlace de API mediante la CLI de Unified Manager
+
+Estos pasos describen cómo se puede habilitar el acceso a la puerta de enlace API mediante la interfaz de línea de comandos de Unified Manager.
+
+Para obtener más información acerca de los comandos admitidos, consulte https://docs.netapp.com/us-en/active-iq-unified-manager/events/reference_supported_unified_manager_cli_commands.html["Comandos de CLI de Unified Manager compatibles"^].
+
+.Pasos
+. En Unified Manager Server, inicie una sesión SSH e inicie sesión en la CLI de Unified Manager.
+`um cli login -u _<umadmin>_`
+. Compruebe si la puerta de enlace API ya está activada.
+`um option list api.gateway.enabled`Si el valor devuelto es `true`, Indica que la funcionalidad API Gateway está activada.
+. Si el valor devuelto es `false`, Ejecute este comando para habilitar la funcionalidad API Gateway:
+`um option set api.gateway.enabled=true`
+. Reinicie el servidor de Unified Manager para aplicar el ajuste. Para más información:
++
+** En el sistema Linux, consulte https://docs.netapp.com/us-en/active-iq-unified-manager/install-linux/task_restart_unified_manager.html["Reiniciar Unified Manager"^].
+** En el sistema VMware vSphere, consulte https://docs.netapp.com/us-en/active-iq-unified-manager/install-vapp/task_restart_unified_manager_virtual_machine.html["Reiniciar la máquina virtual de Unified Manager"^].
+
+
+

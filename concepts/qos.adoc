@@ -1,0 +1,161 @@
+---
+sidebar: sidebar 
+permalink: concepts/qos.html 
+keywords: PSL and QoS, service level quality of service 
+summary: Calidad de servicio en Keystone 
+---
+= Calidad de servicio en Keystone
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+La calidad de servicio (QoS) de almacenamiento es una tecnología vital que garantiza que las aplicaciones obtienen un rendimiento constante y predecible. Sin la calidad de servicio, ciertas cargas de trabajo, como el arranque de varios sistemas, pueden ocupar recursos completos durante un período y afectar a otras cargas de trabajo. Para obtener más información sobre QoS, consulte https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html["Garantice el rendimiento con información general de calidad de servicio"^].
+
+La aplicación de QoS garantiza que las aplicaciones obtengan un rendimiento constante en todo momento. ONTAP de NetApp define dos parámetros para la calidad de servicio: Techos- https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html#about-throughput-ceilings-qos-max["Calidad de servicio máxima"^], y la planta de rendimiento- https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html#about-throughput-floors-qos-min["Calidad de servicio mínima"^]. QoS Max representa el número máximo de IOPS, Mbps o IOPS y Mbps que puede lograr una carga de trabajo. Por otro lado, QoS Min garantiza que el rendimiento de una carga de trabajo no es inferior a un determinado número de IOPS o Mbps, o IOPS y Mbps.
+
+
+
+== Calidad de servicio adaptativa
+
+La calidad de servicio adaptativa (AQoS) se utiliza para los servicios de Keystone para mantener la ratio de IOPS en TB/GB a medida que el tamaño varía, la política de calidad de servicio se aplica automáticamente. Para obtener más información acerca de la calidad de servicio adaptativa, consulte https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html#about-adaptive-qos["Acerca de la calidad de servicio adaptativa"^].
+
+Keystone le proporciona políticas de calidad de servicio adaptativas que puede configurar una vez que el clúster esté en producción. Debe asegurarse de que todos los volúmenes estén asociados con las políticas de calidad de servicio adaptativas correctas que ya se hayan creado y estén disponibles en el sistema.
+
+
+NOTE: Si no ha aplicado correctamente las políticas de calidad de servicio adaptativas a sus volúmenes, dichos volúmenes se medirán y se cobrarán en el nivel de servicio más alto de acuerdo con la suscripción. Esto puede resultar en cargos de ráfaga no intencionados.
+
+
+
+== Configuración del grupo de políticas de calidad de servicio adaptativo
+
+Puede configurar políticas de calidad de servicio adaptativas para escalar automáticamente un techo de rendimiento o un espacio físico a un tamaño de volumen. Para configurar una directiva, debe tener en cuenta lo siguiente:
+
+* *Nombre del grupo de políticas*: Nombre del grupo de políticas de QoS adaptativo. Por ejemplo: `Keystone_extreme`.
+* *VServer*: El nombre del VServer o del VM de almacenamiento (máquina virtual de almacenamiento).
+* *IOPS* esperado: El número de IOPS/TIB que ONTAP proporciona como mínimo siempre y cuando exista garantía de rendimiento.
+* *Peak IOPS*: El número máximo de IOPS/TIB que estarán disponibles para un volumen antes de que el rendimiento sea limitado.
+* *Asignación de IOPS esperada*: Este campo controla si la tasa de IOPS esperada disponible para el volumen se basa en el tamaño asignado o utilizado del volumen. En Keystone, se basa en el espacio asignado.
+* *Asignación de pico de IOPS*: Este campo controla si el pico de IOPS disponible para el volumen se basa en el tamaño asignado o utilizado del volumen. En Keystone, se basa en el espacio usado.
+* *IOPS mínimo absoluto*: El número más bajo de IOPS esperadas que se aplicará a un volumen si el tamaño del volumen es muy pequeño y, de lo contrario, resultaría en un número inaceptable de IOPS. De forma predeterminada, este valor es 1,000 para `Extreme`, 500 para `Premium`, y 75 para otros niveles de servicio.
++
+
+NOTE: Esto no es una densidad de IOPS (por ejemplo, 75 IOPS/TIB), sino un número mínimo absoluto de IOPS.
+
+
+
+Para obtener más información sobre la densidad de I/o, consulte link:../concepts/metrics.html["Métricas y definiciones utilizadas en los servicios de Keystone"]. Para obtener más información acerca de los grupos de políticas AQoS, consulte https://docs.netapp.com/us-en/ontap/performance-admin/adaptive-qos-policy-groups-task.html["Utilice grupos de políticas de calidad de servicio adaptativos"^].
+
+
+
+== Ajustes de las políticas de calidad de servicio adaptativas
+
+La configuración de políticas de calidad de servicio adaptativas para cada nivel de servicio se describe en las secciones siguientes. Los tamaños mínimos y máximos de volumen para cada nivel de servicio proporcionado aquí permiten obtener valores óptimos de IOPS y latencia para un volumen. Crear demasiados volúmenes fuera de estas directrices puede afectar de forma negativa al rendimiento de estos volúmenes.
+
+
+
+=== Configuración del nivel de servicio extremo
+
+Configuraciones y comandos para el nivel de servicio extremo:
+
+* Comando de ejemplo:
+
+
+....
+qos adaptive-policy-group create -policy-group <Keystone_extreme> -vserver <SVM_name> -expected-iops 6144 -peak-iops 12288 -expected-iops-allocation allocated-space -peak-iops-allocation used-space -block-size Any -absolute-min-iops 1000
+....
+* Tamaño mínimo de volumen: 100 GIB, 0,1 TIB
+* Tamaño máximo de volumen: 10 TIB
+
+
+
+
+=== Configuración del nivel de servicio Premium
+
+Configuración y comandos para el nivel de servicio Premium:
+
+* Comando de ejemplo:
+
+
+....
+qos adaptive-policy-group create -policy-group <Keystone_premium> -vserver <SVM_name> -expected-iops 2048 -peak-iops 4096 -expected-iops-allocation allocated-space -peak-iops-allocation used-space -block-size Any -absolute-min-iops 500
+....
+* Tamaño mínimo de volumen: 500 GIB, 0,5 TIB
+* Tamaño máximo de volumen: 50 TIB
+
+
+
+
+=== Configuración del nivel de servicio de rendimiento
+
+Ajustes y comandos para el nivel de servicio rendimiento:
+
+* Comando de ejemplo:
+
+
+....
+qos adaptive-policy-group create -policy-group <Keystone_performance> -vserver <SVM_name> -expected-iops 1024 -peak-iops 2048 -expected-iops-allocation allocated-space -peak-iops-allocation used-space -block-size Any -absolute-min-iops 250
+....
+* Tamaño mínimo de volumen: 500 GIB, 0,5 TIB
+* Tamaño máximo de volumen: 80 TIB
+
+
+
+
+=== Configuración del nivel de servicio estándar
+
+Configuración y comandos para el nivel de servicio estándar:
+
+* Comando de ejemplo:
+
+
+....
+qos adaptive-policy-group create -policy-group <Keystone_standard> -vserver <SVM_name> -expected-iops 256 -peak-iops 512 -expected-iops-allocation allocated-space -peak-iops-allocation used-space -block-size Any -absolute-min-iops 77
+....
+* Tamaño mínimo de volumen: 1 TIB
+* Tamaño máximo de volumen: 100 TIB
+
+
+
+
+=== Configuración del nivel de servicio de valor
+
+Configuración y comandos para el nivel de servicio de valor:
+
+* Comando de ejemplo:
+
+
+....
+qos adaptive-policy-group create -policy-group <Keystone_value> -vserver <SVM_name> -expected-iops 64 -peak-iops 128 -expected-iops-allocation allocated-space -peak-iops-allocation used-space -block-size Any -absolute-min-iops 59
+....
+* Tamaño mínimo de volumen: 1 TIB
+* Tamaño máximo de volumen: 100 TIB
+
+
+
+
+== Cálculo del tamaño de bloque
+
+Tenga en cuenta estos puntos antes de calcular el tamaño de bloque utilizando estos ajustes:
+
+* IOPS/TIB = Mbps/TIB dividido por (tamaño de bloque * 1024)
+* El tamaño del bloque es en KB/I/O.
+* TIB = 1024 GIB; GIB = 1024 MiB; MIB = 1024 KiB; KiB = 1024 bytes; según base 2
+* TB = 1000 GB; GB = 1000 MB; MB = 1000 KB; KB = 1000 bytes; según base 10
+
+
+.Cálculo del tamaño del bloque de muestra
+Por ejemplo, para calcular el rendimiento para el nivel de servicio A. `Extreme` nivel de servicio:
+
+* Máximo de IOPS: 12,288
+* Tamaño de bloque por I/o: 32 KB
+* Rendimiento máximo = (12288 * 32 * 1024) / (1024*1024) = 384 MBps/TIB
+
+
+Si un volumen tiene 700 GIB de datos lógicos usados, el rendimiento disponible será:
+
+`Maximum throughput = 384 * 0.7 = 268.8MBps`

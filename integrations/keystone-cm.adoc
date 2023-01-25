@@ -1,0 +1,27 @@
+---
+sidebar: sidebar 
+permalink: integrations/keystone-cm.html 
+keywords: Keystone-BlueXP 
+summary: Keystone y BlueXP 
+---
+= Keystone y BlueXP
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Si adquiere un servicio cloud en su suscripción de Keystone, puede acceder a estos servicios y gestionarlos a través de BlueXP.
+
+Como cliente de Keystone, si tiene suscripción a Cloud Volumes ONTAP, puede usar los servicios de Keystone para cobrar el uso de Cloud Volumes ONTAP y ver los detalles de facturación y consumo a través de BlueXP.
+
+Para ello, debe crear una o más cuentas de BlueXP y vincularlas con su cuenta de Keystone. Mientras adquiere un servicio cloud a través de Keystone, debe proporcionar los detalles de sus cuentas de BlueXP a su Keystone Success Manager (KSM). De este modo, es posible medir y cobrar correctamente el uso de los servicios cloud a través de su suscripción de Keystone.
+
+Para obtener más información, consulte los siguientes vínculos en los documentos de BlueXP:
+
+* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensing.html#keystone-flex-subscription["Suscripción a Keystone"^]
+* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-manage-keystone.html["Gestione suscripciones de Keystone"^]
+

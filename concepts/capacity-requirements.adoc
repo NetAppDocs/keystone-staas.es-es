@@ -1,0 +1,135 @@
+---
+sidebar: sidebar 
+permalink: concepts/capacity-requirements.html 
+keywords: storage capacity requirement for service levels, capacity definition per PSL, 
+summary: Requisitos de capacidad para niveles de servicio 
+---
+= Requisitos de capacidad para los niveles de servicio
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Los requisitos de capacidad para los niveles de servicio de Keystone STaaS difieren entre el almacenamiento de archivos, bloques, objetos o cloud que admite la suscripción a Keystone STaaS.
+
+
+
+== Requisitos mínimos de capacidad para servicios de archivos y bloques
+
+En la siguiente tabla, se describe la capacidad mínima y la capacidad incremental permitidas por suscripción. La capacidad mínima por nivel de servicio se ha definido como la misma en todos los movimientos de ventas de Keystone. La capacidad por encima de la capacidad mínima, ya sea al comienzo de la suscripción, o como servicio complementario a la suscripción, o después de la reasignación durante la suscripción también se estructura en la tabla.
+
+|===
+
+
+| Capacidad | Extremo | Premium | Rendimiento | Estándar | Valor 
+
+
+ a| 
+Capacidad mínima [en TIB]
+3+| 25 2+| 100 
+
+
+ a| 
+Capacidad incremental (y en múltiplos) permitida al inicio de la suscripción [en TIB]
+3+| 25 2+| 25 
+
+
+ a| 
+Capacidad incremental (y en múltiplos) permitida como complemento durante la suscripción [en TIB]
+3+| 25 2+| 25 
+|===
+
+
+== Requisitos de capacidad mínima para el almacenamiento de objetos
+
+Puede ver los requisitos mínimos de capacidad para el almacenamiento de objetos en la siguiente tabla:
+
+|===
+
+
+| Capacidad | Organización en niveles de los datos | Objeto | Cloud Volumes ONTAP | Cloud Backup Service 
+
+
+ a| 
+Capacidad mínima [en TIB]
+ a| 
+No aplicable
+ a| 
+500
+ a| 
+4
+ a| 
+4
+
+
+
+ a| 
+Capacidad incremental (y en múltiplos) permitida al inicio de la suscripción [en TIB]
+ a| 
+No aplicable
+ a| 
+100
+ a| 
+1
+ a| 
+1
+
+
+
+ a| 
+Capacidad incremental (y en múltiplos) permitida como complemento durante la suscripción [en TIB]
+ a| 
+No aplicable
+ a| 
+100
+ a| 
+1
+ a| 
+1
+
+|===
+
+
+== Ajustes de capacidad
+
+Tenga en cuenta las siguientes cláusulas para los ajustes de capacidad:
+
+* La capacidad se puede agregar en cualquier momento durante el plazo, excepto durante los últimos 90 días del periodo del contrato, en los incrementos por nivel de servicio tal y como se describe en las tablas de la sección anterior. Se permite la adición de capacidad y/o servicios en los últimos 90 días de la duración del contrato, siempre y cuando exista el consentimiento para la renovación del servicio. Cualquier adición de capacidad, el nuevo servicio en las instalaciones o el cloud puede coexistir con el período existente. La factura que se le ha enviado tras la activación de los nuevos servicios refleja la facturación revisada. La capacidad comprometida de los servicios cloud no puede reducirse en ningún momento durante el plazo de suscripción. Mientras tanto, la capacidad comprometida y el gasto comprometido en los servicios en las instalaciones durante la duración del contrato pueden reducirse en base a ciertos criterios definidos en la siguiente sección _reducción de capacidad_.
+* Cada sitio dispone de una capacidad de ráfaga según el acuerdo de Keystone. Por lo general, está un 20% por encima de la capacidad comprometida para un nivel de servicio. Cualquier uso en ráfaga se factura sólo durante ese período de facturación. Si necesita un requisito de ráfaga adicional que sea superior a la capacidad acordada, póngase en contacto con el soporte de.
+* La capacidad comprometida puede modificarse durante un contrato, sólo en determinadas condiciones, como se describe en la siguiente sección _reducción de capacidad_.
+* Se permite aumentar la capacidad o cambiar a un nivel de servicio superior durante un período de suscripción. Sin embargo, no se permite pasar de un nivel de servicio superior a uno inferior.
+* Cualquier solicitud de cambio en los últimos 90 días del periodo de servicio requiere una renovación del servicio por un mínimo de un año.
+
+
+
+
+=== Reducción de capacidad
+
+La reducción de la capacidad (anual) es aplicable al modelo de pago _Anual por adelantado_ y a las puestas en marcha únicamente en las instalaciones. No está disponible para servicios cloud ni para servicios de cloud híbrido. Proporciona capacidad en las instalaciones, lo que puede reducirse hasta en un 25 % por nivel de servicio por suscripción. Esta reducción se permite una vez al año para ser efectiva al comienzo del próximo período de facturación anual. Los pagos anuales basados en servicios en las instalaciones deben ser >= 200 000 dólares en cualquier momento durante el plazo para poder aprovechar la reducción de capacidad. Como solo se admite para puestas en marcha en las instalaciones, este modelo de facturación no permite reasignar el gasto de servicios en las instalaciones a servicios de cloud. En la imagen siguiente se ilustra un ejemplo de reducción de capacidad anual.
+
+image:capacity-reduction.png[""]
+
+
+
+=== Reasignación trimestral del gasto
+
+Requisitos y condiciones en un nivel de suscripción:
+
+* Se aplica sólo a la facturación mensual en el modelo arrear.
+* Se aplica sólo a suscripciones con compromisos de plazo de 1, 2 o 3 años.
+* La capacidad de Cloud Volumes ONTAP y Cloud Backup Service se debe adquirir con Keystone.
+* Se puede utilizar hasta el 25 % de los pagos mensuales basados en servicios en las instalaciones para reasignar servicios a servicios cloud.
+* Los pagos mensuales en el entorno local basados en el servicio deben ser >=$16.7K en cualquier momento durante el plazo para aprovechar la reasignación.
+* Las solicitudes de reasignación sólo se realizan después de 90 días a partir de la fecha de activación anterior de la reasignación.
+* La reubicación no se puede hacer de los servicios cloud a las instalaciones.
+* El cliente o partner deben enviar formalmente una solicitud de reasignación a Keystone Success Manager (KSM), al menos una semana antes del siguiente ciclo de facturación.
+* Las nuevas solicitudes sólo entran en vigor desde el siguiente ciclo de facturación.
+
+
+En la imagen siguiente se ilustra un ejemplo de reasignación trimestral de gastos:
+
+image:spend-alloc.png[""]

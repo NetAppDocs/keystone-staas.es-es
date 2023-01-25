@@ -1,0 +1,36 @@
+---
+sidebar: sidebar 
+permalink: concepts/data-tiering.html 
+keywords: add-on services, add-on, data tiering 
+summary: Complemento, detalles de servicios adicionales, organización en niveles de datos 
+---
+= Organización en niveles de los datos
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Los servicios estándar STaaS de Keystone para almacenamiento de archivos y bloques incluyen funcionalidades de organización por niveles que identifican datos que se usan con menor frecuencia y segmentación para almacenamiento en frío de NetApp compatible con STaaS de Keystone. Puede lograr la organización en niveles de los datos como servicio complementario si desea organizar en niveles los datos inactivos en cualquier almacenamiento de NetApp que no sea compatible con Keystone STaaS.
+
+Para obtener información acerca de los servicios estándar y complementarios, consulte link:../concepts/supported-storage-services.html["Servicios Keystone STaaS"]. Para obtener información acerca de los niveles de servicio, consulte link:../concepts/service-levels.html["Niveles de servicio en Keystone"].
+
+El servicio complementario de organización en niveles solo es necesario cuando los datos se organizan en niveles en cualquier almacenamiento que no sea de NetApp, como Amazon Web Services (AWS) S3, Azure Blob, Google Cloud Platform (GCP) y otros, el almacenamiento de objetos de terceros compatible con S3 y compatible con Keystone STaaS.
+
+La funcionalidad de organización en niveles aprovecha la tecnología FabricPool de NetApp, que permite establecer niveles automatizados de los datos a los que se accede con poca frecuencia en niveles de almacenamiento de objetos tanto dentro como fuera de las instalaciones.
+
+El servicio de organización en niveles de datos complementario permite la organización en niveles desde Extreme, Premium, Performance, Standard y Value Tier con un destino de almacenamiento de objetos. La relación entre los datos activos: Inactivos que se van a organizar en niveles no está fija y cada nivel se factura y contabifica por separado.
+
+Por ejemplo, si el objetivo del nivel de almacenamiento en frío es:
+
+* Keystone STaaS Value Tier, Keystone STaaS StorageGRID Object Tier o SGWS (propiedad del cliente) – no existe ningún coste adicional; forma parte del servicio estándar.
+* Cloud público (AWS, Azure, Google) o almacenamiento de objetos de terceros compatible con Keystone STaaS: Hay un coste adicional por capacidad de datos organizados por niveles en objetivos de almacenamiento de datos fríos.
+
+
+El coste de los servicios de organización en niveles complementarios se aplica a lo largo de todo el período de suscripción.
+
+
+NOTE: NetApp no suministra los servicios informáticos, de almacenamiento y de red basados en a hiperescala necesarios para Cloud Volumes ONTAP como parte de las suscripciones a Keystone STaaS; estos servicios deben adquirirse directamente a proveedores de servicios cloud a hiperescala.

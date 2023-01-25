@@ -1,0 +1,107 @@
+---
+sidebar: sidebar 
+permalink: installation/monitor-health.html 
+keywords: monitoring system health 
+summary: Supervisar el estado del sistema mediante el recopilador Keystone 
+---
+= Supervise el estado del sistema
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puede supervisar el estado del sistema a través de los servicios Keystone Collector mediante cualquier sistema de supervisión que admita solicitudes HTTP.
+
+De forma predeterminada, los servicios de salud de Keystone no aceptan conexiones desde ninguna dirección IP que no sea localhost. El extremo de estado de Keystone es `/uber/health`, Y escucha en todas las interfaces del servidor de Keystone Collector en el puerto `7777`. En la consulta, se devuelve un código de estado de solicitud HTTP con una salida JSON desde el extremo como respuesta, describiendo el estado del sistema Keystone Collector. El cuerpo JSON proporciona un estado general de estado para el `is_healthy` atributo, que es booleano; y una lista detallada de estados por componente para `component_details` atributo. A continuación se muestra un ejemplo:
+
+[listing]
+----
+$ curl http://127.0.0.1:7777/uber/health
+{"is_healthy": true, "component_details": {"vicmet": "Running", "minio": "Running", "ks-collector": "Running", "ks-billing": "Running", "chronyd": "Running"}}
+----
+Se devuelven estos códigos de estado:
+
+* *200*: indica que todos los componentes supervisados están en buen estado
+* *503*: indica que uno o más componentes no son saludables
+* *403*: Indica que el cliente HTTP que consulta el estado de salud no está en la lista _allow_, que es una lista de CIDR de red permitidos. Para este estado, no se devuelve información de estado. La lista _allow_ utiliza el método CIDR de red para controlar qué dispositivos de red pueden consultar el sistema de mantenimiento Keystone. Si recibe este error, agregue el sistema de monitorización a la lista _allow_ de *Keystone Collector Management TUI > Configure > Health Monitoring*.
+
+
+.Usuarios de Linux, tenga en cuenta este problema conocido:
+
+NOTE: *Descripción del problema*: Keystone Collector ejecuta una serie de contenedores como parte del sistema de medición del uso. Cuando el servidor Red Hat Enterprise Linux 8.x está endurecido con las directivas de implementación técnica de seguridad (STIG) de la Agencia de sistemas de información de defensa de EE.UU. (DISA), se ha observado un problema conocido con fapolicyd (File Access Policy Daemon, demonio de políticas de acceso a archivos) intermitentemente. Este problema se identifica como link:https://bugzilla.redhat.com/show_bug.cgi?id=1907870["error 1907870"^]. *Solución*: Hasta que Red Hat Enterprise lo resuelva, NetApp le recomienda solucionar este problema poniendo `fapolicyd` en modo permitido. Pulg /`etc/fapolicyd/fapolicyd.conf`, establezca el valor de `permissive = 1`.
+
+
+
+== Ver los registros del sistema
+
+Puede ver los registros del sistema Keystone Collector para revisar la información del sistema y solucionar problemas mediante esos registros. Keystone Collector utiliza el sistema de registro _journald_ del host y los registros del sistema se pueden revisar a través de la utilidad estándar del sistema _journaltl_. Puede disponer de los siguientes servicios clave para examinar los registros:
+
+* colector de ks
+* ks-salud
+* ks-autoupdate
+
+
+El servicio principal de recopilación de datos _ks-collector_ produce registros en formato JSON con un `run-id` atributo asociado a cada trabajo de recopilación de datos programado. A continuación se muestra un ejemplo de un trabajo correcto para la recopilación de datos de uso estándar:
+
+[listing]
+----
+{"level":"info","time":"2022-10-31T05:20:01.831Z","caller":"light-collector/main.go:31","msg":"initialising light collector with run-id cdflm0f74cgphgfon8cg","run-id":"cdflm0f74cgphgfon8cg"}
+{"level":"info","time":"2022-10-31T05:20:04.624Z","caller":"ontap/service.go:215","msg":"223 volumes collected for cluster a2049dd4-bfcf-11ec-8500-00505695ce60","run-id":"cdflm0f74cgphgfon8cg"}
+
+{"level":"info","time":"2022-10-31T05:20:18.821Z","caller":"ontap/service.go:215","msg":"697 volumes collected for cluster 909cbacc-bfcf-11ec-8500-00505695ce60","run-id":"cdflm0f74cgphgfon8cg"}
+
+{"level":"info","time":"2022-10-31T05:20:41.598Z","caller":"ontap/service.go:215","msg":"7 volumes collected for cluster f7b9a30c-55dc-11ed-9c88-005056b3d66f","run-id":"cdflm0f74cgphgfon8cg"}
+
+{"level":"info","time":"2022-10-31T05:20:48.247Z","caller":"ontap/service.go:215","msg":"24 volumes collected for cluster a9e2dcff-ab21-11ec-8428-00a098ad3ba2","run-id":"cdflm0f74cgphgfon8cg"}
+
+{"level":"info","time":"2022-10-31T05:20:48.786Z","caller":"worker/collector.go:75","msg":"4 clusters collected","run-id":"cdflm0f74cgphgfon8cg"}
+
+{"level":"info","time":"2022-10-31T05:20:48.839Z","caller":"reception/reception.go:75","msg":"Sending file 65a71542-cb4d-bdb2-e9a7-a826be4fdcb7_1667193648.tar.gz type=ontap to reception","run-id":"cdflm0f74cgphgfon8cg"}
+
+{"level":"info","time":"2022-10-31T05:20:48.840Z","caller":"reception/reception.go:76","msg":"File bytes 123425","run-id":"cdflm0f74cgphgfon8cg"}
+
+{"level":"info","time":"2022-10-31T05:20:51.324Z","caller":"reception/reception.go:99","msg":"uploaded usage file to reception with status 201 Created","run-id":"cdflm0f74cgphgfon8cg"}
+----
+A continuación se muestra un ejemplo de un trabajo correcto para la recogida de datos de rendimiento opcional:
+
+[listing]
+----
+{"level":"info","time":"2022-10-31T05:20:51.324Z","caller":"sql/service.go:28","msg":"initialising MySql service at 10.128.114.214"}
+
+{"level":"info","time":"2022-10-31T05:20:51.324Z","caller":"sql/service.go:55","msg":"Opening MySql db connection at server 10.128.114.214"}
+
+{"level":"info","time":"2022-10-31T05:20:51.324Z","caller":"sql/service.go:39","msg":"Creating MySql db config object"}
+
+{"level":"info","time":"2022-10-31T05:20:51.324Z","caller":"sla_reporting/service.go:69","msg":"initialising SLA service"}
+
+{"level":"info","time":"2022-10-31T05:20:51.324Z","caller":"sla_reporting/service.go:71","msg":"SLA service successfully initialised"}
+
+{"level":"info","time":"2022-10-31T05:20:51.324Z","caller":"worker/collector.go:217","msg":"Performance data would be collected for timerange: 2022-10-31T10:24:52~2022-10-31T10:29:52"}
+
+{"level":"info","time":"2022-10-31T05:21:31.385Z","caller":"worker/collector.go:244","msg":"New file generated: 65a71542-cb4d-bdb2-e9a7-a826be4fdcb7_1667193651.tar.gz"}
+
+{"level":"info","time":"2022-10-31T05:21:31.385Z","caller":"reception/reception.go:75","msg":"Sending file 65a71542-cb4d-bdb2-e9a7-a826be4fdcb7_1667193651.tar.gz type=ontap-perf to reception","run-id":"cdflm0f74cgphgfon8cg"}
+
+{"level":"info","time":"2022-10-31T05:21:31.386Z","caller":"reception/reception.go:76","msg":"File bytes 17767","run-id":"cdflm0f74cgphgfon8cg"}
+
+{"level":"info","time":"2022-10-31T05:21:33.025Z","caller":"reception/reception.go:99","msg":"uploaded usage file to reception with status 201 Created","run-id":"cdflm0f74cgphgfon8cg"}
+
+{"level":"info","time":"2022-10-31T05:21:33.025Z","caller":"light-collector/main.go:88","msg":"exiting","run-id":"cdflm0f74cgphgfon8cg"}
+----
+
+
+== Genere y recoja paquetes de soporte
+
+La TUI de Keystone Collector permite generar paquetes de soporte y luego añadir solicitudes de servicio para solucionar problemas de soporte. Siga este procedimiento:
+
+.Pasos
+. Abra la utilidad de gestión TUI de Keystone Collector:
+`$ keystone-collector-tui`
+. Vaya a *solución de problemas > generar paquete de soporte*.image:tui-sup-bundl.png[""]
+. Cuando se genera, se muestra la ubicación donde se guarda el paquete. Utilice FTP, SFTP o SCP para conectarse a la ubicación y descargar el archivo de registro a un sistema local.image:tui-sup-bundl-2.png[""]
+. Cuando se descarga el archivo, puede adjuntarlo al ticket de soporte de Keystone ServiceNow. Para obtener más información, consulte link:../concepts/gssc.html["Generando solicitudes de servicio"].
+

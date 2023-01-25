@@ -1,0 +1,49 @@
+---
+sidebar: sidebar 
+permalink: concepts/data-flow.html 
+keywords: data flow 
+summary: Los flujos de datos de Keystone 
+---
+= Flujo de datos de Keystone
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Los sistemas STaaS de Keystone encuentran el flujo de datos a través del tráfico Keystone Collector y monitoreo de flujos de datos.
+
+
+
+== Flujo de datos de Keystone Collector
+
+Keystone Collector inicia llamadas API DE REST a las controladoras de almacenamiento y obtiene periódicamente detalles de uso de las controladoras.
+
+image:collector-data-flow.png[""]
+
+.Leyenda
+. Collector de NetApp inicia una sesión HTTPS en el portal de cloud de Active-IQ.
+. El firewall que utiliza el cliente permite la conexión.
+. El portal cloud de Active IQ acepta la conexión y establece un túnel para el colector de NetApp.
+. El recopilador de NetApp establece una sesión de API DE REST a la conexión de gestión de la controladora de almacenamiento, obtiene los datos de entorno y los envía al portal de Active IQ.
+
+
+
+
+== Supervisar flujos de datos
+
+La supervisión continua del estado de la infraestructura de almacenamiento es una de las funciones más importantes del servicio Keystone. Para la supervisión, Keystone utiliza OpsRamp, que necesita acceso remoto a la red del cliente. La siguiente imagen describe cómo el acceso remoto a la ubicación del cliente está protegido por la herramienta OpsRamp.
+
+image:monitoring-flow.png[""]
+
+.Leyenda
+. La puerta de enlace OpsRamp inicia una sesión TLS en el portal cloud OpsRamp en la nube.
+. El firewall que utiliza el cliente permite la conexión.
+. El servidor OpsRamp en la nube acepta la conexión.
+. Se establece un túnel TLS entre el portal cloud OpsRamp y la puerta de enlace local OpsRamp.
+. Las controladoras de NetApp envían alertas mediante el protocolo SNMP o responden a las solicitudes API a la puerta de enlace local OpsRamp.
+. La puerta de enlace local OpsRamp envía estas alertas a su portal cloud mediante la sesión TLS establecida anteriormente.
+

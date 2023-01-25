@@ -1,0 +1,123 @@
+---
+sidebar: sidebar 
+permalink: concepts/service-levels.html 
+keywords: service levels, service level 
+summary: Niveles de servicio compatibles 
+---
+= Niveles de servicio en Keystone
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Keystone STaaS ofrece capacidad de almacenamiento de datos a niveles de servicio de rendimiento (niveles de servicio) predefinidos conforme a una suscripción.
+
+Los niveles de servicio se definen por:
+
+* Latencia media
+* IOPS máximo por TIB lógico almacenado por volumen
+
+
+Se debe asociar un volumen a un nivel de servicio.
+
+
+
+== Niveles de servicio para el almacenamiento compatible
+
+Los niveles de servicio para los servicios de archivo, bloque, objeto y cloud se enumeran aquí.
+
+
+
+=== Almacenamiento de archivos y bloques
+
+*Protocolos compatibles*: NFS, CIFS, iSCSI y FC
+
+|===
+
+
+| *Nivel de servicio* | *Extremo* | *Premium* | *Rendimiento* | *Estándar* | *Valor* 
+
+
+| *Tipos de carga de trabajo de ejemplo* | Análisis, bases de datos, aplicaciones críticas para la misión | VDI, VSI, desarrollo de software | OLTP, OLAP, contenedores, desarrollo de software | Archivos compartidos, servidores web | Backup 
+
+
+| *IOPS máximo/TIBs lógicos almacenados por volumen* | 12,288 | 4,096 | 2,048 | 512 | 128 
+
+
+| *TIBs máximos Mbps/lógicos almacenados por volumen* | 384 | 128 | 64 | 16 | 4 
+
+
+| *Latencia* | <1 ms | <2 ms | <4 ms | <17 ms | <17 ms 
+|===
+[NOTE]
+====
+Tenga en cuenta los puntos siguientes para las métricas de rendimiento (aplicables sólo al archivo)
+
+* Los niveles de servicio de archivos y bloques se basan en ONTAP 9.7 y versiones posteriores.
+* Los valores de IOPS/TIB y latencia para niveles de servicio se basan en la cantidad de datos lógicos almacenados en el volumen, el tamaño de bloque de 32 KB y una combinación aleatoria del 70 % de I/o de lectura y de escritura en /30 %.
+* Las IOPS/TIB reales o Mbps/TIB varían en función de la concurrencia de cargas de trabajo y los patrones de uso.
+* La latencia no incluye lo siguiente: -- las aplicaciones, los hosts o la latencia de red del cliente hacia o desde los puertos de la controladora. -- la latencia que aplica QoS automáticamente para mantener las operaciones de I/o dentro de los máximos de nivel de servicio.
+* Cuando se utiliza el servicio complementario de protección de datos avanzada, la latencia objetivo se aplica al servicio de las solicitudes de I/o únicamente de los productos Keystone locales.
+
+
+====
+
+
+=== Almacenamiento de objetos
+
+*Protocolo admitido*: S3
+
+|===
+
+
+| *Nivel de servicio* | Objeto 
+
+
+| *Tipo de carga de trabajo* | Almacén de medios, archivado 
+
+
+| *IOPS máximo/TIB lógico almacenados por volumen* | N.A. 
+
+
+| *Máximo Mbps/TIB lógico almacenado por volumen* | N.A. 
+
+
+| *Latencia media* | N.A. 
+|===
+
+NOTE: La latencia no incluye sobrecargas asociadas con la transferencia de datos al almacén de objetos en el caso de almacenamiento de FabricPool.
+
+
+
+=== Almacenamiento en cloud
+
+*Protocolo compatible*: NFS, CIFS, iSCSI y S3 (solo AWS y Azure)
+
+|===
+
+
+| *Nivel de servicio* | Cloud Volumes ONTAP® 
+
+
+| *Tipo de carga de trabajo* | Recuperación ante desastres, desarrollo y pruebas de software, aplicaciones empresariales 
+
+
+| *IOPS máximo/TIB lógico almacenados por volumen* | N.A. 
+
+
+| *Máximo Mbps/TIB lógico almacenado por volumen* | N.A. 
+
+
+| *Latencia media* | N.A. 
+|===
+[NOTE]
+====
+* Los servicios nativos de cloud, como la computación, el almacenamiento, las redes, son facturados por los proveedores de cloud.
+* Estos servicios dependen de las características informáticas y de almacenamiento en cloud.
+
+
+====

@@ -1,0 +1,77 @@
+---
+sidebar: sidebar 
+permalink: concepts/operational-models.html 
+keywords: Operational models, partner operations, customer operations, roles and responsibilities, r&r 
+summary: Los modelos operativos en Keystone 
+---
+= Los modelos operativos en Keystone
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+STaaS (Keystone) NetApp Keystone ofrece dos modelos operativos para la prestación de servicios: Modelo operado por partners y modelo operado por clientes.
+
+* *Modelo operado por socios*: Un socio o proveedor de servicios opera los servicios para sus clientes finales. Para NetApp, el partner es la parte contratada que se hace referencia. Los inquilinos son clientes de partners y no tienen relación de facturación con NetApp. Un modelo gestionado por un partner tiene un entorno multi-tenancy en el que los inquilinos y los clientes finales/subinquilinos tienen sus propias suscripciones facturadas por el partner. El administrador del partner realiza las tareas administrativas para todos los inquilinos.
+* *Modelo gestionado por el cliente*: Como cliente, puede suscribirse a los servicios de Keystone de acuerdo con los niveles de servicio y el almacenamiento seleccionados. NetApp define la arquitectura y los productos, y pone en marcha Keystone en sus instalaciones. Es necesario gestionar la infraestructura a través de sus recursos DE ALMACENAMIENTO y DE TECNOLOGÍA. Como cliente, usted es el inquilino o subinquilino de NetApp o un proveedor de servicios/partner. En función de su contrato, puede solicitudes de servicio que puedan atender NetApp o su proveedor de servicios. Un administrador del extremo puede realizar las tareas administrativas en su sitio (entorno). Estas tareas están vinculadas a los usuarios de su entorno.
+
+
+
+
+== Funciones y responsabilidades a lo largo del ciclo de vida del servicio
+
+* *Modelo operado por un partner*: La participación de funciones y responsabilidades depende del SLA entre usted y el proveedor de servicios o socio. Póngase en contacto con su proveedor de servicios para obtener información.
+* *Modelo gestionado por el cliente*: La tabla siguiente resume el modelo general del ciclo de vida del servicio y las funciones y responsabilidades asociadas con ellos en un entorno operado por el cliente.
+
+
+|===
+| Tarea | NetApp | Cliente 
+
+
+ a| 
+Instalación y tareas relacionadas
+
+* Instale
+* Configurar
+* Puesta en marcha
+* Integradas
+
+| image:check.png[""] | Ninguno 
+
+
+ a| 
+Administración y supervisión
+
+* Supervisar
+* Informes
+* Realizar tareas administrativas
+* Alerta
+
+| Ninguno | image:check.png[""] 
+
+
+ a| 
+Operaciones y optimización
+
+* Gestione la capacidad
+* Gestión del rendimiento
+* Administrar SLA
+
+| Ninguno | image:check.png[""] 
+
+
+ a| 
+Soporte técnico
+
+* Cliente de soporte
+* Reparación de fallos de hardware
+* Soporte de software
+* Actualizaciones y parches
+
+| image:check.png[""] | Ninguno 
+|===
+Para obtener más información sobre la implementación, consulte link:../concepts/infra.html["Infraestructura Keystone"] y.. link:..//concepts/components.html["Componentes para puesta en marcha"].

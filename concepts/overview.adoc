@@ -1,0 +1,31 @@
+---
+sidebar: sidebar 
+permalink: concepts/overview.html 
+keywords: learn about keystone, keystone introduction, keystone, STaaS, service, offering, overview 
+summary: Bienvenido a Keystone 
+---
+= Más información sobre NetApp Keystone
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+NetApp Keystone (Keystone) es un modelo de servicio basado en suscripciones y de pago por crecimiento que proporciona una experiencia de cloud híbrido fluida para las empresas que prefieren modelos de consumo de gastos operativos para gastos de capital o arrendamiento iniciales.
+
+Keystone permite a los clientes acelerar la rentabilidad de la inversión reduciendo los obstáculos a la hora de gestionar el crecimiento impredecible de la capacidad y ciclos de aprovisionamiento complejos. Keystone permite a los clientes alinear la economía y las operaciones con sus prioridades empresariales.
+
+image:nkfsosm_image2.png["Error: Falta la imagen gráfica"]
+
+Keystone proporciona capacidad de almacenamiento a niveles de servicio predefinidos para tipos de datos de bloques, archivos y objetos que pueden ponerse en marcha en las instalaciones y ser operados por NetApp, un partner o el cliente. Puede utilizar Keystone en asociación con servicios de cloud de NetApp, como Cloud Volumes ONTAP, que puede poner en marcha en un entorno a hiperescala de su elección.
+
+Una suscripción de Keystone está asociada con los planes de tarifas. Puede haber varios planes de tarifas adjuntos a una única suscripción.
+
+
+
+== Almacenamiento como servicio (STaaS) de Keystone
+
+Aunque la mayoría de las empresas siguen trabajando en su estrategia para cloud híbrido, usted, como cliente, puede optar por un modelo de consumo basado en gastos operativos de pago por uso. Es posible que cuente con un mandato para mover al cloud todas sus cargas de trabajo y, aún así, no tenga un plan o una programación claros para migrar partes específicas o todas sus cargas de trabajo a la nube. Almacenamiento como servicio (STaaS) de Keystone le proporciona flexibilidad para empezar con servicios en las instalaciones y decidir más adelante cuáles son las cargas de trabajo correctas y en qué momento debe moverse a cloud. Keystone STaaS proporciona protección de compromisos entre modelos de puesta en marcha. En lugar de pagar más por los servicios cloud, como cliente en las instalaciones puede reasignar su gasto en las instalaciones para agregar servicios de cloud y, en esencia, pagar la misma factura mensual que se había comprometido antes de esta reasignación.

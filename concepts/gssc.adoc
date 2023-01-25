@@ -1,0 +1,64 @@
+---
+sidebar: sidebar 
+permalink: concepts/gssc.html 
+keywords: Global Services Support Center, GSSC, Keystone support, service request, support ticket 
+summary: Centro de soporte de servicios globales de NetApp GSSC 
+---
+= Centro de soporte de servicios globales de NetApp
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Los servicios de NetApp Keystone se ejecutan aprovechando el centro de soporte y servicios globales de NetApp (GSSC), el director de éxito de NetApp Keystone y el gestor de prestación de servicios de NetApp Keystone.
+
+
+
+== Centro de soporte y servicios globales de NetApp (GSSC)
+
+NetApp proporciona servicios operativos de forma remota a clientes de NetApp Keystone. Estos servicios abarcan una amplia gama de disciplinas operativas en distintas actividades de gestión del almacenamiento. Estos servicios incluyen la gestión de activos y configuración, la gestión de la capacidad y el rendimiento, la gestión de cambios, eventos, la gestión de incidentes y problemas, el cumplimiento de solicitudes de servicio y la creación de informes. NetApp demuestra un estado de control y evidencias de soporte, según sea necesario.
+
+
+
+== Información adicional y contacto de soporte
+
+El equipo del centro de soporte y servicios globales (GSSC) de NetApp presta soporte principalmente a los servicios prestados a los clientes de NetApp Keystone. Puede utilizar la siguiente información para ponerse en contacto con el equipo de soporte.
+
+* Contactos de servicio globales:https://www.netapp.com/us/contact-us/support.aspx[]
+* Si tiene un caso o una incidencia abiertos que debe escalarse, envíe un correo electrónico a una de las siguientes direcciones: keystone.services@netapp.com keystone.escalations@netapp.com
+* NetApp utiliza OpsRamp, una solución de puerta de enlace remota basada en cloud para supervisar y conectar de forma proactiva el entorno NetApp Keystone para la solución de problemas. Para obtener más información sobre OpsRamp, consulte https://www.opsramp.com/#[].
+
+
+
+NOTE: En un modelo operado por un partner, las solicitudes de servicio del inquilino y el subinquilino se asignan al servicio técnico del partner. La herramienta de soporte del partner podría tener integración con las aplicaciones OpsRamp y GSSC. Solo se escalan a NetApp los problemas de nivel 3 a través de GSSC.
+
+Para obtener más información, consulte:
+
+* NetApp Keystonehttps://www.netapp.com/us/solutions/keystone/index.aspx["https://www.netapp.com/us/solutions/keystone/index.aspx"^]
+* Documentación de productos de NetApphttps://docs.netapp.com["https://docs.netapp.com"^]
+
+
+
+
+== Supervisión de GSSC
+
+El centro de soporte y servicios globales de NetApp (GSSC) supervisa el estado de sus productos y los servicios suscritos, ofrece soporte remoto y colabora con su Keystone Success Manager. Todo el personal que supervise los productos asociados a los pedidos de suscripción de Keystone relevantes será ciudadano de EE. UU. Que opera en EE. UU residentes en este país.
+
+.Keystone Success Manager
+Keystone Success Manager (KSM) trabaja en estrecha colaboración con usted en sus servicios de Keystone y le actualiza su facturación semanal o mensualmente, e informes operativos. Las responsabilidades se especifican en el acuerdo de NetApp Keystone.
+
+
+
+== Generando solicitudes de servicio
+
+Durante la incorporación, si se le proporcionaron credenciales para acceder y utilizar ServiceNow de NetApp Keystone, puede usar el portal para generar solicitudes de servicio por problemas relacionados con sus suscripciones de Keystone:
+
+https://netappgssc.service-now.com/csm[]
+
+Asegúrese de tener preparados los detalles del sistema, los registros y la información relacionada antes de elevar la solicitud de servicio. Cuando se produce una solicitud de servicio, el equipo de GSSC recibe el ticket de asistencia y accede a la información para la solución de problemas. Puede seguir el ticket de ServiceNow para conocer el estado y la resolución.
+
+Para obtener información sobre cómo añadir paquetes de soporte, consulte link:../installation/monitor-health.html["Genere y recoja el bundle de soporte"].

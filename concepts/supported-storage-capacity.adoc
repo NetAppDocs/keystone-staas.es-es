@@ -1,0 +1,72 @@
+---
+sidebar: sidebar 
+permalink: concepts/supported-storage-capacity.html 
+keywords: storage capacity, capacity definition, keystone STaaS storage capacity, 
+summary: Capacidades de almacenamiento admitidas 
+---
+= Capacidades de almacenamiento compatibles con Keystone
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Las capacidades de los servicios de recuperación ante desastres de NetApp Keystone incluyen:
+
+
+
+== Capacidad lógica
+
+Estos son los datos que pone un cliente en la infraestructura de Keystone. Todas las capacidades de Keystone se refieren a una capacidad lógica. Por ejemplo, si se almacena un archivo de 1 TIB en la infraestructura de Keystone, debe adquirirse un mínimo de 1 TIB de capacidad.
+
+
+
+== Capacidad comprometida
+
+La capacidad lógica mínima facturada cada mes durante la suscripción:
+
+* La capacidad se compromete con cada nivel de servicio.
+* Durante el período de vigencia se puede añadir la capacidad comprometida y los niveles de servicio adicionales.
+
+
+
+
+=== Cambios en la capacidad comprometida
+
+Durante la duración de una suscripción, puede cambiar las capacidades comprometidas. Sin embargo, existen algunas condiciones previas:
+
+* La capacidad comprometida puede disminuirse en función de ciertas condiciones. Para obtener más información, consulte link:../concepts/capacity-requirements.html["Reducción de capacidad"].
+* La capacidad comprometida no puede aumentarse 90 días antes del vencimiento de la suscripción, a menos que la suscripción se renueve por un plazo adicional de 12 meses.
+* Puede solicitar cambios en la capacidad confirmada a través de la interfaz de BlueXP o a través de Keystone Success Manager (KSM). Para obtener información acerca de cómo solicitar cambios, consulte link:../concepts/gssc.html["Centro de soporte de servicios globales de NetApp"].
+
+
+
+
+== La capacidad consumida
+
+La capacidad consumida hace referencia a la capacidad (en TIB de almacenamiento) que se está consumiendo actualmente en el servicio. El servicio Keystone considera la suma de los tamaños lógicos utilizados (no la capacidad física utilizada) de todos los volúmenes en un nivel de servicio concreto para calcular la capacidad consumida para ese nivel de servicio.
+
+
+
+== Capacidad de ráfaga
+
+Todo consumo que supere la capacidad comprometida de un nivel de servicio es la capacidad de ráfaga.
+
+
+NOTE: Nota:
+
+* El servicio Keystone le permite usar capacidad adicional sobre la capacidad comprometida para un nivel de servicio. Esta es la capacidad de ráfaga.
+* La capacidad de ráfaga se puede consumir sobre una base flexible y se cobra diariamente por la media consumida.
+* La capacidad de ráfaga se acuerda en el acuerdo de Keystone. Normalmente se configura hasta un 20% por encima de la capacidad comprometida y se carga a la misma tasa que la capacidad comprometida.
+
+
+
+
+== Capacidad facturada
+
+Factura mensual = (capacidad comprometida [TIB] * tasa comprometida [$/TIB]) + (capacidad de ráfaga aprovisionada media diaria [TIB] * tasa de ráfaga [$/TIB]). La factura mensual contiene un cargo mínimo basado en la capacidad comprometida.
+
+La factura mensual varía más allá del cargo mínimo en función del consumo medio de capacidad de ráfaga diaria.

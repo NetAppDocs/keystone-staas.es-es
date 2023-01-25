@@ -1,0 +1,49 @@
+---
+sidebar: sidebar 
+permalink: concepts/opsramp.html 
+keywords: OpsRamp, monitoring application 
+summary: OpsRamp como aplicación de supervisión 
+---
+= OpsRamp como aplicación de supervisión
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+OpsRamp es una aplicación basada en SaaS que Keystone utiliza para descubrir, supervisar y gestionar continuamente los activos. OpsRamp permite al equipo de supervisión de NetApp proporcionar de forma remota servicios de supervisión y gestión remota a los clientes que implementan Keystone.
+
+Esta herramienta cuenta con potentes y ricas funciones para descubrir activos como aplicaciones, servidores, dispositivos de red, contenedores y otros recursos que se suelen utilizar en un entorno DE TI. Este servicio de gestión remota es fácil de poner en marcha en diferentes ubicaciones, recopila datos con rapidez y se observa fácilmente en una consola centralizada. Para obtener más información sobre el programa OpsRamp, por favor visite https://docs.opsramp.com/[].
+
+image:opsramp-1.png[""]
+
+En la arquitectura OpsRamp, hay dos componentes distintos de una aplicación SaaS centralizada como se muestra esta imagen. En el centro de supervisión, puede haber la puerta de enlace local OpsRamp que recopila los datos de los activos o el agente OpsRamp en los recursos que se van a supervisar, o una combinación de ambos, la pasarela y el agente local.
+
+El portal cloud OpsRamp es una aplicación basada en SaaS que recopila los metadatos del agente o la puerta de enlace local instalada en la ubicación del cliente, los procesa y lo muestra en su consola con observaciones. El equipo de supervisión de Keystone supervisa periódicamente esta consola para obtener información.
+
+La herramienta centralizada OpsRamp y la puerta de enlace local OpsRamp trabajan conjuntamente para supervisar y gestionar los activos. La herramienta centralizada emite los comandos y la puerta de enlace local actúa sobre ellos, recopila los datos y los envía de nuevo al portal centralizado.
+
+La puerta de enlace local de OpsRamp instalada en el centro del cliente proporciona varias ventajas, tales como:
+
+* Eliminación de la necesidad de instalar el agente OpsRamp en todos los activos.
+* Los activos solo pueden apuntar al gateway local, que puede agregar y enviar alertas al portal centralizado.
+* Los clientes pueden restringir y supervisar el tráfico entrante y saliente en la puerta de enlace local en lugar de permitir que el tráfico del agente OpsRamp se despliegue en diferentes dispositivos.
+
+
+
+
+== Seguridad OpsRamp
+
+OpsRamp cumple con estándares como SOC 2 tipo II y se encuentra en proveedores de centros de datos de nivel 1 que cumplen con los estándares ISO 27001 y SOC 1 tipo I para seguridad, disponibilidad y confidencialidad.
+
+Además, OpsRamp proporciona Keystone las siguientes funciones de seguridad:
+
+* OpsRamp mantiene registros de la actividad del usuario y Keystone puede generar informes ad hoc o programados sobre la actividad del usuario.
+* Toda la comunicación desde la puerta de enlace OpsRamp al portal cloud OpsRamp está cifrada en TLS.
+* Los datos en reposo y los datos en tránsito están cifrados mediante TLS.
+* OpsRamp proporciona opciones de autenticación de dos factores para Keystone.
+* OpsRamp implementa controles de acceso basados en roles, lo cual permite a Keystone crear varias funciones y asignar los privilegios adecuados a los usuarios.
+
