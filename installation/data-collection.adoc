@@ -1,0 +1,315 @@
+---
+sidebar: sidebar 
+permalink: installation/data-collection.html 
+keywords: type of data collected by Keystone collector 
+summary: Recopilación de datos de facturación por Keystone Collector para ONTAP y StorageGRID 
+---
+= Tipos de datos de usuario que Keystone recopila
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Keystone recopila información de configuración, estado y uso para sus suscripciones a Keystone ONTAP y Keystone StorageGRID. También puede recopilar datos de rendimiento solo para ONTAP si la opción está habilitada en Keystone Collector.
+
+
+
+== Recogida de datos de ONTAP
+
+.Datos de uso recopilados para ONTAP
+[%collapsible]
+====
+La siguiente lista es un ejemplo representativo de los datos de consumo de capacidad recogidos para ONTAP:
+
+* De clúster
++
+** ClusterUUID
+** Nombre del clúster
+** SerialNumber
+** Ubicación (según la entrada de valor en el clúster de ONTAP)
+** Contacto
+** Versión
+
+
+* Nodos
++
+** SerialNumber
+** Nombre del nodo
+
+
+* Volúmenes
++
+** Nombre del agregado
+** Nombre del volumen
+** VolumeInstanceUUID
+** Marca IsCloneVolume
+** Bandera IsFlexGroupConstituyente
+** Indicador IsSpaceEnforcedLogical
+** Indicador IsSpaceReportingLogical
+** LogicalSpaceUsedByAfs
+** PercentSnapshotSpace
+** PerformanceTierInactiveUserData
+** PerformanceTierInactiveUserDataPercent
+** QoSAdaptivePolicyGroup Name
+** Nombre de QoSPolicyGroup
+** Tamaño
+** Utilizado
+** Física
+** SizeUsedBySnapshots
+** Tipo
+** VolumeStyleExtended
+** Nombre del Vserver
+** Indicador IsVsRoot
+
+
+* Vserver
++
+** Nombre del servidor
+** VserverUUID
+** Subtipo
+
+
+* Agregados de almacenamiento
++
+** Tipo de almacenamiento
+** Nombre del agregado
+** UUID de agregado
+
+
+* Almacenes de objetos agregados
++
+** ObjectStoreName
+** ObjectStoreUUID
+** ProviderType
+** Nombre del agregado
+
+
+* Clonar volúmenes
++
+** FlexClone
+** Tamaño
+** Utilizado
+** Vserver
+** Tipo
+** Volumen de parteVolume
+** ParentVServer
+** IsConstituyente
+** SplitEstimate
+** Estado
+** FlexClone UdedPercent
+
+
+* LUN de almacenamiento
++
+** UUID DE LUN
+** Nombre de LUN
+** Tamaño
+** Utilizado
+** Bandera IsReserved
+** Indicador IsRequested
+** Nombre de la unidad de LogialUnit
+** QoSPolicyUUID
+** QoSPolicyName
+** UUID de volumen
+** Nombre de volumen
+** SVMUUID
+** Nombre de SVM
+
+
+* Volúmenes de almacenamiento
++
+** VolumeInstanceUUID
+** Nombre de volumen
+** Nombre de SVMName
+** SVMUUID
+** QoSPolicyUUID
+** QoSPolicyName
+** CapacidadTierFootprint
+** PerformanceTierFootprint
+** TotalFootprint
+** TieringPolicy
+** Bandera isProtected
+** Indicador IsDestination
+** Utilizado
+** Física
+** CloneParentUUID
+** LogicalSpaceUsedByAfs
+
+
+* Grupos de políticas de calidad de servicio
++
+** PolicyGroup
+** QoSPolicyUUID
+** MaxThroughput
+** MinThroughput
+** MaxThroughputIOPS
+** MaxThroughputMBps
+** MinThroughputIOPS
+** MinThroughputMBps
+** Indicador IsShared
+
+
+* Grupos de políticas de calidad de servicio adaptativa ONTAP
++
+** QoSPolicyName
+** QoSPolicyUUID
+** Pico de IOPS
+** Posición de la ALIVIOPSAllocation
+** AbsoluteMinIOPS
+** Número de IOP genérico
+** ExectedIOPSAllocation
+** Tamaño del bloque
+
+
+* Huellas
++
+** Vserver
+** Volumen
+** TotalFootprint
+** VolumeBlocksFootprintBin0
+** VolumeBlocksFootprintBin1
+
+
+* Clústeres MetroCluster
++
+** ClusterUUID
+** Nombre del clúster
+** RemoteClusterUUID
+** RemoteCluserName
+** LocalConfigurationState
+** RemoteConfigurationState
+** Modo
+
+
+* Collector Métricas de Observabilidad
++
+** Hora de recogida
+** Se consulta el extremo de la API de Active IQ Unified Manager
+** Tiempo de respuesta
+** Número de registros
+** AIQUMInstance IP
+** ID ColleectorInstance
+
+
+
+
+====
+.Datos de rendimiento recogidos para ONTAP
+[%collapsible]
+====
+La siguiente lista es un ejemplo representativo de los datos de rendimiento recogidos para ONTAP:
+
+* Nombre del clúster
+* UUID de clúster
+* ID de objeto
+* Nombre de volumen
+* UUID de instancia de volumen
+* Vserver
+* VserverUUID
+* Serie de nodos
+* Versión de ONTAP
+* Versión AIUM
+* Agregado
+* AgregarUUID
+* ResourceKey
+* Fecha/hora
+* IOPSPerTb
+* Latencia
+* Latencia de lectura
+* WriteMBps
+* QoSMinThroughput latencia
+* QoSNBladeLatency
+* UsedHeadRoom
+* CacheMissiRatio
+* Latencia excepcional
+* QoSAggregateLatency
+* IOPS
+* QoSNetworkLetency
+* AvailableOPS
+* Writelatencia
+* QoSCloudLatency
+* QoSClusterInterconnectLatency
+* OtherMBps
+* QoSCopLatency
+* QoSDBladeLatency
+* Utilización
+* ReadIOPS
+* Mbps
+* OtherIOPS
+* QoSPolicyGroupLatency
+* ReadMBps
+* QoSSyncSnapmirrorLatency
+* WriteIOPS
+
+
+====
+.Lista de elementos eliminados al limitar el acceso a datos privados
+[%collapsible]
+====
+Cuando la opción *Eliminar datos privados* está activada en Keystone Collector, se elimina la siguiente información de uso para ONTAP. Esta opción está habilitada de forma predeterminada.
+
+* Nombre del clúster
+* Ubicación del clúster
+* Contacto del clúster
+* Nombre del nodo
+* Nombre del agregado
+* Nombre del volumen
+* QoSAdaptivePolicyGroup Name
+* Nombre de QoSPolicyGroup
+* Nombre del Vserver
+* Nombre de la LUN de almacenamiento
+* Nombre del agregado
+* Nombre de la unidad de LogialUnit
+* Nombre de SVM
+* AIQUMInstance IP
+* FlexClone
+* Nombre de clúster remoto
+
+
+====
+
+
+== Recogida de datos de StorageGRID
+
+.Datos de uso recopilados para StorageGRID
+[%collapsible]
+====
+La siguiente lista es un ejemplo representativo de `Logical Data` Recopilado para StorageGRID:
+
+* ID de StorageGRID
+* ID de cuenta
+* Nombre de cuenta
+* Bytes de cuota de cuenta
+* Nombre del bloque
+* Recuento de objetos de bloque
+* Bytes de datos de bloque
+
+
+La siguiente lista es un ejemplo representativo de `Physical Data` Recopilado para StorageGRID:
+
+* ID de StorageGRID
+* ID de nodo
+* ID del sitio
+* Nombre del sitio
+* Instancia
+* Bytes de utilización del almacenamiento StorageGRID
+* Bytes de metadatos de utilización del almacenamiento StorageGRID
+
+
+====
+.Lista de elementos eliminados al limitar el acceso a datos privados
+[%collapsible]
+====
+Cuando la opción *Eliminar datos privados* está activada en Keystone Collector, se elimina la siguiente información de uso para StorageGRID. Esta opción está habilitada de forma predeterminada.
+
+* Nombre de cuenta
+* BucketName
+* Nombre del sitio
+* Instance/NodeName
+
+
+====

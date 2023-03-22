@@ -45,9 +45,9 @@ En un servicio de Keystone operado por el cliente, se instalan la infraestructur
 Además del equipo de almacenamiento, se aprovisionan dos herramientas de supervisión para supervisar el almacenamiento y el consumo.
 
 * Puerta de enlace local OpsRamp: OpsRamp es una aplicación basada en la nube utilizada para supervisar la red. Cuenta con integraciones incorporadas con plataformas de almacenamiento de NetApp para recopilar datos del entorno y supervisar la red. Este servicio se habilita con la ayuda de usar una puerta de enlace local instalada en su sitio que se comunica con el portal de la nube. Para obtener información acerca de
-* Keystone Data Collector: Keystone Collector ofrece servicios de facturación a los clientes de Keystone. Esta aplicación se incluye con Active IQ Unified Manager. Recopila periódicamente datos de controladoras ONTAP y StorageGRID cada cinco minutos. Los datos se procesan y los metadatos se envían al lago de datos de Active IQ centralizado a través del mecanismo AutoSupport, que se utiliza para generar los datos de facturación. El lago de datos de Active IQ procesa los datos para la facturación y los envía a Zuora para su facturación. El portal de clientes de Digital Advisor le permite iniciar sesión y ver sus detalles de consumo y suscripción a Keystone.
+* Keystone Data Collector: Keystone Collector ofrece servicios de facturación a los clientes de Keystone. Esta aplicación se incluye con Active IQ Unified Manager. Recopila periódicamente datos de controladoras ONTAP y StorageGRID cada cinco minutos. Los datos se procesan y los metadatos se envían al lago de datos de Active IQ centralizado a través del mecanismo AutoSupport, que se utiliza para generar los datos de facturación. El lago de datos de Active IQ procesa los datos para la facturación y los envía a Zuora para su facturación. El portal para clientes del asesor digital (asesor digital) de Active IQ le permite iniciar sesión y ver los detalles de su suscripción y consumo para su suscripción a Keystone.
 
 
 image:mgmt-stack.png[""]
 
-Para obtener más información, consulte link:../integrations/keystone-aiq.html["Keystone y asesor digital"].
+Para obtener más información sobre los informes de Keystone en la consola de Digital Advisor, consulte link:../integrations/keystone-aiq.html["Keystone y asesor digital"].

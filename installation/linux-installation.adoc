@@ -25,7 +25,7 @@ Siga estos pasos para instalar el software en su servidor Linux:
 `# rpm -qa gpg-pubkey --qf '%_<Description>_'|gpg --show-keys --fingerprint`La huella digital correcta tiene este aspecto:
 `90B3 83AF E07B 658A 6058  5B4E 76C2 45E4 33B6 C17D`
 . Descargue el `keystonerepo.rpm` archivo:
-`# wget https://keystone.netapp.com/repo/keystonerepo.rpm`
+`curl -O https://keystone.netapp.com/repo/keystonerepo.rpm`
 . Verifique la autenticidad del archivo:
 `rpm --checksig -v keystonerepo.rpm`Una firma para un archivo auténtico tiene este aspecto:
 `Header V4 RSA/SHA512 Signature, key ID 33b6c17d: OK`
@@ -34,3 +34,6 @@ Siga estos pasos para instalar el software en su servidor Linux:
 . Cuando se instale Keystone repo, instale el paquete Keystone-collector a través del gestor de paquetes YUM:
 `# yum install keystone-collector`
 
+
+
+NOTE: Al completar la instalación, puede usar la utilidad Keystone Collector Management Terminal User Interface (TUI) para realizar las actividades de configuración y supervisión. Puede usar varios controles del teclado, como las teclas Entrar y flecha, para seleccionar las opciones y navegar por esta TUI. Consulte link:../installation/configuration.html["Configure Keystone Collector"] y.. link:../installation/monitor-health.html["Supervise el estado del sistema"].

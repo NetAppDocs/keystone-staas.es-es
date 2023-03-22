@@ -17,14 +17,14 @@ sidebar:
     entries:
     - title: Qué es Keystone Collector
       url: "/installation/installation-overview.html"
-    - title: Requisitos previos para la instalación
+    - title: Requisitos previos para instalar Keystone Collector
       entries:
       - title: Requisitos previos de VMware vSphere
         url: "/installation/vapp-prereqs.html"
       - title: Requisitos previos de Linux
         url: "/installation/linux-prereqs.html"
-      - title: Configuraciones de Active IQ Unified Manager
-        url: "/installation/aiqum-req.html"
+      - title: Requisitos previos específicos para ONTAP y StorageGRID
+        url: "/installation/addl-req.html"
     - title: Procedimiento de instalación
       entries:
       - title: Puesta en marcha de VMware vSphere
@@ -37,6 +37,8 @@ sidebar:
       url: "/installation/configuration.html"
     - title: Supervise el estado del sistema
       url: "/installation/monitor-health.html"
+    - title: Datos recopilados para facturación
+      url: "/installation/data-collection.html"
   - title: Más información sobre Keystone
     entries:
     - title: Capacidad de almacenamiento admitida
@@ -97,9 +99,9 @@ sidebar:
     entries:
     - title: Keystone y BlueXP
       url: "/integrations/keystone-cm.html"
-    - title: Keystone y asesor digital
+    - title: Keystone y asesor digital Active IQ
       url: "/integrations/keystone-aiq.html"
-    - title: Panel e informes de Digital Advisor Keystone
+    - title: Informes del asesor digital de Active IQ para Keystone
       url: "/integrations/aiq-keystone-details.html"
   - title: Avisos legales
     url: "/legal-notices.html"
@@ -149,7 +151,7 @@ homepage:
       url: "/concepts/gssc.html"
     - title: Keystone y BlueXP
       url: "/integrations/keystone-cm.html"
-    - title: Keystone y asesor digital
+    - title: Keystone y asesor digital Active IQ
       url: "/integrations/keystone-aiq.html"
     - title: Soporte de ciudadanos de EE. UU
       url: "/concepts/uscs.html"
@@ -157,7 +159,7 @@ homepage:
     links:
     - title: Suscripción a Keystone Flex
       url: https://docs.netapp.com/us-en/keystone/
-    - title: Asesor digital
+    - title: Asesor digital de Active IQ
       url: https://docs.netapp.com/us-en/active-iq/index.html
     - title: BlueXP
       url: https://docs.netapp.com/us-en/cloud-manager-family/

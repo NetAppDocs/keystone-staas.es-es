@@ -21,7 +21,7 @@ De forma predeterminada, los servicios de salud de Keystone no aceptan conexione
 [listing]
 ----
 $ curl http://127.0.0.1:7777/uber/health
-{"is_healthy": true, "component_details": {"vicmet": "Running", "minio": "Running", "ks-collector": "Running", "ks-billing": "Running", "chronyd": "Running"}}
+{"is_healthy": true, "component_details": {"vicmet": "Running", "ks-collector": "Running", "ks-billing": "Running", "chronyd": "Running"}}
 ----
 Se devuelven estos códigos de estado:
 
@@ -103,5 +103,5 @@ La TUI de Keystone Collector permite generar paquetes de soporte y luego añadir
 `$ keystone-collector-tui`
 . Vaya a *solución de problemas > generar paquete de soporte*.image:tui-sup-bundl.png[""]
 . Cuando se genera, se muestra la ubicación donde se guarda el paquete. Utilice FTP, SFTP o SCP para conectarse a la ubicación y descargar el archivo de registro a un sistema local.image:tui-sup-bundl-2.png[""]
-. Cuando se descarga el archivo, puede adjuntarlo al ticket de soporte de Keystone ServiceNow. Para obtener más información, consulte link:../concepts/gssc.html["Generando solicitudes de servicio"].
+. Cuando se descarga el archivo, puede adjuntarlo al ticket de soporte de Keystone ServiceNow. Para obtener más información sobre cómo elevar las entradas, consulte link:../concepts/gssc.html["Generando solicitudes de servicio"].
 

@@ -14,9 +14,9 @@ summary: Informes y gráficos de suscripción de Keystone
 
 
 [role="lead"]
-Si se ha suscrito a los servicios STaaS de NetApp Keystone, puede supervisar su uso en el widget *Suscripciones de Keystone* del panel de control del asesor digital.
+Si se ha suscrito a los servicios STaaS de NetApp Keystone, puede supervisar su uso en el widget *Suscripciones de Keystone* del panel de control del asesor digital (asesor digital) de Active IQ.
 
-Para obtener información acerca del widget de asesor digital, consulte https://docs.netapp.com/us-en/active-iq/task_view_keystone_capacity_utilization.html["Vea el uso de la capacidad con la suscripción a NetApp Keystone"^].
+Para obtener información acerca del widget de asesor digital, consulte https://docs.netapp.com/us-en/active-iq/view_keystone_capacity_utilization.html["Vea el uso de la capacidad con la suscripción a NetApp Keystone"^].
 
 Haga clic en *Ver más detalles* en el widget para ver los detalles de uso y las alertas de sus volúmenes en la página *Suscripción Keystone*. Como alternativa, desde el panel de navegación izquierdo, vaya a *GENERAL > Suscripción Keystone*.
 
