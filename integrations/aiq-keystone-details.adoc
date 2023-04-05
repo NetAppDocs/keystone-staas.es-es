@@ -39,12 +39,14 @@ Para cada número de suscripción, puede ver la siguiente información:
 * *ID de seguimiento*: El ID de seguimiento asignado en el momento de la activación de la suscripción. Se trata de un ID exclusivo para cada suscripción y sitio, que se utiliza para realizar el seguimiento de la suscripción.
 * *Período de facturación*: El período de facturación de la suscripción, como mensual, trimestral o anual.
 * *Fecha de inicio*: La fecha de inicio de la suscripción.
-* *Fecha de finalización*: Fecha de finalización de la suscripción. En función de esta fecha, puede ver mensajes de información para las suscripciones que están a punto de expirar o un período de gracia estipulado.
+* *Fecha de finalización*: Fecha de finalización de la suscripción. Según esta fecha, podría ver mensajes de información para las suscripciones que están a punto de expirar.
 * *Estado del uso*: Indica la cantidad de la suscripción que se ha utilizado o que se ha utilizado en exceso. Puede ordenar la lista por esta columna si desea ver los registros de consumo más altos.
 * image:aiq-ks-time-icon.png[""]: Al hacer clic en este icono se abre la ficha *serie de tiempo de suscripción*, donde puede ver los datos de uso históricos de cada nivel de servicio incluido en esta suscripción
 
 
 Para ver más detalles, haga clic en la flecha hacia abajo de un registro de suscripción. En TIB, se muestran detalles, como el nombre del nivel de servicio, el compromiso, el consumo, las capacidades disponibles y el uso de ráfaga actual y acumulado. Se destacan niveles de servicio específicos que registran un consumo superior. También se muestran todas las advertencias y alertas que se generan en los volúmenes.
+
+Para obtener más información sobre sus servicios de almacenamiento de Keystone y los niveles de servicio relevantes, consulte link:../concepts/service-levels.html["Niveles de servicio en Keystone"].
 
 Puede consultar los siguientes indicadores de uso para comprobar el estado de uso de cada suscripción:
 
@@ -62,50 +64,95 @@ La ficha *serie de tiempo de suscripción* muestra los datos históricos de sus 
 .Pasos
 . Haga clic en la ficha *serie de tiempo de suscripción*.
 . Seleccione la suscripción necesaria para la que desea ver los detalles. La primera suscripción en el nombre de su cuenta se selecciona de forma predeterminada.
-. Seleccione el intervalo de tiempo de los iconos del calendario en los campos *desde fecha* y *hasta fecha*. El intervalo de tiempo predeterminado seleccionado es desde la fecha de inicio del período de facturación hasta la fecha actual.
-. Haga clic en *Ver detalles*. Los datos de consumo históricos de la suscripción para cada nivel de servicio se muestran en función del intervalo de tiempo seleccionado. Puede pasar el cursor del ratón por encima de los gráficos para ver el desglose de uso en términos de datos comprometidos, consumidos, en ráfaga y por encima del límite de ráfaga en ese punto.
+. Seleccione el intervalo de tiempo de los iconos del calendario en los campos *desde fecha* y *hasta fecha*. El intervalo de tiempo predeterminado es desde la fecha de inicio del período de facturación hasta la fecha actual.
+. Haga clic en *Ver detalles*. Los datos de consumo históricos de la suscripción para cada nivel de servicio se muestran en función del intervalo de tiempo seleccionado. Puede pasar el cursor del ratón por encima de los gráficos para ver el desglose de uso en términos de datos comprometidos, consumidos, en ráfaga y por encima del límite de ráfaga en ese punto de datos.
 
 
 image:aiq-ks-subtime-2.png[""]
 
 Se muestran los siguientes detalles:
 
-* *Consumo actual*: Este gráfico de indicadores/anillos de la izquierda indica la capacidad consumida para un nivel de servicio para el período de facturación. Este gráfico muestra colores específicos para indicar el siguiente uso:
+* *Detalles de la suscripción*: La fecha de inicio y finalización de la suscripción, y el período de facturación, por ejemplo, trimestral, anual, etc.
+* *Gráficos de uso*: Los gráficos de barras muestran el nombre del nivel de servicio y la capacidad que se consume en relación con ese nivel de servicio para el intervalo de fechas. La fecha y la hora de la colección se muestran en la parte inferior del gráfico.
 +
-** Gris: Ninguno
-** Verde: Dentro del 80% de la capacidad comprometida
-** Ámbar: Cualquier consumo superior al 80% de la capacidad comprometida
 
+NOTE: En función del intervalo de fechas de la consulta, los gráficos de uso se muestran en un intervalo de 30 puntos de datos.
 
-* *Ráfaga actual*: Este gráfico de indicadores/anillos indica la capacidad consumida para un nivel de servicio que está dentro o por encima del límite de ráfaga. Para un nivel de servicio, cualquier uso entre un 100 % y el límite de ráfaga acordado, por ejemplo, un 20 % por encima de la capacidad comprometida, se encuentra dentro del límite de ráfaga. El uso adicional se considera como un uso superior al límite de ráfaga . Este gráfico muestra colores específicos para indicar el siguiente uso:
 +
-** Gris: Ninguno
-** Rojo: Ráfaga
-** Morado: Por encima del límite de ráfaga
+Los siguientes colores de los gráficos de barras indican la capacidad consumida según se define en el nivel de servicio:
 
-
-* *Ráfaga acumulado*: El uso acumulado de la ráfaga o la capacidad utilizada se calcula por mes para el período de facturación actual. El uso de ráfaga acumulado se calcula en función de la capacidad comprometida y consumida para un nivel de servicio: `(consumed - committed)/365.25/12`
-* *Serie temporal*: Los gráficos de barras muestran el uso de la capacidad para el tiempo seleccionado. La fecha y la hora de la colección se muestran en la parte inferior del gráfico. Los gráficos de barras aparecen en estos colores para indicar el uso:
 +
-** Verde: Dentro del 80%
-** Ámbar: 80% - 100%
+** Verde: Dentro del 80%.
+** Ámbar: 80% - 100%.
 ** Rojo: Uso de ráfagas (100% de la capacidad comprometida con el límite de ráfaga acordado)
-** Morado: Por encima del límite de ráfaga o. `Above Limit`
-** Gris: Uso provisional - uso registrado cuando los datos exactos para el período de tiempo no están disponibles y se sustituyen por los datos disponibles en el punto de recopilación de datos anterior
+** Morado: Por encima del límite de ráfaga o. `Above Limit`.
++
+
+NOTE: Al pasar el ratón por encima de un gráfico de barras, puede ver los datos _Provisional usage_. Este es el uso registrado cuando los datos exactos del período de tiempo no están disponibles y se sustituyen por los datos disponibles en el punto de recopilación de datos anterior.
+
+
+
+* *Corriente consumida*: Indicador de la capacidad consumida (en TIB) definido para el nivel de servicio. Este campo utiliza colores específicos para su uso:
++
+** Gris: Ninguno.
+** Verde: Dentro del 80% de la capacidad comprometida.
+** Ámbar: Cualquier consumo superior al 80% de la capacidad comprometida.
+
+
+* *Ráfaga actual*: Indicador de la capacidad consumida dentro o por encima del límite de ráfaga definido. Cualquier uso dentro del límite de ráfaga acordado, por ejemplo, un 20 % por encima de la capacidad comprometida se encuentra dentro del límite de ráfaga. Se considera un uso adicional por encima del límite de ráfaga. Este campo utiliza colores específicos para su uso:
++
+** Gris: Ninguno.
+** Rojo: Ráfaga.
+** Morado: Por encima del límite de ráfaga.
+
+
+* *Ráfaga acumulada*: Indicador para el uso acumulado de la ráfaga o la capacidad consumida calculada por mes para el período de facturación actual. El uso de ráfaga acumulado se calcula en función de la capacidad comprometida y consumida para un nivel de servicio: `(consumed - committed)/365.25/12`.
++
+
+NOTE: Los indicadores *consumo actual*, *ráfaga actual* y *ráfaga acumulada* determinan el consumo con respecto al período de facturación de la suscripción y no se basan en el intervalo de fechas de la consulta.
 
 
 
 
 
+== Ver detalles del sistema
 
-== Ver los detalles del volumen
+En la ficha *Detalles del sistema*, puede ver el consumo y otros detalles de los volúmenes en ONTAP. Para StorageGRID, esta pestaña muestra los nodos y su uso individual en su entorno de almacenamiento de objetos.
 
-Haga clic en la ficha *Detalles del sistema* para ver los detalles de cada volumen de su entorno de almacenamiento gestionado por una suscripción a Keystone.
+.<strong> OLUME </strong>
+[%collapsible]
+====
+Para ONTAP, la pestaña *Detalles del sistema* muestra información, como el uso de la capacidad, el tipo de volumen, el clúster, el agregado y el nivel de servicio de los volúmenes del entorno de almacenamiento gestionado por la suscripción a Keystone.
+
+.Pasos
+. Haga clic en la ficha *Detalles del sistema*.
+. Seleccione el número de suscripción. De forma predeterminada, se selecciona el primer número de suscripción disponible.
++
+Se muestran los detalles del volumen. Puede desplazarse por las columnas y obtener más información al pasar el ratón por los iconos de información situados junto a los encabezados de las columnas. Puede ordenar por las columnas y filtrar las listas para ver información específica. Puede copiar números de serie de nodos individuales haciendo clic en el botón *Copiar series de nodos*.
+
+
 
 image:aiq-ks-sysdtls.png[""]
 
-Puede ordenar por las columnas y filtrar las listas para ver información específica. Puede copiar números de serie de nodos individuales haciendo clic en el botón *Copiar series de nodos*.
+====
+.Nodos <strong> de bajo rendimiento y </strong> de consumo detallados
+[%collapsible]
+====
+Para StorageGRID, esta pestaña muestra el uso físico de los nodos en el entorno de almacenamiento de objetos.
 
+.Pasos
+. Haga clic en la ficha *Detalles del sistema*.
+. Seleccione el número de suscripción. De forma predeterminada, se selecciona el primer número de suscripción disponible. Al seleccionar el número de suscripción, se habilita el enlace de detalles del almacenamiento de objetos.
++
+image:sg-link.png[""]
+
+. Haga clic en el enlace para ver los nombres de los nodos y los detalles de uso físico de cada nodo.
++
+image:sg-link-2.png[""]
+
+
+
+====
 
 
 == Generar informes
@@ -126,7 +173,7 @@ Las alertas de la consola envían mensajes de precaución que le permiten compre
 
 Las alertas pueden ser de dos tipos:
 
-* *Información*: Para problemas, como sus suscripciones que se acercan al final o alcanzan el período de gracia, puede ver alertas de información. Pase el cursor sobre el icono de información para obtener más información sobre el problema.
+* *Información*: Para problemas, como sus suscripciones que están a punto de finalizar, puede ver alertas de información. Pase el cursor sobre el icono de información para obtener más información sobre el problema.
 * *Advertencia*: Los problemas, como el incumplimiento, se muestran como advertencias. Por ejemplo, si hay volúmenes en los clústeres gestionados que no tienen asociadas políticas de QoS (AQoS) adaptativa, puede ver un mensaje de advertencia. Puede hacer clic en el enlace del mensaje de advertencia para ver la lista de los volúmenes no compatibles en la ficha *Detalles del sistema*.
 +
 Para obtener información acerca de las políticas AQoS, consulte link:../concepts/qos.html["Calidad de servicio adaptativa"].
