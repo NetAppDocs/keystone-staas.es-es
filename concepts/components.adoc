@@ -56,23 +56,7 @@ NetApp puede proporcionar las especificaciones de requisitos de refrigeración (
 
 === Máquinas virtuales de almacenamiento
 
-Los equipos virtuales de almacenamiento (equipos virtuales de almacenamiento) se deben poner en marcha con lo siguiente para dar soporte a la supervisión y la medición de las suscripciones de Keystone. Un equipo virtual de almacenamiento es necesario para elcolector de Keystone; otro es obligatorio para la puerta de enlace OpsRamp
-
-* Keystone Collector se utiliza para recopilar métricas de uso:
-+
-** VCPU: 4
-** VRAM: 16 GB
-** VDisk: 200 GB
-
-
-* Puerta de enlace OpsRamp: Utilizada para el monitor en tiempo real + el soporte remoto ONTAP by Keystone GSSC:
-+
-** VCPU: 8
-** VRAM: 16 GB
-** VDisk: 100 GB
-
-
-
+Se requiere una máquina virtual de almacenamiento (VM de almacenamiento) para poner en marcha el recopilador Keystone y la puerta de enlace de la solución AIOPs. Los requisitos previos para instalar Keystone Collector están disponibles aquí: link:..//installation/installation-overview.html["Guía de instalación para Keystone Collector"]. Los otros requisitos se comparten durante la puesta en marcha.
 
 
 
@@ -81,10 +65,10 @@ Los equipos virtuales de almacenamiento (equipos virtuales de almacenamiento) se
 Keystone Collector se puede poner en marcha mediante los siguientes métodos:
 
 * Plantilla OVA de VMware (se requiere VMware vCenter Server 6.7 o posterior)
-* El cliente proporciona un servidor Red Hat Enterprise Linux 7 ó 8 o CentOS 7 Linux y el software Keystone se instala a través de `.rpm` proceso de instalación.
+* El cliente proporciona un servidor Linux Red Hat Enterprise Linux 7, 8 o CentOS 7. El software Keystone se instala mediante `.rpm` proceso de instalación.
 
 
-OpsRamp Gateway se implementa en la siguiente configuración:
+La puerta de enlace de la solución AIOPs se implementa en la siguiente configuración:
 
 * Plantilla OVA de VMware (se requiere VMware vCenter Server 6.7 o posterior)
 * Instalador .iso de inicio para
@@ -100,7 +84,7 @@ OpsRamp Gateway se implementa en la siguiente configuración:
 
 === Redes
 
-El acceso saliente es obligatorio para los siguientes servicios para las operaciones y el mantenimiento de la puerta de enlace Keystone Collector y OpsRamp:
+Se requiere acceso saliente a los siguientes servicios para operaciones y mantenimiento de la puerta de enlace de la solución Keystone Collector y AIOPs:
 
 * support.netapp.com (carga de datos de uso)
 * keystone.netapp.com (actualizaciones de software)
@@ -117,4 +101,4 @@ NetApp proporciona los transceptores necesarios para dispositivos de infraestruc
 
 Se requiere conectividad de red entre la infraestructura de almacenamiento instalada en el centro de datos del cliente o en los servicios ubicados conjuntamente por el cliente y el centro de operaciones de Keystone. El cliente es responsable de proporcionar los equipos informáticos y virtuales, así como los servicios de Internet. El diseño de red debe tener un protocolo seguro y las normativas de firewall serán aprobadas tanto por NetApp como por los clientes.
 
-NetApp debe acceder a los componentes de hardware y software instalados para supervisar y gestionar, y proporcionar servicios como la supervisión y la facturación a los clientes de Keystone. El método más común es establecer una conexión de red privada virtual (VPN) con la red del cliente y acceder a los datos necesarios. Para superar cualquier complejidad operativa que perciban los clientes como consecuencia de la apertura de puertos de firewall a nuevos servicios, las herramientas de supervisión inician una conexión externa. Las aplicaciones cloud de NetApp, como OpsRamp y Zuora, utilizan esta conexión para realizar los respectivos servicios. Este método cumple con los requisitos del cliente de no abrir puertos de firewall, aunque proporciona acceso a los componentes de supervisión que forman parte de este servicio.
+NetApp debe acceder a los componentes de hardware y software instalados para supervisar y gestionar, y proporcionar servicios como la supervisión y la facturación a los clientes de Keystone. El método más común es establecer una conexión de red privada virtual (VPN) con la red del cliente y acceder a los datos necesarios. Para superar cualquier complejidad operativa que perciban los clientes como consecuencia de la apertura de puertos de firewall a nuevos servicios, las herramientas de supervisión inician una conexión externa. Las aplicaciones cloud de NetApp, como la solución AIOPs y Zuora, usan esta conexión para realizar los respectivos servicios. Este método cumple con los requisitos del cliente de no abrir puertos de firewall, aunque proporciona acceso a los componentes de supervisión que forman parte de este servicio.

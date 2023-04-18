@@ -99,7 +99,7 @@ A continuación se muestra un ejemplo de un trabajo correcto para la recogida de
 La TUI de Keystone Collector permite generar paquetes de soporte y luego añadir solicitudes de servicio para solucionar problemas de soporte. Siga este procedimiento:
 
 .Pasos
-. Abra la utilidad de gestión TUI de Keystone Collector:
+. Inicie la utilidad TUI de gestión de Keystone Collector:
 `$ keystone-collector-tui`
 . Vaya a *solución de problemas > generar paquete de soporte*.image:tui-sup-bundl.png[""]
 . Cuando se genera, se muestra la ubicación donde se guarda el paquete. Utilice FTP, SFTP o SCP para conectarse a la ubicación y descargar el archivo de registro a un sistema local.image:tui-sup-bundl-2.png[""]

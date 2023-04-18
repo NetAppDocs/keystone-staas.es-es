@@ -20,7 +20,7 @@ Debe realizar algunas tareas de configuración para permitir a Keystone Collecto
 NOTE: Keystone Collector ofrece la utilidad Keystone Collector Management Terminal User Interface (TUI) para realizar las actividades de configuración y supervisión. Puede usar varios controles del teclado, como las teclas Entrar y flecha, para seleccionar las opciones y navegar por esta TUI.
 
 .Pasos
-. Abra la utilidad de gestión TUI de Keystone Collector:
+. Inicie la utilidad TUI de gestión de Keystone Collector:
 `$ keystone-collector-tui`
 . Vaya a **Configurar > KS-Collector** para abrir la pantalla de configuración de Keystone Collector y ver las opciones de actualización disponibles.
 . Actualice las opciones necesarias.
@@ -29,7 +29,7 @@ NOTE: Keystone Collector ofrece la utilidad Keystone Collector Management Termin
 [%collapsible]
 ====
 ** *Recopilar uso de ONTAP*: Esta opción permite la recopilación de datos de uso para ONTAP. Añada los detalles del servidor y la cuenta de servicio de Active IQ Unified Manager (Unified Manager).
-** *Recopilar datos de rendimiento de ONTAP*: Esta opción permite la recopilación de datos de rendimiento para ONTAP. Esta opción está desactivada de forma predeterminada. Habilite esta opción si es necesario supervisar el rendimiento en su entorno para fines de acuerdo de nivel de servicio. Proporcione los detalles de la cuenta de usuario de la base de datos de Unified Manager. Para obtener información sobre cómo crear usuarios de bases de datos, consulte link:../addl-req.html["Cree usuarios de Unified Manager"].
+** *Recopilar datos de rendimiento de ONTAP*: Esta opción permite la recopilación de datos de rendimiento para ONTAP. Esta opción está desactivada de forma predeterminada. Habilite esta opción si es necesario supervisar el rendimiento en su entorno para fines de acuerdo de nivel de servicio. Proporcione los detalles de la cuenta de usuario de la base de datos de Unified Manager. Para obtener información sobre cómo crear usuarios de bases de datos, consulte link:../installation/addl-req.html["Cree usuarios de Unified Manager"].
 ** *Eliminar datos privados*: Esta opción elimina datos privados específicos de los clientes y está activada de forma predeterminada. Para obtener información acerca de los datos que se excluyen de las métricas si esta opción está activada, consulte link:../installation/configuration.html#limit-collection-of-private-data["Limitar la recopilación de datos privados"].
 
 
@@ -39,7 +39,7 @@ NOTE: Keystone Collector ofrece la utilidad Keystone Collector Management Termin
 [%collapsible]
 ====
 ** *Recopilar uso de StorageGRID*: Esta opción permite recopilar los detalles de uso de los nodos. Añada la dirección del nodo StorageGRID y los detalles de usuario.
-** *Eliminar datos privados*: Esta opción elimina datos privados específicos de los clientes y está activada de forma predeterminada. Para obtener información acerca de los datos que se excluyen de las métricas si esta opción está activada, consulte link:../configuration.html#limit-collection-of-private-data["Limitar la recopilación de datos privados"].
+** *Eliminar datos privados*: Esta opción elimina datos privados específicos de los clientes y está activada de forma predeterminada. Para obtener información acerca de los datos que se excluyen de las métricas si esta opción está activada, consulte link:../installation/configuration.html#limit-collection-of-private-data["Limitar la recopilación de datos privados"].
 
 
 ====
@@ -56,7 +56,7 @@ NOTE: Keystone Collector ofrece la utilidad Keystone Collector Management Termin
 El software Collector admite el uso de un proxy HTTP para comunicarse con Internet. Esta opción se puede configurar en la TUI.
 
 .Pasos
-. Abra la utilidad de gestión TUI de Keystone Collector si ya está cerrada:
+. Reinicie la utilidad TUI de gestión del recopilador de Keystone si ya se ha cerrado:
 `$ keystone-collector-tui`
 . Active el campo **HTTP Proxy** y agregue los detalles del servidor proxy HTTP, el puerto y las credenciales, si se requiere autenticación.
 . Haga clic en **Guardar**.image:tui-3.png[""]

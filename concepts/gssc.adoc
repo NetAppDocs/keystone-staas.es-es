@@ -30,11 +30,11 @@ El equipo del centro de soporte y servicios globales (GSSC) de NetApp presta sop
 
 * Contactos de servicio globales:https://www.netapp.com/us/contact-us/support.aspx[]
 * Si tiene un caso o una incidencia abiertos que debe escalarse, envíe un correo electrónico a una de las siguientes direcciones: keystone.services@netapp.com keystone.escalations@netapp.com
-* NetApp utiliza OpsRamp, una solución de puerta de enlace remota basada en cloud para supervisar y conectar de forma proactiva el entorno NetApp Keystone para la solución de problemas. Para obtener más información sobre OpsRamp, consulte https://www.opsramp.com/#[].
+* NetApp utiliza la solución AIOPs para supervisar y conectarse de manera proactiva al entorno NetApp Keystone para solucionar problemas.
 
 
 
-NOTE: En un modelo operado por un partner, las solicitudes de servicio del inquilino y el subinquilino se asignan al servicio técnico del partner. La herramienta de soporte del partner podría tener integración con las aplicaciones OpsRamp y GSSC. Solo se escalan a NetApp los problemas de nivel 3 a través de GSSC.
+NOTE: En un modelo operado por un partner, las solicitudes de servicio del inquilino y el subinquilino se asignan al servicio técnico del partner. La herramienta de soporte del partner puede tener integración con la solución AIOPs y las aplicaciones GSSC. Solo se escalan a NetApp los problemas de nivel 3 a través de GSSC.
 
 Para obtener más información sobre los servicios de Keystone, consulte:
 

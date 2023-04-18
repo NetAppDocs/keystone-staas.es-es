@@ -37,6 +37,8 @@ sidebar:
       url: "/installation/configuration.html"
     - title: Supervise el estado del sistema
       url: "/installation/monitor-health.html"
+    - title: Actualiza Keystone Collector
+      url: "/installation/upgrade.html"
     - title: Datos recopilados para facturación
       url: "/installation/data-collection.html"
   - title: Más información sobre Keystone
@@ -89,8 +91,6 @@ sidebar:
       url: "/concepts/infra.html"
     - title: Componentes
       url: "/concepts/components.html"
-    - title: OpsRamp como aplicación de supervisión
-      url: "/concepts/opsramp.html"
     - title: Flujo de datos
       url: "/concepts/data-flow.html"
   - title: Centro de soporte de servicios globales de NetApp
