@@ -75,10 +75,6 @@ La ficha *serie de tiempo de suscripción* muestra los datos históricos de sus 
 . Haga clic en la ficha *serie de tiempo de suscripción*.
 . Seleccione la suscripción necesaria para la que desea ver los detalles. La primera suscripción en el nombre de su cuenta se selecciona de forma predeterminada.
 . Seleccione el intervalo de tiempo de los iconos del calendario en los campos *desde fecha* y *hasta fecha*. El intervalo de tiempo predeterminado es desde la fecha de inicio del período de facturación hasta la fecha actual.
-+
-
-NOTE: Para obtener un rendimiento óptimo y una experiencia de usuario, limite el rango de fechas de la consulta a tres meses o menos.
-
 . Haga clic en *Ver detalles*. Los datos de consumo históricos de la suscripción para cada nivel de servicio se muestran en función del intervalo de tiempo seleccionado. Puede pasar el cursor del ratón por encima de los gráficos para ver el desglose de uso en términos de datos comprometidos, consumidos, en ráfaga y por encima del límite de ráfaga en ese punto.
 
 
