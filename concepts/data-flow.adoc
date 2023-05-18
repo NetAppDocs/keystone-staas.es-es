@@ -22,7 +22,7 @@ Los datos de los sistemas STaaS de Keystone fluyen a través de Keystone Collect
 
 Keystone Collector inicia llamadas API DE REST a las controladoras de almacenamiento y obtiene detalles de uso de las controladoras periódicamente, como se indica en este diagrama de flujo:
 
-image:collector-data-flow.png[""]
+image:collector-data-flow.png["muestra el flujo de datos dentro de los componentes del recopilador"]
 
 .Leyenda
 . Collector de NetApp inicia una sesión HTTPS en el portal de cloud de Active-IQ.
@@ -37,7 +37,7 @@ image:collector-data-flow.png[""]
 
 La supervisión continua del estado de la infraestructura de almacenamiento es una de las funciones más importantes del servicio Keystone. Para la supervisión y la generación de informes, Keystone usa la solución AIOPs, que necesita acceso remoto a la red del cliente. La siguiente imagen describe cómo se protege el acceso remoto a la ubicación del cliente mediante la herramienta de solución AIOPs.
 
-image:monitoring-flow.png[""]
+image:monitoring-flow.png["flujo de datos"]
 
 .Leyenda
 . La puerta de enlace de la solución AIOPs inicia una sesión TLS en el portal de la nube de ITS.

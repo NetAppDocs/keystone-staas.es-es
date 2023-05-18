@@ -19,7 +19,7 @@ El panel de asesor digital (asesor digital) de Active IQ le proporciona la capac
 
 NOTE: La información disponible aquí es aplicable tanto a ONTAP como a StorageGRID. Se han señalado excepciones en las secciones correspondientes.
 
-Para obtener información sobre el widget Keystone Digital Advisor, consulte https://docs.netapp.com/us-en/active-iq/view_keystone_capacity_utilization.html["Vea el uso de la capacidad con la suscripción a NetApp Keystone"^].
+Para obtener información sobre el widget Keystone Digital Advisor, consulte https://["Vea el uso de la capacidad con la suscripción a NetApp Keystone"^].
 
 Para ver los detalles, realice los siguientes pasos:
 
@@ -38,7 +38,7 @@ NOTE: El consumo de capacidad en las suscripciones de Keystone se muestra en los
 
 Puede ver todas las suscripciones para un nombre de cuenta en la pestaña *Detalles de suscripción*.
 
-image:aiq-ks-dtls.png[""]
+image:aiq-ks-dtls.png["pestaña detalles de suscripción"]
 
 Para cada número de suscripción, puede ver la siguiente información:
 
@@ -48,23 +48,26 @@ Para cada número de suscripción, puede ver la siguiente información:
 * *Fecha de inicio*: La fecha de inicio de la suscripción.
 * *Fecha de finalización*: Fecha de finalización de la suscripción. Según esta fecha, podría ver mensajes de información para las suscripciones que están a punto de expirar.
 * *Estado del uso*: Indica la cantidad de la suscripción que se ha utilizado o que se ha utilizado en exceso. Puede ordenar la lista por esta columna si desea ver los registros de consumo más altos.
-* image:aiq-ks-time-icon.png[""]: Al hacer clic en este icono se abre la ficha *serie de tiempo de suscripción*, donde puede ver los datos de uso históricos de cada nivel de servicio incluido en esta suscripción
+* image:aiq-ks-time-icon.png["."]: Al hacer clic en este icono se abre la ficha *serie de tiempo de suscripción*, donde puede ver los datos de uso históricos de cada nivel de servicio incluido en esta suscripción
 
 
-Para ver más detalles, haga clic en la flecha hacia abajo de un registro de suscripción. En TIB, se muestran detalles, como el nombre del nivel de servicio, el compromiso, el consumo, las capacidades disponibles y el uso de ráfaga actual y acumulado. Se destacan niveles de servicio específicos que registran un consumo superior. También se muestran todas las advertencias y alertas que se generan en los volúmenes.
+Para ver más detalles, haga clic en la flecha hacia abajo de un registro de suscripción. En TIB, se muestran detalles, como el nombre del nivel de servicio, el compromiso, el consumo, las capacidades disponibles y el uso de ráfaga actual y acumulado.
+
+
+NOTE: Se destacan niveles de servicio específicos que registran un consumo superior. También se pueden ver las advertencias y alertas generadas para los volúmenes.
 
 Para obtener más información sobre sus servicios de almacenamiento de Keystone y los niveles de servicio relevantes, consulte link:../concepts/service-levels.html["Niveles de servicio en Keystone"].
 
 Puede consultar los siguientes indicadores de uso para comprobar el estado de uso de cada suscripción:
 
-image:usage-indicator.png[""]
+image:usage-indicator.png["."]
 
 .Índice
-image:icon-grey.png[""]: No se ha registrado ningún uso de la capacidad con respecto a la capacidad comprometida del nivel de servicioimage:icon-green.png[""]: El consumo es normal, dentro del 80% de la capacidad comprometidaimage:icon-amber.png[""]: Consumo máximo, es decir, el uso está a punto de alcanzar el 100% o más de la capacidad comprometida. La columna *consumido* muestra este indicador para cualquier consumo superior al 80% de la capacidad comprometidaimage:icon-red.png[""]: El consumo está dentro del límite de ráfaga. El consumo en ráfaga es el consumo que supera el 100% de capacidad comprometida de un nivel de servicio, y se encuentra dentro del límite de uso acordado en ráfaga, como el 120%image:icon-purple.png[""]: Indica un consumo superior al límite de ráfaga estipulado
+image:icon-grey.png["icono de punto gris"]: No se ha registrado ningún uso de la capacidad con respecto a la capacidad comprometida del nivel de servicioimage:icon-green.png["icono de punto verde"]: El consumo es normal, dentro del 80% de la capacidad comprometidaimage:icon-amber.png["icono de punto ámbar"]: Consumo máximo, es decir, el uso está a punto de alcanzar el 100% o más de la capacidad comprometida. La columna *consumido* muestra este indicador para cualquier consumo superior al 80% de la capacidad comprometidaimage:icon-red.png["icono de punto rojo"]: El consumo está dentro del límite de ráfaga. El consumo en ráfaga es el consumo que supera el 100% de capacidad comprometida de un nivel de servicio, y se encuentra dentro del límite de uso acordado en ráfaga, como el 120%image:icon-purple.png["icono de punto morado"]: Indica un consumo superior al límite de ráfaga estipulado
 
 
 
-== Ver datos históricos de suscripción
+== Ver gráficos de datos de suscripción históricos
 
 La ficha *serie de tiempo de suscripción* muestra los datos históricos de sus suscripciones durante un período específico. Los gráficos verticales muestran los detalles de uso del intervalo de tiempo seleccionado con los indicadores adecuados para que pueda comparar y generar informes.
 
@@ -72,10 +75,14 @@ La ficha *serie de tiempo de suscripción* muestra los datos históricos de sus 
 . Haga clic en la ficha *serie de tiempo de suscripción*.
 . Seleccione la suscripción necesaria para la que desea ver los detalles. La primera suscripción en el nombre de su cuenta se selecciona de forma predeterminada.
 . Seleccione el intervalo de tiempo de los iconos del calendario en los campos *desde fecha* y *hasta fecha*. El intervalo de tiempo predeterminado es desde la fecha de inicio del período de facturación hasta la fecha actual.
-. Haga clic en *Ver detalles*. Los datos de consumo históricos de la suscripción para cada nivel de servicio se muestran en función del intervalo de tiempo seleccionado. Puede pasar el cursor del ratón por encima de los gráficos para ver el desglose de uso en términos de datos comprometidos, consumidos, en ráfaga y por encima del límite de ráfaga en ese punto de datos.
++
+
+NOTE: Para obtener un rendimiento óptimo y una experiencia de usuario, limite el rango de fechas de la consulta a tres meses o menos.
+
+. Haga clic en *Ver detalles*. Los datos de consumo históricos de la suscripción para cada nivel de servicio se muestran en función del intervalo de tiempo seleccionado. Puede pasar el cursor del ratón por encima de los gráficos para ver el desglose de uso en términos de datos comprometidos, consumidos, en ráfaga y por encima del límite de ráfaga en ese punto.
 
 
-image:aiq-ks-subtime-2.png[""]
+image:aiq-ks-subtime-2.png["ficha serie temporal"]
 
 Se muestran los siguientes detalles:
 
@@ -83,7 +90,7 @@ Se muestran los siguientes detalles:
 * *Gráficos de uso*: Los gráficos de barras muestran el nombre del nivel de servicio y la capacidad que se consume en relación con ese nivel de servicio para el intervalo de fechas. La fecha y la hora de la colección se muestran en la parte inferior del gráfico.
 +
 
-NOTE: En función del intervalo de fechas de la consulta, los gráficos de uso se muestran en un intervalo de 30 puntos de datos.
+NOTE: Según el rango de fechas de la consulta, los gráficos de uso se muestran en un rango de 30 puntos de recopilación de datos.
 
 +
 Los siguientes colores de los gráficos de barras indican la capacidad consumida según se define en el nivel de servicio:
@@ -135,11 +142,15 @@ Para ONTAP, la pestaña *Detalles del sistema* muestra información, como el uso
 . Haga clic en la ficha *Detalles del sistema*.
 . Seleccione el número de suscripción. De forma predeterminada, se selecciona el primer número de suscripción disponible.
 +
-Se muestran los detalles del volumen. Puede desplazarse por las columnas y obtener más información al pasar el ratón por los iconos de información situados junto a los encabezados de las columnas. Puede ordenar por las columnas y filtrar las listas para ver información específica. Puede copiar números de serie de nodos individuales haciendo clic en el botón *Copiar series de nodos*.
+Se muestran los detalles del volumen. Puede desplazarse por las columnas y obtener más información al pasar el ratón por los iconos de información situados junto a los encabezados de las columnas. Puede ordenar por las columnas y filtrar las listas para ver información específica.
+
++
+
+NOTE: Puede copiar números de serie de nodos individuales haciendo clic en el botón *Copiar series de nodos*.
 
 
 
-image:aiq-ks-sysdtls.png[""]
+image:aiq-ks-sysdtls.png["pestaña detalles del sistema"]
 
 ====
 .Nodos <strong> de bajo rendimiento y </strong> de consumo detallados
@@ -151,11 +162,11 @@ Para StorageGRID, esta pestaña muestra el uso físico de los nodos en el entorn
 . Haga clic en la ficha *Detalles del sistema*.
 . Seleccione el número de suscripción. De forma predeterminada, se selecciona el primer número de suscripción disponible. Al seleccionar el número de suscripción, se habilita el enlace de detalles del almacenamiento de objetos.
 +
-image:sg-link.png[""]
+image:sg-link.png["Ventana emergente de StorageGRID"]
 
 . Haga clic en el enlace para ver los nombres de los nodos y los detalles de uso físico de cada nodo.
 +
-image:sg-link-2.png[""]
+image:sg-link-2.png["Ventana emergente de StorageGRID"]
 
 
 
@@ -164,13 +175,13 @@ image:sg-link-2.png[""]
 
 == Generar informes
 
-Puede generar y ver informes para los detalles de su suscripción, datos de uso históricos de un intervalo de tiempo y detalles del sistema desde cada una de las pestañas haciendo clic en el botón de descarga: image:download-icon.png[""]
+Puede generar y ver informes para los detalles de su suscripción, datos de uso históricos de un intervalo de tiempo y detalles del sistema desde cada una de las pestañas haciendo clic en el botón de descarga: image:download-icon.png["icono de descarga de informe"]
 
 Los detalles se generan en formato CSV que se puede guardar para usarlo más adelante.
 
 Un informe de ejemplo para la ficha *serie de tiempo de suscripción*, donde se convierten los datos gráficos:
 
-image:report.png[""]
+image:report.png["csv del informe"]
 
 
 
@@ -187,6 +198,6 @@ Para obtener información acerca de las políticas AQoS, consulte link:../concep
 
 
 
-image:alert-aiq.png[""]
+image:alert-aiq.png["alerta"]
 
 Póngase en contacto con el soporte de NetApp si desea obtener más información sobre estos mensajes de precaución y advertencia. Para obtener información acerca de cómo elevar solicitudes de servicio, consulte link:../concepts/gssc.html#generating-service-requests["Generando solicitudes de servicio"].

@@ -22,7 +22,7 @@ En este servicio:
 
 * Equinix proporciona espacio, energía, refrigeración, redes y facturación y el almacenamiento, cada mes.
 * Se ofrece soporte para determinados movimientos de ventas de Keystone.
-* Estos servicios cuentan con soporte en 21 centros de datos de 11 países.
+* Los servicios están soportados en los centros de datos de 11 países.
 
 
 Equinix tiene los centros de datos en las siguientes ubicaciones:
@@ -67,7 +67,7 @@ Londres
 
 
  a| 
-Ángeles perdida
+Los Ángeles
 | EE. UU 
 
 

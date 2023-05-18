@@ -14,10 +14,9 @@ summary: Requisitos previos para instalar el recopilador Keystone en sistemas VM
 
 
 [role="lead"]
-Hay varias configuraciones de infraestructura virtual necesarias para instalar Keystone Collector en su sistema VMware vSphere.
+Se necesitan algunas configuraciones de infraestructura virtual para instalar Keystone Collector en sus sistemas VMware vSphere.
 
-La máquina virtual del servidor Keystone Collector debe tener lo siguiente:
-
+.Requisitos previos para la máquina virtual del servidor de recopilador de Keystone:
 * Sistema operativo: VMware vCenter Server y ESXi 6.5 o posterior
 * Básico: 4 CPU
 * RAM: 12 GB DE RAM
@@ -28,13 +27,13 @@ La máquina virtual del servidor Keystone Collector debe tener lo siguiente:
 
 == Otros requisitos
 
-Permita que se cumplan los siguientes requisitos genéricos:
+Asegúrese de que se cumplen los siguientes requisitos genéricos:
 
 
 
 === Requisitos de red
 
-En la siguiente tabla se describen los requisitos de red de Keystone Collector.
+Los requisitos de red de Keystone Collector se enumeran en la siguiente tabla.
 
 
 NOTE: Keystone Collector requiere conexión a Internet. Puede proporcionar conectividad a Internet mediante enrutamiento directo a través de la puerta de enlace predeterminada (mediante NAT) o mediante el proxy HTTP. Ambas variantes se describen aquí.
@@ -207,30 +206,30 @@ Keystone Collector necesita acceder a los siguientes hosts de Internet:
 
 
  a| 
-https://keystone.netapp.com[]
+https://[]
  a| 
 Informes de uso y actualizaciones del software Keystone Collector
 
 
 
  a| 
-https://support.netapp.com[]
+https://[]
  a| 
 Sede central de NetApp para la información de facturación y entrega de AutoSupport
 
 
 
  a| 
-https://mirror.centos.org[]
-https://mirrorlist.centos.org[]
+https://[]
+https://[]
  a| 
 Actualizaciones del sistema operativo para Keystone Collector (solo puestas en marcha de OVA)
 
 
 
  a| 
-http://repo.mysql.com[]
+https://[]
  a| 
-Descargar y actualizar dependencias de mysql (sólo para implementaciones Linux)
+Descargar y actualizar dependencias de MySQL (solo para implementaciones de Linux)
 
 |===

@@ -16,8 +16,7 @@ summary: Requisitos previos para la instalación del recopilador Keystone en sis
 [role="lead"]
 Hay algunas configuraciones necesarias para instalar Keystone Collector en sistemas Linux.
 
-Se requieren las siguientes configuraciones para el servidor Linux:
-
+.Requisitos previos para el servidor Linux:
 * Sistema operativo: CentOS 7 o Red Hat Enterprise Linux 8.6 o posterior
 * Hora cronyd sincronizada
 * Acceso a los repositorios de software estándar de Linux
@@ -31,8 +30,7 @@ El mismo servidor también debería tener los siguientes paquetes de terceros:
 * python 3 (3.6.8 a 3.9.13)
 
 
-Las siguientes configuraciones son necesarias para la máquina virtual de servidor (SVM) Keystone Collector:
-
+.Requisitos previos para la máquina virtual del servidor de recopilador de Keystone:
 * Básico: 2 CPU
 * RAM: 4 GB DE RAM
 * Espacio en disco: 50 GB vDisk
@@ -42,13 +40,13 @@ Las siguientes configuraciones son necesarias para la máquina virtual de servid
 
 == Otros requisitos
 
-Permita que se cumplan los siguientes requisitos genéricos:
+Asegúrese de que se cumplen los siguientes requisitos genéricos:
 
 
 
 === Requisitos de red
 
-En la siguiente tabla se describen los requisitos de red de Keystone Collector.
+Los requisitos de red de Keystone Collector se enumeran en la siguiente tabla.
 
 
 NOTE: Keystone Collector requiere conexión a Internet. Puede proporcionar conectividad a Internet mediante enrutamiento directo a través de la puerta de enlace predeterminada (mediante NAT) o mediante el proxy HTTP. Ambas variantes se describen aquí.
@@ -221,30 +219,30 @@ Keystone Collector necesita acceder a los siguientes hosts de Internet:
 
 
  a| 
-https://keystone.netapp.com[]
+https://[]
  a| 
 Informes de uso y actualizaciones del software Keystone Collector
 
 
 
  a| 
-https://support.netapp.com[]
+https://[]
  a| 
 Sede central de NetApp para la información de facturación y entrega de AutoSupport
 
 
 
  a| 
-https://mirror.centos.org[]
-https://mirrorlist.centos.org[]
+https://[]
+https://[]
  a| 
 Actualizaciones del sistema operativo para Keystone Collector (solo puestas en marcha de OVA)
 
 
 
  a| 
-http://repo.mysql.com[]
+https://[]
  a| 
-Descargar y actualizar dependencias de mysql (sólo para implementaciones Linux)
+Descargar y actualizar dependencias de MySQL (solo para implementaciones de Linux)
 
 |===

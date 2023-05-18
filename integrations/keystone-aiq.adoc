@@ -18,7 +18,7 @@ Si se ha suscrito a los servicios de NetApp Keystone, puede ver sus informes de 
 
 El asesor digital le permite ver detalles de almacenamiento como servicio (STaaS) e información sobre la infraestructura de NetApp que usted posee. Digital Advisor ofrece un único panel con visibilidad de sus suscripciones, niveles de servicio y uso de la capacidad, además de la posibilidad de crear informes detallados.
 
-Si desea obtener más información sobre el widget Digital Advisor de Keystone, consulte https://docs.netapp.com/us-en/active-iq/view_keystone_capacity_utilization.html["Documentación de Digital Advisor"^].
+Si desea obtener más información sobre el widget Digital Advisor de Keystone, consulte https://["Documentación de Digital Advisor"^].
 
 Para obtener más información sobre la consola y la generación de informes de Keystone, consulte link:../integrations/aiq-keystone-details.html["Panel de suscripción de Keystone e informes"].
 

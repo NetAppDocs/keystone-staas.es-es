@@ -28,7 +28,7 @@ NetApp proporciona servicios operativos de forma remota a clientes de NetApp Key
 
 El equipo del centro de soporte y servicios globales (GSSC) de NetApp presta soporte principalmente a los servicios prestados a los clientes de NetApp Keystone. Puede utilizar la siguiente información para ponerse en contacto con el equipo de soporte.
 
-* Contactos de servicio globales:https://www.netapp.com/us/contact-us/support.aspx[]
+* Contactos de servicio globales:https://[]
 * Si tiene un caso o una incidencia abiertos que debe escalarse, envíe un correo electrónico a una de las siguientes direcciones: keystone.services@netapp.com keystone.escalations@netapp.com
 * NetApp utiliza la solución AIOPs para supervisar y conectarse de manera proactiva al entorno NetApp Keystone para solucionar problemas.
 
@@ -38,8 +38,8 @@ NOTE: En un modelo operado por un partner, las solicitudes de servicio del inqui
 
 Para obtener más información sobre los servicios de Keystone, consulte:
 
-* NetApp Keystonehttps://www.netapp.com/us/solutions/keystone/index.aspx["https://www.netapp.com/us/solutions/keystone/index.aspx"^]
-* Documentación de productos de NetApphttps://docs.netapp.com["https://docs.netapp.com"^]
+* NetApp Keystonehttps://["https://www.netapp.com/us/solutions/keystone/index.aspx"^]
+* Documentación de productos de NetApphttps://["https://docs.netapp.com"^]
 
 
 
@@ -57,7 +57,7 @@ Keystone Success Manager (KSM) trabaja en estrecha colaboración con usted en su
 
 Durante la incorporación, si se le proporcionaron credenciales para acceder y utilizar ServiceNow de NetApp Keystone, puede usar el portal para generar solicitudes de servicio por problemas relacionados con sus suscripciones de Keystone:
 
-https://netappgssc.service-now.com/csm[]
+https://[]
 
 Asegúrese de tener preparados los detalles del sistema, los registros y la información relacionada antes de elevar la solicitud de servicio. Cuando se produce una solicitud de servicio, el equipo de GSSC recibe el ticket de asistencia y accede a la información para la solución de problemas. Puede seguir el ticket de ServiceNow para conocer el estado y la resolución.
 

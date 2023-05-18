@@ -111,7 +111,7 @@ Tenga en cuenta las siguientes cláusulas para los ajustes de capacidad:
 
 La reducción de la capacidad (anual) es aplicable al modelo de pago _Anual por adelantado_ y a las puestas en marcha únicamente en las instalaciones. No está disponible para servicios cloud ni para servicios de cloud híbrido. Proporciona capacidad en las instalaciones, lo que puede reducirse hasta en un 25 % por nivel de servicio por suscripción. Esta reducción se permite una vez al año para ser efectiva al comienzo del próximo período de facturación anual. Los pagos anuales basados en servicios en las instalaciones deben ser >= 200 000 dólares en cualquier momento durante el plazo para poder aprovechar la reducción de capacidad. Como solo se admite para puestas en marcha en las instalaciones, este modelo de facturación no permite reasignar el gasto de servicios en las instalaciones a servicios de cloud. En la imagen siguiente se ilustra un ejemplo de reducción de capacidad anual.
 
-image:capacity-reduction.png[""]
+image:capacity-reduction.png["imagen que muestra la reducción de capacidad"]
 
 
 
@@ -132,4 +132,4 @@ Requisitos y condiciones en un nivel de suscripción:
 
 En la imagen siguiente se ilustra un ejemplo de reasignación trimestral de gastos:
 
-image:spend-alloc.png[""]
+image:spend-alloc.png["cómo se asigna el gasto"]

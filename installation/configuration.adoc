@@ -44,8 +44,8 @@ NOTE: Keystone Collector ofrece la utilidad Keystone Collector Management Termin
 
 ====
 . Active el campo **Iniciar KS-Collector con sistema**.
-. Haga clic en **Guardar**.image:tui-1.png[""]
-. Asegúrese de que Keystone Collector esté en buen estado; para ello, vuelva a la pantalla principal de la TUI y verifique la información **Service Status**. El sistema debería mostrar que los servicios están en un estado **global: Saludable**.image:tui-2.png[""]
+. Haga clic en **Guardar**.image:tui-1.png["pantalla tui"]
+. Asegúrese de que Keystone Collector esté en buen estado; para ello, vuelva a la pantalla principal de la TUI y verifique la información **Service Status**. El sistema debería mostrar que los servicios están en un estado **global: Saludable**.image:tui-2.png["pantalla tui"]
 . Salga de la TUI de gestión de Keystone Collector seleccionando la opción **salir a Shell** en la pantalla de inicio.
 
 
@@ -59,7 +59,7 @@ El software Collector admite el uso de un proxy HTTP para comunicarse con Intern
 . Reinicie la utilidad TUI de gestión del recopilador de Keystone si ya se ha cerrado:
 `$ keystone-collector-tui`
 . Active el campo **HTTP Proxy** y agregue los detalles del servidor proxy HTTP, el puerto y las credenciales, si se requiere autenticación.
-. Haga clic en **Guardar**.image:tui-3.png[""]
+. Haga clic en **Guardar**.image:tui-3.png["pantalla tui"]
 
 
 
@@ -70,6 +70,6 @@ Keystone Collector recopila información limitada de configuración, estado y re
 
 Limitar la recogida de datos específicos del cliente es una opción configurable en la pantalla TUI de Keystone Collector. Esta opción, *Quitar datos privados*, está activada de forma predeterminada.
 
-image:tui-4.png[""]
+image:tui-4.png["pantalla tui"]
 
 Para obtener más información acerca de los elementos eliminados sobre la limitación del acceso a datos privados tanto en ONTAP como en StorageGRID, consulte link:../installation/data-collection.html["Lista de elementos eliminados al limitar el acceso a datos privados"].

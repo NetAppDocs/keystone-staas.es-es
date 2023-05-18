@@ -22,24 +22,19 @@
   <block id="d4bdb971d4927e036a3519461abe909f" category="paragraph">La TUI de Keystone Collector permite generar paquetes de soporte y luego añadir solicitudes de servicio para solucionar problemas de soporte. Siga este procedimiento:</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">Pasos</block>
   <block id="d41d8cd98f00b204e9800998ecf8427e" category="inline-image-macro"></block>
-  <block id="e385fa90b60165281bae11b6e25bff3d" category="list-text">Vaya a *solución de problemas &gt; generar paquete de soporte*.<block ref="dc6483f3f6b233df000a8215567c9e17" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="7521a40f5abb349afff3a7d5461c3d42" category="list-text">Cuando se genera, se muestra la ubicación donde se guarda el paquete. Utilice FTP, SFTP o SCP para conectarse a la ubicación y descargar el archivo de registro a un sistema local.<block ref="0fc318456f84a64b43e2d29821df0fc8" category="inline-image-macro-rx" type="image"></block></block>
   <block id="2d0539451bff9f553647efc300f001de" category="inline-link-macro">Generando solicitudes de servicio</block>
   <block id="4d222ee5a437d16bcebf771263f107fb" category="summary">Requisitos previos para la instalación del recopilador Keystone en sistemas Linux</block>
   <block id="ec42ecd035e3697033aaf0a3f87f6d29" category="doc">Requisitos del sistema Linux</block>
   <block id="236d0b94e19b8de0c91e1d1af4193017" category="paragraph">Hay algunas configuraciones necesarias para instalar Keystone Collector en sistemas Linux.</block>
   <block id="29bc7d9ab3c94b603834dbbd074f9667" category="list-text">Sistema operativo: CentOS 7 o Red Hat Enterprise Linux 8.6 o posterior</block>
   <block id="6c0ecb6db472eae3c84276b7cd5ea34f" category="list-text">Hora cronyd sincronizada</block>
-  <block id="cb4ff22dcb36625e975bdc82452939ca" category="list-text">Acceso a los repositorios de software estándar de Linux</block>
   <block id="8dff4f66fbdc44d35cadc9cf566cab06" category="paragraph">El mismo servidor también debería tener los siguientes paquetes de terceros:</block>
   <block id="8a43eb05c3b74f093be84dcedec105e4" category="list-text">Podman (POD Manager)</block>
   <block id="431e077067178a6dd061f1e2ab20209d" category="list-text">sos</block>
   <block id="e284374909d82a81c5150b7908e00147" category="list-text">crony</block>
   <block id="3c048c264642c17c1d0bbd50b9e23bfe" category="list-text">python 3 (3.6.8 a 3.9.13)</block>
   <block id="8293f6bcd4201a597ff59371ddd65240" category="section-title">Otros requisitos</block>
-  <block id="2deee91a2f1a0e5b01ed8c978ac2fc1c" category="paragraph">Permita que se cumplan los siguientes requisitos genéricos:</block>
   <block id="ddd31bebd407467c40be40bf75366dbd" category="section-title">Requisitos de red</block>
-  <block id="7165a65e5b665d36c7742ce12856ddaa" category="paragraph">En la siguiente tabla se describen los requisitos de red de Keystone Collector.</block>
   <block id="7ff386c96ae027b0684c69f8088eaa2b" category="admonition">Keystone Collector requiere conexión a Internet. Puede proporcionar conectividad a Internet mediante enrutamiento directo a través de la puerta de enlace predeterminada (mediante NAT) o mediante el proxy HTTP. Ambas variantes se describen aquí.</block>
   <block id="f31bbdd1b3e85bccd652680e16935819" category="cell">Origen</block>
   <block id="12007e1d59f4d09c87dbe2c438256244" category="cell">Destino</block>
@@ -97,8 +92,6 @@
   <block id="3acf02fc2ca7ab5b0947f4f2d11f7eb9" category="paragraph"><block ref="bacb3137924340d24117e6e30fe73d79" category="inline-link-rx"></block>
 <block ref="cd14c203c0553c3bd54d195d2a892a76" category="inline-link-rx"></block></block>
   <block id="f6de64b43a27abdda4e460df35405bcc" category="paragraph">Actualizaciones del sistema operativo para Keystone Collector (solo puestas en marcha de OVA)</block>
-  <block id="82ca102fb0647c142d63d0e0d6b37fcf" category="paragraph"><block ref="82ca102fb0647c142d63d0e0d6b37fcf" category="inline-link-rx"></block></block>
-  <block id="9f562f4648359da0bc2600c6c36bc53a" category="paragraph">Descargar y actualizar dependencias de mysql (sólo para implementaciones Linux)</block>
   <block id="8bc634756fc8c4a813837243b83f84e2" category="summary">Instalación del recopilador Keystone en Linux</block>
   <block id="0b5cbdf476372af38175e762b6d9caca" category="doc">Instalación de Keystone Collector en sistemas Linux</block>
   <block id="1fb4cbb275f095e6c7e8f914d27ed735" category="paragraph">El software Keystone Collector se distribuye mediante un repositorio de software de YUM en línea. Debe importar e instalar el archivo en un servidor Linux.</block>
@@ -112,7 +105,6 @@
   <block id="4fbba36ad0c25fac7911d3ecc475d459" category="summary">Qué es Keystone Collector</block>
   <block id="f5dfacf7a95f4945b3caa091e27ec747" category="doc">Descripción general de Keystone Collector</block>
   <block id="082821bd60f72deca861daa75a2c3020" category="paragraph">Este diagrama de arquitectura describe los componentes constituyentes y su conectividad en un entorno Keystone típico.</block>
-  <block id="d2db1c2e2de5a83644c4f38115701005" category="paragraph"><block ref="d2db1c2e2de5a83644c4f38115701005" category="inline-image-macro-rx" type="image"></block></block>
   <block id="b0450b259fdefd76bfc3006ccd12c375" category="summary">Instalación del recopilador Keystone en sistemas de VMware</block>
   <block id="a1c9c4a1979d4de63c959aa0eb8db228" category="doc">Ponga en marcha Keystone Collector en sistemas VMware vSphere</block>
   <block id="5636c5e292ad15c979ccdf35d4ddd63f" category="paragraph">La puesta en marcha de Keystone Collector en sistemas VMware vSphere incluye la descarga de la plantilla OVA, la implementación de la plantilla mediante el asistente *implementar plantilla OVF*, la verificación de la integridad de los certificados y la verificación de la preparación de la VM.</block>
@@ -124,22 +116,17 @@
   <block id="9a87285999e76f01064e09d4163dacb4" category="list-text">En _Paso 1_ del asistente *implementar plantilla OVF*, haga clic en *Seleccionar y plantilla OVF* para seleccionar la descarga<block ref="10e7fe8d7233c9952d9060893052d234" prefix=" " category="inline-code"></block> archivo.</block>
   <block id="eb2f786d0356dd1cd28f20f376d5da2b" category="list-text">En _Paso 2_, especifique el nombre del equipo virtual y seleccione la carpeta del equipo virtual.</block>
   <block id="ef93bcb8e06b73273019082b41d87115" category="list-text">En _Paso 3_, especifique el recurso informático necesario que se va a ejecutar el equipo virtual.</block>
-  <block id="8e05ca1d53f8b5d2cadf235ed8c1d456" category="list-text">El _Paso 4: Revise detalles_, verifique la corrección y autenticidad del OVA. El nombre del producto debe aparecer como _NetApp Keystone Collector_.<block ref="63c113dd0f83c084bfe4502899944c8e" category="inline-image-macro-rx" type="image"></block>El para vCenter valida la integridad del contenido del OVA y que se proporciona un resumen de firma de código válido para los archivos contenidos en el OVA. Sin embargo, no valida la autenticidad del certificado de firma de código. Para verificar la integridad, debe descargar el certificado de resumen de firma completo y verificarlo con el certificado público publicado por Keystone.</block>
   <block id="41466009ab38ed0e1dbd7f2358fa3825" category="list-text">Haga clic en el enlace *Publisher* para descargar el certificado de resumen de firma completo.</block>
   <block id="79aa6ff54605af89e06167728f22a5af" category="list-text">Descargue el certificado público _Keystone Billing_:<block ref="ed42a04573e7bc8bae44a0216f31177e" category="inline-link-rx"></block>.</block>
   <block id="250e025c960accde58851d9cba806aa4" category="list-text">Compruebe la autenticidad del certificado de firma OVA en el certificado público mediante OpenSSL:<block ref="d67907543fcf70f6dfbc7d1139240042" prefix=" " category="inline-code"></block></block>
   <block id="09ecce71a847e29076b9c49beb846dae" category="list-text">En _Paso 5_ del asistente *implementar plantilla OVF*, especifique la ubicación para almacenar la VM.</block>
-  <block id="260ce5f94156b2b43c34b17cb7bd376e" category="list-text">En _Paso 6_, seleccione la red de destino para que la máquina virtual utilice.</block>
   <block id="8cd29cf88dddb3b6287a9351d1b4c067" category="list-text">En _Paso 7 Personalizar plantilla_, especifique la dirección de red inicial y la contraseña para la cuenta de usuario administrador.</block>
   <block id="8bcd74591dc72ada87f255c862348f72" category="admonition">La contraseña de administrador se almacena en formato reversible en vCenter, y se debe usar como credencial de inicio para obtener acceso inicial al sistema VMware vSphere. Durante la configuración inicial de software, es necesario cambiar esta contraseña de administrador. La máscara de subred para la dirección IPv4 debe suministrarse en notación CIDR. Por ejemplo, utilice el valor 24 para una máscara de subred de 255.255.255.0.</block>
   <block id="4ff6b73315fa76bc8171f5548ebb79ef" category="list-text">En _Paso 8 Listo para completar_ del asistente *implementar plantilla OVF*, revise la configuración y compruebe que ha definido correctamente los parámetros para la implementación del OVA.</block>
   <block id="d5599cb082a40129e25bed4de770048b" category="paragraph">Después de implementar el equipo virtual desde la plantilla y encender, abra una sesión SSH en el equipo virtual e inicie sesión con las credenciales de administrador temporal para verificar que el equipo virtual esté listo para la configuración.</block>
   <block id="a2840fbbafc1435ffe70d4b579b45ac6" category="section-title">Configuración inicial del sistema</block>
-  <block id="cceb098128f31cc0140f185f7e51d8e1" category="paragraph">Realice estos pasos en los sistemas VMware vSphere para acceder a una configuración inicial de los servidores Keystone Collector puestos en marcha mediante OVA:</block>
   <block id="a0416d96615fb872a7f19a13f6e245aa" category="admonition">Al completar la puesta en marcha, puede usar la utilidad Keystone Collector Management Terminal User Interface (TUI) para realizar las actividades de configuración y supervisión. Puede usar varios controles del teclado, como las teclas Entrar y flecha, para seleccionar las opciones y navegar por esta TUI.</block>
-  <block id="e760c0b482edaaec1aad9f8b05666529" category="list-text">Abra una sesión SSH al servidor Keystone Collector. Al iniciar sesión, aparece la TUI. También puede iniciar la TUI manualmente ejecutando el<block ref="a38cb024a2fa677a71e9a8148df3dbeb" prefix=" " category="inline-code"></block> Comando de la CLI.</block>
   <block id="25f96d2dea5d65fdf3a40639ee4d2baf" category="list-text">Si es necesario, configure los detalles del proxy en la sección *Configuración &gt; Red* de la TUI.</block>
-  <block id="1f7c946f9a17292415862d8399a2468a" category="list-text">Actualice el sistema/recopilador mediante la opción *Mantenimiento &gt; Actualizar sistema*. Es posible que algunos reflejos que se seleccionan no estén disponibles y que los detalles del sistema se actualicen después de unos pocos reintentos.</block>
   <block id="ea0dbfc6ab6c0af39db6e8b2db365d7f" category="list-text">Configure el nombre de host del sistema, la ubicación y el servidor NTP en la sección *Configuración &gt; sistema*.</block>
   <block id="b6b465ab63a0aae38b40c4f7c52e2ebe" category="list-text">Actualice la contraseña de administrador en la sección *Mantenimiento &gt; Usuario*.</block>
   <block id="6d001a04aa3a4da5de64981a8c657ad6" category="list-text">Marque la configuración inicial del OVA como completada en la sección *Configuración &gt; Avanzado*.</block>
@@ -163,24 +150,18 @@
   <block id="0ec21884a1f8e084bc4142f4b280b4b0" category="paragraph">La configuración del cliente de repositorio de Keystone YUM que se proporciona en<block ref="5bec9e04971ed49ee2b3c939afa7a801" prefix=" " category="inline-code"></block> Utiliza la comprobación de GPG forzada (gpgcheck=1) en todo el software descargado a través de este repositorio. Cualquier RPM descargado a través del repositorio de Keystone que no supera la validación de firmas se impide que se instale. Esta funcionalidad se utiliza en la función de actualización automática programada de Keystone Collector para garantizar que sólo se haya instalado software válido y auténtico en su sitio.</block>
   <block id="fbf8359989576f0800cb2da4a25f4be1" category="summary">Requisitos previos para instalar el recopilador Keystone en sistemas VMware vSphere</block>
   <block id="2f0d22e6971fda1cbc3411961fec8360" category="doc">Requisitos de infraestructura virtual</block>
-  <block id="0a3bb0c5f2895e93f55bda877c73275c" category="paragraph">Hay varias configuraciones de infraestructura virtual necesarias para instalar Keystone Collector en su sistema VMware vSphere.</block>
-  <block id="22170c9c9ee1ed17138fc54bef4fa3c6" category="paragraph">La máquina virtual del servidor Keystone Collector debe tener lo siguiente:</block>
   <block id="080838bb01c5d3b3c97a54a92d98023d" category="list-text">Sistema operativo: VMware vCenter Server y ESXi 6.5 o posterior</block>
   <block id="a6074a8dda65f87c74db6e5b6a444683" category="list-text">Básico: 4 CPU</block>
   <block id="f003ca1f65b35534eb0dad8c4f388f6a" category="list-text">RAM: 12 GB DE RAM</block>
   <block id="12bd6e40a7bc94d413c13b8520e74365" category="list-text">Espacio en disco: 200 GB vDisk</block>
   <block id="b34b056c73270f2209f1e8eeb513e7cc" category="summary">La configuración del recopilador Keystone</block>
   <block id="b44055e981e64c62a3ac7b6994a3f19b" category="doc">Configure Keystone Collector</block>
-  <block id="71c01bb6959115832ba956353d65fa60" category="list-text">Haga clic en **Guardar**.<block ref="c1f5a4895b0ae5d84bc0370f9cb94b49" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="528f96a3d4b17dd41513f2405eff6632" category="list-text">Asegúrese de que Keystone Collector esté en buen estado; para ello, vuelva a la pantalla principal de la TUI y verifique la información **Service Status**. El sistema debería mostrar que los servicios están en un estado **global: Saludable**.<block ref="fef529ed1713f5132fce937b8a727284" category="inline-image-macro-rx" type="image"></block></block>
   <block id="3d3aea279fd0dfc2c6c0a6f4af62eaf7" category="list-text">Salga de la TUI de gestión de Keystone Collector seleccionando la opción **salir a Shell** en la pantalla de inicio.</block>
   <block id="08762317d694c743ae82817d9e878a50" category="section-title">Configure el proxy HTTP en el colector de Keystone</block>
   <block id="873671849cdb27df29bd825ffd9dbc0e" category="paragraph">El software Collector admite el uso de un proxy HTTP para comunicarse con Internet. Esta opción se puede configurar en la TUI.</block>
   <block id="7b7ae59492f5cdb1d6fbc156639ee5ac" category="list-text">Active el campo **HTTP Proxy** y agregue los detalles del servidor proxy HTTP, el puerto y las credenciales, si se requiere autenticación.</block>
-  <block id="5d6eeca323f191b847ccaa89868f1712" category="list-text">Haga clic en **Guardar**.<block ref="063c967c4bf177e696bdec9de5a25cb2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d66ad38cacfcba154b86b0c6d12a28a9" category="section-title">Limitar la recopilación de datos privados</block>
   <block id="38256db8ac1c2018564d3df7d3f55c3e" category="paragraph">Keystone Collector recopila información limitada de configuración, estado y rendimiento necesaria para realizar mediciones de suscripción. Existe la opción de limitar aún más la información recopilada mediante el enmascaramiento de la información confidencial del contenido cargado. Esto no afecta al cálculo de facturación. Sin embargo, limitar la información podría afectar a la facilidad de uso de la información reporting, ya que algunos elementos, que pueden ser fácilmente identificados por los usuarios, como el nombre del volumen, se reemplaza por UUID.</block>
-  <block id="fc377f8f82024ca34c5142f60fe2c788" category="paragraph"><block ref="fc377f8f82024ca34c5142f60fe2c788" category="inline-image-macro-rx" type="image"></block></block>
   <block id="e63229ed25551e34e5f0a388c38141ed" category="list-text">ClusterUUID</block>
   <block id="a54372ef430f726c8343fc5550fade42" category="list-text">SerialNumber</block>
   <block id="c391c76646a604c0d2afc578924ddf0f" category="list-text">Ubicación (según la entrada de valor en el clúster de ONTAP)</block>
@@ -309,7 +290,6 @@
   <block id="0b5abf5c3cccffbee4f48538a8f46c07" category="list-text">Cualquier solicitud de cambio en los últimos 90 días del periodo de servicio requiere una renovación del servicio por un mínimo de un año.</block>
   <block id="bd3fd623256db562bebda3e697d43452" category="section-title">Reducción de capacidad</block>
   <block id="ba66768dfbbcde790d00e0de40f92803" category="paragraph">La reducción de la capacidad (anual) es aplicable al modelo de pago _Anual por adelantado_ y a las puestas en marcha únicamente en las instalaciones. No está disponible para servicios cloud ni para servicios de cloud híbrido. Proporciona capacidad en las instalaciones, lo que puede reducirse hasta en un 25 % por nivel de servicio por suscripción. Esta reducción se permite una vez al año para ser efectiva al comienzo del próximo período de facturación anual. Los pagos anuales basados en servicios en las instalaciones deben ser &gt;= 200 000 dólares en cualquier momento durante el plazo para poder aprovechar la reducción de capacidad. Como solo se admite para puestas en marcha en las instalaciones, este modelo de facturación no permite reasignar el gasto de servicios en las instalaciones a servicios de cloud. En la imagen siguiente se ilustra un ejemplo de reducción de capacidad anual.</block>
-  <block id="9d1428ccdab4043962de6baff242d619" category="paragraph"><block ref="9d1428ccdab4043962de6baff242d619" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6e563e9d321b309cdef7d3f5a45b0d65" category="section-title">Reasignación trimestral del gasto</block>
   <block id="075e59191efd36ae9c9c7094fbdab596" category="paragraph">Requisitos y condiciones en un nivel de suscripción:</block>
   <block id="525638a12e9c8aa67d400bc4cae26beb" category="list-text">Se aplica sólo a la facturación mensual en el modelo arrear.</block>
@@ -322,16 +302,13 @@
   <block id="1ad380d64aaf6780bee52adfb88395c3" category="list-text">El cliente o partner deben enviar formalmente una solicitud de reasignación a Keystone Success Manager (KSM), al menos una semana antes del siguiente ciclo de facturación.</block>
   <block id="e6174082850be1c9a7e5a9b03b3fd758" category="list-text">Las nuevas solicitudes sólo entran en vigor desde el siguiente ciclo de facturación.</block>
   <block id="77bb86a7476fdc4f9b8e1320e8d3f8e8" category="paragraph">En la imagen siguiente se ilustra un ejemplo de reasignación trimestral de gastos:</block>
-  <block id="0778919f1cae85d2f557cc72ce8c6ed0" category="paragraph"><block ref="0778919f1cae85d2f557cc72ce8c6ed0" category="inline-image-macro-rx" type="image"></block></block>
   <block id="02de04a8ab8cebed30d4a10b9f5a2868" category="summary">Los flujos de datos de Keystone</block>
   <block id="8b9ebc949c2bd3b7f585608d2fec312f" category="doc">Flujo de datos de Keystone</block>
   <block id="0476a04360a8efd6e70433fd2939cef7" category="section-title">Flujo de datos de Keystone Collector</block>
-  <block id="7084d98d1c25d2e28eda5dd92c5dd52b" category="paragraph"><block ref="7084d98d1c25d2e28eda5dd92c5dd52b" category="inline-image-macro-rx" type="image"></block></block>
   <block id="9b27e12d584b3438e811533b32e026e8" category="list-title">Leyenda</block>
   <block id="ce200ab0b7646380f2bbefd2970ed633" category="list-text">Collector de NetApp inicia una sesión HTTPS en el portal de cloud de Active-IQ.</block>
   <block id="f3cab949200d7bfe230983c92bd7983f" category="list-text">El firewall que utiliza el cliente permite la conexión.</block>
   <block id="4cf8f8268c14ee43943d5216b5df21a8" category="section-title">Supervisar flujos de datos</block>
-  <block id="325857741b37b2bb27cc84f38d841478" category="paragraph"><block ref="325857741b37b2bb27cc84f38d841478" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8a73a45becb1972a998dc8490856f730" category="summary">Facturación basada en consumo en ráfaga</block>
   <block id="c9963abc84e870941cff082c5577ec18" category="paragraph">La facturación de NetApp Keystone (Keystone) STaaS se basa en la capacidad de ráfaga, es decir, la capacidad que consume usted y la capacidad comprometida de su suscripción.</block>
   <block id="7e974afef4ba00b90e789eeac590a840" category="paragraph">Su límite de ráfaga se determina y se especifica en su acuerdo de Keystone. Por lo general, está un 20% por encima de la capacidad comprometida.</block>
@@ -367,7 +344,6 @@
   <block id="ab8f1d41f34d86519574f8ff7d968420" category="paragraph">En este servicio:</block>
   <block id="2e986b8517427f1318fcb6cde88cfe70" category="list-text">Equinix proporciona espacio, energía, refrigeración, redes y facturación y el almacenamiento, cada mes.</block>
   <block id="d96367d414f2f1ab0c8c14b8d62edc0e" category="list-text">Se ofrece soporte para determinados movimientos de ventas de Keystone.</block>
-  <block id="1ceb26b0e51c1e0eda91ef049cd504b2" category="list-text">Estos servicios cuentan con soporte en 21 centros de datos de 11 países.</block>
   <block id="4014aa6ca6c4b222aeea8afca1522395" category="paragraph">Equinix tiene los centros de datos en las siguientes ubicaciones:</block>
   <block id="70b8a65cfdc8cb99446cf0efce595a78" category="cell">Centro de datos</block>
   <block id="59716c97497eb9694541f7c3d37b1a4d" category="cell">País</block>
@@ -382,7 +358,6 @@
   <block id="d8b00929dec65d422303256336ada04f" category="cell">Alemania</block>
   <block id="59ead8d1e124ccfb79f3ace06f43e703" category="paragraph">Londres</block>
   <block id="a98a6014b084f2a0c04df7f25ea1736f" category="cell">REINO UNIDO</block>
-  <block id="6b36360c14a3477023f0d543cc5727a5" category="paragraph">Ángeles perdida</block>
   <block id="6314044c3803213e9fd3f3ecf8c90d65" category="paragraph">Madrid</block>
   <block id="907eba32d950bfab68227fd7ea22999b" category="cell">España</block>
   <block id="7c885b9c7c703a77befcabeea54944d5" category="paragraph">Melbourne</block>
@@ -449,7 +424,6 @@
   <block id="f1206f9fadc5ce41694f69129aecac26" category="list-text">Configurar</block>
   <block id="507a3a88cebc46603ce2be8eaa924eee" category="list-text">Puesta en marcha</block>
   <block id="79b7581616a6892a33647af8676f7c45" category="list-text">Integradas</block>
-  <block id="244f78a4e039400f39e0eb94595bdc02" category="cell"><block ref="244f78a4e039400f39e0eb94595bdc02" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6adf97f83acf6453d4a6a4b1070f3754" category="cell">Ninguno</block>
   <block id="b407d85189fae6568411d1e0477e1a61" category="paragraph">Administración y supervisión</block>
   <block id="d2986ac8cb6bd55892099c1ffd6b1f6f" category="list-text">Supervisar</block>
@@ -531,14 +505,6 @@
   <block id="ce79b37185c18b2eba95931a0b15de7a" category="inline-link-macro">Genere y recoja el bundle de soporte</block>
   <block id="d5bd195454f7264ad483f3ee67bec884" category="paragraph">Para obtener información sobre cómo añadir paquetes de soporte, consulte <block ref="bc06f0ccbc4013c0e8a3b640622ac4cb" category="inline-link-macro-rx"></block>.</block>
   <block id="3f4845c140708c07e69de229e819825e" category="summary">Niveles de servicio compatibles</block>
-  <block id="5e34e90f1e2704aa18ae93d8841518d8" category="paragraph">Keystone STaaS ofrece capacidad de almacenamiento de datos a niveles de servicio de rendimiento (niveles de servicio) predefinidos conforme a una suscripción.</block>
-  <block id="864e6ceffc993de65f9913fb4c12ccc0" category="paragraph">Los niveles de servicio se definen por:</block>
-  <block id="a8507569e393fb5a553803555d766968" category="list-text">Latencia media</block>
-  <block id="ba3cb21e1e6e72e0502ac132232f5475" category="list-text">IOPS máximo por TIB lógico almacenado por volumen</block>
-  <block id="a5c52719ec1691dac340909acded274f" category="paragraph">Se debe asociar un volumen a un nivel de servicio.</block>
-  <block id="b2e5d13834e058927fb7583c9745e36d" category="section-title">Niveles de servicio para el almacenamiento compatible</block>
-  <block id="36c275d62ed815270ea3f9f9ee07eae1" category="paragraph">Los niveles de servicio para los servicios de archivo, bloque, objeto y cloud se enumeran aquí.</block>
-  <block id="1fdd389c21187d64915256967c8f2116" category="section-title">Almacenamiento de archivos y bloques</block>
   <block id="73cf2790a3f92d26764722174d70cf34" category="paragraph">*Protocolos compatibles*: NFS, CIFS, iSCSI y FC</block>
   <block id="079bbc110741f438dfb37f32218c4c21" category="cell">*Nivel de servicio*</block>
   <block id="cdf0cc519fabc4c14999e89090d33dc1" category="cell">*Extremo*</block>
@@ -558,21 +524,9 @@
   <block id="4546199e2bcb9ae49a13edef9675fd03" category="cell">2,048</block>
   <block id="10a7cdd970fe135cf4f7bb55c0e3b59f" category="cell">512</block>
   <block id="76dc611d6ebaafc66cc0879c71b5db5c" category="cell">128</block>
-  <block id="6c2e014c000f384666c794525cc81067" category="cell">*TIBs máximos Mbps/lógicos almacenados por volumen*</block>
   <block id="0584ce565c824b7b7f50282d9a19945b" category="cell">384</block>
   <block id="ea5d2f1c4608232e07d3aa3d998e5135" category="cell">64</block>
   <block id="c74d97b01eae257e44aa9d5bade97baf" category="cell">16</block>
-  <block id="eea2274bcc20c5ab5c322a30dcee6258" category="cell">*Latencia*</block>
-  <block id="99f8d77b50f8491531357b2d907d59d1" category="cell">&lt;1 ms</block>
-  <block id="6fad0b609a57af2ae4dbbf92ff728673" category="cell">&lt;2 ms</block>
-  <block id="71d46f269394e963a516a1cc98340c17" category="cell">&lt;4 ms</block>
-  <block id="342e06f2c04b016459176bdbbd984dfe" category="cell">&lt;17 ms</block>
-  <block id="da87ed8022acb452323aacf7d8c334ec" category="paragraph">Tenga en cuenta los puntos siguientes para las métricas de rendimiento (aplicables sólo al archivo)</block>
-  <block id="188d13224eed451263dd6c85bd745307" category="list-text">Los niveles de servicio de archivos y bloques se basan en ONTAP 9.7 y versiones posteriores.</block>
-  <block id="4aec33bed8da506bcfc723119af226a2" category="list-text">Los valores de IOPS/TIB y latencia para niveles de servicio se basan en la cantidad de datos lógicos almacenados en el volumen, el tamaño de bloque de 32 KB y una combinación aleatoria del 70 % de I/o de lectura y de escritura en /30 %.</block>
-  <block id="5d38020d77a978c981c3a5727882af55" category="list-text">Las IOPS/TIB reales o Mbps/TIB varían en función de la concurrencia de cargas de trabajo y los patrones de uso.</block>
-  <block id="59e575bf50bc5d85d93d47cc7ef0e4e2" category="list-text">La latencia no incluye lo siguiente: -- las aplicaciones, los hosts o la latencia de red del cliente hacia o desde los puertos de la controladora. -- la latencia que aplica QoS automáticamente para mantener las operaciones de I/o dentro de los máximos de nivel de servicio.</block>
-  <block id="e1a5c627b57668717abd3786fef9b604" category="list-text">Cuando se utiliza el servicio complementario de protección de datos avanzada, la latencia objetivo se aplica al servicio de las solicitudes de I/o únicamente de los productos Keystone locales.</block>
   <block id="58d801506333ab644845942779162cbc" category="paragraph">*Protocolo admitido*: S3</block>
   <block id="9256405ef4b3e50cc40cc8f3d4e135e9" category="cell">*Tipo de carga de trabajo*</block>
   <block id="346ddf53d2d569d0bb73eb7826cf95d8" category="cell">Almacén de medios, archivado</block>
@@ -635,7 +589,6 @@
   <block id="2e36da56dea864a88d8bfe77e37ce8ce" category="section-title">Herramientas de supervisión</block>
   <block id="6961b64b96800d43e0da115e9763a226" category="paragraph">En un servicio de Keystone operado por el cliente, se instalan la infraestructura de almacenamiento y las herramientas de supervisión en su centro. La infraestructura de almacenamiento consta del hardware de almacenamiento necesario para respaldar su pedido inicial, que se aprovisiona para solicitar más almacenamiento más adelante.</block>
   <block id="ae031eb46bb3af9ef59c200e318f13e4" category="paragraph">Además del equipo de almacenamiento, se aprovisionan dos herramientas de supervisión para supervisar el almacenamiento y el consumo.</block>
-  <block id="4a08d1835c4f40051f2bf2514b677434" category="paragraph"><block ref="4a08d1835c4f40051f2bf2514b677434" category="inline-image-macro-rx" type="image"></block></block>
   <block id="580577f00c6e952d8dad642fa30380db" category="inline-link-macro">Keystone y asesor digital</block>
   <block id="7621fcf3337893076016c8382d82f20e" category="summary">Complemento, detalles de servicios adicionales, organización en niveles de datos</block>
   <block id="44ede7eae3cf7dbcd6a8e49ab4b69abd" category="paragraph">Los servicios estándar STaaS de Keystone para almacenamiento de archivos y bloques incluyen funcionalidades de organización por niveles que identifican datos que se usan con menor frecuencia y segmentación para almacenamiento en frío de NetApp compatible con STaaS de Keystone. Puede lograr la organización en niveles de los datos como servicio complementario si desea organizar en niveles los datos inactivos en cualquier almacenamiento de NetApp que no sea compatible con Keystone STaaS.</block>
@@ -649,17 +602,10 @@
   <block id="e72611e56e05f623af5dc7011928a294" category="admonition">NetApp no suministra los servicios informáticos, de almacenamiento y de red basados en a hiperescala necesarios para Cloud Volumes ONTAP como parte de las suscripciones a Keystone STaaS; estos servicios deben adquirirse directamente a proveedores de servicios cloud a hiperescala.</block>
   <block id="77fb4a998df70518a615aa086dcede60" category="summary">Calidad de servicio en Keystone</block>
   <block id="b0c2a97a674f701e042904eabd2ce86c" category="doc">Calidad de servicio en Keystone</block>
-  <block id="580c330994127defe5cd5153bad3a4ba" category="paragraph">La calidad de servicio (QoS) de almacenamiento es una tecnología vital que garantiza que las aplicaciones obtienen un rendimiento constante y predecible. Sin la calidad de servicio, ciertas cargas de trabajo, como el arranque de varios sistemas, pueden ocupar recursos completos durante un período y afectar a otras cargas de trabajo. Para obtener más información sobre QoS, consulte<block ref="3c8d0a20452a1fdd8de7e683059a52bc" category="inline-link-rx"></block>.</block>
-  <block id="4dbcb780b2afaca4e14c86b698ea3b98" category="inline-link">Calidad de servicio máxima</block>
-  <block id="6f84bbf222b31dbe79e07a2c75da49f7" category="inline-link">Calidad de servicio mínima</block>
   <block id="acdda1c20fb3985ce840929f7525c803" category="section-title">Calidad de servicio adaptativa</block>
   <block id="24fe24243f6cf0a0fada99032a85c028" category="inline-link">Acerca de la calidad de servicio adaptativa</block>
   <block id="e1e6381427a3975fa7597be88e8d2f70" category="section-title">Configuración del grupo de políticas de calidad de servicio adaptativo</block>
   <block id="e88f55d6b9c231a5c6bcae698bdfd7dc" category="list-text">*VServer*: El nombre del VServer o del VM de almacenamiento (máquina virtual de almacenamiento).</block>
-  <block id="308ede543987c09a3ef34aff33fbd87f" category="list-text">*IOPS* esperado: El número de IOPS/TIB que ONTAP proporciona como mínimo siempre y cuando exista garantía de rendimiento.</block>
-  <block id="095c182a20e3d5d17cb203ffded54217" category="list-text">*Peak IOPS*: El número máximo de IOPS/TIB que estarán disponibles para un volumen antes de que el rendimiento sea limitado.</block>
-  <block id="b2744d264660e6ee9104834a92616c0f" category="list-text">*Asignación de IOPS esperada*: Este campo controla si la tasa de IOPS esperada disponible para el volumen se basa en el tamaño asignado o utilizado del volumen. En Keystone, se basa en el espacio asignado.</block>
-  <block id="48498032e36fc1bb3a4f2820d6c121e0" category="list-text">*Asignación de pico de IOPS*: Este campo controla si el pico de IOPS disponible para el volumen se basa en el tamaño asignado o utilizado del volumen. En Keystone, se basa en el espacio usado.</block>
   <block id="4db69e448403f877751b701118fb0d6b" category="admonition">Esto no es una densidad de IOPS (por ejemplo, 75 IOPS/TIB), sino un número mínimo absoluto de IOPS.</block>
   <block id="0dfe1d120dbd110a4d7bb29a9dea1779" category="inline-link">Utilice grupos de políticas de calidad de servicio adaptativos</block>
   <block id="83968617de22b9218018ccb02b138d69" category="paragraph">Para obtener más información sobre la densidad de I/o, consulte <block ref="3ce2bf0236919e451c90f574367e80ae" category="inline-link-macro-rx"></block>. Para obtener más información acerca de los grupos de políticas AQoS, consulte<block ref="e1f6c27c218a9f9df79e5c49fb7040d6" category="inline-link-rx"></block>.</block>
@@ -708,8 +654,6 @@
   <block id="8ae3d79d3f1b6cb3022dbfb96c477b67" category="doc">Más información sobre NetApp Keystone</block>
   <block id="67a947157c35cbacef18eda1e5eb037c" category="paragraph">NetApp Keystone (Keystone) es un modelo de servicio basado en suscripciones y de pago por crecimiento que proporciona una experiencia de cloud híbrido fluida para las empresas que prefieren modelos de consumo de gastos operativos para gastos de capital o arrendamiento iniciales.</block>
   <block id="4547b014d12c5d4b1d98a0de125d1aee" category="paragraph">Keystone permite a los clientes acelerar la rentabilidad de la inversión reduciendo los obstáculos a la hora de gestionar el crecimiento impredecible de la capacidad y ciclos de aprovisionamiento complejos. Keystone permite a los clientes alinear la economía y las operaciones con sus prioridades empresariales.</block>
-  <block id="341d84aa26cb4521474864e04ea2a63b" category="inline-image-macro">Error: Falta la imagen gráfica</block>
-  <block id="fb2c4a4567f19f497aa52f4fa9fe5ad4" category="paragraph"><block ref="fb2c4a4567f19f497aa52f4fa9fe5ad4" category="inline-image-macro-rx" type="image"></block></block>
   <block id="61b62d6f26e61958572029e4a86ce1d4" category="paragraph">Keystone proporciona capacidad de almacenamiento a niveles de servicio predefinidos para tipos de datos de bloques, archivos y objetos que pueden ponerse en marcha en las instalaciones y ser operados por NetApp, un partner o el cliente. Puede utilizar Keystone en asociación con servicios de cloud de NetApp, como Cloud Volumes ONTAP, que puede poner en marcha en un entorno a hiperescala de su elección.</block>
   <block id="0da0fcb34ab6233293608a6a36f3a615" category="paragraph">Una suscripción de Keystone está asociada con los planes de tarifas. Puede haber varios planes de tarifas adjuntos a una única suscripción.</block>
   <block id="b8ae90ca93129ae537095f32357022d7" category="section-title">Almacenamiento como servicio (STaaS) de Keystone</block>
@@ -756,38 +700,27 @@
   <block id="016b01bead3857be9fd51bfef49b23aa" category="admonition">El consumo de capacidad en las suscripciones de Keystone se muestra en los informes y paneles de control, hasta dos decimales. Si el uso es inferior a 0.01 TIB, el valor se muestra como 0 o.<block ref="31c2db4909d0d3638d380d92c0a194e0" prefix=" " category="inline-code"></block>. Para obtener más información sobre otras medidas de uso, consulte <block ref="c526a2ccdbb16224fb861d4fec1eb67c" category="inline-link-macro-rx"></block>. Para obtener información sobre las distintas capacidades que se utilizan en Keystone, consulte <block ref="a2e2f97253342349ff9ef2b936b778d0" category="inline-link-macro-rx"></block>.</block>
   <block id="b3c0ed0e576799a24c9e0fda06bee006" category="section-title">Ver detalles de la suscripción</block>
   <block id="b5d0d2658bdd7db17a2251c2d1fa6edb" category="paragraph">Puede ver todas las suscripciones para un nombre de cuenta en la pestaña *Detalles de suscripción*.</block>
-  <block id="3134c27d858b331bf91068bcd770722c" category="paragraph"><block ref="3134c27d858b331bf91068bcd770722c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="60d8073bb007efeabf44bc4eea759210" category="paragraph">Para cada número de suscripción, puede ver la siguiente información:</block>
   <block id="8e43124ddee77b223f1e720973e147e7" category="list-text">* Número de suscripción*: El número de suscripción de la suscripción de Keystone que asigna NetApp.</block>
   <block id="f06c1648cc175308e5d0425681e31f63" category="list-text">*ID de seguimiento*: El ID de seguimiento asignado en el momento de la activación de la suscripción. Se trata de un ID exclusivo para cada suscripción y sitio, que se utiliza para realizar el seguimiento de la suscripción.</block>
   <block id="3644820829d44e327e43dd95769b1686" category="list-text">*Período de facturación*: El período de facturación de la suscripción, como mensual, trimestral o anual.</block>
   <block id="58ddac2ef16530986372a556eb9e6b7a" category="list-text">*Fecha de inicio*: La fecha de inicio de la suscripción.</block>
   <block id="83adb6d347afacf7d560a4bb6f74dfa1" category="list-text">*Estado del uso*: Indica la cantidad de la suscripción que se ha utilizado o que se ha utilizado en exceso. Puede ordenar la lista por esta columna si desea ver los registros de consumo más altos.</block>
-  <block id="5ef0de341f3206ea121fbfbf51e38e32" category="list-text"><block ref="5d188bf7f39558255a337fa21a17a0b0" category="inline-image-macro-rx" type="image"></block>: Al hacer clic en este icono se abre la ficha *serie de tiempo de suscripción*, donde puede ver los datos de uso históricos de cada nivel de servicio incluido en esta suscripción</block>
-  <block id="dc73bcb00aeb285be26cfd179924fe9e" category="paragraph">Para ver más detalles, haga clic en la flecha hacia abajo de un registro de suscripción. En TIB, se muestran detalles, como el nombre del nivel de servicio, el compromiso, el consumo, las capacidades disponibles y el uso de ráfaga actual y acumulado. Se destacan niveles de servicio específicos que registran un consumo superior. También se muestran todas las advertencias y alertas que se generan en los volúmenes.</block>
   <block id="736d5b3313fce2ba2126ffff61a7ec29" category="paragraph">Puede consultar los siguientes indicadores de uso para comprobar el estado de uso de cada suscripción:</block>
-  <block id="3aaeea3f20263addb794c645bdef9c16" category="paragraph"><block ref="3aaeea3f20263addb794c645bdef9c16" category="inline-image-macro-rx" type="image"></block></block>
   <block id="88fa71f0a6e0dfedbb46d91cc0b37a50" category="paragraph-title">Índice</block>
-  <block id="8cc14ca7f7b6ee943d77418dfa822731" category="paragraph"><block ref="56a93b6a2a3614c3aeb1b9851c5e43f2" category="inline-image-macro-rx" type="image"></block>: No se ha registrado ningún uso de la capacidad con respecto a la capacidad comprometida del nivel de servicio<block ref="bb7f7720d1162aeddd650a9a9446141b" category="inline-image-macro-rx" type="image"></block>: El consumo es normal, dentro del 80% de la capacidad comprometida<block ref="7646cb232eca2204ee8b299f2fdebfb4" category="inline-image-macro-rx" type="image"></block>: Consumo máximo, es decir, el uso está a punto de alcanzar el 100% o más de la capacidad comprometida. La columna *consumido* muestra este indicador para cualquier consumo superior al 80% de la capacidad comprometida<block ref="2acc4efd0d7d55d52fc790f88116c2e0" category="inline-image-macro-rx" type="image"></block>: El consumo está dentro del límite de ráfaga. El consumo en ráfaga es el consumo que supera el 100% de capacidad comprometida de un nivel de servicio, y se encuentra dentro del límite de uso acordado en ráfaga, como el 120%<block ref="9dd31109acddbedcca8dcf80e09eebda" category="inline-image-macro-rx" type="image"></block>: Indica un consumo superior al límite de ráfaga estipulado</block>
-  <block id="6258cb1a842831f15b22f87325717f37" category="section-title">Ver datos históricos de suscripción</block>
   <block id="a514224616890dbac3dede8f0d533add" category="paragraph">La ficha *serie de tiempo de suscripción* muestra los datos históricos de sus suscripciones durante un período específico. Los gráficos verticales muestran los detalles de uso del intervalo de tiempo seleccionado con los indicadores adecuados para que pueda comparar y generar informes.</block>
   <block id="c46ba64e2bab36ac2ede95ae5f0692dc" category="list-text">Haga clic en la ficha *serie de tiempo de suscripción*.</block>
   <block id="a49bb8de1f373a2c0821dd3715e2473c" category="list-text">Seleccione la suscripción necesaria para la que desea ver los detalles. La primera suscripción en el nombre de su cuenta se selecciona de forma predeterminada.</block>
-  <block id="4ace5fc4007e7d1732831506700b3e06" category="paragraph"><block ref="4ace5fc4007e7d1732831506700b3e06" category="inline-image-macro-rx" type="image"></block></block>
   <block id="35070e1c588eb56d935a4877ffdfdb10" category="paragraph">Se muestran los siguientes detalles:</block>
   <block id="c3b2392317dad26eb62ae53f36697f5e" category="list-text">Rojo: Uso de ráfagas (100% de la capacidad comprometida con el límite de ráfaga acordado)</block>
-  <block id="2ebe85ca38ab100590dc16fd81d18da1" category="paragraph"><block ref="2ebe85ca38ab100590dc16fd81d18da1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="7ecd0726b721e17d74d280fdd93e49f8" category="section-title">Generar informes</block>
-  <block id="b894fba1f7e89a49fc8cfb6cea7e1ee6" category="paragraph">Puede generar y ver informes para los detalles de su suscripción, datos de uso históricos de un intervalo de tiempo y detalles del sistema desde cada una de las pestañas haciendo clic en el botón de descarga: <block ref="f865f0dd5bea740b7e77dd6862c1f366" category="inline-image-macro-rx" type="image"></block></block>
   <block id="03051fbd458dd7625e7969d74dd74735" category="paragraph">Los detalles se generan en formato CSV que se puede guardar para usarlo más adelante.</block>
   <block id="3f564a49686a18ae09da9597e6538840" category="paragraph">Un informe de ejemplo para la ficha *serie de tiempo de suscripción*, donde se convierten los datos gráficos:</block>
-  <block id="0a5468723ee164f4220a0538b1ff32b4" category="paragraph"><block ref="0a5468723ee164f4220a0538b1ff32b4" category="inline-image-macro-rx" type="image"></block></block>
   <block id="428c58ec1c2902ea6bff31e38cae88ff" category="section-title">Ver las alertas</block>
   <block id="c71fcee7f813aa85774b9114dfba4ef1" category="paragraph">Las alertas de la consola envían mensajes de precaución que le permiten comprender los problemas que se producen en el entorno de almacenamiento.</block>
   <block id="903961eaa166cc0c38b735276961eb0c" category="paragraph">Las alertas pueden ser de dos tipos:</block>
   <block id="d08b54ee187c7327910bae3997812ee1" category="list-text">*Advertencia*: Los problemas, como el incumplimiento, se muestran como advertencias. Por ejemplo, si hay volúmenes en los clústeres gestionados que no tienen asociadas políticas de QoS (AQoS) adaptativa, puede ver un mensaje de advertencia. Puede hacer clic en el enlace del mensaje de advertencia para ver la lista de los volúmenes no compatibles en la ficha *Detalles del sistema*.</block>
   <block id="0fdfd6d11ae114ae172cdc0ad002c349" category="paragraph">Para obtener información acerca de las políticas AQoS, consulte <block ref="ec50deebd618280d321c610a1ff0d73b" category="inline-link-macro-rx"></block>.</block>
-  <block id="2f79ebd4f32cabd1114c688445ebf53e" category="paragraph"><block ref="2f79ebd4f32cabd1114c688445ebf53e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f303aa2ecdcc69fbc97adcf5a2476825" category="paragraph">El asesor digital le permite ver detalles de almacenamiento como servicio (STaaS) e información sobre la infraestructura de NetApp que usted posee. Digital Advisor ofrece un único panel con visibilidad de sus suscripciones, niveles de servicio y uso de la capacidad, además de la posibilidad de crear informes detallados.</block>
   <block id="ea7b2437ddd14dce6ba3f65494d634fd" category="inline-link">Documentación de Digital Advisor</block>
   <block id="7a00a46aa8b851e05a0a8783db55e3ab" category="paragraph">Para obtener más información sobre la consola y la generación de informes de Keystone, consulte <block ref="e4a96850db17c7110d770223b8207b51" category="inline-link-macro-rx"></block>.</block>
@@ -984,8 +917,6 @@
   <block id="8cf5f59a1100fa36f9623b70bdb992ba" category="paragraph">Para disponer de los servicios de Keystone y ver los datos de uso, debe instalar Keystone Collector en un sistema VMware vSphere o Linux en su sitio.</block>
   <block id="7114fdaf9483bf8fda55eeb6cced9e80" category="admonition">La información de instalación y configuración disponible aquí se aplica a ONTAP y StorageGRID. Los requisitos y procedimientos son genéricos tanto para ONTAP como para StorageGRID, y se señalan excepciones.</block>
   <block id="dcca2c79206725f48705313592b94362" category="paragraph">Keystone Collector es el componente de adquisición de uso de la plataforma de facturación de Keystone que aprovecha Active IQ Unified Manager y otras aplicaciones para conectarse a sistemas ONTAP y StorageGRID y así recopilar los metadatos necesarios para el uso y la medición del rendimiento de los acuerdos de nivel de servicio de sus suscripciones de Keystone. Le permite supervisar el estado del sistema a la vez que envía los datos de facturación para realizar informes.</block>
-  <block id="fb03e0490a19e5a8091adb56628a89c0" category="paragraph">Se requieren las siguientes configuraciones para el servidor Linux:</block>
-  <block id="875971a9a690ce8a36d7f42afd4543e1" category="paragraph">Las siguientes configuraciones son necesarias para la máquina virtual de servidor (SVM) Keystone Collector:</block>
   <block id="3cd8ee624224889231554d68f6c0f471" category="list-text">Básico: 2 CPU</block>
   <block id="729c0bdf36ec5a81531eff6e6786c89d" category="list-text">RAM: 4 GB DE RAM</block>
   <block id="6689c36f38716c4f3b09772966e38e5d" category="list-text">Espacio en disco: 50 GB vDisk</block>
@@ -1048,10 +979,7 @@
   <block id="6b71507d392708444982d424df1963c2" category="paragraph">Los servicios de Keystone STaaS para almacenamiento de archivos y bloques de ONTAP y almacenamiento de objetos de StorageGRID admiten varias funciones y protocolos, y se describen en la siguiente tabla:</block>
   <block id="661319c881749fc4ef06edb56f84c952" category="paragraph">El centro de soporte y servicios globales de NetApp (GSSC) y el director de éxito de NetApp Keystone (KSM) son responsables de proporcionarle los servicios que necesita para las suscripciones a Keystone.</block>
   <block id="5e3fca9227064d2d04c47a0f13b4fffe" category="paragraph">Para obtener más información sobre los servicios de Keystone, consulte:</block>
-  <block id="1ad935b10417da04d8f4a93ed39ce8a0" category="paragraph">La calidad de servicio adaptativa (AQoS) se utiliza para los servicios de Keystone para mantener la ratio de IOPS en TB/GB a medida que el tamaño varía, la política de calidad de servicio se aplica automáticamente. Para obtener información acerca de las políticas AQoS, consulte<block ref="837de1b03a328f464002642d845ea947" category="inline-link-rx"></block>.</block>
   <block id="b41d880d5f9cddb842b19d183ce73f2e" category="paragraph">Keystone le proporciona políticas de AQoS que puede configurar una vez que su clúster se encuentre en producción. Debe asegurarse de que todos los volúmenes estén asociados con las políticas de AQoS correctas que ya se han creado y están disponibles en el sistema.</block>
-  <block id="843145f4887d94733db1d1b24ca3fdfa" category="admonition">Si no ha aplicado correctamente las políticas de AQoS en sus volúmenes, dichos volúmenes se medirán y se cobrarán en el nivel de servicio más alto según su suscripción. Esto puede resultar en cargos de ráfaga no intencionados.</block>
-  <block id="445fbfc75bfa2a8ab6a7cdcb019f9838" category="paragraph">Puede configurar las políticas de calidad de servicio adaptativas (AQoS) para escalar automáticamente un techo de rendimiento o un tamaño piso a uno del volumen. Para configurar una directiva, debe tener en cuenta lo siguiente:</block>
   <block id="783c1c698cfe222ca1a1c69b815e8a3c" category="list-text">*Nombre del grupo de políticas*: Nombre del grupo de políticas AQoS. Por ejemplo:<block ref="e22fe87dc37298f80d1bbd25d59219b8" prefix=" " category="inline-code"></block>.</block>
   <block id="680fcae2005fb4b11fdcc18c27ddd58b" category="list-text">*IOPS mínimo absoluto*: El número más bajo de IOPS esperadas que se aplicará a un volumen si el tamaño del volumen es muy pequeño y, de lo contrario, resultaría en un número inaceptable de IOPS. De forma predeterminada, este valor es 1,000 para<block ref="ba1f6c59525d71aee4c027798d2470fd" prefix=" " category="inline-code"></block>, 500 para<block ref="8d5e7e72f12067991186cdf3cb7d5d9d" prefix=" " category="inline-code"></block>, y 250 para<block ref="9446a98ad14416153cc4d45ab8b531bf" prefix=" " category="inline-code"></block>, y 75 para<block ref="eb6d8ae6f20283755b339c0dc273988b" prefix=" " category="inline-code"></block> y..<block ref="689202409e48743b914713f96d93947c" prefix=" " category="inline-code"></block> niveles de servicio.</block>
   <block id="190dc75f5eac190e46db7ce571587dbc" category="paragraph">La configuración de las políticas de QoS adaptativo (AQoS) para cada nivel de servicio se describe en las secciones siguientes. Los tamaños mínimos y máximos de volumen para cada nivel de servicio proporcionado aquí permiten obtener valores óptimos de IOPS y latencia para un volumen. Crear demasiados volúmenes fuera de estas directrices puede afectar de forma negativa al rendimiento de estos volúmenes.</block>
@@ -1068,10 +996,8 @@
   <block id="b8905d711198e80b0e2927dff32cfd11" category="list-text">*Fecha de finalización*: Fecha de finalización de la suscripción. Según esta fecha, podría ver mensajes de información para las suscripciones que están a punto de expirar.</block>
   <block id="8e7561ba1f78104b205962fa9d4b44a9" category="paragraph">Para obtener más información sobre sus servicios de almacenamiento de Keystone y los niveles de servicio relevantes, consulte <block ref="7ea66a5a0ec24dd88c60fc26a094a732" category="inline-link-macro-rx"></block>.</block>
   <block id="9ff2c2d2ffe68a2a0862d38fe356318c" category="list-text">Seleccione el intervalo de tiempo de los iconos del calendario en los campos *desde fecha* y *hasta fecha*. El intervalo de tiempo predeterminado es desde la fecha de inicio del período de facturación hasta la fecha actual.</block>
-  <block id="22dcf7d0676ff8f536ed431a7b672de7" category="list-text">Haga clic en *Ver detalles*. Los datos de consumo históricos de la suscripción para cada nivel de servicio se muestran en función del intervalo de tiempo seleccionado. Puede pasar el cursor del ratón por encima de los gráficos para ver el desglose de uso en términos de datos comprometidos, consumidos, en ráfaga y por encima del límite de ráfaga en ese punto de datos.</block>
   <block id="8cdd8d8e55dfdcaf50118c634169eaf7" category="list-text">*Detalles de la suscripción*: La fecha de inicio y finalización de la suscripción, y el período de facturación, por ejemplo, trimestral, anual, etc.</block>
   <block id="12ed0205cd7410bc01e15e4b8a285019" category="list-text">*Gráficos de uso*: Los gráficos de barras muestran el nombre del nivel de servicio y la capacidad que se consume en relación con ese nivel de servicio para el intervalo de fechas. La fecha y la hora de la colección se muestran en la parte inferior del gráfico.</block>
-  <block id="a0844c086d0417165bb56c154e3ddbcc" category="admonition">En función del intervalo de fechas de la consulta, los gráficos de uso se muestran en un intervalo de 30 puntos de datos.</block>
   <block id="3a6ef8ff534dc5701b3936464bf23441" category="paragraph">Los siguientes colores de los gráficos de barras indican la capacidad consumida según se define en el nivel de servicio:</block>
   <block id="19e499aa450e552c41a06bb0742085d6" category="list-text">Verde: Dentro del 80%.</block>
   <block id="744f7cb6bd1aa9077ff244891a651e80" category="list-text">Ámbar: 80% - 100%.</block>
@@ -1092,13 +1018,10 @@
   <block id="6f7e564e5f841331ad117d7eb3b3ae10" category="paragraph">Para ONTAP, la pestaña *Detalles del sistema* muestra información, como el uso de la capacidad, el tipo de volumen, el clúster, el agregado y el nivel de servicio de los volúmenes del entorno de almacenamiento gestionado por la suscripción a Keystone.</block>
   <block id="d2c1241be04ae4d70013755a80c6cbd2" category="list-text">Haga clic en la ficha *Detalles del sistema*.</block>
   <block id="ccdbd07a063ad5631511d37c5d2f5a36" category="list-text">Seleccione el número de suscripción. De forma predeterminada, se selecciona el primer número de suscripción disponible.</block>
-  <block id="881fb88f30cf9ba2d57147ddfb898685" category="paragraph">Se muestran los detalles del volumen. Puede desplazarse por las columnas y obtener más información al pasar el ratón por los iconos de información situados junto a los encabezados de las columnas. Puede ordenar por las columnas y filtrar las listas para ver información específica. Puede copiar números de serie de nodos individuales haciendo clic en el botón *Copiar series de nodos*.</block>
   <block id="8b315ff987c2e0cfd5650f23e5464623" category="example-title">Nodos &lt;strong&gt; de bajo rendimiento y &lt;/strong&gt; de consumo detallados</block>
   <block id="45cbe8d46cd75aedbf971e2391199759" category="paragraph">Para StorageGRID, esta pestaña muestra el uso físico de los nodos en el entorno de almacenamiento de objetos.</block>
   <block id="4305e9b17980561df3c63a75f32b2075" category="list-text">Seleccione el número de suscripción. De forma predeterminada, se selecciona el primer número de suscripción disponible. Al seleccionar el número de suscripción, se habilita el enlace de detalles del almacenamiento de objetos.</block>
-  <block id="1690678f16ffa10ab1e26e44aa686db5" category="paragraph"><block ref="1690678f16ffa10ab1e26e44aa686db5" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d599237a38a37deabe01bd34298be802" category="list-text">Haga clic en el enlace para ver los nombres de los nodos y los detalles de uso físico de cada nodo.</block>
-  <block id="47e40976658c073c0e6048f08d9a27c6" category="paragraph"><block ref="47e40976658c073c0e6048f08d9a27c6" category="inline-image-macro-rx" type="image"></block></block>
   <block id="7a0a61d280e201148fcd091f8167d88f" category="list-text">*Información*: Para problemas, como sus suscripciones que están a punto de finalizar, puede ver alertas de información. Pase el cursor sobre el icono de información para obtener más información sobre el problema.</block>
   <block id="1aa4a8544fc94c7ce0ff8c9bc46bb523" category="paragraph">El panel de asesor digital (asesor digital) de Active IQ le proporciona la capacidad de supervisar el uso correspondiente a sus suscripciones a NetApp Keystone y de generar informes. Al suscribirse a los servicios de Keystone, puede ver los detalles de su suscripción y uso en el widget *Suscripciones de Keystone* del panel de control de Digital Advisor.</block>
   <block id="936acd8bca51b1c47ce51ce5d9e45134" category="admonition">La información disponible aquí es aplicable tanto a ONTAP como a StorageGRID. Se han señalado excepciones en las secciones correspondientes.</block>
@@ -1115,9 +1038,7 @@
   <block id="303598db14cdac7b8531356d3fa6ae67" category="doc">Actualice manualmente Keystone Collector</block>
   <block id="eb5316849956503093c848cdd2e2189f" category="paragraph">La función de actualización automática de Keystone Collector está habilitada de forma predeterminada, lo que actualiza automáticamente el software Keystone Collector con cada nueva versión. Sin embargo, puede deshabilitar esta función y actualizar manualmente el software.</block>
   <block id="c5bc18b9ae708308f165d213528edb66" category="list-text">En la pantalla de mantenimiento, seleccione la opción *Actualizar colectores ahora*.</block>
-  <block id="5b540eaec8e7ad0922a0633df925d995" category="paragraph"><block ref="5b540eaec8e7ad0922a0633df925d995" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f8bc55f7c7f782e0fdeced65037abf84" category="paragraph">También puede ejecutar este comando para actualizar la versión:</block>
-  <block id="cc30a50a97fd139786e6b433136865ca" category="paragraph"><block ref="cc30a50a97fd139786e6b433136865ca" category="inline-image-macro-rx" type="image"></block></block>
   <block id="b31f1ebf783dc22abf4699b042b9b3db" category="list-text">Reinicie la TUI de gestión del recopilador de Keystone, puede ver la versión más reciente en la parte superior izquierda de la pantalla de inicio.</block>
   <block id="bb05cc2f27b372eeefcaf8c9d31c4fba" category="paragraph">También puede ejecutar este comando para ver la versión más reciente:</block>
   <block id="26ff0e396ade6fe360b35528d3afe577" category="paragraph">Los datos de los sistemas STaaS de Keystone fluyen a través de Keystone Collector y el sistema de supervisión asociado, la herramienta de soluciones AIOPs.</block>
@@ -1142,8 +1063,128 @@
   <block id="ea105b45dba9cd611a536c923ac08e2a" category="paragraph">NetApp debe acceder a los componentes de hardware y software instalados para supervisar y gestionar, y proporcionar servicios como la supervisión y la facturación a los clientes de Keystone. El método más común es establecer una conexión de red privada virtual (VPN) con la red del cliente y acceder a los datos necesarios. Para superar cualquier complejidad operativa que perciban los clientes como consecuencia de la apertura de puertos de firewall a nuevos servicios, las herramientas de supervisión inician una conexión externa. Las aplicaciones cloud de NetApp, como la solución AIOPs y Zuora, usan esta conexión para realizar los respectivos servicios. Este método cumple con los requisitos del cliente de no abrir puertos de firewall, aunque proporciona acceso a los componentes de supervisión que forman parte de este servicio.</block>
   <block id="3db5d9db3e9bbb96192cdbca3e683f2d" category="list-text">NetApp utiliza la solución AIOPs para supervisar y conectarse de manera proactiva al entorno NetApp Keystone para solucionar problemas.</block>
   <block id="f117a997c71ee803b4f42cc859317819" category="admonition">En un modelo operado por un partner, las solicitudes de servicio del inquilino y el subinquilino se asignan al servicio técnico del partner. La herramienta de soporte del partner puede tener integración con la solución AIOPs y las aplicaciones GSSC. Solo se escalan a NetApp los problemas de nivel 3 a través de GSSC.</block>
-  <block id="9a7e6b4e1f16d4dce53a800b22ea9ce5" category="paragraph">La aplicación de QoS garantiza que las aplicaciones obtengan un rendimiento constante en todo momento. ONTAP de NetApp define dos parámetros para la calidad de servicio: Techos-<block ref="f481633ea70c9b3dfd9b26e1e0045eee" category="inline-link-rx"></block>, y la planta de rendimiento-<block ref="406d3c0c34cedc53d1b49a1bfac79dea" category="inline-link-rx"></block>. QoS Max representa el número máximo de IOPS, Mbps o IOPS y Mbps que puede lograr una carga de trabajo. Por otro lado, QoS Min garantiza que el rendimiento de una carga de trabajo no esté por debajo de un determinado número de IOPS o MB/s ni IOPS y MB/s.</block>
   <block id="3416d8a49fd5d49140366de8fbebad06" category="paragraph">NetApp BlueXP es una plataforma completa para supervisar cientos de fuentes de datos y cuenta con su propio panel de visualización interactivo. Si compras un servicio de nube en tu suscripción a NetApp Keystone, puedes acceder a esos servicios y gestionarlos a través de BlueXP.</block>
   <block id="eca1859cccb72b784538dc03d0802c4d" category="paragraph">El panel del asesor digital de BlueXP te proporciona una vista gráfica y funcionalidades en profundidad para supervisar el uso de tu suscripción a Keystone y generar informes. Si desea obtener más información sobre la consola del asesor digital y Keystone, consulte <block ref="e4a96850db17c7110d770223b8207b51" category="inline-link-macro-rx"></block>.</block>
   <block id="2951c1f61944250838607486af8b4ac0" category="sidebar">Actualiza Keystone Collector</block>
+  <block id="aabaac678332e131002e20e29c167e21" category="paragraph">Asegúrese de que se cumplen los siguientes requisitos genéricos:</block>
+  <block id="b455a3f7a48f5398cb25f05d53f89fac" category="paragraph">Los requisitos de red de Keystone Collector se enumeran en la siguiente tabla.</block>
+  <block id="12fbee90149a4e1d681959dfec25fb1a" category="paragraph"><block ref="12fbee90149a4e1d681959dfec25fb1a" category="inline-link-rx"></block></block>
+  <block id="47737e3c5a4b2d0fd67c3dce9a1b760c" category="paragraph">Descargar y actualizar dependencias de MySQL (solo para implementaciones de Linux)</block>
+  <block id="e3133a240fa8e815895c55d0ada23007" category="inline-image-macro">pantalla tui</block>
+  <block id="a657a369973287753344838eade1c1cf" category="list-text">Vaya a *solución de problemas &gt; generar paquete de soporte*.<block ref="1280bf937b214d88e2d48a727186f491" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f40a6998172198b5cbed1545525c61a3" category="list-text">Cuando se genera, se muestra la ubicación donde se guarda el paquete. Utilice FTP, SFTP o SCP para conectarse a la ubicación y descargar el archivo de registro a un sistema local.<block ref="a24cbffb286645dc1d774a14fff7b6db" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1170813543a97280cd394731272e8720" category="paragraph">Se necesitan algunas configuraciones de infraestructura virtual para instalar Keystone Collector en sus sistemas VMware vSphere.</block>
+  <block id="e662e98288b349f4be4a3688e1269383" category="list-title">Requisitos previos para la máquina virtual del servidor de recopilador de Keystone:</block>
+  <block id="8dc9cd986817e3c7cecaf65e5d7c54c5" category="list-text">Haga clic en **Guardar**.<block ref="dafab89b0bb1443c2d38b7c86b9e0d59" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="bebf9fb0ed43850b1fc5af6a054407ae" category="list-text">Asegúrese de que Keystone Collector esté en buen estado; para ello, vuelva a la pantalla principal de la TUI y verifique la información **Service Status**. El sistema debería mostrar que los servicios están en un estado **global: Saludable**.<block ref="1a287202385fee9a3ddf6bfc23656311" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="644e1419182976ec58cb5f686040e395" category="list-text">Haga clic en **Guardar**.<block ref="f9c75b4391b0d2138da88ebbdb861c02" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="83358b34b4abb7dcc8940f33dbf53bee" category="paragraph"><block ref="83358b34b4abb7dcc8940f33dbf53bee" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b7d00c952bfb58048323cc58b966f1a0" category="paragraph"><block ref="b7d00c952bfb58048323cc58b966f1a0" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="305955a2ac717f15ce5b0f0a3abc280a" category="paragraph"><block ref="305955a2ac717f15ce5b0f0a3abc280a" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="260df4711332c71713eaccd137544035" category="inline-image-macro">IU de ova</block>
+  <block id="755b21da384cfa7a50f9dd463bb59495" category="list-text">En _Paso 4: Revise los detalles_, verifique la corrección y autenticidad del archivo OVA. El nombre del producto debe aparecer como _NetApp Keystone Collector_.<block ref="1ff64d23a057ee58e587c113040b4ea5" category="inline-image-macro-rx" type="image"></block>VCentre valida la integridad del contenido del archivo OVA y que se proporciona un resumen de firma de código válido para los archivos contenidos en el archivo OVA. Sin embargo, no valida la autenticidad del certificado de firma de código. Para verificar la integridad, debe descargar el certificado de resumen de firma completo y verificarlo con el certificado público publicado por Keystone. Siga estos pasos:</block>
+  <block id="3a1e055c606dddb7ffa7ea4aa739f762" category="list-text">En _Paso 6_, seleccione la red de destino que utilizará la máquina virtual.</block>
+  <block id="77c3a99746e93de71f55722d8f5802d8" category="paragraph">Realice estos pasos en sus sistemas VMware vSphere para obtener una configuración inicial de los servidores de recopilador de Keystone implementados mediante OVA:</block>
+  <block id="02b9a7808a83ccb6ba15cb4854eba098" category="list-text">Abra una sesión SSH al servidor Keystone Collector. Al iniciar sesión, aparece la TUI. Como alternativa, puede iniciar la TUI manualmente ejecutando el<block ref="a38cb024a2fa677a71e9a8148df3dbeb" prefix=" " category="inline-code"></block> Comando de la CLI.</block>
+  <block id="55706af0bb20ac5e8a85f57717da5aa8" category="list-text">Actualice el recopilador mediante la opción *Mantenimiento &gt; Actualizar sistema*. Es posible que algunos reflejos seleccionados no estén disponibles y los detalles del sistema se actualizan después de varios intentos.</block>
+  <block id="79e0703c840b981be16f9e1a40c5a0b4" category="inline-image-macro">arquitectura de recopilador</block>
+  <block id="009d77d3b79ee4c7df16ef0658dd3bc3" category="paragraph"><block ref="009d77d3b79ee4c7df16ef0658dd3bc3" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="334596810739cc736eac1fbc3858a305" category="list-title">Requisitos previos para el servidor Linux:</block>
+  <block id="25c10b524de794226cf520c9a3dacc83" category="list-text">Acceso a los repositorios de software estándar de Linux</block>
+  <block id="09bf9d4349f1cb8b47852b136c5b73f7" category="list-text">Los servicios están soportados en los centros de datos de 11 países.</block>
+  <block id="d0aa2dffa0da83f1f34681308d04db5d" category="paragraph">Los Ángeles</block>
+  <block id="30b2358cb02ac28dab20e543f65090a3" category="inline-image-macro">muestra el flujo de datos dentro de los componentes del recopilador</block>
+  <block id="0eacfc824aac3b0caf281a91b0150a47" category="paragraph"><block ref="0eacfc824aac3b0caf281a91b0150a47" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="cd7ff698af2c2f69b7a1e0b0f9bd6fc0" category="inline-image-macro">flujo de datos</block>
+  <block id="70d6d93b80cc0f0a782725d14559b395" category="paragraph"><block ref="70d6d93b80cc0f0a782725d14559b395" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b8e36d91b1526b0c712db2327c72889e" category="inline-image-macro">keystone</block>
+  <block id="e55277c0c3f0e910a9213c7bc485b55e" category="paragraph"><block ref="e55277c0c3f0e910a9213c7bc485b55e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="61d927a1aed666979cd431fa1e2acade" category="inline-image-macro">marca de verificación</block>
+  <block id="afa99e6515d2d53209947ce07fcae1c0" category="cell"><block ref="afa99e6515d2d53209947ce07fcae1c0" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="5f558fad18c536fde918f6d8470c0f4c" category="paragraph">La calidad de servicio (QoS) de almacenamiento es una tecnología vital que garantiza que las aplicaciones obtienen un rendimiento constante y predecible. Sin calidad de servicio, ciertas cargas de trabajo, como las para el arranque de varios sistemas, pueden consumir la mayoría o todos los recursos durante un periodo y afectar a las otras cargas de trabajo. Para obtener más información sobre QoS, consulte<block ref="3c8d0a20452a1fdd8de7e683059a52bc" category="inline-link-rx"></block>.</block>
+  <block id="3e0c227cab019a94ad107467446bc4a1" category="paragraph">Los servicios de Keystone utilizan la calidad de servicio adaptativa (AQoS) para mantener de forma dinámica la relación de IOPS/TiB en función del tamaño del volumen. Para obtener información acerca de las políticas AQoS, consulte<block ref="837de1b03a328f464002642d845ea947" category="inline-link-rx"></block>.</block>
+  <block id="772f84cc1580c3b2eb870e7f4a05c668" category="paragraph">Un volumen de ONTAP no es compatible si no se aplica una política AQoS. Un volumen sin una política de calidad de servicio es el último de la lista de prioridades del sistema para que proporcione las operaciones de entrada y salida disponibles. Sin embargo, si hay alguna operación de entrada y salida disponible, el volumen podría consumir todos los iOS disponibles.</block>
+  <block id="8076a815ea253b898f1e1205fc7aa039" category="admonition">Si no has aplicado políticas de calidad de servicio (AQoS) a tus volúmenes, dichos volúmenes se medirán y cobrarán en el nivel de servicio más alto según tu suscripción. Esto puede resultar en cargos de ráfaga no intencionados.</block>
+  <block id="bc26ba2885b2bd7d8c41202e1d58b847" category="section-title">Configuración de calidad de servicio adaptativa</block>
+  <block id="d2c88ef05da757a3aeaaf8bc9fe70038" category="paragraph">La configuración de calidad de servicio adaptativa (AQoS) varía según los niveles de servicio.</block>
+  <block id="3e1621011a15ff9b858d144dd8b32184" category="cell">*Nombre de la política*</block>
+  <block id="e61bad254169eaf696462c655e0bb47a" category="cell">*IOPS esperado*</block>
+  <block id="911c903acff40c3f442bbae7f73ea081" category="cell">6,144</block>
+  <block id="a980f22074119d4103953f70f2fd69ce" category="cell">1,024</block>
+  <block id="f718499c1c8cef6730f9fd03c8125cab" category="cell">256</block>
+  <block id="8dea0526cd966f1d2b8537ec99d156b6" category="cell">*Asignación de IOPS esperada*</block>
+  <block id="d948b8bd026bed9e90e7989a41fdbb46" category="cell">Espacio asignado</block>
+  <block id="7954bc4f3c43f3e699c2169329a71b4b" category="cell">*Peak IOPS*</block>
+  <block id="13533e52f2c161b3cad8ec91b2a8bc26" category="cell">*Asignación de IOPS pico*</block>
+  <block id="aa06850d5c9d77127d7340a724cb89be" category="cell">El espacio utilizado</block>
+  <block id="fd5c2880a704553c642b2e60a6ff5cf2" category="cell">*Tamaño de bloque*</block>
+  <block id="de66b0668daa0803e4322ddd80158d6c" category="cell">32K</block>
+  <block id="1485819d1bb1109d78f142c11b8e830d" category="paragraph">Puede configurar las políticas de calidad de servicio adaptativas (AQoS) para escalar automáticamente un techo de rendimiento o un tamaño piso a uno del volumen. No todos los niveles de servicio de Keystone están alineados con las políticas de calidad de servicio de ONTAP predeterminadas. Puede crear políticas de calidad de servicio personalizadas para ellas. Para configurar una directiva, debe tener en cuenta lo siguiente:</block>
+  <block id="d87e8cd2516a937506841a2ee6710603" category="list-text">*IOPS esperadas*: El número mínimo de IOPS, por TiB asignado por volumen, que el sistema intenta proporcionar cuando hay suficientes IOPS del sistema disponibles.</block>
+  <block id="35c0bb4205f89d0eddba85d9bda132b6" category="list-text">*Peak IOPS*: El número máximo de IOPS, por TiB usado por volumen, que el sistema permite que el volumen alcance antes de regular la IOPS mediante la inyección de latencia.</block>
+  <block id="be53c8157b32393bccd2e22d0b1536aa" category="list-text">*Asignación de IOPS esperada*: Este parámetro controla si la IOPS esperada disponible para el volumen se basa en el tamaño asignado o utilizado del volumen. En Keystone, se basa en el espacio asignado.</block>
+  <block id="14d0dc302a669d6a99952e49afc7861a" category="list-text">*Asignación de IOPS pico*: Este parámetro controla si el valor máximo de IOPS disponible para el volumen se basa en el tamaño asignado o utilizado del volumen. En Keystone, se basa en el espacio usado.</block>
+  <block id="783d230c76cf1ff0dfbc8c98d7a8b01c" category="paragraph">Keystone STaaS ofrece capacidad de almacenamiento de datos a niveles de servicio de rendimiento (niveles de servicio) predefinidos conforme a una suscripción. Cada volumen gestionado por los servicios de Keystone se asocia con un nivel de servicio.</block>
+  <block id="4d5ef2163c192509afec8de9ab79da82" category="paragraph">Cada nivel de servicio está definido por su densidad de I/O, que es IOPS/TiB/volumen. Esta es la proporción de rendimiento (operaciones de entrada/salida por segundo [IOPS]) y la capacidad de almacenamiento utilizada (TiB), que es IOPS/TiB con una latencia media por volumen.</block>
+  <block id="46d655df10f0a99ca8d68059cbb399d8" category="paragraph">Aquí se enumeran los niveles de servicio para los tipos de almacenamiento admitidos, archivos, bloques, objetos y servicios cloud.</block>
+  <block id="c5164a8ba9242ffd5faec20d25175dbe" category="section-title">Niveles de servicio para el almacenamiento de archivos y bloques</block>
+  <block id="55b9320c8c3c184ea9542aa4a82ecd70" category="cell">*Máximo IOPS/TIBs lógicos asignados por volumen*</block>
+  <block id="2951c92ac7129eb5950ee23f07140f99" category="cell">*Máximo Mbps/TIBs lógicos almacenados por volumen a 32K B/S*</block>
+  <block id="2fab0c2c1260d4eab832ce495d9a945f" category="cell">1 ms</block>
+  <block id="084351f847be6c607173d4bf38542f71" category="cell">2 ms</block>
+  <block id="f694c7926734a582b5156c24b9e7b563" category="cell">4 ms</block>
+  <block id="f43c7285b135d5fc56405612d8c6e970" category="cell">17 ms</block>
+  <block id="d6b228a8ed209a51c109dc08e1f357ce" category="cell">*Tamaño del bloque*</block>
+  <block id="333ed6369ef878defe6b851fcb7a250f" category="section-title">Más información sobre niveles de servicio para el almacenamiento de archivos y bloques</block>
+  <block id="c4701e06633afc0b1161fbc6049cc803" category="paragraph">Las métricas de nivel de servicio dependen de las siguientes condiciones:</block>
+  <block id="210b39d4b6b8c3231fc8e5027adff975" category="list-text">Los niveles de servicio del almacenamiento de archivos y bloques son compatibles con ONTAP 9,7 y versiones posteriores.</block>
+  <block id="5d743a4a8a32b74983387e8966fc8dfd" category="list-text">Los valores de IOPS/TiB/volumen, MBps/TiB/volumen y latencia para los niveles de servicio se basan en la cantidad de datos almacenados en el volumen, el tamaño de bloque de 32KB KB y una combinación aleatoria de operaciones de I/O de lectura al 70 % y 30 % de escritura.</block>
+  <block id="1ce7cadb42fda63031710acdb1e36d13" category="list-text">Las operaciones de IOPS/TiB/volumen reales y MBps/TiB/volumen pueden variar en función del tamaño de bloque real o asumido, la concurrencia de la carga de trabajo del sistema o las operaciones de entrada y salida.</block>
+  <block id="58ec0dfd62f9630c9b479a35a8b38962" category="list-text">La latencia no incluye lo siguiente:</block>
+  <block id="e777748ce6788629275890358373ad33" category="list-text">latencia de aplicaciones o host</block>
+  <block id="303d588a44f75e97197277df23fe31a6" category="list-text">latencia de red del cliente hacia o desde los puertos de la controladora</block>
+  <block id="66da45e9c280e17b214fda19697e0c52" category="list-text">Costes generales asociados a la transferencia de datos al almacén de objetos, en caso de FabricPool</block>
+  <block id="0fd1f337932287ae81d08c74974e8e88" category="list-text">La calidad de servicio aplica automáticamente la latencia para mantener el I/O dentro de los máximos niveles de servicio</block>
+  <block id="85bc0e8522deb39494936f2ff6c542e4" category="list-text">Los valores de latencia no son aplicables a las operaciones de escritura de MetroCluster. Estas operaciones de escritura dependen de la distancia de los sistemas remotos.</block>
+  <block id="7f3016a798d65c7f0d25cbde5e2c95b6" category="list-text">Si uno o varios volúmenes de un sistema de almacenamiento no tienen asignada una política de calidad de servicio, estos volúmenes se consideran como volúmenes que no cumplen las normativas y no son aplicables a dichos sistemas.</block>
+  <block id="d292740ed171285325a91f3bddbbc59d" category="list-text">_Expected IOPS_ está dirigido a FabricPool solo si la política de organización en niveles se establece en «ninguno» y no hay bloques en el cloud. _Expected IOPS_ se dirige a volúmenes que no están en una relación de SnapMirror síncrona.</block>
+  <block id="acad586f6e3c240e49bc22095d3d4c92" category="list-text">Las operaciones de I/O de carga de trabajo deben equilibrarse en todas las controladoras puestas en marcha, según lo determine el orden de Keystone.</block>
+  <block id="e6329950dc4e8e2123e22d6e9b5d6db8" category="inline-image-macro">pila de management</block>
+  <block id="385cf44e2725480b6b1fff1e85799b05" category="paragraph"><block ref="385cf44e2725480b6b1fff1e85799b05" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f8756595ddc69be34b9cf62194af80bc" category="inline-image-macro">imagen que muestra la reducción de capacidad</block>
+  <block id="c0674564129b3d9a1c0017000c9073f2" category="paragraph"><block ref="c0674564129b3d9a1c0017000c9073f2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0238a1ac6070262da13eddc5a79f01a9" category="inline-image-macro">cómo se asigna el gasto</block>
+  <block id="afab5545c10451e1f3a9804afc7c00ed" category="paragraph"><block ref="afab5545c10451e1f3a9804afc7c00ed" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="41220b85d8467c5822466b54e2f77fdf" category="inline-image-macro">pestaña detalles de suscripción</block>
+  <block id="3863c999fd2904d6bd45c5fac0637857" category="paragraph"><block ref="3863c999fd2904d6bd45c5fac0637857" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="baec6461b0d69dde1b861aefbe375d8a" category="inline-image-macro">.</block>
+  <block id="f25b159b1158ec16d19a7bbad6cec289" category="list-text"><block ref="435e416487181a998706b8fd7ece7b01" category="inline-image-macro-rx" type="image"></block>: Al hacer clic en este icono se abre la ficha *serie de tiempo de suscripción*, donde puede ver los datos de uso históricos de cada nivel de servicio incluido en esta suscripción</block>
+  <block id="0e25c249c47d5b9cd3933dea0b0e9bfb" category="paragraph">Para ver más detalles, haga clic en la flecha hacia abajo de un registro de suscripción. En TIB, se muestran detalles, como el nombre del nivel de servicio, el compromiso, el consumo, las capacidades disponibles y el uso de ráfaga actual y acumulado.</block>
+  <block id="3a6fffe4877ca42144b232cb74b25c92" category="admonition">Se destacan niveles de servicio específicos que registran un consumo superior. También se pueden ver las advertencias y alertas generadas para los volúmenes.</block>
+  <block id="c86f468c0d26a49f12de126ed6868cbe" category="paragraph"><block ref="c86f468c0d26a49f12de126ed6868cbe" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="afcefd303655b7f65e49ebd8be60e0e7" category="inline-image-macro">icono de punto gris</block>
+  <block id="c0ffa381f5b727ea5de2afacc2018783" category="inline-image-macro">icono de punto verde</block>
+  <block id="f17cd43b9cda36a4b4fad09a0d2aab75" category="inline-image-macro">icono de punto ámbar</block>
+  <block id="f9f0c63a81657ad2d480fa16a33c0531" category="inline-image-macro">icono de punto rojo</block>
+  <block id="7d7d26ff83eab48a85cd445cd29bab2e" category="inline-image-macro">icono de punto morado</block>
+  <block id="134efb003c0c77dd5b7268102437409d" category="paragraph"><block ref="52273d64c65862ef424a47885fe81b01" category="inline-image-macro-rx" type="image"></block>: No se ha registrado ningún uso de la capacidad con respecto a la capacidad comprometida del nivel de servicio<block ref="d72ea1f055275eb6c806c044808270ee" category="inline-image-macro-rx" type="image"></block>: El consumo es normal, dentro del 80% de la capacidad comprometida<block ref="26b60b3bc680636be1bff71d9158314a" category="inline-image-macro-rx" type="image"></block>: Consumo máximo, es decir, el uso está a punto de alcanzar el 100% o más de la capacidad comprometida. La columna *consumido* muestra este indicador para cualquier consumo superior al 80% de la capacidad comprometida<block ref="25206057152159ddc0d0e53262070870" category="inline-image-macro-rx" type="image"></block>: El consumo está dentro del límite de ráfaga. El consumo en ráfaga es el consumo que supera el 100% de capacidad comprometida de un nivel de servicio, y se encuentra dentro del límite de uso acordado en ráfaga, como el 120%<block ref="49884f5051327fb7a920e2ee64178452" category="inline-image-macro-rx" type="image"></block>: Indica un consumo superior al límite de ráfaga estipulado</block>
+  <block id="ce124e8ce85a3b9897dfa2dbf4b6dd2e" category="section-title">Ver gráficos de datos de suscripción históricos</block>
+  <block id="abc995760236584824b9e9fb494224ef" category="admonition">Para obtener un rendimiento óptimo y una experiencia de usuario, limite el rango de fechas de la consulta a tres meses o menos.</block>
+  <block id="2d4b4ef84378e8e4f4407057e45d3b8b" category="list-text">Haga clic en *Ver detalles*. Los datos de consumo históricos de la suscripción para cada nivel de servicio se muestran en función del intervalo de tiempo seleccionado. Puede pasar el cursor del ratón por encima de los gráficos para ver el desglose de uso en términos de datos comprometidos, consumidos, en ráfaga y por encima del límite de ráfaga en ese punto.</block>
+  <block id="0822b24d655ec1572b18a2ff17d3ea35" category="inline-image-macro">ficha serie temporal</block>
+  <block id="c146cff58b20f1e3ad6a2139acf308cc" category="paragraph"><block ref="c146cff58b20f1e3ad6a2139acf308cc" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e8f49e2b6da7339d918b4030b299167c" category="admonition">Según el rango de fechas de la consulta, los gráficos de uso se muestran en un rango de 30 puntos de recopilación de datos.</block>
+  <block id="793c1a98e090ba1b0f167e3a8b0c5b37" category="paragraph">Se muestran los detalles del volumen. Puede desplazarse por las columnas y obtener más información al pasar el ratón por los iconos de información situados junto a los encabezados de las columnas. Puede ordenar por las columnas y filtrar las listas para ver información específica.</block>
+  <block id="8bb44c11261c5988fa7a0b17c52ecf8a" category="admonition">Puede copiar números de serie de nodos individuales haciendo clic en el botón *Copiar series de nodos*.</block>
+  <block id="0bb9d5f8cc89f1784aecd52a98b80f07" category="inline-image-macro">pestaña detalles del sistema</block>
+  <block id="8b672bec07d1efa43e526f4981ffb4e7" category="paragraph"><block ref="8b672bec07d1efa43e526f4981ffb4e7" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="71f95b1426db5071da237d6bf6575ce7" category="inline-image-macro">Ventana emergente de StorageGRID</block>
+  <block id="01fbf3b3ab73f44b8a4319cd449a0e34" category="paragraph"><block ref="01fbf3b3ab73f44b8a4319cd449a0e34" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="758fb921b8f7f93b9953a0fbc2d3fb44" category="paragraph"><block ref="758fb921b8f7f93b9953a0fbc2d3fb44" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="673f6d6dd1bd7cf996e745b008b601ea" category="inline-image-macro">icono de descarga de informe</block>
+  <block id="7767eafc8f9b1e0dc39313a5621976b3" category="paragraph">Puede generar y ver informes para los detalles de su suscripción, datos de uso históricos de un intervalo de tiempo y detalles del sistema desde cada una de las pestañas haciendo clic en el botón de descarga: <block ref="8dec166a4f6cf96a41e44a339dcc6d98" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="4789923a07d70bc200da1637f48b083c" category="inline-image-macro">csv del informe</block>
+  <block id="8546ab2b8d3bedbd693707d07fe7de14" category="paragraph"><block ref="8546ab2b8d3bedbd693707d07fe7de14" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="7ed21143076d0cca420653d4345baa2f" category="inline-image-macro">alerta</block>
+  <block id="c5353e1a31b3a925fabe61c02b5bfc5e" category="paragraph"><block ref="c5353e1a31b3a925fabe61c02b5bfc5e" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>

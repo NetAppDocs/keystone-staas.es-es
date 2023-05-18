@@ -23,4 +23,4 @@ Keystone Collector es el componente de adquisición de uso de la plataforma de f
 
 Este diagrama de arquitectura describe los componentes constituyentes y su conectividad en un entorno Keystone típico.
 
-image:collector-arch.png[""]
+image:collector-arch.png["arquitectura de recopilador"]

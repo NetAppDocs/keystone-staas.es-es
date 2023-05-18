@@ -40,7 +40,7 @@ Instalación y tareas relacionadas
 * Puesta en marcha
 * Integradas
 
-| image:check.png[""] | Ninguno 
+| image:check.png["marca de verificación"] | Ninguno 
 
 
  a| 
@@ -51,7 +51,7 @@ Administración y supervisión
 * Realizar tareas administrativas
 * Alerta
 
-| Ninguno | image:check.png[""] 
+| Ninguno | image:check.png["marca de verificación"] 
 
 
  a| 
@@ -61,7 +61,7 @@ Operaciones y optimización
 * Gestión del rendimiento
 * Administrar SLA
 
-| Ninguno | image:check.png[""] 
+| Ninguno | image:check.png["marca de verificación"] 
 
 
  a| 
@@ -72,6 +72,6 @@ Soporte técnico
 * Soporte de software
 * Actualizaciones y parches
 
-| image:check.png[""] | Ninguno 
+| image:check.png["marca de verificación"] | Ninguno 
 |===
 Para obtener más información sobre la implementación, consulte link:../concepts/infra.html["Infraestructura Keystone"] y.. link:..//concepts/components.html["Componentes para puesta en marcha"].

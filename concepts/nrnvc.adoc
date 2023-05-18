@@ -36,4 +36,4 @@ Si ha adquirido este servicio, tenga en cuenta lo siguiente:
 
 La tecnología SnapLock habilita la función NRNVC para que la unidad no sea utilizable tras la fecha de caducidad establecida en el volumen. Para utilizar la tecnología SnapLock en sus volúmenes, debe suscribirse a NRNVC. Esto solo se aplica a los servicios de archivos y bloques.
 
-Para obtener más información sobre la tecnología SnapLock, consulte https://docs.netapp.com/us-en/ontap/snaplock/snaplock-concept.html["Qué es SnapLock"].
+Para obtener más información sobre la tecnología SnapLock, consulte https://["Qué es SnapLock"].
