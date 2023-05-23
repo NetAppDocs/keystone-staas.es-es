@@ -23,7 +23,7 @@ La puesta en marcha de Keystone Collector en sistemas VMware vSphere incluye la 
 Siga estos pasos:
 
 .Pasos
-. Descargue el archivo OVA desde https://[] Y almacénelo en su sistema VMware vSphere.
+. Descargue el archivo OVA desde https://keystone.netapp.com/downloads/KeystoneCollector-latest.ova[] Y almacénelo en su sistema VMware vSphere.
 . En su sistema VMware vSphere, desplácese a la vista *VMs and Templates*.
 . Haga clic con el botón derecho del ratón en la carpeta necesaria para la máquina virtual (VM) (o el centro de datos, si no utiliza carpetas de VM) y seleccione *implementar plantilla OVF*.
 . En _Paso 1_ del asistente *implementar plantilla OVF*, haga clic en *Seleccionar y plantilla OVF* para seleccionar la descarga `KeystoneCollector-latest.ova` archivo.
@@ -32,7 +32,7 @@ Siga estos pasos:
 . En _Paso 4: Revise los detalles_, verifique la corrección y autenticidad del archivo OVA. El nombre del producto debe aparecer como _NetApp Keystone Collector_.image:ova-deploy.png["IU de ova"]VCentre valida la integridad del contenido del archivo OVA y que se proporciona un resumen de firma de código válido para los archivos contenidos en el archivo OVA. Sin embargo, no valida la autenticidad del certificado de firma de código. Para verificar la integridad, debe descargar el certificado de resumen de firma completo y verificarlo con el certificado público publicado por Keystone. Siga estos pasos:
 +
 .. Haga clic en el enlace *Publisher* para descargar el certificado de resumen de firma completo.
-.. Descargue el certificado público _Keystone Billing_: https://[].
+.. Descargue el certificado público _Keystone Billing_: https://keystone.netapp.com/downloads/OVA-SSL-NetApp-Keystone-20221101.pem[].
 .. Compruebe la autenticidad del certificado de firma OVA en el certificado público mediante OpenSSL:
 `openssl verify -CAfile OVA-SSL-NetApp-Keystone-20221101.pem keystone-collector.cert`
 

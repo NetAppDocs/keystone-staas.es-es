@@ -24,6 +24,6 @@ Para ello, debe crear una o más cuentas de BlueXP y vincularlas con su cuenta d
 
 Para obtener más información sobre Keystone y BlueXP, consulte los siguientes enlaces en los documentos de BlueXP:
 
-* https://["Suscripción a Keystone"^]
-* https://["Gestione suscripciones de Keystone"^]
+* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensing.html#keystone-flex-subscription["Suscripción a Keystone"^]
+* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-manage-keystone.html["Gestione suscripciones de Keystone"^]
 

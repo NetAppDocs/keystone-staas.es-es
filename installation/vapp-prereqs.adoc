@@ -206,29 +206,29 @@ Keystone Collector necesita acceder a los siguientes hosts de Internet:
 
 
  a| 
-https://[]
+https://keystone.netapp.com[]
  a| 
 Informes de uso y actualizaciones del software Keystone Collector
 
 
 
  a| 
-https://[]
+https://support.netapp.com[]
  a| 
 Sede central de NetApp para la información de facturación y entrega de AutoSupport
 
 
 
  a| 
-https://[]
-https://[]
+https://mirror.centos.org[]
+https://mirrorlist.centos.org[]
  a| 
 Actualizaciones del sistema operativo para Keystone Collector (solo puestas en marcha de OVA)
 
 
 
  a| 
-https://[]
+https://repo.mysql.com[]
  a| 
 Descargar y actualizar dependencias de MySQL (solo para implementaciones de Linux)
 
