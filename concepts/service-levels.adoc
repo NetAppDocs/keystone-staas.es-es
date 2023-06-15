@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: concepts/service-levels.html 
-keywords: service levels, service level 
+keywords: service levels, service level, rate plan or service level 
 summary: Niveles de servicio compatibles 
 ---
 = Niveles de servicio en Keystone
@@ -15,6 +15,8 @@ summary: Niveles de servicio compatibles
 
 [role="lead"]
 Keystone STaaS ofrece capacidad de almacenamiento de datos a niveles de servicio de rendimiento (niveles de servicio) predefinidos conforme a una suscripción. Cada volumen gestionado por los servicios de Keystone se asocia con un nivel de servicio.
+
+Una suscripción puede tener varios planes de tarifas y cada plan de tarifas corresponde a un nivel de servicio. Cada plan de tarifas tiene una capacidad comprometida por nivel de servicio.
 
 Cada nivel de servicio está definido por su densidad de I/O, que es IOPS/TiB/volumen. Esta es la proporción de rendimiento (operaciones de entrada/salida por segundo [IOPS]) y la capacidad de almacenamiento utilizada (TiB), que es IOPS/TiB con una latencia media por volumen.
 
