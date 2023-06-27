@@ -20,7 +20,9 @@ Una suscripción puede tener varios planes de tarifas y cada plan de tarifas cor
 
 Cada nivel de servicio está definido por su densidad de I/O, que es IOPS/TiB/volumen. Esta es la proporción de rendimiento (operaciones de entrada/salida por segundo [IOPS]) y la capacidad de almacenamiento utilizada (TiB), que es IOPS/TiB con una latencia media por volumen.
 
-Aquí se enumeran los niveles de servicio para los tipos de almacenamiento admitidos, archivos, bloques, objetos y servicios cloud.
+Usted selecciona los niveles de servicio en función del entorno de almacenamiento y las necesidades de almacenamiento y consumo. De forma predeterminada, los niveles de servicio básicos están disponibles. Además, hay disponibles niveles de servicio específicos, en caso de que haya optado por servicios complementarios. Por ejemplo, para el servicio complementario de protección de datos avanzada, el nivel de servicio _Advanced Data-Protect_ se asigna a su suscripción.
+
+Aquí se enumeran los niveles de servicio básicos para los tipos de almacenamiento admitidos, archivos, bloques, objetos y servicios cloud.
 
 
 
@@ -55,7 +57,7 @@ Aquí se enumeran los niveles de servicio para los tipos de almacenamiento admit
 
 === Más información sobre niveles de servicio para el almacenamiento de archivos y bloques
 
-Las métricas de nivel de servicio dependen de las siguientes condiciones:
+Las métricas de nivel de servicio básico dependen de las siguientes condiciones:
 
 * Los niveles de servicio del almacenamiento de archivos y bloques son compatibles con ONTAP 9,7 y versiones posteriores.
 * Los valores de IOPS/TiB/volumen, MBps/TiB/volumen y latencia para los niveles de servicio se basan en la cantidad de datos almacenados en el volumen, el tamaño de bloque de 32KB KB y una combinación aleatoria de operaciones de I/O de lectura al 70 % y 30 % de escritura.
