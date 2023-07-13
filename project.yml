@@ -69,6 +69,8 @@ sidebar:
       url: "/concepts/qos.html"
     - title: Requisitos de capacidad para niveles de servicio
       url: "/concepts/capacity-requirements.html"
+    - title: Niveles de servicio de acuerdo de nivel de servicio de sostenibilidad
+      url: "/concepts/sla-sustainability.html"
   - title: Facturación
     entries:
     - title: Precios Keystone

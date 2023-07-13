@@ -1,0 +1,95 @@
+---
+sidebar: sidebar 
+permalink: concepts/sla-sustainability.html 
+keywords: sustainability, sla, service level agreement, 
+summary: sostenibilidad, sla, acuerdo de nivel de servicio 
+---
+= Acuerdo de nivel de servicio de sostenibilidad para Keystone
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+STaaS de NetApp Keystone proporciona niveles de servicio de sostenibilidad respaldados por un acuerdo de nivel de servicio que definen los vatios/TiB máximos consumidos por nivel de servicio para ayudarle a planificar, supervisar y cumplir sus objetivos de SOSTENIBILIDAD TECNOLÓGICA.
+
+
+
+== Métricas de sostenibilidad
+
+Las siguientes métricas se utilizan para definir y medir la sostenibilidad:
+
+* Vatios: El consumo de alimentación diario de las cabinas ONTAP AFF A-Series y las bandejas SSD conectadas.
+* TiB: El mayor de:
++
+** la capacidad comprometida y la capacidad de ráfaga asignada para el nivel de servicio o.
+** la capacidad puesta en marcha efectiva, asumiendo un factor de eficiencia del almacenamiento de dos. Para obtener más información sobre la tasa de eficiencia del almacenamiento, consulte https://docs.netapp.com/us-en/active-iq/concept_overview_storage_efficiency.html["Comprender la eficiencia del almacenamiento"^].
+
+
+
+
+
+
+== Niveles de servicio de sostenibilidad
+
+En la siguiente tabla se resumen los niveles de servicio de sostenibilidad: Extremo, Premium y Rendimiento:
+
+|===
+
+
+| *Nivel de servicio* | *Criterios SLA* | *Capacidad mínima comprometida* | *Plataforma* 
+
+
+ a| 
+Extremo
+| <=8 vatios/TiB | 200 TiB | AFF A800 y AFF A900 
+
+
+ a| 
+Premium
+| <=4 vatios/TiB | 300 TiB | AFF A800 y AFF A900 
+
+
+ a| 
+Rendimiento
+| <=4 vatios/TiB | 300 TiB | AFF A800 y AFF A900 
+|===
+
+
+== Criterios de cumplimiento de los acuerdos de nivel de servicio de sostenibilidad
+
+Las suscripciones de STaaS de Keystone que cumplan los siguientes criterios pueden optar a los acuerdos de nivel de servicio:
+
+* Suscripciones STaaS de Keystone estándar y no personalizadas con un único nivel de servicio, facturadas mensualmente al finalizar el periodo.
+* Pueden optar las suscripciones con los siguientes niveles de servicio: Niveles de servicio Extreme, Premium y Performance.
+* Configuraciones de hardware sostenibles de Keystone de referencia sin personalizar, que constan de:
++
+** Cabinas de almacenamiento ONTAP AFF A-Series, por ejemplo, NetApp AFF A900 o la plataforma de almacenamiento all-flash AFF A800. Para obtener más información, consulte https://www.netapp.com/data-storage/aff-a-series["AFF a-Series"^].
+** Clúster de dos nodos sin switches.
+Las configuraciones de mezcla y MetroCluster no son compatibles.
+
+
+* Keystone utiliza datos de telemetría de AutoSupport y el mecanismo de transporte para recopilar datos de sostenibilidad. AutoSupport debe estar habilitado y operativo en todas las cabinas de almacenamiento de ONTAP AFF. Para obtener más información, consulte https://docs.netapp.com/us-en/active-iq/concept_autosupport.html["AutoSupport"^].
+* Los datos almacenados deben alcanzar un factor medio de eficiencia del almacenamiento mínimo de dos.
+* La temperatura ambiente de funcionamiento debe estar entre 25 °C y 27 °C.
+* Se debe cumplir la capacidad comprometida mínima por nivel de servicio.
+
+
+
+
+== Informes de sostenibilidad
+
+La pestaña SLA del panel del asesor digital de Active IQ (asesor digital) Keystone ofrece una vista detallada de las métricas de sostenibilidad para tus suscripciones a Keystone. Puede ver las métricas y generar informes para futuras acciones y análisis.
+
+Para obtener más información sobre la consola y la generación de informes de Keystone, consulte link:../integrations/aiq-keystone-details.html["Panel de suscripción de Keystone e informes"].
+
+
+
+== Créditos de servicios de sostenibilidad
+
+Si el consumo de vatios/TiB supera o no cumple los criterios especificados en el SLA para un nivel de servicio, NetApp ofrece un pago de crédito de servicio por las diferencias registradas durante el período de facturación, para todas las suscripciones admisibles. Si no se cumplen las métricas de SLA de nivel de servicio, póngase en contacto con el Centro de soporte de servicios globales de NetApp (GSSC) a más tardar una semana antes del final del mes de servicio Al determinar el incumplimiento del nivel de servicio, los créditos se calculan en función de la capacidad comprometida del nivel de servicio y se acreditan con la factura del mes siguiente.
+
+Para obtener más información, consulte link:../concepts/gssc.html["Centro de soporte de servicios globales de NetApp"].

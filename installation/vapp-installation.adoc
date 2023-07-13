@@ -32,7 +32,7 @@ Siga estos pasos:
 . En _Paso 4: Revise los detalles_, verifique la corrección y autenticidad del archivo OVA.
 Las versiones de vCentre anteriores a 7.0u2 no pueden verificar automáticamente la autenticidad del certificado de firma de código. VCentre 7.0u2 y posteriores pueden realizar las verificaciones, sin embargo, para esto, la autoridad de certificación de firma debe añadirse a vCentre. Siga estas instrucciones para su versión de vCentre:
 +
-.VCentre 7.0u1 y anteriores: Haga clic aquí
+.VCentre 7.0u1 y anteriores: Más información
 [%collapsible]
 ====
 VCentre valida la integridad del contenido del archivo OVA y que se proporciona un resumen de firma de código válido para los archivos contenidos en el archivo OVA. Sin embargo, no valida la autenticidad del certificado de firma de código. Para verificar la integridad, debe descargar el certificado de resumen de firma completo y verificarlo con el certificado público publicado por Keystone.
@@ -45,7 +45,7 @@ VCentre valida la integridad del contenido del archivo OVA y que se proporciona 
 
 ====
 +
-.VCentre 7.0u2 y posterior: Haga clic aquí
+.VCentre 7.0u2 y posteriores: Más información
 [%collapsible]
 ====
 7.0u2 y las versiones posteriores de vCenter pueden validar la integridad del contenido del archivo OVA y la autenticidad del certificado de firma de código cuando se proporciona un resumen de firma de código válido. El almacén de confianza raíz de vCenter solo contiene certificados de VMware. NetApp utiliza Entrust como autoridad certificadora, y dichos certificados deben agregarse al almacén de confianza de vCenter.

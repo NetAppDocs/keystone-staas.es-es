@@ -20,7 +20,7 @@ Keystone recopila información de configuración, estado y uso para sus suscripc
 
 == Recogida de datos de ONTAP
 
-.<strong>Datos de uso recopilados para ONTAP: Haga clic en el botón </strong>
+.<strong>Datos de uso recopilados para ONTAP: Learn more</strong>
 [%collapsible]
 ====
 La siguiente lista es un ejemplo representativo de los datos de consumo de capacidad recogidos para ONTAP:
@@ -198,7 +198,7 @@ La siguiente lista es un ejemplo representativo de los datos de consumo de capac
 
 
 ====
-.<strong>Performance data collected for ONTAP: Haga clic en here</strong>
+.<strong>Datos de rendimiento recopilados para ONTAP: Más información sobre </strong>
 [%collapsible]
 ====
 La siguiente lista es un ejemplo representativo de los datos de rendimiento recogidos para ONTAP:
@@ -247,7 +247,7 @@ La siguiente lista es un ejemplo representativo de los datos de rendimiento reco
 
 
 ====
-.<strong>Lista de elementos eliminados al limitar el acceso privado a los datos: Haga clic en </strong>
+.<strong>Lista de elementos eliminados al limitar el acceso privado a los datos: Learn more</strong>
 [%collapsible]
 ====
 Cuando la opción *Eliminar datos privados* está activada en Keystone Collector, se elimina la siguiente información de uso para ONTAP. Esta opción está habilitada de forma predeterminada.
@@ -275,7 +275,7 @@ Cuando la opción *Eliminar datos privados* está activada en Keystone Collector
 
 == Recogida de datos de StorageGRID
 
-.<strong>Datos de uso recopilados para StorageGRID: Haga clic en el botón </strong>
+.<strong>Datos de uso recopilados para StorageGRID: Learn more</strong>
 [%collapsible]
 ====
 La siguiente lista es un ejemplo representativo de `Logical Data` Recopilado para StorageGRID:
@@ -301,7 +301,7 @@ La siguiente lista es un ejemplo representativo de `Physical Data` Recopilado pa
 
 
 ====
-.<strong>Lista de elementos eliminados al limitar el acceso privado a los datos: Haga clic en </strong>
+.<strong>Lista de elementos eliminados al limitar el acceso privado a los datos: Learn more</strong>
 [%collapsible]
 ====
 Cuando la opción *Eliminar datos privados* está activada en Keystone Collector, se elimina la siguiente información de uso para StorageGRID. Esta opción está habilitada de forma predeterminada.
