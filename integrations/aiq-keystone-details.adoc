@@ -200,16 +200,16 @@ Si los clústeres de su entorno de almacenamiento de ONTAP se configuran en una 
 NOTE: Los gráficos de barras de consumo se dividen sólo para los niveles de servicio básicos. Para el servicio adicional de protección de datos avanzada, es decir, el nivel de servicio _Advanced Data-Protect_, esta demarcación no aparece.
 
 .Nivel de servicio de protección de datos avanzada
-Para el nivel de servicio _Advanced Data-Protect_, el consumo total se divide entre los sitios del partner y el uso de cada sitio del partner se refleja y se factura en una suscripción independiente, es decir, una suscripción para el sitio principal y otra para el sitio de mirroring. Por eso, cuando selecciona el número de suscripción para el sitio principal en la pestaña *Serie de tiempo*, los gráficos de consumo para el servicio complementario de protección de datos avanzada muestran los detalles de consumo discreto solo para el sitio principal. Dado que cada sitio asociado de una configuración MetroCluster actúa como origen y mirroring, el consumo total de cada sitio incluye los volúmenes de origen y de reflejo creados en dicho sitio.
+Para el nivel de servicio _Advanced Data-Protect_, el consumo total se divide entre los sitios de partner y el uso de cada sitio de partner se refleja y se factura en una suscripción independiente, una suscripción para el sitio principal y otra para el sitio de mirroring. Esa es la razón por la que, cuando selecciona el número de suscripción para el sitio principal en la pestaña *Serie de tiempo*, los gráficos de consumo para el servicio complementario de protección de datos avanzada muestran los detalles de consumo discreto solo del sitio principal. Dado que cada sitio asociado de una configuración MetroCluster actúa tanto como origen como mirroring, el consumo total de cada sitio incluye los volúmenes de origen y de mirroring creados en dicho sitio.
 
 
-TIP: La información sobre herramientas junto al ID de tacking de tu suscripción en la pestaña *Detalles de la suscripción* te ayuda a identificar la suscripción de socio en la configuración de MetroCluster.
+TIP: La información sobre herramientas junto al ID de seguimiento de tu suscripción en la pestaña *Detalles de la suscripción* te ayuda a identificar la suscripción de socio en la configuración de MetroCluster.
 
 .Niveles de servicio básicos
-Para los niveles de servicio básicos, cada volumen se carga según se aprovisiona en los sitios primario y de mirroring, y, por lo tanto, se divide el mismo gráfico de barras según el consumo en los sitios primario y de mirroring.
+Para los niveles de servicio básicos, cada volumen se carga según el aprovisionado en los sitios primario y de mirroring, y, por lo tanto, el mismo gráfico de barras se divide según el consumo en los sitios primario y de mirroring.
 
 .Lo que puede ver para la suscripción principal
-La siguiente imagen muestra los gráficos para el nivel de servicio _Extreme_ (nivel de servicio base) y un número de suscripción principal. El mismo gráfico de serie temporal marca el consumo del sitio del espejo en un tono más claro del código de color utilizado para el sitio principal. La información de herramienta al pasar el ratón muestra el desglose de consumo (en TiB) para los sitios principales y de mirroring, 1,02 TiB y 1,05 TiB, respectivamente.
+La siguiente imagen muestra los gráficos para el nivel de servicio _Extreme_ (nivel de servicio base) y un número de suscripción principal. El gráfico de la misma serie temporal también indica el consumo del sitio de réplica en un tono más claro del mismo código de color utilizado para el sitio principal. La información sobre herramientas al pasar el ratón muestra el desglose de consumo (en TiB) para los sitios principales y de reflejo, 1,02 TiB y 1,05 TiB respectivamente.
 
 image:mcc-chart.png["mcc primario"]
 
