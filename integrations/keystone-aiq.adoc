@@ -14,12 +14,42 @@ summary: Keystone y asesor digital
 
 
 [role="lead"]
-Si se ha suscrito a los servicios de NetApp Keystone, puede ver sus informes de uso y gráficos en el panel de control del asesor digital (asesor digital) de Active IQ.
+Si te has suscrito a los servicios STaaS de NetApp Keystone, obtienes una descripción general de tus suscripciones en el widget *Suscripciones Keystone* del panel del asesor digital (asesor digital) de Active IQ.
 
-El asesor digital le permite ver detalles de almacenamiento como servicio (STaaS) e información sobre la infraestructura de NetApp que usted posee. Digital Advisor ofrece un único panel con visibilidad de sus suscripciones, niveles de servicio y uso de la capacidad, además de la posibilidad de crear informes detallados.
+Digital Advisor ofrece un panel de control unificado que proporciona información sobre varios niveles de los datos de suscripción y la información de uso a través del botón * Cambiar a un panel de control antiguo / nuevo *.
+
+.Consola predeterminada (antigua)
+Puede ver el número de suscripción, el nombre de su cuenta, las fechas de inicio y finalización de la suscripción y los gráficos de uso de la capacidad según sus niveles de servicio suscritos.
+
+image:old-db.png["consola antigua"]
+
+.Panel de control alternativo (nuevo)
+Puede ver el desglose del uso de la capacidad en función de sus suscripciones, y advertencias y alertas que requieren atención o acción inmediatas. La información aparece selectivamente, dependiendo de sus suscripciones y el estado de su uso. Puede ver esta información:
+
+* Uso de capacidad, como:
++
+** Sin uso.
+** Consumo superior al 80 % de la capacidad comprometida.
+** Uso en ráfaga.
+** Consumos superiores a la capacidad aumentada.
+
+
+* Acuerdo de nivel de servicio: Si las suscripciones cumplen con los objetivos de sostenibilidad definidos en su Acuerdo de nivel de servicio (SLA). Si sus suscripciones cumplen los criterios de SLA, puede ver el estado como _ALL OK_.
+* Se muestran advertencias diversas si son aplicables a usted.
++
+** *Venciendo pronto*: En caso de que tus suscripciones venzan dentro de los 90 días.
+** *Actualizaciones críticas de hardware*: Si hay actualizaciones críticas de hardware pendientes.
+** *Advertencias AQoS*: Tienes volúmenes sin políticas AQoS asignadas.
++
+
+TIP: Haga clic en el enlace *Suscripciones* para ver la lista de suscripciones filtradas en la pestaña *Suscripciones*.
+
+
+
+
+
+image:new-db.png["nueva consola"]
 
 Si desea obtener más información sobre el widget Digital Advisor de Keystone, consulte https://docs.netapp.com/us-en/active-iq/view_keystone_capacity_utilization.html["Documentación de Digital Advisor"^].
 
 Para obtener más información sobre la consola y la generación de informes de Keystone, consulte link:../integrations/aiq-keystone-details.html["Panel de suscripción de Keystone e informes"].
-
-Para obtener más información sobre el flujo de datos, consulte link:../concepts/infra.html["Herramientas de supervisión"].
