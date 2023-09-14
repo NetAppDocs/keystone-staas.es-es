@@ -82,7 +82,7 @@ NOTE: Al completar la puesta en marcha, puede usar la utilidad Keystone Collecto
 
 . Abra una sesión SSH al servidor Keystone Collector. Al iniciar sesión, aparece la TUI. Como alternativa, puede iniciar la TUI manualmente ejecutando el `keystone-collector-tui` Comando de la CLI.
 . Si es necesario, configure los detalles del proxy en la sección *Configuración > Red* de la TUI.
-. Actualice el recopilador mediante la opción *Mantenimiento > Actualizar sistema*. Es posible que algunos reflejos seleccionados no estén disponibles y los detalles del sistema se actualizan después de varios intentos.
+. Actualice Keystone Collector mediante la opción *Mantenimiento > Actualizar sistema*. Es posible que algunos reflejos seleccionados no estén disponibles y los detalles del sistema se actualizan después de varios intentos.
 . Configure el nombre de host del sistema, la ubicación y el servidor NTP en la sección *Configuración > sistema*.
 . Actualice la contraseña de administrador en la sección *Mantenimiento > Usuario*.
 . Marque la configuración inicial del OVA como completada en la sección *Configuración > Avanzado*.

@@ -73,3 +73,31 @@ Limitar la recogida de datos específicos del cliente es una opción configurabl
 image:tui-4.png["pantalla tui"]
 
 Para obtener más información acerca de los elementos eliminados sobre la limitación del acceso a datos privados tanto en ONTAP como en StorageGRID, consulte link:../installation/data-collection.html["Lista de elementos eliminados al limitar el acceso a datos privados"].
+
+
+
+== Confíe en una CA raíz personalizada
+
+La verificación de certificados con una entidad de certificación raíz pública (CA) forma parte de las funciones de seguridad de Keystone Collector. Sin embargo, si es necesario, puede configurar Keystone Collector para que confíe en una CA raíz personalizada.
+
+Si utiliza la inspección SSL/TLS en el firewall del sistema, el tráfico basado en Internet se volverá a cifrar con su certificado de CA personalizado. Es necesario configurar los ajustes para verificar el origen como una CA de confianza antes de aceptar el certificado raíz y permitir que se produzcan las conexiones. Siga estos pasos:
+
+.Pasos
+. Prepare el certificado de CA. Debe estar en formato de archivo _base64-codificado X.509_.
++
+
+NOTE: Las extensiones de archivo compatibles son `.pem`, `.crt`, `.cert`. Asegúrese de que el certificado está en uno de estos formatos.
+
+. Copie el certificado en el servidor del recopilador de Keystone. Anote la ubicación en la que se copia el archivo.
+. Abra un terminal en el servidor y ejecute la utilidad TUI de gestión.
+`$ keystone-collector-tui`
+. Vaya a *Configuración > Avanzado*.
+. Active la opción *Activar certificado raíz personalizado*.
+. Para *Seleccione la ruta de certificado raíz personalizada:*, seleccione `- Unset -`
+. Pulse Intro. Se muestra un cuadro de diálogo para seleccionar la ruta del certificado.
+. Seleccione el certificado raíz del explorador del sistema de archivos o introduzca la ruta exacta.
+. Pulse Intro. Vuelve a la pantalla *Advanced*.
+. Seleccione *Guardar*. se aplica la configuración.
+
+
+image:kc-custom-ca.png["Pantalla TUI para personalización de CA"]
