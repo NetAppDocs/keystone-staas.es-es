@@ -64,7 +64,7 @@ image:ova-deploy.png["Interfaz de usuario de OVA que muestra un certificado veri
 . En _Paso 7 Personalizar plantilla_, especifique la dirección de red inicial y la contraseña para la cuenta de usuario administrador.
 +
 
-NOTE: La contraseña de administrador se almacena en formato reversible en vCenter, y se debe usar como credencial de inicio para obtener acceso inicial al sistema VMware vSphere. Durante la configuración inicial de software, es necesario cambiar esta contraseña de administrador. La máscara de subred para la dirección IPv4 debe suministrarse en notación CIDR. Por ejemplo, utilice el valor 24 para una máscara de subred de 255.255.255.0.
+NOTE: La contraseña de administrador se almacena en un formato reversible en vCentre y se debe usar como credencial de bootstrap para obtener acceso inicial al sistema VMware vSphere. Durante la configuración inicial de software, es necesario cambiar esta contraseña de administrador. La máscara de subred para la dirección IPv4 debe suministrarse en notación CIDR. Por ejemplo, utilice el valor 24 para una máscara de subred de 255.255.255.0.
 
 . En _Paso 8 Listo para completar_ del asistente *implementar plantilla OVF*, revise la configuración y compruebe que ha definido correctamente los parámetros para la implementación del OVA.
 

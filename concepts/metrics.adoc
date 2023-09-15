@@ -29,7 +29,7 @@ Los siguientes términos y definiciones se utilizan en el servicio STaaS de NetA
 
 * * Medición de capacidad en gibibyte (GIB), tebibyte (GIB) y pebebbyte (PIB)*: Mediciones de la capacidad de almacenamiento de datos utilizando base de 1024 (1 GIB = 1024 3 bytes, 1 TIB = 1024 4 bytes y 1 PIB = 1024 TIB 5 bytes).
 * * Gráfico de contadores de operaciones en IOPS/TIB*: Las operaciones de protocolo por segundo, solicitadas por la aplicación, divididas por el tamaño del volumen utilizado por las cargas de trabajo.
-* *Disponibilidad*: Medido como un porcentaje del número de solicitudes de E/S respondidas con éxito por el servicio, dividido por el número total de solicitudes de E/S realizadas al servicio. Esto se mide en la demarcación del servicio en un mes y no incluye los tiempos de inactividad programados del servicio ni la falta de disponibilidad de las instalaciones, la red u otros servicios proporcionados por el cliente.
+* *Disponibilidad*: Medido como un porcentaje del número de solicitudes de E/S respondidas con éxito por el servicio, dividido por el número total de solicitudes de E/S realizadas al servicio. Esto se mide en la demarcación del servicio en un mes y no incluye el tiempo de inactividad programado del servicio o la falta de disponibilidad de las instalaciones, la red u otros servicios proporcionados por el cliente.
 * *Durabilidad*: Porcentaje de datos a los que se accede sin pérdida de fidelidad, excluyendo la eliminación o corrupción causada por el cliente.
 * *Latencia*: Tiempo de servicio de una solicitud de E/S recibida de un cliente, medido en la demarcación de servicio (puerto de E/S del controlador de almacenamiento).
 

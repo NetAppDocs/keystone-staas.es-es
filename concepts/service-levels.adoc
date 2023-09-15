@@ -130,8 +130,8 @@ NOTE: La latencia no incluye sobrecargas asociadas con la transferencia de datos
 |===
 [NOTE]
 ====
-* Los servicios nativos de cloud, como la computación, el almacenamiento, las redes, son facturados por los proveedores de cloud.
-* Estos servicios dependen de las características informáticas y de almacenamiento en cloud.
+* Los servicios nativos del cloud, como la computación, el almacenamiento o las redes, los proveedores de cloud facturan.
+* Estos servicios dependen de las características del almacenamiento en cloud y del equipo.
 
 
 ====

@@ -26,7 +26,7 @@ La infraestructura, el diseño, la selección de tecnología y los productos de 
 
 La infraestructura Keystone incluye varios componentes, como los siguientes, entre otros:
 
-* La infraestructura Keystone que incluye controladoras de almacenamiento.
+* La infraestructura de Keystone, incluidas las controladoras de almacenamiento.
 * Herramientas para gestionar y operar el servicio, como la solución AIOPs, Active IQ y Active IQ Unified Manager.
 
 

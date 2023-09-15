@@ -14,7 +14,7 @@ summary: Calidad de servicio en Keystone
 
 
 [role="lead"]
-La calidad de servicio (QoS) de almacenamiento es una tecnología vital que garantiza que las aplicaciones obtienen un rendimiento constante y predecible. Sin calidad de servicio, ciertas cargas de trabajo, como las para el arranque de varios sistemas, pueden consumir la mayoría o todos los recursos durante un periodo y afectar a las otras cargas de trabajo. Para obtener más información sobre QoS, consulte https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html["Garantice el rendimiento con información general de calidad de servicio"^].
+La calidad de servicio (QoS) de almacenamiento es una tecnología vital que garantiza que las aplicaciones obtienen un rendimiento constante y predecible. Sin calidad de servicio, ciertas cargas de trabajo, como las para el arranque de varios sistemas, pueden consumir la mayoría o todos los recursos durante un período y afectar a las otras cargas de trabajo. Para obtener más información sobre QoS, consulte https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html["Garantice el rendimiento con información general de calidad de servicio"^].
 
 
 
@@ -175,7 +175,7 @@ Tenga en cuenta estos puntos antes de calcular el tamaño de bloque utilizando e
 
 
 .Cálculo del tamaño del bloque de muestra
-Por ejemplo, para calcular el rendimiento para el nivel de servicio A. `Extreme` nivel de servicio:
+Para calcular el rendimiento de un nivel de servicio, por ejemplo `Extreme` nivel de servicio:
 
 * Máximo de IOPS: 12,288
 * Tamaño de bloque por I/o: 32 KB

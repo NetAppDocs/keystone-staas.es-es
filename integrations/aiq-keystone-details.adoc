@@ -218,7 +218,7 @@ Para el nivel de servicio _Advanced Data-Protect_, los gráficos aparecen de la 
 image:adp-src.png["base principal mcc"]
 
 .Qué puede ver para la suscripción secundaria (sitio de reflejo)
-Al comprobar la suscripción secundaria, puede ver que el gráfico de barras para el nivel de servicio _Extreme_ (proveedor de servicio base Usagel) en el mismo punto de recopilación de datos que el sitio del socio se invierte, además, el desglose de consumo en los sitios principal y de mirroring es de 1,05 TiB y 1,02 TiB, respectivamente.
+Al comprobar la suscripción secundaria, puede ver que el gráfico de barras del nivel de servicio _Extreme_ (nivel de servicio básico) en el mismo punto de recopilación de datos que el sitio del partner se invierte, y la división de consumo en los sitios primario y de reflejo es de 1,05 TiB y 1,02 TiB respectivamente.
 
 image:mcc-chart-mirror.png["espejo mcc"]
 

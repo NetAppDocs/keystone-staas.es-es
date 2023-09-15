@@ -40,7 +40,7 @@ La supervisión continua del estado de la infraestructura de almacenamiento es u
 image:monitoring-flow.png["flujo de datos"]
 
 .Leyenda
-. La puerta de enlace de la solución AIOPs inicia una sesión TLS en el portal de la nube de ITS.
+. La puerta de enlace de la solución AIOPs inicia una sesión TLS en el portal de la nube.
 . El firewall que utiliza el cliente permite la conexión.
 . El servidor de soluciones AIOPs en la nube acepta la conexión.
 . Se establece un túnel TLS entre el portal de la nube y la puerta de enlace local.

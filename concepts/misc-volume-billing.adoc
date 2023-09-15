@@ -35,7 +35,7 @@ La protección de datos avanzada utiliza MetroCluster de NetApp para reflejar da
 Si supervisa los clústeres a través de System Manager (System Manager) o Active IQ Unified Manager (Unified Manager) de ONTAP, puede que observe una discrepancia entre el consumo informado en estas herramientas y Keystone. System Manager y Unified Manager no notifican volúmenes en un clúster reflejado (remoto); al hacerlo, informa de la mitad de las métricas de consumo que informa el servicio de Keystone.
 
 .Ejemplo:
-El centro A y el sitio B se configuran en una configuración de MetroCluster. Cuando un usuario crea un volumen de 10 TB en el sitio A, se crea un volumen idéntico de 10 TB en el sitio B. Keystone identifica 10 TB de consumo en cada sitio, con un incremento total de 20 TB. System Manager y Unified Manager informan de un volumen de 10 TB creado en el sitio A, pero no notifican un volumen de 10 TB en el sitio B.
+El centro A y el sitio B se configuran en una configuración de MetroCluster. Cuando un usuario crea un volumen de 10 TB en el sitio A, se crea un volumen idéntico de 10 TB en el sitio B. Keystone identifica 10 TB de consumo en cada sitio, con un incremento total de 20 TB. System Manager y Unified Manager informan de un volumen de 10TB TB creado en el sitio A, pero no notifican un volumen de 10TB GB en el sitio B.
 
 Además, todos los volúmenes creados en un sistema Keystone con protección de datos avanzada se contarán para el consumo de la protección de datos avanzada, independientemente de que esos volúmenes estén o no reflejados.
 

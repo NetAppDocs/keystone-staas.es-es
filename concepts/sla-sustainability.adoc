@@ -90,6 +90,6 @@ Para obtener más información sobre la consola y la generación de informes de 
 
 == Créditos de servicios de sostenibilidad
 
-Si el consumo de vatios/TiB supera o no cumple los criterios especificados en el SLA para un nivel de servicio, NetApp ofrece un pago de crédito de servicio por las diferencias registradas durante el período de facturación, para todas las suscripciones admisibles. Si no se cumplen las métricas de SLA de nivel de servicio, póngase en contacto con el Centro de soporte de servicios globales de NetApp (GSSC) a más tardar una semana antes del final del mes de servicio Al determinar el incumplimiento del nivel de servicio, los créditos se calculan en función de la capacidad comprometida del nivel de servicio y se acreditan con la factura del mes siguiente.
+Si el consumo de vatios/TiB supera o no cumple los criterios especificados en el SLA para un nivel de servicio, NetApp ofrece el pago de crédito de servicio por las diferencias registradas durante el período de facturación, para todas las suscripciones admisibles. Si no se cumplen las métricas de SLA de nivel de servicio, póngase en contacto con el Centro de soporte de servicios globales de NetApp (GSSC) a más tardar una semana antes del final del mes de servicio Una vez determinado el incumplimiento del nivel de servicio, los créditos se calculan en función de la capacidad comprometida del nivel de servicio y se acreditan con la factura del mes siguiente.
 
 Para obtener más información, consulte link:../concepts/gssc.html["Centro de soporte de servicios globales de NetApp"].

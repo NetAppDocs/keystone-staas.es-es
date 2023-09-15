@@ -18,7 +18,8 @@ La facturación de NetApp Keystone (Keystone) STaaS se basa en la capacidad de r
 
 Su límite de ráfaga se determina y se especifica en su acuerdo de Keystone. Por lo general, está un 20% por encima de la capacidad comprometida.
 
-La capacidad comprometida es la capacidad que se le compromete a comprar la suscripción. La capacidad comprometida y la capacidad de ráfaga se miden por nivel de servicio. La capacidad consumida es la capacidad que realmente usan las cargas de trabajo. Cuando la capacidad consumida es mayor que la capacidad comprometida para un nivel de servicio, se registra el consumo de ráfaga y se factura de acuerdo con ello. Por lo general, está un 20% por encima de la capacidad comprometida. El uso encima de la capacidad de ráfaga se indica como "encima del límite de ráfaga".
+La capacidad comprometida es la capacidad que se le compromete a comprar la suscripción. La capacidad comprometida y la capacidad de ráfaga se miden por nivel de servicio. La capacidad consumida es la capacidad que realmente usan las cargas de trabajo.
+Cuando la capacidad consumida es mayor que la capacidad comprometida para un nivel de servicio, se registra el consumo de ráfaga y se factura de acuerdo con ello. Por lo general, está un 20% por encima de la capacidad comprometida. El uso encima de la capacidad de ráfaga se indica como "encima del límite de ráfaga".
 
 Este proceso tiene lugar para cada registro de consumo generado. Por lo tanto, el consumo de ráfaga es un reflejo de la cantidad y tenencia de sus capacidades consumidas en exceso, además de sus capacidades comprometidas.
 

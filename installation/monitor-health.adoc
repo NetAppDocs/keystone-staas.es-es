@@ -16,7 +16,9 @@ summary: Supervisar el estado del sistema mediante el recopilador Keystone
 [role="lead"]
 Puede supervisar el estado del sistema a través de los servicios Keystone Collector mediante cualquier sistema de supervisión que admita solicitudes HTTP.
 
-De forma predeterminada, los servicios de salud de Keystone no aceptan conexiones desde ninguna dirección IP que no sea localhost. El extremo de estado de Keystone es `/uber/health`, Y escucha en todas las interfaces del servidor de Keystone Collector en el puerto `7777`. En la consulta, se devuelve un código de estado de solicitud HTTP con una salida JSON desde el extremo como respuesta, describiendo el estado del sistema Keystone Collector. El cuerpo JSON proporciona un estado general de estado para el `is_healthy` atributo, que es booleano; y una lista detallada de estados por componente para `component_details` atributo. A continuación se muestra un ejemplo:
+De forma predeterminada, los servicios de estado de Keystone no aceptan conexiones desde ninguna IP que no sea localhost. El extremo de estado de Keystone es `/uber/health`, Y escucha en todas las interfaces del servidor de Keystone Collector en el puerto `7777`. En la consulta, se devuelve un código de estado de solicitud HTTP con una salida JSON desde el extremo como respuesta, describiendo el estado del sistema Keystone Collector.
+El cuerpo JSON proporciona un estado general de estado para el `is_healthy` atributo, que es booleano; y una lista detallada de estados por componente para `component_details` atributo.
+A continuación se muestra un ejemplo:
 
 [listing]
 ----

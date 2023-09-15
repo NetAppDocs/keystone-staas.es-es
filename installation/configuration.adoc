@@ -17,7 +17,7 @@ summary: La configuración del recopilador Keystone
 Debe realizar algunas tareas de configuración para permitir a Keystone Collector recopilar datos de uso en su entorno de almacenamiento. Se trata de una actividad que solo debe realizarse una vez para activar y asociar el componente recopilador necesario con el entorno de almacenamiento de.
 
 
-NOTE: Keystone Collector ofrece la utilidad Keystone Collector Management Terminal User Interface (TUI) para realizar las actividades de configuración y supervisión. Puede usar varios controles del teclado, como las teclas Entrar y flecha, para seleccionar las opciones y navegar por esta TUI.
+NOTE: El recopilador de Keystone incluye la utilidad de interfaz de usuario del terminal (TUI) de gestión de recopiladores de Keystone para realizar actividades de configuración y supervisión. Puede usar varios controles del teclado, como las teclas Entrar y flecha, para seleccionar las opciones y navegar por esta TUI.
 
 .Pasos
 . Inicie la utilidad TUI de gestión de Keystone Collector:
@@ -97,7 +97,7 @@ NOTE: Las extensiones de archivo compatibles son `.pem`, `.crt`, `.cert`. Asegú
 . Pulse Intro. Se muestra un cuadro de diálogo para seleccionar la ruta del certificado.
 . Seleccione el certificado raíz del explorador del sistema de archivos o introduzca la ruta exacta.
 . Pulse Intro. Vuelve a la pantalla *Advanced*.
-. Seleccione *Guardar*. se aplica la configuración.
+. Seleccione *Guardar*. Se aplica la configuración.
 
 
 image:kc-custom-ca.png["Pantalla TUI para personalización de CA"]

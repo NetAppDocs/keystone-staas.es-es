@@ -14,15 +14,15 @@ summary: Complemento, detalles de servicios adicionales, organización en nivele
 
 
 [role="lead"]
-Los servicios estándar STaaS de Keystone para almacenamiento de archivos y bloques incluyen funcionalidades de organización por niveles que identifican datos que se usan con menor frecuencia y segmentación para almacenamiento en frío de NetApp compatible con STaaS de Keystone. Puede lograr la organización en niveles de los datos como servicio complementario si desea organizar en niveles los datos inactivos en cualquier almacenamiento de NetApp que no sea compatible con Keystone STaaS.
+Los servicios estándar STaaS de Keystone para almacenamiento de archivos y bloques incluyen funcionalidades de organización por niveles que identifican datos que se usan con menor frecuencia y segmentación para almacenamiento en frío de NetApp compatible con STaaS de Keystone. Puedes utilizar la organización de los datos en niveles como un servicio complementario si deseas organizar los datos inactivos en niveles en cualquier almacenamiento de Keystone que no sea de NetApp ni admita STaaS.
 
 Para obtener información acerca de los servicios estándar y complementarios, consulte link:../concepts/supported-storage-services.html["Servicios Keystone STaaS"]. Para obtener información acerca de los niveles de servicio, consulte link:../concepts/service-levels.html["Niveles de servicio en Keystone"].
 
-El servicio complementario de organización en niveles solo es necesario cuando los datos se organizan en niveles en cualquier almacenamiento que no sea de NetApp, como Amazon Web Services (AWS) S3, Azure Blob, Google Cloud Platform (GCP) y otros, el almacenamiento de objetos de terceros compatible con S3 y compatible con Keystone STaaS.
+El servicio complementario de organización en niveles solo se requiere cuando los datos se organizan en niveles en cualquier almacenamiento que no sea de NetApp, como Amazon Web Services (AWS) S3, Azure Blob, Google Cloud Platform (GCP) y otros almacenamiento de objetos de terceros compatible con STaaS y con S3 de Keystone.
 
 La funcionalidad de organización en niveles aprovecha la tecnología FabricPool de NetApp, que permite establecer niveles automatizados de los datos a los que se accede con poca frecuencia en niveles de almacenamiento de objetos tanto dentro como fuera de las instalaciones.
 
-El servicio de organización en niveles de datos complementario permite la organización en niveles desde Extreme, Premium, Performance, Standard y Value Tier con un destino de almacenamiento de objetos. La relación entre los datos activos: Inactivos que se van a organizar en niveles no está fija y cada nivel se factura y contabifica por separado.
+El servicio de organización en niveles de datos complementario permite la organización en niveles desde Extreme, Premium, Performance, Standard y Value Tier con un destino de almacenamiento de objetos. La proporción de datos activos respecto a los datos inactivos que se van a organizar en niveles no es fija y cada nivel se mide y se factura por separado.
 
 Por ejemplo, si el objetivo del nivel de almacenamiento en frío es:
 

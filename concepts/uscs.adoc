@@ -34,7 +34,7 @@ Keystone Success Manager (KSM) es la Administración del éxito de Keystone (EE.
 
 == Actividades para la implementación
 
-Las actividades de instalación e instalación, in situ y remotas, siempre que estén disponibles, se llevan a cabo en las oficinas de la Administración de Estados Unidos Ciudadanos en los Estados Unidos residentes en este país. Nota al pie:renuncia de responsabilidad[la disponibilidad del personal adecuado para las actividades in situ depende de la ubicación geográfica en la que se implementen los sistemas Keystone].
+Las actividades de instalación e instalación, in situ y remotas, siempre que estén disponibles, se llevan a cabo en las oficinas de la Administración de Estados Unidos Ciudadanos en los Estados Unidos residentes en este país. Footnote:Disclaimer[La disponibilidad del personal adecuado para las actividades in situ depende de la ubicación geográfica en la que se implementen los sistemas Keystone.]
 
 
 
