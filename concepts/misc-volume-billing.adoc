@@ -17,13 +17,13 @@ summary: Facturación basada en diversos tipos de volumen
 
 == Facturación de volúmenes clonados
 
-Si los volúmenes se clonan en ONTAP y se los utiliza para realizar un backup y restaurar los datos, puede continuar mediante el uso de los clones sin ningún pago adicional. Sin embargo, se cobrarán volúmenes clonados utilizados para cualquier otro fin en el negocio durante un gran período de tiempo.
+Si los volúmenes se clonan en ONTAP y se los utiliza para realizar un backup y restaurar los datos, puede continuar mediante los clones sin ningún pago adicional. Sin embargo, se cobrarán volúmenes clonados utilizados para cualquier otro fin en el negocio durante un gran período de tiempo.
 
+Tenga en cuenta lo siguiente:
 
-NOTE: Nota:
-
-* El consumo de los volúmenes clonados no se considera durante las primeras 24 horas de creación del clon, ni durante este tiempo se cobran cargos.
-* Los volúmenes clonados con los niveles de servicio de valor y estándar no se consideran para consumo si no se escriben datos nuevos en el volumen. Por ejemplo, en un caso práctico de backup o restauración, el backup o la restauración de datos de un volumen clonado no cambia los datos del propio volumen clonado, y no se considera un consumo.
+* Los volúmenes clonados no pueden cargarse siempre que su tamaño sea inferior al 10 % del volumen principal (la capacidad física utilizada en el volumen clonado en comparación con la capacidad física utilizada en el volumen principal).
+* No hay periodo de gracia de 24 horas para los volúmenes clonados, solo se considera el tamaño del clon.
+* Una vez que el volumen clonado supera el 10 % del tamaño físico del volumen principal, el clon se factura como volumen estándar (capacidad utilizada lógica).
 
 
 
