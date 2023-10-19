@@ -167,7 +167,7 @@ Los siguientes colores en los gráficos de barras indican la capacidad consumida
 
 NOTE: Un gráfico en blanco indica que no hay datos disponibles en el entorno en ese punto de recopilación de datos.
 
-Puede hacer clic en el botón de alternar *Mostrar el uso actual* para ver el consumo actual y el uso en ráfaga con respecto al período de facturación de la suscripción. No se basan en el rango de fechas de la consulta.
+Puede hacer clic en el botón de alternar *Mostrar uso actual* para ver los datos de consumo, uso de ráfaga y ráfaga de acumulación para el período de facturación actual. Estos detalles no se basan en el rango de fechas de la consulta.
 
 * *Corriente consumida*: Indicador de la capacidad consumida (en TIB) definido para el nivel de servicio. Este campo utiliza colores específicos:
 +
@@ -177,13 +177,14 @@ Puede hacer clic en el botón de alternar *Mostrar el uso actual* para ver el co
 ** Ámbar: El 80 % de la capacidad comprometida con la ráfaga.
 
 
-* *Ráfaga actual*: Indicador de la capacidad consumida dentro o por encima del límite de ráfaga definido. Cualquier uso dentro del límite de ráfaga acordado, por ejemplo, un 20 % por encima de la capacidad comprometida se encuentra dentro del límite de ráfaga. Se considera un uso adicional por encima del límite de ráfaga. Este campo muestra colores específicos:
+* *Ráfaga actual*: Indicador de la capacidad consumida dentro o por encima del límite de ráfaga definido. Cualquier uso dentro del límite de ráfaga para la suscripción, por ejemplo, un 20 % por encima de la capacidad comprometida se encuentra dentro del límite de ráfaga. Se considera un uso adicional por encima del límite de ráfaga. Este campo muestra colores específicos:
 +
 ** Sin color: Sin uso de ráfaga.
 ** Rojo: Uso en ráfaga.
 ** Morado: Por encima del límite de ráfaga.
 
 
+* * Explosión devengada*: Indicador del uso de ráfaga devengado o la capacidad consumida calculada por mes para el período de facturación actual. El uso de ráfaga acumulado se calcula en función de la capacidad comprometida y consumida para un nivel de servicio: `(consumed - committed)/365.25/12`.
 
 
 ====
