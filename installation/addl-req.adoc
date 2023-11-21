@@ -4,7 +4,7 @@ permalink: installation/addl-req.html
 keywords: keystone unified manager prerequisites, aiqum config keystone 
 summary: requisitos previos del administrador unificado keystone 
 ---
-= Requisitos previos adicionales para ONTAP y StorageGRID
+= Requisitos para ONTAP y StorageGRID
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -20,9 +20,15 @@ Debe completar algunos requisitos previos adicionales de ONTAP y StorageGRID. As
 ====
 .ONTAP
 --
-Para la instalación de Keystone Collector en ONTAP, realice estos pasos como requisitos previos:
+.Requisitos de software
+. ONTAP 9,8 o posterior
+. Active IQ Unified Manager (Unified Manager) 9,10 o posterior
 
-. Compruebe que un servidor de Active IQ Unified Manager (Unified Manager) esté configurado con Unified Manager 9.7 o una versión posterior. Para obtener información sobre la instalación de Unified Manager, consulte estos enlaces:
+
+.Requisitos previos
+Para instalar Keystone Collector en ONTAP, realice estos pasos como requisitos previos:
+
+. Asegúrese de que Unified Manager 9,10 o una versión posterior esté configurada. Para obtener información sobre la instalación de Unified Manager, consulte estos enlaces:
 +
 ** https://docs.netapp.com/us-en/active-iq-unified-manager/install-vapp/concept_requirements_for_installing_unified_manager.html["Instalación de Unified Manager en sistemas VMware vSphere"^]
 ** https://docs.netapp.com/us-en/active-iq-unified-manager/install-linux/concept_requirements_for_install_unified_manager.html["Instalación de Unified Manager en sistemas Linux"^]
@@ -67,7 +73,7 @@ Para habilitar la puerta de enlace de API mediante la CLI de Unified Manager, si
 --
 Se requieren las siguientes configuraciones para instalar Keystone Collector en StorageGRID.
 
-* StorageGRID `11.4.0` o se debe instalar una versión posterior. Para obtener más información sobre la actualización de StorageGRID, consulte link:https://docs.netapp.com/us-en/storagegrid-116/upgrade/index.html["Actualizar el software StorageGRID: Descripción general"^].
+* StorageGRID `11.6.0` o se debe instalar una versión posterior. Para obtener más información sobre la actualización de StorageGRID, consulte link:https://docs.netapp.com/us-en/storagegrid-116/upgrade/index.html["Actualizar el software StorageGRID: Descripción general"^].
 * Se debe crear una cuenta de usuario administrador local de StorageGRID para la recopilación de datos de uso. El servicio de Collector de Keystone utiliza esta cuenta de servicio para comunicarse con StorageGRID a través de las API de nodos de administrador.
 +
 .Pasos

@@ -211,7 +211,6 @@
   <block id="352a60ab05e46c12f3319134b5ec7ee2" category="paragraph">Para obtener información acerca de los niveles de servicio, consulte <block ref="7ea66a5a0ec24dd88c60fc26a094a732" category="inline-link-macro-rx"></block>.</block>
   <block id="7f4d4fbe08a8a895671d05c4a82b0c85" category="inline-link-macro">Documentación de MetroCluster</block>
   <block id="789c0cf84faa868401f2d0fbccadc981" category="paragraph">Los cargos adicionales se aplican a todas las capacidades de la suscripción: La fuente, la copia duplicada y los datos no reflejados.</block>
-  <block id="fc9d3df613063ee57906c461320744e2" category="admonition">Nota:</block>
   <block id="4d194848bc2fab0aa3d23867126f7f3c" category="list-text">Para este servicio, el 100 % de la capacidad comprometida en un almacenamiento asociado está configurado como capacidad comprometida.</block>
   <block id="b21152b7b912739b58060e9f661767eb" category="list-text">El almacenamiento se carga para los clústeres de origen y destino. Este servicio complementario también se cobra por los volúmenes primario y secundario (reflejado).</block>
   <block id="707341c09d7ffe7d139516dd4be5dcc7" category="inline-image-macro">Configuraciones de MetroCluster compatibles con Keystone</block>
@@ -314,8 +313,6 @@
   <block id="dd83b22a815febb6c6547eab078bbf30" category="section-title">La capacidad consumida</block>
   <block id="9cd5acb8fb327acbb895954f39411c04" category="paragraph">La capacidad consumida hace referencia a la capacidad (en TIB de almacenamiento) que se está consumiendo actualmente en el servicio. El servicio Keystone considera la suma de los tamaños lógicos utilizados (no la capacidad física utilizada) de todos los volúmenes en un nivel de servicio concreto para calcular la capacidad consumida para ese nivel de servicio.</block>
   <block id="08d63a30cdbc798edef3e21cacda1ac2" category="section-title">Capacidad de ráfaga</block>
-  <block id="33fdcc4581188d05dc6308f0e1c577d9" category="paragraph">Todo consumo que supere la capacidad comprometida de un nivel de servicio es la capacidad de ráfaga.</block>
-  <block id="34d81e2d25f8511b6ab5f5b492c3aaa9" category="list-text">El servicio Keystone le permite usar capacidad adicional sobre la capacidad comprometida para un nivel de servicio. Esta es la capacidad de ráfaga.</block>
   <block id="422cb43011b8f4dd25975e284b167728" category="list-text">La capacidad de ráfaga se puede consumir sobre una base flexible y se cobra diariamente por la media consumida.</block>
   <block id="d634acbcc57e75a34f7ef2ecf60eb69c" category="list-text">La capacidad de ráfaga se acuerda en el acuerdo de Keystone. Normalmente se configura hasta un 20% por encima de la capacidad comprometida y se carga a la misma tasa que la capacidad comprometida.</block>
   <block id="b6e76ea727138e1a2c7199dd3f0874db" category="section-title">Capacidad facturada</block>
@@ -684,8 +681,6 @@
   <block id="d40fe201ca96918eaf7db3c328dc1dac" category="sidebar">Le damos la bienvenida a Keystone</block>
   <block id="4b5fef6350f906c92ead8e5fcb93fb21" category="sidebar">Configure y configure Keystone</block>
   <block id="e5e7352eac1aab74c62e3fb3c13c93eb" category="sidebar">Qué es Keystone Collector</block>
-  <block id="d495047561c1a08074d3afeeb5b5d172" category="sidebar">Requisitos previos de VMware vSphere</block>
-  <block id="634b2ff9559aed00b394d1ea933e1865" category="sidebar">Requisitos previos de Linux</block>
   <block id="e1963f69cecc9ae42f0776dbde80b970" category="sidebar">Puesta en marcha de VMware vSphere</block>
   <block id="1f331fee3a3f66a9a0cc8b4298329656" category="sidebar">Instalación de Linux</block>
   <block id="5f263121a32bf1557841d7fe819ad1e8" category="sidebar">Validación automática de integridad</block>
@@ -870,10 +865,7 @@
   <block id="5f3404cf964777c8e1916a088cdbc3f1" category="paragraph">Obligatorio (si se utiliza Keystone StorageGRID)</block>
   <block id="d5afaa3fa8ab0daf63847efd0d324dda" category="paragraph">Colección de métricas de uso de Keystone Collector para StorageGRID</block>
   <block id="3a9be63d84e9a8b01937ad5727618ebd" category="paragraph">Keystone Collector (genérico)</block>
-  <block id="5cf9b00e7eb204d30cc672cb9dc479ca" category="doc">Requisitos previos adicionales para ONTAP y StorageGRID</block>
   <block id="5302a9af7c7db5b391c77f0b0b58a9ae" category="paragraph">Debe completar algunos requisitos previos adicionales de ONTAP y StorageGRID. Asegúrese de completar estos requisitos previos específicos además de los requisitos del sistema Linux/VMware vSphere. Haga clic en la pestaña necesaria para obtener más información.</block>
-  <block id="e3d9300aee94dbd6833b9b494b4e413a" category="paragraph">Para la instalación de Keystone Collector en ONTAP, realice estos pasos como requisitos previos:</block>
-  <block id="6b127757330398600af046a789f68aff" category="list-text">Compruebe que un servidor de Active IQ Unified Manager (Unified Manager) esté configurado con Unified Manager 9.7 o una versión posterior. Para obtener información sobre la instalación de Unified Manager, consulte estos enlaces:</block>
   <block id="29971410a584e921e5516d3f2b7bfb4d" category="inline-link">Añadir clústeres</block>
   <block id="86eb2db656d7aa748c750a4cf424c4f9" category="list-text">Compruebe que el clúster de ONTAP se haya añadido a Unified Manager. Para obtener información sobre cómo añadir clústeres, consulte<block ref="b475884884d95a88bbe7062e46db77b2" category="inline-link-rx"></block>.</block>
   <block id="8c600472916c85183244220ecd5f7a13" category="list-text">Cree usuarios de Unified Manager con roles específicos para la recogida de datos de uso y rendimiento. Siga estos pasos. Para obtener más información sobre los roles de usuario, consulte<block ref="710c561d5a618a0a66fb1efb6e45aca1" category="inline-link-rx"></block>.</block>
@@ -893,7 +885,6 @@
   <block id="afa819b7cc8f00a6b6f99f036c86710d" category="list-text">VSphere de VMware:<block ref="e7d492a81a8574f8c260a7a7e9130e4b" category="inline-link-rx"></block>.</block>
   <block id="fd22d23fe0edf1a8c1823d661ceb51b0" category="paragraph">Se requieren las siguientes configuraciones para instalar Keystone Collector en StorageGRID.</block>
   <block id="76038d247a602c0245b0f461368bb87c" category="inline-link-macro">Actualizar el software StorageGRID: Descripción general</block>
-  <block id="7aa35054155773e318023838d4c86a8e" category="list-text">StorageGRID<block ref="86fb40f74065628551d7b9612d244430" prefix=" " category="inline-code"></block> o se debe instalar una versión posterior. Para obtener más información sobre la actualización de StorageGRID, consulte <block ref="97cb3175bb06374adaf739435d4e2f76" category="inline-link-macro-rx"></block>.</block>
   <block id="2cb4d48e9d39b65ee9a134ead27cec2e" category="list-text">Se debe crear una cuenta de usuario administrador local de StorageGRID para la recopilación de datos de uso. El servicio de Collector de Keystone utiliza esta cuenta de servicio para comunicarse con StorageGRID a través de las API de nodos de administrador.</block>
   <block id="bb0dd8b0b8efa5928afbafc369fda5e1" category="inline-link">Inicie sesión en Grid Manager</block>
   <block id="ba43950d2b1731602400692e36f66ae6" category="list-text">Inicie sesión en Grid Manager. Consulte<block ref="8bf33c163893a69feada52e3ecdbe684" category="inline-link-rx"></block>.</block>
@@ -926,8 +917,6 @@
   <block id="c9b73422281776827a4c8f78b386d48d" category="list-text">Keystone STaaS Value Tier, Keystone STaaS StorageGRID Object Tier o SGWS (propiedad del cliente) – no existe ningún coste adicional; forma parte del servicio estándar.</block>
   <block id="a8db66bfea8d3f0ff898a3ca39507082" category="paragraph">Si desea obtener más información sobre el widget Digital Advisor de Keystone, consulte<block ref="f1d08d608ab5c8900f388298993967cb" category="inline-link-rx"></block>.</block>
   <block id="bea3a7144124c0e70f43a6748e2fb32b" category="paragraph">Para obtener más información sobre Keystone y BlueXP, consulte los siguientes enlaces en los documentos de BlueXP:</block>
-  <block id="db9c0d8e0c5e9a6fc69af04d34b56fee" category="sidebar">Requisitos previos para instalar Keystone Collector</block>
-  <block id="80d2bb01a7a85d4aa2c304e7cde98a6e" category="sidebar">Requisitos previos específicos para ONTAP y StorageGRID</block>
   <block id="cdc9f551ac993c356214a8c16ca3cec2" category="sidebar">Datos recopilados para facturación</block>
   <block id="a3297beb0c913ab1ce7de0647b5264d0" category="sidebar">Keystone y asesor digital Active IQ</block>
   <block id="9a404de1def328e606c1a36e84d959a4" category="sidebar">Informes del asesor digital de Active IQ para Keystone</block>
@@ -1433,4 +1422,17 @@ Como parte de la puesta en marcha del servicio Keystone, NetApp supervisa y mide
   <block id="4c81eafa216c925957e13d302baa98d5" category="paragraph">Puede hacer clic en el botón de alternar *Mostrar uso actual* para ver los datos de consumo, uso de ráfaga y ráfaga de acumulación para el período de facturación actual. Estos detalles no se basan en el rango de fechas de la consulta.</block>
   <block id="f9e4dd599c840788d289af630bc65cdb" category="list-text">*Ráfaga actual*: Indicador de la capacidad consumida dentro o por encima del límite de ráfaga definido. Cualquier uso dentro del límite de ráfaga para la suscripción, por ejemplo, un 20 % por encima de la capacidad comprometida se encuentra dentro del límite de ráfaga. Se considera un uso adicional por encima del límite de ráfaga. Este campo muestra colores específicos:</block>
   <block id="6b7dfe5a7e219d1bb1b0d4dec89d1cb1" category="list-text">* Explosión devengada*: Indicador del uso de ráfaga devengado o la capacidad consumida calculada por mes para el período de facturación actual. El uso de ráfaga acumulado se calcula en función de la capacidad comprometida y consumida para un nivel de servicio:<block ref="0664f1d332f0bb3aa9231cb5f4fb3bca" prefix=" " category="inline-code"></block>.</block>
+  <block id="9f06d116e9e0b83604b7fd60a2234a51" category="doc">Requisitos para ONTAP y StorageGRID</block>
+  <block id="7ddb33edf227a18eb76201fcb9e2c9db" category="list-title">Requisitos de software</block>
+  <block id="c3ce6809be6bdc67ae978395484d0585" category="list-text">ONTAP 9,8 o posterior</block>
+  <block id="0f8980b0c0b4c0b3e722f39e2538063e" category="list-text">Active IQ Unified Manager (Unified Manager) 9,10 o posterior</block>
+  <block id="ee68e5b99222bbc29a480fcb0d1d6ee2" category="paragraph-title">Requisitos previos</block>
+  <block id="fbacd386f66318927b42b113c3987f00" category="paragraph">Para instalar Keystone Collector en ONTAP, realice estos pasos como requisitos previos:</block>
+  <block id="ad98fcce772f03d25a2b4758c7fbf35c" category="list-text">Asegúrese de que Unified Manager 9,10 o una versión posterior esté configurada. Para obtener información sobre la instalación de Unified Manager, consulte estos enlaces:</block>
+  <block id="8414d36b2c6d9865a2f13b42f9ef6e91" category="list-text">StorageGRID<block ref="eb0ecbdf20891e5963990e2643405555" prefix=" " category="inline-code"></block> o se debe instalar una versión posterior. Para obtener más información sobre la actualización de StorageGRID, consulte <block ref="97cb3175bb06374adaf739435d4e2f76" category="inline-link-macro-rx"></block>.</block>
+  <block id="cc3265dfeccaee5313f6c701aeabcbef" category="paragraph">El servicio Keystone le permite usar capacidad adicional sobre la capacidad comprometida para un nivel de servicio. Este es el uso de la capacidad de ráfaga. Tenga en cuenta estos puntos:</block>
+  <block id="d576508763dba15b711e3f85b0a11488" category="sidebar">Prepara tu sistema para instalar Keystone Collector</block>
+  <block id="3d065b1064b64a83258ea086e540e24c" category="sidebar">Requisitos de vSphere de VMware</block>
+  <block id="d6b1f1fd1fdf75b3d429783334dff437" category="sidebar">Requisitos de Linux</block>
+  <block id="0c8ee1ed841afce50051203468faba79" category="sidebar">Requisitos de ONTAP y StorageGRID</block>
 </blocks>

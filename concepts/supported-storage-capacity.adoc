@@ -53,14 +53,10 @@ La capacidad consumida hace referencia a la capacidad (en TIB de almacenamiento)
 
 == Capacidad de ráfaga
 
-Todo consumo que supere la capacidad comprometida de un nivel de servicio es la capacidad de ráfaga.
+El servicio Keystone le permite usar capacidad adicional sobre la capacidad comprometida para un nivel de servicio. Este es el uso de la capacidad de ráfaga. Tenga en cuenta estos puntos:
 
-
-NOTE: Nota:
-
-* El servicio Keystone le permite usar capacidad adicional sobre la capacidad comprometida para un nivel de servicio. Esta es la capacidad de ráfaga.
-* La capacidad de ráfaga se puede consumir sobre una base flexible y se cobra diariamente por la media consumida.
 * La capacidad de ráfaga se acuerda en el acuerdo de Keystone. Normalmente se configura hasta un 20% por encima de la capacidad comprometida y se carga a la misma tasa que la capacidad comprometida.
+* La capacidad de ráfaga se puede consumir sobre una base flexible y se cobra diariamente por la media consumida.
 
 
 
