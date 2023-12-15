@@ -28,7 +28,8 @@ NetApp proporciona servicios operativos de forma remota a clientes de NetApp Key
 
 El equipo del centro de soporte y servicios globales (GSSC) de NetApp presta soporte principalmente a los servicios prestados a los clientes de NetApp Keystone. Puede utilizar la siguiente información para ponerse en contacto con el equipo de soporte.
 
-* Contactos de servicio globales:https://www.netapp.com/us/contact-us/support.aspx[]
+* Contactos de servicio globales:
+https://www.netapp.com/company/contact-us/support/[]
 * Si tiene un caso o una incidencia abiertos que debe escalarse, envíe un correo electrónico a una de las siguientes direcciones: keystone.services@netapp.com keystone.escalations@netapp.com
 * NetApp utiliza la solución AIOPs para supervisar y conectarse de manera proactiva al entorno NetApp Keystone para solucionar problemas.
 

@@ -23,7 +23,7 @@ Cada nivel de servicio está definido por su densidad de I/O, que es IOPS/TiB/vo
 Usted selecciona los niveles de servicio en función del entorno de almacenamiento y las necesidades de almacenamiento y consumo. De forma predeterminada, los niveles de servicio básicos están disponibles. Además, hay disponibles niveles de servicio específicos, en caso de que haya optado por servicios complementarios. Por ejemplo, para el servicio complementario de protección de datos avanzada, el nivel de servicio _Advanced Data-Protect_ se asigna a su suscripción.
 
 
-TIP: Hay disponible una descripción detallada de los niveles de servicio de STaaS de NetApp Keystone https://www.netapp.com/pdf.html?item=/media/77179-Keystone-STaaS-Service-Description-On-Prem.pdf["aquí"].
+TIP: Hay disponible una descripción detallada de los niveles de servicio de STaaS de NetApp Keystone https://www.netapp.com/pdf.html?item=/media/77179-Keystone-STaaS-Service-Description-On-Prem.pdf["aquí"^].
 
 Los niveles de servicio básicos para los tipos de almacenamiento admitidos, archivos, bloques, objetos y servicios cloud se describen en las siguientes secciones:
 
@@ -114,7 +114,7 @@ NOTE: La latencia no incluye sobrecargas asociadas con la transferencia de datos
 |===
 
 
-| *Nivel de servicio* | Cloud Volumes ONTAP® 
+| *Nivel de servicio* | Cloud Volumes ONTAP 
 
 
 | *Tipo de carga de trabajo* | Recuperación ante desastres, desarrollo y pruebas de software, aplicaciones empresariales 

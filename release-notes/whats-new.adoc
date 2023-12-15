@@ -1,0 +1,35 @@
+---
+sidebar: sidebar 
+permalink: release-notes/whats-new.html 
+keywords: 'new features, release notes, enhancements, what"s new' 
+summary: Nuevas funciones y mejoras de STaaS de Keystone. 
+---
+= Novedades en STaaS de Keystone
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+NetApp ofrece funciones nuevas y mejoradas en cada lanzamiento de los servicios de STaaS de Keystone.
+
+
+
+== Nuevas funciones y mejoras para el 15 de diciembre de 2023
+
+Descubra las novedades de esta versión.
+
+
+
+=== Posibilidad de buscar por listas de comprobaciones
+
+El soporte de listas de comprobaciones del asesor digital de Active IQ (asesor digital) se ha ampliado para incluir sistemas Keystone. Ahora puede ver los detalles de las suscripciones para varios clientes mediante la búsqueda con listas de comprobaciones. Para obtener más información sobre el uso de las listas de comprobaciones en STaaS de Keystone, consulte link:../integrations/keystone-aiq.html#search-by-using-keystone-watchlists["Busca mediante listas de comprobaciones de Keystone"^].
+
+
+
+=== Fecha convertida a zona horaria UTC
+
+Los datos devueltos en las pestañas de la pantalla *Suscripciones Keystone* del Asesor Digital Active IQ se muestran en la hora UTC (zona horaria del servidor). Al introducir una fecha para la consulta, se considera automáticamente que está en la hora UTC. Para obtener más información, consulte link:../integrations/aiq-keystone-details.html["Panel de suscripción de Keystone e informes"^].

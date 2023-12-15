@@ -1,0 +1,49 @@
+---
+sidebar: sidebar 
+permalink: release-notes/fixed-issues.html 
+keywords: fixed issues 
+summary: Problemas solucionados en diferentes versiones de STaaS de Keystone 
+---
+= Problemas solucionados
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Los problemas encontrados en versiones anteriores de los servicios de STaaS de NetApp Keystone se han solucionado en versiones posteriores. En la siguiente tabla se enumeran las correcciones.
+
+[cols="3*"]
+|===
+| Descripción del problema | Después de la corrección | Corregido en versión 
+
+
+ a| 
+El indicador de uso de un registro de consumo de ráfaga se mostraba en ámbar.
+ a| 
+El indicador aparece en rojo.
+ a| 
+13 de diciembre de 2023
+
+
+
+ a| 
+El intervalo de fechas y los datos de las pestañas Tendencia de capacidad, Uso actual y Rendimiento no se convirtieron a la zona horaria UTC.
+ a| 
+El rango de fechas para la consulta y los datos en todas las pestañas se muestran en la hora UTC (zona horaria del servidor). La zona horaria UTC también se muestra en cada campo de fecha de las pestañas.
+ a| 
+13 de diciembre de 2023
+
+
+
+ a| 
+Se ha producido una discrepancia entre la fecha de inicio y la fecha de finalización entre las pestañas y los informes CSV descargados.
+ a| 
+Fija.
+ a| 
+13 de diciembre de 2023
+
+|===

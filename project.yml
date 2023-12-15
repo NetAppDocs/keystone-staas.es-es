@@ -11,6 +11,16 @@ sidebar:
   entries:
   - title: Documentos de Keystone
     url: "/index.html"
+  - title: Notas de la versión
+    entries:
+    - title: Novedades en STaaS de Keystone
+      url: "/release-notes/whats-new.html"
+    - title: Problemas solucionados
+      url: "/release-notes/fixed-issues.html"
+    - title: Limitaciones conocidas
+      url: "/release-notes/known-limitations.html"
+    - title: Problemas conocidos
+      url: "/release-notes/known-issues.html"
   - title: Le damos la bienvenida a Keystone
     url: "/concepts/overview.html"
   - title: Configure y configure Keystone
@@ -43,6 +53,14 @@ sidebar:
       url: "/installation/asup-config.html"
     - title: Datos recopilados para facturación
       url: "/installation/data-collection.html"
+  - title: Sáquele más partido a los servicios de Keystone
+    entries:
+    - title: Consulta el panel de Keystone en el asesor digital de Active IQ
+      url: "/integrations/keystone-aiq.html"
+    - title: Consulta de detalles de consumo y generación de informes
+      url: "/integrations/aiq-keystone-details.html"
+    - title: Gestiona las suscripciones de Keystone desde BlueXP
+      url: "/integrations/keystone-cm.html"
   - title: Más información sobre Keystone
     entries:
     - title: Capacidad de almacenamiento admitida
@@ -71,7 +89,7 @@ sidebar:
       url: "/concepts/qos.html"
     - title: Requisitos de capacidad para niveles de servicio
       url: "/concepts/capacity-requirements.html"
-    - title: Niveles de servicio de acuerdo de nivel de servicio de sostenibilidad
+    - title: Acuerdo de nivel de servicio sostenible
       url: "/concepts/sla-sustainability.html"
   - title: Facturación
     entries:
@@ -99,14 +117,6 @@ sidebar:
       url: "/concepts/data-flow.html"
   - title: Centro de soporte de servicios globales de NetApp
     url: "/concepts/gssc.html"
-  - title: Sáquele más partido a los servicios de Keystone
-    entries:
-    - title: Keystone y BlueXP
-      url: "/integrations/keystone-cm.html"
-    - title: Keystone y asesor digital Active IQ
-      url: "/integrations/keystone-aiq.html"
-    - title: Informes del asesor digital de Active IQ para Keystone
-      url: "/integrations/aiq-keystone-details.html"
   - title: Avisos legales
     url: "/legal-notices.html"
 homepage:
@@ -119,27 +129,25 @@ homepage:
       url: "/installation/vapp-installation.html"
     - title: Instalación de Keystone Collector en Linux
       url: "/installation/linux-installation.html"
-    - title: "¿Cuáles son las unidades de medida?"
-      url: "/concepts/metrics.html"
-    - title: "¿Qué es el almacenamiento base compatible?"
-      url: "/concepts/supported-storage-services.html"
-    - title: "¿Cómo puedo ver mis datos de consumo?"
+    - title: Vea su uso en el asesor digital
       url: "/integrations/keystone-aiq.html"
+    - title: Genera informes de tu consumo
+      url: "/integrations/aiq-keystone-details.html"
   - title: Servicios compatibles en Keystone
     links:
     - title: Niveles de servicio de Keystone
       url: "/concepts/service-levels.html"
     - title: Calidad de servicio (QoS)
       url: "/concepts/qos.html"
-    - title: "¿Qué es la organización en niveles de los datos?"
-      url: "/concepts/data-tiering.html"
-    - title: "¿Están protegidos mis datos de Keystone?"
-      url: "/concepts/adp.html"
-    - title: "¿Cómo puedo ver mi consumo por nivel de servicio?"
-      url: "/integrations/aiq-keystone-details.html"
-  - title: Precios Keystone
+    - title: "¿Cuáles son las unidades de medida?"
+      url: "/concepts/metrics.html"
+    - title: "¿Qué es el almacenamiento base compatible?"
+      url: "/concepts/supported-storage-services.html"
+    - title: "¿Puedo reasignar mi gasto de las instalaciones a la nube?"
+      url: "/concepts/capacity-requirements.html#capacity-adjustments"
+  - title: Precios y facturación de Keystone
     links:
-    - title: Conozca la facturación de Keystone
+    - title: Conoce los precios de Keystone
       url: "/concepts/pricing.html"
     - title: Mis horarios de facturación
       url: "/concepts/billing-schedules.html"
@@ -153,10 +161,12 @@ homepage:
     links:
     - title: Conozca a su equipo de soporte (Keystone GSSC)
       url: "/concepts/gssc.html"
+    - title: "¿Qué puedo hacer con mis datos inactivos o menos utilizados?"
+      url: "/concepts/data-tiering.html"
+    - title: "¿Cómo puedo proteger mis datos de Keystone?"
+      url: "/concepts/adp.html"
     - title: Keystone y BlueXP
       url: "/integrations/keystone-cm.html"
-    - title: Keystone y asesor digital Active IQ
-      url: "/integrations/keystone-aiq.html"
     - title: Soporte de ciudadanos de EE. UU
       url: "/concepts/uscs.html"
   - title: Más información

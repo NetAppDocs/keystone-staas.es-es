@@ -111,25 +111,52 @@ Tenga en cuenta las siguientes cláusulas para los ajustes de capacidad:
 
 La reducción de la capacidad (anual) es aplicable al modelo de pago _Anual por adelantado_ y a las puestas en marcha únicamente en las instalaciones. No está disponible para servicios cloud ni para servicios de cloud híbrido. Proporciona capacidad en las instalaciones, lo que puede reducirse hasta en un 25 % por nivel de servicio por suscripción. Esta reducción se permite una vez al año para ser efectiva al comienzo del próximo período de facturación anual. Los pagos anuales basados en servicios en las instalaciones deben ser >= 200 000 dólares en cualquier momento durante el plazo para poder aprovechar la reducción de capacidad. Como solo se admite para puestas en marcha en las instalaciones, este modelo de facturación no permite reasignar el gasto de servicios en las instalaciones a servicios de cloud. En la imagen siguiente se ilustra un ejemplo de reducción de capacidad anual.
 
-image:capacity-reduction.png["imagen que muestra la reducción de capacidad"]
+image:reallocation.png["explicación de la lógica de reasignación"]
 
 
 
 === Reasignación trimestral del gasto
 
+STaaS Keystone te ofrece la opción de reasignar el gasto del servicio on-premises a los gastos de Cloud Volumes ONTAP.
+
 Requisitos y condiciones en un nivel de suscripción:
 
 * Se aplica sólo a la facturación mensual en el modelo arrear.
 * Se aplica sólo a suscripciones con compromisos de plazo de 1, 2 o 3 años.
-* La capacidad de Cloud Volumes ONTAP y Cloud Backup Service se debe adquirir con Keystone.
+* La capacidad de Cloud Volumes ONTAP y Cloud Backup Service debe adquirirse a través de Keystone.
 * Se puede utilizar hasta el 25 % de los pagos mensuales basados en servicios en las instalaciones para reasignar servicios a servicios cloud.
-* Los pagos mensuales en el entorno local basados en el servicio deben ser >=$16.7K en cualquier momento durante el plazo para aprovechar la reasignación.
 * Las solicitudes de reasignación sólo se realizan después de 90 días a partir de la fecha de activación anterior de la reasignación.
-* La reubicación no se puede hacer de los servicios cloud a las instalaciones.
+* La reasignación no se puede realizar desde los servicios en la nube a los servicios on-premises.
 * El cliente o partner deben enviar formalmente una solicitud de reasignación a Keystone Success Manager (KSM), al menos una semana antes del siguiente ciclo de facturación.
-* Las nuevas solicitudes sólo entran en vigor desde el siguiente ciclo de facturación.
+* Las nuevas solicitudes entran en vigor sólo a partir del ciclo de facturación consecutivo.
 
 
-En la imagen siguiente se ilustra un ejemplo de reasignación trimestral de gastos:
+Puede asignar una parte de sus gastos a sus niveles de servicio de almacenamiento de objetos, bloques u archivos suscritos a los servicios de almacenamiento en cloud híbrido. Se puede reasignar hasta un 25% del valor contractual anual (ACV) trimestralmente a los servicios principal y secundario de Cloud Volumes ONTAP y Cloud Volumes ONTAP:
 
-image:spend-alloc.png["cómo se asigna el gasto"]
+image:reallocation.png["explicación de la lógica de reasignación"]
+
+Esta tabla proporciona un juego de valores de ejemplo para demostrar cómo funciona la reasignación de gastos. En este ejemplo: `$5000` desde la cuota mensual se reasigna al servicio de almacenamiento en cloud híbrido.
+
+|===
+
+
+| *Antes de la asignación* | *Capacidad (TiB)* | *Gastos designados mensuales* 
+
+
+| Extremo | 125 | 37.376 
+
+
+| *Después de la reasignación* | *Capacidad (TiB)* | *Gastos designados mensuales* 
+
+
+| Extremo | 108 | 37.376 
+
+
+| Cloud Volumes ONTAP | 47 | 5.000 
+
+
+|  |  | 37.376 
+|===
+La reducción es de (125-108) = 17 TiB de la capacidad asignada para el nivel de servicio extremo. En la reasignación de gastos, el almacenamiento en cloud híbrido asignado no es de 17 TiB, sino una capacidad equivalente que puede adquirir $5000. En este ejemplo, por 5000 $, puede obtener 17 TiB de capacidad de almacenamiento en las instalaciones para el nivel de servicio Extreme y 47 TiB de capacidad de cloud híbrido del nivel de servicio de Cloud Volumes ONTAP. Por lo tanto, la reasignación es con respecto al gasto, no la capacidad.
+
+Ponte en contacto con tu Keystone Success Manager (KSM) si deseas reasignar los gastos de tus servicios on-premises a los servicios en la nube.

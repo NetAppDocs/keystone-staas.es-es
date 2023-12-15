@@ -16,6 +16,8 @@ summary: sostenibilidad, sla, acuerdo de nivel de servicio
 [role="lead"]
 STaaS de NetApp Keystone proporciona niveles de servicio de sostenibilidad respaldados por un acuerdo de nivel de servicio que definen los vatios/TiB máximos consumidos por nivel de servicio para ayudarle a planificar, supervisar y cumplir sus objetivos de SOSTENIBILIDAD TECNOLÓGICA.
 
+Puede obtener más información sobre cualquier problema relacionado con el acuerdo de nivel de servicio desde el widget Keystone en la consola del asesor digital de Active IQ.
+
 
 
 == Métricas de sostenibilidad
@@ -61,7 +63,7 @@ Rendimiento
 
 == Criterios de cumplimiento de los acuerdos de nivel de servicio de sostenibilidad
 
-Las suscripciones de STaaS de Keystone que cumplan los siguientes criterios pueden optar a los acuerdos de nivel de servicio:
+Las suscripciones de STaaS de Keystone que cumplan los siguientes criterios pueden optar a los acuerdos de nivel de servicio de sostenibilidad:
 
 * Suscripciones STaaS de Keystone estándar y no personalizadas con un único nivel de servicio, facturadas mensualmente al finalizar el periodo.
 * Pueden optar las suscripciones con los siguientes niveles de servicio: Niveles de servicio Extreme, Premium y Performance.
@@ -88,7 +90,7 @@ Para obtener más información sobre la consola y la generación de informes de 
 
 
 
-== Créditos de servicios de sostenibilidad
+== Créditos de servicios
 
 Si el consumo de vatios/TiB supera o no cumple los criterios especificados en el SLA para un nivel de servicio, NetApp ofrece el pago de crédito de servicio por las diferencias registradas durante el período de facturación, para todas las suscripciones admisibles. Si no se cumplen las métricas de SLA de nivel de servicio, póngase en contacto con el Centro de soporte de servicios globales de NetApp (GSSC) a más tardar una semana antes del final del mes de servicio Una vez determinado el incumplimiento del nivel de servicio, los créditos se calculan en función de la capacidad comprometida del nivel de servicio y se acreditan con la factura del mes siguiente.
 
