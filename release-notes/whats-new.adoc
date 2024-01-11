@@ -18,6 +18,26 @@ NetApp ofrece funciones nuevas y mejoradas en cada lanzamiento de los servicios 
 
 
 
+== Nuevas funciones y mejoras para el 11 de enero de 2024
+
+Descubra las novedades de esta versión.
+
+Los siguientes cambios se han realizado en la pantalla *Suscripciones Keystone* del Asesor Digital Active IQ (también conocido como Asesor Digital).
+
+
+
+=== Datos facturados devueltos para repartición devengada
+
+Las etiquetas para *Explosión acumulada* ahora se modifican a *Explosión acumulada facturada* en la pestaña *Tendencia de capacidad*. Al seleccionar esta opción, podrá ver los gráficos mensuales de los datos de ráfaga devengados facturados. Para obtener más información, consulte link:../integrations/aiq-keystone-details.html#view-invoiced-accrued-burst["Consulta de repartición devengada facturada"^].
+
+
+
+=== Detalles de consumo devengado para planes de tarifas específicos
+
+Si tiene una suscripción que tiene planes de tarifas con capacidad comprometida _cero_, puede ver los detalles del consumo acumulado en la pestaña *Tendencia de capacidad*. Al seleccionar la opción *Consumo devengado facturado*, puede ver los gráficos mensuales de los datos de consumo devengado facturado.
+
+
+
 == Nuevas funciones y mejoras para el 15 de diciembre de 2023
 
 Descubra las novedades de esta versión.
@@ -26,7 +46,7 @@ Descubra las novedades de esta versión.
 
 === Posibilidad de buscar por listas de comprobaciones
 
-El soporte de listas de comprobaciones del asesor digital de Active IQ (asesor digital) se ha ampliado para incluir sistemas Keystone. Ahora puede ver los detalles de las suscripciones para varios clientes mediante la búsqueda con listas de comprobaciones. Para obtener más información sobre el uso de las listas de comprobaciones en STaaS de Keystone, consulte link:../integrations/keystone-aiq.html#search-by-using-keystone-watchlists["Busca mediante listas de comprobaciones de Keystone"^].
+La compatibilidad con las listas de comprobaciones del asesor digital de Active IQ (también conocido como asesor digital) se ha ampliado para incluir sistemas Keystone. Ahora puede ver los detalles de las suscripciones para varios clientes mediante la búsqueda con listas de comprobaciones. Para obtener más información sobre el uso de las listas de comprobaciones en STaaS de Keystone, consulte link:../integrations/keystone-aiq.html#search-by-using-keystone-watchlists["Busca mediante listas de comprobaciones de Keystone"^].
 
 
 

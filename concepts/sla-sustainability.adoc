@@ -16,7 +16,7 @@ summary: sostenibilidad, sla, acuerdo de nivel de servicio
 [role="lead"]
 STaaS de NetApp Keystone proporciona niveles de servicio de sostenibilidad respaldados por un acuerdo de nivel de servicio que definen los vatios/TiB máximos consumidos por nivel de servicio para ayudarle a planificar, supervisar y cumplir sus objetivos de SOSTENIBILIDAD TECNOLÓGICA.
 
-Puede obtener más información sobre cualquier problema relacionado con el acuerdo de nivel de servicio desde el widget Keystone en la consola del asesor digital de Active IQ.
+Puede obtener información sobre cualquier problema relacionado con el acuerdo de nivel de servicio desde el widget Keystone en la consola del asesor digital de Active IQ (también conocido como asesor digital).
 
 
 
@@ -84,7 +84,7 @@ Las configuraciones de mezcla y MetroCluster no son compatibles.
 
 == Informes de sostenibilidad
 
-La pestaña SLA del panel del asesor digital de Active IQ (asesor digital) Keystone ofrece una vista detallada de las métricas de sostenibilidad para tus suscripciones a Keystone. Puede ver las métricas y generar informes para futuras acciones y análisis.
+La consola de Keystone de la pestaña SLA del asesor digital ofrece una vista detallada de las métricas de sostenibilidad para tus suscripciones a Keystone. Puede ver las métricas y generar informes para futuras acciones y análisis.
 
 Para obtener más información sobre la consola y la generación de informes de Keystone, consulte link:../integrations/aiq-keystone-details.html["Panel de suscripción de Keystone e informes"].
 

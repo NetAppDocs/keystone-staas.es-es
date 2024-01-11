@@ -29,3 +29,12 @@ Keystone le ofrece las siguientes instalaciones de facturación:
 La facturación de Keystone se basa en la capacidad comprometida y en el consumo en ráfaga variable.
 
 Si desea obtener información sobre las distintas capacidades compatibles con Keystone, consulte link:../concepts/supported-storage-capacity.html["Capacidades de almacenamiento compatibles con Keystone"].
+
+*Información relacionada*
+
+* link:../concepts/committed-capacity-billing.html["Facturación basada en la capacidad comprometida"]
+* link:../concepts/consumed-capacity-billing.html["Medición basada en la capacidad consumida"]
+* link:../concepts/burst-consumption-billing.html["Facturación basada en consumo en ráfaga"]
+* link:../concepts/misc-volume-billing.html["Facturación basada en diversos tipos de volumen"]
+* link:../concepts/billing-schedules.html["Horarios de facturación"]
+
