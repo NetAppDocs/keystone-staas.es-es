@@ -1,0 +1,59 @@
+---
+sidebar: sidebar 
+permalink: integrations/sla-details-tab.html 
+keywords: keystone-aiq, digital advisor keystone, SLA details 
+summary: Pestaña Detalles de SLA de Keystone y el asesor digital 
+---
+= Pestaña Detalles de SLA
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+La pestaña *Detalles de SLA* solo está disponible si tiene un acuerdo de nivel de servicio (SLA) válido con NetApp. La pestaña *Sustainability SLA* solo está disponible si tiene un SLA de sostenibilidad válido.
+
+Los acuerdos de nivel de servicio (SLA) son un componente clave de las soluciones de almacenamiento en cloud de NetApp. Los acuerdos de nivel de servicio tienen como objetivo proporcionar una solución de almacenamiento efectiva, de alta calidad y fiable como parte de las ofertas de servicio STaaS de Keystone. Para obtener más información sobre la sostenibilidad en STaaS de Keystone, consulte link:../concepts/sla-sustainability.html["Acuerdo de nivel de servicio de sostenibilidad para Keystone"].
+
+.Pasos
+. Haga clic en *GENERAL > Suscripciones Keystone > Detalles SLA > Sustainability SLA*.
+. Seleccione la suscripción necesaria para la que desea ver los detalles. Solo puede ver aquellas suscripciones que cumplan los criterios de acuerdo de nivel de servicio de sostenibilidad. Para obtener más información sobre los criterios, consulte link:../concepts/sla-sustainability.html#eligibility-criteria-for-sustainability-sla["Criterios de cumplimiento de los acuerdos de nivel de servicio de sostenibilidad"].
+. Seleccione el año y el mes para los que desea ver los detalles. De forma predeterminada, se muestran los datos del mes actual. Puede seleccionar el año y el mes durante los cuales la suscripción ha estado activa.
+. Haga clic en *Ver detalles*.
+
+
+Puedes ver un desglose diario de las métricas de sostenibilidad para el mes seleccionado:
+
+image:sla-sustainability.png["pestaña de detalles de sla que muestra los detalles de sostenibilidad"]
+
+Se muestran los siguientes detalles. Para determinados campos y columnas, puede ver iconos de información y sugerencias de herramientas que le proporcionan información adicional sobre los datos.
+
+* *Sostenibilidad promedio*: La energía promedio consumida en vatios/TiB durante el último período de facturación de esta suscripción.
+* *Fecha*: La fecha de los datos de SLA recopilados.
+* *Vatios medios*: El promedio de vatios de energía consumidos ese día por el clúster.
+* *Capacidad efectiva (TiB*): La suma de la capacidad comprometida y la capacidad de ráfaga asignada para el nivel de servicio.
+* *Vatios reales (TiB*): Los vatios/TiB reales son el consumo de energía real por TiB para ese día por el clúster. Puede compararlo con el valor de *SLA Watts/TiB* para analizar cualquier sobreimpulso.
+* *Vatios SLA/TiB*: El valor de vatios/TiB para el nivel de servicio definido en el SLA.
+* *Temperatura promedio (^o^C)*: La temperatura ambiente promedio para el día.
+* *Ratio de eficiencia del almacenamiento*: La proporción de eficiencia del almacenamiento en el entorno de almacenamiento de Keystone. Esta es la proporción del espacio lógico total usado por el sistema después de habilitar la configuración de eficiencia de almacenamiento en el espacio físico total utilizado para almacenar los datos. Para obtener más información sobre la tasa de eficiencia del almacenamiento, consulte https://docs.netapp.com/us-en/active-iq/concept_overview_storage_efficiency.html["Comprender la eficiencia del almacenamiento"^].
+
+
+Si hay una infracción de SLA, A. image:warning.png["icono de advertencia"] el icono de advertencia junto a la columna le informa de la naturaleza de la violación. Aparecerán las siguientes advertencias:
+
+* Temperatura ambiente: Si la temperatura está fuera del rango de 25^o^C - 27^o^C.
+* Vatios/TiB de SLA: Si no se cumplen las métricas de SLA del nivel de servicio. Para obtener más información, consulte link:../concepts/sla-sustainability.html#sustainability-service-level["Nivel de servicio sostenible"].
+* Tasa de eficiencia del almacenamiento: Si la eficiencia del almacenamiento es inferior a 2:1.
+
+
+*Información relacionada*
+
+* link:../integrations/aiq-keystone-details.html["Utilice la consola y la generación de informes de Keystone"]
+* link:../integrations/subscriptions-tab.html["Suscripciones"]
+* link:../integrations/current-usage-tab.html["Uso actual"]
+* link:../integrations/capacity-trend-tab.html["Tendencia de capacidad"]
+* link:../integrations/volumes-objects-tab.html["Volúmenes  Objetos"]
+* link:../integrations/performance-tab.html["Rendimiento"]
+

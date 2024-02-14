@@ -1,0 +1,55 @@
+---
+sidebar: sidebar 
+permalink: integrations/subscriptions-tab.html 
+keywords: keystone-aiq, digital advisor keystone, subscriptions-tab 
+summary: Pestaña Suscripciones en el panel de AIQ DA Keystone 
+---
+= Pestaña Suscripciones
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puedes ver una lista de todas tus suscripciones en la pestaña *Suscripciones*.
+
+Para ver esta pestaña, en el panel de navegación de la izquierda, vaya a *GENERAL > Suscripciones de Keystone > Suscripciones*.
+
+image:all-subs.png["Imagen del separador Suscripciones"]
+
+Puede ver la siguiente información. Para determinados campos y columnas, puede ver información o iconos de advertencia y sugerencias de herramientas que le proporcionan información adicional sobre los datos.
+
+* * Número de suscripción*: El número de suscripción de la suscripción de Keystone que asigna NetApp.
+* *ID de seguimiento*: El ID de seguimiento asignado en el momento de la activación de la suscripción. Se trata de un ID exclusivo para cada suscripción y sitio, que se utiliza para realizar el seguimiento de la suscripción.
++
+
+TIP: Si se ha suscrito al servicio complementario de protección de datos avanzada, puede hacer clic en la información sobre herramientas en su número de suscripción para ver el ID de seguimiento de la suscripción de partner en una configuración de MetroCluster. Para saber cómo ver el consumo detallado de suscripciones de partners en una configuración de MetroCluster, consulte link:../integrations/capacity-trend-tab.html#reference-charts-for-advanced-data-protection["Gráficos de referencia para protección avanzada de datos"].
+
+* *Tipo de uso*: Es posible que te hayas suscrito a varias suscripciones de Keystone (versión 1) o Keystone STaaS (versión 2). Las reglas del plan de tarifas para los niveles de servicio pueden variar para los dos tipos de suscripción. Al observar el valor de esta columna, sabe si el tipo de uso se factura según el uso aprovisionado o lógico de cualquiera de ellos `v1` o. `v2`. Si desea obtener más información sobre las suscripciones de Keystone versión 1, consulte https://docs.netapp.com/us-en/keystone/index.html["Documentación para NetApp Keystone"^].
+* *Período de facturación*: El período de facturación de la suscripción, como mensual, trimestral o anual.
+* *Fecha de inicio*: La fecha de inicio de la suscripción.
+* *Fecha de finalización*: La fecha de finalización de la suscripción. Si tiene una suscripción facturable mensual que se renueva automáticamente cada mes, verá `Month-on-month` en lugar de la fecha de finalización. En función de esta fecha, es posible que vea notificaciones de suscripciones que están a punto de finalizar o que tienen políticas de renovación automática asociadas.
+* *Estado de uso*: Muestra el indicador de uso para indicar si el consumo está dentro o fuera del límite de suscripción. Puede ordenar la lista por esta columna si desea ver los registros de consumo más altos.
+* image:subs-dtls-icon.png["."]: Al hacer clic en este icono para una suscripción, se abre la pestaña *Uso actual* con los detalles de uso de esa suscripción.
+* image:aiq-ks-time-icon.png["."]: Al hacer clic en este icono, se abre la pestaña *Tendencia de capacidad*, donde puede ver los datos de uso históricos de cada nivel de servicio incluido en esta suscripción.
+
+
+Puede consultar los siguientes indicadores de uso para comprobar el estado de uso de cada suscripción:
+
+image:usage-indicator.png["."]
+
+.Índice
+image:icon-grey.png["icono de punto gris"]: No se ha registrado ningún uso de la capacidad con respecto a la capacidad comprometida del nivel de servicioimage:icon-green.png["icono de punto verde"]: El consumo es normal, dentro del 80% de la capacidad comprometidaimage:icon-amber.png["icono de punto ámbar"]: Consumo máximo, es decir, el uso está a punto de alcanzar el 100% o más de la capacidad comprometida. La columna *consumido* muestra este indicador para cualquier consumo superior al 80% de la capacidad comprometidaimage:icon-red.png["icono de punto rojo"]: El consumo está dentro del límite de ráfaga. El consumo en ráfaga es el consumo que supera el 100% de capacidad comprometida de un nivel de servicio, y se encuentra dentro del límite de uso acordado en ráfaga, como el 120%image:icon-purple.png["icono de punto morado"]: Indica un consumo superior al límite de ráfaga estipulado
+
+*Información relacionada*
+
+* link:../integrations/aiq-keystone-details.html["Utilice la consola y la generación de informes de Keystone"]
+* link:../integrations/current-usage-tab.html["Uso actual"]
+* link:../integrations/sla-details-tab.html["Detalles de SLA"]
+* link:../integrations/capacity-trend-tab.html["Tendencia de capacidad"]
+* link:../integrations/volumes-objects-tab.html["Volúmenes  Objetos"]
+* link:../integrations/performance-tab.html["Rendimiento"]
+

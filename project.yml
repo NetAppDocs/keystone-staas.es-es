@@ -56,9 +56,23 @@ sidebar:
   - title: Consulta la consola de Keystone y gestiona las suscripciones
     entries:
     - title: Consulta el panel de Keystone en el asesor digital de Active IQ
-      url: "/integrations/keystone-aiq.html"
-    - title: Consulta de detalles de consumo y generación de informes
-      url: "/integrations/aiq-keystone-details.html"
+      entries:
+      - title: Consola de Keystone y el asesor digital
+        url: "/integrations/keystone-aiq.html"
+      - title: Consulta de detalles de consumo y generación de informes
+        url: "/integrations/aiq-keystone-details.html"
+      - title: Pestaña Suscripciones
+        url: "/integrations/subscriptions-tab.html"
+      - title: Pestaña Uso actual
+        url: "/integrations/current-usage-tab.html"
+      - title: Pestaña Detalles de SLA
+        url: "/integrations/sla-details-tab.html"
+      - title: Pestaña Capacity Trend
+        url: "/integrations/capacity-trend-tab.html"
+      - title: Pestaña Volumes & Objects
+        url: "/integrations/volumes-objects-tab.html"
+      - title: Pestaña Rendimiento
+        url: "/integrations/performance-tab.html"
     - title: Gestiona las suscripciones de Keystone desde BlueXP
       url: "/integrations/keystone-cm.html"
   - title: Más información sobre Keystone
@@ -121,64 +135,3 @@ sidebar:
     url: "/concepts/gssc.html"
   - title: Avisos legales
     url: "/legal-notices.html"
-homepage:
-  tiles:
-  - title: Manos a la obra
-    links:
-    - title: "¿Qué es NetApp Keystone?"
-      url: "/concepts/overview.html"
-    - title: Instalación de Keystone Collector en VMware vSphere
-      url: "/installation/vapp-installation.html"
-    - title: Instalación de Keystone Collector en Linux
-      url: "/installation/linux-installation.html"
-    - title: Vea su uso en el asesor digital
-      url: "/integrations/keystone-aiq.html"
-    - title: Genera informes de tu consumo
-      url: "/integrations/aiq-keystone-details.html"
-  - title: Servicios compatibles en Keystone
-    links:
-    - title: Niveles de servicio de Keystone
-      url: "/concepts/service-levels.html"
-    - title: Calidad de servicio (QoS)
-      url: "/concepts/qos.html"
-    - title: "¿Cuáles son las unidades de medida?"
-      url: "/concepts/metrics.html"
-    - title: "¿Qué es el almacenamiento base compatible?"
-      url: "/concepts/supported-storage-services.html"
-    - title: "¿Puedo reasignar mi gasto de las instalaciones a la nube?"
-      url: "/concepts/capacity-requirements.html#capacity-adjustments"
-  - title: Precios y facturación de Keystone
-    links:
-    - title: Conoce los precios de Keystone
-      url: "/concepts/pricing.html"
-    - title: Mis horarios de facturación
-      url: "/concepts/billing-schedules.html"
-    - title: Facturación basada en la capacidad comprometida
-      url: "/concepts/committed-capacity-billing.html"
-    - title: Medición basada en la capacidad consumida
-      url: "/concepts/consumed-capacity-billing.html"
-    - title: "¿Qué sucede si he consumido más que mi capacidad comprometida?"
-      url: "/concepts/burst-consumption-billing.html"
-  - title: Sáquele más partido a los servicios de Keystone
-    links:
-    - title: Conozca a su equipo de soporte (Keystone GSSC)
-      url: "/concepts/gssc.html"
-    - title: "¿Qué puedo hacer con mis datos inactivos o menos utilizados?"
-      url: "/concepts/data-tiering.html"
-    - title: "¿Cómo puedo proteger mis datos de Keystone?"
-      url: "/concepts/adp.html"
-    - title: Keystone y BlueXP
-      url: "/integrations/keystone-cm.html"
-    - title: Soporte de ciudadanos de EE. UU
-      url: "/concepts/uscs.html"
-  - title: Más información
-    links:
-    - title: Suscripciones de Keystone versión 1 (anteriormente, suscripciones a Keystone
-        Flex)
-      url: https://docs.netapp.com/us-en/keystone/
-    - title: Asesor digital de Active IQ
-      url: https://docs.netapp.com/us-en/active-iq/index.html
-    - title: BlueXP
-      url: https://docs.netapp.com/us-en/cloud-manager-family/
-    - title: Active IQ Unified Manager
-      url: https://docs.netapp.com/us-en/active-iq-unified-manager/

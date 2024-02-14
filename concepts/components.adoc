@@ -56,7 +56,7 @@ NetApp puede proporcionar las especificaciones de requisitos de refrigeración (
 
 === Máquinas virtuales de almacenamiento
 
-Se requiere una máquina virtual de almacenamiento (VM de almacenamiento) para poner en marcha el recopilador Keystone y la puerta de enlace de la solución AIOPs. Los requisitos previos para instalar Keystone Collector están disponibles aquí: link:..//installation/installation-overview.html["Guía de instalación para Keystone Collector"]. Los otros requisitos se comparten durante la puesta en marcha.
+Se requiere una máquina virtual de almacenamiento (VM de almacenamiento) para poner en marcha el recopilador Keystone y la puerta de enlace de la solución AIOPs. Los requisitos previos para instalar Keystone Collector están disponibles aquí: link:../installation/installation-overview.html["Guía de instalación para Keystone Collector"]. Los otros requisitos se comparten durante la puesta en marcha.
 
 
 

@@ -1,0 +1,68 @@
+---
+sidebar: sidebar 
+permalink: integrations/volumes-objects-tab.html 
+keywords: keystone-aiq, digital advisor keystone, volumes-objects-tab, StorageGRID objects details, ONTAP volumes 
+summary: pestaña volumes-objetos- 
+---
+= Pestaña Volumes & Objects
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+En la pestaña *Volúmenes y objetos*, puede ver el consumo y otros detalles de sus volúmenes en ONTAP. Para StorageGRID, esta pestaña muestra los nodos y su uso individual en su entorno de almacenamiento de objetos.
+
+
+NOTE: El nombre de esta pestaña varía según la naturaleza de la implementación en el sitio. Si tiene tanto volúmenes como almacenamiento de objetos, puede ver la pestaña *Volúmenes y objetos*. Si solo tiene volúmenes ONTAP en su entorno de almacenamiento, el nombre cambia a *volúmenes*. Para el almacenamiento de objetos StorageGRID, puede ver la pestaña *Objetos*.
+
+
+
+== Ver los detalles del volumen de ONTAP
+
+Para ONTAP, la pestaña *Volúmenes* muestra información, como el uso de la capacidad, el tipo de volumen, el clúster, el agregado y el nivel de servicio de los volúmenes en su entorno de almacenamiento gestionado por su suscripción a Keystone.
+
+.Pasos
+. Haz clic en *GENERAL > Suscripciones de Keystone > Volúmenes*.
+. Seleccione el número de suscripción. De forma predeterminada, se selecciona el primer número de suscripción disponible.
++
+Se muestran los detalles del volumen. Puede desplazarse por las columnas y obtener más información al pasar el ratón por los iconos de información situados junto a los encabezados de las columnas. Puede ordenar por las columnas y filtrar las listas para ver información específica.
+
++
+
+NOTE: Para el servicio complementario de protección de datos avanzada, se muestra una columna adicional para indicar si el volumen es un volumen primario o de reflejo en la configuración de MetroCluster. Puede copiar números de serie de nodos individuales haciendo clic en el botón *Copiar series de nodos*.
+
+
+
+image:aiq-ks-sysdtls.png["Volúmenes  ficha Objetos"]
+
+
+
+== Vea los nodos y el consumo de StorageGRID
+
+Para StorageGRID, esta pestaña muestra el uso físico de los nodos para el almacenamiento de objetos.
+
+.Pasos
+. Haz clic en *GENERAL > Suscripciones Keystone > Objetos*.
+. Seleccione el número de suscripción. De forma predeterminada, se selecciona el primer número de suscripción disponible. Al seleccionar el número de suscripción, se habilita el enlace de detalles del almacenamiento de objetos.
++
+image:sg-link.png["Cuadro de diálogo StorageGRID"]
+
+. Haga clic en el enlace para ver los nombres de los nodos y los detalles de uso físico de cada nodo.
++
+image:sg-link-2.png["Cuadro de diálogo StorageGRID"]
+
+
+
+*Información relacionada*
+
+* link:../integrations/aiq-keystone-details.html["Utilice la consola y la generación de informes de Keystone"]
+* link:../integrations/subscriptions-tab.html["Suscripciones"]
+* link:../integrations/current-usage-tab.html["Uso actual"]
+* link:../integrations/sla-details-tab.html["Detalles de SLA"]
+* link:../integrations/capacity-trend-tab.html["Tendencia de capacidad"]
+* link:../integrations/performance-tab.html["Rendimiento"]
+

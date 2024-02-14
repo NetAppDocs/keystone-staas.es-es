@@ -18,6 +18,18 @@ NetApp ofrece funciones nuevas y mejoradas en cada lanzamiento de los servicios 
 
 
 
+== Nuevas funciones y mejoras para el 13 de febrero de 2024
+
+El siguiente cambio se ha realizado en la pantalla *Suscripciones Keystone* del asesor digital Active IQ (también conocido como asesor digital).
+
+
+
+=== Posibilidad de ver suscripciones vinculadas a una suscripción principal
+
+Algunas de sus suscripciones principales pueden tener suscripciones secundarias vinculadas. Si ese es el caso, el número de suscripción principal seguirá mostrándose en la columna *Número de suscripción*, mientras que los números de suscripción vinculados aparecerán en una nueva columna *Suscripciones vinculadas* en la pestaña *Suscripciones*. La columna *Suscripciones vinculadas* solo estará disponible si tiene suscripciones vinculadas, y podrá ver mensajes informativos que le notifiquen sobre ellas.
+
+
+
 == Nuevas funciones y mejoras para el 11 de enero de 2024
 
 Descubra las novedades de esta versión.

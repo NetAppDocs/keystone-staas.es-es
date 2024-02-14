@@ -14,7 +14,7 @@ summary: Problemas conocidos en el motor de servicio de NetApp
 
 
 [role="lead"]
-El siguiente problema conocido se ha notificado en STaaS de NetApp Keystone. Es posible que encuentre este problema al aprovisionar o utilizar su almacenamiento como parte de sus suscripciones a Keystone.
+Los siguientes problemas conocidos se han notificado en STaaS de NetApp Keystone. Es posible que encuentre estos problemas al aprovisionar o usar el almacenamiento que gestionan las suscripciones de Keystone.
 
 [cols="3*"]
 |===
@@ -27,5 +27,14 @@ Nivel de servicio incorrecto derivado para volúmenes de reflejo.
 Si MetroCluster y FabricPool están habilitados en un entorno en el que los planes de tarifas tanto para la organización en niveles como para el almacenamiento de objetos son aplicables, es posible que los niveles de servicio derivados de los volúmenes de mirroring (tanto volúmenes constituyentes como FabricPool) sean incorrectos.
  a| 
 Ninguno.
+
+
+
+ a| 
+Enlaces e iconos parcialmente visibles en la pestaña *Suscripciones*.
+ a| 
+Algunos enlaces e iconos, como el enlace a la pestaña *Uso actual* y la información sobre herramientas de algunas columnas, son parcialmente visibles.
+ a| 
+No se requiere ninguna solución. Los enlaces funcionan como se esperaba.
 
 |===
