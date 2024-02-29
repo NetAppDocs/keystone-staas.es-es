@@ -14,10 +14,12 @@ summary: Informes y gráficos de suscripción de Keystone
 
 
 [role="lead"]
-El panel del asesor digital de Active IQ (también denominado asesor digital) le permite supervisar el uso de sus suscripciones a NetApp Keystone y generar informes. Al suscribirse a los servicios de Keystone, puede ver los detalles de su suscripción y uso en el widget *Suscripciones de Keystone* del panel de control de Digital Advisor.
+Utiliza el panel del asesor digital de Active IQ (también conocido como asesor digital) para tus suscripciones de STaaS de Keystone para supervisar el uso que haces de la capacidad y generar informes.
+
+Al suscribirse a los servicios de Keystone, puede ver los detalles de su suscripción y uso en el widget *Suscripciones de Keystone* del panel de control de Digital Advisor.
 
 
-NOTE: La información disponible aquí es aplicable tanto a ONTAP como a StorageGRID. Se han señalado excepciones en las secciones correspondientes.
+NOTE: La información aquí se aplica tanto a ONTAP como a StorageGRID. Se han señalado excepciones en las secciones correspondientes.
 
 Para obtener información sobre el widget Keystone Digital Advisor, consulte https://docs.netapp.com/us-en/active-iq/view_keystone_capacity_utilization.html["Vea el uso de la capacidad con la suscripción a NetApp Keystone"^].
 

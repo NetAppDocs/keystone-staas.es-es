@@ -16,11 +16,11 @@ summary: Pestaña Suscripciones en el panel de AIQ DA Keystone
 [role="lead"]
 Puedes ver una lista de todas tus suscripciones en la pestaña *Suscripciones*.
 
-Para ver esta pestaña, en el panel de navegación de la izquierda, vaya a *GENERAL > Suscripciones de Keystone > Suscripciones*.
+Para ver esta pestaña, en el panel de navegación de la izquierda, vaya a *GENERAL > Suscripciones de Keystone > Suscripciones*. Se enumeran todas sus suscripciones.
 
 image:all-subs.png["Imagen del separador Suscripciones"]
 
-Puede ver la siguiente información. Para determinados campos y columnas, puede ver información o iconos de advertencia y sugerencias de herramientas que le proporcionan información adicional sobre los datos.
+Puede filtrar la selección haciendo clic en el icono de la hamburguesa image:icon-hamburger.png["icono de hamburguesa"] Para una columna, o ver todas las suscripciones haciendo clic en el botón *Borrar filtros*. Para determinados campos y columnas, puede ver información o iconos de advertencia y sugerencias de herramientas que le proporcionan información adicional sobre los datos.
 
 * * Número de suscripción*: El número de suscripción de la suscripción de Keystone que asigna NetApp.
 * *ID de seguimiento*: El ID de seguimiento asignado en el momento de la activación de la suscripción. Se trata de un ID exclusivo para cada suscripción y sitio, que se utiliza para realizar el seguimiento de la suscripción.
@@ -52,4 +52,5 @@ image:icon-grey.png["icono de punto gris"]: No se ha registrado ningún uso de l
 * link:../integrations/capacity-trend-tab.html["Tendencia de capacidad"]
 * link:../integrations/volumes-objects-tab.html["Volúmenes  Objetos"]
 * link:../integrations/performance-tab.html["Rendimiento"]
+* link:../integrations/assets-tab.html["Activos"]
 

@@ -14,9 +14,11 @@ summary: Requisitos previos para la instalación del recopilador Keystone en sis
 
 
 [role="lead"]
-Hay algunas configuraciones necesarias para instalar Keystone Collector en sistemas Linux.
+La preparación de su sistema Linux con el software necesario garantiza una instalación precisa y la recopilación de datos por parte de Keystone Collector.
 
-.Requisitos previos para el servidor Linux:
+Asegúrese de que su máquina virtual del servidor de recopilador de Linux y Keystone tenga estas configuraciones.
+
+.Servidor Linux:
 * Sistema operativo: CentOS 7 o Red Hat Enterprise Linux 8.6 o posterior
 * Hora cronyd sincronizada
 * Acceso a los repositorios de software estándar de Linux
@@ -30,7 +32,7 @@ El mismo servidor también debería tener los siguientes paquetes de terceros:
 * python 3 (3.6.8 a 3.9.13)
 
 
-.Requisitos previos para la máquina virtual del servidor de recopilador de Keystone:
+.Máquina virtual del servidor de recopilador Keystone:
 * Básico: 2 CPU
 * RAM: 4 GB DE RAM
 * Espacio en disco: 50 GB vDisk

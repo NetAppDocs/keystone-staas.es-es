@@ -16,19 +16,19 @@ summary: Keystone y asesor digital
 [role="lead"]
 Si te has suscrito a los servicios STaaS de NetApp Keystone, obtienes una descripción general de tus suscripciones en el widget *Suscripciones Keystone* del panel del asesor digital de Active IQ (también conocido como asesor digital).
 
-Puede buscar detalles de la suscripción de Keystone si busca por nombre de cliente o por nombre de lista de seguimiento que incluya varios clientes. Para obtener información sobre cómo buscar suscripciones STaaS de Keystone por listas de seguimiento, consulte link:../integrations/keystone-aiq.html#search-by-using-keystone-watchlists["Busca mediante listas de comprobaciones de Keystone"].
+Puedes buscar una suscripción a Keystone introduciendo los tres primeros caracteres de un nombre de cliente o lista de seguimiento, o el número de suscripción a Keystone. Para obtener información sobre cómo buscar suscripciones STaaS de Keystone por listas de seguimiento, consulte link:../integrations/keystone-aiq.html#search-by-using-keystone-watchlists["Busca mediante listas de comprobaciones de Keystone"].
 
 Digital Advisor ofrece un panel de control unificado que proporciona información sobre varios niveles de los datos de suscripción y la información de uso a través del botón * Cambiar a un panel de control antiguo / nuevo *.
 
 .Consola predeterminada (antigua)
-Puede ver el nombre del cliente y el número de suscripción, el nombre de la cuenta, las fechas de inicio y finalización de la suscripción y los gráficos de uso de capacidad según los niveles de servicio suscritos.
+Puede ver el nombre del cliente y el número de suscripción, el nombre de la cuenta, las fechas de inicio y finalización de la suscripción y los gráficos de uso de capacidad según los niveles de servicio suscritos. Puede ver la marca de tiempo de recopilación de los datos de consumo en la hora UTC.
 
 image:old-db.png["consola antigua"]
 
 .Panel de control alternativo (nuevo)
 Puede ver el desglose del uso de la capacidad en función de sus suscripciones, y advertencias y alertas que requieren atención o acción inmediatas. La información aparece selectivamente, dependiendo de sus suscripciones y el estado de su uso. Puede ver esta información:
 
-* Uso de capacidad, como:
+* *Uso de la capacidad*: Datos de consumo tales como:
 +
 ** Sin uso.
 ** Consumo superior al 80 % de la capacidad comprometida.
@@ -36,8 +36,8 @@ Puede ver el desglose del uso de la capacidad en función de sus suscripciones, 
 ** Consumos superiores a la capacidad aumentada.
 
 
-* Acuerdo de nivel de servicio: Este estado aparece si al menos una de sus suscripciones tiene un acuerdo de nivel de servicio (SLA) de sostenibilidad válido con NetApp. El estado indica si las suscripciones cumplen los criterios de sostenibilidad definidos en su SLA. Si sus suscripciones cumplen los criterios de SLA, puede ver el estado como _ALL OK_.
-* Se muestran advertencias diversas si son aplicables a usted.
+* *Acuerdo de nivel de servicio*: Este estado aparece si al menos una de sus suscripciones tiene un acuerdo de nivel de servicio (SLA) de sostenibilidad válido con NetApp. El estado indica si las suscripciones cumplen los criterios de sostenibilidad definidos en su SLA. Si sus suscripciones cumplen los criterios de SLA, puede ver el estado como _ALL OK_.
+* *Alertas*: Usted ve alertas para varios escenarios si son aplicables a usted.
 +
 ** *Venciendo pronto*: En caso de que tus suscripciones venzan dentro de los 90 días.
 ** *Actualizaciones críticas de hardware*: Si hay actualizaciones críticas de hardware pendientes.
@@ -58,21 +58,13 @@ Para obtener más información sobre la consola y la generación de informes de 
 
 
 
-== Busca mediante listas de comprobaciones de Keystone
+== Busca por listas de comprobaciones de Keystone
 
 Watchlist es una función del asesor digital de Active IQ (asesor digital). Para obtener más información, consulte https://docs.netapp.com/us-en/active-iq/concept_overview_dashboard.html["Entender la lista de observación"^]. Para obtener más información sobre la creación de listas de comprobaciones, consulte https://docs.netapp.com/us-en/active-iq/task_add_watchlist.html["Cree una lista de observación"^].
 
-STaaS de Keystone admite la creación de listas de seguimiento y la búsqueda por ellas para ver los detalles de la suscripción de varios clientes. Sigue estos pasos para crear una lista de visualización para los clientes de Keystone:
-
-. En la pantalla *Create Watchlist*, proporciona un nombre para la lista de seguimiento de Keystone.
-. Seleccione *Categoría* en el campo *Agregar sistemas por*. *Cliente* se selecciona por defecto en el campo *Elegir Categoría*.
-. Busque los clientes requeridos por sus nombres y agréguelos. Solo puede agregar clientes cuyos detalles tiene derecho a ver.
-. Haga clic en *Crear lista de observación*. La pantalla del asesor digital muestra los datos de la nueva lista de comprobaciones.
+Para STaaS de Keystone, puede crear listas de comprobaciones para clientes o números de suscripción. Puede buscar por el nombre de la lista de comprobaciones en la pantalla del asesor digital. Al buscar por una lista de seguimiento, puede ver los clientes y sus suscripciones en la lista desplegable *Suscripción* en el widget *Suscripciones Keystone*.
 
 
-Al buscar por una lista de seguimiento en la pantalla del asesor digital, puede ver a los clientes y sus suscripciones en la lista desplegable *Suscripción* en el widget *Suscripciones de Keystone*.
-
-
-TIP: Si está viendo el panel _NEW_ en el widget *Suscripciones de Keystone*, haga clic en *Cambiar a Panel de Control Antiguo* para ver la lista.
+NOTE: Una búsqueda por listas de comprobaciones recupera la lista de suscripciones en el panel de control antiguo. Si una lista de seguimiento consta de números de suscripción, solo se muestra el widget *Suscripciones de Keystone* en el panel del asesor digital.
 
 image:watchlist.png["pantalla de lista de seguimiento"]

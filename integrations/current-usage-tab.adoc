@@ -37,4 +37,5 @@ Junto con el uso actual, puede que desee ver los datos de uso históricos para l
 * link:../integrations/capacity-trend-tab.html["Tendencia de capacidad"]
 * link:../integrations/volumes-objects-tab.html["Volúmenes  Objetos"]
 * link:../integrations/performance-tab.html["Rendimiento"]
+* link:../integrations/assets-tab.html["Activos"]
 

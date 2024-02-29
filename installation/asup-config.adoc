@@ -14,9 +14,9 @@ summary: Procedimiento para configurar AutoSupport para Keystone
 
 
 [role="lead"]
-Cuando se utiliza el mecanismo de telemetría de AutoSupport, el servicio Keystone realiza la medición de uso basada en los datos de telemetría de AutoSupport. Para lograr el nivel de granularidad necesario, debe configurar AutoSupport para incorporar datos de Keystone en los paquetes de soporte diarios que envían los clústeres de ONTAP.
+Cuando se utiliza el mecanismo de telemetría AutoSupport, Keystone calcula el uso en función de los datos de telemetría de AutoSupport. Para lograr el nivel de granularidad necesario, debe configurar AutoSupport para incorporar datos de Keystone en los paquetes de soporte diarios que envían los clústeres de ONTAP.
 
-.Antes de empezar
+.Acerca de esta tarea
 Debe tener en cuenta lo siguiente antes de configurar AutoSupport para que incluya datos de Keystone.
 
 * Puede editar las opciones de telemetría de AutoSupport mediante la CLI de ONTAP. Para obtener más información sobre la gestión de servicios de AutoSupport y el rol de administrador del sistema (clúster), consulte https://docs.netapp.com/us-en/ontap/system-admin/manage-autosupport-concept.html["Información general sobre Manage AutoSupport"^] y.. https://docs.netapp.com/us-en/ontap/system-admin/cluster-svm-administrators-concept.html["Administradores de clústeres y SVM"^].

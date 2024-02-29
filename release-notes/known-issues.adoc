@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: release-notes/known-issues.html 
 keywords: netapp, keystone, release notes, known issues 
-summary: Problemas conocidos en el motor de servicio de NetApp 
+summary: Problemas conocidos en STaaS de Keystone 
 ---
-= Problemas conocidos en el motor de servicio de NetApp
+= Problemas conocidos en STaaS de Keystone
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,9 @@ summary: Problemas conocidos en el motor de servicio de NetApp
 
 
 [role="lead"]
-Los siguientes problemas conocidos se han notificado en STaaS de NetApp Keystone. Es posible que encuentre estos problemas al aprovisionar o usar el almacenamiento que gestionan las suscripciones de Keystone.
+Los problemas conocidos identifican problemas que pueden impedirle usar de forma efectiva los servicios de suscripción de Keystone.
+
+Los siguientes problemas conocidos se han notificado en STaaS de NetApp Keystone.
 
 [cols="3*"]
 |===
@@ -22,19 +24,28 @@ Los siguientes problemas conocidos se han notificado en STaaS de NetApp Keystone
 
 
  a| 
-Nivel de servicio incorrecto derivado para volúmenes de reflejo.
+Discrepancia ocasional en el número de volúmenes no compatibles con AQoS en la pestaña *Volúmenes*.
  a| 
-Si MetroCluster y FabricPool están habilitados en un entorno en el que los planes de tarifas tanto para la organización en niveles como para el almacenamiento de objetos son aplicables, es posible que los niveles de servicio derivados de los volúmenes de mirroring (tanto volúmenes constituyentes como FabricPool) sean incorrectos.
+Si hay dos niveles de servicio asignados a un volumen que cumple con el cumplimiento de AQoS para un solo nivel de servicio, el número de volúmenes no compatibles con AQoS que se enumeran en las pestañas *Resumen de volumen* y *Detalles de volumen* puede ser diferente.
  a| 
-Ninguno.
+Ninguno
 
 
 
  a| 
-Enlaces e iconos parcialmente visibles en la pestaña *Suscripciones*.
+La pestaña *Activos* no se ha rellenado para las suscripciones de AutoSupport.
  a| 
-Algunos enlaces e iconos, como el enlace a la pestaña *Uso actual* y la información sobre herramientas de algunas columnas, son parcialmente visibles.
+Si la telemetría AutoSupport se utiliza para recopilar datos de Keystone para un número de suscripción, no se recupera información en la pestaña *Activos*.
  a| 
-No se requiere ninguna solución. Los enlaces funcionan como se esperaba.
+Ninguno
+
+
+
+ a| 
+Apariencia incorrecta de la información sobre herramientas.
+ a| 
+La información sobre herramientas del icono del índice *Current Burst* aparece incorrectamente en la pestaña *Capacity Trend*.
+ a| 
+Consulte el texto correcto sobre herramientas «_La cantidad de capacidad aumentada que se está consumiendo actualmente. Tenga en cuenta que esto es para el período de facturación actual, no para el rango de fechas seleccionado.
 
 |===

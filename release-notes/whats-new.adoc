@@ -18,9 +18,39 @@ NetApp ofrece funciones nuevas y mejoradas en cada lanzamiento de los servicios 
 
 
 
+== Nuevas funciones y mejoras para el 29 de febrero de 2024
+
+Se han realizado varias mejoras en el panel del asesor digital de Active IQ (también conocido como asesor digital) y en la pantalla *Suscripciones de Keystone* para esta versión:
+
+
+
+=== Adición de la pestaña Activos
+
+La pantalla *Suscripciones Keystone* ahora incluye la pestaña *Activos*. Esta nueva pestaña proporciona información a nivel de clúster basada en sus suscripciones. Para obtener más información, consulte link:../integrations/assets-tab.html["Activos"^].
+
+
+
+=== Mejoras en la pestaña Volumes & Objects
+
+Para proporcionar una mayor claridad a los volúmenes de su sistema ONTAP, se han añadido dos nuevos botones de pestañas, *Resumen de volumen* y *Detalles de volumen* a la pestaña *Volúmenes*. La pestaña *Resumen de volumen* proporciona un recuento general de los volúmenes asociados con los niveles de servicio suscritos, incluido su estado de cumplimiento de AQoS e información de capacidad. La pestaña *Detalles del volumen* muestra todos los volúmenes y sus detalles. Para obtener más información, consulte link:../integrations/volumes-objects-tab.html["Volúmenes  ficha Objetos"^].
+
+
+
+=== Experiencia de búsqueda mejorada en Digital Advisor
+
+Los parámetros de búsqueda en la pantalla de *Digital Advisor* ahora incluyen números de suscripción de Keystone y listas de comprobaciones creadas para suscripciones de Keystone. Puede introducir los tres primeros caracteres de un número de suscripción o nombre de lista de seguimiento. Para obtener más información, consulte link:../integrations/keystone-aiq.html["Consulta el panel de Keystone en el asesor digital de Active IQ"^].
+
+
+
+=== Ver registro de hora de los datos de consumo
+
+Puede ver la marca de tiempo de los datos de consumo (en UTC) en el panel antiguo del widget *Suscripciones Keystone*.
+
+
+
 == Nuevas funciones y mejoras para el 13 de febrero de 2024
 
-El siguiente cambio se ha realizado en la pantalla *Suscripciones Keystone* del asesor digital Active IQ (también conocido como asesor digital).
+La siguiente mejora se ha realizado en la pantalla *Suscripciones Keystone* del Asesor Digital Active IQ (también conocido como Asesor Digital).
 
 
 
@@ -34,7 +64,7 @@ Algunas de sus suscripciones principales pueden tener suscripciones secundarias 
 
 Descubra las novedades de esta versión.
 
-Los siguientes cambios se han realizado en la pantalla *Suscripciones Keystone* del Asesor Digital Active IQ (también conocido como Asesor Digital).
+Las siguientes mejoras se han realizado en la pantalla *Suscripciones Keystone* del asesor digital Active IQ (también conocido como asesor digital).
 
 
 

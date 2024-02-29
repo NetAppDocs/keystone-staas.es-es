@@ -56,4 +56,5 @@ Si hay una infracción de SLA, A. image:warning.png["icono de advertencia"] el i
 * link:../integrations/capacity-trend-tab.html["Tendencia de capacidad"]
 * link:../integrations/volumes-objects-tab.html["Volúmenes  Objetos"]
 * link:../integrations/performance-tab.html["Rendimiento"]
+* link:../integrations/assets-tab.html["Activos"]
 

@@ -1,0 +1,39 @@
+---
+sidebar: sidebar 
+permalink: integrations/assets-tab.html 
+keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, keystone assets tab 
+summary: Informes y gráficos de suscripción de Keystone 
+---
+= Activos
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Utilice la pestaña *Activos* para recopilar perspectivas sobre su clúster y nodos gestionados por sus suscripciones de Keystone.
+
+El asesor digital de Active IQ proporciona información completa sobre tus puestas en marcha a nivel de inventario. La pestaña *Activos* del panel de control de Keystone, por otro lado, acumula la información a nivel de clúster en función de sus suscripciones, y segrega y presenta el nivel preciso de detalles.
+
+.Pasos
+. Haz clic en *GENERAL > Suscripciones Keystone > Activos*.
+. Seleccione el número de suscripción para el que desea ver los clusters.
+
+
+Puede ver los detalles del clúster, desglosados por configuración de eficiencia del almacenamiento, tipo de plataforma y detalles de capacidad. Al hacer clic en uno de los clústeres, se accede al widget *Clusters* de la pantalla del Asesor Digital, donde se obtiene información adicional para ese clúster.
+
+image:assets-tab.png["Activos"]
+
+*Información relacionada*
+
+* link:../integrations/aiq-keystone-details.html["Utilice la consola y la generación de informes de Keystone"]
+* link:../integrations/subscriptions-tab.html["Suscripciones"]
+* link:../integrations/current-usage-tab.html["Uso actual"]
+* link:../integrations/sla-details-tab.html["Detalles de SLA"]
+* link:../integrations/volumes-objects-tab.html["Volúmenes  Objetos"]
+* link:../integrations/capacity-trend-tab.html["Tendencia de capacidad"]
+* link:../integrations/performance-tab.html["Rendimiento"]
+

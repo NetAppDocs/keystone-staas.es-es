@@ -18,9 +18,9 @@ indexpage:
     links:
     - title: "¿Qué es NetApp Keystone?"
       url: "/concepts/overview.html"
-    - title: Instalación de Keystone Collector en VMware vSphere
+    - title: Instala Keystone Collector en VMware vSphere
       url: "/installation/vapp-installation.html"
-    - title: Instalación de Keystone Collector en Linux
+    - title: Instale Keystone Collector en Linux
       url: "/installation/linux-installation.html"
     - title: Vea su uso en el asesor digital
       url: "/integrations/keystone-aiq.html"

@@ -22,7 +22,7 @@ Puede obtener información sobre cualquier problema relacionado con el acuerdo d
 
 == Métricas de sostenibilidad
 
-Las siguientes métricas se utilizan para definir y medir la sostenibilidad:
+Las siguientes métricas definen y miden la sostenibilidad:
 
 * Vatios: El consumo de alimentación diario de las cabinas ONTAP AFF A-Series y las bandejas SSD conectadas.
 * TiB: El mayor de:
