@@ -44,15 +44,16 @@ Los siguientes enlaces proporcionan más información sobre cada una de estas pe
 * link:../integrations/capacity-trend-tab.html["Tendencia de capacidad"]
 * link:../integrations/volumes-objects-tab.html["Volúmenes  Objetos"]
 * link:../integrations/performance-tab.html["Rendimiento"]
+* link:../integrations/assets-tab.html["Activos"]
 
 
 
 
 == Generar informes
 
-Puede generar y ver informes para los detalles de la suscripción, datos históricos de uso de un intervalo de tiempo y detalles de volumen desde cada una de las pestañas haciendo clic en el botón de descarga: image:download-icon.png["icono de descarga de informe"]
+Puedes generar y ver informes para tus datos de Keystone. Cada pestaña de la página *Suscripciones de Keystone* te permite generar informes para tus suscripciones, uso histórico y uso de bursting, rendimiento, activos y volúmenes y objetos haciendo clic en el botón de descarga: image:download-icon.png["icono de descarga de informe"]
 
-Los detalles se generan en formato CSV que se puede guardar para usarlo más adelante.
+Los detalles se generan en formato CSV que puede guardar para usarlos y compararlos en el futuro.
 
 Un informe de muestra para la pestaña *Capacity Trend*, donde se convierten los datos gráficos:
 
