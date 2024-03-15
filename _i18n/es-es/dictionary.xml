@@ -1541,8 +1541,6 @@ La huella digital correcta tiene este aspecto:<block ref="821b59fa560f6b692841b4
   <block id="f7168a4acbbbaa603715b2a0aeb4cea5" category="paragraph">Los siguientes problemas conocidos se han notificado en STaaS de NetApp Keystone.</block>
   <block id="b57ac208343300b485336a006b1b8d3a" category="paragraph">Discrepancia ocasional en el número de volúmenes no compatibles con AQoS en la pestaña *Volúmenes*.</block>
   <block id="e869f03abde9aeae1c0e990b9ab25b5d" category="paragraph">Si hay dos niveles de servicio asignados a un volumen que cumple con el cumplimiento de AQoS para un solo nivel de servicio, el número de volúmenes no compatibles con AQoS que se enumeran en las pestañas *Resumen de volumen* y *Detalles de volumen* puede ser diferente.</block>
-  <block id="dff510fff5f3e0445103891eda4984fa" category="paragraph">La pestaña *Activos* no se ha rellenado para las suscripciones de AutoSupport.</block>
-  <block id="7ae14e4cb0932c9b84aa8e8223343a96" category="paragraph">Si la telemetría AutoSupport se utiliza para recopilar datos de Keystone para un número de suscripción, no se recupera información en la pestaña *Activos*.</block>
   <block id="c3793f37646d7912d9f966e272bf6e19" category="paragraph">Apariencia incorrecta de la información sobre herramientas.</block>
   <block id="0fc4cafaef1f137e9c12e2f6d181561c" category="paragraph">La información sobre herramientas del icono del índice *Current Burst* aparece incorrectamente en la pestaña *Capacity Trend*.</block>
   <block id="1256b327f17e3f51e207a701dde2481e" category="paragraph">Consulte el texto correcto sobre herramientas «_La cantidad de capacidad aumentada que se está consumiendo actualmente. Tenga en cuenta que esto es para el período de facturación actual, no para el rango de fechas seleccionado.</block>
@@ -1611,10 +1609,15 @@ La huella digital correcta tiene este aspecto:<block ref="821b59fa560f6b692841b4
   <block id="e2a2270c486beacf71e6bd4a48314991" category="list-text">Haz clic en *GENERAL &gt; Suscripciones Keystone &gt; Activos*.</block>
   <block id="89c9ef7132e6fac6325de01d876fc5aa" category="list-text">Seleccione el número de suscripción para el que desea ver los clusters.</block>
   <block id="1014f28a098809635129e3768d88c841" category="paragraph">Puede ver los detalles del clúster, desglosados por configuración de eficiencia del almacenamiento, tipo de plataforma y detalles de capacidad. Al hacer clic en uno de los clústeres, se accede al widget *Clusters* de la pantalla del Asesor Digital, donde se obtiene información adicional para ese clúster.</block>
-  <block id="fa664bb18e5c689d25a1899359c9245e" category="paragraph"><block ref="fa664bb18e5c689d25a1899359c9245e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="50f8af23d47854d6e926cd5b6a614505" category="sidebar">Instala Keystone Collector en VMware vSphere</block>
   <block id="86215e54968c6d7de59c34d62652d9b9" category="sidebar">Instale Keystone Collector en Linux</block>
   <block id="b4c8d461cf544f3b1324e87e550416e1" category="sidebar">Prepare el sistema</block>
   <block id="d44d28fd40b9c69ef8ce92777484e334" category="paragraph">Puedes generar y ver informes para tus datos de Keystone. Cada pestaña de la página *Suscripciones de Keystone* te permite generar informes para tus suscripciones, uso histórico y uso de bursting, rendimiento, activos y volúmenes y objetos haciendo clic en el botón de descarga: <block ref="8dec166a4f6cf96a41e44a339dcc6d98" category="inline-image-macro-rx" type="image"></block></block>
   <block id="2982b614ac2cf7f1a9aabd6fd79028f2" category="paragraph">Los detalles se generan en formato CSV que puede guardar para usarlos y compararlos en el futuro.</block>
+  <block id="27e4fdbd0cb158caedf682943810f5af" category="paragraph"><block ref="27e4fdbd0cb158caedf682943810f5af" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="16299daea8c4c1acc7d9eb66580654e7" category="paragraph">No hay información disponible en la pestaña *Activos* para suscripciones a AutoSupport.</block>
+  <block id="4457d440870ad6d42bab9082d9bf9b61" category="paragraph">Fija</block>
+  <block id="824332c973fd0c189c484864ad8005ab" category="paragraph">14 de marzo de 2024</block>
+  <block id="bffa1ad2163e84c8afb350de90d9c62b" category="paragraph">La información sobre los volúmenes no conformes a AQoS y los partners de MetroCluster no está disponible para las suscripciones de AutoSupport.</block>
+  <block id="a9984fe861efdaed7977f6ae7356a850" category="paragraph">Si la telemetría AutoSupport se utiliza para recopilar datos de Keystone, el recuento de volúmenes no compatibles con AQoS que aparecen en las pestañas *Resumen de volumen* y *Uso actual*, así como la información sobre los socios de MetroCluster, no estarán disponibles si los datos de Keystone no están presentes durante 24 horas.</block>
 </blocks>

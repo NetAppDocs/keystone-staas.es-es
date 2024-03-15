@@ -25,7 +25,7 @@ El asesor digital de Active IQ proporciona información completa sobre tus puest
 
 Puede ver los detalles del clúster, desglosados por configuración de eficiencia del almacenamiento, tipo de plataforma y detalles de capacidad. Al hacer clic en uno de los clústeres, se accede al widget *Clusters* de la pantalla del Asesor Digital, donde se obtiene información adicional para ese clúster.
 
-image:assets-tab.png["Activos"]
+image:assets-tab-2.png["Activos"]
 
 *Información relacionada*
 

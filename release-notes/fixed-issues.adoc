@@ -22,6 +22,15 @@ Los problemas encontrados en versiones anteriores de los servicios de STaaS de N
 
 
  a| 
+No hay información disponible en la pestaña *Activos* para suscripciones a AutoSupport.
+ a| 
+Fija
+ a| 
+14 de marzo de 2024
+
+
+
+ a| 
 Si MetroCluster y FabricPool se habilitaran en un entorno en el que los planes de tarifas tanto para la organización en niveles como para el almacenamiento de objetos fueran aplicables, los niveles de servicio podrían derivarse incorrectamente para los volúmenes de mirroring (en los volúmenes de componentes y FabricPool).
  a| 
 Los niveles de servicio correctos se aplican a los volúmenes de reflejo.
