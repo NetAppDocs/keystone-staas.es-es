@@ -1,0 +1,1943 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head class="at-element-marker">
+  <title>Novedades en STaaS de Keystone</title>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
+  <meta http-equiv="language" content="en">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:title" content="Novedades en STaaS de Keystone" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://docs.netapp.com/es-es/keystone-staas/release-notes/whats-new.html" />
+	<meta property="og:description" content="Nuevas funciones y mejoras de STaaS de Keystone." />
+  <meta property="og:image" content="https://docs.netapp.com/es-es/keystone-staas/images/logo-tophat-social.png" />
+  <meta property="og:image:alt" content="NetApp Logo" />
+  <meta name="format-detection" content="telephone=no">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="encoding" content="utf-8">
+  <meta http-equiv="nss-type" content="Product Documentation"/>
+  <meta http-equiv="nss-subtype" content="User Guide"/><meta name="description" content="Nuevas funciones y mejoras de STaaS de Keystone.">
+  <meta name="keywords" content=" new features, release notes, enhancements, what"s new"><!-- Icons -->
+  <link rel="icon" href="/es-es/keystone-staas/images/favicon.ico" type="image/x-icon">
+
+  <!-- RSS Feed --><!-- CSS Definitions: NetApp CSS should be defined after generic css -->
+
+
+  <!-- Combined CSS -->
+  <link rel="stylesheet" type="text/css" href="/es-es/keystone-staas/css/ie-netappdocs.css">
+
+  
+  <link rel="stylesheet" href="/es-es/keystone-staas/css/ie-landing-page.css" type="text/css">
+  <link rel="stylesheet" href="/es-es/keystone-staas/css/ie-tabbed-blocks.css" type="text/css">
+  <!-- Canonical url -->
+  <link rel="canonical" href="https://docs.netapp.com/es-es/keystone-staas/release-notes/whats-new.html" />
+  <link rel="alternate" hreflang="x-default" href="https://docs.netapp.com/us-en/keystone-staas/release-notes/whats-new.html" />
+  <link rel="alternate" hreflang="es" href="https://docs.netapp.com/es-es/keystone-staas/release-notes/whats-new.html" />
+  <link rel="alternate" hreflang="en" href="https://docs.netapp.com/us-en/keystone-staas/release-notes/whats-new.html" />
+  <link rel="alternate" hreflang="ja" href="https://docs.netapp.com/ja-jp/keystone-staas/release-notes/whats-new.html" />
+  <link rel="alternate" hreflang="ko" href="https://docs.netapp.com/ko-kr/keystone-staas/release-notes/whats-new.html" />
+  <link rel="alternate" hreflang="zh-Hans" href="https://docs.netapp.com/zh-cn/keystone-staas/release-notes/whats-new.html" />
+  <link rel="alternate" hreflang="zh-Hant" href="https://docs.netapp.com/zh-tw/keystone-staas/release-notes/whats-new.html" />
+  <link rel="alternate" hreflang="de" href="https://docs.netapp.com/de-de/keystone-staas/release-notes/whats-new.html" />
+  <link rel="alternate" hreflang="fr" href="https://docs.netapp.com/fr-fr/keystone-staas/release-notes/whats-new.html" />
+  <link rel="alternate" hreflang="it" href="https://docs.netapp.com/it-it/keystone-staas/release-notes/whats-new.html" />
+  <!-- Top level site integrations -->
+<script type="text/javascript" src="https://cdn.cookielaw.org/consent/72570c5c-fe30-465f-b0e0-b77f7fb4ae34/OtAutoBlock.js"></script>
+    <script type="text/javascript" src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" charset="UTF-8" data-document-language="true" data-domain-script="72570c5c-fe30-465f-b0e0-b77f7fb4ae34"></script>
+    <script type="text/javascript">function OptanonWrapper() { }</script>
+    <script type="text/plain" class="optanon-category-C0002" src="https://assets.adobedtm.com/60287eadf1ee/c284da483c83/launch-e9ff3acac59f.min.js"></script>
+    <script class="optanon-category-C0001">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.setAttributeNode(d.createAttribute('data-ot-ignore'));j.setAttribute('class','optanon-category-C0001');j.async=true;
+        j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl+'';f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-MD73T9M');</script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  
+  <script>
+    $(document).ready(function() {
+      const MASTHEAD_OFFSET = 65;
+      const SECTIONS = $("main h2, main h3");
+      // PAGE NAV - Init
+      if (SECTIONS.length == 0) {
+        // remove if there is no elements
+        /*
+        $("#ie-right-navbar").remove();
+        $("#ie-right-navbar-collapse").remove();
+        */
+      } else {
+        $(".page-nav-title").css('display', 'block');
+        for (var i = 0; i < SECTIONS.length; i++) {
+          var sectionId = $(SECTIONS[i]).attr('id');
+          var sectionName = $(SECTIONS[i]).text();
+          var subClass = $(SECTIONS[i]).is("h3") ? ' page-nav__sublink' : '';
+          $("#page-menu").append('<li class="page-nav-item"><a href="#' + sectionId + '" class="page-nav__link' + subClass + '">' + sectionName + '</a></li>');
+        }
+      }
+    });
+  </script>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+
+  <!-- Used for Product Family Page Sidebar Visibility --><!-- Used to import Promise for IE. Required for SearchKit -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script><script src='/es-es/keystone-staas/js/na-search.js'></script><script src='/es-es/keystone-staas/js/ie-clouddocs.js'></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script><script>
+    /*
+      $(document).ready(function() {
+          $("#tg-sb-link").click(function() {
+              $("#tg-sb-sidebar").toggle();
+              $("#tg-sb-content").toggleClass('col-md-9');
+              $("#tg-sb-content").toggleClass('col-md-12');
+              $("#tg-sb-icon").toggleClass('fa-toggle-on');
+              $("#tg-sb-icon").toggleClass('fa-toggle-off');
+          });
+      });
+      */
+  </script>
+  <script src='/es-es/keystone-staas/js/custom-dropdown.js'></script>
+  <script src='/es-es/keystone-staas/js/FileSaver.min.js'></script>
+  <script src='/es-es/keystone-staas/js/jszip-utils.min.js'></script>
+  <script src='/es-es/keystone-staas/js/jszip.min.js'></script><script src='/es-es/keystone-staas/js/ie-pdf-ux.js'></script></head>
+
+
+  <body class role="document" data-flavor="">
+    <div class="skip-to-main">
+      <a href="#main" >Skip to main content</a>
+    </div><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MD73T9M"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><div id="page" class="">
+      <div id="ie-phone-menu" class=""></div>
+      <div id="ie-content-wrap" class="">
+        <nav id="ie-new-header">
+    <ul>
+        <li id="ie-phone-menu-button">
+            <a href="#">
+                <image id="" src="/es-es/keystone-staas/images/hamburger.svg" alt="menu" />
+            </a>
+        </li>
+
+        <li>
+            <a href="https://www.netapp.com/es/">
+                <image id="ie-header-logo" src="/es-es/keystone-staas/images/netapp_logo.svg" alt="netapp" />
+            </a>
+        </li>
+        <li id="ie-header-docs">
+            <a href="https://www.netapp.com/es/support-and-training/documentation/">Documentos</a>
+        </li>
+
+        <!-- Empty container to push header left with or without lang selector -->
+        <li id="empty-container" style="margin-left: auto">
+        </li>
+        <!-- Start Language Selector --><li id="ie-language-dropdown">
+            <div id="language-dropdown" class="custom-dropdown custom-dropdown-lang">
+                <div class="custom-dropdown-select custom-dropdown-select-lang">
+                    <img src="/es-es/keystone-staas/images/language_white_24dp.svg" class="n-globe__icon" />
+                    <span class="lang-name">Español</span>
+                    <img src="/es-es/keystone-staas/images/dropdown-arrow.svg" alt="" class="custom-icon chevrondown header invisible" />
+                    <img src="/es-es/keystone-staas/images/dropdown-arrow.svg" alt="" class="custom-icon chevronup header" />
+                    </button>
+                </div>
+
+                <ul class="custom-dropdown-menu"><li>
+                        <a href="https://docs.netapp.com/es-es/keystone-staas/release-notes/whats-new.html"
+                            target="_self"><span translate="no" class="notranslate">Español</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/us-en/keystone-staas/release-notes/whats-new.html"
+                            target="_self"><span translate="no" class="notranslate">English</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/ja-jp/keystone-staas/release-notes/whats-new.html"
+                            target="_self"><span translate="no" class="notranslate">日本語</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/ko-kr/keystone-staas/release-notes/whats-new.html"
+                            target="_self"><span translate="no" class="notranslate">한국어</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/zh-cn/keystone-staas/release-notes/whats-new.html"
+                            target="_self"><span translate="no" class="notranslate">简体中文</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/zh-tw/keystone-staas/release-notes/whats-new.html"
+                            target="_self"><span translate="no" class="notranslate">繁體中文</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/de-de/keystone-staas/release-notes/whats-new.html"
+                            target="_self"><span translate="no" class="notranslate">Deutsch</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/fr-fr/keystone-staas/release-notes/whats-new.html"
+                            target="_self"><span translate="no" class="notranslate">Français</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/it-it/keystone-staas/release-notes/whats-new.html"
+                            target="_self"><span translate="no" class="notranslate">Italiano</span></a>
+                    </li></ul>
+            </div>
+            </li>
+        <!-- End Language Selector -->
+
+
+        <li id="ie-allnetapp">
+            <div id="allnetapp-dropdown" class="custom-dropdown custom-dropdown-allnetapp">
+                <div class="custom-dropdown-select custom-dropdown-select-allnetapp">
+                    <img src="/es-es/keystone-staas/images/apps_white_24dp.svg" alt="" class="allnetapp-icon" />
+                    <span class="allnetapp-name">Todo NetApp</span>
+                    <img src="/es-es/keystone-staas/images/dropdown-arrow.svg" alt="" class="custom-icon chevrondown header invisible" />
+                    <img src="/es-es/keystone-staas/images/dropdown-arrow.svg" alt="" class="custom-icon chevronup header" />
+                    </button>
+                </div>
+
+                <ul class="custom-dropdown-menu allnetapp-dropdown">
+                    <li>
+                        <a href="https://bluexp.netapp.com/es/"
+                            target="_self"><span translate="no" class="notranslate">BlueXP</span></a>
+                    </li>
+                    <li>
+                        <a href="https://mysupport.netapp.com/site/"
+                            target="_self"><span translate="no" class="notranslate">Soporte</span></a>
+                    </li>
+                    <li>
+                        <a href="https://kb.netapp.com/"
+                            target="_self"><span translate="no" class="notranslate">Base de conocimientos</span></a>
+                    </li>
+                    <li>
+                        <a href="https://www.netapp.com/es/support-and-training/netapp-learning-services/"
+                            target="_self"><span translate="no" class="notranslate">Formación</span></a>
+                    </li>
+                </ul>
+            </div>
+
+        </li>
+
+    </ul>
+</nav>
+
+        <main id="n-main-content" class="n-main-content">
+          <!-- Start Documentation Content -->
+<div class="ie-main">
+
+<div id="ie-new-sidebar-collapse" style="display: none">
+    <img id="sidebar-expand" class="ie-searchbox-icon" src="/es-es/keystone-staas/images/double_arrow.svg" alt="" />
+</div>
+<div id="ie-new-sidebar">
+    <div id="ie-product-identity-lockup">
+        <div id="sidebar-collapse" class="">
+            <img src="/es-es/keystone-staas/images/double_arrow.svg" alt="" />
+        </div>
+        <div id="ie-breadcrumb" class="">
+  <ul class="ie-breadcrumb">
+    <li class="">
+      <a href="https://docs.netapp.com">Todos los documentos</a>
+    </li>
+    
+    
+
+    
+  </ul>
+  
+  <div class="ie-product-name" >
+    <!--<a href="/es-es/keystone-staas/">-->
+      Keystone
+    <!--</a>-->
+  </div>
+</div>
+
+            
+
+        
+        
+
+<div id="ie-searchbox" class="ie-searchbox-sidebar ">
+    <img class="ie-searchbox-icon" src="/es-es/keystone-staas/images/loupe.svg" alt=""/>
+    <div id="react-search" 
+        data-search-html="/es-es/keystone-staas/search.html" 
+        data-type="widget"
+        data-placeholder="Buscar documentación"
+        data-no-results-found="No se han encontrado resultados para {query}"
+        data-did-you-mean="Busca {suggestion}."
+        data-no-results-found-did-you-mean="No se ha encontrado ningún resultado para {query}. ¿Querías decir {suggestion}?"
+        data-results-found="{hitCount} resultados encontrados"
+        data-error-message="Se ha producido un error. Por favor, inténtalo de nuevo."
+        data-error-reset="Restablecer búsqueda"
+        data-sk-es-pf-indexes="" 
+        data-flavor="">
+    </div>
+</div>
+        
+    </div>
+    <div id="ie-new-toc"><script>
+  let sidebarAccordion = true;
+
+  /* specific css rules for Mac */
+  if(navigator.platform.match('Mac') !== null) {
+    document.body.setAttribute('class', 'OSX');
+  }
+
+</script>
+
+<div id="ie-sidebar-container">
+  <ul id="ie-sidebar-list" ><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Documentos de Keystone"
+      data-li-level="1#" 
+      class="   "
+      dale-page-url="/release-notes/whats-new.html" 
+      dale-entry-url="/index.html" 
+    ><a class="ie-sidebar-menuitem-1 " href="/es-es/keystone-staas/index.html">
+        Documentos de Keystone
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Notas de la versión"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/release-notes/whats-new.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/es-es/keystone-staas/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/es-es/keystone-staas/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> Notas de la versión</div>-->
+         Notas de la versión
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Novedades en STaaS de Keystone"
+      data-li-level="2#" 
+      class="  ie-sidebar-selected    "
+      dale-page-url="/release-notes/whats-new.html" 
+      dale-entry-url="/release-notes/whats-new.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/es-es/keystone-staas/release-notes/whats-new.html">
+        Novedades en STaaS de Keystone
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Problemas solucionados"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/release-notes/whats-new.html" 
+      dale-entry-url="/release-notes/fixed-issues.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/es-es/keystone-staas/release-notes/fixed-issues.html">
+        Problemas solucionados
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Limitaciones conocidas"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/release-notes/whats-new.html" 
+      dale-entry-url="/release-notes/known-limitations.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/es-es/keystone-staas/release-notes/known-limitations.html">
+        Limitaciones conocidas
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Problemas conocidos"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/release-notes/whats-new.html" 
+      dale-entry-url="/release-notes/known-issues.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/es-es/keystone-staas/release-notes/known-issues.html">
+        Problemas conocidos
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Le damos la bienvenida a Keystone"
+      data-li-level="1#" 
+      class="   "
+      dale-page-url="/release-notes/whats-new.html" 
+      dale-entry-url="/concepts/overview.html" 
+    ><a class="ie-sidebar-menuitem-1 " href="/es-es/keystone-staas/concepts/overview.html">
+        Le damos la bienvenida a Keystone
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Configure y configure Keystone"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/release-notes/whats-new.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/es-es/keystone-staas/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/es-es/keystone-staas/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> Configure y configure Keystone</div>-->
+         Configure y configure Keystone
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Qué es Keystone Collector"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/release-notes/whats-new.html" 
+      dale-entry-url="/installation/installation-overview.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/es-es/keystone-staas/installation/installation-overview.html">
+        Qué es Keystone Collector
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Prepare el sistema"
+      data-li-level="2" 
+      class=" sidebar-folder    "
+      dale-page-url="/release-notes/whats-new.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-2  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/es-es/keystone-staas/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/es-es/keystone-staas/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> Prepare el sistema</div>-->
+         Prepare el sistema
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Requisitos de vSphere de VMware"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/release-notes/whats-new.html" 
+      dale-entry-url="/installation/vapp-prereqs.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/es-es/keystone-staas/installation/vapp-prereqs.html">
+        Requisitos de vSphere de VMware
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Requisitos de Linux"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/release-notes/whats-new.html" 
+      dale-entry-url="/installation/linux-prereqs.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/es-es/keystone-staas/installation/linux-prereqs.html">
+        Requisitos de Linux
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Requisitos de ONTAP y StorageGRID"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/release-notes/whats-new.html" 
+      dale-entry-url="/installation/addl-req.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/es-es/keystone-staas/installation/addl-req.html">
+        Requisitos de ONTAP y StorageGRID
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Instale Keystone Collector"
+      data-li-level="2" 
+      class=" sidebar-folder    "
+      dale-page-url="/release-notes/whats-new.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-2  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/es-es/keystone-staas/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/es-es/keystone-staas/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> Instale Keystone Collector</div>-->
+         Instale Keystone Collector
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Puesta en marcha de VMware vSphere"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/release-notes/whats-new.html" 
+      dale-entry-url="/installation/vapp-installation.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/es-es/keystone-staas/installation/vapp-installation.html">
+        Puesta en marcha de VMware vSphere
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Instalación de Linux"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/release-notes/whats-new.html" 
+      dale-entry-url="/installation/linux-installation.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/es-es/keystone-staas/installation/linux-installation.html">
+        Instalación de Linux
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Validación automática de integridad"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/release-notes/whats-new.html" 
+      dale-entry-url="/installation/validation.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/es-es/keystone-staas/installation/validation.html">
+        Validación automática de integridad
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Configure Keystone Collector"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/release-notes/whats-new.html" 
+      dale-entry-url="/installation/configuration.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/es-es/keystone-staas/installation/configuration.html">
+        Configure Keystone Collector
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Supervise el estado del sistema"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/release-notes/whats-new.html" 
+      dale-entry-url="/installation/monitor-health.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/es-es/keystone-staas/installation/monitor-health.html">
+        Supervise el estado del sistema
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Actualiza Keystone Collector"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/release-notes/whats-new.html" 
+      dale-entry-url="/installation/upgrade.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/es-es/keystone-staas/installation/upgrade.html">
+        Actualiza Keystone Collector
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Configura AutoSupport para Keystone"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/release-notes/whats-new.html" 
+      dale-entry-url="/installation/asup-config.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/es-es/keystone-staas/installation/asup-config.html">
+        Configura AutoSupport para Keystone
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Datos recopilados para facturación"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/release-notes/whats-new.html" 
+      dale-entry-url="/installation/data-collection.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/es-es/keystone-staas/installation/data-collection.html">
+        Datos recopilados para facturación
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Consulta la consola de Keystone y gestiona las suscripciones"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/release-notes/whats-new.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/es-es/keystone-staas/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/es-es/keystone-staas/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> Consulta la consola de Keystone y gestiona las suscripciones</div>-->
+         Consulta la consola de Keystone y gestiona las suscripciones
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Consulta el panel de Keystone en el asesor digital de Active IQ"
+      data-li-level="2" 
+      class=" sidebar-folder    "
+      dale-page-url="/release-notes/whats-new.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-2  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/es-es/keystone-staas/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/es-es/keystone-staas/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> Consulta el panel de Keystone en el asesor digital de Active IQ</div>-->
+         Consulta el panel de Keystone en el asesor digital de Active IQ
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Consola de Keystone y el asesor digital"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/release-notes/whats-new.html" 
+      dale-entry-url="/integrations/keystone-aiq.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/es-es/keystone-staas/integrations/keystone-aiq.html">
+        Consola de Keystone y el asesor digital
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Consulta de detalles de consumo y generación de informes"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/release-notes/whats-new.html" 
+      dale-entry-url="/integrations/aiq-keystone-details.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/es-es/keystone-staas/integrations/aiq-keystone-details.html">
+        Consulta de detalles de consumo y generación de informes
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Pestaña Suscripciones"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/release-notes/whats-new.html" 
+      dale-entry-url="/integrations/subscriptions-tab.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/es-es/keystone-staas/integrations/subscriptions-tab.html">
+        Pestaña Suscripciones
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Pestaña Uso actual"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/release-notes/whats-new.html" 
+      dale-entry-url="/integrations/current-usage-tab.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/es-es/keystone-staas/integrations/current-usage-tab.html">
+        Pestaña Uso actual
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Pestaña Capacity Trend"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/release-notes/whats-new.html" 
+      dale-entry-url="/integrations/capacity-trend-tab.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/es-es/keystone-staas/integrations/capacity-trend-tab.html">
+        Pestaña Capacity Trend
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Pestaña Volumes & Objects"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/release-notes/whats-new.html" 
+      dale-entry-url="/integrations/volumes-objects-tab.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/es-es/keystone-staas/integrations/volumes-objects-tab.html">
+        Pestaña Volumes & Objects
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Pestaña Rendimiento"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/release-notes/whats-new.html" 
+      dale-entry-url="/integrations/performance-tab.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/es-es/keystone-staas/integrations/performance-tab.html">
+        Pestaña Rendimiento
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Activos"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/release-notes/whats-new.html" 
+      dale-entry-url="/integrations/assets-tab.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/es-es/keystone-staas/integrations/assets-tab.html">
+        Activos
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Gestiona las suscripciones de Keystone desde BlueXP"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/release-notes/whats-new.html" 
+      dale-entry-url="/integrations/keystone-cm.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/es-es/keystone-staas/integrations/keystone-cm.html">
+        Gestiona las suscripciones de Keystone desde BlueXP
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Más información sobre Keystone"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/release-notes/whats-new.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/es-es/keystone-staas/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/es-es/keystone-staas/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> Más información sobre Keystone</div>-->
+         Más información sobre Keystone
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Capacidad de almacenamiento admitida"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/release-notes/whats-new.html" 
+      dale-entry-url="/concepts/supported-storage-capacity.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/es-es/keystone-staas/concepts/supported-storage-capacity.html">
+        Capacidad de almacenamiento admitida
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Métricas y definiciones"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/release-notes/whats-new.html" 
+      dale-entry-url="/concepts/metrics.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/es-es/keystone-staas/concepts/metrics.html">
+        Métricas y definiciones
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Almacenamiento compatible en Keystone"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/release-notes/whats-new.html" 
+      dale-entry-url="/concepts/supported-storage-services.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/es-es/keystone-staas/concepts/supported-storage-services.html">
+        Almacenamiento compatible en Keystone
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Niveles de servicio en Keystone"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/release-notes/whats-new.html" 
+      dale-entry-url="/concepts/service-levels.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/es-es/keystone-staas/concepts/service-levels.html">
+        Niveles de servicio en Keystone
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Servicios complementarios"
+      data-li-level="2" 
+      class=" sidebar-folder    "
+      dale-page-url="/release-notes/whats-new.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-2  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/es-es/keystone-staas/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/es-es/keystone-staas/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> Servicios complementarios</div>-->
+         Servicios complementarios
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Servicios complementarios en STaaS de Keystone"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/release-notes/whats-new.html" 
+      dale-entry-url="/concepts/add-on.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/es-es/keystone-staas/concepts/add-on.html">
+        Servicios complementarios en STaaS de Keystone
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Organización en niveles de los datos"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/release-notes/whats-new.html" 
+      dale-entry-url="/concepts/data-tiering.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/es-es/keystone-staas/concepts/data-tiering.html">
+        Organización en niveles de los datos
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Protección de datos avanzada"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/release-notes/whats-new.html" 
+      dale-entry-url="/concepts/adp.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/es-es/keystone-staas/concepts/adp.html">
+        Protección de datos avanzada
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="EE. UU Soporte para ciudadanos de EE. UU. (USCS)"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/release-notes/whats-new.html" 
+      dale-entry-url="/concepts/uscs.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/es-es/keystone-staas/concepts/uscs.html">
+        EE. UU Soporte para ciudadanos de EE. UU. (USCS)
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Componentes no retornables, no volátiles y cumplimiento de SnapLock"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/release-notes/whats-new.html" 
+      dale-entry-url="/concepts/nrnvc.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/es-es/keystone-staas/concepts/nrnvc.html">
+        Componentes no retornables, no volátiles y cumplimiento de SnapLock
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Keystone y Equinix"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/release-notes/whats-new.html" 
+      dale-entry-url="/concepts/equinix.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/es-es/keystone-staas/concepts/equinix.html">
+        Keystone y Equinix
+      </a></li></ul></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Más información acerca de los niveles de servicio"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/release-notes/whats-new.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/es-es/keystone-staas/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/es-es/keystone-staas/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> Más información acerca de los niveles de servicio</div>-->
+         Más información acerca de los niveles de servicio
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Calidad de servicio"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/release-notes/whats-new.html" 
+      dale-entry-url="/concepts/qos.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/es-es/keystone-staas/concepts/qos.html">
+        Calidad de servicio
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Requisitos de capacidad para niveles de servicio"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/release-notes/whats-new.html" 
+      dale-entry-url="/concepts/capacity-requirements.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/es-es/keystone-staas/concepts/capacity-requirements.html">
+        Requisitos de capacidad para niveles de servicio
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Facturación"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/release-notes/whats-new.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/es-es/keystone-staas/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/es-es/keystone-staas/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> Facturación</div>-->
+         Facturación
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Precios Keystone"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/release-notes/whats-new.html" 
+      dale-entry-url="/concepts/pricing.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/es-es/keystone-staas/concepts/pricing.html">
+        Precios Keystone
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Facturación basada en la capacidad comprometida"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/release-notes/whats-new.html" 
+      dale-entry-url="/concepts/committed-capacity-billing.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/es-es/keystone-staas/concepts/committed-capacity-billing.html">
+        Facturación basada en la capacidad comprometida
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Medición basada en la capacidad consumida"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/release-notes/whats-new.html" 
+      dale-entry-url="/concepts/consumed-capacity-billing.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/es-es/keystone-staas/concepts/consumed-capacity-billing.html">
+        Medición basada en la capacidad consumida
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Facturación basada en consumo en ráfaga"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/release-notes/whats-new.html" 
+      dale-entry-url="/concepts/burst-consumption-billing.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/es-es/keystone-staas/concepts/burst-consumption-billing.html">
+        Facturación basada en consumo en ráfaga
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Facturación basada en diversos tipos de volumen"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/release-notes/whats-new.html" 
+      dale-entry-url="/concepts/misc-volume-billing.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/es-es/keystone-staas/concepts/misc-volume-billing.html">
+        Facturación basada en diversos tipos de volumen
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Horarios de facturación"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/release-notes/whats-new.html" 
+      dale-entry-url="/concepts/billing-schedules.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/es-es/keystone-staas/concepts/billing-schedules.html">
+        Horarios de facturación
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Entornos operados por partners y clientes"
+      data-li-level="1#" 
+      class="   "
+      dale-page-url="/release-notes/whats-new.html" 
+      dale-entry-url="/concepts/operational-models.html" 
+    ><a class="ie-sidebar-menuitem-1 " href="/es-es/keystone-staas/concepts/operational-models.html">
+        Entornos operados por partners y clientes
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Infraestructura Keystone"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/release-notes/whats-new.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/es-es/keystone-staas/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/es-es/keystone-staas/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> Infraestructura Keystone</div>-->
+         Infraestructura Keystone
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Detalles de la infraestructura"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/release-notes/whats-new.html" 
+      dale-entry-url="/concepts/infra.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/es-es/keystone-staas/concepts/infra.html">
+        Detalles de la infraestructura
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Componentes"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/release-notes/whats-new.html" 
+      dale-entry-url="/concepts/components.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/es-es/keystone-staas/concepts/components.html">
+        Componentes
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Flujo de datos"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/release-notes/whats-new.html" 
+      dale-entry-url="/concepts/data-flow.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/es-es/keystone-staas/concepts/data-flow.html">
+        Flujo de datos
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Centro de soporte de servicios globales de NetApp"
+      data-li-level="1#" 
+      class="   "
+      dale-page-url="/release-notes/whats-new.html" 
+      dale-entry-url="/concepts/gssc.html" 
+    ><a class="ie-sidebar-menuitem-1 " href="/es-es/keystone-staas/concepts/gssc.html">
+        Centro de soporte de servicios globales de NetApp
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Avisos legales"
+      data-li-level="1#" 
+      class="   "
+      dale-page-url="/release-notes/whats-new.html" 
+      dale-entry-url="/legal-notices.html" 
+    ><a class="ie-sidebar-menuitem-1 " href="/es-es/keystone-staas/legal-notices.html">
+        Avisos legales
+      </a></li></ul>
+</div>
+<script>
+
+  $(".ie-sidebar-button").click(function (e) {
+    e.preventDefault();
+    e.stopPropagation();
+
+    expandedLI = $('li.ie-sidebar-expand')
+
+    const li = $(this).closest("li");
+
+    const parentsLI = $(li).parents('li');
+
+    expandedLI.map(element => {
+      if (sidebarAccordion && !li.hasClass('ie-sidebar-expand') && jQuery.inArray(expandedLI[element], parentsLI) == -1) {
+        $(expandedLI[element]).toggleClass('ie-sidebar-expand');
+        $(expandedLI[element]).children("ul").animate({ height: 'toggle' }, 400, function () {
+          $(li).children("ul").toggleClass('ie-sidebar-open');
+
+        })
+      }
+
+    })
+
+    $(li).toggleClass('ie-sidebar-expand');
+    $(li).children("ul").animate({ height: 'toggle' }, 400, function () {
+      $(li).children("ul").toggleClass('ie-sidebar-open');
+    })
+  });
+
+
+  
+    $("li.ie-sidebar-selected").parents('ul').toggleClass("ie-sidebar-open");
+    $("li.ie-sidebar-selected").toggleClass("ie-sidebar-expand")
+    $("ul.ie-sidebar-open").parent().toggleClass("ie-sidebar-expand");
+    $("li.ie-sidebar-selected").children('ul').toggleClass("ie-sidebar-open")
+  
+  
+</script>
+    </div>
+</div>
+<script>
+
+    
+    let sidebarScrollTopPosition = 0;
+    $("#ie-new-toc").on("scroll", function () {
+        if (sidebarScrollTopPosition == 0) {
+            $.cookie("sidebarScroll", $("#ie-new-toc").scrollTop(), {
+                path: "/es-es/keystone-staas"
+            });
+        }
+
+        if ($("#ie-new-toc").scrollTop() > 0) {
+            $('#ie-product-identity-lockup').addClass('ie-addShadow');
+        } else {
+            $('#ie-product-identity-lockup').removeClass('ie-addShadow');
+        }
+    });
+
+    $(function () {
+        if ($.cookie("sidebarScroll")) {
+            $("#ie-new-toc").scrollTop($.cookie("sidebarScroll"));
+        }
+    });
+
+    function setSidebarBottom() {
+        const footerGap = PXinViewport($(".n-footer"));
+        document.getElementById("ie-new-sidebar").style.bottom = Math.max(0, footerGap) + "px";
+    }
+
+    window.onscroll = () => {
+        setSidebarBottom();
+    };
+
+    $("#sidebar-collapse").click(function (e) {
+        const sidebarWidth = $("#ie-new-sidebar").width() - $("#ie-new-sidebar-collapse").width();
+        e.preventDefault();
+        const width = $(".ie-content-pane").width();
+        const marginLeft = parseInt($(".ie-content-pane").css('marginLeft'));
+
+        if ($.cookie("sidebarScroll")) {
+            sidebarScrollTopPosition = $.cookie("sidebarScroll");
+        }
+
+        $("#ie-new-sidebar").animate({ width: 'toggle' }, 350, function () {
+            $("#ie-new-sidebar-collapse").show();
+            $("#ie-new-sidebar").removeClass("open")
+            $("#ie-new-sidebar").addClass("close")
+            $("#ie-new-sidebar").removeAttr("style")
+        });
+        $(".ie-content-pane").animate({ width: (width + sidebarWidth), marginLeft: (marginLeft - sidebarWidth) }, 350, function () {
+            resizeContent()
+        })
+
+    });
+    $("#sidebar-expand").click(function (e) {
+        const sidebarWidth = $("#ie-new-sidebar").width() - $("#ie-new-sidebar-collapse").width();
+        e.preventDefault();
+        const width = $(".ie-content-pane").width();
+        const marginLeft = parseInt($(".ie-content-pane").css('marginLeft'));
+
+        $("#ie-new-sidebar").animate({ width: 'toggle' }, 250, function () {
+            $('#ie-new-sidebar').css('display', 'flex');
+            $("#ie-new-sidebar-collapse").hide();
+            $("#ie-new-sidebar").removeClass("close")
+            $("#ie-new-sidebar").addClass("open")
+            setSidebarBottom();
+
+            if (sidebarScrollTopPosition != 0) {
+                $.cookie("sidebarScroll", sidebarScrollTopPosition, {
+                    path: "/es-es/keystone-staas"
+                })
+                $("#ie-new-toc").scrollTop(sidebarScrollTopPosition);
+                sidebarScrollTopPosition = 0;
+            }
+        });
+        $(".ie-content-pane").animate({ width: (width - sidebarWidth), 'marginLeft': (marginLeft + sidebarWidth) }, 250, function () {
+            resizeContent()
+        })
+    });
+    function resizeContent() {
+        const sidebarWidth = $("#ie-new-sidebar").width() - $("#ie-new-sidebar-collapse").width();
+        const rightNavbarVisible =  $("#ie-right-navbar").css('display') && $("#ie-right-navbar").css('display') != 'none';
+        const sidebarVisible = $("#ie-new-sidebar").css('display') != 'none';
+        const rightNavbarWidth = $("#ie-right-navbar").width();
+        const rightNavbarCollapseWidth = $("#ie-right-navbar-collapse").width();
+        const rightNavbarCollapseVisible = $("#ie-right-navbar-collapse").css('display') && $("#ie-right-navbar-collapse").css('display') != 'none';
+        
+        if (rightNavbarVisible && sidebarVisible) {
+            $(".ie-content-pane").width(`calc(100% - ${sidebarWidth + rightNavbarWidth}px)`)
+            $(".ie-content-pane").css('marginLeft', `${sidebarWidth}px`)
+        } else if (sidebarVisible) {
+            $(".ie-content-pane").css('marginLeft', `${sidebarWidth}px`)
+            if (rightNavbarCollapseVisible) {
+                $(".ie-content-pane").width(`calc(100% - ${sidebarWidth + rightNavbarCollapseWidth}px)`)
+            } else {
+                $(".ie-content-pane").width(`calc(100% - ${$("#ie-new-sidebar").width()}px)`)
+            }
+
+        } else if (rightNavbarVisible) {
+            $(".ie-content-pane").css('marginLeft', `${$("#ie-new-sidebar-collapse").width()}px`)
+            $(".ie-content-pane").width(`calc(100% - ${rightNavbarWidth}px)`)
+        } else {
+            $(".ie-content-pane").css('marginLeft', `${$("#ie-new-sidebar-collapse").width()}px`)
+            if (rightNavbarCollapseVisible) {
+                $(".ie-content-pane").width(`calc(100% - ${rightNavbarCollapseWidth}px)`);
+            } else {
+                $(".ie-content-pane").width(`calc(100% - ${$("#ie-new-sidebar-collapse").width()}px) `);
+            }
+            
+        }
+    }
+    $(window).on("resize load", function () {
+        setSidebarBottom();
+        resizeContent()
+    });
+
+
+</script>
+
+<div class="ie-content-pane ie-component-detail-content ie-component-detail-content--show-code">
+    <!-- Begin of page container --><article class="page-content" id="main">
+      <!-- include utility.html -->
+      <div class="ie-info-disclaimer">
+    <span>
+      <div class="ie-info-disclaimer-container">
+        <div class="ie-info-disclaimer-icon">
+          <img src="/es-es/keystone-staas/images/notification-icons.svg" class="luci-icon" alt="" />
+        </div>
+        <div class="ie-info-disclaimer-content">
+          <span> Se proporciona el idioma español mediante traducción automática para su comodidad. En caso de alguna inconsistencia, el inglés precede al español. </span>
+        </div>
+        <div style="clear:both;"></div>
+      </div>
+    </span>
+  </div><div class="ie-component-detail-heading-wrap">
+  <h1 class="ie-component-detail-heading">Novedades en STaaS de Keystone</h1>
+</div>
+
+<div id="ie-byline">
+  
+<div class="page-details">
+    
+        
+            <time datetime="2024-03-28 09:41:49 +0000">03/28/2024</time>
+        
+    
+    
+        <span>Colaboradores
+        </span>
+    
+    
+</div>
+<div class="page-controls">
+    <div id="contribute-dropdown" class="custom-dropdown custom-dropdown-contrib" >
+        <div class="custom-dropdown-select custom-dropdown-select-contrib">
+        <span class="contrib-name"><img src="/es-es/keystone-staas/images/discuss-sm.svg" alt="" class="github-icon" />Sugerir cambios</span>
+        <img src="/es-es/keystone-staas/images/dropdown-arrow.svg" alt="" class="custom-icon chevrondown invisible" />
+        <img src="/es-es/keystone-staas/images/dropdown-arrow.svg" alt="" class="custom-icon chevronup" />
+        </div>
+        <ul class="custom-dropdown-menu suggested-changes-dropdown"><li>
+                <a target="_blank" href="https://github.com/NetAppDocs/keystone-staas.es-es/issues/new?template=new-from-page.yml&page-url=https://docs.netapp.com/es-es/keystone-staas/release-notes/whats-new.html&page-title=Novedades en STaaS de Keystone" class="page-nav-contribute-link" role="button">Solicitar cambios en el documento</a>
+            </li><li> 
+                <a target="_blank" href="https://github.com/NetAppDocs/keystone-staas/blob/main/release-notes/whats-new.adoc" class="page-nav-contribute-link" role="button">Editar esta página</a>
+            </li><li><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  >Descubre cómo colaborar</a></li>
+        </ul>
+    </div>
+    <div id="pdf-control-container">
+        <div class="n-pdf-header">
+            <a id="toggleButtonPdf" class="n-pdf-button" type="button">
+                <img class="adobe-icon" src="/es-es/keystone-staas/images/pdf-icon.png" alt="" width="16" height="16"/>PDF<img src="/es-es/keystone-staas/images/dropdown-arrow.svg" class="custom-icon" alt="" />
+            </a>
+        </div>
+        <div class="n-pdf-body-container">
+            <ul id="toggleContainerPdf" class="n-pdf-body" style="display:none;"><li class="pdf-ux-container">
+                    
+                    
+                    
+                    <a target="_blank" class="pdf-download-link" href="/es-es/keystone-staas/pdfs/fullsite-sidebar/Documentación_de_Keystone.pdf" >
+                    <img src="/es-es/keystone-staas/images/pdf-icon.png" alt="" width="16" height="16"/>PDF de este sitio de documentos</a>
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/es-es/keystone-staas/pdfs/sidebar/Notas_de_la_versión.pdf" 
+            
+          >
+            <img src="/es-es/keystone-staas/images/pdf-icon.png" alt="" width="16" height="16"/>
+            Notas de la versión
+          </a>
+          
+    <ul class="subfolders" id="pdf-remove" style="display:none;"><li class="active"></li></ul>
+  
+
+
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/es-es/keystone-staas/pdfs/sidebar/Configure_y_configure_Keystone.pdf" 
+            
+          >
+            <img src="/es-es/keystone-staas/images/pdf-icon.png" alt="" width="16" height="16"/>
+            Configure y configure Keystone
+          </a>
+          
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/es-es/keystone-staas/pdfs/sidebar/Prepare_el_sistema.pdf" 
+            
+          >
+            <img src="/es-es/keystone-staas/images/pdf-icon.png" alt="" width="16" height="16"/>
+            Prepare el sistema
+          </a>
+          
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/es-es/keystone-staas/pdfs/sidebar/Instale_Keystone_Collector.pdf" 
+            
+          >
+            <img src="/es-es/keystone-staas/images/pdf-icon.png" alt="" width="16" height="16"/>
+            Instale Keystone Collector
+          </a>
+          
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/es-es/keystone-staas/pdfs/sidebar/Consulta_la_consola_de_Keystone_y_gestiona_las_suscripciones.pdf" 
+            
+          >
+            <img src="/es-es/keystone-staas/images/pdf-icon.png" alt="" width="16" height="16"/>
+            Consulta la consola de Keystone y gestiona las suscripciones
+          </a>
+          
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/es-es/keystone-staas/pdfs/sidebar/Consulta_el_panel_de_Keystone_en_el_asesor_digital_de_Active_IQ.pdf" 
+            
+          >
+            <img src="/es-es/keystone-staas/images/pdf-icon.png" alt="" width="16" height="16"/>
+            Consulta el panel de Keystone en el asesor digital de Active IQ
+          </a>
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/es-es/keystone-staas/pdfs/sidebar/Más_información_sobre_Keystone.pdf" 
+            
+          >
+            <img src="/es-es/keystone-staas/images/pdf-icon.png" alt="" width="16" height="16"/>
+            Más información sobre Keystone
+          </a>
+          
+
+
+
+
+
+
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/es-es/keystone-staas/pdfs/sidebar/Servicios_complementarios.pdf" 
+            
+          >
+            <img src="/es-es/keystone-staas/images/pdf-icon.png" alt="" width="16" height="16"/>
+            Servicios complementarios
+          </a>
+          
+
+
+
+
+
+
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/es-es/keystone-staas/pdfs/sidebar/Más_información_acerca_de_los_niveles_de_servicio.pdf" 
+            
+          >
+            <img src="/es-es/keystone-staas/images/pdf-icon.png" alt="" width="16" height="16"/>
+            Más información acerca de los niveles de servicio
+          </a>
+          
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/es-es/keystone-staas/pdfs/sidebar/Facturación.pdf" 
+            
+          >
+            <img src="/es-es/keystone-staas/images/pdf-icon.png" alt="" width="16" height="16"/>
+            Facturación
+          </a>
+          
+
+
+
+
+
+
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/es-es/keystone-staas/pdfs/sidebar/Infraestructura_Keystone.pdf" 
+            
+          >
+            <img src="/es-es/keystone-staas/images/pdf-icon.png" alt="" width="16" height="16"/>
+            Infraestructura Keystone
+          </a>
+          
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+
+
+</li></ul>
+            <div class="zip-pdf-link-container" style="display: none;">   
+                <a href="#" id="zipPdf">
+                <img src="/es-es/keystone-staas/images/pdf-zip.png" alt="" width="16" height="16"/>
+                <pre>Recopilación de documentos PDF independientes<span class="zip-size"></span></pre>
+                </a><div id="zip-link-popup" class="hide">
+    <div class="inner-modal">
+        <div class="downloading-progress">
+            <div class="spinner"></div>
+            <h1>Creating your file...</h1>
+            <div>This may take a few minutes. Thanks for your patience.</div>
+            <button class="cancel-download-btn" type="button">Cancel</button>
+        </div>
+        <div class="download-complete hide">
+            <div class="done-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"/></svg>
+            </div>
+            <div>Your file is ready</div>
+            <button class="cancel-download-btn" type="button">OK</button>
+        </div>
+    </div>
+</div>
+<script>
+    $(".cancel-download-btn").click(function(){
+        $("#zip-link-popup").addClass("hide");
+        $("#zip-link-popup .downloading-progress").removeClass("hide");
+        $("#zip-link-popup .download-complete").addClass("hide");
+    });
+</script></div>
+        </div>
+    </div>        
+<script>
+$("#toggleContainerPdf li.active:last-child").parents('ul.subfolders').toggle('display');
+$("#toggleButtonPdf").on('click', function(e){ 
+    e.stopPropagation();
+    $("#toggleContainerPdf").toggle('display');
+    $(".n-pdf-body-container .zip-pdf-link-container").toggle('display');
+});
+
+//hide is by clicking outside pdfcontainer
+$(document).on('click', function (e) {
+    if ($('#toggleContainerPdf').is(':visible') && !$('.n-pdf-body-container').is(e.target) && !$('.n-pdf-body-container').has(e.target).length)  {
+        
+        $("#toggleContainerPdf").toggle('display');
+        $(".n-pdf-body-container .zip-pdf-link-container").toggle('display');
+        $("#toggleButtonPdf").removeClass("active");
+    }
+});
+</script>
+<script>
+    function getPdfLocation() {
+        const pdfLocation = window.scrollX + document.querySelector('#pdf-control-container').getBoundingClientRect().left
+        if (pdfLocation < 450) {
+            $(".n-pdf-body-container").addClass("block")
+        } else {
+            $(".n-pdf-body-container").removeClass("block")
+        }
+    
+    }
+    $( window ).on( "resize", function() {
+        getPdfLocation()
+} );
+</script>
+<script>
+    const pdfButtonWidth =  $(".n-pdf-header").width();
+    const pdfMenuWidth = $(".n-pdf-body-container").width();
+    $(".n-pdf-body-container").css('margin-left', `calc(${pdfButtonWidth - pdfMenuWidth}px)`);
+</script>
+</div>
+
+    
+
+</div>
+
+
+
+
+<div class="content-to-index">
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph lead">
+<p>NetApp ofrece funciones nuevas y mejoradas en cada lanzamiento de los servicios de STaaS de Keystone.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="nuevas-funciones-y-mejoras-para-el-28-de-marzo-de-2024">Nuevas funciones y mejoras para el 28 de marzo de 2024</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>La siguiente mejora se ha realizado en la pantalla <strong>Suscripciones Keystone</strong> del Asesor Digital Active IQ (también conocido como Asesor Digital):</p>
+</div>
+<div class="sect2">
+<h3 id="la-mejora-del-cumplimiento-de-las-políticas-de-calidad-de-servicio-se-muestra-en-la-pestaña-volume-details">La mejora del cumplimiento de las políticas de calidad de servicio se muestra en la pestaña Volume Details</h3>
+<div class="paragraph">
+<p>La pestaña <strong>Detalles de volumen</strong> de la pestaña <strong>Volúmenes y objetos</strong> ahora proporciona una mejor visibilidad del cumplimiento de la política de calidad de servicio (QoS). La columna anteriormente conocida como <strong>AQoS</strong> se renombró a <strong>Compliant</strong>, que indica si la política QoS cumple. Además, se agrega una nueva columna <strong>QoS Policy Type</strong>, que especifica si la política es fija o adaptativa. Si no se aplica ninguno, la columna muestra <em>NOT DISPONIBLE</em>. Para obtener más información, consulte <a href="../integrations/volumes-objects-tab.html" target="_blank" rel="noopener">"Volúmenes  ficha Objetos"</a>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="la-nueva-columna-y-la-suscripción-simplificada-se-muestran-en-la-pestaña-resumen-de-volumen">La nueva columna y la suscripción simplificada se muestran en la pestaña Resumen de volumen</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>La pestaña <strong>Resumen de volumen</strong> de la pestaña <strong>Volúmenes y objetos</strong> ahora incluye una nueva columna titulada <strong>Protegido</strong>. Esta columna proporciona un recuento de los volúmenes protegidos asociados con los niveles de servicio suscritos. Si haces clic en el número de volúmenes protegidos, te lleva a la pestaña <strong>Detalles del volumen</strong>, donde puedes ver una lista filtrada de volúmenes protegidos.</p>
+</li>
+<li>
+<p>La pestaña <strong>Resumen de volumen</strong> se actualiza para mostrar solo las suscripciones básicas, excluyendo los servicios complementarios. Para obtener más información, consulte <a href="../integrations/volumes-objects-tab.html" target="_blank" rel="noopener">"Volúmenes  ficha Objetos"</a>.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="cambie-a-la-visualización-de-detalles-de-ráfaga-acumulada-en-la-pestaña-tendencia-de-capacidad">Cambie a la visualización de detalles de ráfaga acumulada en la pestaña Tendencia de capacidad</h3>
+<div class="paragraph">
+<p>La información sobre herramientas que aparece al pasar el cursor sobre el gráfico de barras de uso de capacidad en la pestaña <strong>Tendencia de capacidad</strong> mostrará los detalles de las ráfagas acumuladas para el mes actual. Los detalles no estarán disponibles durante los meses anteriores.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="acceso-mejorado-para-ver-datos-históricos-de-suscripciones-a-keystone">Acceso mejorado para ver datos históricos de suscripciones a Keystone</h3>
+<div class="paragraph">
+<p>Ahora puedes ver los datos históricos si se modifica o renueva una suscripción de Keystone. Puede establecer la fecha de inicio de una suscripción en una fecha anterior para ver :</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Consumo y datos de uso de ráfaga acumulados de la pestaña <strong>Capacity Trend</strong>,</p>
+</li>
+<li>
+<p>Métricas de rendimiento de los volúmenes de ONTAP desde la pestaña <strong>Rendimiento</strong>,</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>todos los cuales muestran los datos basados en la fecha seleccionada de la suscripción.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="nuevas-funciones-y-mejoras-para-el-29-de-febrero-de-2024">Nuevas funciones y mejoras para el 29 de febrero de 2024</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Se han realizado varias mejoras en el panel del asesor digital de Active IQ (también conocido como asesor digital) y en la pantalla <strong>Suscripciones de Keystone</strong> para esta versión:</p>
+</div>
+<div class="sect2">
+<h3 id="adición-de-la-pestaña-activos">Adición de la pestaña Activos</h3>
+<div class="paragraph">
+<p>La pantalla <strong>Suscripciones Keystone</strong> ahora incluye la pestaña <strong>Activos</strong>. Esta nueva pestaña proporciona información a nivel de clúster basada en sus suscripciones. Para obtener más información, consulte <a href="../integrations/assets-tab.html" target="_blank" rel="noopener">"Activos"</a>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="mejoras-en-la-pestaña-volumes-objects">Mejoras en la pestaña Volumes &amp; Objects</h3>
+<div class="paragraph">
+<p>Para proporcionar una mayor claridad a los volúmenes de su sistema ONTAP, se han añadido dos nuevos botones de pestañas, <strong>Resumen de volumen</strong> y <strong>Detalles de volumen</strong> a la pestaña <strong>Volúmenes</strong>. La pestaña <strong>Resumen de volumen</strong> proporciona un recuento general de los volúmenes asociados con los niveles de servicio suscritos, incluido su estado de cumplimiento de AQoS e información de capacidad. La pestaña <strong>Detalles del volumen</strong> muestra todos los volúmenes y sus detalles. Para obtener más información, consulte <a href="../integrations/volumes-objects-tab.html" target="_blank" rel="noopener">"Volúmenes  ficha Objetos"</a>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="experiencia-de-búsqueda-mejorada-en-digital-advisor">Experiencia de búsqueda mejorada en Digital Advisor</h3>
+<div class="paragraph">
+<p>Los parámetros de búsqueda en la pantalla de <strong>Digital Advisor</strong> ahora incluyen números de suscripción de Keystone y listas de comprobaciones creadas para suscripciones de Keystone. Puede introducir los tres primeros caracteres de un número de suscripción o nombre de lista de seguimiento. Para obtener más información, consulte <a href="../integrations/keystone-aiq.html" target="_blank" rel="noopener">"Consulta el panel de Keystone en el asesor digital de Active IQ"</a>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="ver-registro-de-hora-de-los-datos-de-consumo">Ver registro de hora de los datos de consumo</h3>
+<div class="paragraph">
+<p>Puede ver la marca de tiempo de los datos de consumo (en UTC) en el panel antiguo del widget <strong>Suscripciones Keystone</strong>.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="nuevas-funciones-y-mejoras-para-el-13-de-febrero-de-2024">Nuevas funciones y mejoras para el 13 de febrero de 2024</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>La siguiente mejora se ha realizado en la pantalla <strong>Suscripciones Keystone</strong> del Asesor Digital Active IQ (también conocido como Asesor Digital).</p>
+</div>
+<div class="sect2">
+<h3 id="posibilidad-de-ver-suscripciones-vinculadas-a-una-suscripción-principal">Posibilidad de ver suscripciones vinculadas a una suscripción principal</h3>
+<div class="paragraph">
+<p>Algunas de sus suscripciones principales pueden tener suscripciones secundarias vinculadas. Si ese es el caso, el número de suscripción principal seguirá mostrándose en la columna <strong>Número de suscripción</strong>, mientras que los números de suscripción vinculados aparecerán en una nueva columna <strong>Suscripciones vinculadas</strong> en la pestaña <strong>Suscripciones</strong>. La columna <strong>Suscripciones vinculadas</strong> solo estará disponible si tiene suscripciones vinculadas, y podrá ver mensajes informativos que le notifiquen sobre ellas.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="nuevas-funciones-y-mejoras-para-el-11-de-enero-de-2024">Nuevas funciones y mejoras para el 11 de enero de 2024</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Descubra las novedades de esta versión.</p>
+</div>
+<div class="paragraph">
+<p>Las siguientes mejoras se han realizado en la pantalla <strong>Suscripciones Keystone</strong> del asesor digital Active IQ (también conocido como asesor digital).</p>
+</div>
+<div class="sect2">
+<h3 id="datos-facturados-devueltos-para-repartición-devengada">Datos facturados devueltos para repartición devengada</h3>
+<div class="paragraph">
+<p>Las etiquetas para <strong>Explosión acumulada</strong> ahora se modifican a <strong>Explosión acumulada facturada</strong> en la pestaña <strong>Tendencia de capacidad</strong>. Al seleccionar esta opción, podrá ver los gráficos mensuales de los datos de ráfaga devengados facturados. Para obtener más información, consulte <a href="../integrations/aiq-keystone-details.html#view-invoiced-accrued-burst" target="_blank" rel="noopener">"Consulta de repartición devengada facturada"</a>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="detalles-de-consumo-devengado-para-planes-de-tarifas-específicos">Detalles de consumo devengado para planes de tarifas específicos</h3>
+<div class="paragraph">
+<p>Si tiene una suscripción que tiene planes de tarifas con capacidad comprometida <em>cero</em>, puede ver los detalles del consumo acumulado en la pestaña <strong>Tendencia de capacidad</strong>. Al seleccionar la opción <strong>Consumo devengado facturado</strong>, puede ver los gráficos mensuales de los datos de consumo devengado facturado.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="nuevas-funciones-y-mejoras-para-el-15-de-diciembre-de-2023">Nuevas funciones y mejoras para el 15 de diciembre de 2023</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Descubra las novedades de esta versión.</p>
+</div>
+<div class="sect2">
+<h3 id="posibilidad-de-buscar-por-listas-de-comprobaciones">Posibilidad de buscar por listas de comprobaciones</h3>
+<div class="paragraph">
+<p>La compatibilidad con las listas de comprobaciones del asesor digital de Active IQ (también conocido como asesor digital) se ha ampliado para incluir sistemas Keystone. Ahora puede ver los detalles de las suscripciones para varios clientes mediante la búsqueda con listas de comprobaciones. Para obtener más información sobre el uso de las listas de comprobaciones en STaaS de Keystone, consulte <a href="../integrations/keystone-aiq.html#search-by-using-keystone-watchlists" target="_blank" rel="noopener">"Busca mediante listas de comprobaciones de Keystone"</a>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="fecha-convertida-a-zona-horaria-utc">Fecha convertida a zona horaria UTC</h3>
+<div class="paragraph">
+<p>Los datos devueltos en las pestañas de la pantalla <strong>Suscripciones Keystone</strong> del Asesor Digital Active IQ se muestran en la hora UTC (zona horaria del servidor). Al introducir una fecha para la consulta, se considera automáticamente que está en la hora UTC. Para obtener más información, consulte <a href="../integrations/aiq-keystone-details.html" target="_blank" rel="noopener">"Panel de suscripción de Keystone e informes"</a>.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+    </article>
+    <!-- Page Container -->
+  </div>
+
+  
+  <!-- Start Page Toolbar -->
+<div id="ie-right-navbar-collapse" class="close">
+  <img id="navbar-expand" class="ie-searchbox-icon" src="/es-es/keystone-staas/images/double_arrow.svg" alt="" />
+</div>
+<div id="ie-right-navbar" class="open">
+  <div id="right-navbar-collapse">
+    <img src="/es-es/keystone-staas/images/double_arrow.svg" alt="" />
+  </div>
+  <div class="page-nav-container">
+    <nav class="page-nav-fixed">
+      <div class="page-nav-title">En esta página</div>
+      <div class="page-nav-links">
+        <ul class="page-nav-inner" id="page-menu"></ul>
+      </div>
+    </nav>
+  </div>
+</div>
+
+
+<script>
+  resizeContent();
+  function setRightBarHeight() {
+    var h = 0;
+
+    // header 1
+    h += PXinViewport($('.n-footer'));
+    h += PXinViewport($('#ie-new-header'));
+
+    if ($('#ie-right-navbar').length) {
+      $('#ie-right-navbar').css({ height: `calc(100vh - ${h}px)` });
+    }
+    if ($('.page-nav-links').length) {
+      h += 98;
+      $('.page-nav-links').css({ height: `calc(100vh - ${h}px)` });
+    }
+  }
+
+  $(document).ready(function () {
+    // PAGE NAV - Click
+    const MASTHEAD_OFFSET = 65;
+    const SECTIONS = $("main h2, main h3");
+    let calculateActiveSection = false;
+    setTimeout(() => {
+      calculateActiveSection = true;
+    }, 100)
+
+    $(".page-nav__link").click(function (event) {
+      calculateActiveSection = false;
+      $(".page-nav__link").removeClass('page-nav__link--active');
+      var target = $(event.target);
+      target.addClass('page-nav__link--active');
+      location.hash = event.target.hash;
+      setTimeout(() => {
+        calculateActiveSection = true;
+      }, 100)
+
+    });
+
+    // PAGE NAV - Scroll
+    $(window).on('resize scroll', function () {
+      if (calculateActiveSection) {
+        var activeSection = getActiveSection(SECTIONS, MASTHEAD_OFFSET);
+        if (activeSection) {
+          var activeHref = $(activeSection).attr('id');
+          $(".page-nav__link").removeClass('page-nav__link--active');
+          $("#page-menu a[href=#" + activeHref + "]").addClass('page-nav__link--active');
+          if (location.hash != "#" + activeHref) {
+            if (history.replaceState) {
+              history.replaceState(null, null, "#" + activeHref);
+            }
+          }
+        }
+      }
+    });
+
+    $(".n-pdf-button").click(function () {
+      $(this).toggleClass("active");
+    });
+
+    $.fn.isVisibleAndInViewport = function () {
+      var elementTop = $(this).offset().top;
+      var elementBottom = elementTop + $(this).outerHeight();
+
+      var viewportTop = $(window).scrollTop();
+      var viewportBottom = viewportTop + $(window).height();
+
+      return elementBottom > viewportTop && elementTop < viewportBottom && $(this).is(":visible");
+    };
+
+
+    $(window).on('resize scroll', function () {
+      setRightBarHeight();
+    });
+
+    $(window).trigger('resize');
+
+
+  });
+
+  $("#right-navbar-collapse").click(function (e) {
+    const rightNavbarWidth = $("#ie-right-navbar").width() - $("#ie-right-navbar-collapse").width();
+    e.preventDefault();
+    const width = $(".ie-content-pane").width();
+
+    $("#ie-right-navbar").animate({ width: 'toggle' }, 350, function () {
+      $("#ie-right-navbar-collapse").removeClass("close")
+      $("#ie-right-navbar-collapse").addClass("open")
+      $("#ie-right-navbar").removeClass("open")
+      $("#ie-right-navbar").addClass("close")
+    });
+    $(".ie-content-pane").animate({ width: (width + rightNavbarWidth) }, 350, function () {
+      resizeContent()
+      setSidebarBottom();
+    })
+
+  });
+  $("#navbar-expand").click(function (e) {
+    const rightNavbarWidth = $("#ie-right-navbar").width() - $("#ie-right-navbar-collapse").width();
+    e.preventDefault();
+    const width = $(".ie-content-pane").width();
+    $("#ie-right-navbar").animate({ width: 'toggle' }, 250, function () {
+      $("#ie-right-navbar-collapse").removeClass("open")
+      $("#ie-right-navbar-collapse").addClass("close")
+      $("#ie-right-navbar").removeClass("close")
+      $("#ie-right-navbar").addClass("open")
+      setRightBarHeight();
+      setSidebarBottom();
+    });
+    $(".ie-content-pane").animate({ width: (width - rightNavbarWidth) }, 250, function () {
+      resizeContent()
+    })
+  });
+
+  function navbarResize() {
+    const rightNavbarResized = $("#ie-right-navbar-collapse").hasClass('resized');
+    if (window.innerWidth < 1024) {
+      $("#ie-right-navbar").removeClass("open")
+      $("#ie-right-navbar").addClass("close")
+      $("#ie-right-navbar").removeAttr("style")
+      $("#ie-right-navbar-collapse").removeClass("close")
+      $("#ie-right-navbar-collapse").addClass("open")
+      $("#ie-right-navbar-collapse").addClass("resized")
+    } else {
+      if (rightNavbarResized) {
+        $('#ie-right-navbar').removeClass('close');
+        $('#ie-right-navbar').addClass('open');
+        $("#ie-right-navbar-collapse").removeClass("resized")
+        $("#ie-right-navbar-collapse").removeClass("open")
+        $("#ie-right-navbar-collapse").addClass("close")
+      }
+    }
+    resizeContent()
+  }
+  navbarResize();
+  $(window).on('resize load', function () {
+    navbarResize()
+  });
+
+  function getActiveSection(sections, offset) {
+    var scrollPosition = $(window).scrollTop() + offset + 5;
+    var activeSection;
+    for (var i = 0; i < sections.length; i++) {
+      var el = $(sections[i]);
+      var activePosition = el.offset().top;
+      if (activePosition > scrollPosition) {
+        break;
+      }
+
+      activeSection = sections[i];
+    }
+
+    return activeSection;
+  }
+
+  $("a[href*=#]:not([href=#])").click(function () {
+    setTimeout(() => {
+      $(window).trigger('scroll');
+    }, 105)
+  })
+
+  const hashOnLoad = location.href.split("#")[1];
+  setTimeout(function () {
+    if (hashOnLoad) {
+      $(".page-nav__link").removeClass('page-nav__link--active');
+      $("#page-menu a[href=#" + hashOnLoad + "]").addClass('page-nav__link--active');
+    }
+  }, 100)
+
+</script>
+
+
+  <div style="clear: both"></div><!-- Main needs to have height --></div>
+
+        </main>
+
+        <footer class="n-footer">
+  <div class="n-footer__bottom">
+    <div class="n-container">
+        <div class="n-footer__left">
+          <li class="n-footer__copyright-link">
+                    <a href="https://www.netapp.com/company/legal/copyright/">© 2024 NetApp, Inc.</a>
+          </li>
+        </div>
+        <div class="n-footer__center">
+          <ul class="n-footer__copyright-list">
+            <li class="n-footer__copyright-link">
+              <a href="https://www.netapp.com/company/legal/terms-of-use/">Condiciones de uso</a>
+            </li>
+            <li class="n-footer__copyright-link">
+              <a href="https://www.netapp.com/company/legal/privacy-policy/">Política de privacidad</a>
+            </li>
+            <li class="n-footer__copyright-link">
+              <a href="https://www.netapp.com/company/legal/cookie-policy/">Política de cookies</a>
+            </li>
+            <li class="n-footer__copyright-link">
+              <a class="ot-sdk-show-settings">Configuración de cookies</a>
+            </li>
+          </ul>
+       </div>
+        <div class="n-footer__right">
+              <li class="n-footer__copyright-link">
+                <a target="_self" href="javascript:netapp_mailto()">Enviar comentarios sobre esta página</a>
+              </li>
+        </div>
+     </div>
+  </div>
+</footer>
+
+      </div><!-- Elasticsearch JS -->
+      <script type="text/javascript" src='/es-es/keystone-staas/js/bundle.js'></script>
+
+      <!-- Syntax Highlighting -->
+      <script type="text/javascript" src='/es-es/keystone-staas/js/prism.js'></script>
+      <script type="text/javascript" src='/es-es/keystone-staas/js/prism-curl.js'></script>
+    </div>
+    <script>
+      document.body.offsetWidth=1903;
+      cookieLaw = {}
+      cookieLaw.euCountry = "US";
+      cookieLaw.invoke = function(){return false;}
+    </script>
+    <script src='/es-es/keystone-staas/js/ie-tabbed-blocks.js'></script>
+    <script src='/es-es/keystone-staas/js/ie-sidebar.js'></script>
+  </body>
+
+</html>
