@@ -33,9 +33,9 @@ La pestaña Volumes ofrece diferentes niveles de información sobre los volúmen
 . Seleccione el número de suscripción. De forma predeterminada, se selecciona el primer número de suscripción disponible.
 
 
-Para la suscripción STaaS a Keystone seleccionada, puedes ver el número total de volúmenes, su estado de cumplimiento de normativas de AQoS y la capacidad total comprometida, consumida y disponible en todos esos volúmenes. Si hace clic en el número de volúmenes no compatibles, verá los volúmenes individuales enumerados en la pestaña *Detalles del volumen*.
+En la suscripción STaaS a Keystone seleccionada, puedes ver el número total de volúmenes, su estado de cumplimiento de normativas AQoS, el recuento de los volúmenes protegidos y la capacidad total comprometida, consumida y disponible en todos esos volúmenes. Si hace clic en el número de volúmenes no compatibles o protegidos, le llevará a la pestaña *Detalles del volumen*, donde puede ver una lista filtrada que muestra los volúmenes no compatibles o los volúmenes protegidos, según su selección.
 
-image:volume-summary.png["Pestaña de resumen de volumen"]
+image:volume-summary-1.png["Pestaña de resumen de volumen"]
 
 --
 .Detalles del volumen
@@ -51,7 +51,7 @@ NOTE: Para el servicio complementario de protección de datos avanzada, se muest
 
 
 
-image:volume-details.png["Pestaña Detalles de Volumes"]
+image:volume-details-1.png["Pestaña Detalles de Volumes"]
 
 --
 ====
@@ -78,7 +78,6 @@ image:sg-link-2.png["Cuadro de diálogo StorageGRID"]
 * link:../integrations/aiq-keystone-details.html["Utilice la consola y la generación de informes de Keystone"]
 * link:../integrations/subscriptions-tab.html["Suscripciones"]
 * link:../integrations/current-usage-tab.html["Uso actual"]
-* link:../integrations/sla-details-tab.html["Detalles de SLA"]
 * link:../integrations/capacity-trend-tab.html["Tendencia de capacidad"]
 * link:../integrations/performance-tab.html["Rendimiento"]
 * link:../integrations/assets-tab.html["Activos"]

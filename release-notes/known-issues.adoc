@@ -16,36 +16,4 @@ summary: Problemas conocidos en STaaS de Keystone
 [role="lead"]
 Los problemas conocidos identifican problemas que pueden impedirle usar de forma efectiva los servicios de suscripción de Keystone.
 
-Los siguientes problemas conocidos se han notificado en STaaS de NetApp Keystone.
-
-[cols="3*"]
-|===
-| Problema conocido | Descripción | Solución alternativa 
-
-
- a| 
-La información sobre los volúmenes no conformes a AQoS y los partners de MetroCluster no está disponible para las suscripciones de AutoSupport.
- a| 
-Si la telemetría AutoSupport se utiliza para recopilar datos de Keystone, el recuento de volúmenes no compatibles con AQoS que aparecen en las pestañas *Resumen de volumen* y *Uso actual*, así como la información sobre los socios de MetroCluster, no estarán disponibles si los datos de Keystone no están presentes durante 24 horas.
- a| 
-Ninguno
-
-
-
- a| 
-Discrepancia ocasional en el número de volúmenes no compatibles con AQoS en la pestaña *Volúmenes*.
- a| 
-Si hay dos niveles de servicio asignados a un volumen que cumple con el cumplimiento de AQoS para un solo nivel de servicio, el número de volúmenes no compatibles con AQoS que se enumeran en las pestañas *Resumen de volumen* y *Detalles de volumen* puede ser diferente.
- a| 
-Ninguno
-
-
-
- a| 
-Apariencia incorrecta de la información sobre herramientas.
- a| 
-La información sobre herramientas del icono del índice *Current Burst* aparece incorrectamente en la pestaña *Capacity Trend*.
- a| 
-Consulte el texto correcto sobre herramientas «_La cantidad de capacidad aumentada que se está consumiendo actualmente. Tenga en cuenta que esto es para el período de facturación actual, no para el rango de fechas seleccionado.
-
-|===
+No se identifican problemas conocidos.

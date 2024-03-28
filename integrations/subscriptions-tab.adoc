@@ -48,7 +48,6 @@ image:icon-grey.png["icono de punto gris"]: No se ha registrado ningún uso de l
 
 * link:../integrations/aiq-keystone-details.html["Utilice la consola y la generación de informes de Keystone"]
 * link:../integrations/current-usage-tab.html["Uso actual"]
-* link:../integrations/sla-details-tab.html["Detalles de SLA"]
 * link:../integrations/capacity-trend-tab.html["Tendencia de capacidad"]
 * link:../integrations/volumes-objects-tab.html["Volúmenes  Objetos"]
 * link:../integrations/performance-tab.html["Rendimiento"]

@@ -134,7 +134,6 @@ Para obtener más información sobre cómo MetroCluster protege sus datos, consu
 * link:../integrations/aiq-keystone-details.html["Utilice la consola y la generación de informes de Keystone"]
 * link:../integrations/subscriptions-tab.html["Suscripciones"]
 * link:../integrations/current-usage-tab.html["Uso actual"]
-* link:../integrations/sla-details-tab.html["Detalles de SLA"]
 * link:../integrations/volumes-objects-tab.html["Volúmenes  Objetos"]
 * link:../integrations/performance-tab.html["Rendimiento"]
 * link:../integrations/assets-tab.html["Activos"]

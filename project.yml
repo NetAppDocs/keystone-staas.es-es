@@ -65,8 +65,6 @@ sidebar:
         url: "/integrations/subscriptions-tab.html"
       - title: Pestaña Uso actual
         url: "/integrations/current-usage-tab.html"
-      - title: Pestaña Detalles de SLA
-        url: "/integrations/sla-details-tab.html"
       - title: Pestaña Capacity Trend
         url: "/integrations/capacity-trend-tab.html"
       - title: Pestaña Volumes & Objects
@@ -107,8 +105,6 @@ sidebar:
       url: "/concepts/qos.html"
     - title: Requisitos de capacidad para niveles de servicio
       url: "/concepts/capacity-requirements.html"
-    - title: Acuerdo de nivel de servicio sostenible
-      url: "/concepts/sla-sustainability.html"
   - title: Facturación
     entries:
     - title: Precios Keystone

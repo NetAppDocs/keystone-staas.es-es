@@ -22,6 +22,33 @@ Los problemas encontrados en versiones anteriores de los servicios de STaaS de N
 
 
  a| 
+Texto de información sobre herramientas incorrecto para el icono de índice *Current Burst* en la pestaña *Capacity Trend*.
+ a| 
+Muestra el texto correcto sobre herramientas «_La cantidad de capacidad aumentada que se está consumiendo actualmente. Tenga en cuenta que esto es para el período de facturación actual, no para el rango de fechas seleccionado.
+ a| 
+28 de marzo de 2024
+
+
+
+ a| 
+La información sobre los volúmenes no conformes a la normativa AQoS y los partners MetroCluster no está disponible para las suscripciones de AutoSupport si los datos de Keystone no están presentes durante 24 horas.
+ a| 
+Fija
+ a| 
+28 de marzo de 2024
+
+
+
+ a| 
+Discrepancia ocasional en el número de volúmenes no compatibles con AQoS enumerados en las pestañas *Resumen de volumen* y *Detalles de volumen* si hay dos niveles de servicio asignados a un volumen que cumple con el cumplimiento de AQoS solo para un nivel de servicio.
+ a| 
+Fija
+ a| 
+28 de marzo de 2024
+
+
+
+ a| 
 No hay información disponible en la pestaña *Activos* para suscripciones a AutoSupport.
  a| 
 Fija

@@ -33,7 +33,6 @@ Junto con el uso actual, puede que desee ver los datos de uso históricos para l
 
 * link:../integrations/aiq-keystone-details.html["Utilice la consola y la generación de informes de Keystone"]
 * link:../integrations/subscriptions-tab.html["Suscripciones"]
-* link:../integrations/sla-details-tab.html["Detalles de SLA"]
 * link:../integrations/capacity-trend-tab.html["Tendencia de capacidad"]
 * link:../integrations/volumes-objects-tab.html["Volúmenes  Objetos"]
 * link:../integrations/performance-tab.html["Rendimiento"]

@@ -232,19 +232,4 @@ https://support.netapp.com[]
  a| 
 Sede central de NetApp para la información de facturación y entrega de AutoSupport
 
-
-
- a| 
-http://mirror.centos.org[]
-http://mirrorlist.centos.org[]
- a| 
-Actualizaciones del sistema operativo para Keystone Collector (solo puestas en marcha de OVA)
-
-
-
- a| 
-https://repo.mysql.com[]
- a| 
-Descargar y actualizar dependencias de MySQL (solo para implementaciones de Linux)
-
 |===

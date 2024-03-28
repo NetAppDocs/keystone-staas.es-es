@@ -18,6 +18,44 @@ NetApp ofrece funciones nuevas y mejoradas en cada lanzamiento de los servicios 
 
 
 
+== Nuevas funciones y mejoras para el 28 de marzo de 2024
+
+La siguiente mejora se ha realizado en la pantalla *Suscripciones Keystone* del Asesor Digital Active IQ (también conocido como Asesor Digital):
+
+
+
+=== La mejora del cumplimiento de las políticas de calidad de servicio se muestra en la pestaña Volume Details
+
+La pestaña *Detalles de volumen* de la pestaña *Volúmenes y objetos* ahora proporciona una mejor visibilidad del cumplimiento de la política de calidad de servicio (QoS). La columna anteriormente conocida como *AQoS* se renombró a *Compliant*, que indica si la política QoS cumple. Además, se agrega una nueva columna *QoS Policy Type*, que especifica si la política es fija o adaptativa. Si no se aplica ninguno, la columna muestra _NOT DISPONIBLE_. Para obtener más información, consulte link:../integrations/volumes-objects-tab.html["Volúmenes  ficha Objetos"^].
+
+
+
+=== La nueva columna y la suscripción simplificada se muestran en la pestaña Resumen de volumen
+
+* La pestaña *Resumen de volumen* de la pestaña *Volúmenes y objetos* ahora incluye una nueva columna titulada *Protegido*. Esta columna proporciona un recuento de los volúmenes protegidos asociados con los niveles de servicio suscritos. Si haces clic en el número de volúmenes protegidos, te lleva a la pestaña *Detalles del volumen*, donde puedes ver una lista filtrada de volúmenes protegidos.
+* La pestaña *Resumen de volumen* se actualiza para mostrar solo las suscripciones básicas, excluyendo los servicios complementarios. Para obtener más información, consulte link:../integrations/volumes-objects-tab.html["Volúmenes  ficha Objetos"^].
+
+
+
+
+=== Cambie a la visualización de detalles de ráfaga acumulada en la pestaña Tendencia de capacidad
+
+La información sobre herramientas que aparece al pasar el cursor sobre el gráfico de barras de uso de capacidad en la pestaña *Tendencia de capacidad* mostrará los detalles de las ráfagas acumuladas para el mes actual. Los detalles no estarán disponibles durante los meses anteriores.
+
+
+
+=== Acceso mejorado para ver datos históricos de suscripciones a Keystone
+
+Ahora puedes ver los datos históricos si se modifica o renueva una suscripción de Keystone. Puede establecer la fecha de inicio de una suscripción en una fecha anterior para ver :
+
+* Consumo y datos de uso de ráfaga acumulados de la pestaña *Capacity Trend*,
+* Métricas de rendimiento de los volúmenes de ONTAP desde la pestaña *Rendimiento*,
+
+
+todos los cuales muestran los datos basados en la fecha seleccionada de la suscripción.
+
+
+
 == Nuevas funciones y mejoras para el 29 de febrero de 2024
 
 Se han realizado varias mejoras en el panel del asesor digital de Active IQ (también conocido como asesor digital) y en la pantalla *Suscripciones de Keystone* para esta versión:

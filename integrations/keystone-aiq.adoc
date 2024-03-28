@@ -36,7 +36,6 @@ Puede ver el desglose del uso de la capacidad en función de sus suscripciones, 
 ** Consumos superiores a la capacidad aumentada.
 
 
-* *Acuerdo de nivel de servicio*: Este estado aparece si al menos una de sus suscripciones tiene un acuerdo de nivel de servicio (SLA) de sostenibilidad válido con NetApp. El estado indica si las suscripciones cumplen los criterios de sostenibilidad definidos en su SLA. Si sus suscripciones cumplen los criterios de SLA, puede ver el estado como _ALL OK_.
 * *Alertas*: Usted ve alertas para varios escenarios si son aplicables a usted.
 +
 ** *Venciendo pronto*: En caso de que tus suscripciones venzan dentro de los 90 días.
