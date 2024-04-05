@@ -46,7 +46,6 @@
   <block id="5f76d762520637f1eb1b8dd5e4b71129" category="paragraph">TCP 443</block>
   <block id="e89ab59baea830bd940c300886c50efe" category="paragraph">Obligatorio</block>
   <block id="8e77c75fd2b5c8f6c41f3c1b738d2a22" category="paragraph">Internet (según los requisitos de URL proporcionados más adelante)</block>
-  <block id="1de3382e8d585a7e028aaf322ae1a2e1" category="paragraph">HTTP Y HTTPS</block>
   <block id="77af2ba0b86f594a268203e05693cb8f" category="paragraph">TCP 80, TCP 443</block>
   <block id="882da07ddabac1aa28b5f358bcbeb2ce" category="paragraph">Obligatorio (conexión a Internet)</block>
   <block id="01633331ef3bca3e96b0dfd60ceb54bd" category="paragraph">Software Keystone Collector, actualizaciones del sistema operativo y carga de métricas</block>
@@ -76,7 +75,6 @@
   <block id="9bb201387a3fc98daabac0d0184d67b2" category="paragraph">TCP 3306</block>
   <block id="1cdcb6b512bcad3d3f44e441ef4b8b27" category="paragraph">Recopilación de métricas de rendimiento para Keystone Collector</block>
   <block id="9dcb5a3c0168fd793b27b3a0ad251e42" category="paragraph">Sistema de monitorización del Cliente</block>
-  <block id="293c9ea246ff9985dc6f62a650f78986" category="paragraph">HTTP</block>
   <block id="763598941dbbbfc084a41d50118d7cf0" category="paragraph">TCP 777</block>
   <block id="6ef2c9b331690e63d11b8024f8e69408" category="paragraph">Informes de estado de Keystone Collector</block>
   <block id="4e38d92cc04c51157b68c55909b859b7" category="section-title">Acceso a URL</block>
@@ -138,9 +136,6 @@
   <block id="fbf8359989576f0800cb2da4a25f4be1" category="summary">Requisitos previos para instalar el recopilador Keystone en sistemas VMware vSphere</block>
   <block id="2f0d22e6971fda1cbc3411961fec8360" category="doc">Requisitos de infraestructura virtual</block>
   <block id="080838bb01c5d3b3c97a54a92d98023d" category="list-text">Sistema operativo: VMware vCenter Server y ESXi 6.5 o posterior</block>
-  <block id="a6074a8dda65f87c74db6e5b6a444683" category="list-text">Básico: 4 CPU</block>
-  <block id="f003ca1f65b35534eb0dad8c4f388f6a" category="list-text">RAM: 12 GB DE RAM</block>
-  <block id="12bd6e40a7bc94d413c13b8520e74365" category="list-text">Espacio en disco: 200 GB vDisk</block>
   <block id="b34b056c73270f2209f1e8eeb513e7cc" category="summary">La configuración del recopilador Keystone</block>
   <block id="b44055e981e64c62a3ac7b6994a3f19b" category="doc">Configure Keystone Collector</block>
   <block id="3d3aea279fd0dfc2c6c0a6f4af62eaf7" category="list-text">Salga de la TUI de gestión de Keystone Collector seleccionando la opción **salir a Shell** en la pantalla de inicio.</block>
@@ -907,9 +902,7 @@
   <block id="303598db14cdac7b8531356d3fa6ae67" category="doc">Actualice manualmente Keystone Collector</block>
   <block id="eb5316849956503093c848cdd2e2189f" category="paragraph">La función de actualización automática de Keystone Collector está habilitada de forma predeterminada, lo que actualiza automáticamente el software Keystone Collector con cada nueva versión. Sin embargo, puede deshabilitar esta función y actualizar manualmente el software.</block>
   <block id="c5bc18b9ae708308f165d213528edb66" category="list-text">En la pantalla de mantenimiento, seleccione la opción *Actualizar colectores ahora*.</block>
-  <block id="f8bc55f7c7f782e0fdeced65037abf84" category="paragraph">También puede ejecutar este comando para actualizar la versión:</block>
   <block id="b31f1ebf783dc22abf4699b042b9b3db" category="list-text">Reinicie la TUI de gestión del recopilador de Keystone, puede ver la versión más reciente en la parte superior izquierda de la pantalla de inicio.</block>
-  <block id="bb05cc2f27b372eeefcaf8c9d31c4fba" category="paragraph">También puede ejecutar este comando para ver la versión más reciente:</block>
   <block id="26ff0e396ade6fe360b35528d3afe577" category="paragraph">Los datos de los sistemas STaaS de Keystone fluyen a través de Keystone Collector y el sistema de supervisión asociado, la herramienta de soluciones AIOPs.</block>
   <block id="9e2f9cd4a9ee8b88a18988f62eb67dd7" category="paragraph">Keystone Collector inicia llamadas API DE REST a las controladoras de almacenamiento y obtiene detalles de uso de las controladoras periódicamente, como se indica en este diagrama de flujo:</block>
   <block id="144be97e21d1c48cc88d9c1079fd7242" category="list-text">El portal de cloud de Active IQ acepta la conexión y establece un túnel al recopilador de NetApp.</block>
@@ -1555,4 +1548,11 @@ La huella digital correcta tiene este aspecto:<block ref="821b59fa560f6b692841b4
   <block id="2edc64c57ca29e2f950fd753874bafbc" category="list-text">Métricas de rendimiento de los volúmenes de ONTAP desde la pestaña *Rendimiento*,</block>
   <block id="7a7b2bda8aa958fd2f922e2acb85ca1e" category="paragraph">todos los cuales muestran los datos basados en la fecha seleccionada de la suscripción.</block>
   <block id="f37be92ace88534a02480f8f04d48882" category="paragraph">No se identifican problemas conocidos.</block>
+  <block id="5f2b8b9897b51974b3e829ddd4511e8e" category="paragraph">Como alternativa, ejecute estos comandos para actualizar la versión:</block>
+  <block id="014327995266184e82832bad8c943216" category="paragraph">Para CentOS:</block>
+  <block id="21a26c88c032eccbe4aba03b7481511e" category="paragraph">Para Debian:</block>
+  <block id="6c6acbd25509a9e20307e1496a9b9db2" category="paragraph">También puede ejecutar estos comandos para ver la versión más reciente:</block>
+  <block id="0ed064e2cd201442fba4d1be4a8ee19c" category="list-text">Núcleo: 1 CPU</block>
+  <block id="2e82715d47e898df71b0f37522311a05" category="list-text">RAM: 2 GB DE RAM</block>
+  <block id="54c62dd9045f6805a09d9d86b629862d" category="list-text">Espacio en disco: 20 GB vDisk</block>
 </blocks>
