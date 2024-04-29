@@ -40,7 +40,7 @@ Puede ver y comparar las métricas de rendimiento en las siguientes secciones en
 
 
 
-=== IOPS/TiB
+== IOPS/TiB
 
 En esta sección, se muestran los gráficos de entrada y salida para las cargas de trabajo del volumen según el rango de fechas de la consulta. Se muestran los picos de IOPS correspondientes al nivel de servicio y el IOPS actual (en los últimos cinco minutos, no basándose en el rango de fechas de la consulta), junto con el valor de IOPS mínimo, máximo y medio para el intervalo de tiempo, en IOPS/TiB.
 
@@ -48,7 +48,7 @@ image:perf-iops.png["Sección IOPS del gráfico"]
 
 
 
-=== Rendimiento (MBps/TiB)
+== Rendimiento (MBps/TiB)
 
 En esta sección, se muestran los gráficos de rendimiento de las cargas de trabajo del volumen según el intervalo de fechas de la consulta. Se muestra el rendimiento máximo del nivel de servicio (SLO Max) y el rendimiento actual (en los últimos cinco minutos, no basado en el rango de fechas de la consulta), junto con el rendimiento mínimo, máximo y promedio del intervalo de tiempo, en MBps/TiB.
 
@@ -56,7 +56,7 @@ image:perf-thr.png["Gráficos de rendimiento"]
 
 
 
-=== Latencia (ms)
+== Latencia (ms)
 
 Esta sección muestra los gráficos de latencia de las cargas de trabajo del volumen según el rango de fechas de la consulta. Se muestran la latencia máxima para el nivel de servicio (SLO Target) y la latencia actual (en los últimos cinco minutos, no basada en el rango de fechas de la consulta), junto con la latencia mínima, máxima y media del intervalo de tiempo, en milisegundos.
 
@@ -70,7 +70,7 @@ image:perf-lat.png["gráficos de rendimiento"]
 
 
 
-=== Lógico usado (TiB)
+== Lógico usado (TiB)
 
 Esta sección muestra las capacidades aprovisionadas y lógicas utilizadas del volumen. La capacidad utilizada lógica actual (en los últimos cinco minutos, no basada en el rango de fechas de la consulta), junto con el uso mínimo, máximo y promedio para el rango de tiempo se muestran en los TIBs. En este gráfico, el área gris representa la capacidad comprometida y el gráfico amarillo indica el uso lógico.
 

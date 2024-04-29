@@ -1,0 +1,29 @@
+---
+sidebar: sidebar 
+permalink: subscription-services-v1.html 
+keywords: Keystone Flex Subscriptions, kfs v1, keystone legacy, Keystone subscription services version 1 
+---
+= Servicios de suscripción Keystone | Versión 1
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+STaaS de Keystone fue precedido por los servicios de suscripción de Keystone (anteriormente conocidos como servicios Keystone Flex Subscription).
+
+Mientras que la navegación de las dos ofertas es similar en la link:./integrations/aiq-keystone-details.html["Consola de Keystone"^], Los servicios de suscripción de Keystone son distintos de STaaS de Keystone en los niveles de servicio constituyentes, la oferta de servicios y los principios de facturación. A partir de abril de 2024, NetApp mantiene y publica la documentación solo para STaaS de Keystone. Si todavía usas los servicios de suscripción de Keystone, ponte en contacto con tu KSM para obtener soporte en la migración a STaaS de Keystone. Si es necesario, puedes acceder aquí a una versión PDF de la documentación de los servicios de suscripción de Keystone:
+
+* https://docs.netapp.com/a/keystone/1.0/keystone-subscription-services-guide.pdf["Inglés"^]
+* https://docs.netapp.com/a/keystone/1.0/keystone-subscription-services-guide-ja-jp.pdf["Japonés"^]
+* https://docs.netapp.com/a/keystone/1.0/keystone-subscription-services-guide-ko-kr.pdf["Coreano"^]
+* https://docs.netapp.com/a/keystone/1.0/keystone-subscription-services-guide-zh-cn.pdf["Chino (simplificado)"^]
+* https://docs.netapp.com/a/keystone/1.0/keystone-subscription-services-guide-zh-tw.pdf["Chino (tradicional)"^]
+* https://docs.netapp.com/a/keystone/1.0/keystone-subscription-services-guide-de-de.pdf["Alemán"^]
+* https://docs.netapp.com/a/keystone/1.0/keystone-subscription-services-guide-es-es.pdf["Español"^]
+* https://docs.netapp.com/a/keystone/1.0/keystone-subscription-services-guide-fr-fr.pdf["Francés"^]
+* https://docs.netapp.com/a/keystone/1.0/keystone-subscription-services-guide-it-it.pdf["Italiano"^]
+

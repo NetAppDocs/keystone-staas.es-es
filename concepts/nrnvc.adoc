@@ -27,7 +27,7 @@ Si ha adquirido este servicio, tenga en cuenta lo siguiente:
 
 * No es necesario devolver ninguna unidad ni ninguna memoria no volátil al final del término de servicio, o si fallaron o se encontraron defectuosos durante el término de servicio.
 * Sin embargo, debe producir un certificado de destrucción para las unidades y/o la memoria no volátil y no puede utilizarse con ningún otro fin.
-* El coste adicional asociado al NRNVC se cobra como porcentaje del servicio de suscripción total (incluye servicio estándar, protección avanzada de datos y clasificación de datos), por cuenta mensual.
+* El costo adicional asociado con el NRNVC se cobra como un porcentaje de la factura mensual total de servicios de suscripción (incluye servicio estándar, protección de datos avanzada y organización de datos en niveles).
 * Este servicio se aplica únicamente a los servicios de archivos, bloques y objetos.
 
 

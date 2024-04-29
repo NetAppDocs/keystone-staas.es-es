@@ -64,9 +64,6 @@ indexpage:
       url: "/concepts/uscs.html"
   - title: Más información
     links:
-    - title: Suscripciones de Keystone versión 1 (anteriormente, suscripciones a Keystone
-        Flex)
-      url: https://docs.netapp.com/us-en/keystone/
     - title: Asesor digital de Active IQ
       url: https://docs.netapp.com/us-en/active-iq/index.html
     - title: BlueXP
