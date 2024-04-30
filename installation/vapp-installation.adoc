@@ -80,10 +80,12 @@ Realice estos pasos en sus sistemas VMware vSphere para obtener una configuraci�
 
 NOTE: Al completar la puesta en marcha, puede usar la utilidad Keystone Collector Management Terminal User Interface (TUI) para realizar las actividades de configuración y supervisión. Puede usar varios controles del teclado, como las teclas Entrar y flecha, para seleccionar las opciones y navegar por esta TUI.
 
-. Abra una sesión SSH al servidor Keystone Collector. Al iniciar sesión, aparece la TUI. Como alternativa, puede iniciar la TUI manualmente ejecutando el `keystone-collector-tui` Comando de la CLI.
+. Abra una sesión SSH al servidor Keystone Collector. Cuando se conecte, el sistema le pedirá que actualice la contraseña de administrador. Complete la actualización de la contraseña de administrador según sea necesario.
+. Inicie sesión con la nueva contraseña para acceder a la TUI.  Al iniciar sesión, aparece la TUI.
++
+También puede iniciarlo manualmente ejecutando el `keystone-collector-tui` Comando de la CLI.
+
 . Si es necesario, configure los detalles del proxy en la sección *Configuración > Red* de la TUI.
-. Actualice Keystone Collector mediante la opción *Mantenimiento > Actualizar sistema*. Es posible que algunos reflejos seleccionados no estén disponibles y los detalles del sistema se actualizan después de varios intentos.
 . Configure el nombre de host del sistema, la ubicación y el servidor NTP en la sección *Configuración > sistema*.
-. Actualice la contraseña de administrador en la sección *Mantenimiento > Usuario*.
-. Marque la configuración inicial del OVA como completada en la sección *Configuración > Avanzado*.
+. Actualice los recopiladores de Keystone con la opción *Mantenimiento > Actualizar recopiladores*. Después de la actualización, reinicie la utilidad TUI de gestión de Keystone Collector para aplicar los cambios.
 

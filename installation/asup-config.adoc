@@ -52,17 +52,12 @@ Estos subsistemas se incluyen de forma predeterminada en los paquetes semanales 
 
 .Pasos
 . Como usuario administrador del sistema, inicie sesión en el clúster de Keystone ONTAP mediante SSH. Para obtener más información, consulte https://docs.netapp.com/us-en/ontap/system-admin/access-cluster-ssh-task.html["Acceda al clúster mediante SSH"^].
-. Ejecute el siguiente comando y verifique la configuración existente con respecto a los subsistemas existentes:
-+
-`autosupport trigger show -node * -autosupport-message management.log -fields basic-additional`
-
-+
-Para obtener más información acerca de este comando, consulte https://docs.netapp.com/us-en/ontap-cli-9131/system-node-autosupport-manifest-show.html#parameters["visualización del manifiesto AutoSupport del nodo del sistema"^].
-
 . Modifique el contenido del registro diario ejecutando este comando:
 +
-`autosupport trigger modify -node * -autosupport-message management.log -basic-additional _<existing comma-separated subsystems>_, _<new subsystems>_`
-
+[source]
+----
+autosupport trigger modify -node * -autosupport-message management.log -basic-additional wafl,nfs,performance,snapshot,platform,object_store_server,san,raid,snapmirror
+----
 +
 Para obtener más información acerca de este comando, consulte https://docs.netapp.com/us-en/ontap-cli-9131/system-node-autosupport-trigger-modify.html["modificación del disparador AutoSupport del nodo del sistema"^].
 
