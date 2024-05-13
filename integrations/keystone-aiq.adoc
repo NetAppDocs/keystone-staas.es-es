@@ -39,8 +39,7 @@ Puede ver el desglose del uso de la capacidad en función de sus suscripciones, 
 * *Alertas*: Usted ve alertas para varios escenarios si son aplicables a usted.
 +
 ** *Venciendo pronto*: En caso de que tus suscripciones venzan dentro de los 90 días.
-** *Actualizaciones críticas de hardware*: Si hay actualizaciones críticas de hardware pendientes.
-** *Advertencias AQoS*: Tienes volúmenes sin políticas AQoS asignadas.
+** *Advertencias QoS*: Tienes volúmenes sin políticas AQoS asignadas.
 +
 
 TIP: Haga clic en el enlace *Suscripciones* para ver la lista de suscripciones filtradas en la pestaña *Suscripciones*.
@@ -49,7 +48,7 @@ TIP: Haga clic en el enlace *Suscripciones* para ver la lista de suscripciones f
 
 
 
-image:new-db.png["nueva consola"]
+image:new-db-2.png["nueva consola"]
 
 Si desea obtener más información sobre el widget Digital Advisor de Keystone, consulte https://docs.netapp.com/us-en/active-iq/view_keystone_capacity_utilization.html["Documentación de Digital Advisor"^].
 

@@ -49,9 +49,14 @@ Puede ver una lista en tablas de los volúmenes, como el uso de la capacidad, el
 
 NOTE: Para el servicio complementario de protección de datos avanzada, se muestra una columna adicional para indicar si el volumen es un volumen primario o de reflejo en la configuración de MetroCluster. Puede copiar números de serie de nodos individuales haciendo clic en el botón *Copiar series de nodos*.
 
++
+
+NOTE: Para las suscripciones que cubren niveles de servicio tanto para el archivo como para el objeto, puede ver los detalles de almacenamiento de objetos haciendo clic en el botón *Detalles de almacenamiento de objetos*.
+
++
+image:volume-details-2.png["Pestaña Detalles de Volumes"]
 
 
-image:volume-details-1.png["Pestaña Detalles de Volumes"]
 
 --
 ====

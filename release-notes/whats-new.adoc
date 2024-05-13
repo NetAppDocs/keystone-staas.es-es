@@ -18,9 +18,33 @@ NetApp ofrece funciones nuevas y mejoradas en cada lanzamiento de los servicios 
 
 
 
+== Nuevas funciones y mejoras para el 09 de mayo de 2024
+
+La siguiente mejora se realiza en la pantalla *Suscripciones Keystone* del asesor digital Active IQ (también conocido como asesor digital):
+
+
+
+=== Nuevas columnas en los informes CSV
+
+Los informes CSV de la pestaña *Tendencia de capacidad* ahora incluyen las columnas *Número de suscripción* y *Nombre de cuenta* para mejorar los detalles.
+
+
+
+=== Columna Tipo de uso mejorado
+
+La columna *Tipo de uso* dentro de la pestaña *Suscripciones* se ha mejorado para mostrar los usos lógicos y físicos como valores separados por comas para las suscripciones que cubren los niveles de servicio tanto para el archivo como para el objeto.
+
+
+
+=== Acceda a los detalles del almacenamiento de objetos en la pestaña Volume Details
+
+La pestaña *Detalles de volumen* de la pestaña *Volúmenes y objetos* ahora proporciona detalles de almacenamiento de objetos junto con información de volumen para las suscripciones que incluyen niveles de servicio tanto para el archivo como para el objeto. Puede hacer clic en el botón *Detalles de almacenamiento de objetos* dentro de la pestaña *Detalles de volumen* para ver los detalles.
+
+
+
 == Nuevas funciones y mejoras para el 28 de marzo de 2024
 
-La siguiente mejora se ha realizado en la pantalla *Suscripciones Keystone* del Asesor Digital Active IQ (también conocido como Asesor Digital):
+La siguiente mejora se ha realizado en la pantalla *Suscripciones Keystone* del asesor digital Active IQ:
 
 
 

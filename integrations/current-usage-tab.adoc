@@ -18,7 +18,7 @@ La pestaña *Uso actual* muestra los detalles de uso de sus suscripciones.
 
 Para ver esta pestaña, en el panel de navegación de la izquierda, vaya a *GENERAL > Suscripciones de Keystone > Uso actual* y seleccione el número de suscripción requerido.
 
-image:aiq-ks-dtls.png["Pestaña Uso actual"]
+image:aiq-ks-dtls-1.png["Pestaña Uso actual"]
 
 Para la suscripción seleccionada, puede ver detalles, como las fechas de inicio y finalización de la suscripción, y el período de facturación, como mensual o anual. Como parte del uso de la suscripción, puede ver el nombre de nivel de servicio, comprometido, consumido, disponible y el uso de ráfaga actual y acumulado (en TiB).
 

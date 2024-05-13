@@ -135,7 +135,7 @@ Sistema de monitorización del Cliente
  a| 
 HTTPS
  a| 
-TCP 777
+TCP 7777
  a| 
 Funcionalidad opcional
  a| 
