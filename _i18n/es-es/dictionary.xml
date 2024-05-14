@@ -1307,7 +1307,6 @@ Como parte de la puesta en marcha del servicio Keystone, NetApp supervisa y mide
   <block id="c58866f1ef5f53d12f483be3139c8b21" category="paragraph">Los datos devueltos en las pestañas de la pantalla *Suscripciones Keystone* del Asesor Digital Active IQ se muestran en la hora UTC (zona horaria del servidor). Al introducir una fecha para la consulta, se considera automáticamente que está en la hora UTC. Para obtener más información, consulte <block ref="fd9d2abed6b27ddb199966f81ac84d0e" category="inline-link-macro-rx"></block>.</block>
   <block id="ba72cb24d1620c10dda9d29d238cd62f" category="summary">Problemas solucionados en diferentes versiones de STaaS de Keystone</block>
   <block id="69464e68a5cdd0b54694ac92276fa1a3" category="doc">Problemas solucionados</block>
-  <block id="3e6913b831218e5028d3a4532f801a65" category="cell">Descripción del problema</block>
   <block id="ad7fffc52967fac2195a87d71ddfefed" category="cell">Después de la corrección</block>
   <block id="daacdb57878cbe5d9fa64d7c020a2e9d" category="cell">Corregido en versión</block>
   <block id="ab8fe64a75f26e766fbdddeb24ad2b52" category="paragraph">El indicador de uso de un registro de consumo de ráfaga se mostraba en ámbar.</block>
@@ -1501,7 +1500,6 @@ La huella digital correcta tiene este aspecto:<block ref="821b59fa560f6b692841b4
   <block id="f9fb20285d9c1550cfd8af36cedeebff" category="list-text">Consumo y datos de uso de ráfaga acumulados de la pestaña *Capacity Trend*,</block>
   <block id="2edc64c57ca29e2f950fd753874bafbc" category="list-text">Métricas de rendimiento de los volúmenes de ONTAP desde la pestaña *Rendimiento*,</block>
   <block id="7a7b2bda8aa958fd2f922e2acb85ca1e" category="paragraph">todos los cuales muestran los datos basados en la fecha seleccionada de la suscripción.</block>
-  <block id="f37be92ace88534a02480f8f04d48882" category="paragraph">No se identifican problemas conocidos.</block>
   <block id="5f2b8b9897b51974b3e829ddd4511e8e" category="paragraph">Como alternativa, ejecute estos comandos para actualizar la versión:</block>
   <block id="014327995266184e82832bad8c943216" category="paragraph">Para CentOS:</block>
   <block id="21a26c88c032eccbe4aba03b7481511e" category="paragraph">Para Debian:</block>
@@ -1568,4 +1566,11 @@ Los detalles de las suscripciones, los gráficos de uso de cada nivel de servici
   <block id="001d654c5d010b25a953ace0dce0f14d" category="list-text">Modifique el contenido del log.</block>
   <block id="a35e5b3497716ca18010e0be265afb3b" category="list-text">Ejecute este comando para modificar el contenido del registro diario:</block>
   <block id="9060a638913c522309cdbab6919eef2b" category="list-text">Ejecute este comando para modificar el contenido del log semanal:</block>
+  <block id="f7168a4acbbbaa603715b2a0aeb4cea5" category="paragraph">Los siguientes problemas conocidos se han notificado en STaaS de NetApp Keystone.</block>
+  <block id="e83464ce8bd634efb1f099c956ec64a8" category="cell">Problema conocido</block>
+  <block id="b5a7adde1af5c87d7fd797b6245c2a39" category="cell">Descripción</block>
+  <block id="7aebfa1e2291377e040de92d7f7f335f" category="cell">Solución alternativa</block>
+  <block id="05890055e47d7356b21b212f915e3d3b" category="paragraph">Visualización incorrecta de los datos de Keystone en informes CSV.</block>
+  <block id="cf57a91fb76a6fe323d7bc94294753a2" category="paragraph">Si la columna *Nombre de cuenta* en los informes CSV, generada desde la pestaña *Tendencia de capacidad*, incluye un nombre de cuenta con una coma<block ref="e1266d71c305ae3767d9d953acaf0aae" prefix=" " category="inline-code"></block>, Los datos de Keystone aparecen mal ubicados en los informes CSV.</block>
+  <block id="7186d4f0f71f9b706a05940b8abcacd0" category="cell">Descripción del problema</block>
 </blocks>
