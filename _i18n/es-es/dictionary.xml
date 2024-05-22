@@ -647,12 +647,7 @@
   <block id="e1963f69cecc9ae42f0776dbde80b970" category="sidebar">Puesta en marcha de VMware vSphere</block>
   <block id="1f331fee3a3f66a9a0cc8b4298329656" category="sidebar">Instalación de Linux</block>
   <block id="5f263121a32bf1557841d7fe819ad1e8" category="sidebar">Validación automática de integridad</block>
-  <block id="4c9a4fbc49b946c974f43f9b95467093" category="sidebar">Más información sobre Keystone</block>
-  <block id="7c4f193978ce4b287894738f7157bab0" category="sidebar">Capacidad de almacenamiento admitida</block>
   <block id="a84d47a9c10091a234dee7fdfbd4ae68" category="sidebar">Métricas y definiciones</block>
-  <block id="4e4be6640d3e6688fbc771ec3b218a39" category="sidebar">Almacenamiento compatible en Keystone</block>
-  <block id="8c2dbe4be9f9daf82f71c41e1cd8f1e1" category="sidebar">Servicios complementarios</block>
-  <block id="5acf3eaacab2f897759e5e1e27667847" category="sidebar">Más información acerca de los niveles de servicio</block>
   <block id="8bc14f0cb78851f59e85c1d447c2c99f" category="sidebar">Calidad de servicio</block>
   <block id="780c462e85ba4399a5d42e88f69a15ca" category="sidebar">Facturación</block>
   <block id="c8c7fb7e022f78b915af0ad7300b7824" category="sidebar">Entornos operados por partners y clientes</block>
@@ -1319,7 +1314,6 @@ Como parte de la puesta en marcha del servicio Keystone, NetApp supervisa y mide
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">Notas de la versión</block>
   <block id="685a2d4e29e36911ce3e10342f33cd34" category="sidebar">Novedades en STaaS de Keystone</block>
   <block id="95dc0391ce7b396d7dd5622284e8fc3e" category="sidebar">Problemas conocidos</block>
-  <block id="6a0617231ec31c63e7ed4938f21803d2" category="sidebar">Consulta de detalles de consumo y generación de informes</block>
   <block id="762ebffa1ca7f322e0038aec263c4c5e" category="sidebar">Gestiona las suscripciones de Keystone desde BlueXP</block>
   <block id="3269606fef80bba2d9e8f69108e0e4a6" category="sidebar">Vea su uso en el asesor digital</block>
   <block id="3149c3d9b5fcd4691d16b1b31ce2a5ed" category="sidebar">Genera informes de tu consumo</block>
@@ -1348,14 +1342,6 @@ La huella digital correcta tiene este aspecto:<block ref="821b59fa560f6b692841b4
   <block id="7141573db29c2af45d0b9d0159276c43" category="list-text"><block ref="7141573db29c2af45d0b9d0159276c43" category="inline-link-macro-rx"></block></block>
   <block id="d7e5ccf918d68bf60a6b52690444d5ea" category="list-text"><block ref="d7e5ccf918d68bf60a6b52690444d5ea" category="inline-link-macro-rx"></block></block>
   <block id="df7d31258a77cf6838aec404025cc8f0" category="list-text"><block ref="df7d31258a77cf6838aec404025cc8f0" category="inline-link-macro-rx"></block></block>
-  <block id="cb16f0d61d1b95d7ed2e3ddca87174cb" category="summary">Servicios complementarios en keystone</block>
-  <block id="a9d18fd494dd09ac109d0f41dd8200d6" category="paragraph">STaaS de Keystone ofrece la host de servicios complementarios. Puede obtener información sobre estos servicios en los siguientes enlaces. Puede hablar con su KSM para evaluarlos y aprovecharlos.</block>
-  <block id="a37b84ef7962958683b36fdd11870efe" category="list-text"><block ref="a37b84ef7962958683b36fdd11870efe" category="inline-link-macro-rx"></block></block>
-  <block id="a91680a6ffe7d115054b2a3a29590c88" category="list-text"><block ref="a91680a6ffe7d115054b2a3a29590c88" category="inline-link-macro-rx"></block></block>
-  <block id="507239d4f0e74cca132c8dcec4572685" category="inline-link-macro">EE. UU Apoyo al ciudadano</block>
-  <block id="bf1e0d5283510e73c95e48c522f105ac" category="list-text"><block ref="bf1e0d5283510e73c95e48c522f105ac" category="inline-link-macro-rx"></block></block>
-  <block id="15d6b82ce2a881c6c9b4c3896e1f4714" category="list-text"><block ref="15d6b82ce2a881c6c9b4c3896e1f4714" category="inline-link-macro-rx"></block></block>
-  <block id="caa6137168275fe348c2a04ff68b05bf" category="list-text"><block ref="caa6137168275fe348c2a04ff68b05bf" category="inline-link-macro-rx"></block></block>
   <block id="a2e2f97253342349ff9ef2b936b778d0" category="list-text"><block ref="a2e2f97253342349ff9ef2b936b778d0" category="inline-link-macro-rx"></block></block>
   <block id="9a951c3d80a9377bd47aaa657c36398a" category="list-text"><block ref="9a951c3d80a9377bd47aaa657c36398a" category="inline-link-macro-rx"></block></block>
   <block id="01d1ce60b1a3aef68f02db880ec50307" category="list-text"><block ref="01d1ce60b1a3aef68f02db880ec50307" category="inline-link-macro-rx"></block></block>
@@ -1372,7 +1358,6 @@ La huella digital correcta tiene este aspecto:<block ref="821b59fa560f6b692841b4
   <block id="038fa77b2d09a08187d251d11af66fec" category="section-title">Detalles de consumo devengado para planes de tarifas específicos</block>
   <block id="e8eb002764288209a5c4ba14af40e3c1" category="paragraph">Si tiene una suscripción que tiene planes de tarifas con capacidad comprometida _cero_, puede ver los detalles del consumo acumulado en la pestaña *Tendencia de capacidad*. Al seleccionar la opción *Consumo devengado facturado*, puede ver los gráficos mensuales de los datos de consumo devengado facturado.</block>
   <block id="c172354fb8ea09208116200c906a06f7" category="paragraph">La compatibilidad con las listas de comprobaciones del asesor digital de Active IQ (también conocido como asesor digital) se ha ampliado para incluir sistemas Keystone. Ahora puede ver los detalles de las suscripciones para varios clientes mediante la búsqueda con listas de comprobaciones. Para obtener más información sobre el uso de las listas de comprobaciones en STaaS de Keystone, consulte <block ref="b7d20955ed629544dc331da927df4d8e" category="inline-link-macro-rx"></block>.</block>
-  <block id="b35f87e6c022106392162120d7124d39" category="sidebar">Consulta la consola de Keystone y gestiona las suscripciones</block>
   <block id="58b8c716856200f705d08eebb54e18f2" category="paragraph">Para obtener información acerca de cómo ver el consumo en una configuración de MetroCluster, consulte <block ref="dce2e2b996a813464c91ed5f90c2ee95" category="inline-link-macro-rx"></block>.</block>
   <block id="c85fec4626e8f76d3daa40fe4d78d085" category="paragraph">Se requiere una máquina virtual de almacenamiento (VM de almacenamiento) para poner en marcha el recopilador Keystone y la puerta de enlace de la solución AIOPs. Los requisitos previos para instalar Keystone Collector están disponibles aquí: <block ref="90d7b7caf953f72ddc1c63cc7891ca46" category="inline-link-macro-rx"></block>. Los otros requisitos se comparten durante la puesta en marcha.</block>
   <block id="694ddc221b1ba079b86890f70c44cb11" category="section-title">Nuevas funciones y mejoras para el 13 de febrero de 2024</block>
@@ -1407,7 +1392,6 @@ La huella digital correcta tiene este aspecto:<block ref="821b59fa560f6b692841b4
   <block id="e25aef7d73f188d691460fe7a81c1615" category="list-text">Haz clic en *GENERAL &gt; Suscripciones Keystone &gt; Rendimiento*.</block>
   <block id="b38469a0957abb9fcc179f471234aeb1" category="paragraph">Los siguientes enlaces proporcionan más información sobre cada una de estas pestañas:</block>
   <block id="0b580e09545eed5c13b43b700d66ec91" category="sidebar">NetApp Keystone es un servicio basado en suscripciones de pago por crecimiento flexible que ofrece una experiencia de cloud híbrido fluida para clientes que prefieren los gastos operativos a los gastos de capital o el arrendamiento. Permite acelerar la rentabilidad de la inversión al eliminar la carga TECNOLÓGICA en los recursos de gestión y pasar por ciclos de adquisición largos. Consulte los documentos de esta biblioteca para saber más sobre la oferta de STaaS de NetApp Keystone en su entorno ONTAP o StorageGRID.</block>
-  <block id="02444803498fb5ed3737e66f538618bf" category="sidebar">Consola de Keystone y el asesor digital</block>
   <block id="1c0f41481171759a2f8494a860a70f33" category="summary">Problemas conocidos en STaaS de Keystone</block>
   <block id="e3cdc936dac2c0ff066e39a4166c9208" category="doc">Problemas conocidos en STaaS de Keystone</block>
   <block id="b7539220d8497299938ec75ae391ea23" category="paragraph">Los problemas conocidos identifican problemas que pueden impedirle usar de forma efectiva los servicios de suscripción de Keystone.</block>
@@ -1457,7 +1441,6 @@ La huella digital correcta tiene este aspecto:<block ref="821b59fa560f6b692841b4
   <block id="2e39d86c2e5278dfaca0be9560d7f655" category="paragraph">Para ver esta pestaña, en el panel de navegación de la izquierda, vaya a *GENERAL &gt; Suscripciones de Keystone &gt; Suscripciones*. Se enumeran todas sus suscripciones.</block>
   <block id="97825813aecf3fd0b76fd5af1d609182" category="inline-image-macro">icono de hamburguesa</block>
   <block id="25dd6edff020c29e0a2583baf58ad0c8" category="paragraph">Puede filtrar la selección haciendo clic en el icono de la hamburguesa <block ref="c4c64623305772cdd7984286a7bda51b" category="inline-image-macro-rx" type="image"></block> Para una columna, o ver todas las suscripciones haciendo clic en el botón *Borrar filtros*. Para determinados campos y columnas, puede ver información o iconos de advertencia y sugerencias de herramientas que le proporcionan información adicional sobre los datos.</block>
-  <block id="34df0a0c90fe719bb1d752f41652791b" category="paragraph">Puedes buscar una suscripción a Keystone introduciendo los tres primeros caracteres de un nombre de cliente o lista de seguimiento, o el número de suscripción a Keystone. Para obtener información sobre cómo buscar suscripciones STaaS de Keystone por listas de seguimiento, consulte <block ref="4cde7d0fd0a0facd634a3b8f00ac9a8e" category="inline-link-macro-rx"></block>.</block>
   <block id="8eed6aaca290f3e94450ad74ee4ec058" category="paragraph">Puede ver el nombre del cliente y el número de suscripción, el nombre de la cuenta, las fechas de inicio y finalización de la suscripción y los gráficos de uso de capacidad según los niveles de servicio suscritos. Puede ver la marca de tiempo de recopilación de los datos de consumo en la hora UTC.</block>
   <block id="a9eee5d90e9374cafc7e77151fd75489" category="list-text">*Uso de la capacidad*: Datos de consumo tales como:</block>
   <block id="bdca3ca2afa1706094d192b0cd927373" category="list-text">*Alertas*: Usted ve alertas para varios escenarios si son aplicables a usted.</block>
@@ -1573,4 +1556,36 @@ Los detalles de las suscripciones, los gráficos de uso de cada nivel de servici
   <block id="05890055e47d7356b21b212f915e3d3b" category="paragraph">Visualización incorrecta de los datos de Keystone en informes CSV.</block>
   <block id="cf57a91fb76a6fe323d7bc94294753a2" category="paragraph">Si la columna *Nombre de cuenta* en los informes CSV, generada desde la pestaña *Tendencia de capacidad*, incluye un nombre de cuenta con una coma<block ref="e1266d71c305ae3767d9d953acaf0aae" prefix=" " category="inline-code"></block>, Los datos de Keystone aparecen mal ubicados en los informes CSV.</block>
   <block id="7186d4f0f71f9b706a05940b8abcacd0" category="cell">Descripción del problema</block>
+  <block id="0242b80cbb6d235dc499fd8128673a7e" category="paragraph">Puedes buscar una suscripción a Keystone introduciendo los tres primeros caracteres de un nombre de cliente o lista de seguimiento, o el número de suscripción a Keystone. Para obtener información sobre cómo buscar suscripciones STaaS de Keystone por listas de seguimiento, consulte <block ref="2fe9d6682f1bd534173abd0da0d980f6" category="inline-link-macro-rx"></block>.</block>
+  <block id="c8cfdcd3f2e7ef01cbd8180e33c9bf8d" category="summary">Keystone Collector incluye funciones de seguridad que supervisan las métricas de rendimiento y uso de los sistemas Keystone y está configurado para utilizar configuraciones reforzadas de seguridad.</block>
+  <block id="e2fec427072f2bbc5fdc0cebd43b2b99" category="doc">Seguridad de Keystone Collector</block>
+  <block id="15cfadbe8065734e9eb4ea47ca07ab83" category="paragraph">Keystone Collector incluye funciones de seguridad que supervisan las métricas de rendimiento y uso de los sistemas Keystone, sin poner en riesgo la seguridad de los datos de los clientes.</block>
+  <block id="68e9a2406a2232b94872e64f773ac3c5" category="paragraph">El funcionamiento de Keystone Collector se basa en los siguientes principios de seguridad:</block>
+  <block id="f956bccb154816364b44be52379e1626" category="inline-link-macro">Eliminar datos privados</block>
+  <block id="2616e5d3895322dd3346f34a17c9a1d8" category="list-text">*Privacidad*-Keystone Collector recopila una cantidad limitada de datos para realizar la medición del uso y la supervisión del rendimiento. Para obtener más información, consulte <block ref="8a76728d85eff5a7f710d8dd59e08576" category="inline-link-macro-rx"></block>. La <block ref="de6739393ca0d7e8d335fd50ddf9fd92" category="inline-link-macro-rx"></block> la opción está activada de forma predeterminada, que enmascara y protege la información confidencial.</block>
+  <block id="741e4b49f766c75061a9ccff5ec138c6" category="list-text">*Access*-Keystone Collector requiere permisos mínimos para monitorear los sistemas de almacenamiento, lo que minimiza los riesgos de seguridad y evita cualquier modificación involuntaria de los datos. Este enfoque se alinea con el principio de privilegio mínimo, mejorando la postura de seguridad general de los entornos supervisados.</block>
+  <block id="5db4b8ea4012f0bb3589acb4c751d5a7" category="list-text">*Framework*- Keystone utiliza un marco de desarrollo de software seguro a lo largo del ciclo de desarrollo, que mitiga los riesgos, reduce las vulnerabilidades y protege el sistema contra posibles amenazas.</block>
+  <block id="addb25ae677e0b8a55734ab57c09d585" category="section-title">Seguridad reforzada</block>
+  <block id="74be99a15297c53a45ed7f7c29f68de5" category="paragraph">De forma predeterminada, Keystone Collector está configurado para usar configuraciones reforzadas de seguridad. A continuación, se muestran las configuraciones de seguridad recomendadas:</block>
+  <block id="200252c3ea347de4cac0f3c372a7da7f" category="list-text">El sistema operativo de la máquina virtual Keystone Collector:</block>
+  <block id="bd0255a6a16effaf5439f1c91c74ef41" category="inline-link-macro">Guía de referencia de CIS</block>
+  <block id="651dcf96e1a04268c1afac19dadbb813" category="list-text">Cumple con el estándar CIS Debian Linux 12 Benchmark. Realizar cualquier cambio en la configuración del sistema operativo fuera del software de administración de Keystone Collector puede reducir la seguridad del sistema. Para obtener más información, consulte <block ref="d167b32fa1f045a53a10171f183d8f49" category="inline-link-macro-rx"></block>.</block>
+  <block id="da745fe6c680201ce89eaa9b5117edac" category="list-text">Recibe e instala automáticamente parches de seguridad verificados por Keystone Collector a través de la función de actualización automática. La desactivación de esta función puede provocar vulnerabilidades de software.</block>
+  <block id="67427492d47dd85b25ea09183d2f56fc" category="list-text">Autentica las actualizaciones recibidas de Keystone Collector. La desactivación de la verificación del repositorio de APT puede provocar la instalación automática de parches no autorizados, lo que podría introducir vulnerabilidades.</block>
+  <block id="f4d2c82d15d6fc8d9cf411e5062de691" category="list-text">Keystone Collector valida automáticamente los certificados HTTPS para garantizar la seguridad de la conexión. Si desactiva esta función, se podría suplantar puntos finales externos y se podría producir una fuga de datos de uso.</block>
+  <block id="6f97d409f18fbb10e56aad800fa8f000" category="inline-link-macro">CA de confianza personalizada</block>
+  <block id="495ae3f7931870e35eab3d7f70b370f6" category="inline-link-macro">Programa Mozilla CA Certificate</block>
+  <block id="85717ece6d99586ad31e2263c45f0f95" category="list-text">Keystone Collector admite <block ref="ae59e8e314bb3ce8c2aaccbf9f26c489" category="inline-link-macro-rx"></block> certificación. De forma predeterminada, confía en los certificados firmados por las CA raíz públicas reconocidas por el <block ref="bc7ae49cd96ed7595a0f92e1fe9ad9a2" category="inline-link-macro-rx"></block>. Al habilitar CA de confianza adicionales, Keystone Collector habilita la validación de certificados HTTPS para las conexiones a los puntos finales que presentan estos certificados.</block>
+  <block id="c6be8447da6831aee9f8aeca8c0a8651" category="list-text">Keystone Collector habilita la opción *Eliminar datos privados* de forma predeterminada, que enmascara y protege la información sensible. Para obtener más información, consulte <block ref="44bfa5963b761ae9d090eb3ec0204b9f" category="inline-link-macro-rx"></block>. Al deshabilitar esta opción, se comunican datos adicionales al sistema Keystone. Por ejemplo, puede incluir información introducida por el usuario, como los nombres de volúmenes que pueden considerarse información confidencial.</block>
+  <block id="115ceb474aac932219b8265f50f7455a" category="list-text"><block ref="115ceb474aac932219b8265f50f7455a" category="inline-link-macro-rx"></block></block>
+  <block id="005befdfb2d6724e6f5d61b4c885115b" category="list-text"><block ref="005befdfb2d6724e6f5d61b4c885115b" category="inline-link-macro-rx"></block></block>
+  <block id="14e6b60cfb93c92598e40786e00457b6" category="list-text"><block ref="14e6b60cfb93c92598e40786e00457b6" category="inline-link-macro-rx"></block></block>
+  <block id="c611d30bb877e2a53d2f8ee6c00ceb78" category="sidebar">Consulta el panel de Keystone</block>
+  <block id="ba0b19b07df7a68a7c3cf9b1725f68c5" category="sidebar">Consulta de detalles de uso y generación de informes</block>
+  <block id="bff50f1947dbec1e11bc66d60ca0b1d9" category="sidebar">Almacenamiento admitido</block>
+  <block id="7618f9f854f7d4bc7c7026ffaab24dae" category="sidebar">Capacidad admitida</block>
+  <block id="c6f45ce2284ef7f44c38a58ebbd013e0" category="sidebar">Niveles de servicio</block>
+  <block id="0ef9feb54d3856bdf6e5a2f5a9007f98" category="sidebar">Capacidad admitida para niveles de servicio</block>
+  <block id="ab556116f6e3e88a66d6fb6d623318fa" category="sidebar">Servicios complementarios</block>
+  <block id="2bd211076b668ce560dbd1fb33cce8cb" category="sidebar">Servicios con tecnología Equinix</block>
 </blocks>

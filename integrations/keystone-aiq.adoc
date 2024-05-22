@@ -16,7 +16,7 @@ summary: Keystone y asesor digital
 [role="lead"]
 Si te has suscrito a los servicios STaaS de NetApp Keystone, obtienes una descripción general de tus suscripciones en el widget *Suscripciones Keystone* del panel del asesor digital de Active IQ (también conocido como asesor digital).
 
-Puedes buscar una suscripción a Keystone introduciendo los tres primeros caracteres de un nombre de cliente o lista de seguimiento, o el número de suscripción a Keystone. Para obtener información sobre cómo buscar suscripciones STaaS de Keystone por listas de seguimiento, consulte link:../integrations/keystone-aiq.html#search-by-using-keystone-watchlists["Busca mediante listas de comprobaciones de Keystone"].
+Puedes buscar una suscripción a Keystone introduciendo los tres primeros caracteres de un nombre de cliente o lista de seguimiento, o el número de suscripción a Keystone. Para obtener información sobre cómo buscar suscripciones STaaS de Keystone por listas de seguimiento, consulte link:../integrations/keystone-aiq.html#search-by-keystone-watchlists["Busca mediante listas de comprobaciones de Keystone"].
 
 Digital Advisor ofrece un panel de control unificado que proporciona información sobre varios niveles de los datos de suscripción y la información de uso a través del botón * Cambiar a un panel de control antiguo / nuevo *.
 
