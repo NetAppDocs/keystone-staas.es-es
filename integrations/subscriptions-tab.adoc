@@ -18,7 +18,7 @@ Puedes ver una lista de todas tus suscripciones en la pestaña *Suscripciones*.
 
 Para ver esta pestaña, en el panel de navegación de la izquierda, vaya a *GENERAL > Suscripciones de Keystone > Suscripciones*. Se enumeran todas sus suscripciones.
 
-image:all-subs.png["Imagen del separador Suscripciones"]
+image:all-subs-2.png["Imagen del separador Suscripciones"]
 
 Puede filtrar la selección haciendo clic en el icono de la hamburguesa image:icon-hamburger.png["icono de hamburguesa"] Para una columna, o ver todas las suscripciones haciendo clic en el botón *Borrar filtros*. Para determinados campos y columnas, puede ver información o iconos de advertencia y sugerencias de herramientas que le proporcionan información adicional sobre los datos.
 
@@ -39,7 +39,7 @@ TIP: Si se ha suscrito al servicio complementario de protección de datos avanza
 
 Puede consultar los siguientes indicadores de uso para comprobar el estado de uso de cada suscripción:
 
-image:usage-indicator.png["."]
+image:usage-indicator-1.png["."]
 
 .Índice
 image:icon-grey.png["icono de punto gris"]: No se ha registrado ningún uso de la capacidad con respecto a la capacidad comprometida del nivel de servicioimage:icon-green.png["icono de punto verde"]: El consumo es normal, dentro del 80% de la capacidad comprometidaimage:icon-amber.png["icono de punto ámbar"]: Consumo máximo, es decir, el uso está a punto de alcanzar el 100% o más de la capacidad comprometida. La columna *consumido* muestra este indicador para cualquier consumo superior al 80% de la capacidad comprometidaimage:icon-red.png["icono de punto rojo"]: El consumo está dentro del límite de ráfaga. El consumo en ráfaga es el consumo que supera el 100% de capacidad comprometida de un nivel de servicio, y se encuentra dentro del límite de uso acordado en ráfaga, como el 120%image:icon-purple.png["icono de punto morado"]: Indica un consumo superior al límite de ráfaga estipulado

@@ -23,7 +23,7 @@ Digital Advisor ofrece un panel de control unificado que proporciona informació
 .Consola predeterminada (antigua)
 Puede ver el nombre del cliente y el número de suscripción, el nombre de la cuenta, las fechas de inicio y finalización de la suscripción y los gráficos de uso de capacidad según los niveles de servicio suscritos. Puede ver la marca de tiempo de recopilación de los datos de consumo en la hora UTC.
 
-image:old-db.png["consola antigua"]
+image:old-db-1.png["consola antigua"]
 
 .Panel de control alternativo (nuevo)
 Puede ver el desglose del uso de la capacidad en función de sus suscripciones, y advertencias y alertas que requieren atención o acción inmediatas. La información aparece selectivamente, dependiendo de sus suscripciones y el estado de su uso. Puede ver esta información:

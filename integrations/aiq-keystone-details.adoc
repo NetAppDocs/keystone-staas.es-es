@@ -67,7 +67,7 @@ La consola ofrece notificaciones de alerta que le permiten comprender los proble
 
 NOTE: Si se ha suscrito a un único nivel de servicio o plan de tarifas, no podrá ver la alerta de los volúmenes que no cumplen las normativas.
 
-image:alert-aiq-1.png["alerta"]
+image:alert-aiq-2.png["alerta"]
 
 Para obtener información acerca de las políticas AQoS, consulte link:../concepts/qos.html["Calidad de servicio adaptativa"].
 

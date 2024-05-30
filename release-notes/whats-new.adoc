@@ -16,11 +16,49 @@ summary: Nuevas funciones y mejoras de STaaS de Keystone.
 [role="lead"]
 NetApp ofrece funciones nuevas y mejoradas en cada lanzamiento de los servicios de STaaS de Keystone.
 
+Las siguientes mejoras se introducen en la pantalla *Suscripciones Keystone* del asesor digital Active IQ (también conocido como asesor digital):
 
 
-== Nuevas funciones y mejoras para el 09 de mayo de 2024
 
-La siguiente mejora se realiza en la pantalla *Suscripciones Keystone* del asesor digital Active IQ (también conocido como asesor digital):
+== 29 de mayo de 2024
+
+
+
+=== Indicador de ráfaga mejorado
+
+El indicador *Burst* en el índice del gráfico de uso se mejora para mostrar el valor porcentual del límite de ráfaga. Este valor cambia en función del límite de ráfaga acordado para una suscripción. También puede ver el valor del límite de ráfaga en la pestaña *Suscripciones* pasando el cursor sobre el indicador *Uso de ráfaga* en la columna *Estado de uso*.
+
+
+
+=== Adición de niveles de servicio
+
+Los niveles de servicio *CVO Primario* y *CVO Secundario* se incluyen para admitir Cloud Volumes ONTAP para suscripciones que tengan planes de tarifas con capacidad comprometida cero o configurados con un clúster metropolitano.
+
+* Puede ver el gráfico de uso de capacidad para estos niveles de servicio desde el panel antiguo del widget *Suscripciones Keystone* y la pestaña *Tendencia de capacidad*, así como información detallada de uso en la pestaña *Uso actual*.
+* En la pestaña *Suscripción*, estos niveles de servicio se muestran como `CVO (v2)` En la columna *Tipo de uso*, permitiendo la identificación de facturación según estos niveles de servicio.
+
+
+
+
+=== Función de zoom para obtener información en microráfaga
+
+La pestaña *Capacity Trend* ahora incluye una función de zoom-in para ver los detalles de las subidas a corto plazo, conocidas como microexplosiones, en los gráficos de uso. Para obtener más información, consulte link:../integrations/capacity-trend-tab.html["Pestaña Capacity Trend"^].
+
+
+
+=== Visualización mejorada de suscripciones
+
+La visualización predeterminada de las suscripciones se mejora para ordenarlas por ID de seguimiento. Las suscripciones en la pestaña *Suscripciones*, incluidas las listas desplegables *Suscripciones* y los informes CSV, ahora se mostrarán en función de la secuencia alfabética de las identificaciones de seguimiento, siguiendo el orden de a, A, b, B, etc.
+
+
+
+=== Visualización de ráfaga acumulada mejorada
+
+La información sobre herramientas que aparece al pasar el ratón sobre el gráfico de barras de uso de capacidad en la pestaña *Tendencia de capacidad* ahora muestra el tipo de ráfaga acumulada en función de la capacidad comprometida. Se diferencia entre la ráfaga devengada provisional y la facturada, mostrando *Consumo devengado provisional* y *Consumo devengado facturado* para suscripciones con planes de tasa de capacidad comprometida cero, y *Ráfaga devengada provisional* y *Ráfaga devengada facturada* para aquellos con capacidad comprometida distinta de cero.
+
+
+
+== 09 de mayo de 2024
 
 
 
@@ -42,9 +80,7 @@ La pestaña *Detalles de volumen* de la pestaña *Volúmenes y objetos* ahora pr
 
 
 
-== Nuevas funciones y mejoras para el 28 de marzo de 2024
-
-La siguiente mejora se ha realizado en la pantalla *Suscripciones Keystone* del asesor digital Active IQ:
+== 28 de marzo de 2024
 
 
 
@@ -110,9 +146,7 @@ Puede ver la marca de tiempo de los datos de consumo (en UTC) en el panel antigu
 
 
 
-== Nuevas funciones y mejoras para el 13 de febrero de 2024
-
-La siguiente mejora se ha realizado en la pantalla *Suscripciones Keystone* del Asesor Digital Active IQ (también conocido como Asesor Digital).
+== 13 de febrero de 2024
 
 
 
@@ -122,11 +156,7 @@ Algunas de sus suscripciones principales pueden tener suscripciones secundarias 
 
 
 
-== Nuevas funciones y mejoras para el 11 de enero de 2024
-
-Descubra las novedades de esta versión.
-
-Las siguientes mejoras se han realizado en la pantalla *Suscripciones Keystone* del asesor digital Active IQ (también conocido como asesor digital).
+== 11 de enero de 2024
 
 
 
@@ -142,9 +172,7 @@ Si tiene una suscripción que tiene planes de tarifas con capacidad comprometida
 
 
 
-== Nuevas funciones y mejoras para el 15 de diciembre de 2023
-
-Descubra las novedades de esta versión.
+== 15 de diciembre de 2023
 
 
 

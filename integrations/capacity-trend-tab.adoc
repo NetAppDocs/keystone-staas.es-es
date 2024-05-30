@@ -41,7 +41,9 @@ TIP: Para obtener un rendimiento óptimo y una experiencia de usuario, limite el
 
 Los gráficos de barras muestran el nombre del nivel de servicio y la capacidad consumida respecto a ese nivel de servicio para el rango de fechas. La fecha y la hora de la colección se muestran en la parte inferior del gráfico. Según el rango de fechas de la consulta, los gráficos de uso se muestran en un rango de 30 puntos de recopilación de datos. Puede pasar el cursor del ratón sobre los gráficos para ver el desglose del uso en términos de datos comprometidos, consumidos, ráfagas y por encima de los datos del límite de ráfaga en ese punto de recopilación de datos.
 
-image:aiq-ks-subtime-3.png["Pestaña Tendencia de capacidad con detalles"]
+Puede ver aumentos a corto plazo en los gráficos de uso, conocidos como microráfagas, mediante la función de zoom-in. Cuando una microráfaga está presente, se indica mediante un punto azul en la barra correspondiente o directamente en el eje x si no se consumen datos. Para ver los detalles, haga clic y mantenga pulsado en la barra o en el eje X donde aparece el punto azul, luego arrastre el cursor por el gráfico para seleccionar el intervalo de tiempo deseado y suéltelo para confirmar su selección. Esta acción amplía los datos y proporciona una vista detallada de la capacidad utilizada en ese nivel de servicio para el intervalo seleccionado. Puede ampliar más para ver los detalles hasta un intervalo de 2 minutos. Puede hacer clic en el botón *Restablecer zoom* para volver a la vista de carta original.
+
+image:aiq-ks-subtime-4.png["Pestaña Tendencia de capacidad con detalles"]
 
 Los siguientes colores en los gráficos de barras indican la capacidad consumida tal y como se define en el nivel de servicio. Los datos mensuales a través de los gráficos están separados por una línea vertical.
 
