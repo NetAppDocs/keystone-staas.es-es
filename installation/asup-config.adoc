@@ -31,7 +31,7 @@ Debe tener en cuenta lo siguiente antes de configurar AutoSupport para que inclu
 +
 [source]
 ----
-autosupport trigger modify -node * -autosupport-message management.log -basic-additional wafl,nfs,performance,snapshot,platform,object_store_server,san,raid,snapmirror -troubleshooting-additional wafl
+autosupport trigger modify -node * -autosupport-message management.log -basic-additional wafl,performance,snapshot,platform,object_store_server,san,raid,snapmirror -troubleshooting-additional wafl
 ----
 ** Ejecute este comando para modificar el contenido del log semanal:
 +

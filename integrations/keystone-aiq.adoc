@@ -4,7 +4,7 @@ permalink: integrations/keystone-aiq.html
 keywords: Keystone, Digital Advisor, keystone-aiq, aiq 
 summary: Keystone y asesor digital 
 ---
-= Consulta el panel de Keystone en el asesor digital de Active IQ
+= Mira el panel de Keystone en el asesor digital
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -58,7 +58,7 @@ Para obtener más información sobre la consola y la generación de informes de 
 
 == Busca por listas de comprobaciones de Keystone
 
-Watchlist es una función del asesor digital de Active IQ (asesor digital). Para obtener más información, consulte https://docs.netapp.com/us-en/active-iq/concept_overview_dashboard.html["Entender la lista de observación"^]. Para obtener más información sobre la creación de listas de comprobaciones, consulte https://docs.netapp.com/us-en/active-iq/task_add_watchlist.html["Cree una lista de observación"^].
+Watchlist es una función del asesor digital. Para obtener más información, consulte https://docs.netapp.com/us-en/active-iq/concept_overview_dashboard.html["Entender la lista de observación"^]. Para obtener más información sobre la creación de listas de comprobaciones, consulte https://docs.netapp.com/us-en/active-iq/task_add_watchlist.html["Cree una lista de observación"^].
 
 Para STaaS de Keystone, puede crear listas de comprobaciones para clientes o números de suscripción. Puede buscar por el nombre de la lista de comprobaciones en la pantalla del asesor digital. Al buscar por una lista de seguimiento, puede ver los clientes y sus suscripciones en la lista desplegable *Suscripción* en el widget *Suscripciones Keystone*.
 

@@ -43,7 +43,7 @@ Los gráficos de barras muestran el nombre del nivel de servicio y la capacidad 
 
 Puede ver aumentos a corto plazo en los gráficos de uso, conocidos como microráfagas, mediante la función de zoom-in. Cuando una microráfaga está presente, se indica mediante un punto azul en la barra correspondiente o directamente en el eje x si no se consumen datos. Para ver los detalles, haga clic y mantenga pulsado en la barra o en el eje X donde aparece el punto azul, luego arrastre el cursor por el gráfico para seleccionar el intervalo de tiempo deseado y suéltelo para confirmar su selección. Esta acción amplía los datos y proporciona una vista detallada de la capacidad utilizada en ese nivel de servicio para el intervalo seleccionado. Puede ampliar más para ver los detalles hasta un intervalo de 2 minutos. Puede hacer clic en el botón *Restablecer zoom* para volver a la vista de carta original.
 
-image:aiq-ks-subtime-4.png["Pestaña Tendencia de capacidad con detalles"]
+image:aiq-ks-subtime-5.png["Pestaña Tendencia de capacidad con detalles"]
 
 Los siguientes colores en los gráficos de barras indican la capacidad consumida tal y como se define en el nivel de servicio. Los datos mensuales a través de los gráficos están separados por una línea vertical.
 
@@ -56,7 +56,7 @@ Los siguientes colores en los gráficos de barras indican la capacidad consumida
 
 NOTE: Un gráfico en blanco indica que no hay datos disponibles en el entorno en ese punto de recopilación de datos.
 
-Puede hacer clic en el botón de alternar *Mostrar uso actual* para ver los datos de consumo, uso de ráfaga y ráfaga de acumulación para el período de facturación actual. Estos detalles no se basan en el rango de fechas de la consulta.
+Puede hacer clic en el botón de alternar *Mostrar uso actual* para ver el consumo, el uso de ráfaga y los datos de ráfaga acumulados para el período de facturación actual. Estos detalles no se basan en el rango de fechas de la consulta.
 
 * *Corriente consumida*: Indicador de la capacidad consumida (en TIB) definido para el nivel de servicio. Este campo utiliza colores específicos:
 +
@@ -73,7 +73,7 @@ Puede hacer clic en el botón de alternar *Mostrar uso actual* para ver los dato
 ** Morado: Por encima del límite de ráfaga.
 
 
-* * Explosión devengada*: Indicador del uso de ráfaga devengado o la capacidad consumida calculada por mes para el período de facturación actual. El uso de ráfaga acumulado se calcula en función de la capacidad comprometida y consumida para un nivel de servicio: `(consumed - committed)/365.25/12`.
+* *Ráfaga acumulada*: Indicador para el uso acumulado de la ráfaga o la capacidad consumida calculada por mes para el período de facturación actual. El uso de ráfaga acumulado se calcula en función de la capacidad comprometida y consumida para un nivel de servicio: `(consumed - committed)/365.25/12`.
 
 
 

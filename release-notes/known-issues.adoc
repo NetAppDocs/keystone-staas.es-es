@@ -4,7 +4,7 @@ permalink: release-notes/known-issues.html
 keywords: netapp, keystone, release notes, known issues 
 summary: Problemas conocidos en STaaS de Keystone 
 ---
-= Problemas conocidos en STaaS de Keystone
+= Problemas conocidos
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -16,45 +16,4 @@ summary: Problemas conocidos en STaaS de Keystone
 [role="lead"]
 Los problemas conocidos identifican problemas que pueden impedirle usar de forma efectiva los servicios de suscripción de Keystone.
 
-Los siguientes problemas conocidos se han notificado en STaaS de NetApp Keystone.
-
-[cols="3*"]
-|===
-| Problema conocido | Descripción | Solución alternativa 
-
-
- a| 
-Visualización de datos ampliada para la selección de un solo día en la pestaña *Tendencias de capacidad*.
- a| 
-Cuando se selecciona la fecha correspondiente a Hoy como fecha de inicio y de finalización del mes anterior de la opción *Tendencia de capacidad* de la pestaña *Tendencias de capacidad*, los gráficos de uso muestran datos para un período que se extiende desde la fecha de inicio seleccionada hasta la fecha actual, en lugar de mostrar datos para el período de un solo día especificado.
- a| 
-Ninguno
-
-
-
- a| 
-Los datos de ráfaga acumulados históricos no están disponibles para los niveles de servicio.
- a| 
-Los datos de uso de ráfaga acumulados históricos para los niveles de servicio *CVO Primary* y *CVO Secondary* dentro de la pestaña *Capacity Trend* no están disponibles para las suscripciones que no están configuradas con una configuración MetroCluster.
- a| 
-Ninguno
-
-
-
- a| 
-Visualización incorrecta del valor consumido de almacenamiento de objetos para las suscripciones de AutoSupport.
- a| 
-Si la telemetría AutoSupport se utiliza para recopilar datos de Keystone, el valor consumido para el almacenamiento de objetos que aparece en la pestaña *Detalles de volumen* se muestra incorrectamente para las suscripciones con servicios de archivos, bloques y objetos.
- a| 
-Consulte el valor consumido para el almacenamiento de objetos mencionado en la pestaña *Uso actual* para obtener información correcta.
-
-
-
- a| 
-No se puede ver la información a nivel de cluster en la pestaña *Assets*.
- a| 
-Los detalles a nivel de clúster no están disponibles en la pestaña *Assets* para las suscripciones de AutoSupport que están configuradas con una configuración de MetroCluster.
- a| 
-Ninguno
-
-|===
+No hay problemas conocidos en este momento.

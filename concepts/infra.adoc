@@ -50,4 +50,4 @@ Además del equipo de almacenamiento, se aprovisionan dos herramientas de superv
 
 image:mgmt-stack.png["pila de management"]
 
-El asesor digital de Active IQ (también denominado asesor digital) te permite iniciar sesión y ver los detalles de suscripción y consumo de tus suscripciones de Keystone. Para obtener más información sobre los informes de Keystone en la consola de Digital Advisor, consulte link:../integrations/keystone-aiq.html["Keystone y asesor digital"].
+ Digital Advisor enables you to log in and view the subscription and consumption details for your Keystone subscriptions. For more information about Keystone reporting on the Digital Advisor dashboard, see link:../integrations/keystone-aiq.html[Keystone and Digital Advisor].

@@ -16,7 +16,7 @@ summary: Informes y gráficos de suscripción de Keystone
 [role="lead"]
 Utilice la pestaña *Activos* para recopilar perspectivas sobre su clúster y nodos gestionados por sus suscripciones de Keystone.
 
-El asesor digital de Active IQ proporciona información completa sobre tus puestas en marcha a nivel de inventario. La pestaña *Activos* del panel de control de Keystone, por otro lado, acumula la información a nivel de clúster en función de sus suscripciones, y segrega y presenta el nivel preciso de detalles.
+El asesor digital proporciona información completa de inventario de sus puestas en marcha. La pestaña *Activos* del panel de control de Keystone, por otro lado, acumula la información a nivel de clúster en función de sus suscripciones, y segrega y presenta el nivel preciso de detalles.
 
 .Pasos
 . Haz clic en *GENERAL > Suscripciones Keystone > Activos*.

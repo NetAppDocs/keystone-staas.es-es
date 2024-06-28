@@ -14,7 +14,7 @@ summary: Informes y gráficos de suscripción de Keystone
 
 
 [role="lead"]
-Utilizarás el panel del asesor digital de Active IQ (también conocido como asesor digital) para ver los detalles de tus suscripciones de Keystone, supervisar el uso de la capacidad y generar informes.
+Se utiliza la consola del asesor digital para ver los detalles de tus suscripciones de Keystone, para supervisar el uso de la capacidad y generar informes.
 
 Al suscribirse a los servicios de Keystone, puede ver los detalles de su suscripción y uso en el widget *Suscripciones de Keystone* del panel de control de Digital Advisor.
 

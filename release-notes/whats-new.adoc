@@ -20,6 +20,20 @@ Las siguientes mejoras se introducen en la pantalla *Suscripciones Keystone* del
 
 
 
+== 27 de junio de 2024
+
+
+
+=== Visualización consistente de la suscripción
+
+La pantalla *Suscripciones Keystone* se actualiza para mostrar el número de suscripción seleccionado en todas las pestañas.
+
+* Cuando se actualiza cualquier pestaña dentro de la pantalla *Suscripciones Keystone*, la pantalla navega automáticamente a la pestaña *Suscripciones* y restablece todas las pestañas a la primera suscripción que aparece en la lista desplegable *Suscripción*.
+* Si la suscripción seleccionada no está suscrita a métricas de rendimiento, la pestaña *Rendimiento* mostrará la primera suscripción que aparece en el menú desplegable *Suscripción* al navegar.
+
+
+
+
 == 29 de mayo de 2024
 
 
@@ -35,7 +49,7 @@ El indicador *Burst* en el índice del gráfico de uso se mejora para mostrar el
 Los niveles de servicio *CVO Primario* y *CVO Secundario* se incluyen para admitir Cloud Volumes ONTAP para suscripciones que tengan planes de tarifas con capacidad comprometida cero o configurados con un clúster metropolitano.
 
 * Puede ver el gráfico de uso de capacidad para estos niveles de servicio desde el panel antiguo del widget *Suscripciones Keystone* y la pestaña *Tendencia de capacidad*, así como información detallada de uso en la pestaña *Uso actual*.
-* En la pestaña *Suscripción*, estos niveles de servicio se muestran como `CVO (v2)` En la columna *Tipo de uso*, permitiendo la identificación de facturación según estos niveles de servicio.
+* En la pestaña *Suscripciones*, estos niveles de servicio se muestran como `CVO (v2)` En la columna *Tipo de uso*, permitiendo la identificación de facturación según estos niveles de servicio.
 
 
 
@@ -48,7 +62,7 @@ La pestaña *Capacity Trend* ahora incluye una función de zoom-in para ver los 
 
 === Visualización mejorada de suscripciones
 
-La visualización predeterminada de las suscripciones se mejora para ordenarlas por ID de seguimiento. Las suscripciones en la pestaña *Suscripciones*, incluidas las listas desplegables *Suscripciones* y los informes CSV, ahora se mostrarán en función de la secuencia alfabética de las identificaciones de seguimiento, siguiendo el orden de a, A, b, B, etc.
+La visualización predeterminada de las suscripciones se mejora para ordenarlas por ID de seguimiento. Las suscripciones en la pestaña *Suscripciones*, incluidas las listas desplegables *Suscripción* y los informes CSV, ahora se mostrarán en función de la secuencia alfabética de las identificaciones de seguimiento, siguiendo el orden de a, A, b, B, etc.
 
 
 
@@ -116,9 +130,7 @@ todos los cuales muestran los datos basados en la fecha seleccionada de la suscr
 
 
 
-== Nuevas funciones y mejoras para el 29 de febrero de 2024
-
-Se han realizado varias mejoras en el panel del asesor digital de Active IQ (también conocido como asesor digital) y en la pantalla *Suscripciones de Keystone* para esta versión:
+== 29 de febrero de 2024
 
 
 
@@ -178,10 +190,10 @@ Si tiene una suscripción que tiene planes de tarifas con capacidad comprometida
 
 === Posibilidad de buscar por listas de comprobaciones
 
-La compatibilidad con las listas de comprobaciones del asesor digital de Active IQ (también conocido como asesor digital) se ha ampliado para incluir sistemas Keystone. Ahora puede ver los detalles de las suscripciones para varios clientes mediante la búsqueda con listas de comprobaciones. Para obtener más información sobre el uso de las listas de comprobaciones en STaaS de Keystone, consulte link:../integrations/keystone-aiq.html#search-by-using-keystone-watchlists["Busca mediante listas de comprobaciones de Keystone"^].
+Se ha ampliado la compatibilidad con las listas de comprobaciones del asesor digital para incluir los sistemas Keystone. Ahora puede ver los detalles de las suscripciones para varios clientes mediante la búsqueda con listas de comprobaciones. Para obtener más información sobre el uso de las listas de comprobaciones en STaaS de Keystone, consulte link:../integrations/keystone-aiq.html#search-by-using-keystone-watchlists["Busca mediante listas de comprobaciones de Keystone"^].
 
 
 
 === Fecha convertida a zona horaria UTC
 
-Los datos devueltos en las pestañas de la pantalla *Suscripciones Keystone* del Asesor Digital Active IQ se muestran en la hora UTC (zona horaria del servidor). Al introducir una fecha para la consulta, se considera automáticamente que está en la hora UTC. Para obtener más información, consulte link:../integrations/aiq-keystone-details.html["Panel de suscripción de Keystone e informes"^].
+Los datos devueltos en las pestañas de la pantalla *Suscripciones Keystone* del Asesor Digital se muestran en la hora UTC (zona horaria del servidor). Al introducir una fecha para la consulta, se considera automáticamente que está en la hora UTC. Para obtener más información, consulte link:../integrations/aiq-keystone-details.html["Panel de suscripción de Keystone e informes"^].
