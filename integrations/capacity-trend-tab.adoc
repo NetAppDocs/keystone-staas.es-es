@@ -73,7 +73,19 @@ Puede hacer clic en el botón de alternar *Mostrar uso actual* para ver el consu
 ** Morado: Por encima del límite de ráfaga.
 
 
-* *Ráfaga acumulada*: Indicador para el uso acumulado de la ráfaga o la capacidad consumida calculada por mes para el período de facturación actual. El uso de ráfaga acumulado se calcula en función de la capacidad comprometida y consumida para un nivel de servicio: `(consumed - committed)/365.25/12`.
+* * Explosión acumulada*: Indicador de la capacidad total de ráfaga (en TiB) acumulada durante cada intervalo de 2 minutos en un mes para el ciclo de facturación actual. El uso de ráfaga acumulado para un mes completo se calcula de la siguiente manera:
++
+[suma de ráfagas en el mes / ((días en el mes) x 24 x 60)] x duración del intervalo
+
++
+Puede calcular la ráfaga acumulada para períodos cortos, como cada dos minutos, con lo siguiente:
+
++
+[burst / ((days in month) x 24 x 60)] x duración del intervalo
+
++
+La ráfaga es la diferencia entre la capacidad consumida y la capacidad comprometida. Por ejemplo, con un día en mes, si la capacidad consumida alcanza 120 TiB y la capacidad comprometida es de 100 TiB para un intervalo de 30 2 minutos, el resultado es una capacidad de ráfaga de 20 TiB, lo que equivale a un uso de ráfaga acumulado de 0,000925926 TiB para ese intervalo.
+
 
 
 
