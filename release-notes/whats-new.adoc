@@ -20,6 +20,22 @@ Las siguientes mejoras se introducen en la pantalla *Suscripciones Keystone* del
 
 
 
+== 10 de julio de 2024
+
+
+
+=== Modificaciones de etiquetas
+
+La etiqueta *Uso actual* se cambia a *Consumo actual* y *Tendencia de capacidad* se cambia a *Tendencia de consumo*.
+
+
+
+=== Barra de búsqueda de suscripciones
+
+El menú desplegable *Suscripciones* en todas las pestañas dentro de la pantalla *Suscripciones Keystone* ahora incluye una barra de búsqueda. Puedes buscar suscripciones específicas listadas en el menú desplegable *Suscripciones*.
+
+
+
 == 27 de junio de 2024
 
 
@@ -174,7 +190,7 @@ Algunas de sus suscripciones principales pueden tener suscripciones secundarias 
 
 === Datos facturados devueltos para repartición devengada
 
-Las etiquetas para *Explosión acumulada* ahora se modifican a *Explosión acumulada facturada* en la pestaña *Tendencia de capacidad*. Al seleccionar esta opción, podrá ver los gráficos mensuales de los datos de ráfaga devengados facturados. Para obtener más información, consulte link:../integrations/aiq-keystone-details.html#view-invoiced-accrued-burst["Consulta de repartición devengada facturada"^].
+Las etiquetas para *Explosión acumulada* ahora se modifican a *Explosión acumulada facturada* en la pestaña *Tendencia de capacidad*. Al seleccionar esta opción, podrá ver los gráficos mensuales de los datos de ráfaga devengados facturados. Para obtener más información, consulte link:../integrations/capacity-trend-tab.html#view-invoiced-accrued-burst["Consulta de repartición devengada facturada"^].
 
 
 
@@ -190,7 +206,7 @@ Si tiene una suscripción que tiene planes de tarifas con capacidad comprometida
 
 === Posibilidad de buscar por listas de comprobaciones
 
-Se ha ampliado la compatibilidad con las listas de comprobaciones del asesor digital para incluir los sistemas Keystone. Ahora puede ver los detalles de las suscripciones para varios clientes mediante la búsqueda con listas de comprobaciones. Para obtener más información sobre el uso de las listas de comprobaciones en STaaS de Keystone, consulte link:../integrations/keystone-aiq.html#search-by-using-keystone-watchlists["Busca mediante listas de comprobaciones de Keystone"^].
+Se ha ampliado la compatibilidad con las listas de comprobaciones del asesor digital para incluir los sistemas Keystone. Ahora puede ver los detalles de las suscripciones para varios clientes mediante la búsqueda con listas de comprobaciones. Para obtener más información sobre el uso de las listas de comprobaciones en STaaS de Keystone, consulte link:../integrations/keystone-aiq.html#search-by-keystone-watchlists["Busca por listas de comprobaciones de Keystone"^].
 
 
 

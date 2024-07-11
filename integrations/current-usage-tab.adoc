@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: integrations/current-usage-tab.html 
-keywords: keystone-aiq, digital advisor keystone, current usage tab 
-summary: Pestaña Current Usage en el panel AIQ DA Keystone 
+keywords: keystone-aiq, digital advisor keystone, current consumption tab 
+summary: Pestaña Current Consumption en el panel de AIQ DA Keystone 
 ---
-= Pestaña Uso actual
+= Pestaña Consumo actual
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,11 +14,11 @@ summary: Pestaña Current Usage en el panel AIQ DA Keystone
 
 
 [role="lead"]
-La pestaña *Uso actual* muestra los detalles de uso de sus suscripciones.
+La pestaña *Consumo actual* muestra los detalles de uso de tus suscripciones.
 
-Para ver esta pestaña, en el panel de navegación de la izquierda, vaya a *GENERAL > Suscripciones de Keystone > Uso actual* y seleccione el número de suscripción requerido.
+Para ver esta pestaña, en el panel de navegación de la izquierda, vaya a *GENERAL > Suscripciones de Keystone > Consumo actual* y seleccione el número de suscripción requerido.
 
-image:aiq-ks-dtls-2.png["Pestaña Uso actual"]
+image:aiq-ks-dtls-2.png["Pestaña Consumo actual"]
 
 Para la suscripción seleccionada, puede ver detalles, como las fechas de inicio y finalización de la suscripción, y el período de facturación, como mensual o anual. Como parte del uso de la suscripción, puede ver el nombre de nivel de servicio, comprometido, consumido, disponible y el uso de ráfaga actual y acumulado (en TiB).
 
@@ -27,14 +27,14 @@ TIP: La image:icon-info.png["icono de información"] el icono junto a cada colum
 
 Para obtener más información sobre sus servicios de almacenamiento de Keystone y los niveles de servicio relevantes, consulte link:../concepts/service-levels.html["Niveles de servicio en Keystone"].
 
-Junto con el uso actual, puede que desee ver los datos de uso históricos para la comparación. Haga clic en el botón *Ver datos históricos* para navegar a la pestaña *Tendencia de capacidad* para ver los datos históricos de la misma suscripción.
+Junto con el consumo actual, puede que desee ver los datos de uso históricos para la comparación. Haga clic en el botón *Ver datos históricos* para navegar a la pestaña *Tendencia de consumo* para ver los datos históricos de la misma suscripción.
 
 *Información relacionada*
 
 * link:../integrations/aiq-keystone-details.html["Utilice la consola y la generación de informes de Keystone"]
 * link:../integrations/subscriptions-tab.html["Suscripciones"]
-* link:../integrations/capacity-trend-tab.html["Tendencia de capacidad"]
+* link:../integrations/capacity-trend-tab.html["Tendencia de consumo"]
 * link:../integrations/volumes-objects-tab.html["Volúmenes  Objetos"]
-* link:../integrations/performance-tab.html["Rendimiento"]
 * link:../integrations/assets-tab.html["Activos"]
+* link:../integrations/performance-tab.html["Rendimiento"]
 

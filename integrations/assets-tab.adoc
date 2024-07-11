@@ -21,18 +21,19 @@ El asesor digital proporciona información completa de inventario de sus puestas
 .Pasos
 . Haz clic en *GENERAL > Suscripciones Keystone > Activos*.
 . Seleccione el número de suscripción para el que desea ver los clusters.
-
-
++
 Puede ver los detalles del clúster, desglosados por configuración de eficiencia del almacenamiento, tipo de plataforma y detalles de capacidad. Al hacer clic en uno de los clústeres, se accede al widget *Clusters* de la pantalla del Asesor Digital, donde se obtiene información adicional para ese clúster.
 
-image:assets-tab-2.png["Activos"]
+
+
+image:assets-tab-3.png["Activos"]
 
 *Información relacionada*
 
 * link:../integrations/aiq-keystone-details.html["Utilice la consola y la generación de informes de Keystone"]
 * link:../integrations/subscriptions-tab.html["Suscripciones"]
-* link:../integrations/current-usage-tab.html["Uso actual"]
+* link:../integrations/current-usage-tab.html["Consumo de corriente"]
 * link:../integrations/volumes-objects-tab.html["Volúmenes  Objetos"]
-* link:../integrations/capacity-trend-tab.html["Tendencia de capacidad"]
+* link:../integrations/capacity-trend-tab.html["Tendencia de consumo"]
 * link:../integrations/performance-tab.html["Rendimiento"]
 

@@ -14,34 +14,39 @@ summary: pestaña volumes-objetos-
 
 
 [role="lead"]
-Utilice la pestaña *Volúmenes y objetos* para ver la información de resumen y los detalles de sus volúmenes de ONTAP. Para StorageGRID, puede utilizar esta pestaña para leer el uso de los nodos individuales del entorno de almacenamiento de objetos.
+Utilice la pestaña *Volúmenes y objetos* para ver los detalles de los volúmenes de ONTAP y el almacenamiento de objetos. Para StorageGRID, puede utilizar esta pestaña para leer el uso de los nodos individuales del entorno de almacenamiento de objetos.
 
 
 NOTE: El título de esta pestaña varía según la naturaleza de la puesta en marcha en el sitio. Si tiene tanto ONTAP como almacenamiento de objetos, el título de la pestaña aparece como *Volúmenes y objetos*. Solo para ONTAP, el nombre aparece *VOLUMES*. Para el almacenamiento de objetos StorageGRID, puede ver la pestaña *Objetos*.
 
 
 
-== Consulte el resumen y los detalles de los volúmenes de ONTAP
+== Ver volúmenes ONTAP y detalles del almacenamiento de objetos
 
-La pestaña Volumes ofrece diferentes niveles de información sobre los volúmenes de ONTAP del sistema. Hay dos pestañas, una para la vista de resumen y detalles de tus volúmenes de ONTAP. La pestaña *Volume Summary* proporciona un recuento general de los volúmenes asignados a los niveles de servicio suscritos. Los volúmenes correspondientes se enumeran de nuevo en la pestaña *Detalles del volumen* con sus detalles.
+La pestaña *Volúmenes y objetos* ofrece información sobre los volúmenes del sistema ONTAP y el almacenamiento de objetos en diferentes niveles de detalle. Para los volúmenes de ONTAP, hay dos subpestañas: *Resumen de volumen*, que proporciona un recuento general de los volúmenes asignados a los niveles de servicio suscritos, y *Detalles de volumen*, que enumera estos volúmenes de nuevo con sus detalles específicos. La subpestaña *Objects* proporciona detalles sobre el almacenamiento de objetos para suscripciones que incluyen niveles de servicio para el almacenamiento de archivos y objetos.
+
+
+NOTE: La subpestaña *Objetos* no está disponible en la pestaña *Volúmenes*, y dentro de la pestaña *Objetos*, las subpestañas *Resumen de volumen* y *Detalles de volumen* no contienen datos.
 
 [role="tabbed-block"]
 ====
 .Resumen del volumen
 --
 . Haga clic en *GENERAL > Suscripciones de Keystone > Volúmenes y objetos > Resumen de volumen*.
-. Seleccione el número de suscripción. De forma predeterminada, se selecciona el primer número de suscripción disponible.
-
-
+. Seleccione el número de suscripción.
++
 En la suscripción STaaS a Keystone seleccionada, puedes ver el número total de volúmenes, su estado de cumplimiento de normativas AQoS, el recuento de los volúmenes protegidos y la capacidad total comprometida, consumida y disponible en todos esos volúmenes. Si hace clic en el número de volúmenes no compatibles o protegidos, le llevará a la pestaña *Detalles del volumen*, donde puede ver una lista filtrada que muestra los volúmenes no compatibles o los volúmenes protegidos, según su selección.
 
-image:volume-summary-1.png["Pestaña de resumen de volumen"]
++
+image:volume-summary-2.png["Pestaña de resumen de volumen"]
+
+
 
 --
 .Detalles del volumen
 --
 . Haga clic en *GENERAL > Suscripciones de Keystone > Volúmenes > Detalles del volumen*.
-. Seleccione el número de suscripción. De forma predeterminada, se selecciona el primer número de suscripción disponible.
+. Seleccione el número de suscripción.
 +
 Puede ver una lista en tablas de los volúmenes, como el uso de la capacidad, el tipo de volumen, el clúster, el agregado y los niveles de servicio de Keystone asignados. Puede desplazarse por las columnas y obtener más información al pasar el ratón por los iconos de información situados junto a los encabezados de las columnas. Puede ordenar por las columnas y filtrar las listas para ver información específica.
 
@@ -50,40 +55,32 @@ Puede ver una lista en tablas de los volúmenes, como el uso de la capacidad, el
 NOTE: Para el servicio complementario de protección de datos avanzada, se muestra una columna adicional para indicar si el volumen es un volumen primario o de reflejo en la configuración de MetroCluster. Puede copiar números de serie de nodos individuales haciendo clic en el botón *Copiar series de nodos*.
 
 +
+image:volume-details-3.png["Pestaña Detalles de Volumes"]
 
-NOTE: Para las suscripciones que cubren niveles de servicio tanto para el archivo como para el objeto, puede ver los detalles de almacenamiento de objetos haciendo clic en el botón *Detalles de almacenamiento de objetos*.
+
+
+--
+.Objetos
+--
+. Haz clic en *GENERAL > Suscripciones Keystone > Objetos*.
+. Seleccione el número de suscripción. De forma predeterminada, se selecciona el primer número de suscripción disponible si la suscripción seleccionada anteriormente no incluye niveles de servicio tanto para el almacenamiento de archivos como de objetos.
++
+
+NOTE: Para StorageGRID, esta pestaña muestra el uso físico de los nodos para el almacenamiento de objetos.
 
 +
-image:volume-details-2.png["Pestaña Detalles de Volumes"]
+image:objects-details.png["Pestaña Objetos"]
 
 
 
 --
 ====
-
-
-== Vea los nodos y el consumo de StorageGRID
-
-Para StorageGRID, esta pestaña muestra el uso físico de los nodos para el almacenamiento de objetos.
-
-.Pasos
-. Haz clic en *GENERAL > Suscripciones Keystone > Objetos*.
-. Seleccione el número de suscripción. De forma predeterminada, se selecciona el primer número de suscripción disponible. Al seleccionar el número de suscripción, se habilita el enlace de detalles del almacenamiento de objetos.
-+
-image:sg-link.png["Cuadro de diálogo StorageGRID"]
-
-. Haga clic en el enlace para ver los nombres de los nodos y los detalles de uso físico de cada nodo.
-+
-image:sg-link-2.png["Cuadro de diálogo StorageGRID"]
-
-
-
 *Información relacionada*
 
 * link:../integrations/aiq-keystone-details.html["Utilice la consola y la generación de informes de Keystone"]
 * link:../integrations/subscriptions-tab.html["Suscripciones"]
-* link:../integrations/current-usage-tab.html["Uso actual"]
-* link:../integrations/capacity-trend-tab.html["Tendencia de capacidad"]
-* link:../integrations/performance-tab.html["Rendimiento"]
+* link:../integrations/current-usage-tab.html["Consumo de corriente"]
+* link:../integrations/capacity-trend-tab.html["Tendencia de consumo"]
 * link:../integrations/assets-tab.html["Activos"]
+* link:../integrations/performance-tab.html["Rendimiento"]
 

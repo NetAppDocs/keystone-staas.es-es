@@ -21,7 +21,7 @@ Al suscribirse a los servicios de Keystone, puede ver los detalles de su suscrip
 
 NOTE: La información aquí se aplica tanto a ONTAP como a StorageGRID. Se han señalado excepciones en las secciones correspondientes.
 
-Para obtener información sobre el widget Keystone Digital Advisor, consulte https://docs.netapp.com/us-en/active-iq/view_keystone_capacity_utilization.html["Vea el uso de la capacidad con la suscripción a NetApp Keystone"^].
+Para obtener más información sobre el widget del asesor digital de Keystone, consulte https://docs.netapp.com/us-en/active-iq/view_keystone_capacity_utilization.html["Vea el uso de la capacidad con la suscripción a NetApp Keystone"^].
 
 Para ver la suscripción a Keystone y los detalles de uso, realice los siguientes pasos:
 
@@ -34,16 +34,16 @@ Los detalles de las suscripciones, los gráficos de uso de cada nivel de servici
 
 NOTE: El consumo de capacidad en las suscripciones de Keystone se muestra en TIBs en las consolas e informes, y se redondea a dos posiciones decimales. Si el uso es inferior a 0.01 TIB, el valor se muestra como 0 o. `No Usage`. Los datos de estas pantallas se muestran en la hora UTC (zona horaria del servidor). Al introducir una fecha para la consulta, se considera automáticamente que está en la hora UTC.
 
-Para obtener más información sobre las métricas de uso, consulte link:../concepts/metrics.html#metrics-measurement["Medición de métricas"]. Para obtener información sobre las distintas capacidades que se utilizan en Keystone, consulte link:../concepts/supported-storage-capacity.html["Capacidades de almacenamiento admitidas"].
+Para obtener más información sobre las métricas de uso, consulte link:../concepts/metrics.html#metrics-measurement["Medición de métricas"]. Para obtener información sobre las diferentes capacidades utilizadas en Keystone, consulte link:../concepts/supported-storage-capacity.html["Capacidades de almacenamiento admitidas"].
 
 Los siguientes enlaces proporcionan más información sobre cada una de estas pestañas:
 
 * link:../integrations/subscriptions-tab.html["Suscripciones"]
-* link:../integrations/current-usage-tab.html["Uso actual"]
-* link:../integrations/capacity-trend-tab.html["Tendencia de capacidad"]
+* link:../integrations/current-usage-tab.html["Consumo de corriente"]
+* link:../integrations/capacity-trend-tab.html["Tendencia de consumo"]
 * link:../integrations/volumes-objects-tab.html["Volúmenes  Objetos"]
-* link:../integrations/performance-tab.html["Rendimiento"]
 * link:../integrations/assets-tab.html["Activos"]
+* link:../integrations/performance-tab.html["Rendimiento"]
 
 
 
@@ -54,7 +54,7 @@ Puedes generar y ver informes para tus datos de Keystone. Cada pestaña de la p�
 
 Los detalles se generan en formato CSV que puede guardar para usarlos y compararlos en el futuro.
 
-Un informe de muestra para la pestaña *Capacity Trend*, donde se convierten los datos gráficos:
+Un informe de muestra para la pestaña *Tendencia de consumo*, donde se convierten los datos gráficos:
 
 image:report_1.png["csv del informe"]
 
@@ -67,7 +67,7 @@ La consola ofrece notificaciones de alerta que le permiten comprender los proble
 
 NOTE: Si se ha suscrito a un único nivel de servicio o plan de tarifas, no podrá ver la alerta de los volúmenes que no cumplen las normativas.
 
-image:alert-aiq-2.png["alerta"]
+image:alert-aiq-3.png["alerta"]
 
 Para obtener información acerca de las políticas AQoS, consulte link:../concepts/qos.html["Calidad de servicio adaptativa"].
 

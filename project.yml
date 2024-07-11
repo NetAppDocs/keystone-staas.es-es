@@ -75,16 +75,16 @@ sidebar:
       url: "/integrations/aiq-keystone-details.html"
     - title: Pestaña Suscripciones
       url: "/integrations/subscriptions-tab.html"
-    - title: Pestaña Uso actual
+    - title: Pestaña Consumo actual
       url: "/integrations/current-usage-tab.html"
-    - title: Pestaña Capacity Trend
+    - title: Pestaña Tendencia de consumo
       url: "/integrations/capacity-trend-tab.html"
     - title: Pestaña Volumes & Objects
       url: "/integrations/volumes-objects-tab.html"
-    - title: Pestaña Rendimiento
-      url: "/integrations/performance-tab.html"
     - title: Activos
       url: "/integrations/assets-tab.html"
+    - title: Pestaña Rendimiento
+      url: "/integrations/performance-tab.html"
     - title: Gestiona las suscripciones de Keystone desde BlueXP
       url: "/integrations/keystone-cm.html"
   - title: Servicios Keystone STaaS

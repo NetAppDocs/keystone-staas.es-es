@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: integrations/capacity-trend-tab.html 
-keywords: keystone-aiq, digital advisor keystone, capacity trend tab, historical usage, accrued burst, accrued, consumption 
-summary: Pestaña de tendencia de capacidad en la consola de Keystone Subscription 
+keywords: keystone-aiq, digital advisor keystone, consumption trend tab, historical usage, accrued burst, accrued, consumption 
+summary: Pestaña de tendencia de consumo en el panel de suscripción de Keystone 
 ---
-= Pestaña Capacity Trend
+= Pestaña Tendencia de consumo
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,21 +14,21 @@ summary: Pestaña de tendencia de capacidad en la consola de Keystone Subscripti
 
 
 [role="lead"]
-La pestaña *Tendencia de capacidad* muestra los datos históricos de tus suscripciones de Keystone durante un período específico.
+La pestaña *Tendencia de consumo* muestra los datos históricos de tus suscripciones de Keystone durante un período específico.
 
 Los gráficos verticales muestran los detalles de uso del intervalo de tiempo seleccionado con los indicadores adecuados para que pueda comparar y generar informes.
 
 .Pasos
-. Haz clic en *GENERAL > Suscripciones Keystone > Tendencia de capacidad*.
+. Haga clic en *GENERAL > Suscripciones Keystone > Tendencia de consumo*.
 . Seleccione la suscripción necesaria para la que desea ver los detalles. La primera suscripción en el nombre de su cuenta se selecciona de forma predeterminada.
-. Seleccione *Tendencia de capacidad* si desea ver los datos históricos y analizar la tendencia de uso de capacidad. Selecciona *Explosión acumulada facturada* si deseas ver los datos de uso de ráfaga históricos, para los que se han generado facturas. Puede utilizar estos datos para analizar el uso facturado según la factura.
+. Seleccione *Tendencia de consumo* si desea ver los datos históricos y analizar la tendencia de uso de capacidad. Selecciona *Explosión acumulada facturada* si deseas ver los datos de uso de ráfaga históricos, para los que se han generado facturas. Puede utilizar estos datos para analizar el uso facturado según la factura.
 
 
 
 
-== Ver la tendencia de capacidad
+== Ver tendencia de consumo
 
-Si ha seleccionado la opción *Tendencia de capacidad*, siga estos pasos:
+Si ha seleccionado la opción *Tendencia de consumo*, siga estos pasos:
 
 .Pasos
 . Seleccione el intervalo de tiempo de los iconos del calendario en los campos *desde fecha* y *hasta fecha*. Seleccione el rango de fechas de la consulta. El rango de fechas puede ser el comienzo del mes o la fecha de inicio de la suscripción hasta la fecha actual o la fecha de finalización de la suscripción. No puede seleccionar una fecha futura.
@@ -97,7 +97,7 @@ Si ha seleccionado la opción *Ráfaga devengada facturada*, de forma predetermi
 
 TIP: El uso de bursting acumulado facturado se calcula por período de facturación, en función de la capacidad comprometida y consumida para un nivel de servicio.
 
-image:accr-burst.png["gráficos de uso de ráfaga acumulados"]
+image:accr-burst-1.png["gráficos de uso de ráfaga acumulados"]
 
 Esta función está disponible en modo de sólo vista previa. Póngase en contacto con su KSM para obtener más información sobre esta función.
 
@@ -105,7 +105,7 @@ Esta función está disponible en modo de sólo vista previa. Póngase en contac
 
 == Gráficos de referencia para protección avanzada de datos
 
-Si se ha suscrito al servicio complementario de protección de datos avanzada, puede ver el desglose de los datos de consumo de los sitios asociados de MetroCluster en la pestaña *Tendencia de capacidad*.
+Si se ha suscrito al servicio complementario de protección de datos avanzada, puede ver el desglose de los datos de consumo de los sitios asociados de MetroCluster en la pestaña *Tendencia de consumo*.
 
 Para obtener más información sobre el servicio complementario de protección de datos avanzada, consulte link:../concepts/adp.html["Protección de datos avanzada"].
 
@@ -115,31 +115,31 @@ Si los clústeres de su entorno de almacenamiento de ONTAP se configuran en una 
 NOTE: Los gráficos de barras de consumo se dividen sólo para los niveles de servicio básicos. Para el servicio adicional de protección de datos avanzada, es decir, el nivel de servicio _Advanced Data-Protect_, esta demarcación no aparece.
 
 .Nivel de servicio de protección de datos avanzada
-Para el nivel de servicio _Advanced Data-Protect_, el consumo total se divide entre los sitios de partner y el uso de cada sitio de partner se refleja y se factura en una suscripción independiente, una suscripción para el sitio principal y otra para el sitio de mirroring. Esa es la razón por la que, cuando selecciona el número de suscripción para el sitio principal en la pestaña *Tendencia de capacidad*, los gráficos de consumo para el servicio complementario de protección de datos avanzada muestran los detalles de consumo discreto solo del sitio principal. Dado que cada sitio asociado de una configuración MetroCluster actúa tanto como origen como mirroring, el consumo total de cada sitio incluye los volúmenes de origen y de mirroring creados en dicho sitio.
+Para el nivel de servicio _Advanced Data-Protect_, el consumo total se divide entre los sitios de partner y el uso de cada sitio de partner se refleja y se factura en una suscripción independiente, una suscripción para el sitio principal y otra para el sitio de mirroring. Esa es la razón por la que, cuando selecciona el número de suscripción para el sitio principal en la pestaña *Tendencia de consumo*, los gráficos de consumo para el servicio complementario de protección de datos avanzada muestran los detalles de consumo discreto solo del sitio principal. Dado que cada sitio asociado de una configuración MetroCluster actúa tanto como origen como mirroring, el consumo total de cada sitio incluye los volúmenes de origen y de mirroring creados en dicho sitio.
 
 
-TIP: La información sobre herramientas junto al ID de seguimiento de tu suscripción en la pestaña *Uso actual* te ayuda a identificar la suscripción asociada en la configuración de MetroCluster.
+TIP: La información sobre herramientas junto al ID de seguimiento de tu suscripción en la pestaña *Consumo actual* te ayuda a identificar la suscripción asociada en la configuración de MetroCluster.
 
 .Niveles de servicio básicos
 Para los niveles de servicio básicos, cada volumen se carga según el aprovisionado en los sitios primario y de mirroring, y, por lo tanto, el mismo gráfico de barras se divide según el consumo en los sitios primario y de mirroring.
 
 .Lo que puede ver para la suscripción principal
-La siguiente imagen muestra los gráficos para el nivel de servicio _Extreme_ (nivel de servicio base) y un número de suscripción principal. El mismo gráfico de datos históricos también indica el consumo de sitio duplicado en un tono más claro del mismo código de color utilizado para el sitio primario. La información sobre herramientas al pasar el ratón muestra el desglose de consumo (en TiB) para los sitios principales y de reflejo, 1,02 TiB y 1,05 TiB respectivamente.
+La siguiente imagen muestra los gráficos para el nivel de servicio _Extreme_ (nivel de servicio base) y un número de suscripción principal. El mismo gráfico de datos históricos también indica el consumo de sitio duplicado en un tono más claro del mismo código de color utilizado para el sitio primario. La información sobre herramientas al pasar el ratón muestra el desglose de consumo (en TiB) para los sitios principales y de reflejo, 22,24 TiB y 14,86 TiB respectivamente.
 
-image:mcc-chart.png["mcc primario"]
+image:mcc-chart-1.png["mcc primario"]
 
 Para el nivel de servicio _Advanced Data-Protect_, los gráficos aparecen de la siguiente manera:
 
-image:adp-src.png["base principal mcc"]
+image:adp-src-1.png["base principal mcc"]
 
 .Qué puede ver para la suscripción secundaria (sitio de reflejo)
-Al comprobar la suscripción secundaria, puede ver que el gráfico de barras del nivel de servicio _Extreme_ (nivel de servicio básico) en el mismo punto de recopilación de datos que el sitio del partner se invierte, y la división de consumo en los sitios primario y de reflejo es de 1,05 TiB y 1,02 TiB respectivamente.
+Al comprobar la suscripción secundaria, puede ver que el gráfico de barras del nivel de servicio _Extreme_ (nivel de servicio básico) en el mismo punto de recopilación de datos que el sitio del partner se invierte, y la división de consumo en los sitios primario y de reflejo es de 14,86 TiB y 22,24 TiB respectivamente.
 
-image:mcc-chart-mirror.png["espejo mcc"]
+image:mcc-chart-mirror-1.png["espejo mcc"]
 
 Para el nivel de servicio _Advanced Data-Protect_, el gráfico aparece como este para el mismo punto de recopilación que en el sitio del partner:
 
-image:adp-mir.png["base de espejo mcc"]
+image:adp-mir-1.png["base de espejo mcc"]
 
 Para obtener más información sobre cómo MetroCluster protege sus datos, consulte https://docs.netapp.com/us-en/ontap-metrocluster/manage/concept_understanding_mcc_data_protection_and_disaster_recovery.html["Comprender la protección de datos y la recuperación ante desastres de MetroCluster"^].
 
@@ -147,8 +147,8 @@ Para obtener más información sobre cómo MetroCluster protege sus datos, consu
 
 * link:../integrations/aiq-keystone-details.html["Utilice la consola y la generación de informes de Keystone"]
 * link:../integrations/subscriptions-tab.html["Suscripciones"]
-* link:../integrations/current-usage-tab.html["Uso actual"]
+* link:../integrations/current-usage-tab.html["Consumo de corriente"]
 * link:../integrations/volumes-objects-tab.html["Volúmenes  Objetos"]
-* link:../integrations/performance-tab.html["Rendimiento"]
 * link:../integrations/assets-tab.html["Activos"]
+* link:../integrations/performance-tab.html["Rendimiento"]
 
