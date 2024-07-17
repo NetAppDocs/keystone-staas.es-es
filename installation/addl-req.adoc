@@ -38,6 +38,10 @@ Debe completar algunos requisitos previos adicionales de ONTAP y StorageGRID. As
 .. Inicie sesión en la interfaz de usuario web de Unified Manager con las credenciales de usuario del administrador de aplicaciones predeterminadas que se generan durante la instalación. Consulte https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_access_unified_manager_web_ui.html["Acceder a la interfaz de usuario web de Unified Manager"^].
 .. Cree una cuenta de servicio para Keystone Collector con `Operator` rol de usuario. Las API de servicio de Keystone Collector utilizan esta cuenta de servicio para comunicarse con Unified Manager y recopilar datos de uso. Consulte https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_add_users.html["Adición de usuarios"^].
 .. Cree un `Database` cuenta de usuario, con la `Report Schema` función. Este usuario es necesario para la recopilación de datos de rendimiento. Consulte https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_create_database_user.html["Creación de un usuario de base de datos"^].
++
+
+NOTE: El puerto predeterminado para MySQL, 3306, solo está restringido al host local durante una nueva instalación de Unified Manager, lo que evita la recogida de datos de rendimiento para Keystone ONTAP. Esta configuración se puede modificar y la conexión puede ponerse a disposición de otros hosts con `Control access to MySQL port 3306` la opción en la consola de mantenimiento de Unified Manager. Para obtener más información, consulte link:https://docs.netapp.com/us-en/active-iq-unified-manager/config/reference_additional_menu_options.html["Opciones de menú adicionales"^].
+
 
 
 . Habilite la puerta de enlace API en Unified Manager. Keystone Collector utiliza la función API Gateway para comunicarse con clústeres ONTAP. Puede habilitar la puerta de enlace API desde la interfaz de usuario web o mediante la ejecución de algunos comandos a través de la CLI de Unified Manager.
