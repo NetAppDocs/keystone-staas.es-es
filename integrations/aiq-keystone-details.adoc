@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: integrations/aiq-keystone-details.html 
 keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, keystone usage graphs charts, generate reports, iq, digital advisor, metrocluster, storagegrid, ontap, tracking id, burst usage, alerts, different tabs 
-summary: Informes y gráficos de suscripción de Keystone 
+summary: La consola del asesor digital permite ver los detalles de tus suscripciones de Keystone, supervisar el uso de la capacidad y generar informes. 
 ---
-= Utilice la consola y la generación de informes de Keystone
+= Consulta de detalles de uso y generación de informes
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: Informes y gráficos de suscripción de Keystone
 
 
 [role="lead"]
-Se utiliza la consola del asesor digital para ver los detalles de tus suscripciones de Keystone, para supervisar el uso de la capacidad y generar informes.
+La consola del asesor digital permite ver los detalles de tus suscripciones de Keystone, supervisar el uso de la capacidad y generar informes.
 
 Al suscribirse a los servicios de Keystone, puede ver los detalles de su suscripción y uso en el widget *Suscripciones de Keystone* del panel de control de Digital Advisor.
 

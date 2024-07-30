@@ -4,7 +4,7 @@ permalink: concepts/equinix.html
 keywords: netapp, keystone, Equinix 
 summary: Keystone y Equinix 
 ---
-= Servicios de coubicación Keystone con tecnología Equinix
+= Obtenga información sobre los servicios de coubicación con tecnología de Equinix
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: Keystone y Equinix
 
 
 [role="lead"]
-NetApp se ha asociado con Equinix para alojar servicios STaaS de NetApp Keystone en un centro de datos Equinix para garantizar la entrega de una solución unificada para usted.
+Para proporcionar una solución de pila completa como servicio, NetApp se ha asociado con Equinix para alojar servicios STaaS de NetApp Keystone en un centro de datos de Equinix.
 
 Los servicios de coubicación Keystone (Co-Lo) con tecnología Equinix permanecen sin cambios de la oferta de servicio estándar de Keystone.
 
@@ -25,7 +25,7 @@ En este servicio:
 * Los servicios están soportados en los centros de datos de 11 países.
 
 
-Equinix tiene los centros de datos en las siguientes ubicaciones:
+Equinix tiene centros de datos en las siguientes ubicaciones:
 
 |===
 | Centro de datos | País 

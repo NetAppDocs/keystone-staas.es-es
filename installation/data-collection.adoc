@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: installation/data-collection.html 
 keywords: type of data collected by Keystone collector 
-summary: Recopilación de datos de facturación por Keystone Collector para ONTAP y StorageGRID 
+summary: Keystone recopila información sobre la configuración, el estado y el uso para las suscripciones a ONTAP y StorageGRID. También puede recopilar datos de rendimiento de ONTAP. 
 ---
 = Tipos de datos de usuario que Keystone recopila
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Recopilación de datos de facturación por Keystone Collector para ONTA
 
 
 [role="lead"]
-Keystone recopila información de configuración, estado y uso para sus suscripciones a Keystone ONTAP y Keystone StorageGRID. También puede recopilar datos de rendimiento solo para ONTAP si la opción está habilitada en Keystone Collector.
+Keystone recopila información sobre la configuración, el estado y el uso de tus suscripciones a Keystone ONTAP y Keystone StorageGRID. También puede recopilar datos de rendimiento solo para ONTAP si la opción está habilitada en Keystone Collector.
 
 
 

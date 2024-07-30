@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: concepts/data-tiering.html 
 keywords: add-on services, add-on, data tiering 
-summary: Complemento, detalles de servicios adicionales, organización en niveles de datos 
+summary: El servicio adicional de organización en niveles identifica los datos que se utilizan con menos frecuencia y los ordena en niveles en el almacenamiento que se da soporte. 
 ---
-= Organización en niveles de los datos
+= Más información sobre la organización en niveles de los datos
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

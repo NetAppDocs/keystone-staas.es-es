@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: concepts/adp.html 
 keywords: data protection advanced 
-summary: Protección de datos avanzada 
+summary: Use el servicio complementario de protección de datos avanzada para garantizar una protección de datos eficiente de las cargas de trabajo críticas para el negocio. 
 ---
-= Protección de datos avanzada
+= Obtenga más información sobre la protección de datos avanzada
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: Protección de datos avanzada
 
 
 [role="lead"]
-Puede suscribirse a un servicio complementario de protección de datos avanzada como parte de su suscripción a STaaS de Keystone. Este servicio complementario aprovecha la tecnología MetroCluster de NetApp para garantizar una protección de datos eficiente para las cargas de trabajo esenciales con el objetivo de punto de recuperación 0.
+Puede suscribirse al servicio complementario de protección de datos avanzada como parte de su suscripción a STaaS de Keystone. Este servicio complementario aprovecha la tecnología NetApp MetroCluster para garantizar una protección de datos eficiente de sus cargas de trabajo esenciales en un objetivo de punto de recuperación (RPO) de 0.
 
 
 NOTE: Los servicios estándar de Keystone STaaS para almacenamiento de archivos y bloques ofrecen servicios de protección de datos predeterminados aprovechando las tecnologías de NetApp, como SnapMirror, SnapVault y Snapshot.

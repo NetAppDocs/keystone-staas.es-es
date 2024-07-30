@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: concepts/infra.html 
 keywords: keystone infrastructure, infra 
-summary: Infraestructura Keystone 
+summary: La infraestructura, el diseño, la selección de tecnología y los productos de componentes de Keystone residen únicamente en NetApp. 
 ---
 = Infraestructura Keystone
 :hardbreaks:
@@ -14,9 +14,9 @@ summary: Infraestructura Keystone
 
 
 [role="lead"]
-En esta sección se describe la infraestructura, arquitectura y aplicación de administración de STaaS de NetApp Keystone para entornos de NetApp y gestionados por el cliente.
+NetApp es el único responsable de la infraestructura, el diseño, las opciones de tecnología y los componentes de Keystone, tanto en NetApp como en los entornos operados por el cliente.
 
-La infraestructura, el diseño, la selección de tecnología y los productos de componentes de Keystone residen únicamente en NetApp. NetApp se reserva el derecho de realizar las siguientes acciones:
+NetApp se reserva el derecho de realizar las siguientes acciones:
 
 * Seleccione, sustituya o reutilice productos.
 * Actualice productos con nueva tecnología cuando se considere apropiado.
@@ -50,4 +50,4 @@ Además del equipo de almacenamiento, se aprovisionan dos herramientas de superv
 
 image:mgmt-stack.png["pila de management"]
 
- Digital Advisor enables you to log in and view the subscription and consumption details for your Keystone subscriptions. For more information about Keystone reporting on the Digital Advisor dashboard, see link:../integrations/keystone-aiq.html[Keystone and Digital Advisor].
+El asesor digital te permite iniciar sesión y ver los detalles de consumo y suscripción de tus suscripciones a Keystone. Para obtener más información sobre la creación de informes de Keystone en la consola del asesor digital, consulte link:../integrations/keystone-aiq.html["Keystone y asesor digital"].

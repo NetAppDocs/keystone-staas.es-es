@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: integrations/performance-tab.html 
 keywords: keystone-aiq, digital advisor keystone, performance tab 
-summary: Pestaña Rendimiento en la consola AIQ DA de Keystone Subscription 
+summary: Para supervisar el rendimiento de tus sistemas, puedes ver las métricas de rendimiento de los volúmenes de ONTAP gestionados por tus suscripciones de Keystone. 
 ---
-= Pestaña Rendimiento
+= Ver métricas de rendimiento
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: Pestaña Rendimiento en la consola AIQ DA de Keystone Subscription
 
 
 [role="lead"]
-La pestaña *Rendimiento* te permite ver las métricas de rendimiento de los volúmenes de ONTAP gestionados por tus suscripciones de Keystone.
+Para supervisar el rendimiento de tus sistemas, puedes ver las métricas de rendimiento de los volúmenes de ONTAP gestionados por tus suscripciones de Keystone.
 
 
 TIP: Esta pestaña está disponible de forma opcional. Póngase en contacto con el soporte técnico para ver esta pestaña.

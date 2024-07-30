@@ -27,19 +27,19 @@ sidebar:
       url: "/concepts/overview.html"
     - title: Infraestructura Keystone
       url: "/concepts/infra.html"
+    - title: Recopilador Keystone
+      url: "/installation/installation-overview.html"
     - title: Componentes
       url: "/concepts/components.html"
     - title: Flujo de datos
       url: "/concepts/data-flow.html"
     - title: Modelos operativos
       url: "/concepts/operational-models.html"
-    - title: Recopilador Keystone
-      url: "/installation/installation-overview.html"
   - title: Configure y configure Keystone
     entries:
     - title: Requisitos
       entries:
-      - title: VSphere de VMware
+      - title: Infraestructura virtual
         url: "/installation/vapp-prereqs.html"
       - title: Linux
         url: "/installation/linux-prereqs.html"
@@ -51,7 +51,7 @@ sidebar:
         url: "/installation/vapp-installation.html"
       - title: Instalar en Linux
         url: "/installation/linux-installation.html"
-      - title: Validar integridad
+      - title: Validación automática del software Keystone
         url: "/installation/validation.html"
     - title: Configure Keystone Collector
       url: "/installation/configuration.html"
@@ -61,15 +61,15 @@ sidebar:
       url: "/installation/security.html"
     - title: Datos recopilados para facturación
       url: "/installation/data-collection.html"
-  - title: Supervisión y actualización
+  - title: Supervisar y actualizar
     entries:
-    - title: Supervise el estado del sistema
+    - title: Supervisa el estado del recopilador de Keystone
       url: "/installation/monitor-health.html"
     - title: Actualiza Keystone Collector
       url: "/installation/upgrade.html"
   - title: Consola de Keystone
     entries:
-    - title: Consulta el panel de Keystone
+    - title: Información general del panel de Keystone
       url: "/integrations/keystone-aiq.html"
     - title: Consulta de detalles de uso y generación de informes
       url: "/integrations/aiq-keystone-details.html"
@@ -85,13 +85,13 @@ sidebar:
       url: "/integrations/assets-tab.html"
     - title: Pestaña Rendimiento
       url: "/integrations/performance-tab.html"
-    - title: Gestiona las suscripciones de Keystone desde BlueXP
+    - title: Más información sobre Keystone y BlueXP
       url: "/integrations/keystone-cm.html"
   - title: Servicios Keystone STaaS
     entries:
     - title: Métricas y definiciones
       url: "/concepts/metrics.html"
-    - title: Calidad de servicio
+    - title: Calidad de servicio del almacenamiento
       url: "/concepts/qos.html"
     - title: Almacenamiento admitido
       url: "/concepts/supported-storage-services.html"
@@ -99,7 +99,7 @@ sidebar:
       url: "/concepts/supported-storage-capacity.html"
     - title: Niveles de servicio
       url: "/concepts/service-levels.html"
-    - title: Capacidad admitida para niveles de servicio
+    - title: Requisitos de capacidad para los niveles de servicio
       url: "/concepts/capacity-requirements.html"
     - title: Servicios de suscripción de Keystone versión 1
       url: "/subscription-services-v1.html"
@@ -111,7 +111,8 @@ sidebar:
         url: "/concepts/data-tiering.html"
       - title: Servicios con tecnología Equinix
         url: "/concepts/equinix.html"
-      - title: Componentes no retornables, no volátiles y cumplimiento de SnapLock
+      - title: Componentes no retornables, no volátiles y cumplimiento de normativas
+          SnapLock
         url: "/concepts/nrnvc.html"
       - title: EE. UU Soporte para ciudadanos de EE. UU. (USCS)
         url: "/concepts/uscs.html"
@@ -125,11 +126,11 @@ sidebar:
       url: "/concepts/consumed-capacity-billing.html"
     - title: Facturación basada en consumo en ráfaga
       url: "/concepts/burst-consumption-billing.html"
-    - title: Facturación basada en diversos tipos de volumen
+    - title: Escenarios varios para la facturación Keystone
       url: "/concepts/misc-volume-billing.html"
     - title: Horarios de facturación
       url: "/concepts/billing-schedules.html"
-  - title: Centro de soporte de servicios globales de NetApp
+  - title: Obtén ayuda con Keystone
     url: "/concepts/gssc.html"
   - title: Avisos legales
     url: "/legal-notices.html"

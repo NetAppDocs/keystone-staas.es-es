@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: release-notes/whats-new.html 
 keywords: 'new features, release notes, enhancements, what"s new' 
-summary: Nuevas funciones y mejoras de STaaS de Keystone. 
+summary: NetApp ofrece funciones nuevas y mejoradas en cada lanzamiento de los servicios de STaaS de Keystone. 
 ---
 = Novedades en STaaS de Keystone
 :hardbreaks:

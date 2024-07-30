@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: integrations/subscriptions-tab.html 
 keywords: keystone-aiq, digital advisor keystone, subscriptions-tab 
-summary: Pestaña Suscripciones en el panel de AIQ DA Keystone 
+summary: Para obtener más información sobre tus suscripciones de Keystone, puedes ver una lista de todas tus suscripciones en la pestaña Suscripciones. 
 ---
-= Pestaña Suscripciones
+= Ver detalles sobre sus suscripciones
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: Pestaña Suscripciones en el panel de AIQ DA Keystone
 
 
 [role="lead"]
-Puedes ver una lista de todas tus suscripciones en la pestaña *Suscripciones*.
+Para obtener más información sobre tus suscripciones de Keystone, puedes ver una lista de todas tus suscripciones en la pestaña *Suscripciones*.
 
 Para ver esta pestaña, en el panel de navegación de la izquierda, vaya a *GENERAL > Suscripciones de Keystone > Suscripciones*. Se enumeran todas sus suscripciones.
 

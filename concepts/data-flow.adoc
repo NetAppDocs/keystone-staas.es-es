@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: concepts/data-flow.html 
 keywords: data flow 
-summary: Los flujos de datos de Keystone 
+summary: Los datos de los sistemas STaaS de Keystone fluyen a través de Keystone Collector y la herramienta de solución AIOPs, que es el sistema de supervisión asociado. 
 ---
 = Flujo de datos de Keystone
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Los flujos de datos de Keystone
 
 
 [role="lead"]
-Los datos de los sistemas STaaS de Keystone fluyen a través de Keystone Collector y el sistema de supervisión asociado, la herramienta de soluciones AIOPs.
+Los datos de los sistemas STaaS de Keystone fluyen a través de Keystone Collector y la herramienta de solución AIOPs, que es el sistema de supervisión asociado.
 
 
 

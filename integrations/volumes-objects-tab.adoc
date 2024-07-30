@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: integrations/volumes-objects-tab.html 
 keywords: keystone-aiq, digital advisor keystone, volumes-objects-tab, StorageGRID objects details, ONTAP volumes 
-summary: pestaña volumes-objetos- 
+summary: Vea los detalles de la capacidad en el nivel de almacenamiento de objetos u volúmenes. 
 ---
-= Pestaña Volumes & Objects
+= Vea detalles sobre volúmenes de ONTAP y el almacenamiento de objetos
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: pestaña volumes-objetos-
 
 
 [role="lead"]
-Utilice la pestaña *Volúmenes y objetos* para ver los detalles de los volúmenes de ONTAP y el almacenamiento de objetos. Para StorageGRID, puede utilizar esta pestaña para leer el uso de los nodos individuales del entorno de almacenamiento de objetos.
+Si desea ver los detalles de la capacidad en el nivel de almacenamiento del volumen o del objeto, puede navegar hasta el *Volúmenes y objetos*. Para StorageGRID, puede utilizar esta pestaña para leer el uso de los nodos individuales del entorno de almacenamiento de objetos.
 
 
 NOTE: El título de esta pestaña varía según la naturaleza de la puesta en marcha en el sitio. Si tiene tanto ONTAP como almacenamiento de objetos, el título de la pestaña aparece como *Volúmenes y objetos*. Solo para ONTAP, el nombre aparece *VOLUMES*. Para el almacenamiento de objetos StorageGRID, puede ver la pestaña *Objetos*.
@@ -35,7 +35,7 @@ NOTE: La subpestaña *Objetos* no está disponible en la pestaña *Volúmenes*, 
 . Haga clic en *GENERAL > Suscripciones de Keystone > Volúmenes y objetos > Resumen de volumen*.
 . Seleccione el número de suscripción.
 +
-En la suscripción STaaS a Keystone seleccionada, puedes ver el número total de volúmenes, su estado de cumplimiento de normativas AQoS, el recuento de los volúmenes protegidos y la capacidad total comprometida, consumida y disponible en todos esos volúmenes. Si hace clic en el número de volúmenes no compatibles o protegidos, le llevará a la pestaña *Detalles del volumen*, donde puede ver una lista filtrada que muestra los volúmenes no compatibles o los volúmenes protegidos, según su selección.
+Para la suscripción STaaS a Keystone seleccionada, puedes ver el número total de volúmenes, su estado de cumplimiento de calidad de servicio, el recuento de volúmenes protegidos y la capacidad total comprometida, consumida y disponible en todos esos volúmenes. Si hace clic en el número de volúmenes no compatibles o protegidos, le llevará a la pestaña *Detalles del volumen*, donde puede ver una lista filtrada que muestra los volúmenes no compatibles o los volúmenes protegidos, según su selección.
 
 +
 image:volume-summary-2.png["Pestaña de resumen de volumen"]

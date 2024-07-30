@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: concepts/billing-schedules.html 
 keywords: billing schedules, schedule for payment 
-summary: Horarios de facturación en Keystone 
+summary: Las suscripciones a Keystone STaaS se facturan mensualmente y anualmente. 
 ---
 = Horarios de facturación
 :hardbreaks:

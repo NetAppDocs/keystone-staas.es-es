@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: concepts/pricing.html 
 keywords: pricing, billing introduction, Keystone billing 
-summary: Precios Keystone 
+summary: Keystone ofrece un modelo de pago por crecimiento para sus necesidades de consumo flexible y escalable. 
 ---
 = Precios Keystone
 :hardbreaks:
@@ -14,9 +14,7 @@ summary: Precios Keystone
 
 
 [role="lead"]
-STaaS de NetApp Keystone permite un precio inicial y predecible para su suscripción de almacenamiento.
-
-Si prefiere el modelo de consumo de gastos operativos (gastos operativos) a gastos de capital o arrendamiento, puede optar por el modelo de pago según crecimiento de Keystone para sus necesidades de consumo flexibles y escalables.
+Si prefiere el modelo de consumo de gastos operativos (OpEx) frente a los gastos de capital (CapEx) o arrendamiento, puede optar por el modelo de pago por crecimiento de STaaS de NetApp Keystone, que ofrece un consumo flexible y escalable con precios predecibles y iniciales para su suscripción de almacenamiento.
 
 Keystone le ofrece las siguientes instalaciones de facturación:
 

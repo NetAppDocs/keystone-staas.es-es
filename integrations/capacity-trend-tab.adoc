@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: integrations/capacity-trend-tab.html 
 keywords: keystone-aiq, digital advisor keystone, consumption trend tab, historical usage, accrued burst, accrued, consumption 
-summary: Pestaña de tendencia de consumo en el panel de suscripción de Keystone 
+summary: Para ayudarte a supervisar el uso de tu suscripción, puedes ver los datos históricos de tus suscripciones de Keystone durante un período de tiempo determinado. 
 ---
-= Pestaña Tendencia de consumo
+= Ver tendencias de consumo
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: Pestaña de tendencia de consumo en el panel de suscripción de Keyston
 
 
 [role="lead"]
-La pestaña *Tendencia de consumo* muestra los datos históricos de tus suscripciones de Keystone durante un período específico.
+Para ayudarte a supervisar el uso de tu suscripción, puedes ver los datos históricos de tus suscripciones de Keystone durante un período de tiempo determinado.
 
 Los gráficos verticales muestran los detalles de uso del intervalo de tiempo seleccionado con los indicadores adecuados para que pueda comparar y generar informes.
 

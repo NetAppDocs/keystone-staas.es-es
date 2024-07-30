@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: concepts/qos.html 
 keywords: PSL and QoS, service level quality of service 
-summary: Calidad de servicio en Keystone 
+summary: Keystone utiliza la calidad de servicio de almacenamiento para garantizar que las aplicaciones obtienen un rendimiento previsible y constante. 
 ---
-= Calidad de servicio en Keystone
+= Calidad de servicio de almacenamiento en Keystone
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,9 @@ summary: Calidad de servicio en Keystone
 
 
 [role="lead"]
-La calidad de servicio (QoS) de almacenamiento es una tecnología vital que garantiza que las aplicaciones obtienen un rendimiento constante y predecible. Sin calidad de servicio, ciertas cargas de trabajo, como las para el arranque de varios sistemas, pueden consumir la mayoría o todos los recursos durante un período y afectar a las otras cargas de trabajo. Para obtener más información sobre QoS, consulte https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html["Garantice el rendimiento con información general de calidad de servicio"^].
+Keystone utiliza la calidad de servicio del almacenamiento para garantizar que las aplicaciones obtienen un rendimiento constante y previsible. Sin calidad de servicio, ciertas cargas de trabajo, como las para el arranque de varios sistemas, pueden consumir la mayoría o todos los recursos durante un período de tiempo y afectar a las otras cargas de trabajo.
+
+Para obtener información acerca de QoS, consulte https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html["Garantice el rendimiento con información general de calidad de servicio"^].
 
 
 

@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: concepts/components.html 
 keywords: infrastructure component, deployment requirement, installation requirement 
-summary: Componentes de la infraestructura 
+summary: Obtenga información sobre los componentes necesarios para habilitar los servicios de STaaS de NetApp Keystone en su entorno. 
 ---
-= Componentes para puesta en marcha
+= Componentes necesarios para el despliegue
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: Componentes de la infraestructura
 
 
 [role="lead"]
-En esta sección se enumeran los componentes necesarios para habilitar los servicios de recuperación ante desastres de NetApp Keystone en su entorno.
+Se necesitan varios componentes para habilitar los servicios de STaaS de NetApp Keystone en tu entorno. Es necesario revisar los detalles sobre estos componentes antes de comenzar.
 
 
 
@@ -56,13 +56,13 @@ NetApp puede proporcionar las especificaciones de requisitos de refrigeración (
 
 === Máquinas virtuales de almacenamiento
 
-Se requiere una máquina virtual de almacenamiento (VM de almacenamiento) para poner en marcha el recopilador Keystone y la puerta de enlace de la solución AIOPs. Los requisitos previos para instalar Keystone Collector están disponibles aquí: link:../installation/installation-overview.html["Guía de instalación para Keystone Collector"]. Los otros requisitos se comparten durante la puesta en marcha.
+Se requiere una máquina virtual de almacenamiento (VM de almacenamiento) para la puesta en marcha de Keystone Collector y la puerta de enlace de la solución AIOPs. Los requisitos previos para instalar Keystone Collector están disponibles aquí: link:../installation/installation-overview.html["Guía de instalación para Keystone Collector"]. Los otros requisitos se comparten durante la puesta en marcha.
 
 
 
 === Opciones de puesta en marcha
 
-Keystone Collector se puede poner en marcha mediante los siguientes métodos:
+Keystone Collector se puede implementar a través de los siguientes métodos:
 
 * Plantilla OVA de VMware (se requiere VMware vCenter Server 6.7 o posterior)
 * El cliente proporciona un servidor Linux Red Hat Enterprise Linux 7, 8 o CentOS 7. El software Keystone se instala mediante `.rpm` proceso de instalación.
@@ -84,7 +84,7 @@ La puerta de enlace de la solución AIOPs se implementa en la siguiente configur
 
 === Redes
 
-Se requiere acceso saliente a los siguientes servicios para operaciones y mantenimiento de la puerta de enlace de la solución Keystone Collector y AIOPs:
+Se requiere acceso saliente a los siguientes servicios para operaciones y mantenimiento de Keystone Collector y la puerta de enlace de la solución AIOPs:
 
 * support.netapp.com (carga de datos de uso)
 * keystone.netapp.com (actualizaciones de software)

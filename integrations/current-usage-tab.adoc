@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: integrations/current-usage-tab.html 
 keywords: keystone-aiq, digital advisor keystone, current consumption tab 
-summary: Pestaña Current Consumption en el panel de AIQ DA Keystone 
+summary: Para comprender el uso de su suscripción, puede ver la capacidad comprometida, la capacidad consumida, la capacidad disponible, etc. 
 ---
-= Pestaña Consumo actual
+= Ver el consumo actual de sus suscripciones
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: Pestaña Current Consumption en el panel de AIQ DA Keystone
 
 
 [role="lead"]
-La pestaña *Consumo actual* muestra los detalles de uso de tus suscripciones.
+Para comprender el uso de su suscripción, puede ver los detalles de uso como la capacidad comprometida, la capacidad consumida, la capacidad disponible y mucho más.
 
 Para ver esta pestaña, en el panel de navegación de la izquierda, vaya a *GENERAL > Suscripciones de Keystone > Consumo actual* y seleccione el número de suscripción requerido.
 
