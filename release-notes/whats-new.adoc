@@ -70,9 +70,9 @@ Los niveles de servicio *CVO Primario* y *CVO Secundario* se incluyen para admit
 
 
 
-=== Función de zoom para obtener información en microráfaga
+=== Función de zoom para ráfagas a corto plazo
 
-La pestaña *Capacity Trend* ahora incluye una función de zoom-in para ver los detalles de las subidas a corto plazo, conocidas como microexplosiones, en los gráficos de uso. Para obtener más información, consulte link:../integrations/capacity-trend-tab.html["Pestaña Capacity Trend"^].
+La pestaña *Capacity Trend* ahora incluye una función de zoom-in para ver los detalles de las ráfagas a corto plazo en los gráficos de uso. Para obtener más información, consulte link:../integrations/capacity-trend-tab.html["Pestaña Capacity Trend"^].
 
 
 

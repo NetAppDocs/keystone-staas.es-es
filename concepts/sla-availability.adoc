@@ -1,0 +1,151 @@
+---
+sidebar: sidebar 
+permalink: concepts/sla-availability.html 
+keywords: availability, sla, service level agreement, 
+summary: disponibilidad, sla, acuerdo de nivel de servicio 
+---
+= SLA de disponibilidad
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+El acuerdo de nivel de servicio de disponibilidad pretende un tiempo activo del 99,999 % durante un periodo de facturación de todas las cabinas de almacenamiento flash de NetApp ONTAP que se han implementado para entregar el pedido de Keystone.
+
+
+
+== Métricas
+
+* *Porcentaje de tiempo de actividad mensual* = [(número de segundos elegibles en un mes - promedio de segundos de tiempos de inactividad para todas las cabinas de almacenamiento de AFF implementadas para entregar el pedido de Keystone en ese mes) / número de segundos elegibles en un mes] x 100%
+* *Tiempo de inactividad*: El período de tiempo en que ambos controladores de un par dentro de una cabina de almacenamiento no están disponibles, según lo determinado por NetApp.
+* *Número de segundos elegible*: Estos son segundos en un mes que cuentan para el cálculo del tiempo de actividad. No incluye el período de tiempo en el que los servicios de STaaS no están disponibles debido al mantenimiento planificado, actualizaciones y actividades de soporte acordadas con NetApp o debido a circunstancias que están fuera del control o la responsabilidad de los servicios de NetApp o Keystone.
+
+
+
+
+== Niveles de servicio
+
+Todos los niveles de servicio compatibles con las cabinas de almacenamiento flash de ONTAP son elegibles para acuerdos de nivel de servicio de disponibilidad. Para obtener más información, consulte link:https://docs.netapp.com/us-en/keystone-staas/concepts/service-levels.html#service-levels-for-file-and-block-storage["Niveles de servicio en Keystone"].
+
+
+
+== Créditos de servicios
+
+Si la disponibilidad de las cabinas de almacenamiento flash de ONTAP para suscripciones válidas es inferior al objetivo de tiempo activo mensual del 99,999 % en el periodo de facturación, NetApp emitirá créditos de servicio de la siguiente manera:
+
+|===
+| *Tiempo de actividad mensual (menos de)* | *Crédito de servicio* 
+
+
+ a| 
+99.999%
+ a| 
+5%
+
+
+
+ a| 
+99.99%
+ a| 
+10%
+
+
+
+ a| 
+99.9%
+ a| 
+25%
+
+
+
+ a| 
+99.0%
+ a| 
+50%
+
+|===
+
+
+== Cálculo de crédito de servicio
+
+Los créditos de servicio se determinan mediante la siguiente fórmula:
+
+Créditos de servicio = (capacidad afectada / capacidad comprometida total) X tarifas por capacidad x porcentaje de crédito
+
+Donde:
+
+* *Capacidad afectada*: La cantidad de capacidad almacenada afectada.
+* *Capacidad total comprometida*: La capacidad comprometida para el nivel de servicio para el pedido de Keystone.
+* *Tasas por capacidad*: Las tasas por el nivel de servicio afectado para el mes.
+* *Porcentaje de crédito*: El porcentaje predeterminado para el crédito de servicio.
+
+
+*ejemplo*
+
+El siguiente ejemplo muestra el método de cálculo de los créditos de servicio:
+
+. Calcular el tiempo de actividad mensual para determinar el porcentaje de crédito de servicio :
++
+** Segundos elegibles en un mes de 30 días: 30 (días) X 24 (horas/día) X 60 (minutos/hora) X 60 (segundos/minuto) = 2.592.000 segundos
+** Tiempo de inactividad en segundos: 95 segundos
++
+Usando la fórmula: Porcentaje de tiempo de actividad mensual = [(2.592.000 - 95)/(2.592.000)] X 100
+
++
+Según el cálculo, el tiempo de actividad mensual será del 99,996 % y el porcentaje de crédito de servicio será del 5 %.
+
+
+
+. Calcule los créditos de servicio:
++
+|===
+
+
+| *Nivel de servicio* | *Capacidad impactada* | *Capacidad total comprometida* | *Tasas de capacidad* | *Porcentaje de crédito* 
+
+
+ a| 
+Extremo
+| 10 Tib durante 95 segundos | 100 Tib | $1000 | 5% 
+|===
++
+Usando la fórmula: Créditos de servicio = ( 10 / 100 ) X 1000 x 0,05
+
++
+Según el cálculo, los créditos de servicio serán de $5.
+
+
+
+
+
+== Solicitud de crédito de servicio
+
+Si se detecta una violación del acuerdo de nivel de servicio, abra un ticket de soporte de prioridad 3 (P3) con Keystone Global Services and Support Center (GSSC).
+
+* Los siguientes detalles son obligatorios:
++
+.. Número de suscripción de Keystone
+.. Detalles de los volúmenes y la controladora de almacenamiento
+.. Sitio, hora, fecha y descripción del problema
+.. Duración calculada de la detección de latencia
+.. Herramientas y métodos de medición
+.. Cualquier otro documento aplicable
+
+
+* Proporcione los detalles en la hoja de excel como se muestra a continuación para un ticket P3 abierto con Keystone GSSC.
++
+image:sla-breach.png["plantilla de hoja de excel"]
+
+
+
+[NOTE]
+====
+* Una solicitud de crédito de servicio debe iniciarse en el plazo de seis semanas después de que GSSC haya validado una infracción. Todos los créditos de servicios deben ser reconocidos y aprobados por NetApp.
+* Los créditos de servicio se pueden aplicar a una factura futura. Los créditos de servicio no se aplican a las suscripciones de Keystone que hayan vencido. Para obtener más información, consulte link:../concepts/gssc.html["Centro de soporte de servicios globales de NetApp"].
+
+
+====
