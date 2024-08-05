@@ -17,6 +17,9 @@ summary: sostenibilidad, sla, acuerdo de nivel de servicio
 NetApp Keystone ofrece una medida garantizada del número máximo de vatios reales por tebibyte (sin TiB) para los servicios de almacenamiento basados en cabinas de almacenamiento flash de ONTAP con el acuerdo de nivel de servicio Sustainability. El SLA de sostenibilidad define el consumo máximo de W/TiB para cada nivel de servicio elegible, lo que ayuda a las organizaciones a cumplir sus objetivos de sostenibilidad.
 
 
+NOTE: Los acuerdos de nivel de servicio y las garantías están disponibles según las nominaciones.
+
+
 
 == Métricas
 

@@ -17,6 +17,9 @@ summary: NetApp garantiza la recuperación de los datos de las copias snapshot d
 NetApp garantiza la recuperación de los datos de las copias snapshot desde volúmenes para el cumplimiento de normativas de SnapLock en caso de un ataque de ransomware con el programa de garantía de recuperación de ransomware. El Servicio de garantía de recuperación de ransomware de NetApp se requiere para admitir el programa de garantía de recuperación de ransomware y debe adquirirse por separado del pedido de Keystone asociado.
 
 
+NOTE: Los acuerdos de nivel de servicio y las garantías están disponibles según las nominaciones.
+
+
 
 == Niveles de servicio
 

@@ -17,6 +17,9 @@ summary: disponibilidad, sla, acuerdo de nivel de servicio
 El acuerdo de nivel de servicio de disponibilidad pretende un tiempo activo del 99,999 % durante un periodo de facturación de todas las cabinas de almacenamiento flash de NetApp ONTAP que se han implementado para entregar el pedido de Keystone.
 
 
+NOTE: Los acuerdos de nivel de servicio y las garantías están disponibles según las nominaciones.
+
+
 
 == Métricas
 

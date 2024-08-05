@@ -17,6 +17,9 @@ summary: sostenibilidad, sla, acuerdo de nivel de servicio
 NetApp Keystone ofrece un acuerdo de nivel de servicio basado en la latencia por nivel de servicio, como se describe en el orden Keystone para la capacidad consumida hasta el límite de ráfaga, de acuerdo con los siguientes términos y condiciones enumerados.
 
 
+NOTE: Los acuerdos de nivel de servicio y las garantías están disponibles según las nominaciones.
+
+
 
 == Métricas
 
