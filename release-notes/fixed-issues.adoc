@@ -22,6 +22,15 @@ Los problemas encontrados en versiones anteriores de los servicios de STaaS de N
 
 
  a| 
+La TUI de gestión del recopilador de Keystone deja de responder cuando se configuran las políticas de AQoS.
+ a| 
+Fija
+ a| 
+7 de agosto de 2024
+
+
+
+ a| 
 Los gráficos de uso muestran datos más allá del período de un solo día especificado cuando la fecha correspondiente al día actual se selecciona como fecha de inicio y de finalización del mes anterior desde la opción *Tendencia de capacidad* en la pestaña *Tendencias de capacidad*.
  a| 
 Los gráficos de uso ahora muestran correctamente los datos para el período de un solo día especificado.

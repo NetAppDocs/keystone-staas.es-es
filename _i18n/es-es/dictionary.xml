@@ -1496,13 +1496,7 @@ Los detalles de las suscripciones, los gráficos de uso de cada nivel de servici
   <block id="dbc8f427883e788403672a61fd4a8b14" category="list-text">Seleccione el número de suscripción. De forma predeterminada, se selecciona el primer número de suscripción disponible si la suscripción seleccionada anteriormente no incluye niveles de servicio tanto para el almacenamiento de archivos como de objetos.</block>
   <block id="8f0fe81a9b7f4cb142f2a7084f33fd88" category="inline-image-macro">Pestaña Objetos</block>
   <block id="ff86b04f28e9deb882d5f8b709958474" category="paragraph"><block ref="ff86b04f28e9deb882d5f8b709958474" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="965245bd249a1410397d5d87be0a0bd2" category="paragraph">Se informa del siguiente problema conocido:</block>
-  <block id="e83464ce8bd634efb1f099c956ec64a8" category="cell">Problema conocido</block>
-  <block id="b5a7adde1af5c87d7fd797b6245c2a39" category="cell">Descripción</block>
-  <block id="7aebfa1e2291377e040de92d7f7f335f" category="cell">Solución alternativa</block>
   <block id="d3be07034d0ea358558d4e2243a27e4a" category="paragraph">La TUI de gestión del recopilador de Keystone deja de responder cuando se configuran las políticas de AQoS.</block>
-  <block id="be4309ed72d89f7ccd2b196827e60e87" category="paragraph">Al intentar crear políticas de AQoS a través de la TUI, la TUI puede encontrar un problema y dejar de responder.</block>
-  <block id="1952ddeca0b71a5d88548a44205f2c9f" category="paragraph">Póngase en contacto con el soporte de NetApp.</block>
   <block id="e358ee99bcdc82fedabffa4fe9dda483" category="section-title">10 de julio de 2024</block>
   <block id="fff7af8a2fab8d84dd9f7858aff6d7d9" category="section-title">Modificaciones de etiquetas</block>
   <block id="6176afc8abbdfc6c0a7c0274a19d9ef8" category="paragraph">La etiqueta *Uso actual* se cambia a *Consumo actual* y *Tendencia de capacidad* se cambia a *Tendencia de consumo*.</block>
@@ -1771,4 +1765,6 @@ Los detalles de las suscripciones, los gráficos de uso de cada nivel de servici
   <block id="faeaec9eda6bc4c8cb6e1a9156a858be" category="sidebar">Disponibilidad</block>
   <block id="19bea5bec76c66ef8bd189aa23a4c860" category="sidebar">Sostenibilidad</block>
   <block id="0fa7096028e231171f86212b096254bd" category="admonition">Los acuerdos de nivel de servicio y las garantías están disponibles según las nominaciones.</block>
+  <block id="90c1605e73fc10bc5c46dc4183664885" category="paragraph">7 de agosto de 2024</block>
+  <block id="5b56041030df17cc6aeb8d87e04d16db" category="paragraph">No hay problemas conocidos en este momento.</block>
 </blocks>

@@ -16,18 +16,4 @@ summary: Los problemas conocidos identifican problemas que pueden impedirle usar
 [role="lead"]
 Los problemas conocidos identifican problemas que pueden impedirle usar de forma efectiva los servicios de suscripción de Keystone.
 
-Se informa del siguiente problema conocido:
-
-[cols="3*"]
-|===
-| Problema conocido | Descripción | Solución alternativa 
-
-
- a| 
-La TUI de gestión del recopilador de Keystone deja de responder cuando se configuran las políticas de AQoS.
- a| 
-Al intentar crear políticas de AQoS a través de la TUI, la TUI puede encontrar un problema y dejar de responder.
- a| 
-Póngase en contacto con el soporte de NetApp.
-
-|===
+No hay problemas conocidos en este momento.
