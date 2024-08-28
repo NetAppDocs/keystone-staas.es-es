@@ -1767,4 +1767,31 @@ Los detalles de las suscripciones, los gráficos de uso de cada nivel de servici
   <block id="0fa7096028e231171f86212b096254bd" category="admonition">Los acuerdos de nivel de servicio y las garantías están disponibles según las nominaciones.</block>
   <block id="90c1605e73fc10bc5c46dc4183664885" category="paragraph">7 de agosto de 2024</block>
   <block id="5b56041030df17cc6aeb8d87e04d16db" category="paragraph">No hay problemas conocidos en este momento.</block>
+  <block id="1e4eb13a6a1b07eeb2e7895fbc7a1bb1" category="section-title">Crear niveles de servicio de rendimiento</block>
+  <block id="5053594f32aa62a7113e670df7c0dcf6" category="paragraph">Puede crear niveles de servicio de rendimiento (PSL) con la utilidad TUI de gestión de Keystone Collector. La creación de LPS a través de la TUI selecciona automáticamente los valores predeterminados establecidos para cada nivel de servicio, lo que reduce la posibilidad de que se produzcan errores al definir manualmente estos valores mientras se crean LPS a través de Active IQ Unified Manager.</block>
+  <block id="9dc46e9b8e8e3325a5f950ba6b189e61" category="inline-link-macro">Niveles de servicio de rendimiento</block>
+  <block id="30b9ea415acabd68ca478ac9f480dcc4" category="paragraph">Para obtener más información sobre PSL, consulte <block ref="618fbf54ef577c932e12b764c4672483" category="inline-link-macro-rx"></block>.</block>
+  <block id="3366047110e1d4df81bd4a3c7e56a81a" category="paragraph">Para obtener más información sobre los niveles de servicio, consulte <block ref="65aad034e764c488cc9555200d7886f8" category="inline-link-macro-rx"></block>.</block>
+  <block id="754f3f64186991aaafd04c50afc33fb9" category="list-text">Vaya a *Configure&gt;AIQUM* para abrir la pantalla de AIQUM.</block>
+  <block id="820f541e6131074b12653bbfb5e98b09" category="list-text">Active la opción *Crear perfiles de rendimiento AIQUM*.</block>
+  <block id="a7fedce0e566016c4bf5bca06e58e7e3" category="list-text">Introduzca los detalles del servidor Active IQ Unified Manager y la cuenta de usuario. Estos detalles son necesarios para crear PSL y no se almacenarán.</block>
+  <block id="0cae276070a3b9dc1d52e1054be203d8" category="inline-image-macro">Pantalla TUI para introducir los detalles del servidor AIQUM y la cuenta de servicio</block>
+  <block id="a340f4e56ce95ec64b455e8f0d0011b3" category="paragraph"><block ref="a340f4e56ce95ec64b455e8f0d0011b3" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="03336d42dcb5f12fad5c27a77d7fc3bb" category="list-text">Para *Seleccione la versión de Keystone*, seleccione<block ref="c26733d354ae6936934c7e8958092daa" prefix=" " category="inline-code"></block>.</block>
+  <block id="0e6957f023ba901638c8f4ab7d0fbcec" category="list-text">Pulse Intro. Se muestra un cuadro de diálogo para seleccionar la versión de Keystone.</block>
+  <block id="921dbe2a6293b980a37507e9b0ef99c9" category="list-text">Resalte *STaaS* para especificar la versión de Keystone para STaaS de Keystone y, a continuación, presione Intro.</block>
+  <block id="fcb2a80e16744614cdf6c2f2f82c4e2e" category="inline-image-macro">Pantalla de TUI para especificar la versión de Keystone</block>
+  <block id="1e2d635219881df0b1d0ff05ce928dde" category="paragraph"><block ref="1e2d635219881df0b1d0ff05ce928dde" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0d93cccfc0748834998c1743a905f0d3" category="admonition">Puedes resaltar la opción *KFS* para los servicios de suscripción de Keystone versión 1. Los servicios de suscripción de Keystone son diferentes de STaaS de Keystone en los niveles de servicio constituyentes, ofertas de servicio y principios de facturación. Para obtener más información, consulte <block ref="28860fa9118cfd783678772e54f9b578" category="inline-link-macro-rx"></block>.</block>
+  <block id="5a8df8e784147e10e20a7f96a1911ce8" category="list-text">Todos los niveles de servicio de Keystone compatibles se mostrarán dentro de la opción *Seleccionar niveles de servicio de Keystone* para la versión de Keystone especificada. Habilite los niveles de servicio que desee en la lista.</block>
+  <block id="6792bca92745749645838a609966a8c2" category="inline-image-macro">Pantalla de TUI para mostrar todos los niveles de servicio de Keystone compatibles</block>
+  <block id="40107ce73af0b4c30bdedbdec9454440" category="paragraph"><block ref="40107ce73af0b4c30bdedbdec9454440" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="be76688bb0584656dac7cefe07517b47" category="admonition">Puede seleccionar varios niveles de servicio simultáneamente para crear PSL.</block>
+  <block id="18e5eacb4fdad1ff92aee1fb4f0f41cc" category="list-text">Seleccione *Guardar* y presione Intro. Se crearán niveles de servicio de rendimiento.</block>
+  <block id="0e0dd84db86e72ae77b4739377c3a4e1" category="inline-link-macro">Creación y edición de niveles de servicio de rendimiento</block>
+  <block id="be298fbf55a1c81157761b8b02a6d696" category="paragraph">Puedes ver las PSL creadas, como Premium-KS-STaaS para STaaS o Extreme KFS para KFS, en la página *Niveles de servicio de rendimiento* en Active IQ Unified Manager. Si las PSL creadas no cumplen con sus requisitos, puede modificar las PSL para satisfacer sus necesidades. Para obtener más información, consulte <block ref="84f3a19cf4d829ad37ba5eddb2b177a0" category="inline-link-macro-rx"></block>.</block>
+  <block id="e481e00ab54faed62b9dea98ed860aea" category="inline-image-macro">Captura de pantalla de la interfaz de usuario para mostrar las políticas de AQoS creadas</block>
+  <block id="43b019fa12d041b6c5cbfe89c5f52205" category="paragraph"><block ref="43b019fa12d041b6c5cbfe89c5f52205" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="86e86c82820734a68c07adc56b6390a2" category="inline-image-macro">Pantalla de TUI para mostrar el mensaje de error para la creación de políticas</block>
+  <block id="224dfc2fadc284cf45249b5ddb7bc7cd" category="admonition">Si ya existe un PSL para el nivel de servicio seleccionado en el servidor de Active IQ Unified Manager especificado, no podrá volver a crearlo. Si intenta hacerlo, recibirá un mensaje de error. <block ref="b503f359d5754d7d4260112bc56a05d7" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>
