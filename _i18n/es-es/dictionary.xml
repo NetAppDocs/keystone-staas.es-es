@@ -119,7 +119,6 @@
   <block id="963d08ca263f6cd538d14c2e7f2ec229" category="inline-link">Reiniciar Unified Manager</block>
   <block id="f0534e91aef6ef17323964d9d72a8ced" category="inline-link">Reiniciar la máquina virtual de Unified Manager</block>
   <block id="2f0d22e6971fda1cbc3411961fec8360" category="doc">Requisitos de infraestructura virtual</block>
-  <block id="080838bb01c5d3b3c97a54a92d98023d" category="list-text">Sistema operativo: VMware vCenter Server y ESXi 6.5 o posterior</block>
   <block id="b44055e981e64c62a3ac7b6994a3f19b" category="doc">Configure Keystone Collector</block>
   <block id="3d3aea279fd0dfc2c6c0a6f4af62eaf7" category="list-text">Salga de la TUI de gestión de Keystone Collector seleccionando la opción **salir a Shell** en la pantalla de inicio.</block>
   <block id="08762317d694c743ae82817d9e878a50" category="section-title">Configure el proxy HTTP en el colector de Keystone</block>
@@ -1794,4 +1793,5 @@ Los detalles de las suscripciones, los gráficos de uso de cada nivel de servici
   <block id="43b019fa12d041b6c5cbfe89c5f52205" category="paragraph"><block ref="43b019fa12d041b6c5cbfe89c5f52205" category="inline-image-macro-rx" type="image"></block></block>
   <block id="86e86c82820734a68c07adc56b6390a2" category="inline-image-macro">Pantalla de TUI para mostrar el mensaje de error para la creación de políticas</block>
   <block id="224dfc2fadc284cf45249b5ddb7bc7cd" category="admonition">Si ya existe un PSL para el nivel de servicio seleccionado en el servidor de Active IQ Unified Manager especificado, no podrá volver a crearlo. Si intenta hacerlo, recibirá un mensaje de error. <block ref="b503f359d5754d7d4260112bc56a05d7" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1b787eed58abedc58337d9fef037fb67" category="list-text">Sistema operativo: VMware vCenter Server y ESXi 6.7 o posterior</block>
 </blocks>
