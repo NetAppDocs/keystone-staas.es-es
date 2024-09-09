@@ -1794,4 +1794,6 @@ Los detalles de las suscripciones, los gráficos de uso de cada nivel de servici
   <block id="86e86c82820734a68c07adc56b6390a2" category="inline-image-macro">Pantalla de TUI para mostrar el mensaje de error para la creación de políticas</block>
   <block id="224dfc2fadc284cf45249b5ddb7bc7cd" category="admonition">Si ya existe un PSL para el nivel de servicio seleccionado en el servidor de Active IQ Unified Manager especificado, no podrá volver a crearlo. Si intenta hacerlo, recibirá un mensaje de error. <block ref="b503f359d5754d7d4260112bc56a05d7" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1b787eed58abedc58337d9fef037fb67" category="list-text">Sistema operativo: VMware vCenter Server y ESXi 6.7 o posterior</block>
+  <block id="f7e13857abd03bc318b89fe886669d7d" category="paragraph">El campo *Desde Fecha* para seleccionar el rango de fechas muestra una fecha futura de forma predeterminada al navegar a la pestaña *Tendencia de consumo*.</block>
+  <block id="443c63f2975d5902a80f1597e417d9f2" category="paragraph">4 de septiembre de 2024</block>
 </blocks>

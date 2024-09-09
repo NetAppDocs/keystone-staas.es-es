@@ -22,6 +22,15 @@ Los problemas encontrados en versiones anteriores de los servicios de STaaS de N
 
 
  a| 
+El campo *Desde Fecha* para seleccionar el rango de fechas muestra una fecha futura de forma predeterminada al navegar a la pestaña *Tendencia de consumo*.
+ a| 
+Fija
+ a| 
+4 de septiembre de 2024
+
+
+
+ a| 
 La TUI de gestión del recopilador de Keystone deja de responder cuando se configuran las políticas de AQoS.
  a| 
 Fija
