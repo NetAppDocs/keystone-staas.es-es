@@ -1,0 +1,109 @@
+---
+sidebar: sidebar 
+permalink: dark-sites/configure-collector.html 
+keywords: configure, keystone, collector, private mode, darksite mode, tui utility 
+summary: Complete algunas tareas de configuración para permitir que Keystone Collector recopile datos de uso en un entorno que no tenga acceso a Internet, también conocido como _sitio oscuro_ o _modo privado_. 
+---
+= Configura Keystone Collector en modo privado
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Complete algunas tareas de configuración para permitir que Keystone Collector recopile datos de uso en un entorno que no tenga acceso a Internet, también conocido como _sitio oscuro_ o _modo privado_. Se trata de una actividad única para activar y asociar los componentes requeridos con su entorno de almacenamiento. Una vez que se haya configurado, Keystone Collector supervisará todos los clústeres ONTAP que gestione Active IQ Unified Manager.
+
+
+NOTE: Keystone Collector ofrece la utilidad Interfaz de usuario del terminal (TUI) de gestión de recopiladores de Keystone para realizar actividades de configuración y supervisión. Puede usar varios controles del teclado, como las teclas Entrar y flecha, para seleccionar las opciones y navegar por esta TUI.
+
+.Pasos
+. Inicie la utilidad TUI de gestión de Keystone Collector:
++
+`keystone-collector-tui`
+
+. Vaya a *Configure > Advanced*.
+. Alterna la opción *Modo Darksite*.
++
+image:dark-site-mode-1.png["Modo Darksite"]
+
+. Seleccione *Guardar*.
+. Ve a *Configure > KS-Collector* para configurar Keystone Collector.
+. Alterne el campo *Start KS Collector with System*.
+. Alterne el campo *Recoger uso de ONTAP*. Añada los detalles del servidor y la cuenta de usuario de Active IQ Unified Manager (Unified Manager).
+. *Opcional*: Alterna el campo *Utilizando Planes de Tasa de Niveles* si se requiere la organización de datos en niveles para la suscripción.
++
+En función del tipo de suscripción comprado, actualice el *Tipo de uso*.
+
++
+
+NOTE: Antes de configurar, confirme el tipo de uso asociado a la suscripción de NetApp.
+
++
+image:dark-site-usage-type-1.png["Opción de tipo de uso"]
+
+. Seleccione *Guardar*.
+. Vaya a *Configure > KS-Collector* para generar el par de claves de Keystone Collector.
+. Vaya a *Encryption Key Manager* y presione Enter.
++
+image:dark-site-encryption-key-manager-1.png["Opción de gestor de claves de cifrado"]
+
+. Seleccione *Generar par de claves de recopilador* y presione Intro.
++
+image:dark-site-generate-collector-keypair-1.png["Opción Generar par de claves de recopilador"]
+
+. Asegúrese de que el recopilador Keystone esté en buen estado volviendo a la pantalla principal de la TUI y verificando la información de *Estado del servicio*. El sistema debe mostrar que los servicios están en un estado *general: Saludable*. Espere hasta 10 minutos, si el estado general no es correcto después de este período, revise los pasos de configuración anteriores y póngase en contacto con el equipo de soporte de NetApp.
++
+image:dark-site-overall-healthy-1.png["Estado del servicio"]
+
+. Salga de la TUI de administración de Keystone Collector seleccionando la opción *Salir a Shell* en la pantalla de inicio.
+. Recupere la clave pública generada:
++
+`~/collector-public.pem`
+
+. Envíe un correo electrónico con este archivo a keystone.services@NetApp.com.
+
+
+
+
+== Exportar informe de uso
+
+Debe enviar el informe de resumen de uso mensual a NetApp al final de cada mes. Este informe se puede generar manualmente.
+
+Siga estos pasos para generar el informe de uso:
+
+. Vaya a *Export Usage* en la pantalla de inicio de Keystone Collector TUI.
+. Recoja los archivos y envíelos a keystone.services@NetApp.com.
++
+Keystone Collector genera tanto un archivo transparente como un archivo cifrado, que se debe enviar manualmente a NetApp. El informe de borrado de archivos contiene los siguientes detalles que puede validar el cliente.
+
++
+image:dark-site-clear-file-report-1.png["Borrar informe de archivo"]
+
+
+
+
+
+== Actualice ONTAP
+
+Keystone Collector admite actualizaciones de ONTAP a través de TUI.
+
+Siga estos pasos para actualizar ONTAP:
+
+. Vaya a *Mantenimiento > Servidor web de actualización de ONTAP*.
+. Copie el archivo de imagen de actualización de ONTAP a */opt/NetApp/ONTAP-upgrade/* y, a continuación, seleccione *Iniciar servidor web* para iniciar el servidor web.
++
+image:dark-site-start-webserver-1.png["Inicie la opción Servidor web"]
+
+. Vaya a http://<collector-ip>:8000[] Uso de un navegador web para obtener asistencia sobre la actualización.
+
+
+
+
+== Reinicia Keystone Collector
+
+Puede reiniciar el servicio Keystone Collector a través de la TUI. Vaya a *Maintenance > Restart Collector* Services en TUI. Esto reiniciará todos los servicios de recopilador y su estado se puede supervisar desde la pantalla de inicio de TUI.
+
+image:dark-site-restart-collector-services-1.png["Opción Reiniciar Servicios de Recopilador"]

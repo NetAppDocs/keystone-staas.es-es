@@ -16,9 +16,13 @@ summary: Una configuración completa para permitir que Keystone Collector recopi
 [role="lead"]
 Debe realizar algunas tareas de configuración para permitir a Keystone Collector recopilar datos de uso en su entorno de almacenamiento. Se trata de una actividad única para activar y asociar los componentes requeridos con su entorno de almacenamiento.
 
+[NOTE]
+====
+* Keystone Collector ofrece la utilidad Interfaz de usuario del terminal (TUI) de gestión de recopiladores de Keystone para realizar actividades de configuración y supervisión. Puede usar varios controles del teclado, como las teclas Entrar y flecha, para seleccionar las opciones y navegar por esta TUI.
+* Keystone Collector se puede configurar para organizaciones que no tienen acceso a Internet, también conocido como _dark site_ o _private mode_. Si desea obtener más información acerca de, consulte link:../dark-sites/overview.html["Keystone en modo privado"].
 
-NOTE: Keystone Collector ofrece la utilidad Interfaz de usuario del terminal (TUI) de gestión de recopiladores de Keystone para realizar actividades de configuración y supervisión. Puede usar varios controles del teclado, como las teclas Entrar y flecha, para seleccionar las opciones y navegar por esta TUI.
 
+====
 .Pasos
 . Inicie la utilidad TUI de gestión de Keystone Collector:
 `$ keystone-collector-tui`

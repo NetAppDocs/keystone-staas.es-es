@@ -1,0 +1,62 @@
+---
+sidebar: sidebar 
+permalink: dark-sites/install-collector.html 
+keywords: install, keystone, collector, private, mode, vmware vsphere, linux, deploy, debian, rpm file 
+summary: Complete algunos pasos para instalar Keystone Collector en un entorno que no tenga acceso a Internet, también conocido como _dark site_ o _private mode_. 
+---
+= Instale Keystone Collector en modo privado
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Complete algunos pasos para instalar Keystone Collector en un entorno que no tenga acceso a Internet, también conocido como _dark site_ o _private mode_. Este tipo de instalación es perfecta para sus sitios seguros.
+
+Puede implementar Keystone Collector en sistemas VMware vSphere o instalarlo en sistemas Linux, según cuáles sean sus requisitos. Siga los pasos de instalación que corresponden a la opción seleccionada.
+
+
+
+== Ponga en marcha sus operaciones en VMware vSphere
+
+Siga estos pasos:
+
+. Descargue el archivo de plantilla OVA de https://keystone.netapp.com/downloads/KeystoneCollector-latest.ova["Portal web de NetApp Keystone"].
+. Para conocer los pasos para implementar el recopilador Keystone con un archivo OVA, consulte la sección link:../installation/vapp-installation.html#deploying-the-ova-template["Despliegue de la plantilla OVA"].
+
+
+
+
+== Instalar en Linux
+
+El software Keystone Collector se instala en el servidor Linux mediante los archivos .deb o .rpm proporcionados, según la distribución de Linux.
+
+Siga estos pasos para instalar el software en su servidor Linux:
+
+. Descargue o transfiera el archivo de instalación de Keystone Collector al servidor Linux:
++
+`keystone-collector-<version>.noarch.rpm`
+
+. Abra un terminal en el servidor y ejecute los siguientes comandos para comenzar la instalación.
++
+** *Usando el paquete Debian*
++
+`dpkg -i keystone-collector_<version>_all.deb`
+
+** *Utilizando el archivo RPM*
++
+`yum install keystone-collector-<version>.noarch.rpm`
+
++
+o.
+
++
+`rpm -i keystone-collector-<version>.noarch.rpm`
+
+
+
+. Introduzca `y` cuando se le solicite instalar el paquete.
+
