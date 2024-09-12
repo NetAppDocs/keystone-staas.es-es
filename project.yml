@@ -138,6 +138,21 @@ sidebar:
       url: "/dark-sites/configure-collector.html"
     - title: Supervisa el estado del recopilador de Keystone
       url: "/dark-sites/monitor.html"
+  - title: Acceda a Keystone desde la API de REST del asesor digital
+    entries:
+    - title: Empieza a usar la API REST del asesor digital para recuperar los datos
+        de Keystone
+      url: "/rest-api/retrieve-keystone-data-with-digital-advisor-rest-api.html"
+    - title: Generar tokens de refrescamiento y acceso
+      url: "/rest-api/generate-tokens.html"
+    - title: Obtenga una lista de todos los clientes que usan la API REST del asesor
+        digital
+      url: "/rest-api/get-customer-list.html"
+    - title: Obtenga suscripciones de clientes con la API REST del asesor digital
+      url: "/rest-api/get-customer-subscriptions.html"
+    - title: Obtenga información sobre el consumo de los clientes con la API REST
+        del asesor digital
+      url: "/rest-api/get-customer-consumption.html"
   - title: Facturación
     entries:
     - title: Precios Keystone

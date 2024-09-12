@@ -1,0 +1,172 @@
+---
+sidebar: sidebar 
+permalink: rest-api/get-customer-consumption.html 
+keywords: api, consumption, subscriptions, customerID, keystone 
+summary: Esta API recupera los detalles de consumo actual de todas las suscripciones asociadas al ID de cliente especificado. 
+---
+= Obtenga información sobre el consumo de los clientes con la API REST del asesor digital
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Esta API recupera los detalles de consumo actual de todas las suscripciones asociadas al ID de cliente especificado.
+
+*Solicitud:*
+
+[cols="24%,76%"]
+|===
+
+
+| *Método* | OBTENGA 
+
+
+| *Endpoint* | https://api.activeiq.netapp.com/v1/keystone/customer/consumption-details[] 
+
+
+| *Parámetros*  a| 
+* tipo: «cliente»
+* id: <customer-id>
+
+
+
+
+| * Cabeceras*  a| 
+* aceptar: aplicación/json
+* Autorización: <access_key>
+
+
+|===
+*Respuesta:* La API responderá con un objeto JSON que contiene una lista de todas las suscripciones con las métricas de uso del servicio actuales para el cliente dado. He aquí un ejemplo de respuesta:
+
+[listing]
+----
+{
+"result":  {
+"returned_records": "string",
+"records": [
+{
+"subscription":  {
+"account_name": "string",
+"number": "string",
+"start_date": "string",
+"end_date": "string"
+},
+"service_levels": [
+{
+"name": "string",
+"committed_tib": "string",
+"consumed_tib": "string",
+"consumed_timestamp_utc": "string",
+"burst_tib": "string",
+"accrued_burst_tib": "string"
+}
+]
+}
+],
+"request_id": "string",
+"response_time": "string"
+}
+}
+----
+*Código de estado*: 200 – Solicitud exitosa
+
+*Ejemplo de Curl*:
+
+[source, curl]
+----
+curl -X 'GET' \ 'https://api.activeiq.netapp.com/v1/keystone/customer/consumption-details?type=customer&id=<customerID>' \ -H 'accept: application/json' \ -H 'authorizationToken: <access-key>'
+----
+
+
+== Obtener los detalles históricos de consumo de un cliente
+
+Esta API recupera los detalles de consumo histórico de todas las suscripciones asociadas al ID de cliente especificado según el rango de tiempo especificado.
+
+*Solicitud:*
+
+[cols="24%,76%"]
+|===
+
+
+| *Método* | OBTENGA 
+
+
+| *Endpoint* | https://api.activeiq.netapp.com/v1/keystone/customer/historical-consumption-details[] 
+
+
+| *Parámetros*  a| 
+* tipo: «cliente»
+* id: <customer-id>
+* From_DATE_utc: <fecha de inicio(en formato RFC3339)>
+* To_DATE_utc: <fecha de finalización(en formato RFC3339)>
+
+
+
+
+| * Cabeceras*  a| 
+* aceptar: aplicación/json
+* Autorización: <access_key>
+
+
+|===
+*Respuesta:*
+
+La API responderá con un objeto JSON que contiene una lista de todas las suscripciones con las métricas de uso de servicio histórico para el cliente dado en el intervalo de tiempo seleccionado. He aquí un ejemplo de respuesta:
+
+[listing]
+----
+{
+"results":  {
+"returned_records": 0,
+"records": [
+{
+"subscription":  {
+"account_name": "string",
+"number": "string",
+"start_date": "2023-08-24T14:15:22Z",
+"end_date": "2023-08-24T14:15:22Z"
+},
+"service_levels": [
+{
+"name": "string",
+"historical_consumption": [
+{
+"committed_tib": 0,
+"consumed_tib": 0,
+"timestamp_utc": "2023-08-24T14:15:22Z",
+"burst_tib": 0,
+"accrued_burst_tib": 0,
+"is_invoiced": true
+}
+]
+}
+]
+}
+],
+"request_parameters":  {
+"from_date_utc": "2023-08-24",
+"to_date_utc": "2023-08-24",
+"customer_id": "string"
+},
+"request_id": "string",
+"response_time": "string",
+"customer":  {
+"name": "string",
+"id": "string"
+}
+}
+}
+----
+*Código de estado*: 200 – Solicitud exitosa
+
+*Ejemplo de Curl*:
+
+[source, curl]
+----
+curl -X 'GET' \ 'https://api.activeiq-stg.netapp.com/v1/keystone/customer/historical-consumption-details? type=customer&id=<customerID>&from_date_utc=2023-08-24T14%3A15%3A22Z&t _date_utc=2023-08-24T14%3A15%3A22Z' \ -H 'accept: application/json' \ -H 'authorizationToken: <access-key>'
+----

@@ -52,22 +52,22 @@ Ocasionalmente, ONTAP crea volúmenes temporales (TMP) al mover volúmenes. Esto
 
 == Facturación y políticas de calidad de servicio adaptativas
 
-Keystone mide el consumo según los niveles de servicio. Cada nivel de servicio está asociado a una política de calidad de servicio (QoS) adaptable específica. Durante la implementación, recibirá un informe de los detalles de cada política de calidad de servicio para los servicios de Keystone que haya suscrito. Durante las operaciones de administración del almacenamiento, asegúrese de que sus volúmenes tengan asignadas políticas de calidad de servicio adecuadas según los niveles de servicio suscritos, para evitar costes inesperados de facturación. Para obtener más información sobre las políticas de calidad de servicio en ONTAP, consulte link:https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html["Garantice el rendimiento con información general de calidad de servicio"^].
+Keystone mide el consumo en función de los niveles de servicio. Cada nivel de servicio está asociado a una política de calidad de servicio (QoS) adaptable específica. Durante la implementación, se le informarán de los detalles de cada política de calidad de servicio adaptativa de los servicios de Keystone suscritos. Durante las operaciones de gestión del almacenamiento, asegúrese de que los volúmenes tengan asignadas las políticas de calidad de servicio adaptativas adecuadas según sus niveles de servicio suscritos para evitar una facturación inesperada. Para obtener más información sobre las políticas de calidad de servicio adaptativas en ONTAP, consulte link:https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html["Garantice el rendimiento con información general de calidad de servicio"^].
 
 
 
 == Facturación de destinos de SnapMirror
 
-El precio del volumen de destino de SnapMirror depende de la política de calidad de servicio para el nivel de servicio asignado en el origen. Sin embargo, si el origen no tiene una política de calidad de servicio asociada, el destino se factura en función del nivel de servicio disponible más bajo.
+El precio del volumen de destino de SnapMirror se rige por la política de calidad de servicio adaptativa correspondiente al nivel de servicio asignado en el origen. Sin embargo, si el origen no tiene una política de calidad de servicio adaptativa asociada, el destino se factura en función del nivel de servicio más bajo disponible.
 
 
 
 == Facturación para LUN
 
-Para las LUN, el mismo patrón de facturación se seguido del de los volúmenes regulados por las políticas de calidad de servicio. Si se establecen políticas de calidad de servicio independientes en las LUN, realice lo siguiente:
+Para las LUN, se sigue el mismo patrón de facturación que para los volúmenes que se rigen por las políticas de calidad de servicio adaptativas. Si se establecen políticas de calidad de servicio adaptativas independientes en las LUN, realice lo siguiente:
 
 * El tamaño de la LUN se cuenta para su consumo en función del nivel de servicio asociado de esa LUN.
-* El resto del espacio del volumen, si lo hay, se cargará según la política de calidad de servicio del nivel de servicio establecido en el volumen.
+* El resto del espacio del volumen, si corresponde, se carga según la política de calidad de servicio adaptativa del nivel de servicio establecido en el volumen.
 
 
 
