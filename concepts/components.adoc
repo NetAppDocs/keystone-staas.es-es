@@ -65,7 +65,7 @@ Se requiere una máquina virtual de almacenamiento (VM de almacenamiento) para l
 Keystone Collector se puede implementar a través de los siguientes métodos:
 
 * Plantilla OVA de VMware (se requiere VMware vCenter Server 6.7 o posterior)
-* El cliente proporciona un servidor Linux Red Hat Enterprise Linux 7, 8 o CentOS 7. El software Keystone se instala mediante `.rpm` proceso de instalación.
+* El cliente proporciona un servidor Linux que se ejecute en Red Hat Enterprise Linux 8,6 o versiones posteriores 8.x o CentOS 7. El software Keystone se instala mediante `.rpm` el proceso de instalación.
 
 
 La puerta de enlace de la solución AIOPs se implementa en la siguiente configuración:
@@ -84,12 +84,7 @@ La puerta de enlace de la solución AIOPs se implementa en la siguiente configur
 
 === Redes
 
-Se requiere acceso saliente a los siguientes servicios para operaciones y mantenimiento de Keystone Collector y la puerta de enlace de la solución AIOPs:
-
-* support.netapp.com (carga de datos de uso)
-* keystone.netapp.com (actualizaciones de software)
-* Hub.Docker.io (actualizaciones de software)
-
+El acceso saliente a _keystone.NetApp.com_ es necesario para las actualizaciones de software y las cargas de datos de uso, que son esenciales para el funcionamiento y el mantenimiento de la puerta de enlace de la solución Keystone Collector y AIOps.
 
 En función de los requisitos del cliente y de las controladoras de almacenamiento utilizadas, NetApp puede proporcionar conectividad de 10 GB, 40 GB y 100 GB en las instalaciones del cliente.
 

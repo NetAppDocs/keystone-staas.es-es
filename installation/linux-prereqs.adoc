@@ -19,7 +19,7 @@ La preparación de su sistema Linux con el software necesario garantiza una inst
 Asegúrese de que su máquina virtual del servidor de recopilador de Linux y Keystone tenga estas configuraciones.
 
 .Servidor Linux:
-* Sistema operativo: CentOS 7 o Red Hat Enterprise Linux 8.6 o posterior
+* Sistema operativo: CentOS 7 o Red Hat Enterprise Linux (RHEL) 8,6, o versiones posteriores de la serie RHEL 8.x.
 * Hora cronyd sincronizada
 * Acceso a los repositorios de software estándar de Linux
 
