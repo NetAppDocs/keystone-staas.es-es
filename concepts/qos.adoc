@@ -43,13 +43,13 @@ La configuración de calidad de servicio adaptativa (AQoS) varía según los niv
 | *Nombre de la política* | *Extremo* | *Premium* | *Rendimiento* | *Estándar* | *Valor* 
 
 
-| *IOPS esperado* | 6,144 | 2,048 | 1,024 | 256 | 64 
+| *IOPS/TiB esperados* | 6,144 | 2,048 | 1,024 | 256 | 64 
 
 
 | *Asignación de IOPS esperada* 5+| Espacio asignado 
 
 
-| *Peak IOPS* | 12,288 | 4,096 | 2,048 | 512 | 128 
+| * Máximo de IOPS/TiB* | 12,288 | 4,096 | 2,048 | 512 | 128 
 
 
 | *Asignación de IOPS pico* 5+| El espacio utilizado 
@@ -65,8 +65,8 @@ Puede configurar las políticas de calidad de servicio adaptativas (AQoS) para e
 
 * *Nombre del grupo de políticas*: Nombre del grupo de políticas AQoS. Por ejemplo: `Keystone_extreme`.
 * *VServer*: El nombre del VServer o del VM de almacenamiento (máquina virtual de almacenamiento).
-* *IOPS esperadas*: El número mínimo de IOPS, por TiB asignado por volumen, que el sistema intenta proporcionar cuando hay suficientes IOPS del sistema disponibles.
-* *Peak IOPS*: El número máximo de IOPS, por TiB usado por volumen, que el sistema permite que el volumen alcance antes de regular la IOPS mediante la inyección de latencia.
+* *Expected IOPS/TiB*: El número mínimo de IOPS, por TiB asignado por volumen, que el sistema intenta proporcionar cuando hay suficientes IOPS del sistema disponibles.
+* *Peak IOPS/TiB*: El número máximo de IOPS, por TiB usado por volumen, que el sistema permite alcanzar el volumen antes de que regule la IOPS mediante la inyección de latencia.
 * *Asignación de IOPS esperada*: Este parámetro controla si la IOPS esperada disponible para el volumen se basa en el tamaño asignado o utilizado del volumen. En Keystone, se basa en el espacio asignado.
 * *Asignación de IOPS pico*: Este parámetro controla si el valor máximo de IOPS disponible para el volumen se basa en el tamaño asignado o utilizado del volumen. En Keystone, se basa en el espacio usado.
 * *IOPS mínimo absoluto*: El número más bajo de IOPS esperadas que se aplicará a un volumen si el tamaño del volumen es muy pequeño y, de lo contrario, resultaría en un número inaceptable de IOPS. De forma predeterminada, este valor es 1,000 para `Extreme`, 500 para `Premium`, y 250 para `Performance`, y 75 para `Standard` y.. `Value` niveles de servicio.

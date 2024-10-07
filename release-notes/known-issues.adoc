@@ -10,7 +10,7 @@ summary: Los problemas conocidos identifican problemas que pueden impedirle usar
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

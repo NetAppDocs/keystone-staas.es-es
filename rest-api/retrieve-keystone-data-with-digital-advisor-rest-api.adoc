@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: rest-api/retrieve-keystone-data-with-digital-advisor-rest-api.html 
-keywords: Keystone, ActiveIQ Digital Advisor, APIs, programmatic interface 
-summary: Las API del asesor digital ActiveIQ de NetApp Keystone proporcionan una interfaz programática para recuperar métricas y detalles de servicio de Keystone. 
+keywords: Keystone, Active IQ, Digital Advisor, APIs, programmatic interface 
+summary: Las API del asesor digital proporcionan una interfaz programática para recuperar métricas y detalles del servicio de Keystone. 
 ---
 = Empieza a usar la API REST del asesor digital para recuperar los datos de Keystone
 :hardbreaks:

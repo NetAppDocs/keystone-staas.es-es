@@ -10,7 +10,7 @@ summary: Los problemas encontrados en versiones anteriores de los servicios de S
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]
