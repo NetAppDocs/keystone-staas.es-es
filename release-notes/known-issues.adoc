@@ -16,4 +16,27 @@ summary: Los problemas conocidos identifican problemas que pueden impedirle usar
 [role="lead"]
 Los problemas conocidos identifican problemas que pueden impedirle usar de forma efectiva los servicios de suscripción de Keystone.
 
-No hay problemas conocidos en este momento.
+En STaaS de NetApp Keystone se notifican los siguientes problemas conocidos:
+
+[cols="3*"]
+|===
+| Problema conocido | Descripción | Solución alternativa 
+
+
+ a| 
+Los detalles de volumen no están disponibles para las suscripciones principales y vinculadas
+ a| 
+La pestaña *Volume Summary* muestra cero para el número total de volúmenes, el estado de cumplimiento de QoS, el recuento de volúmenes protegidos y la capacidad total consumida para suscripciones primarias y secundarias vinculadas.
+ a| 
+Ninguno
+
+
+
+ a| 
+*Resumen de volumen* sub-pestaña que no se carga para las suscripciones de StorageGRID
+ a| 
+La subpestaña *Resumen de volumen* de la pestaña *Volúmenes y objetos* no se carga para las suscripciones de StorageGRID.
+ a| 
+Ninguno
+
+|===

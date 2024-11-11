@@ -1751,7 +1751,6 @@ Los detalles de las suscripciones, los gráficos de uso de cada nivel de servici
   <block id="19bea5bec76c66ef8bd189aa23a4c860" category="sidebar">Sostenibilidad</block>
   <block id="0fa7096028e231171f86212b096254bd" category="admonition">Los acuerdos de nivel de servicio y las garantías están disponibles según las nominaciones.</block>
   <block id="90c1605e73fc10bc5c46dc4183664885" category="paragraph">7 de agosto de 2024</block>
-  <block id="5b56041030df17cc6aeb8d87e04d16db" category="paragraph">No hay problemas conocidos en este momento.</block>
   <block id="1e4eb13a6a1b07eeb2e7895fbc7a1bb1" category="section-title">Crear niveles de servicio de rendimiento</block>
   <block id="5053594f32aa62a7113e670df7c0dcf6" category="paragraph">Puede crear niveles de servicio de rendimiento (PSL) con la utilidad TUI de gestión de Keystone Collector. La creación de LPS a través de la TUI selecciona automáticamente los valores predeterminados establecidos para cada nivel de servicio, lo que reduce la posibilidad de que se produzcan errores al definir manualmente estos valores mientras se crean LPS a través de Active IQ Unified Manager.</block>
   <block id="9dc46e9b8e8e3325a5f950ba6b189e61" category="inline-link-macro">Niveles de servicio de rendimiento</block>
@@ -1999,4 +1998,12 @@ Los detalles de las suscripciones, los gráficos de uso de cada nivel de servici
   <block id="b964b33b06c664e35c5f043238992fba" category="summary">La API REST DE Digital Advisor recupera una lista de todas las suscripciones y niveles de servicio asociados con el CustomerID especificado.</block>
   <block id="2c74d7df1fc4058a6a46b83d4b38bb2a" category="cell"><block ref="bb50b1b9a7f23ddec00f27c428c363f2" prefix="" category="inline-code"></block></block>
   <block id="67b63898a05fe3ab08e6c0690cc73ca3" category="summary">Las API del asesor digital proporcionan una interfaz programática para recuperar métricas y detalles del servicio de Keystone.</block>
+  <block id="6bd41c7ebef51543eb0a67b1eb2cabc1" category="paragraph">En STaaS de NetApp Keystone se notifican los siguientes problemas conocidos:</block>
+  <block id="e83464ce8bd634efb1f099c956ec64a8" category="cell">Problema conocido</block>
+  <block id="b5a7adde1af5c87d7fd797b6245c2a39" category="cell">Descripción</block>
+  <block id="7aebfa1e2291377e040de92d7f7f335f" category="cell">Solución alternativa</block>
+  <block id="3156e09a94461db7bf19fe1f351546ed" category="paragraph">Los detalles de volumen no están disponibles para las suscripciones principales y vinculadas</block>
+  <block id="98b4e51c8dbd4ac2829fdf8a44b9eac2" category="paragraph">La pestaña *Volume Summary* muestra cero para el número total de volúmenes, el estado de cumplimiento de QoS, el recuento de volúmenes protegidos y la capacidad total consumida para suscripciones primarias y secundarias vinculadas.</block>
+  <block id="e50629aea15eaa890e9555d823c3aa0e" category="paragraph">*Resumen de volumen* sub-pestaña que no se carga para las suscripciones de StorageGRID</block>
+  <block id="d57b1938a7f40139b0f6f6a8312cab9d" category="paragraph">La subpestaña *Resumen de volumen* de la pestaña *Volúmenes y objetos* no se carga para las suscripciones de StorageGRID.</block>
 </blocks>
