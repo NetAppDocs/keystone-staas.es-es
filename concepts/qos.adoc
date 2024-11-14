@@ -96,8 +96,8 @@ Configuraciones y comandos para el nivel de servicio extremo:
 ....
 qos adaptive-policy-group create -policy-group <Keystone_extreme> -vserver <SVM_name> -expected-iops 6144 -peak-iops 12288 -expected-iops-allocation allocated-space -peak-iops-allocation used-space -block-size 32K -absolute-min-iops 1000
 ....
-* Tamaño mínimo de volumen: 100 GIB, 0,1 TIB
-* Tamaño máximo de volumen: 10 TIB
+* Tamaño de volumen mínimo recomendado: 100GiB, 0,1TiB
+* Tamaño de volumen máximo recomendado: 10TiB
 
 
 
@@ -112,8 +112,8 @@ Configuración y comandos para el nivel de servicio Premium:
 ....
 qos adaptive-policy-group create -policy-group <Keystone_premium> -vserver <SVM_name> -expected-iops 2048 -peak-iops 4096 -expected-iops-allocation allocated-space -peak-iops-allocation used-space -block-size 32K -absolute-min-iops 500
 ....
-* Tamaño mínimo de volumen: 500 GIB, 0,5 TIB
-* Tamaño máximo de volumen: 50 TIB
+* Tamaño de volumen mínimo recomendado: 500GiB, 0,5TiB
+* Tamaño de volumen máximo recomendado: 50TiB
 
 
 
@@ -128,8 +128,8 @@ Ajustes y comandos para el nivel de servicio rendimiento:
 ....
 qos adaptive-policy-group create -policy-group <Keystone_performance> -vserver <SVM_name> -expected-iops 1024 -peak-iops 2048 -expected-iops-allocation allocated-space -peak-iops-allocation used-space -block-size 32K -absolute-min-iops 250
 ....
-* Tamaño mínimo de volumen: 500 GIB, 0,5 TIB
-* Tamaño máximo de volumen: 80 TIB
+* Tamaño de volumen mínimo recomendado: 500GiB, 0,5TiB
+* Tamaño de volumen máximo recomendado: 80TiB
 
 
 
@@ -144,8 +144,8 @@ Configuración y comandos para el nivel de servicio estándar:
 ....
 qos adaptive-policy-group create -policy-group <Keystone_standard> -vserver <SVM_name> -expected-iops 256 -peak-iops 512 -expected-iops-allocation allocated-space -peak-iops-allocation used-space -block-size 32K -absolute-min-iops 75
 ....
-* Tamaño mínimo de volumen: 1 TIB
-* Tamaño máximo de volumen: 100 TIB
+* Tamaño de volumen mínimo recomendado: 1TiB
+* Tamaño de volumen máximo recomendado: 100TiB
 
 
 
@@ -160,8 +160,8 @@ Configuración y comandos para el nivel de servicio de valor:
 ....
 qos adaptive-policy-group create -policy-group <Keystone_value> -vserver <SVM_name> -expected-iops 64 -peak-iops 128 -expected-iops-allocation allocated-space -peak-iops-allocation used-space -block-size 32K -absolute-min-iops 75
 ....
-* Tamaño mínimo de volumen: 1 TIB
-* Tamaño máximo de volumen: 100 TIB
+* Tamaño de volumen mínimo recomendado: 1TiB
+* Tamaño de volumen máximo recomendado: 100TiB
 
 
 

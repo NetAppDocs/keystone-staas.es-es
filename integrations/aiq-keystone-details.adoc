@@ -60,6 +60,22 @@ image:report_1.png["csv del informe"]
 
 
 
+== Generar informe consolidado
+
+Puedes generar y ver un informe consolidado para tus suscripciones, el uso histórico, el uso de bursting, el rendimiento, los activos y los volúmenes y objetos. Para ello, seleccione *Suscripciones Keystone* como tipo de informe en la función Informe en Digital Advisor. Puede generar estos informes en el nivel de cliente, clúster, lista de seguimiento o suscripción.
+
+image:report-generation.png["Crear informe"]
+
+El informe se genera en formato Excel, con cada tipo de información, como detalles de suscripción o historial de uso, que se muestra en hojas separadas. Estas hojas se nombran de acuerdo con las pestañas de la página *Suscripciones Keystone* para una fácil visualización. Es posible guardar el informe para usarlo en el futuro.
+
+Un informe consolidado de ejemplo con detalles de suscripciones en una hoja:
+
+image:report-consolidated.png["Informe generado en formato Excel que muestra hojas separadas"]
+
+Para obtener más información sobre la generación de informes, consulte link:https://docs.netapp.com/us-en/active-iq/task_generate_reports.html["Generar informes personalizados"^].
+
+
+
 == Ver las alertas
 
 La consola ofrece notificaciones de alerta que le permiten comprender los problemas que se producen en el entorno de almacenamiento. Estas notificaciones pueden aparecer como alertas o advertencias informativas. Por ejemplo, si hay volúmenes en los clústeres gestionados que no tienen asociadas políticas de QoS (AQoS) adaptativa, puede ver un mensaje de advertencia. Puede hacer clic en el enlace del mensaje de advertencia para ver la lista de los volúmenes no compatibles en la pestaña *Volúmenes y objetos*.

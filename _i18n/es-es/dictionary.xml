@@ -500,19 +500,12 @@
   <block id="547c4738072689a91e04dc9c9c8f6c84" category="section-title">Configuración del nivel de servicio extremo</block>
   <block id="b6b6ef9bcccde24a7790b0a3093601da" category="paragraph">Configuraciones y comandos para el nivel de servicio extremo:</block>
   <block id="5fd300737b7909532dc522634d75def5" category="list-text">Comando de ejemplo:</block>
-  <block id="eec649d0629c0d4daca55ba4f12c8e0d" category="list-text">Tamaño mínimo de volumen: 100 GIB, 0,1 TIB</block>
-  <block id="92583c0936263d9a68a3fd624b7b24db" category="list-text">Tamaño máximo de volumen: 10 TIB</block>
   <block id="25720426b4f9400d825effad9cc98cf4" category="section-title">Configuración del nivel de servicio Premium</block>
   <block id="d1dc13c797f457ef0f8af6fba8c638fa" category="paragraph">Configuración y comandos para el nivel de servicio Premium:</block>
-  <block id="1e8543e81fe8622a8aa785a23448ce74" category="list-text">Tamaño mínimo de volumen: 500 GIB, 0,5 TIB</block>
-  <block id="f59d8a930f65f82d8f21450de71784f2" category="list-text">Tamaño máximo de volumen: 50 TIB</block>
   <block id="c335b79291cf3c370f0819292ea37103" category="section-title">Configuración del nivel de servicio de rendimiento</block>
   <block id="0a32480150714670b636bea04f9ef2a1" category="paragraph">Ajustes y comandos para el nivel de servicio rendimiento:</block>
-  <block id="647b2fc1150676057fa08112aa455c76" category="list-text">Tamaño máximo de volumen: 80 TIB</block>
   <block id="7448ec74d1e6091b2ad38508ebdc37f4" category="section-title">Configuración del nivel de servicio estándar</block>
   <block id="f20f6fc30a0b0f9782dbad2fdc8d1694" category="paragraph">Configuración y comandos para el nivel de servicio estándar:</block>
-  <block id="c5dd4ef3a979aa464f4d87ea8ac7b398" category="list-text">Tamaño mínimo de volumen: 1 TIB</block>
-  <block id="d80459bf7c52b9b618a3832a91b72964" category="list-text">Tamaño máximo de volumen: 100 TIB</block>
   <block id="43384bba14e9ac0e1e3604da457dacd3" category="section-title">Configuración del nivel de servicio de valor</block>
   <block id="5cd7d5370bb2b4b9a46af59b9c5c279e" category="paragraph">Configuración y comandos para el nivel de servicio de valor:</block>
   <block id="e8cf569a737f3c6ca0de02023bb45074" category="section-title">Cálculo del tamaño de bloque</block>
@@ -2006,4 +1999,24 @@ Los detalles de las suscripciones, los gráficos de uso de cada nivel de servici
   <block id="98b4e51c8dbd4ac2829fdf8a44b9eac2" category="paragraph">La pestaña *Volume Summary* muestra cero para el número total de volúmenes, el estado de cumplimiento de QoS, el recuento de volúmenes protegidos y la capacidad total consumida para suscripciones primarias y secundarias vinculadas.</block>
   <block id="e50629aea15eaa890e9555d823c3aa0e" category="paragraph">*Resumen de volumen* sub-pestaña que no se carga para las suscripciones de StorageGRID</block>
   <block id="d57b1938a7f40139b0f6f6a8312cab9d" category="paragraph">La subpestaña *Resumen de volumen* de la pestaña *Volúmenes y objetos* no se carga para las suscripciones de StorageGRID.</block>
+  <block id="51f4eff2679d00a84e768ca09b950896" category="list-text">Tamaño de volumen mínimo recomendado: 100GiB, 0,1TiB</block>
+  <block id="0a972e42bf2862708f1b761f38f43097" category="list-text">Tamaño de volumen máximo recomendado: 10TiB</block>
+  <block id="15338332b8fcdeeb5cf2e61fbed1f587" category="list-text">Tamaño de volumen mínimo recomendado: 500GiB, 0,5TiB</block>
+  <block id="b153328fc34aa79250fe1cd04b633016" category="list-text">Tamaño de volumen máximo recomendado: 50TiB</block>
+  <block id="1fd6dacdb284abe9cc20a2bbb9c6a535" category="list-text">Tamaño de volumen máximo recomendado: 80TiB</block>
+  <block id="cf94268a733259e784ff458e2880c445" category="list-text">Tamaño de volumen mínimo recomendado: 1TiB</block>
+  <block id="b28606b9957df145a655531d978d4f7a" category="list-text">Tamaño de volumen máximo recomendado: 100TiB</block>
+  <block id="13c09ed2290110fb23f7ef738098a6ce" category="section-title">Generar informe consolidado</block>
+  <block id="b5c31f8fc651c0b6091927bd1388396c" category="paragraph">Puedes generar y ver un informe consolidado para tus suscripciones, el uso histórico, el uso de bursting, el rendimiento, los activos y los volúmenes y objetos. Para ello, seleccione *Suscripciones Keystone* como tipo de informe en la función Informe en Digital Advisor. Puede generar estos informes en el nivel de cliente, clúster, lista de seguimiento o suscripción.</block>
+  <block id="d9c75c79440b3db3ac3e86ae04bc9f19" category="inline-image-macro">Crear informe</block>
+  <block id="ad127b553d070e603bcca75c99aa0aa4" category="paragraph"><block ref="ad127b553d070e603bcca75c99aa0aa4" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f1ac17aa812b21fe2bbdc58cbe5d6efa" category="paragraph">El informe se genera en formato Excel, con cada tipo de información, como detalles de suscripción o historial de uso, que se muestra en hojas separadas. Estas hojas se nombran de acuerdo con las pestañas de la página *Suscripciones Keystone* para una fácil visualización. Es posible guardar el informe para usarlo en el futuro.</block>
+  <block id="9fe5e0c0b5051c9c5712e923a00cc8c1" category="paragraph">Un informe consolidado de ejemplo con detalles de suscripciones en una hoja:</block>
+  <block id="2badbe4f31c12aae368f255a571f80b1" category="inline-image-macro">Informe generado en formato Excel que muestra hojas separadas</block>
+  <block id="a273e12df0b06489ccec9e5faa39deae" category="paragraph"><block ref="a273e12df0b06489ccec9e5faa39deae" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="8b00815fc5298212e3dc28a279ed4a10" category="inline-link-macro">Generar informes personalizados</block>
+  <block id="05ae21f139b4223ee2536ce651cf54b9" category="paragraph">Para obtener más información sobre la generación de informes, consulte <block ref="5ee515b7098121299290c8d9ddbc9e18" category="inline-link-macro-rx"></block>.</block>
+  <block id="8a1116f55c6659c55d506df698030041" category="section-title">11 de noviembre de 2024</block>
+  <block id="1503d912784bec55335f32e3c747c9df" category="section-title">Generación de informes mejorada</block>
+  <block id="bab5e70b8fca6215bd90bf396708d647" category="paragraph">Ahora puedes generar un informe consolidado para ver los detalles de tus datos de Keystone con la función Informe del asesor digital. Para obtener más información, consulte <block ref="f3fd429c1c2a13f9f8f5c8d4ec2129e6" category="inline-link-macro-rx"></block>.</block>
 </blocks>

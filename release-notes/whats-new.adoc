@@ -20,6 +20,16 @@ Las siguientes mejoras se introducen en la pantalla *Suscripciones Keystone* del
 
 
 
+== 11 de noviembre de 2024
+
+
+
+=== Generación de informes mejorada
+
+Ahora puedes generar un informe consolidado para ver los detalles de tus datos de Keystone con la función Informe del asesor digital. Para obtener más información, consulte link:../integrations/aiq-keystone-details.html#generate-consolidated-report["Generar informe consolidado"^].
+
+
+
 == 10 de julio de 2024
 
 
