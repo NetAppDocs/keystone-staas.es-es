@@ -55,6 +55,9 @@ Los niveles de servicio básicos para los tipos de almacenamiento admitidos, arc
 
 
 | *Tamaño del bloque* 5+| 32K 
+
+
+| *Tipo de capacidad comprometida y medida* 5+| Lógico 
 |===
 
 
@@ -101,6 +104,9 @@ Las métricas de nivel de servicio básico dependen de las siguientes condicione
 
 
 | *Latencia media* | N.A. 
+
+
+| *Tipo de capacidad comprometida y medida* | Físico 
 |===
 
 NOTE: La latencia no incluye sobrecargas asociadas con la transferencia de datos al almacén de objetos en el caso de almacenamiento de FabricPool.
