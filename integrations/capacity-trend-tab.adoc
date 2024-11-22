@@ -92,18 +92,24 @@ La ráfaga es la diferencia entre la capacidad consumida y la capacidad comprome
 
 == Consulta de repartición devengada facturada
 
-Si ha seleccionado la opción *Ráfaga devengada facturada*, de forma predeterminada, puede ver los datos de uso de ráfaga acumulados mensualmente durante los últimos 12 meses que se han facturado. Puede realizar una consulta por el rango de fechas de hasta los últimos 30 meses. Los gráficos de barras se muestran para los datos facturados, y si el uso aún no se ha facturado, verá _Pending_ para ese mes.
+Si ha seleccionado la opción *Ráfaga devengada facturada*, puede ver los datos de uso de ráfaga acumulados mensualmente o trimestralmente, dependiendo del período de facturación seleccionado. Estos datos están disponibles para los últimos 12 meses que se han facturado y puede consultar por rango de fechas hasta los últimos 30 meses. Los gráficos de barras muestran los datos facturados y, si el uso aún no se ha facturado, se marcarán como _Pendiente_ para ese período.
 
 
 TIP: El uso de bursting acumulado facturado se calcula por período de facturación, en función de la capacidad comprometida y consumida para un nivel de servicio.
 
 image:accr-burst-1.png["gráficos de uso de ráfaga acumulados"]
 
+Para un período de facturación trimestral, si la suscripción comienza en una fecha distinta del 1^st ^ del mes, la factura trimestral cubrirá el período de 90 días subsiguientes. Por ejemplo, si su suscripción comienza el 15 de agosto, la factura se generará para el período comprendido entre el 15 de agosto y el 14 de octubre.
+
+Si cambia de la facturación trimestral a la mensual, la factura trimestral seguirá cubriendo el período de 90 días, con dos facturas generadas en el último mes del trimestre: Una para el período de facturación trimestral y otra para los días restantes de ese mes. Esta transición permite que el período de facturación mensual comience el 1^st ^ del mes siguiente. Por ejemplo, si su suscripción comienza el 15 de octubre, recibirá dos facturas en enero, una del 15 de octubre al 14 de enero y otra del 15 al 31 de enero, antes de que el período de facturación mensual comience el 1 de febrero.
+
+image:accr-burst-2.png["uso de bursting acumulado trimestralmente"]
+
 Esta función está disponible en modo de sólo vista previa. Póngase en contacto con su KSM para obtener más información sobre esta función.
 
 
 
-== Gráficos de referencia para protección avanzada de datos
+== Gráficos de referencia para protección avanzada de datos para MetroCluster
 
 Si se ha suscrito al servicio complementario de protección de datos avanzada, puede ver el desglose de los datos de consumo de los sitios asociados de MetroCluster en la pestaña *Tendencia de consumo*.
 

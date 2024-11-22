@@ -20,6 +20,28 @@ Las siguientes mejoras se introducen en la pantalla *Suscripciones Keystone* del
 
 
 
+== 21 de noviembre de 2024
+
+
+
+=== Ráfaga devengada facturada mejorada
+
+Ahora puede ver los datos de uso de ráfaga acumulados trimestralmente a través de la opción *Ráfaga devengada facturada* si ha optado por un período de facturación trimestral. Para obtener más información, consulte link:../integrations/capacity-trend-tab.html#view-invoiced-accrued-burst["Consulta de repartición devengada facturada"^].
+
+
+
+=== Nuevas columnas en la pestaña Volumes Details
+
+Para mejorar la claridad en el cálculo del uso lógico, se han agregado dos columnas nuevas a la pestaña *Detalles del volumen* en la pestaña *Volúmenes y objetos*:
+
+* *AFS Lógico*: Muestra la capacidad lógica utilizada por el sistema de archivos activo del volumen.
+* *Instantánea física*: Muestra el espacio físico utilizado por las instantáneas.
+
+
+Estas columnas proporcionan una mayor claridad en la columna *Lógica usada*, que muestra la capacidad lógica combinada utilizada por el sistema de archivos activo del volumen y el espacio físico utilizado por las instantáneas.
+
+
+
 == 11 de noviembre de 2024
 
 

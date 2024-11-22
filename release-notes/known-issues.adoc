@@ -33,9 +33,9 @@ Ninguno
 
 
  a| 
-*Resumen de volumen* sub-pestaña que no se carga para las suscripciones de StorageGRID
+No se han podido generar informes para suscripciones
  a| 
-La subpestaña *Resumen de volumen* de la pestaña *Volúmenes y objetos* no se carga para las suscripciones de StorageGRID.
+Cuando se seleccionan más de 10-12 suscripciones en la pestaña *Suscripciones* de la página *Suscripciones Keystone*, el informe no se genera al hacer clic en el botón *Descargar CSV* con la opción *Incluir datos para cada nivel de servicio*.
  a| 
 Ninguno
 

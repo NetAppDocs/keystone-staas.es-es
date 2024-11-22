@@ -22,6 +22,15 @@ Los problemas encontrados en versiones anteriores de los servicios de STaaS de N
 
 
  a| 
+La subpestaña *Resumen de volumen* de la pestaña *Volúmenes y objetos* no se carga para las suscripciones de StorageGRID.
+ a| 
+Fija
+ a| 
+21 de noviembre de 2024
+
+
+
+ a| 
 El campo *Desde Fecha* para seleccionar el rango de fechas muestra una fecha futura de forma predeterminada al navegar a la pestaña *Tendencia de consumo*.
  a| 
 Fija

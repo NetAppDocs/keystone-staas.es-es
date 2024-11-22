@@ -48,7 +48,7 @@ TIP: Haga clic en el enlace *Suscripciones* para ver la lista de suscripciones f
 
 
 
-image:new-db-3.png["nueva consola"]
+image:new-db-4.png["nueva consola"]
 
 Si desea obtener más información sobre el widget Digital Advisor de Keystone, consulte https://docs.netapp.com/us-en/active-iq/view_keystone_capacity_utilization.html["Documentación de Digital Advisor"^].
 
