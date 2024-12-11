@@ -6,7 +6,7 @@ settings:
   prod:
     pdf_enabled: true
     harmony_enabled: false
-  langs: es-es,us-en,ja-jp,ko-kr,zh-cn,zh-tw,de-de,fr-fr,it-it
+  langs: es-es,us-en,de-de,fr-fr,it-it,pt-br,ja-jp,ko-kr,zh-cn,zh-tw
 sidebar:
   entries:
   - title: Documentos de Keystone
@@ -107,6 +107,8 @@ sidebar:
       entries:
       - title: Protección de datos avanzada
         url: "/concepts/adp.html"
+      - title: Información sobre la infraestructura de datos
+        url: "/concepts/data-infra-insights.html"
       - title: Organización en niveles de los datos
         url: "/concepts/data-tiering.html"
       - title: Servicios con tecnología Equinix
