@@ -51,6 +51,9 @@ image:volume-summary-2.png["Pestaña de resumen de volumen"]
 Puede ver una lista en tablas de los volúmenes, como el uso de la capacidad, el tipo de volumen, el clúster, el agregado y los niveles de servicio de Keystone asignados. Puede desplazarse por las columnas y obtener más información al pasar el ratón por los iconos de información situados junto a los encabezados de las columnas. Puede ordenar por las columnas y filtrar las listas para ver información específica.
 
 +
+Puede usar *Ocultar/Mostrar columnas* para agregar o eliminar columnas mostradas en la tabla. Por defecto, todas las columnas están seleccionadas excepto la columna *Departamento*. Puede seleccionar o anular la selección de cualquier columna, incluida la columna *Departamento*, y sus preferencias se guardarán para su uso posterior. Al descargar el informe CSV, los detalles de la columna *Departamento* se incluirán si se selecciona, mientras que otras columnas aparecerán independientemente del estado de selección en la tabla.
+
++
 
 NOTE: Para el servicio complementario de protección de datos avanzada, se muestra una columna adicional para indicar si el volumen es un volumen primario o de reflejo en la configuración de MetroCluster. Puede copiar números de serie de nodos individuales haciendo clic en el botón *Copiar series de nodos*.
 

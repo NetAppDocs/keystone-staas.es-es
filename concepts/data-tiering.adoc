@@ -34,3 +34,7 @@ El coste de los servicios de organización en niveles complementarios se aplica 
 
 
 NOTE: NetApp no suministra los servicios informáticos, de almacenamiento y de red basados en a hiperescala necesarios para Cloud Volumes ONTAP como parte de las suscripciones a Keystone STaaS; estos servicios deben adquirirse directamente a proveedores de servicios cloud a hiperescala.
+
+*Información relacionada*
+
+link:https://kb.netapp.com/hybrid/Keystone/AIQ_Dashboard/How_to_approximate_Keystone_Consumption_with_Data_Tiering_(FabricPool)_through_the_ONTAP_cli["Cómo aproximarse al consumo de Keystone con la organización de datos en niveles (FabricPool) con la interfaz de línea de comandos de ONTAP"^]

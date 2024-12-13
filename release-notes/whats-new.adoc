@@ -20,6 +20,28 @@ Las siguientes mejoras se introducen en la pantalla *Suscripciones Keystone* del
 
 
 
+== 12 de diciembre de 2024
+
+
+
+=== Columna Lógica Usada renombrada
+
+La columna *Lógica usada* de la pestaña *Detalles del volumen* de *Volúmenes y objetos* ahora se cambia a *Lógica de Keystone usada*.
+
+
+
+=== Pestaña Activos mejorados
+
+La pestaña *Activos* en la pantalla *Suscripciones Keystone* ahora tiene dos nuevas subpestañas: *ONTAP* y *StorageGRID*. Estas subpestañas ofrecen información detallada a nivel del clúster sobre ONTAP e información a nivel de grid para StorageGRID basada en sus suscripciones. Para obtener más información, consulte link:../integrations/assets-tab.html["Activos"^].
+
+
+
+=== Nueva opción Ocultar/Mostrar columnas
+
+La pestaña *Detalles de volumen* en *Volúmenes y objetos* ahora incluye la opción *Ocultar/Mostrar columnas*. Esta opción le permite seleccionar o anular la selección de columnas para personalizar la lista tabular de volúmenes de acuerdo con sus preferencias. Para obtener más información, consulte link:../integrations/volumes-objects-tab.html["Volúmenes  ficha Objetos"^].
+
+
+
 == 21 de noviembre de 2024
 
 
