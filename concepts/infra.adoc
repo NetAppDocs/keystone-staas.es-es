@@ -27,7 +27,7 @@ NetApp se reserva el derecho de realizar las siguientes acciones:
 La infraestructura Keystone incluye varios componentes, como los siguientes, entre otros:
 
 * La infraestructura de Keystone, incluidas las controladoras de almacenamiento.
-* Herramientas para gestionar y operar el servicio, como la solución AIOPs, Active IQ y Active IQ Unified Manager.
+* Herramientas para gestionar y operar el servicio, como la solución de monitoreo ITOM, Active IQ y Active IQ Unified Manager.
 
 
 
@@ -44,10 +44,10 @@ En un servicio de Keystone operado por el cliente, se instalan la infraestructur
 
 Además del equipo de almacenamiento, se aprovisionan dos herramientas de supervisión para supervisar el almacenamiento y el consumo.
 
-* Puerta de enlace local de la solución AIOPs: Una aplicación basada en la nube que se utiliza para supervisar su red. Cuenta con integraciones incorporadas con plataformas de almacenamiento de NetApp para recopilar datos del entorno y supervisar la red. Este servicio se habilita con la ayuda de usar una puerta de enlace local instalada en su sitio que se comunica con el portal de la nube.
+* Solución de supervisión Keystone IT Operations Management (ITOM): Una aplicación SaaS basada en la nube que se utiliza para supervisar tu entorno Keystone. Cuenta con integraciones incorporadas con plataformas de almacenamiento de NetApp para recopilar datos de entorno y supervisar los componentes de computación, red y almacenamiento de su infraestructura de Keystone. Esta capacidad de supervisión se extiende a configuraciones en las instalaciones, centros de datos, entornos de nube o cualquier combinación de ellas. El servicio se habilita con la ayuda de usar un recopilador de ITOM local instalado en su sitio que se comunica con el portal de la nube.
 * Keystone Data Collector: Keystone Collector ofrece servicios de facturación a los clientes de Keystone. Esta aplicación se incluye con Active IQ Unified Manager. Recopila datos de controladoras ONTAP y StorageGRID en un intervalo de cinco minutos. Los datos se procesan y los metadatos se envían al lago de datos de Active IQ centralizado a través del mecanismo AutoSupport, que se utiliza para generar los datos de facturación. El lago de datos de Active IQ procesa los datos de facturación y se los envía a Zuora para facturarlos.
 
 
-image:mgmt-stack.png["pila de management"]
+image:mgmt-stack-2.png["pila de management"]
 
 El asesor digital te permite iniciar sesión y ver los detalles de consumo y suscripción de tus suscripciones a Keystone. Para obtener más información sobre la creación de informes de Keystone en la consola del asesor digital, consulte link:../integrations/keystone-aiq.html["Keystone y asesor digital"].

@@ -14,7 +14,7 @@ summary: Los datos de los sistemas STaaS de Keystone fluyen a través de Keyston
 
 
 [role="lead"]
-Los datos de los sistemas STaaS de Keystone fluyen a través de Keystone Collector y la herramienta de solución AIOPs, que es el sistema de supervisión asociado.
+Los datos de los sistemas STaaS de Keystone fluyen a través de Keystone Collector y la solución de supervisión ITOM, que es el sistema de supervisión asociado.
 
 
 
@@ -22,7 +22,7 @@ Los datos de los sistemas STaaS de Keystone fluyen a través de Keystone Collect
 
 Keystone Collector inicia llamadas API DE REST a las controladoras de almacenamiento y obtiene detalles de uso de las controladoras periódicamente, como se indica en este diagrama de flujo:
 
-image:collector-data-flow.png["muestra el flujo de datos dentro de los componentes del recopilador"]
+image:collector-data-flow-2.png["muestra el flujo de datos dentro de los componentes del recopilador"]
 
 .Leyenda
 . Collector de NetApp inicia una sesión HTTPS en el portal de cloud de Active-IQ.
@@ -35,15 +35,21 @@ image:collector-data-flow.png["muestra el flujo de datos dentro de los component
 
 == Supervisar flujos de datos
 
-La supervisión continua del estado de la infraestructura de almacenamiento es una de las funciones más importantes del servicio Keystone. Para la supervisión y la generación de informes, Keystone usa la solución AIOPs, que necesita acceso remoto a la red del cliente. La siguiente imagen describe cómo se protege el acceso remoto a la ubicación del cliente mediante la herramienta de solución AIOPs.
+La supervisión continua del estado de la infraestructura de almacenamiento es una de las funciones más importantes del servicio Keystone. Para la supervisión y la generación de informes, Keystone utiliza la solución de supervisión ITOM. En la siguiente imagen se describe cómo la solución de supervisión de ITOM protege el acceso remoto a la ubicación del cliente. Los clientes pueden optar por habilitar la función de sesión remota, que permite al equipo de soporte de Keystone conectarse a dispositivos supervisados para solucionar problemas.
 
-image:monitoring-flow.png["flujo de datos"]
+image:monitoring-flow-1.png["flujo de datos"]
 
 .Leyenda
-. La puerta de enlace de la solución AIOPs inicia una sesión TLS en el portal de la nube.
+. La puerta de enlace de la solución de supervisión ITOM inicia una sesión TLS en el portal de la nube.
 . El firewall que utiliza el cliente permite la conexión.
-. El servidor de soluciones AIOPs en la nube acepta la conexión.
-. Se establece un túnel TLS entre el portal de la nube y la puerta de enlace local.
-. Las controladoras de NetApp envían alertas con el protocolo SNMP o responden a las solicitudes de la API a la puerta de enlace local.
+. El servidor de la solución de supervisión ITOM en la nube acepta la conexión.
+. Se establece una sesión TLS entre el portal de la nube y la puerta de enlace local.
+. Las controladoras NetApp envían alertas mediante el protocolo SNMP/syslog o responden a las solicitudes de la API a la puerta de enlace local.
 . La puerta de enlace local envía estas alertas a su portal en la nube mediante la sesión TLS, que se estableció anteriormente.
 
+
+
+
+== Normas de cumplimiento
+
+La solución de supervisión ITOM de Keystone cumple con el Reglamento general de protección de datos de la Unión Europea (RGPD) y la Ley de privacidad de los consumidores de California (CCPA). También proporciona un link:https://www.logicmonitor.com/legal/data-processing-addendum["Anexo de protección de datos (DPA)"^]documento para documentar estos compromisos. La solución de monitoreo ITOM no recopila ni almacena ningún dato personal.

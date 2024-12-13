@@ -54,9 +54,9 @@ NetApp puede proporcionar las especificaciones de requisitos de refrigeración (
 
 
 
-=== Máquinas virtuales de almacenamiento
+=== Equipos virtuales
 
-Se requiere una máquina virtual de almacenamiento (VM de almacenamiento) para la puesta en marcha de Keystone Collector y la puerta de enlace de la solución AIOPs. Los requisitos previos para instalar Keystone Collector están disponibles aquí: link:../installation/installation-overview.html["Guía de instalación para Keystone Collector"]. Los otros requisitos se comparten durante la puesta en marcha.
+Las máquinas virtuales son necesarias para la implementación de Keystone Collector y ITOM Collector. Para conocer los requisitos previos de instalación, consulte link:../installation/installation-overview.html["Guía de instalación para Keystone Collector"]y link:../installation/itom-prereqs.html["Requisitos de instalación para ITOM Collector"]. Los otros requisitos se comparten durante la puesta en marcha.
 
 
 
@@ -68,15 +68,13 @@ Keystone Collector se puede implementar a través de los siguientes métodos:
 * El cliente proporciona un servidor Linux que se ejecute en Red Hat Enterprise Linux 8,6 o versiones posteriores 8.x o CentOS 7. El software Keystone se instala mediante `.rpm` el proceso de instalación.
 
 
-La puerta de enlace de la solución AIOPs se implementa en la siguiente configuración:
+El recopilador de ITOM se puede desplegar mediante los siguientes métodos:
 
-* Plantilla OVA de VMware (se requiere VMware vCenter Server 6.7 o posterior)
-* Instalador .iso de inicio para
+* El cliente proporciona un servidor Linux que se ejecute en Debian 12, Ubuntu 20,04 LTS, Red Hat Enterprise Linux (RHEL) 8.x, Amazon Linux 2023 o versiones posteriores.
+* El cliente proporciona un servidor Windows que ejecute Windows Server 2016 o versiones posteriores.
 +
-** Citrix XenServer
-** Microsoft Hyper-V
-** Máquina virtual basada en kernel (Linux KVM)
 
+TIP: Los sistemas operativos recomendados son Debian 12, Windows Server 2016 o versiones más recientes.
 
 
 
@@ -94,6 +92,6 @@ NetApp proporciona los transceptores necesarios para dispositivos de infraestruc
 
 == Requisito de acceso remoto
 
-Se requiere conectividad de red entre la infraestructura de almacenamiento instalada en el centro de datos del cliente o en los servicios ubicados conjuntamente por el cliente y el centro de operaciones de Keystone. El cliente es responsable de proporcionar los equipos informáticos y virtuales, así como los servicios de Internet. El diseño de red debe tener un protocolo seguro y las normativas de firewall serán aprobadas tanto por NetApp como por los clientes.
+Se requiere conectividad de red entre la infraestructura de almacenamiento instalada en el centro de datos del cliente o en los servicios ubicados conjuntamente por el cliente y el centro de operaciones de Keystone. El cliente es responsable de proporcionar los equipos informáticos y virtuales, así como los servicios de Internet. El cliente también es responsable de la aplicación de parches del sistema operativo (implementaciones no basadas en OVA) y el refuerzo de la seguridad basado en políticas de seguridad internas. El diseño de red debe tener un protocolo seguro y las normativas de firewall serán aprobadas tanto por NetApp como por los clientes.
 
-NetApp debe acceder a los componentes de hardware y software instalados para supervisar y gestionar, y proporcionar servicios como la supervisión y la facturación a los clientes de Keystone. El método más común es establecer una conexión de red privada virtual (VPN) con la red del cliente y acceder a los datos necesarios. Para superar cualquier complejidad operativa que perciban los clientes como consecuencia de la apertura de puertos de firewall a nuevos servicios, las herramientas de supervisión inician una conexión externa. Las aplicaciones en la nube de NetApp, como la solución AIOPs y Zuora, usan esta conexión para llevar a cabo sus respectivos servicios. Este método cumple con los requisitos del cliente de no abrir puertos de firewall, aunque proporciona acceso a los componentes de supervisión que forman parte de este servicio.
+NetApp debe acceder a los componentes de hardware y software instalados para supervisar y gestionar, y proporcionar servicios como la supervisión y la facturación a los clientes de Keystone. El método más común es establecer una conexión de red privada virtual (VPN) con la red del cliente y acceder a los datos necesarios. Para superar cualquier complejidad operativa que perciban los clientes como consecuencia de la apertura de puertos de firewall a nuevos servicios, las herramientas de supervisión inician una conexión externa. Las aplicaciones en la nube de NetApp, como la solución de supervisión ITOM y Zuora, utilizan esta conexión para realizar sus respectivos servicios. Este método cumple con los requisitos del cliente de no abrir puertos de firewall, aunque proporciona acceso a los componentes de supervisión que forman parte de este servicio.

@@ -1,0 +1,60 @@
+---
+sidebar: sidebar 
+permalink: installation/install-itom-linux.html 
+keywords: Linux installation, ITOM Collector installation 
+summary: Instale el software ITOM Collector en sistemas basados en Linux. 
+---
+= Instale ITOM Collector en sistemas Linux
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Complete unos pocos pasos para instalar ITOM Collector, que recopilará datos de métricas en su entorno de almacenamiento. Puede instalarlo en sistemas Windows o Linux, según sus requisitos.
+
+
+NOTE: El equipo de soporte de Keystone proporciona un enlace dinámico para descargar el archivo de configuración de ITOM Collector, que caduca en dos horas.
+
+Para instalar ITOM Collector en sistemas Windows, consulte link:../installation/install-itom-windows.html["Instale ITOM Collector en sistemas Windows"].
+
+Siga estos pasos para instalar el software en su servidor Linux:
+
+.Antes de empezar
+* Compruebe que el shell Bourne está disponible para el script de instalación de Linux.
+* Instale `vim-common` el paquete para obtener el binario *xxd* requerido para el archivo de configuración de ITOM Collector.
+* Asegúrese de que `sudo package` está instalado si está planificando ejecutar el recopilador de ITOM como usuario no raíz.
+
+
+.Pasos
+. Descargue el archivo de configuración del recopilador ITOM en su servidor Linux.
+. Abra un terminal en el servidor y ejecute el siguiente comando para cambiar los permisos y hacer que los binarios sean ejecutables:
+`# chmod +x <installer_file_name>.bin`
+. Ejecute el comando para iniciar el archivo de configuración del recopilador de ITOM:
+`#./<installer_file_name>.bin`
+. Si ejecuta el archivo de configuración, se le solicitará que:
++
+.. Acepte el contrato de licencia de usuario final (EULA).
+.. Introduzca los detalles del usuario para la instalación.
+.. Especifique el directorio principal de instalación.
+.. Seleccione el tamaño del recopilador.
+.. Proporcione los detalles del proxy, si procede.
++
+Para cada petición de datos, se muestra una opción predeterminada. Se recomienda seleccionar la opción predeterminada a menos que tenga requisitos específicos. Presione la tecla *Enter* para elegir la opción predeterminada. Una vez finalizada la instalación, un mensaje confirma que el recopilador de ITOM se ha instalado correctamente.
+
+
+
+
+
+[NOTE]
+====
+* El archivo de configuración de ITOM Collector realiza adiciones `/etc/sudoers` para gestionar reinicios de servicio y volcados de memoria.
+* La instalación de ITOM Collector en el servidor Linux crea un usuario predeterminado llamado *ITOM* para ejecutar ITOM Collector sin root Privileges. Puede elegir un usuario diferente o ejecutarlo como root, pero se recomienda utilizar el usuario ITOM creado por el script de instalación de Linux.
+
+
+====
+.El futuro
+Una vez realizada correctamente la instalación, póngase en contacto con el equipo de soporte de Keystone para validar la correcta instalación de ITOM Collector a través del portal de soporte de ITOM. Después de la verificación, el equipo de soporte de Keystone configurará el recopilador de ITOM de forma remota, incluida la detección y la configuración de supervisión de dispositivos adicionales, y enviará una confirmación una vez que se complete la configuración. Para cualquier consulta o información adicional, póngase en contacto con keystone.services@NetApp.com.
