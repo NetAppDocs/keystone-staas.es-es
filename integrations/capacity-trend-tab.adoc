@@ -92,7 +92,7 @@ La ráfaga es la diferencia entre la capacidad consumida y la capacidad comprome
 
 == Consulta de repartición devengada facturada
 
-Si ha seleccionado la opción *Ráfaga devengada facturada*, puede ver los datos de uso de ráfaga acumulados mensualmente o trimestralmente, dependiendo del período de facturación seleccionado. Estos datos están disponibles para los últimos 12 meses que se han facturado y puede consultar por rango de fechas hasta los últimos 30 meses. Los gráficos de barras muestran los datos facturados y, si el uso aún no se ha facturado, se marcarán como _Pendiente_ para ese período.
+Si ha seleccionado la opción * Ráfaga devengada facturada *, puede ver el uso de datos de ráfaga acumulados mensualmente o trimestralmente, dependiendo del período de facturación seleccionado. Estos datos están disponibles para los últimos 12 meses que se han facturado y puede consultar por rango de fechas hasta los últimos 30 meses. Los gráficos de barras muestran los datos facturados y, si el uso aún no se ha facturado, se marcarán como _Pendiente_ para ese período.
 
 
 TIP: El uso de bursting acumulado facturado se calcula por período de facturación, en función de la capacidad comprometida y consumida para un nivel de servicio.
@@ -106,6 +106,22 @@ Si cambia de la facturación trimestral a la mensual, la factura trimestral segu
 image:accr-burst-2.png["uso de bursting acumulado trimestralmente"]
 
 Esta función está disponible en modo de sólo vista previa. Póngase en contacto con su KSM para obtener más información sobre esta función.
+
+
+
+== Ver el uso diario de datos de ráfaga acumulados
+
+Puede ver el uso diario de datos de ráfaga acumulados para un período de facturación mensual o trimestral. Al hacer clic en la barra que muestra los datos facturados, la sección Capacidad facturable aprovisionada aparecerá debajo del gráfico de barras, ofreciéndote las opciones de visualización *Gráfico* y *Tabla*. La vista de gráfico predeterminada muestra el uso diario de los datos de ráfaga acumulados en un formato de gráfico de líneas, donde se muestran los cambios en el uso a lo largo del tiempo.
+
+image:invoiced-daily-accr-burst-1.png["captura de pantalla que muestra el gráfico de barras"]
+
+Una imagen de ejemplo que muestra el uso diario de datos de ráfaga acumulados en un gráfico de líneas:
+
+image:invoiced-daily-accr-burst-2.png["captura de pantalla que muestra los datos de uso de ráfaga en formato de gráfico de líneas"]
+
+Puede cambiar a una vista de tabla haciendo clic en la opción *Tabla* en la esquina superior derecha del gráfico. La vista de tabla ofrece métricas de uso diarias detalladas, que incluyen el nivel de servicio, la marca de hora, la capacidad comprometida, la capacidad consumida y la capacidad aprovisionada facturable. También puede generar un informe con estos detalles en formato CSV para su uso y comparación futuros.
+
+image:invoiced-daily-accr-burst-3.png["captura de pantalla que muestra los datos de uso de ráfaga en formato de tabla"]
 
 
 

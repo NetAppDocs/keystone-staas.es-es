@@ -20,6 +20,16 @@ Las siguientes mejoras se introducen en la pantalla *Suscripciones Keystone* del
 
 
 
+== 8 de enero de 2025
+
+
+
+=== Adición de opciones de consulta de uso de datos acumulados diarios
+
+Ahora puede ver el uso diario de datos de ráfaga acumulados en formato de gráfico o tabla para un período de facturación mensual o trimestral haciendo clic en la barra que muestra los datos facturados. Para obtener más información, consulte link:../integrations/capacity-trend-tab.html#view-daily-accrued-burst-data-usage["Ver el uso diario de datos de ráfaga acumulados"].
+
+
+
 == 12 de diciembre de 2024
 
 

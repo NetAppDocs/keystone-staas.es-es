@@ -24,18 +24,18 @@ En STaaS de NetApp Keystone se notifican los siguientes problemas conocidos:
 
 
  a| 
-Los detalles de volumen no están disponibles para las suscripciones principales y vinculadas
+Se muestra un tipo de política de calidad de servicio incorrecto
  a| 
-La pestaña *Volume Summary* muestra cero para el número total de volúmenes, el estado de cumplimiento de QoS, el recuento de volúmenes protegidos y la capacidad total consumida para suscripciones primarias y secundarias vinculadas.
+En la pestaña *Detalles de volumen*, la columna *Tipo de política de QoS* muestra _QoS_ cuando no se aplica ninguna política de QoS, y la columna Compatible muestra _NOT SET_, lo que provoca una inconsistencia en el estado de la política de QoS mostrado.
  a| 
 Ninguno
 
 
 
  a| 
-No se han podido generar informes para suscripciones
+Los detalles de volumen no están disponibles para las suscripciones principales y vinculadas
  a| 
-Cuando se seleccionan más de 10-12 suscripciones en la pestaña *Suscripciones* de la página *Suscripciones Keystone*, el informe no se genera al hacer clic en el botón *Descargar CSV* con la opción *Incluir datos para cada nivel de servicio*.
+La pestaña *Volume Summary* muestra cero para el número total de volúmenes, el estado de cumplimiento de QoS, el recuento de volúmenes protegidos y la capacidad total consumida para suscripciones primarias y secundarias vinculadas.
  a| 
 Ninguno
 

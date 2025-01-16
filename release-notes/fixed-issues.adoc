@@ -22,6 +22,15 @@ Los problemas encontrados en versiones anteriores de los servicios de STaaS de N
 
 
  a| 
+No se pueden generar informes para suscripciones al seleccionar más de 10-12 suscripciones desde la pestaña *Suscripciones* de la página *Suscripciones Keystone*.
+ a| 
+Fija
+ a| 
+8 de enero de 2025
+
+
+
+ a| 
 La subpestaña *Resumen de volumen* de la pestaña *Volúmenes y objetos* no se carga para las suscripciones de StorageGRID.
  a| 
 Fija
