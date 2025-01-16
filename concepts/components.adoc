@@ -65,7 +65,7 @@ Las máquinas virtuales son necesarias para la implementación de Keystone Colle
 Keystone Collector se puede implementar a través de los siguientes métodos:
 
 * Plantilla OVA de VMware (se requiere VMware vCenter Server 6.7 o posterior)
-* El cliente proporciona un servidor Linux que se ejecute en Red Hat Enterprise Linux 8,6 o versiones posteriores 8.x o CentOS 7. El software Keystone se instala mediante `.rpm` el proceso de instalación.
+* El cliente proporciona un servidor Linux que se ejecute en uno de los siguientes sistemas operativos: Debian 12, Red Hat Enterprise Linux 8,6 o versiones 8.x posteriores, o CentOS 7 (solo para entornos existentes). El software Keystone se instala mediante el `.deb` paquete o `.rpm`, según la distribución de Linux.
 
 
 El recopilador de ITOM se puede desplegar mediante los siguientes métodos:

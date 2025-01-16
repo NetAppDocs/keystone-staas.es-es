@@ -30,7 +30,7 @@ Antes de instalar Keystone Collector en un entorno sin acceso a Internet, tambi√
 
 == Requisitos para Linux
 
-* Sistema operativo: Debian v12 o Red Hat Enterprise Linux (RHEL) 8,6, o versiones posteriores de la serie RHEL 8.x.
+* Sistema operativo: Debian 12 o Red Hat Enterprise Linux (RHEL) 8,6, o versiones posteriores de la serie RHEL 8.x.
 * N√∫cleo: 2 CPU
 * RAM: 4 GB
 * Espacio en disco: 50 GB vDisk
