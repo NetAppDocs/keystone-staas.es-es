@@ -2193,4 +2193,9 @@ Los detalles de las suscripciones, los gráficos de uso de cada nivel de servici
   <block id="2fd8a3db64e08617acb19923d6feb044" category="paragraph">En la pestaña *Detalles de volumen*, la columna *Tipo de política de QoS* muestra _QoS_ cuando no se aplica ninguna política de QoS, y la columna Compatible muestra _NOT SET_, lo que provoca una inconsistencia en el estado de la política de QoS mostrado.</block>
   <block id="6fac87c4e304acd1c313d83787f9b7bd" category="section-title">Adición de opciones de consulta de uso de datos acumulados diarios</block>
   <block id="bce353c38d140a9c3cfcff4f836af86f" category="paragraph">Ahora puede ver el uso diario de datos de ráfaga acumulados en formato de gráfico o tabla para un período de facturación mensual o trimestral haciendo clic en la barra que muestra los datos facturados. Para obtener más información, consulte <block ref="2773c8880a0c489f5c889cad1b1aa49a" category="inline-link-macro-rx"></block>.</block>
+  <block id="0488df5729275bc610c775109a5e97ed" category="doc">Problemas solucionados en STaaS de Keystone</block>
+  <block id="e3cdc936dac2c0ff066e39a4166c9208" category="doc">Problemas conocidos en STaaS de Keystone</block>
+  <block id="cf456956bf4b18082e3ed1243aff31f5" category="paragraph">No se han podido ver los datos históricos</block>
+  <block id="7b19f6e9d0fb85adf96f95ba11a7325e" category="paragraph">En la pestaña *Tendencia de consumo*, los niveles de servicio asociados con la suscripción anterior no se muestran una vez que la suscripción caduca y se renueva con el mismo ID de seguimiento, pero con diferentes niveles de servicio. Esto provoca la pérdida de acceso a los datos de consumo históricos.</block>
+  <block id="1dd6b840b80d1691b68b67682f45c121" category="doc">Limitaciones conocidas de STaaS de Keystone</block>
 </blocks>

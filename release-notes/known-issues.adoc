@@ -4,7 +4,7 @@ permalink: release-notes/known-issues.html
 keywords: netapp, keystone, release notes, known issues 
 summary: Los problemas conocidos identifican problemas que pueden impedirle usar de forma efectiva los servicios de suscripción de Keystone. 
 ---
-= Problemas conocidos
+= Problemas conocidos en STaaS de Keystone
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -21,6 +21,15 @@ En STaaS de NetApp Keystone se notifican los siguientes problemas conocidos:
 [cols="3*"]
 |===
 | Problema conocido | Descripción | Solución alternativa 
+
+
+ a| 
+No se han podido ver los datos históricos
+ a| 
+En la pestaña *Tendencia de consumo*, los niveles de servicio asociados con la suscripción anterior no se muestran una vez que la suscripción caduca y se renueva con el mismo ID de seguimiento, pero con diferentes niveles de servicio. Esto provoca la pérdida de acceso a los datos de consumo históricos.
+ a| 
+Ninguno
+
 
 
  a| 
