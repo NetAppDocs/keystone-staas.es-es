@@ -2183,7 +2183,6 @@ Los detalles de las suscripciones, los gráficos de uso de cada nivel de servici
   <block id="de75b30d787fc40e53cc46d0b5ab30cf" category="paragraph"><block ref="de75b30d787fc40e53cc46d0b5ab30cf" category="inline-image-macro-rx" type="image"></block></block>
   <block id="eba7556a1fc4fd160e9d81ddb2112a3e" category="paragraph">Una imagen de ejemplo que muestra el uso diario de datos de ráfaga acumulados en un gráfico de líneas:</block>
   <block id="515f3b344653c49257ced259fb9261bd" category="inline-image-macro">captura de pantalla que muestra los datos de uso de ráfaga en formato de gráfico de líneas</block>
-  <block id="47fdc60b1d26d7e27d3b186be572a4d8" category="paragraph"><block ref="47fdc60b1d26d7e27d3b186be572a4d8" category="inline-image-macro-rx" type="image"></block></block>
   <block id="afb651343eb4e95550b828492b0990bf" category="paragraph">Puede cambiar a una vista de tabla haciendo clic en la opción *Tabla* en la esquina superior derecha del gráfico. La vista de tabla ofrece métricas de uso diarias detalladas, que incluyen el nivel de servicio, la marca de hora, la capacidad comprometida, la capacidad consumida y la capacidad aprovisionada facturable. También puede generar un informe con estos detalles en formato CSV para su uso y comparación futuros.</block>
   <block id="ef839937832da4065ea73d2af5bb0212" category="inline-image-macro">captura de pantalla que muestra los datos de uso de ráfaga en formato de tabla</block>
   <block id="fd4179e96bb6b563483e2da193ee3515" category="paragraph"><block ref="fd4179e96bb6b563483e2da193ee3515" category="inline-image-macro-rx" type="image"></block></block>
@@ -2195,7 +2194,10 @@ Los detalles de las suscripciones, los gráficos de uso de cada nivel de servici
   <block id="bce353c38d140a9c3cfcff4f836af86f" category="paragraph">Ahora puede ver el uso diario de datos de ráfaga acumulados en formato de gráfico o tabla para un período de facturación mensual o trimestral haciendo clic en la barra que muestra los datos facturados. Para obtener más información, consulte <block ref="2773c8880a0c489f5c889cad1b1aa49a" category="inline-link-macro-rx"></block>.</block>
   <block id="0488df5729275bc610c775109a5e97ed" category="doc">Problemas solucionados en STaaS de Keystone</block>
   <block id="e3cdc936dac2c0ff066e39a4166c9208" category="doc">Problemas conocidos en STaaS de Keystone</block>
-  <block id="cf456956bf4b18082e3ed1243aff31f5" category="paragraph">No se han podido ver los datos históricos</block>
-  <block id="7b19f6e9d0fb85adf96f95ba11a7325e" category="paragraph">En la pestaña *Tendencia de consumo*, los niveles de servicio asociados con la suscripción anterior no se muestran una vez que la suscripción caduca y se renueva con el mismo ID de seguimiento, pero con diferentes niveles de servicio. Esto provoca la pérdida de acceso a los datos de consumo históricos.</block>
   <block id="1dd6b840b80d1691b68b67682f45c121" category="doc">Limitaciones conocidas de STaaS de Keystone</block>
+  <block id="d84ae5b6becc67f38fe4f478e713f236" category="paragraph"><block ref="d84ae5b6becc67f38fe4f478e713f236" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="71246a468b7dd0ee3663403dfb3f159b" category="paragraph">Falta la opción *Suscripciones Keystone* de *Lista de seguimiento* y la opción *Número de suscripción* de *Informes* en el panel del Asesor digital.</block>
+  <block id="738bb3187467e21f957b2120a45e356a" category="paragraph">2025-03-19</block>
+  <block id="f2c2ba26aedbdce8dba144e80789d0b1" category="paragraph">Faltan algunas suscripciones de Keystone de *Watchlist* después de crear o modificar la lista de seguimiento desde el panel del Asesor Digital.</block>
+  <block id="dd3b859a25ffcf974732975af6e5a4e9" category="paragraph">No se pueden ver los datos históricos en la pestaña *Tendencia de consumo* para los niveles de servicio asociados a una suscripción que ha caducado y se ha renovado con el mismo ID de seguimiento pero diferentes niveles de servicio.</block>
 </blocks>

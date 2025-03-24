@@ -117,7 +117,7 @@ image:invoiced-daily-accr-burst-1.png["captura de pantalla que muestra el gráfi
 
 Una imagen de ejemplo que muestra el uso diario de datos de ráfaga acumulados en un gráfico de líneas:
 
-image:invoiced-daily-accr-burst-2.png["captura de pantalla que muestra los datos de uso de ráfaga en formato de gráfico de líneas"]
+image:invoiced-daily-accr-burst-date.png["captura de pantalla que muestra los datos de uso de ráfaga en formato de gráfico de líneas"]
 
 Puede cambiar a una vista de tabla haciendo clic en la opción *Tabla* en la esquina superior derecha del gráfico. La vista de tabla ofrece métricas de uso diarias detalladas, que incluyen el nivel de servicio, la marca de hora, la capacidad comprometida, la capacidad consumida y la capacidad aprovisionada facturable. También puede generar un informe con estos detalles en formato CSV para su uso y comparación futuros.
 

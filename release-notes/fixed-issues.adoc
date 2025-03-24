@@ -22,6 +22,33 @@ Los problemas encontrados en versiones anteriores de los servicios de STaaS de N
 
 
  a| 
+Falta la opción *Suscripciones Keystone* de *Lista de seguimiento* y la opción *Número de suscripción* de *Informes* en el panel del Asesor digital.
+ a| 
+Fija
+ a| 
+2025-03-19
+
+
+
+ a| 
+Faltan algunas suscripciones de Keystone de *Watchlist* después de crear o modificar la lista de seguimiento desde el panel del Asesor Digital.
+ a| 
+Fija
+ a| 
+2025-03-19
+
+
+
+ a| 
+No se pueden ver los datos históricos en la pestaña *Tendencia de consumo* para los niveles de servicio asociados a una suscripción que ha caducado y se ha renovado con el mismo ID de seguimiento pero diferentes niveles de servicio.
+ a| 
+Fija
+ a| 
+2025-03-19
+
+
+
+ a| 
 No se pueden generar informes para suscripciones al seleccionar más de 10-12 suscripciones desde la pestaña *Suscripciones* de la página *Suscripciones Keystone*.
  a| 
 Fija

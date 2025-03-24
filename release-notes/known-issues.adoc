@@ -24,15 +24,6 @@ En STaaS de NetApp Keystone se notifican los siguientes problemas conocidos:
 
 
  a| 
-No se han podido ver los datos históricos
- a| 
-En la pestaña *Tendencia de consumo*, los niveles de servicio asociados con la suscripción anterior no se muestran una vez que la suscripción caduca y se renueva con el mismo ID de seguimiento, pero con diferentes niveles de servicio. Esto provoca la pérdida de acceso a los datos de consumo históricos.
- a| 
-Ninguno
-
-
-
- a| 
 Se muestra un tipo de política de calidad de servicio incorrecto
  a| 
 En la pestaña *Detalles de volumen*, la columna *Tipo de política de QoS* muestra _QoS_ cuando no se aplica ninguna política de QoS, y la columna Compatible muestra _NOT SET_, lo que provoca una inconsistencia en el estado de la política de QoS mostrado.
