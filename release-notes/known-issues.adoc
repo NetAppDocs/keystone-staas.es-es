@@ -24,6 +24,15 @@ En STaaS de NetApp Keystone se notifican los siguientes problemas conocidos:
 
 
  a| 
+Factura incorrecta debido a que los datos no coinciden
+ a| 
+Una discrepancia en los datos de consumo para las suscripciones de AutoSupport provoca la generación de facturas incorrectas, lo que provoca imprecisiones en la facturación.
+ a| 
+Ninguno
+
+
+
+ a| 
 Se muestra un tipo de política de calidad de servicio incorrecto
  a| 
 En la pestaña *Detalles de volumen*, la columna *Tipo de política de QoS* muestra _QoS_ cuando no se aplica ninguna política de QoS, y la columna Compatible muestra _NOT SET_, lo que provoca una inconsistencia en el estado de la política de QoS mostrado.

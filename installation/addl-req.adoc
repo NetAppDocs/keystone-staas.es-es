@@ -26,6 +26,34 @@ Antes de empezar a usar Keystone, debe asegurarse de que los clústeres de ONTAP
 
 
 .Antes de empezar
+Cumpla con los siguientes requisitos si tiene la intención de recopilar datos de uso solo a través de ONTAP:
+
+. Asegúrese de que ONTAP 9,8 o una versión posterior esté configurada. Para obtener información sobre la configuración de un nuevo clúster, consulte estos enlaces:
++
+** https://docs.netapp.com/us-en/ontap/task_configure_ontap.html["Configure ONTAP en un nuevo clúster con System Manager"]
+** https://docs.netapp.com/us-en/ontap/software_setup/task_create_the_cluster_on_the_first_node.html["Configure un clúster con la CLI"]
+
+
+. Crear cuentas de inicio de sesión de ONTAP con roles específicos. Para obtener más información, consulte https://docs.netapp.com/us-en/ontap/authentication/create-svm-user-accounts-task.html#cluster-and-svm-administrators["Obtenga más información sobre la creación de cuentas de inicio de sesión de ONTAP"] .
++
+** *Web UI*
++
+... Inicie sesión en ONTAP System Manager con las credenciales predeterminadas. Para obtener más información, consulte https://docs.netapp.com/us-en/ontap/concept_administration_overview.html["Gestión de clústeres con System Manager"] .
+... Cree un usuario de ONTAP con el rol de solo lectura y el tipo de aplicación http y habilite la autenticación de contraseña navegando a *Clúster > Configuración > Seguridad > Usuarios*.
+
+
+** *CLI*
++
+... Inicie sesión en la interfaz de línea de comandos de ONTAP con las credenciales predeterminadas. Para obtener más información, consulte https://docs.netapp.com/us-en/ontap/system-admin/index.html["Gestión de clústeres con CLI"] .
+... Cree un usuario ONTAP con el rol de solo lectura y el tipo de aplicación http y habilite la autenticación de contraseña. Para obtener más información sobre la autenticación, consulte https://docs.netapp.com/us-en/ontap/authentication/enable-password-account-access-task.html["Active el acceso de contraseña de la cuenta de ONTAP"] .
+
+
+
+
+
+
+Cumpla con los siguientes requisitos si tiene intención de recopilar datos de uso a través de Active IQ Unified Manager:
+
 . Asegúrese de que Unified Manager 9,10 o una versión posterior esté configurada. Para obtener información sobre la instalación de Unified Manager, consulte estos enlaces:
 +
 ** https://docs.netapp.com/us-en/active-iq-unified-manager/install-vapp/concept_requirements_for_installing_unified_manager.html["Instalación de Unified Manager en sistemas VMware vSphere"^]

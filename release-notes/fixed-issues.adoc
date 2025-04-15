@@ -22,6 +22,24 @@ Los problemas encontrados en versiones anteriores de los servicios de STaaS de N
 
 
  a| 
+Los valores de consumo de las suscripciones enlazadas muestran números negativos incorrectos, lo que hace que el uso comprometido total se muestre de forma incorrecta alto.
+ a| 
+Fija
+ a| 
+2025-04-14
+
+
+
+ a| 
+No se pueden ver los datos históricos en la pestaña *Tendencia de consumo* para los niveles de servicio de algunas suscripciones.
+ a| 
+Fija
+ a| 
+2025-04-14
+
+
+
+ a| 
 Falta la opción *Suscripciones Keystone* de *Lista de seguimiento* y la opción *Número de suscripción* de *Informes* en el panel del Asesor digital.
  a| 
 Fija
