@@ -34,9 +34,7 @@ image:dark-site-mode-1.png["Modo Darksite"]
 . Alterne el campo *Start KS Collector with System*.
 . Alterne el campo *Recoger uso de ONTAP*. Añada los detalles del servidor y la cuenta de usuario de Active IQ Unified Manager (Unified Manager).
 . *Opcional*: Alterna el campo *Utilizando Planes de Tasa de Niveles* si se requiere la organización de datos en niveles para la suscripción.
-+
-En función del tipo de suscripción comprado, actualice el *Tipo de uso*.
-
+. En función del tipo de suscripción comprado, actualice el *Tipo de uso*.
 +
 
 NOTE: Antes de configurar, confirme el tipo de uso asociado a la suscripción de NetApp.
