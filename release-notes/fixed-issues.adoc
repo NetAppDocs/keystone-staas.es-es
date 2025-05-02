@@ -22,6 +22,15 @@ Los problemas encontrados en versiones anteriores de los servicios de STaaS de N
 
 
  a| 
+Keystone Collector no recopila datos de uso de clústeres de ONTAP que ejecutan versiones inferiores a 9,11.
+ a| 
+Fija
+ a| 
+2025-04-30
+
+
+
+ a| 
 Los valores de consumo de las suscripciones enlazadas muestran números negativos incorrectos, lo que hace que el uso comprometido total se muestre de forma incorrecta alto.
  a| 
 Fija

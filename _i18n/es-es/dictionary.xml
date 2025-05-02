@@ -2223,4 +2223,6 @@ Los detalles de las suscripciones, los gráficos de uso de cada nivel de servici
   <block id="16fc27e61eb7cb21d80ac46bae8bf3c2" category="paragraph">No se pueden ver los datos históricos en la pestaña *Tendencia de consumo* para los niveles de servicio de algunas suscripciones.</block>
   <block id="cb0b0f23652246b2cc88085920b86963" category="paragraph">Factura incorrecta debido a que los datos no coinciden</block>
   <block id="5bf5a6c38d050a01f149d67dba290961" category="paragraph">Una discrepancia en los datos de consumo para las suscripciones de AutoSupport provoca la generación de facturas incorrectas, lo que provoca imprecisiones en la facturación.</block>
+  <block id="433d1a34b63c347d592c720846bb3834" category="paragraph">Keystone Collector no recopila datos de uso de clústeres de ONTAP que ejecutan versiones inferiores a 9,11.</block>
+  <block id="ddb5adb9194c71f7e22975533efa8326" category="paragraph">2025-04-30</block>
 </blocks>
