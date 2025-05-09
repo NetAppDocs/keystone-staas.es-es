@@ -254,7 +254,6 @@
   <block id="e80564e6a1386159e71203ed98662fc4" category="paragraph">Durante la duración de una suscripción, puede cambiar las capacidades comprometidas. Sin embargo, existen algunas condiciones previas:</block>
   <block id="38ee5c58ab48cb8a1b633c2aea7a1e45" category="list-text">La capacidad comprometida puede disminuirse en función de ciertas condiciones. Para obtener más información, consulte <block ref="bce311488cda7b3fc83e86e7b3939fd8" category="inline-link-macro-rx"></block>.</block>
   <block id="dd83b22a815febb6c6547eab078bbf30" category="section-title">La capacidad consumida</block>
-  <block id="9cd5acb8fb327acbb895954f39411c04" category="paragraph">La capacidad consumida hace referencia a la capacidad (en TIB de almacenamiento) que se está consumiendo actualmente en el servicio. El servicio Keystone considera la suma de los tamaños lógicos utilizados (no la capacidad física utilizada) de todos los volúmenes en un nivel de servicio concreto para calcular la capacidad consumida para ese nivel de servicio.</block>
   <block id="08d63a30cdbc798edef3e21cacda1ac2" category="section-title">Capacidad de ráfaga</block>
   <block id="422cb43011b8f4dd25975e284b167728" category="list-text">La capacidad de ráfaga se puede consumir sobre una base flexible y se cobra diariamente por la media consumida.</block>
   <block id="d634acbcc57e75a34f7ef2ecf60eb69c" category="list-text">La capacidad de ráfaga se acuerda en el acuerdo de Keystone. Normalmente se configura hasta un 20% por encima de la capacidad comprometida y se carga a la misma tasa que la capacidad comprometida.</block>
@@ -2225,4 +2224,9 @@ Los detalles de las suscripciones, los gráficos de uso de cada nivel de servici
   <block id="5bf5a6c38d050a01f149d67dba290961" category="paragraph">Una discrepancia en los datos de consumo para las suscripciones de AutoSupport provoca la generación de facturas incorrectas, lo que provoca imprecisiones en la facturación.</block>
   <block id="433d1a34b63c347d592c720846bb3834" category="paragraph">Keystone Collector no recopila datos de uso de clústeres de ONTAP que ejecutan versiones inferiores a 9,11.</block>
   <block id="ddb5adb9194c71f7e22975533efa8326" category="paragraph">2025-04-30</block>
+  <block id="95ff7c62926d2ecbfa68d2cb55e84679" category="paragraph">La capacidad consumida hace referencia a la capacidad (en TIB de almacenamiento) que se está consumiendo actualmente en el servicio. Es la suma de:</block>
+  <block id="bc1fb831529945409538850faa16026e" category="list-text">La capacidad lógica utilizada para almacenar todas las instancias y tipos de datos de usuario (como copias, copias reflejadas y versiones).</block>
+  <block id="b2a0ad297e26236d750246160723aa4e" category="list-text">La capacidad lógica utilizada para almacenar volúmenes de clonado que son más del 10 % del tamaño del volumen original.</block>
+  <block id="93fcc6bc4dfbcffb60fef19d3e82a054" category="list-text">La capacidad física utilizada para almacenar los datos diferenciales de las copias Snapshot.</block>
+  <block id="92103b58e95f2c7bb6f6903f55f4e0ca" category="list-text">La capacidad física asignada.</block>
 </blocks>
