@@ -2229,4 +2229,6 @@ Los detalles de las suscripciones, los gráficos de uso de cada nivel de servici
   <block id="b2a0ad297e26236d750246160723aa4e" category="list-text">La capacidad lógica utilizada para almacenar volúmenes de clonado que son más del 10 % del tamaño del volumen original.</block>
   <block id="93fcc6bc4dfbcffb60fef19d3e82a054" category="list-text">La capacidad física utilizada para almacenar los datos diferenciales de las copias Snapshot.</block>
   <block id="92103b58e95f2c7bb6f6903f55f4e0ca" category="list-text">La capacidad física asignada.</block>
+  <block id="b972ea8fcf6c823010b9b37178b9d608" category="paragraph">Keystone Collector para StorageGRID no puede configurarse correctamente debido a que faltan ajustes comunes.</block>
+  <block id="3af3083ee373e5ebbb20d7719411dd4c" category="paragraph">2025-05-12</block>
 </blocks>
