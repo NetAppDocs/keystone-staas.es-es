@@ -22,6 +22,15 @@ Los problemas encontrados en versiones anteriores de los servicios de STaaS de N
 
 
  a| 
+Cuando el recopilador Keystone existente instalado mediante un paquete Debian intenta configurar un proxy HTTP o habilitar Unified Manager a través de la TUI de administración del recopilador Keystone, la TUI deja de responder.
+ a| 
+Fija
+ a| 
+2025-05-19
+
+
+
+ a| 
 Keystone Collector para StorageGRID no puede configurarse correctamente debido a que faltan ajustes comunes.
  a| 
 Fija
