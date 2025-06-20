@@ -28,7 +28,7 @@ Puedes suscribirte a este servicio complementario como parte de tu suscripción 
 
 Para obtener información sobre los servicios estándar y en la nube, consulte link:supported-storage-services.html["Servicios Keystone STaaS"].
 
-Para obtener información acerca de los niveles de servicio, consulte link:../concepts/service-levels.html["Niveles de servicio en Keystone"].
+Para obtener información sobre los niveles de servicio de rendimiento, consulte link:../concepts/service-levels.html["Niveles de servicio de rendimiento en Keystone"] .
 
 
 

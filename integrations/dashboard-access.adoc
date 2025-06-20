@@ -1,0 +1,60 @@
+---
+sidebar: sidebar 
+permalink: integrations/dashboard-access.html 
+keywords: Keystone, Digital Advisor, keystone-aiq, aiq, BlueXP, Keystone dashboard, Keystone subscriptions 
+summary: Como suscriptor de NetApp Keystone STaaS, puede acceder al panel de Keystone a través de NetApp BlueXP o Digital Advisor 
+---
+= Comience a usar el panel de control de Keystone
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puede acceder al panel de Keystone a través de NetApp BlueXP o Digital Advisor después de suscribirse a los servicios de NetApp Keystone.
+
+[role="tabbed-block"]
+====
+.BlueXP
+--
+Para iniciar sesión en BlueXP, puede usar sus credenciales del sitio de soporte de NetApp o puede registrarse en BlueXP usando su correo electrónico y una contraseña. Más información sobre link:https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-logging-in.html["Inicio de sesión en BlueXP"^].
+
+.Pasos
+. Inicie sesión en BlueXP.
+. Desde el menú de navegación izquierdo de BlueXP, seleccione *Almacenamiento > Keystone*.
++
+Aparece el panel de control de Keystone.
+
++
+image:discover-subscriptions-1.png["la página del panel de control de Keystone"]
+
++
+
+NOTE: Comuníquese con el soporte de NetApp Keystone si sus credenciales de inicio de sesión no están vinculadas a ninguna suscripción de Keystone.
+
+
+
+--
+.Asesor digital
+--
+El panel de control de Digital Advisor le permite ver los detalles de sus suscripciones a Keystone. Para iniciar sesión en el asesor digital, puede usar sus credenciales del sitio de soporte de NetApp.
+
+.Pasos
+. Abra un navegador web y vaya a link:https://activeiq.netapp.com/?source=onlinedocs["Asesor digital"^] Página de inicio de sesión.
+. Introduzca su nombre de usuario y contraseña y haga clic en *Iniciar sesión*.
++
+Puede consultar los detalles de su suscripción y uso, así como un resumen del uso de la capacidad de los servicios Keystone adquiridos, en el widget *Suscripciones Keystone* del panel de control de Digital Advisor. Para obtener más información sobre el widget *Suscripciones Keystone*, consulte link:../integrations/keystone-aiq.html["Panel de control de Keystone en Digital Advisor"] .
+
+
+
+--
+====
+*Información relacionada*
+
+* link:../integrations/keystone-bluexp.html["Panel de control de Keystone en BlueXP"]
+* link:..//integrations/keystone-aiq.html["Panel de control de Keystone en Digital Advisor"]
+* link:../integrations/subscriptions-tab.html["Ver los detalles de su suscripción"]
+

@@ -30,9 +30,9 @@ NOTE: Los acuerdos de nivel de servicio y las garantías están disponibles seg�
 
 
 
-== Niveles de servicio
+== Niveles de servicio de rendimiento
 
-Todos los niveles de servicio compatibles con las cabinas de almacenamiento flash de ONTAP son elegibles para acuerdos de nivel de servicio de disponibilidad. Para obtener más información, consulte link:https://docs.netapp.com/us-en/keystone-staas/concepts/service-levels.html#service-levels-for-file-and-block-storage["Niveles de servicio en Keystone"].
+Todos los niveles de servicio de rendimiento que admiten las matrices de almacenamiento flash ONTAP son elegibles para el SLA de disponibilidad. Para obtener más información, consulte link:https://docs.netapp.com/us-en/keystone-staas/concepts/service-levels.html#service-levels-for-file-and-block-storage["Niveles de servicio de rendimiento en Keystone"].
 
 
 
@@ -82,8 +82,8 @@ Créditos de servicio = (capacidad afectada / capacidad comprometida total) X ta
 Donde:
 
 * *Capacidad afectada*: La cantidad de capacidad almacenada afectada.
-* *Capacidad total comprometida*: La capacidad comprometida para el nivel de servicio para el pedido de Keystone.
-* *Tasas por capacidad*: Las tasas por el nivel de servicio afectado para el mes.
+* *Capacidad total comprometida*: La capacidad comprometida para el nivel de servicio de rendimiento del pedido de Keystone.
+* *tarifas de capacidad*: Las tarifas por el nivel de servicio de rendimiento afectado para el mes.
 * *Porcentaje de crédito*: El porcentaje predeterminado para el crédito de servicio.
 
 

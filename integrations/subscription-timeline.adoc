@@ -1,0 +1,47 @@
+---
+sidebar: sidebar 
+permalink: integrations/subscription-timeline.html 
+keywords: keystone, BlueXP, subscriptions, timeline, lifecycle, activation, modification, renewal 
+summary: Vea el cronograma de suscripción de BlueXP, que incluye eventos como fechas de activación, modificación y renovación. 
+---
+= Ver la cronología de sus suscripciones a Keystone
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+El panel de control de Keystone en BlueXP ofrece una vista cronológica de sus suscripciones a Keystone, mostrando eventos como las fechas de activación, modificación y renovación. Esta vista cronológica no está disponible en Digital Advisor.
+
+Para ver el cronograma de suscripción, siga estos pasos:
+
+.Pasos
+. Desde el menú de navegación izquierdo de BlueXP, seleccione *Almacenamiento > Keystone > Suscripciones*.
+. Seleccione el número de suscripción en la columna *Número de suscripción* para ver el cronograma de suscripción.
++
+Serás redirigido a la pestaña *Consumo actual*.
+
+. Seleccione la pestaña *Cronograma de suscripción*.
++
+image:bxp-subscription-timeline-graph.png["Una captura de pantalla para mostrar el cronograma de suscripción en un formato de gráfico de líneas junto con eventos importantes."]
+
++
+El cronograma de suscripciones se muestra como un gráfico lineal de forma predeterminada, con iconos que marcan los eventos importantes. Pase el cursor sobre un evento para ver información detallada, como la fecha y los cambios realizados en la capacidad comprometida durante una modificación. Para ver estos eventos en una tabla, seleccione la opción *Tabla* en el menú desplegable *Ver como*. También puede ver el cronograma de otras suscripciones seleccionando o buscando en el menú desplegable *ID de seguimiento*.
+
++
+image:bxp-subscription-timeline.png["Una captura de pantalla para mostrar el cronograma de suscripción en un formato de gráfico de tabla junto con eventos importantes"]
+
+
+
+*Información relacionada*
+
+* link:../integrations/dashboard-overview.html["Comprender el panel de control de Keystone"]
+* link:../integrations/subscriptions-tab.html["Ver los detalles de su suscripción"]
+* link:../integrations/consumption-tab.html["Ver tendencias de consumo"]
+* link:../integrations/assets-tab.html["Ver sus activos de suscripción de Keystone"]
+* link:../integrations/assets.html["Visualiza los activos en todas tus suscripciones de Keystone"]
+* link:../integrations/volumes-objects-tab.html["Ver volúmenes y detalles de objetos"]
+

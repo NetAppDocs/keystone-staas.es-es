@@ -18,9 +18,9 @@ Data Infrastructure Insights (DII, anteriormente conocido como Cloud Insights) d
 
 Para obtener más información sobre Data Infrastructure Insights, consulte link:https://docs.netapp.com/us-en/data-infrastructure-insights/["Documentación de Data Infrastructure Insights"^].
 
-DII está disponible para suscripciones nuevas y existentes. Puede integrarse en una suscripción a Keystone como complemento para la capacidad comprometida. Cuando DII se integra en una suscripción de Keystone, tendrá un nivel de servicio correspondiente para cada nivel de servicio básico de la suscripción. Por ejemplo, Extreme se asigna a DII Extreme, Premium se asigna a DII Premium y Performance se asigna a DII Performance. Estas asignaciones garantizan que el nivel de servicio DII se alinee con el nivel de servicio básico de tu suscripción de Keystone.
+DII está disponible para suscripciones nuevas y existentes. Puede integrarse en una suscripción a Keystone como complemento para la capacidad comprometida. Al integrar DII en una suscripción de Keystone, tendrá un nivel de servicio de rendimiento correspondiente a cada nivel de servicio de rendimiento base de la suscripción. Por ejemplo, Extreme se asigna a DII Extreme, Premium se asigna a DII Premium y Performance se asigna a DII Performance. Estas asignaciones garantizan que el nivel de servicio de rendimiento de DII coincida con el nivel de servicio de rendimiento base de su suscripción de Keystone.
 
-Una vista de los niveles de servicio DII dentro de un widget *Suscripciones Keystone* en el panel de Digital Advisor:
+Una vista de los niveles de servicio de rendimiento de DII dentro de un widget *Suscripciones Keystone* en el panel de Digital Advisor:
 
 image:keystone-widget-dii.png["Captura de pantalla del widget Suscripciones de Keystone que muestra los niveles de servicio de DII"]
 
@@ -51,9 +51,12 @@ Tenga en cuenta lo siguiente:
 | Cloud Volumes ONTAP | Cloud Volumes ONTAP de NetApp 
 |===
 +
-Una vez configurada, la instancia de DII comenzará a supervisar el almacenamiento de Keystone.
+Una vez configurada, la instancia DII comenzará a monitorear los recursos de almacenamiento de NetApp implementados como parte de Keystone.
 
 
+
+
+NOTE: Si bien DII ofrece amplias capacidades de monitoreo del hardware implementado, no proporciona información sobre su suscripción a Keystone, como su uso o detalles sobre el rendimiento del servicio. Para obtener información sobre suscripciones, consulte link:../integrations/keystone-aiq.html["Panel de control y generación de informes de Keystone"] .
 
 
 
@@ -66,7 +69,7 @@ A continuación se describen los detalles de facturación y medición del servic
 image:current-consumption-dii.png["Captura de pantalla de la pestaña Consumo actual que muestra la medición de los niveles de servicio"]
 
 * Este servicio se mide y factura junto con tu suscripción a Keystone en la misma factura. Si configuras DII para Keystone antes de activar tu suscripción a Keystone, la facturación seguirá comenzando desde la fecha de activación de la suscripción de Keystone o desde la fecha de modificación de las suscripciones existentes.
-* Este servicio se mide y se factura en función de la capacidad comprometida y el uso en bursting para los niveles de servicio de DII, además de la factura estándar de Keystone. La medición de este servicio complementario sigue la misma metodología que el nivel de servicio de suscripción de Keystone subyacente, que podría ser lógico, aprovisionado o físico.
+* Este servicio se mide y factura según la capacidad comprometida y el uso en ráfagas para los niveles de servicio de rendimiento DII, además de la factura estándar de Keystone. La medición de este servicio complementario sigue la misma metodología que el nivel de servicio de rendimiento de la suscripción de Keystone, que puede ser lógico, aprovisionado o físico.
 * Este servicio termina con la suscripción de Keystone a la que está vinculado. En la renovación, puedes elegir si renovar el servicio complementario. Si no renueva la suscripción de Keystone, el hardware supervisado se decomisionará y el servicio complementario finalizará automáticamente.
 
 

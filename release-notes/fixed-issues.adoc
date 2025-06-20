@@ -22,6 +22,24 @@ Los problemas encontrados en versiones anteriores de los servicios de STaaS de N
 
 
  a| 
+En la pestaña *Activos*, los activos de StorageGRID no son visibles.
+ a| 
+Fija
+ a| 
+2025-06-19
+
+
+
+ a| 
+Para el nivel de servicio Advance Data-Protect, en la pestaña *Tendencia de consumo*, el gráfico muestra una división para los sitios principales y espejo.
+ a| 
+El gráfico ya no muestra una división entre los sitios principales y los espejo.
+ a| 
+2025-06-19
+
+
+
+ a| 
 Cuando el recopilador Keystone existente instalado mediante un paquete Debian intenta configurar un proxy HTTP o habilitar Unified Manager a través de la TUI de administración del recopilador Keystone, la TUI deja de responder.
  a| 
 Fija

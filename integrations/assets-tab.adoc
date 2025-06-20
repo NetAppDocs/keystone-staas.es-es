@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: integrations/assets-tab.html 
-keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, keystone assets tab, ONTAP, StorageGRID 
+keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, keystone assets tab, ONTAP, StorageGRID, bluexp, volumes in clusters 
 summary: Usa la pestaña Assets para ver detalles de los clústeres y nodos de ONTAP, así como grids, sitios y nodos de StorageGRID que gestionan tus suscripciones de Keystone. 
 ---
-= Mira detalles de clústeres y grid que gestiona Keystone
+= Ver activos asociados con una suscripción de Keystone
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,16 +14,109 @@ summary: Usa la pestaña Assets para ver detalles de los clústeres y nodos de O
 
 
 [role="lead"]
-Use la pestaña *Activos* para ver detalles de los clústeres y nodos de ONTAP, y las cuadrículas, sitios y nodos de StorageGRID administrados por sus suscripciones de Keystone.
+Puede ver información detallada sobre los clústeres y nodos de ONTAP, así como sobre las redes, sitios y nodos de StorageGRID administrados por una única suscripción de Keystone. Esta vista de los activos de su suscripción está disponible en las vistas del panel de control de Keystone de BlueXP y Digital Advisor.
 
-La pestaña *Activos* del panel de control de Keystone incluye dos subpestañas: *ONTAP* y *StorageGRID*. Esta pestaña acumula información de nivel de clúster para ONTAP y la información de nivel de cuadrícula para StorageGRID en función de sus suscripciones, segregando y presentando los datos con detalles precisos. Puede ver esta información haciendo clic en las subpestañas correspondientes.
+
+
+== Ver los activos de suscripción de Keystone desde BlueXP
+
+La pestaña *Activos* dentro de la pestaña *Suscripciones* en BlueXP proporciona información detallada sobre los volúmenes en clústeres, nodos StorageGRID y nodos ONTAP asociados con la suscripción, incluidos varios detalles y el estado de la capacidad.
+
+
+NOTE: Esta vista está limitada a una suscripción de Keystone a la vez. También puede ver los activos de otras suscripciones seleccionándolos en la lista desplegable *ID de seguimiento*. El panel de control de Keystone en BlueXP le permite ver los activos de varias suscripciones de Keystone. Para obtener más información, consulte link:../integrations/assets.html["Visualiza los activos en todas tus suscripciones de Keystone"].
+
+Puede ver esta información siguiendo estos pasos:
+
+[role="tabbed-block"]
+====
+.Volúmenes en clústeres
+--
+.Pasos
+. Desde el menú de navegación izquierdo de BlueXP, seleccione *Almacenamiento > Keystone > Suscripciones*.
+. Seleccione el número de suscripción en la columna *Número de suscripción* de la tabla.
++
+Serás redirigido a la pestaña *Consumo actual*.
+
+. Seleccione la pestaña *Activos*.
+. Seleccione *Volúmenes en el clúster* en el menú desplegable *Ver*.
++
+image:bxp-volumes-clusters-single-subscription.png["Una captura de pantalla de volúmenes en clústeres para una suscripción"]
+
++
+Puede ver información detallada sobre los volúmenes en clústeres, incluyendo el nombre del volumen, el número de serie del nodo, el cumplimiento de las políticas de QoS, el nombre del clúster, el nombre del host y los niveles de rendimiento del servicio. También puede supervisar la capacidad aprovisionada, la utilización lógica y física, y los datos inactivos.
+
++
+
+TIP: Puede personalizar la tabla utilizando el selector de columnas image:column-selector.png["icono del selector de columnas"] icono y utilice la barra de búsqueda en la parte superior para buscar y filtrar los datos de la tabla según los parámetros de la columna.
+
+
+
+--
+.Nodos en clústeres
+--
+.Pasos
+. Desde el menú de navegación izquierdo de BlueXP, seleccione *Almacenamiento > Keystone > Suscripciones*.
++
+De forma predeterminada, la pestaña *Suscripciones* muestra la subpestaña *Suscripciones*.
+
+. Seleccione el número de suscripción en la columna *Número de suscripción* de la tabla.
++
+Serás redirigido a la pestaña *Consumo actual*.
+
+. Seleccione la pestaña *Activos*.
+. Seleccione *Nodos en clústeres* en el menú desplegable *Ver*.
++
+image:bxp-nodes-cluster-single-subscription.png["Una captura de pantalla de los nodos en clústeres para una suscripción"]
+
++
+Verá los detalles del clúster ONTAP, desglosados por configuraciones de eficiencia de almacenamiento, tipo de plataforma y detalles de capacidad.
+
++
+
+TIP: Puede personalizar la tabla utilizando el selector de columnas image:column-selector.png["icono del selector de columnas"] icono y utilice la barra de búsqueda en la parte superior para buscar y filtrar los datos de la tabla según los parámetros de la columna.
+
+
+
+--
+.Nodos en cuadrículas
+--
+.Pasos
+. Desde el menú de navegación izquierdo de BlueXP, seleccione *Almacenamiento > Keystone > Suscripciones*.
++
+De forma predeterminada, la pestaña *Suscripciones* muestra la subpestaña *Suscripciones*.
+
+. Seleccione el número de suscripción en la columna *Número de suscripción* de la tabla.
++
+Serás redirigido a la pestaña *Consumo actual*.
+
+. Seleccione la pestaña *Activos*.
+. Seleccione *Nodos en cuadrículas* en el menú desplegable *Vista*.
++
+image:bxp-nodes-grids-single-subscription.png["Una captura de pantalla de los nodos en las cuadrículas para una suscripción"]
+
++
+Puede ver información detallada sobre los nodos en las redes, incluyendo su nombre, estado, nombre, tipo y cliente. También puede supervisar la capacidad de datos consumida y disponible, el uso de la CPU y la capacidad de datos utilizable.
+
++
+
+TIP: Puede personalizar la tabla utilizando el selector de columnas image:column-selector.png["icono del selector de columnas"] icono y utilice la barra de búsqueda en la parte superior para buscar y filtrar los datos de la tabla según los parámetros de la columna.
+
+
+
+--
+====
+
+
+== Ver los activos de suscripción de Keystone desde Digital Advisor
+
+La pestaña *Activos* del panel de control de Keystone en Digital Advisor incluye dos subpestañas: *ONTAP* y *StorageGRID*. Esta pestaña acumula información de nivel de clúster para ONTAP y la información de nivel de cuadrícula para StorageGRID en función de sus suscripciones, segregando y presentando los datos con detalles precisos. Puede ver esta información haciendo clic en las subpestañas correspondientes.
 
 [role="tabbed-block"]
 ====
 .ONTAP
 --
 .Pasos
-. Haz clic en *GENERAL > Suscripciones Keystone > Activos > ONTAP*.
+. Haga clic en *General > Suscripciones Keystone > Activos > ONTAP*.
 . Seleccione el número de suscripción para el que desea ver los clusters.
 +
 Puede ver los detalles del clúster, desglosados por configuración de eficiencia del almacenamiento, tipo de plataforma y detalles de capacidad. Al hacer clic en uno de los clústeres, se accede al widget *Clusters* de la pantalla del Asesor Digital, donde se obtiene información adicional para ese clúster. El asesor digital proporciona información completa de inventario de sus puestas en marcha.
@@ -37,7 +130,7 @@ image:assets-tab-3.png["Captura de pantalla para mostrar información para ONTAP
 .StorageGRID
 --
 .Pasos
-. Haz clic en *GENERAL > Suscripciones Keystone > Activos > StorageGRID*.
+. Haga clic en *General > Suscripciones de Keystone > Activos > StorageGRID*.
 . Seleccione el número de suscripción.
 +
 Verá los detalles de la cuadrícula, clasificados por identificadores de grid y nodo, información del sitio, especificaciones de hardware y detalles de capacidad, que ayudan a supervisar y gestionar los nodos en la infraestructura de StorageGRID.
@@ -51,10 +144,11 @@ image:assets-tab-storagegrid.png["Captura de pantalla para mostrar información 
 ====
 *Información relacionada*
 
-* link:../integrations/aiq-keystone-details.html["Utilice la consola y la generación de informes de Keystone"]
-* link:../integrations/subscriptions-tab.html["Suscripciones"]
-* link:../integrations/current-usage-tab.html["Consumo de corriente"]
-* link:../integrations/volumes-objects-tab.html["Volúmenes  Objetos"]
-* link:../integrations/capacity-trend-tab.html["Tendencia de consumo"]
-* link:../integrations/performance-tab.html["Rendimiento"]
+* link:../integrations/dashboard-overview.html["Comprender el panel de control de Keystone"]
+* link:../integrations/subscriptions-tab.html["Ver los detalles de su suscripción"]
+* link:../integrations/current-usage-tab.html["Ver detalles de su consumo actual"]
+* link:../integrations/consumption-tab.html["Ver tendencias de consumo"]
+* link:../integrations/subscription-timeline.html["Ver el cronograma de su suscripción"]
+* link:../integrations/assets.html["Visualiza los activos en todas tus suscripciones de Keystone"]
+* link:../integrations/volumes-objects-tab.html["Ver volúmenes y detalles de objetos"]
 

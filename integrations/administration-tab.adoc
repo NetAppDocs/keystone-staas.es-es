@@ -1,0 +1,34 @@
+---
+sidebar: sidebar 
+permalink: integrations/administration-tab.html 
+keywords: performance service levels, keystone-bluexp, modify subscription, edit capacity, manage subscription 
+summary: Ver o cancelar la solicitud de servicio de suscripción de Keystone. 
+---
+= Ver solicitudes de servicio para suscripciones de Keystone
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puede ver y realizar un seguimiento de las solicitudes de servicio para modificar las suscripciones de Keystone a través de BlueXP, lo que proporciona un resumen rápido y monitorea el progreso.
+
+Para ver el progreso o cancelar una solicitud, siga estos pasos:
+
+.Pasos
+. Desde el menú de navegación izquierdo de BlueXP, seleccione *Almacenamiento > Keystone > Administración*.
++
+Verá una lista de todas las solicitudes de servicio, incluido el número de solicitud, el tipo de solicitud y el estado actual.
+
+. Puede hacer clic en el image:down-arrow.png["icono de flecha hacia abajo"] Icono junto a la columna *Fecha de envío* para ampliar el número de solicitud y ver los detalles. Verá los niveles de rendimiento del servicio para los que se generan las solicitudes.
++
+image:bxp-service-request-list.png["Una captura de pantalla muestra para qué niveles de servicio de rendimiento se generan las solicitudes de modificación."]
+
+. Seleccione el número de solicitud para ver información detallada, incluidos los detalles de modificación de la suscripción solicitada y el estado de progreso actual.
++
+image:bxp-service-progress.png["una captura de pantalla que muestra el estado de progreso actual"]
+
+

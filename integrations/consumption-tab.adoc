@@ -1,0 +1,206 @@
+---
+sidebar: sidebar 
+permalink: integrations/consumption-tab.html 
+keywords: keystone-aiq, digital advisor keystone, consumption trends, subscriptions, historical data, bluexp 
+summary: Para comprender el uso de su suscripción, puede ver la capacidad comprometida, la capacidad consumida, la capacidad disponible, etc. 
+---
+= Vea las tendencias de consumo de sus suscripciones a Keystone
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puede supervisar el uso de su suscripción consultando el historial de sus suscripciones a Keystone durante un periodo específico. Esto le permite obtener información valiosa sobre sus patrones de uso.
+
+Puede ver datos históricos de sus suscripciones de Keystone a través de BlueXP o Digital Advisor:
+
+[role="tabbed-block"]
+====
+.BlueXP
+--
+.Pasos
+. Desde el menú de navegación izquierdo de BlueXP, seleccione *Almacenamiento > Keystone > Suscripciones*.
+. Seleccione el número de suscripción en la columna *Número de suscripción*.
++
+Serás redirigido a la pestaña *Consumo actual*.
+
+. Seleccione la pestaña *Tendencia de consumo*.
+. Seleccione *Consumo histórico* en el menú desplegable *Vista* y elija el rango de tiempo usando el ícono de calendario en el campo *Período* para analizar las tendencias de uso de la capacidad.
++
+Los datos históricos de consumo para cada nivel de servicio de rendimiento se muestran en un gráfico de líneas según el rango de tiempo seleccionado.
+
++
+
+NOTE: Puede seleccionar *Ráfaga acumulada* en el menú desplegable *Ver* si desea ver el historial de consumo de la ráfaga para la que se generaron facturas. Puede usar estos datos para analizar el consumo facturado que se refleja en su factura. Para obtener más información, consulte link:../integrations/consumption-tab.html#view-accrued-burst["Ver ráfaga acumulada"].
+
++
+image:bxp-consumption-trend.png["captura de pantalla que muestra el consumo histórico"]
+
++
+El gráfico de líneas muestra datos históricos de consumo y permite a los usuarios analizar tendencias en un rango de fechas seleccionado. El gráfico muestra métricas como datos (capacidad de almacenamiento utilizada por los datos del usuario), instantáneas (capacidad de almacenamiento utilizada por los datos de instantáneas) y capacidad utilizada (capacidad de almacenamiento total, incluyendo tanto los datos como los de instantáneas), junto con la capacidad comprometida y la capacidad de ráfaga. La fecha y la hora de cada punto de datos se muestran en la parte inferior del gráfico. Según el rango de fechas de su consulta, los gráficos de uso muestran hasta 30 puntos de recopilación de datos. Puede pasar el cursor sobre el gráfico para ver el desglose del uso en cada punto de recopilación de datos.
+
++
+También puede ver un resumen del consumo actual junto con el consumo histórico para obtener una comprensión clara de su uso.
+
+
+
+--
+.Asesor digital
+--
+.Pasos
+. Haga clic en *General > Suscripciones Keystone > Tendencia de consumo*.
+. Seleccione la suscripción necesaria para la que desea ver los detalles. La primera suscripción en el nombre de su cuenta se selecciona de forma predeterminada.
+. Seleccione *Tendencia de consumo* si desea ver los datos históricos y analizar la tendencia de uso de capacidad.
++
+
+NOTE: Puede seleccionar *Ráfaga Acumulada Facturada* si desea ver el historial de consumo de las ráfagas para las que se generaron facturas. Puede usar estos datos para analizar el consumo facturado que se refleja en su factura. Para obtener más información, consulte link:../integrations/consumption-tab.html#view-accrued-burst["Ver ráfaga acumulada"].
+
+. Seleccione el intervalo de tiempo de los iconos del calendario en los campos *desde fecha* y *hasta fecha*. Seleccione el rango de fechas de la consulta. El rango de fechas puede ser el comienzo del mes o la fecha de inicio de la suscripción hasta la fecha actual o la fecha de finalización de la suscripción. No puede seleccionar una fecha futura.
++
+
+TIP: Para obtener un rendimiento óptimo y una experiencia de usuario, limite el rango de fechas de la consulta a tres meses.
+
+. Haga clic en *Ver detalles*. Los datos históricos de consumo de la suscripción para cada nivel de servicio de rendimiento se muestran en función del rango de tiempo seleccionado.
++
+Los gráficos de barras muestran el nombre del nivel de servicio de rendimiento y la capacidad consumida en relación con ese nivel de servicio de rendimiento para el rango de fechas. La fecha y la hora de la colección se muestran en la parte inferior del gráfico. Según el rango de fechas de la consulta, los gráficos de uso se muestran en un rango de 30 puntos de recopilación de datos. Puede pasar el cursor del ratón sobre los gráficos para ver el desglose del uso en términos de datos comprometidos, consumidos, ráfagas y por encima de los datos del límite de ráfaga en ese punto de recopilación de datos.
+
++
+Los gráficos de barras muestran ráfagas a corto plazo y puede ver estas ráfagas mediante la función de zoom. Cuando hay una ráfaga a corto plazo, se indica mediante un punto azul en la barra correspondiente o directamente en el eje X si no se consumen datos. Para ver los detalles, haga clic y mantenga pulsado en la barra o en el eje X donde aparece el punto azul, luego arrastre el cursor por el gráfico para seleccionar el intervalo de tiempo deseado y suéltelo para confirmar su selección. Esta acción amplía los datos y proporciona una vista más granular de la capacidad utilizada en ese nivel de servicio de rendimiento para el intervalo seleccionado. Puede hacer clic en el botón *Restablecer zoom* para volver a la vista de carta original.
+
++
+image:aiq-ks-subtime-7.png["Pestaña Tendencia de consumo con detalles"]
+
++
+Los siguientes colores en los gráficos de barras indican la capacidad consumida según se define dentro del nivel de servicio de rendimiento. Los datos mensuales a través de los gráficos están separados por una línea vertical.
+
++
+** Verde: Dentro del 80%.
+** Ámbar: 80% - 100%.
+** Rojo: Uso de ráfagas (100% de la capacidad comprometida con el límite de ráfaga acordado)
+** Morado: Por encima del límite de ráfaga o. `Above Limit`.
++
+
+NOTE: Un gráfico en blanco indica que no hay datos disponibles en el entorno en ese punto de recopilación de datos.
+
++
+Puede hacer clic en el botón de alternar *Mostrar uso actual* para ver el consumo, el uso de ráfaga y los datos de ráfaga acumulados para el período de facturación actual. Estos detalles no se basan en el rango de fechas de la consulta.
+
++
+*** *Consumo actual*: Indicador de la capacidad consumida (en TiB) definida para el nivel de servicio de rendimiento. Este campo utiliza colores específicos:
++
+**** Ningún color: Ráfaga o por encima del uso de ráfaga.
+**** Gris: Sin uso.
+**** Verde: Dentro del 80% de la capacidad comprometida.
+**** Ámbar: El 80 % de la capacidad comprometida con la ráfaga.
+
+
+*** *Ráfaga actual*: Indicador de la capacidad consumida dentro o por encima del límite de ráfaga definido. Cualquier uso dentro del límite de ráfaga para la suscripción, por ejemplo, un 20 % por encima de la capacidad comprometida se encuentra dentro del límite de ráfaga. Se considera un uso adicional por encima del límite de ráfaga. Este campo muestra colores específicos:
++
+**** Sin color: Sin uso de ráfaga.
+**** Rojo: Uso en ráfaga.
+**** Morado: Por encima del límite de ráfaga.
+
+
+*** * Explosión acumulada*: Indicador de la capacidad total de ráfaga (en TiB) acumulada durante cada intervalo de 2 minutos en un mes para el ciclo de facturación actual.
+
+
+
+
+
+
+--
+====
+
+
+== Cálculo de ráfagas acumuladas
+
+El uso de ráfaga acumulado para un mes completo se calcula de la siguiente manera:
+
+[suma de ráfagas en el mes / ((días en el mes) x 24 x 60)] x duración del intervalo
+
+Puede calcular la ráfaga acumulada para períodos cortos, como cada dos minutos, con lo siguiente:
+
+[burst / ((days in month) x 24 x 60)] x duración del intervalo
+
+La ráfaga es la diferencia entre la capacidad consumida y la capacidad comprometida. Por ejemplo, con un día en mes, si la capacidad consumida alcanza 120 TiB y la capacidad comprometida es de 100 TiB para un intervalo de 30 2 minutos, el resultado es una capacidad de ráfaga de 20 TiB, lo que equivale a un uso de ráfaga acumulado de 0,000925926 TiB para ese intervalo.
+
+
+
+== Ver ráfaga acumulada
+
+Puede consultar el consumo de datos acumulado por ráfagas a través de BlueXP o Digital Advisor. Si ha seleccionado *Ráfaga acumulada* en el menú desplegable *Ver* de la pestaña *Tendencia de consumo* de BlueXP, o la opción *Ráfaga acumulada facturada* de la pestaña *Tendencia de consumo* de Digital Advisor, podrá ver el consumo de datos acumulado por ráfagas mensual o trimestralmente, según el período de facturación seleccionado. Estos datos están disponibles para los últimos 12 meses que se han facturado y puede consultar por rango de fechas hasta los últimos 30 meses. Los gráficos de barras muestran los datos facturados y, si el uso aún no se ha facturado, se marcarán como _Pendiente_ para ese período.
+
+
+TIP: El uso acumulado facturado se calcula por período de facturación, en función de la capacidad comprometida y consumida para un nivel de servicio de rendimiento.
+
+Para un período de facturación trimestral, si la suscripción comienza en una fecha distinta del 1^st ^ del mes, la factura trimestral cubrirá el período de 90 días subsiguientes. Por ejemplo, si su suscripción comienza el 15 de agosto, la factura se generará para el período comprendido entre el 15 de agosto y el 14 de octubre.
+
+Si cambia de la facturación trimestral a la mensual, la factura trimestral seguirá cubriendo el período de 90 días, con dos facturas generadas en el último mes del trimestre: Una para el período de facturación trimestral y otra para los días restantes de ese mes. Esta transición permite que el período de facturación mensual comience el 1^st ^ del mes siguiente. Por ejemplo, si su suscripción comienza el 15 de octubre, recibirá dos facturas en enero, una del 15 de octubre al 14 de enero y otra del 15 al 31 de enero, antes de que el período de facturación mensual comience el 1 de febrero.
+
+image:accr-burst-2.png["uso de bursting acumulado trimestralmente"]
+
+Esta función está disponible en modo de sólo vista previa. Póngase en contacto con su KSM para obtener más información sobre esta función.
+
+
+
+== Ver el uso diario de datos de ráfaga acumulados
+
+Puede consultar el consumo diario acumulado de datos por ráfaga para un período de facturación mensual o trimestral a través de BlueXP o Digital Advisor. En BlueXP, la tabla "Ráfaga acumulada por días" proporciona datos detallados, incluyendo la marca de tiempo, la capacidad comprometida, consumida y acumulada por ráfaga si selecciona "Ráfaga acumulada" en el menú desplegable "Ver" de la pestaña "Tendencia de consumo".
+
+image:bxp-accrued-burst-days.png["Captura de pantalla que muestra la tabla de ráfagas acumuladas por días"]
+
+En Digital Advisor, cuando hace clic en la barra que muestra los datos facturados de la opción *Ráfaga acumulada facturada*, verá la sección Capacidad aprovisionada facturable debajo del gráfico de barras, que ofrece opciones de visualización de gráficos y tablas. La vista de gráfico predeterminada muestra el uso diario de los datos de ráfaga acumulados en un formato de gráfico de líneas, donde se muestran los cambios en el uso a lo largo del tiempo.
+
+image:invoiced-daily-accr-burst-1.png["captura de pantalla que muestra el gráfico de barras"]
+
+Una imagen de ejemplo que muestra el uso diario de datos de ráfaga acumulados en un gráfico de líneas:
+
+image:invoiced-daily-accr-burst-date.png["captura de pantalla que muestra los datos de uso de ráfaga en formato de gráfico de líneas"]
+
+Puede cambiar a una vista de tabla haciendo clic en la opción *Tabla* en la esquina superior derecha del gráfico. La vista de tabla proporciona métricas de uso diarias detalladas, incluido el nivel de servicio de rendimiento, la marca de tiempo, la capacidad comprometida, la capacidad consumida y la capacidad aprovisionada facturable. También puede generar un informe con estos detalles en formato CSV para su uso y comparación futuros.
+
+
+
+== Gráficos de referencia para protección avanzada de datos para MetroCluster
+
+Si se ha suscrito al servicio complementario de protección de datos avanzada, puede ver el desglose de los datos de consumo de los sitios asociados de MetroCluster en la pestaña *Tendencia de consumo* en Digital Advisor.
+
+Para obtener más información sobre el servicio complementario de protección de datos avanzada, consulte link:../concepts/adp.html["Protección de datos avanzada"].
+
+Si los clústeres en su entorno de almacenamiento de ONTAP están configurados en una configuración MetroCluster, los datos de consumo de su suscripción a Keystone se dividen en el mismo gráfico de datos históricos para mostrar el consumo en los sitios primario y espejo para los niveles de servicio de rendimiento base.
+
+
+NOTE: Los gráficos de barras de consumo se dividen únicamente para los niveles de servicio de rendimiento básico. Para el servicio complementario de protección de datos avanzada, es decir, el nivel de servicio de rendimiento _Advanced Data-Protect_, esta delimitación no aparece.
+
+.Nivel de servicio de rendimiento de protección de datos avanzado
+Para el nivel de servicio de rendimiento _Advanced Data-Protect_, el consumo total se divide entre los sitios asociados, y el uso en cada sitio asociado se refleja y factura en una suscripción separada; una suscripción para el sitio principal y otra para el sitio espejo. Esa es la razón por la que, cuando selecciona el número de suscripción para el sitio principal en la pestaña *Tendencia de consumo*, los gráficos de consumo para el servicio complementario de protección de datos avanzada muestran los detalles de consumo discreto solo del sitio principal. Dado que cada sitio asociado de una configuración MetroCluster actúa tanto como origen como mirroring, el consumo total de cada sitio incluye los volúmenes de origen y de mirroring creados en dicho sitio.
+
+
+TIP: La información sobre herramientas junto al ID de seguimiento de tu suscripción en la pestaña *Consumo actual* te ayuda a identificar la suscripción asociada en la configuración de MetroCluster.
+
+.Niveles de servicio de rendimiento base
+Para los niveles de servicio de rendimiento básico, cada volumen se factura según el aprovisionamiento en los sitios principal y espejo y, por lo tanto, el mismo gráfico de barras se divide según el consumo en los sitios principal y espejo.
+
+.Lo que puede ver para la suscripción principal
+La siguiente imagen muestra los gráficos para el nivel de servicio de rendimiento _Extremo_ (nivel de servicio de rendimiento base) y un número de suscripción principal. El mismo gráfico de datos históricos también indica el consumo de sitio duplicado en un tono más claro del mismo código de color utilizado para el sitio primario. La información sobre herramientas al pasar el ratón muestra el desglose de consumo (en TiB) para los sitios principales y de reflejo, 22,24 TiB y 14,86 TiB respectivamente.
+
+image:mcc-chart-1.png["mcc primario"]
+
+Para el nivel de servicio de rendimiento _Advanced Data-Protect_, los gráficos aparecen así:
+
+image:adp-src-1.png["base principal mcc"]
+
+.Qué puede ver para la suscripción secundaria (sitio de reflejo)
+Al verificar la suscripción secundaria, puede ver que el gráfico de barras para el nivel de servicio de rendimiento _Extremo_ (nivel de servicio de rendimiento base) en el mismo punto de recopilación de datos que el sitio del socio está invertido, y la distribución del consumo en los sitios principal y espejo es 14,86 TiB y 22,24 TiB respectivamente.
+
+image:mcc-chart-mirror-1.png["espejo mcc"]
+
+Para el nivel de servicio de rendimiento _Advanced Data-Protect_, el gráfico se ve así para el mismo punto de recopilación que en el sitio del socio:
+
+image:adp-mir-1.png["base de espejo mcc"]
+
+Para obtener más información sobre cómo MetroCluster protege sus datos, consulte https://docs.netapp.com/us-en/ontap-metrocluster/manage/concept_understanding_mcc_data_protection_and_disaster_recovery.html["Comprender la protección de datos y la recuperación ante desastres de MetroCluster"^].

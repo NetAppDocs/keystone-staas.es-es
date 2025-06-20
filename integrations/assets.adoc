@@ -1,0 +1,104 @@
+---
+sidebar: sidebar 
+permalink: integrations/assets.html 
+keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, keystone assets tab, ONTAP, StorageGRID 
+summary: Usa la pestaña Assets para ver detalles de los clústeres y nodos de ONTAP, así como grids, sitios y nodos de StorageGRID que gestionan tus suscripciones de Keystone. 
+---
+= Ver activos en múltiples suscripciones de Keystone
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+El panel de control de Keystone en BlueXP le permite ver información detallada sobre los nodos en clústeres, los volúmenes aprovisionados y los nodos StorageGRID en varias suscripciones de Keystone, según sus permisos de acceso. Esta vista no está disponible en Digital Advisor.
+
+[role="tabbed-block"]
+====
+.Nodos en clústeres
+--
+.Pasos
+. Desde el menú de navegación izquierdo de BlueXP, seleccione *Almacenamiento > Keystone > Activos*.
++
+La pestaña *Activos* muestra la subpestaña *Nodos en el clúster*.
+
++
+image:bxp-nodes-clusters-multiple-subscription.png["Una captura de pantalla de los nodos en clústeres para múltiples suscripciones"]
+
++
+Puede ver información detallada sobre todos los nodos de los clústeres de las suscripciones de Keystone, incluyendo los números de serie, el estado, la configuración de eficiencia de almacenamiento, el tipo de plataforma y los detalles de capacidad. También obtendrá una descripción general de:
+
++
+** Número total de suscripciones y nodos ONTAP.
+** Consumo de capacidad del nodo, con un botón *Ver* en el que se puede hacer clic para filtrar la tabla y mostrar los activos que cumplen criterios específicos (> 90 % consumido o < 50 % consumido).
+** Nodos basados en versiones de ONTAP, con el botón *Ver* para filtrar nodos dentro de las últimas tres versiones o anteriores.
++
+
+TIP: Puede personalizar la tabla utilizando el selector de columnas image:column-selector.png["icono del selector de columnas"] icono y utilice la barra de búsqueda en la parte superior para buscar y filtrar datos de Keystone según los parámetros de la columna.
+
+
+
+
+
+--
+.Volúmenes en clústeres
+--
+.Pasos
+. Desde el menú de navegación izquierdo de BlueXP, seleccione *Almacenamiento > Keystone > Activos*.
+. Seleccione la pestaña *Volúmenes en clústeres*.
++
+image:bxp-volumes-clusters-multiple-sub.png["Una captura de pantalla de volúmenes en clústeres para múltiples suscripciones"]
+
++
+Puede ver información detallada sobre todos los volúmenes en clústeres de las suscripciones de Keystone, incluyendo el nombre del volumen, el número de suscripción, el número de serie del nodo, el cumplimiento de las políticas de QoS, el nombre del clúster, el nombre del host y los niveles de rendimiento del servicio. Puede supervisar la capacidad aprovisionada, la utilización lógica y física, y los datos inactivos. También obtendrá una visión general de:
+
++
+** El número total de suscripciones, clústeres y volúmenes.
+** Estado de cumplimiento y protección del volumen, con un botón *Ver* para filtrar la tabla y mostrar los activos según criterios como compatible, no compatible o no protegido.
++
+
+TIP: Puede personalizar la tabla utilizando el selector de columnas image:column-selector.png["icono del selector de columnas"] icono y utilice la barra de búsqueda en la parte superior para buscar y filtrar datos de Keystone según los parámetros de la columna.
+
++
+Puede hacer clic en un número de suscripción en la columna *Número de suscripción* para ir a la pestaña *Suscripciones*, donde puede ver los detalles del consumo de la suscripción, los cronogramas y la información de los activos asociados. Para obtener más información, consulte link:../integrations/current-usage-tab.html["Ver detalles de su consumo actual"].
+
+
+
+
+
+--
+.Nodos en cuadrículas
+--
+.Pasos
+. Desde el menú de navegación izquierdo de BlueXP, seleccione *Almacenamiento > Keystone > Activos*.
+. Seleccione la pestaña *Nodos en cuadrículas*.
++
+image:bxp-nodes-grids-multiple-sub.png["Una captura de pantalla de los nodos en las cuadrículas para múltiples suscripciones"]
+
++
+Puede ver información detallada sobre todos los nodos de las redes en las suscripciones de Keystone, incluyendo el nombre del nodo, el ID del nodo, el número de suscripción, el nombre de la red, el tipo de nodo y el cliente. Puede supervisar la capacidad de datos consumida y disponible, el uso de la CPU y la capacidad de datos utilizable.
+
++
+
+TIP: Puede personalizar la tabla utilizando el selector de columnas image:column-selector.png["icono del selector de columnas"] icono y utilice la barra de búsqueda en la parte superior para buscar y filtrar datos de Keystone según los parámetros de la columna.
+
++
+Puede hacer clic en un número de suscripción en la columna *Número de suscripción* para ir a la pestaña *Suscripciones*, donde puede ver los detalles del consumo de la suscripción, los cronogramas y la información de los activos asociados. Para obtener más información, consulte link:../integrations/current-usage-tab.html["Ver detalles de su consumo actual"].
+
+
+
+--
+====
+*Información relacionada*
+
+* link:../integrations/dashboard-overview.html["Comprender el panel de control de Keystone"]
+* link:../integrations/subscriptions-tab.html["Ver los detalles de su suscripción"]
+* link:../integrations/current-usage-tab.html["Ver detalles de su consumo actual"]
+* link:../integrations/consumption-tab.html["Ver tendencias de consumo"]
+* link:../integrations/subscription-timeline.html["Ver el cronograma de su suscripción"]
+* link:../integrations/assets-tab.html["Ver sus activos de suscripción de Keystone"]
+* link:../integrations/volumes-objects-tab.html["Ver volúmenes y detalles de objetos"]
+

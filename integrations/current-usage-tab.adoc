@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: integrations/current-usage-tab.html 
-keywords: keystone-aiq, digital advisor keystone, current consumption tab 
+keywords: keystone-aiq, digital advisor keystone, current consumption tab, performance service levels, subscriptions 
 summary: Para comprender el uso de su suscripción, puede ver la capacidad comprometida, la capacidad consumida, la capacidad disponible, etc. 
 ---
-= Ver el consumo actual de sus suscripciones
+= Ver el consumo actual de sus suscripciones de Keystone
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,27 +14,62 @@ summary: Para comprender el uso de su suscripción, puede ver la capacidad compr
 
 
 [role="lead"]
-Para comprender el uso de su suscripción, puede ver los detalles de uso como la capacidad comprometida, la capacidad consumida, la capacidad disponible y mucho más.
+Puede obtener información sobre el uso de su suscripción al ver información detallada, como la capacidad comprometida, la capacidad consumida y la capacidad disponible, con el estado de consumo actual mostrado y segregado por niveles de servicio de rendimiento.
 
-Para ver esta pestaña, en el panel de navegación de la izquierda, vaya a *GENERAL > Suscripciones de Keystone > Consumo actual* y seleccione el número de suscripción requerido.
+Para ver el estado actual de consumo de tus suscripciones a través de BlueXP o Digital Advisor, sigue estos pasos:
 
+[role="tabbed-block"]
+====
+.BlueXP
+--
+.Pasos
+. Desde el menú de navegación izquierdo de BlueXP, seleccione *Almacenamiento > Keystone > Suscripciones*.
+. Seleccione el número de suscripción en la columna *Número de suscripción* de la tabla para ver el consumo actual.
++
+Serás redirigido a la pestaña *Consumo actual*.
+
++
+image:bxp-current-consumption-graph.png["Detalles del consumo actual en formato gráfico"]
+
++
+Para la suscripción seleccionada, puede ver los detalles de consumo en formato de tabla o gráfico utilizando la opción *Tabla* o *Gráfico* del menú desplegable *Ver como*. En la vista gráfica, puede ver el consumo actual por nivel de servicio de rendimiento, incluyendo la capacidad utilizada, la capacidad aprovisionada, el límite de capacidad comprometida y el límite de capacidad de ráfaga.
+
++
+En la vista de tabla, puede ver detalles como la capacidad máxima consumida y los días restantes hasta el vencimiento. Para supervisar el uso de su suscripción, puede ver el nombre del nivel de servicio de rendimiento, el estado del consumo, las capacidades comprometidas y utilizadas, las capacidades aprovisionadas y en ráfagas, la capacidad disponible y los volúmenes. Puede personalizar la tabla con el selector de columnas. image:column-selector.png["icono del selector de columnas"] icono.
+
++
+image:bxp-current-consumption-table.png["Detalles del consumo actual en formato de tabla"]
+
+
+
+--
+.Asesor digital
+--
+.Pasos
+. Desde el panel de navegación izquierdo de Digital Advisor, vaya a *General > Suscripciones Keystone > Consumo actual*.
+. Seleccione o busque el número de suscripción requerido en la lista desplegable *Suscripción*.
++
 image:aiq-ks-dtls-3.png["Pestaña Consumo actual"]
 
-Para la suscripción seleccionada, puede ver detalles, como las fechas de inicio y finalización de la suscripción, y el período de facturación, como mensual o anual. Como parte del uso de la suscripción, puede ver el nombre de nivel de servicio, comprometido, consumido, disponible y el uso de ráfaga actual y acumulado (en TiB).
++
+Para la suscripción seleccionada, puede ver detalles, como las fechas de inicio y finalización de la suscripción, y el período de facturación, como mensual o anual. Como parte del uso de la suscripción, puede ver el nombre del nivel de servicio de rendimiento, las capacidades comprometidas, consumidas y disponibles, y el uso de ráfagas actual y acumulado (en TiB). Se resaltan los niveles de servicio de rendimiento específicos que registran un mayor consumo. También se pueden ver las advertencias y alertas generadas para los volúmenes.
 
-
-TIP: La image:icon-info.png["icono de información"] el icono junto a cada columna proporciona información completa sobre esa columna. Se destacan niveles de servicio específicos que registran un consumo superior. También se pueden ver las advertencias y alertas generadas para los volúmenes.
-
-Para obtener más información sobre sus servicios de almacenamiento de Keystone y los niveles de servicio relevantes, consulte link:../concepts/service-levels.html["Niveles de servicio en Keystone"].
-
++
 Junto con el consumo actual, puede que desee ver los datos de uso históricos para la comparación. Haga clic en el botón *Ver datos históricos* para navegar a la pestaña *Tendencia de consumo* para ver los datos históricos de la misma suscripción.
+
+
+
+--
+====
+Para obtener información sobre sus servicios de almacenamiento de Keystone y los niveles de servicio de rendimiento relevantes, consulte link:../concepts/service-levels.html["Niveles de servicio de rendimiento en Keystone"] .
 
 *Información relacionada*
 
-* link:../integrations/aiq-keystone-details.html["Utilice la consola y la generación de informes de Keystone"]
-* link:../integrations/subscriptions-tab.html["Suscripciones"]
-* link:../integrations/capacity-trend-tab.html["Tendencia de consumo"]
-* link:../integrations/volumes-objects-tab.html["Volúmenes  Objetos"]
-* link:../integrations/assets-tab.html["Activos"]
-* link:../integrations/performance-tab.html["Rendimiento"]
+* link:../integrations/dashboard-overview.html["Comprender el panel de control de Keystone"]
+* link:../integrations/subscriptions-tab.html["Ver los detalles de su suscripción"]
+* link:../integrations/consumption-tab.html["Ver tendencias de consumo"]
+* link:../integrations/subscription-timeline.html["Ver el cronograma de su suscripción"]
+* link:../integrations/assets-tab.html["Ver sus activos de suscripción de Keystone"]
+* link:../integrations/assets.html["Visualiza los activos en todas tus suscripciones de Keystone"]
+* link:../integrations/volumes-objects-tab.html["Ver volúmenes y detalles de objetos"]
 

@@ -16,7 +16,24 @@ summary: NetApp ofrece funciones nuevas y mejoradas en cada lanzamiento de los s
 [role="lead"]
 NetApp ofrece funciones nuevas y mejoradas en cada lanzamiento de los servicios de STaaS de Keystone.
 
-Las siguientes mejoras se introducen en la pantalla *Suscripciones Keystone* del asesor digital Active IQ (también conocido como asesor digital):
+
+
+== 2025-06-19
+
+
+
+=== Panel de control de Keystone en BlueXP
+
+Ahora puede acceder al panel de control de Keystone directamente desde BlueXP. Esta integración le ofrece un único lugar para supervisar, gestionar y realizar un seguimiento de todas sus suscripciones de Keystone, junto con sus demás servicios de NetApp.
+
+Con el panel de control de Keystone en BlueXP, puedes:
+
+* Vea todos los detalles de su suscripción, el uso de capacidad y los activos en un solo lugar.
+* Administre fácilmente sus suscripciones y solicite cambios a medida que evolucionen sus necesidades.
+* Manténgase actualizado con la información más reciente para su entorno de almacenamiento.
+
+
+Para comenzar, vaya a *Almacenamiento > Keystone* en el menú de navegación izquierdo de BlueXP. Para obtener más información, consulte link:../integrations/dashboard-overview.html["Información general del panel de Keystone"^].
 
 
 
@@ -26,7 +43,7 @@ Las siguientes mejoras se introducen en la pantalla *Suscripciones Keystone* del
 
 === Adición de opciones de consulta de uso de datos acumulados diarios
 
-Ahora puede ver el uso diario de datos de ráfaga acumulados en formato de gráfico o tabla para un período de facturación mensual o trimestral haciendo clic en la barra que muestra los datos facturados. Para obtener más información, consulte link:../integrations/capacity-trend-tab.html#view-daily-accrued-burst-data-usage["Ver el uso diario de datos de ráfaga acumulados"].
+Ahora puede ver el uso diario de datos de ráfaga acumulados en formato de gráfico o tabla para un período de facturación mensual o trimestral haciendo clic en la barra que muestra los datos facturados. Para obtener más información, consulte link:../integrations/consumption-tab.html#view-daily-accrued-burst-data-usage["Ver el uso diario de datos de ráfaga acumulados"].
 
 
 
@@ -58,7 +75,7 @@ La pestaña *Detalles de volumen* en *Volúmenes y objetos* ahora incluye la opc
 
 === Ráfaga devengada facturada mejorada
 
-Ahora puede ver los datos de uso de ráfaga acumulados trimestralmente a través de la opción *Ráfaga devengada facturada* si ha optado por un período de facturación trimestral. Para obtener más información, consulte link:../integrations/capacity-trend-tab.html#view-invoiced-accrued-burst["Consulta de repartición devengada facturada"^].
+Ahora puede ver los datos de uso de ráfaga acumulados trimestralmente a través de la opción *Ráfaga devengada facturada* si ha optado por un período de facturación trimestral. Para obtener más información, consulte link:../integrations/consumption-tab.html#view-accrued-burst["Consulta de repartición devengada facturada"^].
 
 
 
@@ -80,7 +97,7 @@ Estas columnas proporcionan una mayor claridad en la columna *Lógica usada*, qu
 
 === Generación de informes mejorada
 
-Ahora puedes generar un informe consolidado para ver los detalles de tus datos de Keystone con la función Informe del asesor digital. Para obtener más información, consulte link:../integrations/aiq-keystone-details.html#generate-consolidated-report["Generar informe consolidado"^].
+Ahora puedes generar un informe consolidado para ver los detalles de tus datos de Keystone con la función Informe del asesor digital. Para obtener más información, consulte link:../integrations/options.html#generate-consolidated-report-from-digital-advisor["Generar informe consolidado"^] .
 
 
 
@@ -136,7 +153,7 @@ Los niveles de servicio *CVO Primario* y *CVO Secundario* se incluyen para admit
 
 === Función de zoom para ráfagas a corto plazo
 
-La pestaña *Capacity Trend* ahora incluye una función de zoom-in para ver los detalles de las ráfagas a corto plazo en los gráficos de uso. Para obtener más información, consulte link:../integrations/capacity-trend-tab.html["Pestaña Capacity Trend"^].
+La pestaña *Capacity Trend* ahora incluye una función de zoom-in para ver los detalles de las ráfagas a corto plazo en los gráficos de uso. Para obtener más información, consulte link:../integrations/consumption-tab.html["Pestaña Capacity Trend"^].
 
 
 
@@ -254,7 +271,7 @@ Algunas de sus suscripciones principales pueden tener suscripciones secundarias 
 
 === Datos facturados devueltos para repartición devengada
 
-Las etiquetas para *Explosión acumulada* ahora se modifican a *Explosión acumulada facturada* en la pestaña *Tendencia de capacidad*. Al seleccionar esta opción, podrá ver los gráficos mensuales de los datos de ráfaga devengados facturados. Para obtener más información, consulte link:../integrations/capacity-trend-tab.html#view-invoiced-accrued-burst["Consulta de repartición devengada facturada"^].
+Las etiquetas para *Explosión acumulada* ahora se modifican a *Explosión acumulada facturada* en la pestaña *Tendencia de capacidad*. Al seleccionar esta opción, podrá ver los gráficos mensuales de los datos de ráfaga devengados facturados. Para obtener más información, consulte link:../integrations/consumption-tab.html#view-accrued-burst["Consulta de repartición devengada facturada"^].
 
 
 
@@ -276,4 +293,4 @@ Se ha ampliado la compatibilidad con las listas de comprobaciones del asesor dig
 
 === Fecha convertida a zona horaria UTC
 
-Los datos devueltos en las pestañas de la pantalla *Suscripciones Keystone* del Asesor Digital se muestran en la hora UTC (zona horaria del servidor). Al introducir una fecha para la consulta, se considera automáticamente que está en la hora UTC. Para obtener más información, consulte link:../integrations/aiq-keystone-details.html["Panel de suscripción de Keystone e informes"^].
+Los datos devueltos en las pestañas de la pantalla *Suscripciones Keystone* de Digital Advisor se muestran en hora UTC (zona horaria del servidor). Al introducir una fecha para la consulta, se considera automáticamente que está en la hora UTC. Para obtener más información, consulte link:../integrations/keystone-aiq.html["Panel de suscripción de Keystone e informes"^].

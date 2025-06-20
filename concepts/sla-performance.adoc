@@ -14,7 +14,7 @@ summary: sostenibilidad, sla, acuerdo de nivel de servicio
 
 
 [role="lead"]
-NetApp Keystone ofrece un acuerdo de nivel de servicio basado en la latencia por nivel de servicio, como se describe en el orden Keystone para la capacidad consumida hasta el límite de ráfaga, de acuerdo con los siguientes términos y condiciones enumerados.
+NetApp Keystone ofrece un SLA basado en latencia por nivel de servicio de rendimiento, como se describe en el pedido de Keystone para la capacidad consumida hasta el límite de ráfaga, de acuerdo con los siguientes términos y condiciones que se enumeran a continuación.
 
 
 NOTE: Los acuerdos de nivel de servicio y las garantías están disponibles según las nominaciones.
@@ -42,9 +42,9 @@ NOTE: Los acuerdos de nivel de servicio y las garantías están disponibles seg�
 
 
 
-== Niveles de servicio
+== Niveles de servicio de rendimiento
 
-Todos los niveles de servicio compatibles con las cabinas de almacenamiento flash de ONTAP pueden optar a acuerdos de nivel de servicio de rendimiento y garantizar que se cumplan la siguiente latencia objetivo:
+Todos los niveles de servicio de rendimiento que admiten las matrices de almacenamiento flash ONTAP son elegibles para el SLA de rendimiento y garantizan el cumplimiento de la siguiente latencia objetivo:
 
 |===
 
@@ -56,7 +56,7 @@ Todos los niveles de servicio compatibles con las cabinas de almacenamiento flas
 *Objetivo 90^TH^ latencia percentil*
 | <1 ms | <2 ms | <4 ms | <4 ms 
 |===
-Para obtener más información sobre los requisitos de latencia de los niveles de servicio, consulte link:../concepts/service-levels.html["Niveles de servicio en Keystone"].
+Para obtener más información sobre los requisitos de latencia de los niveles de servicio de rendimiento, consulte link:../concepts/service-levels.html["Niveles de servicio de rendimiento en Keystone"] .
 
 
 
@@ -85,7 +85,7 @@ Créditos de servicio = (Capacidad afectada / Capacidad comprometida total) X Cu
 Donde:
 
 * *Capacidad afectada*: La cantidad de capacidad almacenada afectada.
-* *Capacidad total comprometida*: La capacidad comprometida para el nivel de servicio para el pedido de Keystone.
+* *Capacidad total comprometida*: La capacidad comprometida para el nivel de servicio de rendimiento del pedido de Keystone.
 * *Tasas por capacidad*: Las tarifas para el nivel de rendimiento afectado según la orden de Keystone.
 * *Días afectados*: El número de días naturales afectados.
 * *Porcentaje de crédito*: El porcentaje predeterminado para el crédito de servicio.

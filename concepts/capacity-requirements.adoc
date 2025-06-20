@@ -4,7 +4,7 @@ permalink: concepts/capacity-requirements.html
 keywords: storage capacity requirement for service levels, capacity definition per PSL, 
 summary: Los requisitos de capacidad para los niveles de servicio difieren con el almacenamiento de archivos, bloques, objetos o cloud que admite la suscripción de STaaS de Keystone. 
 ---
-= Requisitos de capacidad para los niveles de servicio
+= Requisitos de capacidad para los niveles de servicio de rendimiento
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,13 +14,13 @@ summary: Los requisitos de capacidad para los niveles de servicio difieren con e
 
 
 [role="lead"]
-Los requisitos de capacidad para los niveles de servicio de Keystone STaaS difieren entre el almacenamiento de archivos, bloques, objetos o cloud que admite la suscripción a Keystone STaaS.
+Los requisitos de capacidad para los niveles de servicio de rendimiento de Keystone STaaS difieren según el archivo, bloque, objeto o almacenamiento en la nube compatible con la suscripción de Keystone STaaS.
 
 
 
 == Requisitos mínimos de capacidad para servicios de archivos y bloques
 
-En la siguiente tabla, se describe la capacidad mínima y la capacidad incremental permitidas por suscripción. La capacidad mínima por nivel de servicio se ha definido como la misma en todos los movimientos de ventas de Keystone. La capacidad por encima de la capacidad mínima, ya sea al comienzo de la suscripción, o como servicio complementario a la suscripción, o después de la reasignación durante la suscripción también se estructura en la tabla.
+En la siguiente tabla, se describe la capacidad mínima y la capacidad incremental permitidas por suscripción. La capacidad mínima por nivel de servicio de rendimiento se define como la misma en todos los movimientos de ventas de Keystone. La capacidad por encima de la capacidad mínima, ya sea al comienzo de la suscripción, o como servicio complementario a la suscripción, o después de la reasignación durante la suscripción también se estructura en la tabla.
 
 |===
 
@@ -98,10 +98,10 @@ No aplicable
 
 Tenga en cuenta las siguientes cláusulas para los ajustes de capacidad:
 
-* La capacidad se puede agregar en cualquier momento durante el plazo, excepto durante los últimos 90 días del periodo del contrato, en los incrementos por nivel de servicio tal y como se describe en las tablas de la sección anterior. Se permite la adición de capacidad y/o servicios en los últimos 90 días de la duración del contrato, siempre y cuando exista el consentimiento para la renovación del servicio. Cualquier adición de capacidad, el nuevo servicio en las instalaciones o el cloud puede coexistir con el período existente. La factura que se le ha enviado tras la activación de los nuevos servicios refleja la facturación revisada. La capacidad comprometida de los servicios cloud no puede reducirse en ningún momento durante el plazo de suscripción. Mientras tanto, la capacidad comprometida y el gasto comprometido en los servicios en las instalaciones durante la duración del contrato pueden reducirse en base a ciertos criterios definidos en la siguiente sección _reducción de capacidad_.
-* Cada sitio dispone de una capacidad de ráfaga según el acuerdo de Keystone. Por lo general, está un 20% por encima de la capacidad comprometida para un nivel de servicio. Cualquier uso en ráfaga se factura sólo durante ese período de facturación. Si tiene un requisito de ráfaga adicional mayor que la capacidad acordada, póngase en contacto con el servicio de soporte.
+* Se puede agregar capacidad en cualquier momento durante el plazo, excepto durante los últimos 90 días del plazo del contrato, en incrementos por nivel de servicio de rendimiento como se describe en las tablas de la sección anterior. Se permite la adición de capacidad y/o servicios en los últimos 90 días de la duración del contrato, siempre y cuando exista el consentimiento para la renovación del servicio. Cualquier adición de capacidad, el nuevo servicio en las instalaciones o el cloud puede coexistir con el período existente. La factura que se le ha enviado tras la activación de los nuevos servicios refleja la facturación revisada. La capacidad comprometida de los servicios cloud no puede reducirse en ningún momento durante el plazo de suscripción. Mientras tanto, la capacidad comprometida y el gasto comprometido en los servicios en las instalaciones durante la duración del contrato pueden reducirse en base a ciertos criterios definidos en la siguiente sección _reducción de capacidad_.
+* Cada sitio dispone de una capacidad de ráfaga según el acuerdo de Keystone. Generalmente es un 20% superior a la capacidad comprometida para un nivel de servicio de rendimiento. Cualquier uso en ráfaga se factura sólo durante ese período de facturación. Si tiene un requisito de ráfaga adicional mayor que la capacidad acordada, póngase en contacto con el servicio de soporte.
 * La capacidad comprometida puede modificarse durante un contrato, sólo en determinadas condiciones, como se describe en la siguiente sección _reducción de capacidad_.
-* Se permite aumentar la capacidad o cambiar a un nivel de servicio superior durante un período de suscripción. Sin embargo, no se permite pasar de un nivel de servicio superior a uno inferior.
+* Se permite aumentar la capacidad o cambiar a un nivel de servicio de mayor rendimiento durante el período de suscripción. Sin embargo, no se permite cambiar de un nivel de servicio de mayor rendimiento a uno de menor rendimiento.
 * Cualquier solicitud de cambio en los últimos 90 días del periodo de servicio requiere una renovación del servicio por un mínimo de un año.
 
 
@@ -131,7 +131,7 @@ Requisitos y condiciones en un nivel de suscripción:
 * Las nuevas solicitudes entran en vigor sólo a partir del ciclo de facturación consecutivo.
 
 
-Puede asignar una parte de sus gastos a sus niveles de servicio de almacenamiento de objetos, bloques u archivos suscritos a los servicios de almacenamiento en cloud híbrido. Se puede reasignar hasta un 25% del valor contractual anual (ACV) trimestralmente a los servicios principal y secundario de Cloud Volumes ONTAP y Cloud Volumes ONTAP:
+Puede asignar una parte de sus gastos a los niveles de rendimiento del servicio de almacenamiento de archivos, bloques u objetos suscritos a servicios de almacenamiento en la nube híbridos. Se puede reasignar hasta un 25% del valor contractual anual (ACV) trimestralmente a los servicios principal y secundario de Cloud Volumes ONTAP y Cloud Volumes ONTAP:
 
 image:reallocation.png["explicación de la lógica de reasignación"]
 
@@ -157,6 +157,6 @@ Esta tabla proporciona un juego de valores de ejemplo para demostrar cómo funci
 
 |  |  | 37.376 
 |===
-La reducción es de (125-108) = 17 TiB de la capacidad asignada para el nivel de servicio extremo. En la reasignación de gastos, el almacenamiento en cloud híbrido asignado no es de 17 TiB, sino una capacidad equivalente que puede adquirir $5000. En este ejemplo, por 5000 $, puede obtener 17 TiB de capacidad de almacenamiento en las instalaciones para el nivel de servicio Extreme y 47 TiB de capacidad de cloud híbrido del nivel de servicio de Cloud Volumes ONTAP. Por lo tanto, la reasignación es con respecto al gasto, no la capacidad.
+La reducción es de (125-108) = 17 TiB de la capacidad asignada para el nivel de servicio de rendimiento Extremo. En la reasignación de gastos, el almacenamiento en cloud híbrido asignado no es de 17 TiB, sino una capacidad equivalente que puede adquirir $5000. En este ejemplo, por $5000, puede obtener 17 TiB de capacidad de almacenamiento local para el nivel de servicio de rendimiento Extremo y 47 TiB de capacidad de nube híbrida para el nivel de servicio de rendimiento de Cloud Volumes ONTAP. Por lo tanto, la reasignación es con respecto al gasto, no la capacidad.
 
 Ponte en contacto con tu Keystone Success Manager (KSM) si deseas reasignar los gastos de tus servicios on-premises a los servicios en la nube.

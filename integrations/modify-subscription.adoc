@@ -1,0 +1,49 @@
+---
+sidebar: sidebar 
+permalink: integrations/modify-subscription.html 
+keywords: performance service levels, keystone-bluexp, modify subscription, edit capacity, manage subscription 
+summary: Modifique su suscripción de Keystone para cambiar la capacidad comprometida para los niveles de servicio de rendimiento asociados a través de BlueXP. 
+---
+= Modifique su suscripción a Keystone desde BlueXP
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puede modificar la capacidad comprometida de su suscripción a Keystone para los niveles de servicio de rendimiento asociados a través de BlueXP.
+
+[NOTE]
+====
+* Puede modificar la capacidad comprometida si a la suscripción le quedan más de 90 días antes de que expire.
+* Debe estar asignado al rol de *administrador de Keystone* para modificar la capacidad comprometida. Para obtener más información, consulte link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["Obtenga más información sobre los roles de acceso de BlueXP"^].
+
+
+====
+Para cambiar la capacidad comprometida, siga estos pasos:
+
+.Pasos
+. Desde el menú de BlueXP, seleccione *Almacenamiento > Keystone > Suscripciones*.
+. Haga clic en el icono de puntos suspensivos de la tabla correspondiente a la suscripción que desea modificar y luego seleccione *Modificar*.
++
+La página *Modificar suscripción* muestra los detalles de los niveles de servicio de rendimiento suscritos asociados con el número de suscripción seleccionado.
+
++
+
+NOTE: Opcionalmente, puede acceder a la página *Modificar suscripción* haciendo clic en *Administrar suscripción* en la sección de detalles de la suscripción y luego seleccionando *Modificar*.
+
++
+image:bxp-modify-subscription.png["Una captura de pantalla que muestra la opción de modificar de la lista de suscripciones."]
+
+. Haga clic en *Editar capacidad* para modificar la capacidad comprometida para los niveles de servicio de rendimiento, proporcione los detalles necesarios y haga clic en *Enviar*.
++
+Verás la solicitud en la sección *Modificaciones* de la misma página.
+
+. Revise los detalles de la solicitud, haga clic en el botón *Revisar*, proporcione la confirmación necesaria y luego envíe la solicitud.
++
+Puede seguir y supervisar el progreso de su solicitud en la pestaña *Administración*. Para obtener más información sobre la pestaña *Administración*, consulte link:../integrations/administration-tab.html["Ver solicitudes de servicio para suscripciones de Keystone"] .
+
+

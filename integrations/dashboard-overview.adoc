@@ -1,0 +1,102 @@
+---
+sidebar: sidebar 
+permalink: integrations/dashboard-overview.html 
+keywords: Keystone, Digital Advisor, keystone-aiq, aiq, BlueXP, Keystone dashboard 
+summary: Como suscriptor de NetApp Keystone STaaS, puede obtener una descripción general de sus suscripciones de NetApp BlueXP o Digital Advisor. 
+---
+= Obtenga más información sobre el panel de control de Keystone
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+El panel de control de Keystone es su solución ideal para supervisar, analizar y gestionar eficazmente sus suscripciones de Keystone. A través del panel de control de Keystone, puede lograr los siguientes objetivos:
+
+* *Supervisar detalles de suscripción*: vea información detallada sobre sus suscripciones de Keystone, incluidos los niveles de servicio de rendimiento, el uso de la capacidad, los activos y las alertas.
+* *Realice un seguimiento del uso de la capacidad y genere informes*: realice un seguimiento del uso de la capacidad actual e histórico y genere informes para analizar los datos de suscripción y tomar decisiones informadas.
+* *Ver cronograma de suscripciones*: Manténgase informado sobre fechas y eventos clave monitoreando el cronograma de sus suscripciones.
+* *Administrar suscripciones*: envíe solicitudes para modificar los niveles de rendimiento del servicio u otros parámetros de suscripción a medida que cambien sus necesidades.
+* *Analizar volúmenes y objetos*: obtenga información detallada sobre los volúmenes y objetos de sus suscripciones, incluida su capacidad tanto a nivel de volumen como de objeto.
+
+
+
+
+== Acceda al panel de control de Keystone
+
+Puede acceder al panel de control de Keystone a través de:
+
+* *BlueXP*: Acceda al panel de control desde *Almacenamiento > Keystone > Descripción general* en BlueXP. Para obtener más información, consulte link:../integrations/keystone-bluexp.html["Panel de control de Keystone en BlueXP"^].
+* *Asesor digital Active IQ* (también conocido como Asesor digital): acceda al panel desde *General > Suscripciones Keystone* en Asesor digital. Para obtener más información, consulte link:../integrations/keystone-aiq.html["Panel de control de Keystone en Digital Advisor"^].
+
+
+Tenga en cuenta lo siguiente:
+
+* Si bien BlueXP y Digital Advisor ofrecen algunas características exclusivas, BlueXP proporciona funcionalidad administrativa para Keystone, lo que le permite administrar suscripciones y realizar los ajustes necesarios.
+* Debe estar asignado al rol de *administrador de Keystone* para modificar las suscripciones. Para obtener más información, consulte link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["Obtenga más información sobre los roles de acceso de BlueXP"^].
+* Digital Advisor está integrado con BlueXP, lo que le permite acceder a todas las funciones de Digital Advisor, incluido el panel de Keystone, directamente desde BlueXP. Para obtener más información, consulte link:https://docs.netapp.com/us-en/active-iq/digital-advisor-integration-with-bluexp.html#integration-overview["Integración con Digital Advisor con BlueXP"^].
+
+
+
+
+== Características clave en BlueXP y Digital Advisor
+
+La siguiente tabla muestra la disponibilidad de funciones en BlueXP y Digital Advisor, lo que le ayudará a identificar rápidamente la plataforma adecuada para sus necesidades:
+
+|===
+
+
+| *Característica* | *BlueXP* | *Asesor Digital* 
+
+
+ a| 
+link:../integrations/subscriptions-tab.html["Ver los detalles de su suscripción"]
+| Sí | Sí 
+
+
+ a| 
+link:../integrations/current-usage-tab.html["Supervisar el uso actual e histórico de la capacidad"]
+| Sí | Sí 
+
+
+ a| 
+link:../integrations/subscription-timeline.html["Seguimiento del cronograma de suscripción"]
+| Sí | No 
+
+
+ a| 
+link:../integrations/assets-tab.html["Ver activos asociados con una suscripción de Keystone"]
+| Sí | Sí 
+
+
+| link:../integrations/assets.html["Ver activos en múltiples suscripciones de Keystone"] | Sí | No 
+
+
+ a| 
+link:../integrations/modify-subscription.html["Modificar sus suscripciones"] (sólo para administradores de Keystone)
+| Sí | No 
+
+
+ a| 
+link:../integrations/options.html#generate-reports-from-bluexp-or-digital-advisor["Generar informes"]
+| Sí | Sí 
+
+
+ a| 
+link:../integrations/volumes-objects-tab.html["Ver detalles de volúmenes y objetos"]
+| Sí | Sí 
+
+
+ a| 
+link:../integrations/performance-tab.html["Ver métricas de rendimiento"]
+| No | Sí 
+|===
+*Información relacionada*
+
+* link:../integrations/dashboard-access.html["Comience a usar el panel de control de Keystone"]
+* link:../integrations/keystone-bluexp.html["Panel de control de Keystone en BlueXP"]
+* link:..//integrations/keystone-aiq.html["Panel de control de Keystone en Digital Advisor"]
+
