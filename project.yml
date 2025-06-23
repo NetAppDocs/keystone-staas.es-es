@@ -93,7 +93,7 @@ sidebar:
       entries:
       - title: Obtenga más información sobre el panel de control de Keystone
         url: "/integrations/dashboard-overview.html"
-      - title: Comience a usar el panel de control de Keystone
+      - title: Comience a utilizar el panel de control de Keystone
         url: "/integrations/dashboard-access.html"
       - title: Panel de control de Keystone en BlueXP
         url: "/integrations/keystone-bluexp.html"

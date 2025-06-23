@@ -28,7 +28,7 @@ indexpage:
     links:
     - title: Comprender el panel de control de Keystone
       url: "/integrations/dashboard-overview.html"
-    - title: Acceder al panel de control de Keystone
+    - title: Acceda al panel de control de Keystone
       url: "/integrations/dashboard-access.html"
     - title: Ver información de suscripciones
       url: "/integrations/subscriptions-tab.html"

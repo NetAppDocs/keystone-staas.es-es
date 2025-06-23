@@ -36,7 +36,7 @@ image:version-across-subscriptions.png["Un gráfico circular de las suscripcione
 *Información relacionada*
 
 * link:../integrations/dashboard-overview.html["Obtenga más información sobre el panel de control de Keystone"]
-* link:../integrations/dashboard-access.html["Comience a usar el panel de control de Keystone"]
+* link:../integrations/dashboard-access.html["Comience a utilizar el panel de control de Keystone"]
 * link:..//integrations/keystone-aiq.html["Panel de control de Keystone en Digital Advisor"]
 * link:../integrations/subscriptions-tab.html["Ver los detalles de su suscripción"]
 * link:../integrations/current-usage-tab.html["Ver detalles de su consumo actual"]

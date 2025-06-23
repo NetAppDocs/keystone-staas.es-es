@@ -15,4 +15,4 @@ Con el panel de control de Keystone en BlueXP, puedes:
 * Manténgase actualizado con la información más reciente para su entorno de almacenamiento.
 
 
-Para comenzar, vaya a *Almacenamiento > Keystone* en el menú de navegación izquierdo de BlueXP. Para obtener más información, consulte link:../integrations/dashboard-overview.html["Información general del panel de Keystone"^].
+Para comenzar, vaya a *Almacenamiento > Keystone* en el menú de navegación izquierdo de BlueXP. Para obtener más información, consulte link:../integrations/dashboard-overview.html["Información general del panel de Keystone"].

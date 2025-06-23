@@ -33,7 +33,7 @@ Con el panel de control de Keystone en BlueXP, puedes:
 * Manténgase actualizado con la información más reciente para su entorno de almacenamiento.
 
 
-Para comenzar, vaya a *Almacenamiento > Keystone* en el menú de navegación izquierdo de BlueXP. Para obtener más información, consulte link:../integrations/dashboard-overview.html["Información general del panel de Keystone"^].
+Para comenzar, vaya a *Almacenamiento > Keystone* en el menú de navegación izquierdo de BlueXP. Para obtener más información, consulte link:../integrations/dashboard-overview.html["Información general del panel de Keystone"].
 
 
 
@@ -245,7 +245,7 @@ Para proporcionar una mayor claridad a los volúmenes de su sistema ONTAP, se ha
 
 === Experiencia de búsqueda mejorada en Digital Advisor
 
-Los parámetros de búsqueda en la pantalla de *Digital Advisor* ahora incluyen números de suscripción de Keystone y listas de comprobaciones creadas para suscripciones de Keystone. Puede introducir los tres primeros caracteres de un número de suscripción o nombre de lista de seguimiento. Para obtener más información, consulte link:../integrations/keystone-aiq.html["Consulta el panel de Keystone en el asesor digital de Active IQ"^].
+Los parámetros de búsqueda en la pantalla de *Digital Advisor* ahora incluyen números de suscripción de Keystone y listas de comprobaciones creadas para suscripciones de Keystone. Puede introducir los tres primeros caracteres de un número de suscripción o nombre de lista de seguimiento. Para obtener más información, consulte link:../integrations/keystone-aiq.html["Ver el panel de Keystone en Active IQ Digital Advisor"^].
 
 
 
