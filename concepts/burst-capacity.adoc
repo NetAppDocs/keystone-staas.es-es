@@ -1,0 +1,23 @@
+---
+sidebar: sidebar 
+permalink: concepts/burst-capacity.html 
+keywords: burst consumption, add-on service, burst capacity, burst limit, NetApp Keystone 
+summary: Permite a los clientes utilizar capacidad de almacenamiento adicional más allá de su capacidad comprometida. 
+---
+= Opciones de capacidad de ráfaga
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puede optar por el servicio complementario de capacidad de ráfaga como parte de su suscripción a NetApp Keystone. Este servicio le permite aumentar sus límites de capacidad de ráfaga hasta un 40 % o un 60 % por encima de su capacidad comprometida, lo que le proporciona la flexibilidad necesaria para gestionar picos inesperados en la demanda de carga de trabajo.
+
+La capacidad de ráfaga se refiere a la capacidad de almacenamiento adicional que se puede utilizar más allá de la capacidad comprometida de su suscripción. Se mide y factura según el nivel de servicio de rendimiento. De forma predeterminada, su límite de ráfaga se establece en un 20 % por encima de la capacidad comprometida. Sin embargo, con este servicio adicional, puede aumentar el límite al 40 % o al 60 %.
+
+Para cambiar el límite de ráfaga al 40 % o al 60 %, comuníquese con el equipo de soporte de NetApp Keystone.
+
+Para obtener más información sobre cómo se factura la capacidad de ráfaga, consulte link:../concepts/burst-consumption-billing.html["Facturación basada en consumo en ráfaga"] .

@@ -125,14 +125,12 @@ sidebar:
       url: "/integrations/volumes-objects-tab.html"
     - title: Ver métricas de rendimiento
       url: "/integrations/performance-tab.html"
-  - title: Conceptos
+  - title: Conceptos de Keystone STaaS para v3
     entries:
     - title: Servicios Keystone STaaS
       entries:
       - title: Métricas y definiciones
         url: "/concepts/metrics.html"
-      - title: Calidad de servicio del almacenamiento
-        url: "/concepts/qos.html"
       - title: Almacenamiento admitido
         url: "/concepts/supported-storage-services.html"
       - title: Capacidad admitida
@@ -145,18 +143,18 @@ sidebar:
       entries:
       - title: Protección de datos avanzada
         url: "/concepts/adp.html"
+      - title: Opciones de capacidad de ráfaga
+        url: "/concepts/burst-capacity.html"
       - title: Información sobre la infraestructura de datos
         url: "/concepts/data-infra-insights.html"
       - title: Organización en niveles de los datos
         url: "/concepts/data-tiering.html"
-      - title: Servicios con tecnología Equinix
-        url: "/concepts/equinix.html"
       - title: Componentes no retornables, no volátiles y cumplimiento de normativas
           SnapLock
         url: "/concepts/nrnvc.html"
       - title: Soporte protegido de EE. UU. (USPS)
         url: "/concepts/usps.html"
-    - title: SLA de STaaS de Keystone
+    - title: SLO de STaaS de Keystone
       entries:
       - title: Disponibilidad
         url: "/concepts/sla-availability.html"
@@ -180,6 +178,59 @@ sidebar:
         url: "/concepts/misc-volume-billing.html"
       - title: Horarios de facturación
         url: "/concepts/billing-schedules.html"
+  - title: Conceptos de Keystone STaaS para v2
+    entries:
+    - title: Servicios Keystone STaaS
+      entries:
+      - title: Métricas y definiciones
+        url: "/concepts/metrics-v2.html"
+      - title: Calidad de servicio del almacenamiento
+        url: "/concepts/qos.html"
+      - title: Almacenamiento admitido
+        url: "/concepts/supported-storage-services-v2.html"
+      - title: Capacidad admitida
+        url: "/concepts/supported-storage-capacity-v2.html"
+      - title: Niveles de servicio de rendimiento
+        url: "/concepts/service-levels-v2.html"
+      - title: Requisitos de capacidad para los niveles de servicio de rendimiento
+        url: "/concepts/capacity-requirements-v2.html"
+    - title: Servicios complementarios
+      entries:
+      - title: Protección de datos avanzada
+        url: "/concepts/adp-v2.html"
+      - title: Información sobre la infraestructura de datos
+        url: "/concepts/data-infra-insights-v2.html"
+      - title: Organización en niveles de los datos
+        url: "/concepts/data-tiering-v2.html"
+      - title: Componentes no retornables, no volátiles y cumplimiento de normativas
+          SnapLock
+        url: "/concepts/nrnvc-v2.html"
+      - title: Soporte protegido de EE. UU. (USPS)
+        url: "/concepts/usps-v2.html"
+    - title: SLO de STaaS de Keystone
+      entries:
+      - title: Disponibilidad
+        url: "/concepts/sla-availability-v2.html"
+      - title: Rendimiento
+        url: "/concepts/sla-performance-v2.html"
+      - title: Sostenibilidad
+        url: "/concepts/sla-sustainability-v2.html"
+      - title: Garantía de recuperación frente a ransomware
+        url: "/concepts/sla-ransomware-v2.html"
+    - title: Facturación
+      entries:
+      - title: Precios Keystone
+        url: "/concepts/pricing-v2.html"
+      - title: Facturación basada en la capacidad comprometida
+        url: "/concepts/committed-capacity-billing-v2.html"
+      - title: Medición basada en la capacidad consumida
+        url: "/concepts/consumed-capacity-billing-v2.html"
+      - title: Facturación basada en consumo en ráfaga
+        url: "/concepts/burst-consumption-billing-v2.html"
+      - title: Escenarios varios para la facturación Keystone
+        url: "/concepts/misc-volume-billing-v2.html"
+      - title: Horarios de facturación
+        url: "/concepts/billing-schedules-v2.html"
   - title: Acceda a Keystone desde la API de REST del asesor digital
     entries:
     - title: Empieza a usar la API REST del asesor digital para recuperar los datos

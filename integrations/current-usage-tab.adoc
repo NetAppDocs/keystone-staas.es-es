@@ -49,10 +49,14 @@ image:bxp-current-consumption-table.png["Detalles del consumo actual en formato 
 . Desde el panel de navegación izquierdo de Digital Advisor, vaya a *General > Suscripciones Keystone > Consumo actual*.
 . Seleccione o busque el número de suscripción requerido en la lista desplegable *Suscripción*.
 +
-image:aiq-ks-dtls-3.png["Pestaña Consumo actual"]
+image:aiq-ks-dtls-4.png["Pestaña Consumo actual"]
 
 +
 Para la suscripción seleccionada, puede ver detalles, como las fechas de inicio y finalización de la suscripción, y el período de facturación, como mensual o anual. Como parte del uso de la suscripción, puede ver el nombre del nivel de servicio de rendimiento, las capacidades comprometidas, consumidas y disponibles, y el uso de ráfagas actual y acumulado (en TiB). Se resaltan los niveles de servicio de rendimiento específicos que registran un mayor consumo. También se pueden ver las advertencias y alertas generadas para los volúmenes.
+
++
+
+NOTE: Con Keystone versión 3 (v3), puede ver los detalles del consumo actual de cada instancia de nivel de servicio de rendimiento. Por ejemplo, si tiene dos instancias del nivel de servicio de rendimiento Extremo en una suscripción, cada instancia mostrará por separado sus capacidades comprometidas, consumidas y disponibles. Para obtener más información sobre los niveles de servicio de rendimiento, consulte link:../concepts/service-levels.html["Niveles de servicio de rendimiento en Keystone"] .
 
 +
 Junto con el consumo actual, puede que desee ver los datos de uso históricos para la comparación. Haga clic en el botón *Ver datos históricos* para navegar a la pestaña *Tendencia de consumo* para ver los datos históricos de la misma suscripción.

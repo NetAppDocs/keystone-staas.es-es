@@ -42,15 +42,15 @@ Puede ver y comparar las métricas de rendimiento en las siguientes secciones en
 
 
 
-== IOPS/TiB
+== IOPS
 
-En esta sección, se muestran los gráficos de entrada y salida para las cargas de trabajo del volumen según el rango de fechas de la consulta. Se muestran las IOPS máximas para el nivel de servicio de rendimiento y las IOPS actuales (en los últimos cinco minutos, no según el rango de fechas de la consulta), junto con las IOPS mínimas, máximas y promedio para el rango de tiempo, en IOPS/TiB.
+En esta sección, se muestran los gráficos de entrada y salida para las cargas de trabajo del volumen según el rango de fechas de la consulta. Se muestran las IOPS máximas para el nivel de servicio de rendimiento y las IOPS actuales (en los últimos cinco minutos, no según el rango de fechas de la consulta), junto con las IOPS mínimas, máximas y promedio para el rango de tiempo, en IOPS/Tib.
 
 image:perf-iops.png["Sección IOPS del gráfico"]
 
 
 
-== Rendimiento (MBps/TiB)
+== Rendimiento
 
 En esta sección, se muestran los gráficos de rendimiento de las cargas de trabajo del volumen según el intervalo de fechas de la consulta. Se muestran el rendimiento máximo para el nivel de servicio de rendimiento (SLO Max) y el rendimiento actual (en los últimos cinco minutos, no según el rango de fechas de la consulta), junto con el rendimiento mínimo, máximo y promedio para el rango de tiempo, en MBps/TiB.
 

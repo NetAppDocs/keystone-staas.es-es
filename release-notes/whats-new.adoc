@@ -18,6 +18,12 @@ NetApp ofrece funciones nuevas y mejoradas en cada lanzamiento de los servicios 
 
 
 
+== 2025-06-30
+
+Ya puede suscribirse a Keystone versión 3 (v3), la última versión de la oferta NetApp Keystone STaaS. Esta versión incorpora varias mejoras, como niveles de servicio de rendimiento simplificados, opciones adicionales de capacidad de ráfaga y frecuencias de facturación flexibles. Estas mejoras simplifican la gestión, la optimización y el escalado de las soluciones de almacenamiento. Para obtener más información, consulte link:../concepts/metrics.html["Servicios Keystone STaaS para v3"].
+
+
+
 == 2025-06-19
 
 
@@ -219,11 +225,11 @@ La información sobre herramientas que aparece al pasar el cursor sobre el gráf
 
 Ahora puedes ver los datos históricos si se modifica o renueva una suscripción de Keystone. Puede establecer la fecha de inicio de una suscripción en una fecha anterior para ver :
 
-* Consumo y datos de uso de ráfaga acumulados de la pestaña *Capacity Trend*,
-* Métricas de rendimiento de los volúmenes de ONTAP desde la pestaña *Rendimiento*,
+* Datos de consumo y uso acumulado de ráfagas de la pestaña *Tendencia de capacidad*.
+* Métricas de rendimiento de los volúmenes de ONTAP desde la pestaña *Rendimiento*.
 
 
-todos los cuales muestran los datos basados en la fecha seleccionada de la suscripción.
+Los datos se muestran en función de la fecha de inicio seleccionada de la suscripción.
 
 
 

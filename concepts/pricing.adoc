@@ -14,14 +14,14 @@ summary: Keystone ofrece un modelo de pago por crecimiento para sus necesidades 
 
 
 [role="lead"]
-Si prefiere el modelo de consumo de gastos operativos (OpEx) frente a los gastos de capital (CapEx) o arrendamiento, puede optar por el modelo de pago por crecimiento de STaaS de NetApp Keystone, que ofrece un consumo flexible y escalable con precios predecibles y iniciales para su suscripción de almacenamiento.
+El servicio de suscripción de pago por uso NetApp Keystone STaaS ofrece un consumo flexible y escalable con precios predecibles y por adelantado para sus necesidades de almacenamiento.
 
-Keystone le ofrece las siguientes instalaciones de facturación:
+Keystone para la versión 3 (v3) le ofrece las siguientes facilidades de facturación:
 
-* Puede pagar según las IOPS y la capacidad comprometida de latencia para satisfacer las necesidades de cargas de trabajo múltiples. Los distintos niveles de servicio de rendimiento: Extreme, Premium, Performance, Standard, Value, Object permite gestionar el almacenamiento en función del nivel de servicio adquirido.
+* Puede pagar según las IOPS y la capacidad comprometida de latencia para satisfacer las necesidades de cargas de trabajo múltiples. Los diferentes niveles de servicio de rendimiento (Extreme, Premium, Standard, Value, Object y Cloud Volumes ONTAP) le permiten administrar su almacenamiento en función del nivel de servicio adquirido.
 * Presenta una facturación predecible para la capacidad comprometida y el pago por uso de la capacidad variable (en ráfaga).
-* Puede seleccionar un precio de paquete para el hardware, el SO principal y el soporte para un precio de $/TIB. Dispone de una única factura para cada tipo de almacenamiento, archivo, bloque, objeto o servicios de almacenamiento en cloud.
-* Seleccione un término flexible para los servicios y el pago: Puede optar por 12 meses, 25 TIB o más por sitio. A partir de entonces, puede realizar una renovación automática durante 12 meses.
+* Puede seleccionar un precio de paquete para el hardware, el SO principal y el soporte para un precio de $/TIB. Tienes una única factura para cada tipo de almacenamiento, ya sea unificado, en bloques, optimizado, de objetos o servicios de almacenamiento en la nube.
+* Puede seleccionar un plazo flexible para los servicios y opciones de pago, como mensual, trimestral, semestral o anual.
 
 
 La facturación de Keystone se basa en la capacidad comprometida y en el consumo en ráfaga variable.

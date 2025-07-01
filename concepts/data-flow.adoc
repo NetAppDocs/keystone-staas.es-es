@@ -22,13 +22,13 @@ Los datos de los sistemas STaaS de Keystone fluyen a través de Keystone Collect
 
 Keystone Collector inicia llamadas API DE REST a las controladoras de almacenamiento y obtiene detalles de uso de las controladoras periódicamente, como se indica en este diagrama de flujo:
 
-image:collector-data-flow-2.png["muestra el flujo de datos dentro de los componentes del recopilador"]
+image:data-collector-flow.png["muestra el flujo de datos dentro de los componentes del recopilador"]
 
 .Leyenda
-. Collector de NetApp inicia una sesión HTTPS en el portal de cloud de Active-IQ.
+. NetApp Keystone Collector inicia la conexión a la nube de Keystone.
 . El firewall que utiliza el cliente permite la conexión.
-. El portal de cloud de Active IQ acepta la conexión y establece un túnel al recopilador de NetApp.
-. El recopilador de NetApp establece una sesión de API de REST en la conexión de gestión de la controladora de almacenamiento, obtiene datos de entorno y los envía al portal de Active IQ.
+. Keystone Collector establece una conexión API REST directamente a la conexión de administración del controlador de almacenamiento o túneles a través de Active IQ Unified Manager para recopilar datos de uso y rendimiento.
+. Estos datos se envían de forma segura a los componentes de la nube de Keystone a través de HTTPS.
 
 
 
@@ -37,7 +37,7 @@ image:collector-data-flow-2.png["muestra el flujo de datos dentro de los compone
 
 La supervisión continua del estado de la infraestructura de almacenamiento es una de las funciones más importantes del servicio Keystone. Para la supervisión y la generación de informes, Keystone utiliza la solución de supervisión ITOM. En la siguiente imagen se describe cómo la solución de supervisión de ITOM protege el acceso remoto a la ubicación del cliente. Los clientes pueden optar por habilitar la función de sesión remota, que permite al equipo de soporte de Keystone conectarse a dispositivos supervisados para solucionar problemas.
 
-image:monitoring-flow-1.png["flujo de datos"]
+image:monitoring-flow-2.png["flujo de datos"]
 
 .Leyenda
 . La puerta de enlace de la solución de supervisión ITOM inicia una sesión TLS en el portal de la nube.

@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar 
-permalink: concepts/burst-consumption-billing.html 
+permalink: concepts/burst-consumption-billing-v2.html 
 keywords: burst consumption billing 
 summary: La facturación de STaaS de Keystone se basa en la capacidad de bursting, que es la capacidad que consumes, además de la capacidad comprometida de tu suscripción. 
 ---
@@ -16,12 +16,12 @@ summary: La facturación de STaaS de Keystone se basa en la capacidad de burstin
 [role="lead"]
 La facturación de STaaS de Keystone se basa en _burst capacity_, que es la capacidad que consumes, además de la capacidad comprometida de tu suscripción.
 
-Su límite de ráfaga se determina y se especifica en su acuerdo de Keystone. De forma predeterminada, se establece en un 20 % por encima de la capacidad comprometida. También puede elegir límites de capacidad de ráfaga del 40 % o el 60 % de la capacidad comprometida. Para obtener más información, consulte link:../concepts/burst-capacity.html["Opciones para aumentar la capacidad de ráfaga"].
+Su límite de ráfaga se determina y se especifica en su acuerdo de Keystone. Está un 20% por encima de la capacidad comprometida.
 
 La capacidad comprometida es la capacidad que se le compromete a comprar la suscripción. La capacidad comprometida y la capacidad de ráfaga se miden por nivel de servicio de rendimiento. La capacidad consumida es la capacidad que realmente usan las cargas de trabajo.
 
-Cuando la capacidad consumida es mayor que la capacidad comprometida para un nivel de servicio de rendimiento, se registra el consumo repentino y se cobra en consecuencia. El uso encima de la capacidad de ráfaga se indica como "encima del límite de ráfaga".
+Cuando la capacidad consumida es mayor que la capacidad comprometida para un nivel de servicio de rendimiento, se registra el consumo repentino y se cobra en consecuencia. Por lo general, está un 20% por encima de la capacidad comprometida. El uso encima de la capacidad de ráfaga se indica como "encima del límite de ráfaga".
 
 Este proceso tiene lugar para cada registro de consumo generado. Por lo tanto, el consumo de ráfaga es un reflejo de la cantidad y tenencia de sus capacidades consumidas en exceso, además de sus capacidades comprometidas. Para obtener más información, consulte link:../integrations/consumption-tab.html["Vea las tendencias de consumo de sus suscripciones a Keystone"].
 
-Si desea obtener información sobre las distintas capacidades compatibles con Keystone, consulte link:../concepts/supported-storage-capacity.html["Capacidades de almacenamiento compatibles con Keystone"].
+Para obtener información sobre las diferentes capacidades admitidas en Keystone, consulte link:../concepts/supported-storage-capacity-v2.html["Capacidades de almacenamiento compatibles con Keystone"] .

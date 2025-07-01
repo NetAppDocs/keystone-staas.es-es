@@ -1,0 +1,43 @@
+---
+sidebar: sidebar 
+permalink: concepts/usps-v2.html 
+keywords: netapp, keystone, US citizen support, USPS, Keystone Success Manager, USPS support 
+summary: El soporte protegido de Estados Unidos es un servicio complementario que ofrece soporte y prestación de servicios continuos de Keystone por parte de ciudadanos estadounidenses en suelo estadounidense. 
+---
+= Obtenga más información sobre USPS
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+El soporte protegido de Estados Unidos (USPS) es una oferta complementaria para las suscripciones de NetApp Keystone. Le da derecho a recibir la entrega y el soporte de los servicios continuos de Keystone de ciudadanos estadounidenses en territorio estadounidense.
+
+Lea las siguientes secciones para comprender qué elementos de sus suscripciones están vinculados por este servicio complementario y se proporcionan en los términos del acuerdo de NetApp Keystone.nota al pie de página:renunciotera1[los servicios y ofertas descritos aquí están sujetos a un acuerdo de Keystone totalmente ejecutado y están limitados y regulados por él].
+
+
+
+== Monitorización USPS de NetApp
+
+El equipo de soporte USPS Keystone de NetApp supervisa el estado de sus productos y servicios suscritos, proporciona soporte remoto y colabora con su Success Manager de Keystone. Todo el personal que supervisa los productos asociados a los pedidos de suscripción de Keystone relevantes es U. Ciudadanos que operan en suelo estadounidense.
+
+
+
+== Keystone Success Manager
+
+Keystone Success Manager (KSM) es la Administración del éxito de Keystone (EE. UU. Estadounidense residentes en este país. Sus responsabilidades se especifican en el Acuerdo de NetApp Keystone.
+
+
+
+== Actividades para la implementación
+
+Las actividades de instalación e instalación, in situ y remotas, siempre que estén disponibles, se llevan a cabo en las oficinas de la Administración de Estados Unidos Ciudadanos en los Estados Unidos residentes en este país. Footnote:Disclaimer[La disponibilidad del personal adecuado para las actividades in situ depende de la ubicación geográfica en la que se implementen los sistemas Keystone.]
+
+
+
+== Soporte técnico
+
+Las actividades de solución de problemas y soporte in situ necesarias, siempre que estén disponibles, se llevan a cabo a cargo de las organizaciones de EE. UU Ciudadanos en los Estados Unidos residentes en este país. nota al pie:renuncia de responsabilidad[]

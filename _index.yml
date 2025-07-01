@@ -1,18 +1,17 @@
 ---
 indexpage:
   title: Documentación de Keystone
-  summary: NetApp Keystone es una oferta de pago por crecimiento y almacenamiento
-    como servicio para servicios de almacenamiento de datos on-premises y en la nube
-    bajo una suscripción única con la posibilidad de reasignar los gastos de almacenamiento
-    entre las nubes.
+  summary: NetApp Keystone es una oferta de pago por uso y almacenamiento como servicio
+    para servicios de almacenamiento de datos locales y en la nube bajo una única
+    suscripción con la capacidad de reasignar el gasto de almacenamiento entre nubes.
   keywords: Keystone STaaS
-  lead: NetApp Keystone es un servicio basado en suscripciones de pago por crecimiento
-    flexible que ofrece una experiencia de cloud híbrido fluida para clientes que
-    prefieren los gastos operativos a los gastos de capital o el arrendamiento. Permite
+  lead: NetApp Keystone es un servicio flexible de pago por uso basado en suscripción
+    que ofrece una experiencia de nube híbrida fluida para clientes que prefieren
+    los gastos operativos a las inversiones de capital o el arrendamiento. Permite
     acelerar la rentabilidad de la inversión al eliminar la carga TECNOLÓGICA en los
-    recursos de gestión y pasar por ciclos de adquisición largos. Consulte los documentos
-    de esta biblioteca para saber más sobre la oferta de STaaS de NetApp Keystone
-    en su entorno ONTAP o StorageGRID.
+    recursos de gestión y pasar por ciclos de adquisición largos. Consulte la documentación
+    de esta biblioteca para obtener más información sobre la oferta de Almacenamiento
+    como Servicio (STaaS) de NetApp Keystone en su entorno ONTAP o StorageGRID.
   tiles:
   - title: Manos a la obra
     links:
@@ -64,6 +63,8 @@ indexpage:
     links:
     - title: Conozca a su equipo de soporte
       url: "/concepts/gssc.html"
+    - title: Aumentar la capacidad de ráfaga
+      url: "/concepts/burst-capacity.html"
     - title: "¿Qué puedo hacer con mis datos inactivos o menos utilizados?"
       url: "/concepts/data-tiering.html"
     - title: "¿Cómo puedo proteger mis datos de Keystone?"

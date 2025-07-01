@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar 
-permalink: concepts/capacity-requirements.html 
+permalink: concepts/capacity-requirements-v2.html 
 keywords: storage capacity requirement for service levels, capacity definition per PSL, 
 summary: Los requisitos de capacidad para los niveles de servicio difieren con el almacenamiento de archivos, bloques, objetos o cloud que admite la suscripción de STaaS de Keystone. 
 ---
@@ -14,60 +14,34 @@ summary: Los requisitos de capacidad para los niveles de servicio difieren con e
 
 
 [role="lead"]
-Los requisitos de capacidad para los niveles de servicio de rendimiento de Keystone STaaS en la versión 3 (v3) difieren entre las ofertas de almacenamiento unificado, optimizado por bloques, de objetos o en la nube compatibles con la suscripción de Keystone STaaS.
+Los requisitos de capacidad para los niveles de servicio de rendimiento de Keystone STaaS en la versión 2 (v2) difieren entre las ofertas de almacenamiento de archivos, bloques, objetos o nube compatibles con la suscripción de Keystone STaaS.
 
 
 
-== Requisitos mínimos de capacidad para el almacenamiento unificado y optimizado por bloques
+== Requisitos mínimos de capacidad para servicios de archivos y bloques
 
-Puede ver la capacidad mínima y la capacidad incremental permitida por suscripción para el almacenamiento unificado y optimizado por bloques en las siguientes tablas:
-
-*Almacenamiento unificado*
+En la siguiente tabla, se describe la capacidad mínima y la capacidad incremental permitidas por suscripción. La capacidad mínima por nivel de servicio de rendimiento se define como la misma en todos los movimientos de ventas de Keystone. La capacidad por encima de la capacidad mínima, ya sea al comienzo de la suscripción, o como servicio complementario a la suscripción, o después de la reasignación durante la suscripción también se estructura en la tabla.
 
 |===
 
 
-| Capacidad | Extremo | Premium | Estándar | Valor 
+| Capacidad | Extremo | Premium | Rendimiento | Estándar | Valor 
 
 
  a| 
 Capacidad mínima [en TIB]
-2+| 50 2+| 100 
+3+| 25 2+| 100 
 
 
  a| 
 Capacidad incremental (y en múltiplos) permitida al inicio de la suscripción [en TIB]
-4+| 25 
+3+| 25 2+| 25 
 
 
  a| 
 Capacidad incremental (y en múltiplos) permitida como complemento durante la suscripción [en TIB]
-4+| 25 
+3+| 25 2+| 25 
 |===
-*Almacenamiento optimizado en bloque*
-
-|===
-
-
-| Capacidad | Extremo | Premium 
-
-
- a| 
-Capacidad mínima [en TIB]
-2+| 50 
-
-
- a| 
-Capacidad incremental (y en múltiplos) permitida al inicio de la suscripción [en TIB]
-2+| 25 
-
-
- a| 
-Capacidad incremental (y en múltiplos) permitida como complemento durante la suscripción [en TIB]
-2+| 25 
-|===
-La capacidad mínima para cada nivel de servicio de rendimiento es la misma en todas las ventas de Keystone.
-
 
 
 == Requisitos de capacidad mínima para el almacenamiento de objetos
@@ -77,48 +51,46 @@ Puede ver los requisitos mínimos de capacidad para el almacenamiento de objetos
 |===
 
 
-| Capacidad | Estándar | Valor 
+| Capacidad | Organización en niveles de los datos | Objeto | Cloud Volumes ONTAP | Cloud Backup Service 
 
 
  a| 
-Capacidad mínima [en TiB] por pedido
-| 200 | 500 
-
-
+Capacidad mínima [en TIB]
  a| 
-Capacidad incremental (y en múltiplos) permitida al inicio de la suscripción [en TIB]
-| 25 | 100 
-
-
+No aplicable
  a| 
-Capacidad incremental (y en múltiplos) permitida como complemento durante la suscripción [en TIB]
-| 25 | 100 
-|===
-
-
-== Requisitos mínimos de capacidad para los servicios en la nube
-
-Puedes ver los requisitos mínimos de capacidad para los servicios en la nube en la siguiente tabla:
-
-|===
-
-
-| Capacidad | Cloud Volumes ONTAP 
-
-
+500
  a| 
-Capacidad mínima [en TiB] por pedido
-| 4 
+4
+ a| 
+4
+
 
 
  a| 
 Capacidad incremental (y en múltiplos) permitida al inicio de la suscripción [en TIB]
-| 1 
+ a| 
+No aplicable
+ a| 
+100
+ a| 
+1
+ a| 
+1
+
 
 
  a| 
 Capacidad incremental (y en múltiplos) permitida como complemento durante la suscripción [en TIB]
-| 1 
+ a| 
+No aplicable
+ a| 
+100
+ a| 
+1
+ a| 
+1
+
 |===
 
 
@@ -127,7 +99,7 @@ Capacidad incremental (y en múltiplos) permitida como complemento durante la su
 Obtenga más información sobre los ajustes de capacidad:
 
 * Se puede agregar capacidad en cualquier momento durante el plazo, excepto durante los últimos 90 días del plazo del contrato, en incrementos por nivel de servicio de rendimiento como se describe en las tablas de la sección anterior. Se permite la adición de capacidad o servicios dentro de los últimos 90 días del plazo del contrato siempre que exista consentimiento de renovación del servicio. Cualquier adición de capacidad, el nuevo servicio en las instalaciones o el cloud puede coexistir con el período existente. La factura que se le ha enviado tras la activación de los nuevos servicios refleja la facturación revisada. La capacidad comprometida de los servicios cloud no puede reducirse en ningún momento durante el plazo de suscripción. Mientras tanto, la capacidad comprometida y el gasto comprometido en los servicios en las instalaciones durante la duración del contrato pueden reducirse en base a ciertos criterios definidos en la siguiente sección _reducción de capacidad_.
-* Cada sitio dispone de una capacidad de ráfaga según el acuerdo de Keystone. Generalmente se establece hasta un 20% por encima de la capacidad comprometida para un nivel de servicio de rendimiento. Cualquier uso en ráfaga se factura sólo durante ese período de facturación. Si tiene un requisito de ráfaga adicional mayor que la capacidad acordada, póngase en contacto con el servicio de soporte.
+* Cada sitio dispone de una capacidad de ráfaga según el acuerdo de Keystone. Generalmente es un 20% superior a la capacidad comprometida para un nivel de servicio de rendimiento. Cualquier uso en ráfaga se factura sólo durante ese período de facturación. Si tiene un requisito de ráfaga adicional mayor que la capacidad acordada, póngase en contacto con el servicio de soporte.
 * La capacidad comprometida puede modificarse durante un contrato, sólo en determinadas condiciones, como se describe en la siguiente sección _reducción de capacidad_.
 * Se permite aumentar la capacidad o cambiar a un nivel de servicio de mayor rendimiento durante el período de suscripción. Sin embargo, no se permite cambiar de un nivel de servicio de mayor rendimiento a uno de menor rendimiento.
 * Cualquier solicitud de cambio en los últimos 90 días del periodo de servicio requiere una renovación del servicio por un mínimo de un año.

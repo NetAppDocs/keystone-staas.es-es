@@ -75,13 +75,8 @@ Los gráficos de barras muestran ráfagas a corto plazo y puede ver estas ráfag
 image:aiq-ks-subtime-7.png["Pestaña Tendencia de consumo con detalles"]
 
 +
-Los siguientes colores en los gráficos de barras indican la capacidad consumida según se define dentro del nivel de servicio de rendimiento. Los datos mensuales a través de los gráficos están separados por una línea vertical.
+Los datos mensuales a través de los gráficos están separados por una línea vertical.
 
-+
-** Verde: Dentro del 80%.
-** Ámbar: 80% - 100%.
-** Rojo: Uso de ráfagas (100% de la capacidad comprometida con el límite de ráfaga acordado)
-** Morado: Por encima del límite de ráfaga o. `Above Limit`.
 +
 
 NOTE: Un gráfico en blanco indica que no hay datos disponibles en el entorno en ese punto de recopilación de datos.
@@ -90,24 +85,22 @@ NOTE: Un gráfico en blanco indica que no hay datos disponibles en el entorno en
 Puede hacer clic en el botón de alternar *Mostrar uso actual* para ver el consumo, el uso de ráfaga y los datos de ráfaga acumulados para el período de facturación actual. Estos detalles no se basan en el rango de fechas de la consulta.
 
 +
-*** *Consumo actual*: Indicador de la capacidad consumida (en TiB) definida para el nivel de servicio de rendimiento. Este campo utiliza colores específicos:
+** *Consumo actual*: Indicador de la capacidad consumida (en TiB) definida para el nivel de servicio de rendimiento. Este campo utiliza colores específicos:
 +
-**** Ningún color: Ráfaga o por encima del uso de ráfaga.
-**** Gris: Sin uso.
-**** Verde: Dentro del 80% de la capacidad comprometida.
-**** Ámbar: El 80 % de la capacidad comprometida con la ráfaga.
+*** Ningún color: Ráfaga o por encima del uso de ráfaga.
+*** Gris: Sin uso.
+*** Verde: Dentro del 80% de la capacidad comprometida.
+*** Ámbar: El 80 % de la capacidad comprometida con la ráfaga.
 
 
-*** *Ráfaga actual*: Indicador de la capacidad consumida dentro o por encima del límite de ráfaga definido. Cualquier uso dentro del límite de ráfaga para la suscripción, por ejemplo, un 20 % por encima de la capacidad comprometida se encuentra dentro del límite de ráfaga. Se considera un uso adicional por encima del límite de ráfaga. Este campo muestra colores específicos:
+** *Ráfaga actual*: Indicador de la capacidad consumida dentro o por encima del límite de ráfaga definido. Cualquier uso dentro del límite de ráfaga para la suscripción, por ejemplo, un 20 % por encima de la capacidad comprometida se encuentra dentro del límite de ráfaga. Se considera un uso adicional por encima del límite de ráfaga. Este campo muestra colores específicos:
 +
-**** Sin color: Sin uso de ráfaga.
-**** Rojo: Uso en ráfaga.
-**** Morado: Por encima del límite de ráfaga.
+*** Sin color: Sin uso de ráfaga.
+*** Rojo: Uso en ráfaga.
+*** Morado: Por encima del límite de ráfaga.
 
 
-*** * Explosión acumulada*: Indicador de la capacidad total de ráfaga (en TiB) acumulada durante cada intervalo de 2 minutos en un mes para el ciclo de facturación actual.
-
-
+** * Explosión acumulada*: Indicador de la capacidad total de ráfaga (en TiB) acumulada durante cada intervalo de 2 minutos en un mes para el ciclo de facturación actual.
 
 
 

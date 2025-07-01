@@ -26,15 +26,15 @@ NetApp se reserva el derecho de realizar las siguientes acciones:
 
 La infraestructura Keystone incluye varios componentes, como los siguientes, entre otros:
 
-* La infraestructura de Keystone, incluidas las controladoras de almacenamiento.
-* Herramientas para gestionar y operar el servicio, como la solución de monitoreo ITOM, Active IQ y Active IQ Unified Manager.
+* La infraestructura de Keystone, incluidos los sistemas de almacenamiento de NetApp.
+* Herramientas para administrar y operar el servicio como la solución de monitoreo ITOM, BlueXP, Active IQ y Active IQ Unified Manager.
 
 
 
 
 == Plataformas de almacenamiento
 
-Las aplicaciones empresariales necesitan plataformas de almacenamiento para dar cabida a los flujos de trabajo de aprovisionamiento rápidos, mantener la disponibilidad continua, mantener cargas de trabajo altas con baja latencia, proporcionar un mayor rendimiento y admitir la integración con los principales proveedores de cloud. NetApp cuenta con varios productos y tecnologías para cumplir con estos requisitos. Para el servicio Keystone, NetApp utiliza las plataformas AFF y StorageGRID.
+Las aplicaciones empresariales necesitan plataformas de almacenamiento que admitan flujos de trabajo de aprovisionamiento rápidos, mantengan una disponibilidad continua, soporten altas cargas de trabajo con baja latencia, ofrezcan un mayor rendimiento y permitan la integración con los principales proveedores de nube. NetApp cuenta con varios productos y tecnologías para cumplir con estos requisitos. Para el servicio Keystone, NetApp utiliza AFF, ASA, FAS y sistemas StorageGRID.
 
 
 
@@ -45,9 +45,9 @@ En un servicio de Keystone operado por el cliente, se instalan la infraestructur
 Además del equipo de almacenamiento, se aprovisionan dos herramientas de supervisión para supervisar el almacenamiento y el consumo.
 
 * Solución de supervisión Keystone IT Operations Management (ITOM): Una aplicación SaaS basada en la nube que se utiliza para supervisar tu entorno Keystone. Cuenta con integraciones incorporadas con plataformas de almacenamiento de NetApp para recopilar datos de entorno y supervisar los componentes de computación, red y almacenamiento de su infraestructura de Keystone. Esta capacidad de supervisión se extiende a configuraciones en las instalaciones, centros de datos, entornos de nube o cualquier combinación de ellas. El servicio se habilita con la ayuda de usar un recopilador de ITOM local instalado en su sitio que se comunica con el portal de la nube.
-* Keystone Data Collector: Keystone Collector ofrece servicios de facturación a los clientes de Keystone. Esta aplicación se incluye con Active IQ Unified Manager. Recopila datos de controladoras ONTAP y StorageGRID en un intervalo de cinco minutos. Los datos se procesan y los metadatos se envían al lago de datos de Active IQ centralizado a través del mecanismo AutoSupport, que se utiliza para generar los datos de facturación. El lago de datos de Active IQ procesa los datos de facturación y se los envía a Zuora para facturarlos.
+* Recopilador de Datos Keystone: El Recopilador de Datos Keystone recopila datos y los proporciona a la plataforma de facturación de Keystone para su posterior procesamiento. Esta aplicación se incluye con Active IQ Unified Manager. Recopila datos de controladoras ONTAP y StorageGRID en un intervalo de cinco minutos. Los datos se procesan y los metadatos se envían al lago de datos de Active IQ centralizado a través del mecanismo AutoSupport, que se utiliza para generar los datos de facturación. El lago de datos Active IQ procesa los datos de facturación y los envía a Zuora para su facturación.
 
 
-image:mgmt-stack-2.png["pila de management"]
+image:data-collector-flow.png["flujo de datos del recopilador"]
 
-El asesor digital te permite iniciar sesión y ver los detalles de consumo y suscripción de tus suscripciones a Keystone. Para obtener más información sobre la creación de informes de Keystone en la consola del asesor digital, consulte link:../integrations/keystone-aiq.html["Keystone y asesor digital"].
+Puede consultar los detalles de suscripción y consumo de sus suscripciones de Keystone a través de BlueXP o Digital Advisor. Para obtener más información sobre los informes de Keystone, consulte link:../integrations/dashboard-overview.html["Información general del panel de Keystone"] .

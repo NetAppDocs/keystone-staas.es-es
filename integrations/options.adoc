@@ -28,15 +28,8 @@ Puede refinar sus búsquedas usando la opción de filtro avanzado, si está disp
 
 == Generar informes desde BlueXP o Digital Advisor
 
-Puede generar y consultar informes de sus datos de Keystone mediante el botón de descarga disponible en las pestañas de BlueXP o Digital Advisor. Estas pestañas le permiten generar informes sobre sus suscripciones, historial de uso, uso por ráfagas, rendimiento, activos, volúmenes y objetos.
+Puede generar y ver informes de sus datos de Keystone utilizando el botón de descarga image:bluexp-download-report-2.png["Icono de descarga de informe 2 en BlueXP"] disponible en pestañas dentro de BlueXP o Digital Advisor. Estas pestañas le permiten generar informes sobre sus suscripciones, historial de uso, uso por ráfagas, rendimiento, activos, volúmenes y objetos.
 
-[cols="1,1"]
-|===
-| Botón de descarga en BlueXP | Botón de descarga en Digital Advisor 
-
-
-| image:bluexp-download-report-1.png["Icono de descarga de informe 1 en BlueXP"] o. image:bluexp-download-report-2.png["Icono de descarga de informe 2 en BlueXP"] | image:download-report-da.png["icono de descarga de informe"] 
-|===
 Los detalles se generan en formato CSV que puede guardar para usarlos y compararlos en el futuro.
 
 
@@ -55,7 +48,7 @@ Para obtener más información sobre la generación de informes, consulte link:h
 
 == Ver alertas de Digital Advisor
 
-En Digital Advisor, el panel de Keystone proporciona notificaciones de alerta que le permiten comprender los problemas que ocurren en su entorno de almacenamiento. Estas notificaciones pueden aparecer como alertas o advertencias informativas. Por ejemplo, si hay volúmenes en los clústeres gestionados que no tienen asociadas políticas de QoS (AQoS) adaptativa, puede ver un mensaje de advertencia. Seleccione el mensaje de advertencia para ver la lista de volúmenes no conformes en la pestaña *Volúmenes y objetos*.
+En Digital Advisor, el panel de Keystone proporciona notificaciones de alerta que le permiten comprender los problemas que ocurren en su entorno de almacenamiento. Estas notificaciones pueden aparecer como alertas o advertencias informativas. Por ejemplo, con Keystone versión 2 (v2), si hay volúmenes dentro de los clústeres administrados que no tienen políticas de QoS adaptativas (AQoS) adjuntas, puede ver un mensaje de advertencia. Seleccione el mensaje de advertencia para ver la lista de volúmenes no conformes en la pestaña *Volúmenes y objetos*.
 
 
 NOTE: Si se ha suscrito a un único nivel de servicio de rendimiento o plan de tarifas, no podrá ver la alerta para volúmenes no compatibles.

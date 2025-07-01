@@ -94,14 +94,10 @@ TIP: Si se ha suscrito al servicio complementario de protección de datos avanza
 ** image:subs-dtls-icon.png["."]: Al hacer clic en este icono para una suscripción, se abre la pestaña *Consumo actual* con los detalles de uso de esa suscripción.
 ** image:aiq-ks-time-icon.png["."] :Al hacer clic en este ícono, se abre la pestaña *Tendencia de consumo*, donde puede ver los datos de uso históricos para cada nivel de servicio de rendimiento incluido en esta suscripción.
 +
-Puede consultar los siguientes indicadores de uso para comprobar el estado de uso de cada suscripción:
+Puede consultar los indicadores de uso para comprobar el estado de uso de cada suscripción:
 
 +
-image:usage-indicator-2.png["."]
-
-+
-.Índice
-image:icon-grey.png["icono de punto gris"] :No se registró ningún uso de capacidad contra la capacidad comprometida del nivel de servicio de rendimiento image:icon-green.png["icono de punto verde"] :El consumo es normal, dentro del 80% de la capacidad comprometida image:icon-amber.png["icono de punto ámbar"] Consumo máximo, es decir, el uso está a punto de alcanzar el 100 % o más de la capacidad asignada. La columna *Consumido* muestra este indicador para cualquier consumo superior al 80 % de la capacidad asignada. image:icon-red.png["icono de punto rojo"] El consumo está dentro del límite de ráfagas. El consumo de ráfagas es el que supera el 100 % de la capacidad comprometida de un nivel de servicio de rendimiento y se encuentra dentro del límite de uso de ráfagas acordado, por ejemplo, el 120 %. image:icon-purple.png["icono de punto morado"] : Indica un consumo por encima del límite de ráfaga estipulado
+image:icon-grey.png["icono de punto gris"] *Sin consumo*: No se registra ningún uso de capacidad contra la capacidad comprometida del nivel de servicio de rendimiento. image:icon-green.png["icono de punto verde"] *Normal*: El consumo es normal. image:icon-amber.png["icono de punto ámbar"] *Alto*: Consumo máximo, es decir, el uso está por alcanzar el 100% o más de la capacidad comprometida. image:icon-red.png["icono de punto rojo"] *Ráfaga*: El consumo está dentro del límite de ráfagas. El consumo de ráfagas es el que supera el 100 % de la capacidad comprometida de un nivel de servicio de rendimiento y se encuentra dentro del límite de uso de ráfagas acordado. image:icon-purple.png["icono de punto morado"] *Por encima del límite de consumo*: Indica un consumo que supera el límite de consumo acordado.
 
 
 

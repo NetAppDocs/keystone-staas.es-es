@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar 
-permalink: concepts/misc-volume-billing.html 
+permalink: concepts/misc-volume-billing-v2.html 
 keywords: Billing and miscellaneous scenarios 
 summary: Obtén más información sobre la facturación de Keystone para configuraciones específicas, incluidos volúmenes clonados, protección de datos avanzada, etc. 
 ---
@@ -14,7 +14,7 @@ summary: Obtén más información sobre la facturación de Keystone para configu
 
 
 [role="lead"]
-Comprender la facturación de Keystone para configuraciones específicas en la versión 3 (v3) puede ayudarle a optimizar el uso del servicio y a gestionar los costes. Las configuraciones incluyen volúmenes clonados, protección avanzada de datos, volúmenes temporales, destinos SnapMirror, LUN y volúmenes de sistema/raíz.
+Comprender la facturación de Keystone para configuraciones específicas en la versión 2 (v2) puede ayudarle a optimizar el uso del servicio y a gestionar los costes. Las configuraciones incluyen volúmenes clonados, protección avanzada de datos, volúmenes temporales, políticas de QoS, destinos SnapMirror, LUN y volúmenes de sistema/raíz.
 
 
 
@@ -50,21 +50,9 @@ Ocasionalmente, ONTAP crea volúmenes temporales (TMP) al mover volúmenes. Esto
 
 
 
-== Facturación de destinos de SnapMirror
+== Facturación y políticas de calidad de servicio adaptativas
 
-El precio de los volúmenes de destino de SnapMirror, ya sea para recuperación ante desastres o retención a largo plazo, se basa en el nivel de servicio de rendimiento asignado al destino. No hay cargos adicionales por la protección de datos.
-
-
-
-== Facturación para LUN
-
-Para los LUN, la facturación se basa en los niveles de servicio de rendimiento del volumen.
-
-
-
-== Volúmenes raíz y del sistema
-
-Los volúmenes raíz y del sistema se supervisan como parte de la supervisión general del servicio de Keystone, pero no se cuentan o se facturan. El consumo en estos volúmenes está exento de facturación.
+Keystone mide el consumo en función de los niveles de servicio. Cada nivel de servicio está asociado a una política de calidad de servicio (QoS) adaptable específica. Durante la implementación, se le informarán de los detalles de cada política de calidad de servicio adaptativa de los servicios de Keystone suscritos. Durante las operaciones de gestión del almacenamiento, asegúrese de que los volúmenes tengan asignadas las políticas de calidad de servicio adaptativas adecuadas según sus niveles de servicio suscritos para evitar una facturación inesperada. Para obtener más información sobre las políticas de calidad de servicio adaptativas en ONTAP, consulte link:https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html["Garantice el rendimiento con información general de calidad de servicio"^].
 
 
 

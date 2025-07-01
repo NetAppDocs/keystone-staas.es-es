@@ -23,7 +23,7 @@ Digital Advisor ofrece un panel de control unificado que proporciona informació
 .Consola predeterminada (antigua)
 Puede ver su nombre de cliente y número de suscripción, nombre de cuenta, fechas de inicio y finalización de la suscripción y los gráficos de uso de capacidad según sus niveles de servicio de rendimiento suscrito. Puede ver la marca de tiempo de recopilación de los datos de consumo en la hora UTC.
 
-image:old-db-2.png["consola antigua"]
+image:old-db-3.png["consola antigua"]
 
 .Panel de control alternativo (nuevo)
 Puede ver el desglose del uso de la capacidad en función de sus suscripciones, y advertencias y alertas que requieren atención o acción inmediatas. La información aparece selectivamente, dependiendo de sus suscripciones y el estado de su uso. Puede ver esta información:
@@ -65,7 +65,7 @@ image:watchlist.png["pantalla de lista de seguimiento"]
 
 *Información relacionada*
 
-* link:../integrations/dashboard-access.html["Comience a utilizar el panel de control de Keystone"]
+* link:../integrations/dashboard-access.html["Comience a usar el panel de control de Keystone"]
 * link:../integrations/keystone-bluexp.html["Panel de control de Keystone en BlueXP"]
 * link:../integrations/subscriptions-tab.html["Ver los detalles de su suscripción"]
 * link:../integrations/current-usage-tab.html["Ver detalles de su consumo actual"]

@@ -37,6 +37,10 @@ La pestaña *Volúmenes y objetos* ofrece información sobre los volúmenes del 
 Para la suscripción STaaS a Keystone seleccionada, puedes ver el número total de volúmenes, su estado de cumplimiento de calidad de servicio, el recuento de volúmenes protegidos y la capacidad total comprometida, consumida y disponible en todos esos volúmenes. Si hace clic en el número de volúmenes no compatibles o protegidos, le llevará a la pestaña *Detalles del volumen*, donde puede ver una lista filtrada que muestra los volúmenes no compatibles o los volúmenes protegidos, según su selección.
 
 +
+
+NOTE: Las políticas de QoS no son aplicables en Keystone versión 3 (v3).
+
++
 image:volume-summary-2.png["Pestaña de resumen de volumen"]
 
 
@@ -48,6 +52,10 @@ image:volume-summary-2.png["Pestaña de resumen de volumen"]
 . Seleccione el número de suscripción.
 +
 Puede ver la lista tabular de los volúmenes, como el uso de la capacidad, el tipo de volumen, el clúster, el agregado y los niveles de servicio de rendimiento de Keystone asignados. Puede desplazarse por las columnas y obtener más información al pasar el ratón por los iconos de información situados junto a los encabezados de las columnas. Puede ordenar por las columnas y filtrar las listas para ver información específica.
+
++
+
+NOTE: Las políticas de QoS no son aplicables en Keystone versión 3.
 
 +
 Puede usar *Ocultar/Mostrar columnas* para agregar o eliminar columnas mostradas en la tabla. Por defecto, todas las columnas están seleccionadas excepto la columna *Departamento*. Puede seleccionar o anular la selección de cualquier columna, incluida la columna *Departamento*, y sus preferencias se guardarán para su uso posterior. Al descargar el informe CSV, los detalles de la columna *Departamento* se incluirán si se selecciona, mientras que otras columnas aparecerán independientemente del estado de selección en la tabla.

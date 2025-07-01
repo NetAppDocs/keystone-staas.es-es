@@ -1,0 +1,38 @@
+---
+sidebar: sidebar 
+permalink: concepts/pricing-v2.html 
+keywords: pricing, billing introduction, Keystone billing 
+summary: Keystone ofrece un modelo de pago por crecimiento para sus necesidades de consumo flexible y escalable. 
+---
+= Precios Keystone
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+El servicio de suscripción de pago por uso NetApp Keystone STaaS ofrece un consumo flexible y escalable con precios predecibles y por adelantado para sus necesidades de almacenamiento.
+
+Keystone para la versión 2 (v2) le ofrece las siguientes facilidades de facturación:
+
+* Puede pagar según las IOPS y la capacidad comprometida de latencia para satisfacer las necesidades de cargas de trabajo múltiples. Los distintos niveles de servicio de rendimiento: Extreme, Premium, Performance, Standard, Value, Object permite gestionar el almacenamiento en función del nivel de servicio adquirido.
+* Presenta una facturación predecible para la capacidad comprometida y el pago por uso de la capacidad variable (en ráfaga).
+* Puede seleccionar un precio de paquete para el hardware, el SO principal y el soporte para un precio de $/TIB. Dispone de una única factura para cada tipo de almacenamiento, archivo, bloque, objeto o servicios de almacenamiento en cloud.
+* Puede seleccionar un plazo flexible para los servicios y opciones de pago, como mensual, trimestral o anual.
+
+
+La facturación de Keystone se basa en la capacidad comprometida y en el consumo en ráfaga variable.
+
+Si desea obtener información sobre las distintas capacidades compatibles con Keystone, consulte link:../concepts/supported-storage-capacity.html["Capacidades de almacenamiento compatibles con Keystone"].
+
+*Información relacionada*
+
+* link:../concepts/committed-capacity-billing-v2.html["Facturación basada en la capacidad comprometida"]
+* link:../concepts/consumed-capacity-billing-v2.html["Medición basada en la capacidad consumida"]
+* link:../concepts/burst-consumption-billing-v2.html["Facturación basada en consumo en ráfaga"]
+* link:../concepts/misc-volume-billing-v2.html["Facturación basada en diversos tipos de volumen"]
+* link:../concepts/billing-schedules-v2.html["Horarios de facturación"]
+
