@@ -20,6 +20,10 @@ NetApp ofrece funciones nuevas y mejoradas en cada lanzamiento de los servicios 
 
 == 2025-06-30
 
+
+
+=== Lanzamiento de Keystone versión 3 (v3)
+
 Ya puede suscribirse a Keystone versión 3 (v3), la última versión de la oferta NetApp Keystone STaaS. Esta versión incorpora varias mejoras, como niveles de servicio de rendimiento simplificados, opciones adicionales de capacidad de ráfaga y frecuencias de facturación flexibles. Estas mejoras simplifican la gestión, la optimización y el escalado de las soluciones de almacenamiento. Para obtener más información, consulte link:../concepts/metrics.html["Servicios Keystone STaaS para v3"].
 
 
