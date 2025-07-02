@@ -18,7 +18,7 @@ NetApp ofrece funciones nuevas y mejoradas en cada lanzamiento de los servicios 
 
 
 
-== 2025-06-30
+== 30 de junio de 2025
 
 
 
@@ -28,7 +28,7 @@ Ya puede suscribirse a Keystone versión 3 (v3), la última versión de la ofert
 
 
 
-== 2025-06-19
+== 19 de junio de 2025
 
 
 
@@ -43,11 +43,11 @@ Con el panel de control de Keystone en BlueXP, puedes:
 * Manténgase actualizado con la información más reciente para su entorno de almacenamiento.
 
 
-Para comenzar, vaya a *Almacenamiento > Keystone* en el menú de navegación izquierdo de BlueXP. Para obtener más información, consulte link:../integrations/dashboard-overview.html["Información general del panel de Keystone"].
+Para comenzar, vaya a *Almacenamiento > Keystone* en el menú de navegación izquierdo de BlueXP. Para obtener más información, consulte link:https://docs.netapp.com/us-en/keystone-staas/integrations/dashboard-overview.html["Información general del panel de Keystone"].
 
 
 
-== 8 de enero de 2025
+== 08 de enero de 2025
 
 
 
@@ -179,7 +179,7 @@ La información sobre herramientas que aparece al pasar el ratón sobre el gráf
 
 
 
-== 09 de mayo de 2024
+== 9 de mayo de 2024
 
 
 
