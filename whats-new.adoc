@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar 
-permalink: release-notes/whats-new.html 
+permalink: whats-new.html 
 keywords: 'new features, release notes, enhancements, what"s new' 
 summary: NetApp ofrece funciones nuevas y mejoradas en cada lanzamiento de los servicios de STaaS de Keystone. 
 ---
@@ -10,7 +10,7 @@ summary: NetApp ofrece funciones nuevas y mejoradas en cada lanzamiento de los s
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ../media/
+:imagesdir: ./media/
 
 
 [role="lead"]
@@ -24,7 +24,7 @@ NetApp ofrece funciones nuevas y mejoradas en cada lanzamiento de los servicios 
 
 === Lanzamiento de Keystone versión 3 (v3)
 
-Ya puede suscribirse a Keystone versión 3 (v3), la última versión de la oferta NetApp Keystone STaaS. Esta versión incorpora varias mejoras, como niveles de servicio de rendimiento simplificados, opciones adicionales de capacidad de ráfaga y frecuencias de facturación flexibles. Estas mejoras simplifican la gestión, la optimización y el escalado de las soluciones de almacenamiento. Para obtener más información, consulte link:../concepts/metrics.html["Servicios Keystone STaaS para v3"].
+Ya puede suscribirse a Keystone versión 3 (v3), la última versión de la oferta NetApp Keystone STaaS. Esta versión incorpora varias mejoras, como niveles de servicio de rendimiento simplificados, opciones adicionales de capacidad de ráfaga y frecuencias de facturación flexibles. Estas mejoras simplifican la gestión, la optimización y el escalado de las soluciones de almacenamiento. Para obtener más información, consulte link:./concepts/metrics.html["Servicios Keystone STaaS para v3"].
 
 
 
@@ -53,7 +53,7 @@ Para comenzar, vaya a *Almacenamiento > Keystone* en el menú de navegación izq
 
 === Adición de opciones de consulta de uso de datos acumulados diarios
 
-Ahora puede ver el uso diario de datos de ráfaga acumulados en formato de gráfico o tabla para un período de facturación mensual o trimestral haciendo clic en la barra que muestra los datos facturados. Para obtener más información, consulte link:../integrations/consumption-tab.html#view-daily-accrued-burst-data-usage["Ver el uso diario de datos de ráfaga acumulados"].
+Ahora puede ver el uso diario de datos de ráfaga acumulados en formato de gráfico o tabla para un período de facturación mensual o trimestral haciendo clic en la barra que muestra los datos facturados. Para obtener más información, consulte link:./integrations/consumption-tab.html#view-daily-accrued-burst-data-usage["Ver el uso diario de datos de ráfaga acumulados"].
 
 
 
@@ -69,13 +69,13 @@ La columna *Lógica usada* de la pestaña *Detalles del volumen* de *Volúmenes 
 
 === Pestaña Activos mejorados
 
-La pestaña *Activos* en la pantalla *Suscripciones Keystone* ahora tiene dos nuevas subpestañas: *ONTAP* y *StorageGRID*. Estas subpestañas ofrecen información detallada a nivel del clúster sobre ONTAP e información a nivel de grid para StorageGRID basada en sus suscripciones. Para obtener más información, consulte link:../integrations/assets-tab.html["Activos"^].
+La pestaña *Activos* en la pantalla *Suscripciones Keystone* ahora tiene dos nuevas subpestañas: *ONTAP* y *StorageGRID*. Estas subpestañas ofrecen información detallada a nivel del clúster sobre ONTAP e información a nivel de grid para StorageGRID basada en sus suscripciones. Para obtener más información, consulte link:./integrations/assets-tab.html["Activos"^].
 
 
 
 === Nueva opción Ocultar/Mostrar columnas
 
-La pestaña *Detalles de volumen* en *Volúmenes y objetos* ahora incluye la opción *Ocultar/Mostrar columnas*. Esta opción le permite seleccionar o anular la selección de columnas para personalizar la lista tabular de volúmenes de acuerdo con sus preferencias. Para obtener más información, consulte link:../integrations/volumes-objects-tab.html["Volúmenes  ficha Objetos"^].
+La pestaña *Detalles de volumen* en *Volúmenes y objetos* ahora incluye la opción *Ocultar/Mostrar columnas*. Esta opción le permite seleccionar o anular la selección de columnas para personalizar la lista tabular de volúmenes de acuerdo con sus preferencias. Para obtener más información, consulte link:./integrations/volumes-objects-tab.html["Volúmenes  ficha Objetos"^].
 
 
 
@@ -85,7 +85,7 @@ La pestaña *Detalles de volumen* en *Volúmenes y objetos* ahora incluye la opc
 
 === Ráfaga devengada facturada mejorada
 
-Ahora puede ver los datos de uso de ráfaga acumulados trimestralmente a través de la opción *Ráfaga devengada facturada* si ha optado por un período de facturación trimestral. Para obtener más información, consulte link:../integrations/consumption-tab.html#view-accrued-burst["Consulta de repartición devengada facturada"^].
+Ahora puede ver los datos de uso de ráfaga acumulados trimestralmente a través de la opción *Ráfaga devengada facturada* si ha optado por un período de facturación trimestral. Para obtener más información, consulte link:./integrations/consumption-tab.html#view-accrued-burst["Consulta de repartición devengada facturada"^].
 
 
 
@@ -107,7 +107,7 @@ Estas columnas proporcionan una mayor claridad en la columna *Lógica usada*, qu
 
 === Generación de informes mejorada
 
-Ahora puedes generar un informe consolidado para ver los detalles de tus datos de Keystone con la función Informe del asesor digital. Para obtener más información, consulte link:../integrations/options.html#generate-consolidated-report-from-digital-advisor["Generar informe consolidado"^] .
+Ahora puedes generar un informe consolidado para ver los detalles de tus datos de Keystone con la función Informe del asesor digital. Para obtener más información, consulte link:./integrations/options.html#generate-consolidated-report-from-digital-advisor["Generar informe consolidado"^] .
 
 
 
@@ -163,7 +163,7 @@ Los niveles de servicio *CVO Primario* y *CVO Secundario* se incluyen para admit
 
 === Función de zoom para ráfagas a corto plazo
 
-La pestaña *Capacity Trend* ahora incluye una función de zoom-in para ver los detalles de las ráfagas a corto plazo en los gráficos de uso. Para obtener más información, consulte link:../integrations/consumption-tab.html["Pestaña Capacity Trend"^].
+La pestaña *Capacity Trend* ahora incluye una función de zoom-in para ver los detalles de las ráfagas a corto plazo en los gráficos de uso. Para obtener más información, consulte link:./integrations/consumption-tab.html["Pestaña Capacity Trend"^].
 
 
 
@@ -207,14 +207,14 @@ La pestaña *Detalles de volumen* de la pestaña *Volúmenes y objetos* ahora pr
 
 === La mejora del cumplimiento de las políticas de calidad de servicio se muestra en la pestaña Volume Details
 
-La pestaña *Detalles de volumen* de la pestaña *Volúmenes y objetos* ahora proporciona una mejor visibilidad del cumplimiento de la política de calidad de servicio (QoS). La columna anteriormente conocida como *AQoS* se renombró a *Compliant*, que indica si la política QoS cumple. Además, se agrega una nueva columna *QoS Policy Type*, que especifica si la política es fija o adaptativa. Si no se aplica ninguno, la columna muestra _NOT DISPONIBLE_. Para obtener más información, consulte link:../integrations/volumes-objects-tab.html["Volúmenes  ficha Objetos"^].
+La pestaña *Detalles de volumen* de la pestaña *Volúmenes y objetos* ahora proporciona una mejor visibilidad del cumplimiento de la política de calidad de servicio (QoS). La columna anteriormente conocida como *AQoS* se renombró a *Compliant*, que indica si la política QoS cumple. Además, se agrega una nueva columna *QoS Policy Type*, que especifica si la política es fija o adaptativa. Si no se aplica ninguno, la columna muestra _NOT DISPONIBLE_. Para obtener más información, consulte link:./integrations/volumes-objects-tab.html["Volúmenes  ficha Objetos"^].
 
 
 
 === La nueva columna y la suscripción simplificada se muestran en la pestaña Resumen de volumen
 
 * La pestaña *Resumen de volumen* de la pestaña *Volúmenes y objetos* ahora incluye una nueva columna titulada *Protegido*. Esta columna proporciona un recuento de los volúmenes protegidos asociados con los niveles de servicio suscritos. Si haces clic en el número de volúmenes protegidos, te lleva a la pestaña *Detalles del volumen*, donde puedes ver una lista filtrada de volúmenes protegidos.
-* La pestaña *Resumen de volumen* se actualiza para mostrar solo las suscripciones básicas, excluyendo los servicios complementarios. Para obtener más información, consulte link:../integrations/volumes-objects-tab.html["Volúmenes  ficha Objetos"^].
+* La pestaña *Resumen de volumen* se actualiza para mostrar solo las suscripciones básicas, excluyendo los servicios complementarios. Para obtener más información, consulte link:./integrations/volumes-objects-tab.html["Volúmenes  ficha Objetos"^].
 
 
 
@@ -243,19 +243,19 @@ Los datos se muestran en función de la fecha de inicio seleccionada de la suscr
 
 === Adición de la pestaña Activos
 
-La pantalla *Suscripciones Keystone* ahora incluye la pestaña *Activos*. Esta nueva pestaña proporciona información a nivel de clúster basada en sus suscripciones. Para obtener más información, consulte link:../integrations/assets-tab.html["Activos"^].
+La pantalla *Suscripciones Keystone* ahora incluye la pestaña *Activos*. Esta nueva pestaña proporciona información a nivel de clúster basada en sus suscripciones. Para obtener más información, consulte link:./integrations/assets-tab.html["Activos"^].
 
 
 
 === Mejoras en la pestaña Volumes & Objects
 
-Para proporcionar una mayor claridad a los volúmenes de su sistema ONTAP, se han añadido dos nuevos botones de pestañas, *Resumen de volumen* y *Detalles de volumen* a la pestaña *Volúmenes*. La pestaña *Resumen de volumen* proporciona un recuento general de los volúmenes asociados con los niveles de servicio suscritos, incluido su estado de cumplimiento de AQoS e información de capacidad. La pestaña *Detalles del volumen* muestra todos los volúmenes y sus detalles. Para obtener más información, consulte link:../integrations/volumes-objects-tab.html["Volúmenes  ficha Objetos"^].
+Para proporcionar una mayor claridad a los volúmenes de su sistema ONTAP, se han añadido dos nuevos botones de pestañas, *Resumen de volumen* y *Detalles de volumen* a la pestaña *Volúmenes*. La pestaña *Resumen de volumen* proporciona un recuento general de los volúmenes asociados con los niveles de servicio suscritos, incluido su estado de cumplimiento de AQoS e información de capacidad. La pestaña *Detalles del volumen* muestra todos los volúmenes y sus detalles. Para obtener más información, consulte link:./integrations/volumes-objects-tab.html["Volúmenes  ficha Objetos"^].
 
 
 
 === Experiencia de búsqueda mejorada en Digital Advisor
 
-Los parámetros de búsqueda en la pantalla de *Digital Advisor* ahora incluyen números de suscripción de Keystone y listas de comprobaciones creadas para suscripciones de Keystone. Puede introducir los tres primeros caracteres de un número de suscripción o nombre de lista de seguimiento. Para obtener más información, consulte link:../integrations/keystone-aiq.html["Ver el panel de Keystone en Active IQ Digital Advisor"^].
+Los parámetros de búsqueda en la pantalla de *Digital Advisor* ahora incluyen números de suscripción de Keystone y listas de comprobaciones creadas para suscripciones de Keystone. Puede introducir los tres primeros caracteres de un número de suscripción o nombre de lista de seguimiento. Para obtener más información, consulte link:./integrations/keystone-aiq.html["Ver el panel de Keystone en Active IQ Digital Advisor"^].
 
 
 
@@ -281,7 +281,7 @@ Algunas de sus suscripciones principales pueden tener suscripciones secundarias 
 
 === Datos facturados devueltos para repartición devengada
 
-Las etiquetas para *Explosión acumulada* ahora se modifican a *Explosión acumulada facturada* en la pestaña *Tendencia de capacidad*. Al seleccionar esta opción, podrá ver los gráficos mensuales de los datos de ráfaga devengados facturados. Para obtener más información, consulte link:../integrations/consumption-tab.html#view-accrued-burst["Consulta de repartición devengada facturada"^].
+Las etiquetas para *Explosión acumulada* ahora se modifican a *Explosión acumulada facturada* en la pestaña *Tendencia de capacidad*. Al seleccionar esta opción, podrá ver los gráficos mensuales de los datos de ráfaga devengados facturados. Para obtener más información, consulte link:./integrations/consumption-tab.html#view-accrued-burst["Consulta de repartición devengada facturada"^].
 
 
 
@@ -297,10 +297,10 @@ Si tiene una suscripción que tiene planes de tarifas con capacidad comprometida
 
 === Posibilidad de buscar por listas de comprobaciones
 
-Se ha ampliado la compatibilidad con las listas de comprobaciones del asesor digital para incluir los sistemas Keystone. Ahora puede ver los detalles de las suscripciones para varios clientes mediante la búsqueda con listas de comprobaciones. Para obtener más información sobre el uso de las listas de comprobaciones en STaaS de Keystone, consulte link:../integrations/keystone-aiq.html#search-by-keystone-watchlists["Busca por listas de comprobaciones de Keystone"^].
+Se ha ampliado la compatibilidad con las listas de comprobaciones del asesor digital para incluir los sistemas Keystone. Ahora puede ver los detalles de las suscripciones para varios clientes mediante la búsqueda con listas de comprobaciones. Para obtener más información sobre el uso de las listas de comprobaciones en STaaS de Keystone, consulte link:./integrations/keystone-aiq.html#search-by-keystone-watchlists["Busca por listas de comprobaciones de Keystone"^].
 
 
 
 === Fecha convertida a zona horaria UTC
 
-Los datos devueltos en las pestañas de la pantalla *Suscripciones Keystone* de Digital Advisor se muestran en hora UTC (zona horaria del servidor). Al introducir una fecha para la consulta, se considera automáticamente que está en la hora UTC. Para obtener más información, consulte link:../integrations/keystone-aiq.html["Panel de suscripción de Keystone e informes"^].
+Los datos devueltos en las pestañas de la pantalla *Suscripciones Keystone* de Digital Advisor se muestran en hora UTC (zona horaria del servidor). Al introducir una fecha para la consulta, se considera automáticamente que está en la hora UTC. Para obtener más información, consulte link:./integrations/keystone-aiq.html["Panel de suscripción de Keystone e informes"^].
