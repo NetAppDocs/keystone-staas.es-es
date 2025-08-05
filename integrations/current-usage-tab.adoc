@@ -29,16 +29,20 @@ Para ver el estado actual de consumo de tus suscripciones a través de BlueXP o 
 Serás redirigido a la pestaña *Consumo actual*.
 
 +
-image:bxp-current-consumption-graph.png["Detalles del consumo actual en formato gráfico"]
+image:bxp-current-consumption-graph-1.png["Detalles del consumo actual en formato gráfico"]
 
 +
 Para la suscripción seleccionada, puede ver los detalles de consumo en formato de tabla o gráfico utilizando la opción *Tabla* o *Gráfico* del menú desplegable *Ver como*. En la vista gráfica, puede ver el consumo actual por nivel de servicio de rendimiento, incluyendo la capacidad utilizada, la capacidad aprovisionada, el límite de capacidad comprometida y el límite de capacidad de ráfaga.
 
 +
+
+NOTE: Si un nivel de servicio de rendimiento tiene varias instancias, puede expandir *Ver por instancias* en cualquiera de las vistas para ver los detalles de consumo actual de cada instancia por separado.  Por ejemplo, si tiene dos instancias del nivel de servicio de rendimiento Extremo dentro de una suscripción, cada instancia mostrará sus propias capacidades comprometidas, consumidas y disponibles por separado.
+
++
 En la vista de tabla, puede ver detalles como la capacidad máxima consumida y los días restantes hasta el vencimiento. Para supervisar el uso de su suscripción, puede ver el nombre del nivel de servicio de rendimiento, el estado del consumo, las capacidades comprometidas y utilizadas, las capacidades aprovisionadas y en ráfagas, la capacidad disponible y los volúmenes. Puede personalizar la tabla con el selector de columnas. image:column-selector.png["icono del selector de columnas"] icono.
 
 +
-image:bxp-current-consumption-table.png["Detalles del consumo actual en formato de tabla"]
+image:bxp-current-consumption-table-1.png["Detalles del consumo actual en formato de tabla"]
 
 
 
@@ -56,7 +60,7 @@ Para la suscripción seleccionada, puede ver detalles, como las fechas de inicio
 
 +
 
-NOTE: Con Keystone versión 3 (v3), puede ver los detalles del consumo actual de cada instancia de nivel de servicio de rendimiento. Por ejemplo, si tiene dos instancias del nivel de servicio de rendimiento Extremo en una suscripción, cada instancia mostrará por separado sus capacidades comprometidas, consumidas y disponibles. Para obtener más información sobre los niveles de servicio de rendimiento, consulte link:../concepts/service-levels.html["Niveles de servicio de rendimiento en Keystone"] .
+NOTE: Si un nivel de servicio de rendimiento tiene varias instancias, puede seleccionar la pestaña *Instancias* para ver los detalles de consumo actual de cada instancia.  Por ejemplo, si tiene dos instancias del nivel de servicio de rendimiento Extremo dentro de una suscripción, cada instancia mostrará sus propias capacidades comprometidas, consumidas y disponibles por separado.  Para obtener más información sobre los niveles de servicio de rendimiento, consultelink:../concepts/service-levels.html["Niveles de servicio de rendimiento en Keystone"] .
 
 +
 Junto con el consumo actual, puede que desee ver los datos de uso históricos para la comparación. Haga clic en el botón *Ver datos históricos* para navegar a la pestaña *Tendencia de consumo* para ver los datos históricos de la misma suscripción.

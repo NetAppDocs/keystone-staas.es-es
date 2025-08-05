@@ -1,0 +1,9 @@
+= Ver datos de consumo a nivel de instancia
+:allow-uri-read: 
+
+
+
+
+=== Ver datos de consumo a nivel de instancia
+
+Puede ver el consumo actual y los datos históricos de cada instancia de nivel de servicio de rendimiento a través del panel de Keystone en BlueXP. Esta función está disponible para los niveles de servicio de rendimiento con múltiples instancias, siempre que tenga una suscripción a Keystone versión 3 (v3). Para obtener más información, consultelink:https://docs.netapp.com/us-en/keystone-staas/integrations/current-usage-tab.html["Visualiza el consumo de tus suscripciones de Keystone"] .

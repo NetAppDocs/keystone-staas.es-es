@@ -25,10 +25,10 @@ La pestaña *Suscripciones* de BlueXP se divide en dos secciones: *Suscripciones
 .Pasos
 . Desde el menú de navegación izquierdo de BlueXP, vaya a *Almacenamiento > Keystone > Suscripciones*.
 +
-image:bxp-subscription- list.png["ver los detalles de la pestaña de suscripción"]
+image:bxp-subscription-list-1.png["ver los detalles de la pestaña de suscripción"]
 
 +
-Verá las métricas clave, como el estado de la capacidad, el estado de vencimiento de la suscripción y la versión de Keystone en todas las suscripciones. Para obtener más información, consulte link:../integrations/keystone-bluexp.html["Panel de control de Keystone en BlueXP"].
+Verá las métricas clave, como el uso de la capacidad, el estado de vencimiento de la suscripción y la versión de Keystone en todas las suscripciones. Para obtener más información, consultelink:../integrations/keystone-bluexp.html["Panel de control de Keystone en BlueXP"] .
 
 +
 Puedes ver los siguientes detalles en la tabla:
@@ -38,7 +38,7 @@ Puedes ver los siguientes detalles en la tabla:
 ** *ID de seguimiento*: El ID de seguimiento asignado en el momento de la activación de la suscripción. Se trata de un ID exclusivo para cada suscripción y sitio, que se utiliza para realizar el seguimiento de la suscripción.
 ** *Nombre del cliente*: el nombre del cliente asociado a la suscripción de Keystone.
 ** *Suscripciones vinculadas*: Si tiene alguna suscripción secundaria vinculada a su suscripción principal, esta columna muestra los números de suscripción vinculados a la suscripción principal. Este número puede ser de su suscripción principal o secundaria (vinculada).
-** *Versión de Keystone*: la versión del servicio Keystone que se utiliza para la suscripción.
+** *Versión de Keystone *: La versión del servicio Keystone que se utiliza para la suscripción. Las reglas del plan de tarifas para los niveles de servicio de rendimiento pueden diferir entre las versiones de suscripción. Para obtener más información sobre la versión v1, consulte https://docs.netapp.com/us-en/keystone/index.html["Servicios de suscripción de Keystone | Documentación de la versión 1"^] .
 ** *Período de facturación*: El período de facturación de la suscripción.
 ** *Niveles de servicio de rendimiento*: la cantidad de planes de tarifas asociados con la suscripción, y cada plan de tarifas corresponde a un nivel de servicio de rendimiento específico y una capacidad comprometida.
 ** *Capacidad máxima*: La capacidad máxima consumida dentro de la suscripción.
@@ -57,7 +57,7 @@ image:bxp-performance-levels.png["Ver los niveles de rendimiento del servicio en
 ** *Niveles de servicio de rendimiento en todas las suscripciones*: muestra la cantidad de niveles de servicio de rendimiento en todas las suscripciones.
 ** *Consistencia de aprovisionamiento entre suscripciones*: muestra los recuentos de los niveles de servicio de rendimiento con exceso y defecto de aprovisionamiento.
 +
-Puede ver la lista de niveles de servicio de rendimiento, incluyendo detalles clave como el nombre del cliente, el número de suscripción, el tipo de nivel de servicio de rendimiento, el número total de volúmenes y su estado de cumplimiento de QoS. La tabla también muestra el número de volúmenes protegidos, el total comprometido, consumido, aprovisionado, la capacidad disponible (con y sin ráfagas) y la capacidad acumulada de ráfagas.
+Puede ver la lista de niveles de servicio de rendimiento, incluidos detalles clave como el nombre del cliente, el número de suscripción, el tipo de nivel de servicio de rendimiento y la cantidad total de volúmenes. La tabla también muestra el recuento de volúmenes protegidos, la capacidad total comprometida, consumida, aprovisionada y disponible (con y sin ráfagas) y la capacidad de ráfagas acumulada.
 
 
 
@@ -74,18 +74,15 @@ Para ver sus suscripciones en Digital Advisor, siga estos pasos:
 Aquí podrás ver todas tus suscripciones, con información detallada de cada una de ellas.
 
 +
-image:all-subs-3.png["Imagen del separador Suscripciones"]
+image:all-subs-4.png["Imagen del separador Suscripciones"]
 
 +
 Para determinados campos y columnas, puede ver información o iconos de advertencia y sugerencias de herramientas que le proporcionan información adicional sobre los datos.
 
 +
 ** * Número de suscripción*: El número de suscripción de la suscripción de Keystone que asigna NetApp.
+** *Suscripciones vinculadas*: esta columna está disponible opcionalmente para usted. Si tiene alguna suscripción secundaria vinculada a su suscripción principal, esta columna enumera los números de suscripción vinculada para la suscripción principal. Este número de suscripción puede ser de su suscripción principal o secundaria (vinculada).
 ** *ID de seguimiento*: El ID de seguimiento asignado en el momento de la activación de la suscripción. Esta es una identificación única para cada suscripción y sitio.
-+
-
-TIP: Si se ha suscrito al servicio complementario de protección de datos avanzada, puede hacer clic en la información sobre herramientas en su número de suscripción para ver el ID de seguimiento de la suscripción de partner en una configuración de MetroCluster. Para ver el consumo detallado por suscripciones de socios en una configuración de MetroCluster, consulte link:../integrations/consumption-tab.html#reference-charts-for-advanced-data-protection-for-metrocluster["Gráficos de referencia para protección avanzada de datos"] .
-
 ** *Tipo de uso*: Es posible que se haya suscrito a varias versiones de Keystone. Las reglas del plan de tarifas para los niveles de servicio de rendimiento pueden variar entre las versiones de suscripción. Al consultar el valor de esta columna, podrá saber si el tipo de uso se factura según el uso aprovisionado, físico o lógico. Para obtener más información sobre la versión 1, consulte  https://docs.netapp.com/us-en/keystone/index.html["Servicios de suscripción de Keystone | Documentación de la versión 1"^] .
 ** *Período de facturación*: El período de facturación de la suscripción.
 ** *Fecha de inicio*: La fecha de inicio de la suscripción.

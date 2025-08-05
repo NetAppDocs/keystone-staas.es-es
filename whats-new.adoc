@@ -14,7 +14,17 @@ summary: NetApp ofrece funciones nuevas y mejoradas en cada lanzamiento de los s
 
 
 [role="lead"]
-NetApp ofrece funciones nuevas y mejoradas en cada lanzamiento de los servicios de STaaS de Keystone.
+Obtenga información sobre las últimas características y mejoras en los servicios Keystone STaaS.
+
+
+
+== 05 de agosto de 2025
+
+
+
+=== Ver datos de consumo a nivel de instancia
+
+Puede ver el consumo actual y los datos históricos de cada instancia de nivel de servicio de rendimiento a través del panel de Keystone en BlueXP. Esta función está disponible para los niveles de servicio de rendimiento con múltiples instancias, siempre que tenga una suscripción a Keystone versión 3 (v3). Para obtener más información, consultelink:https://docs.netapp.com/us-en/keystone-staas/integrations/current-usage-tab.html["Visualiza el consumo de tus suscripciones de Keystone"] .
 
 
 
@@ -24,7 +34,7 @@ NetApp ofrece funciones nuevas y mejoradas en cada lanzamiento de los servicios 
 
 === Lanzamiento de Keystone versión 3 (v3)
 
-Ya puede suscribirse a Keystone versión 3 (v3), la última versión de la oferta NetApp Keystone STaaS. Esta versión incorpora varias mejoras, como niveles de servicio de rendimiento simplificados, opciones adicionales de capacidad de ráfaga y frecuencias de facturación flexibles. Estas mejoras simplifican la gestión, la optimización y el escalado de las soluciones de almacenamiento. Para obtener más información, consulte link:./concepts/metrics.html["Servicios Keystone STaaS para v3"].
+Ahora puede suscribirse a Keystone versión 3 (v3), la última versión de la oferta NetApp Keystone STaaS. Esta versión presenta varias mejoras, incluidos niveles de servicio de rendimiento simplificados, opciones de capacidad de ráfaga adicionales y frecuencias de facturación flexibles. Estas mejoras simplifican la gestión, la optimización y el escalamiento de las soluciones de almacenamiento. Para obtener más información, consultelink:https://docs.netapp.com/us-en/keystone-staas/concepts/metrics.html["Servicios Keystone STaaS para v3"] .
 
 
 

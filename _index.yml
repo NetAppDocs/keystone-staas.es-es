@@ -5,13 +5,13 @@ indexpage:
     para servicios de almacenamiento de datos locales y en la nube bajo una única
     suscripción con la capacidad de reasignar el gasto de almacenamiento entre nubes.
   keywords: Keystone STaaS
-  lead: NetApp Keystone es un servicio flexible de pago por uso basado en suscripción
-    que ofrece una experiencia de nube híbrida fluida para clientes que prefieren
-    los gastos operativos a las inversiones de capital o el arrendamiento. Permite
-    acelerar la rentabilidad de la inversión al eliminar la carga TECNOLÓGICA en los
-    recursos de gestión y pasar por ciclos de adquisición largos. Consulte la documentación
-    de esta biblioteca para obtener más información sobre la oferta de Almacenamiento
-    como Servicio (STaaS) de NetApp Keystone en su entorno ONTAP o StorageGRID.
+  lead: NetApp Keystone es un servicio flexible basado en suscripción de pago por
+    uso que ofrece una experiencia de nube híbrida perfecta para clientes que prefieren
+    los gastos operativos a los gastos de capital o el arrendamiento. Le brinda la
+    capacidad de acelerar el tiempo para obtener valor al eliminar la carga de TI
+    de administrar recursos y evitar el largo ciclo de adquisiciones. Explore los
+    documentos de esta biblioteca para obtener más información sobre la oferta de
+    almacenamiento como servicio (STaaS) NetApp Keystone .
   tiles:
   - title: Manos a la obra
     links:
@@ -39,8 +39,6 @@ indexpage:
     links:
     - title: Niveles de servicio de rendimiento de Keystone
       url: "/concepts/service-levels.html"
-    - title: Calidad de servicio (QoS)
-      url: "/concepts/qos.html"
     - title: "¿Cuáles son las unidades de medida?"
       url: "/concepts/metrics.html"
     - title: "¿Qué es el almacenamiento base compatible?"
@@ -49,7 +47,7 @@ indexpage:
       url: "/concepts/capacity-requirements.html#capacity-adjustments"
   - title: Precios y facturación de Keystone
     links:
-    - title: Conoce los precios de Keystone
+    - title: Obtenga más información sobre los precios de Keystone
       url: "/concepts/pricing.html"
     - title: Mis horarios de facturación
       url: "/concepts/billing-schedules.html"

@@ -38,10 +38,14 @@ Los datos históricos de consumo para cada nivel de servicio de rendimiento se m
 NOTE: Puede seleccionar *Ráfaga acumulada* en el menú desplegable *Ver* si desea ver el historial de consumo de la ráfaga para la que se generaron facturas. Puede usar estos datos para analizar el consumo facturado que se refleja en su factura. Para obtener más información, consulte link:../integrations/consumption-tab.html#view-accrued-burst["Ver ráfaga acumulada"].
 
 +
-image:bxp-consumption-trend.png["captura de pantalla que muestra el consumo histórico"]
+image:bxp-consumption-trend-1.png["captura de pantalla que muestra el consumo histórico"]
 
 +
-El gráfico de líneas muestra datos históricos de consumo y permite a los usuarios analizar tendencias en un rango de fechas seleccionado. El gráfico muestra métricas como datos (capacidad de almacenamiento utilizada por los datos del usuario), instantáneas (capacidad de almacenamiento utilizada por los datos de instantáneas) y capacidad utilizada (capacidad de almacenamiento total, incluyendo tanto los datos como los de instantáneas), junto con la capacidad comprometida y la capacidad de ráfaga. La fecha y la hora de cada punto de datos se muestran en la parte inferior del gráfico. Según el rango de fechas de su consulta, los gráficos de uso muestran hasta 30 puntos de recopilación de datos. Puede pasar el cursor sobre el gráfico para ver el desglose del uso en cada punto de recopilación de datos.
+El gráfico de líneas muestra datos históricos de consumo y permite a los usuarios analizar tendencias durante un rango de fechas seleccionado. El gráfico muestra métricas como la capacidad utilizada (capacidad de almacenamiento total, incluidos los datos y los datos de instantáneas), los datos (capacidad de almacenamiento utilizada por los datos del usuario) y las instantáneas (capacidad de almacenamiento utilizada por los datos de instantáneas), junto con la capacidad comprometida y en ráfagas. La fecha y la hora de cada punto de datos se muestran en la parte inferior del gráfico. Según el rango de fechas de su consulta, los gráficos de uso muestran hasta 30 puntos de recopilación de datos. Puede pasar el cursor del mouse sobre el gráfico para ver el desglose del uso en cada punto de recopilación de datos.
+
++
+
+NOTE: Si un nivel de servicio de rendimiento tiene varias instancias, puede filtrar por instancia para ver datos históricos de cada una por separado.
 
 +
 También puede ver un resumen del consumo actual junto con el consumo histórico para obtener una comprensión clara de su uso.
@@ -155,45 +159,3 @@ Una imagen de ejemplo que muestra el uso diario de datos de ráfaga acumulados e
 image:invoiced-daily-accr-burst-date.png["captura de pantalla que muestra los datos de uso de ráfaga en formato de gráfico de líneas"]
 
 Puede cambiar a una vista de tabla haciendo clic en la opción *Tabla* en la esquina superior derecha del gráfico. La vista de tabla proporciona métricas de uso diarias detalladas, incluido el nivel de servicio de rendimiento, la marca de tiempo, la capacidad comprometida, la capacidad consumida y la capacidad aprovisionada facturable. También puede generar un informe con estos detalles en formato CSV para su uso y comparación futuros.
-
-
-
-== Gráficos de referencia para protección avanzada de datos para MetroCluster
-
-Si se ha suscrito al servicio complementario de protección de datos avanzada, puede ver el desglose de los datos de consumo de los sitios asociados de MetroCluster en la pestaña *Tendencia de consumo* en Digital Advisor.
-
-Para obtener más información sobre el servicio complementario de protección de datos avanzada, consulte link:../concepts/adp.html["Protección de datos avanzada"].
-
-Si los clústeres en su entorno de almacenamiento de ONTAP están configurados en una configuración MetroCluster, los datos de consumo de su suscripción a Keystone se dividen en el mismo gráfico de datos históricos para mostrar el consumo en los sitios primario y espejo para los niveles de servicio de rendimiento base.
-
-
-NOTE: Los gráficos de barras de consumo se dividen únicamente para los niveles de servicio de rendimiento básico. Para el servicio complementario de protección de datos avanzada, es decir, el nivel de servicio de rendimiento _Advanced Data-Protect_, esta delimitación no aparece.
-
-.Nivel de servicio de rendimiento de protección de datos avanzado
-Para el nivel de servicio de rendimiento _Advanced Data-Protect_, el consumo total se divide entre los sitios asociados, y el uso en cada sitio asociado se refleja y factura en una suscripción separada; una suscripción para el sitio principal y otra para el sitio espejo. Esa es la razón por la que, cuando selecciona el número de suscripción para el sitio principal en la pestaña *Tendencia de consumo*, los gráficos de consumo para el servicio complementario de protección de datos avanzada muestran los detalles de consumo discreto solo del sitio principal. Dado que cada sitio asociado de una configuración MetroCluster actúa tanto como origen como mirroring, el consumo total de cada sitio incluye los volúmenes de origen y de mirroring creados en dicho sitio.
-
-
-TIP: La información sobre herramientas junto al ID de seguimiento de tu suscripción en la pestaña *Consumo actual* te ayuda a identificar la suscripción asociada en la configuración de MetroCluster.
-
-.Niveles de servicio de rendimiento base
-Para los niveles de servicio de rendimiento básico, cada volumen se factura según el aprovisionamiento en los sitios principal y espejo y, por lo tanto, el mismo gráfico de barras se divide según el consumo en los sitios principal y espejo.
-
-.Lo que puede ver para la suscripción principal
-La siguiente imagen muestra los gráficos para el nivel de servicio de rendimiento _Extremo_ (nivel de servicio de rendimiento base) y un número de suscripción principal. El mismo gráfico de datos históricos también indica el consumo de sitio duplicado en un tono más claro del mismo código de color utilizado para el sitio primario. La información sobre herramientas al pasar el ratón muestra el desglose de consumo (en TiB) para los sitios principales y de reflejo, 22,24 TiB y 14,86 TiB respectivamente.
-
-image:mcc-chart-1.png["mcc primario"]
-
-Para el nivel de servicio de rendimiento _Advanced Data-Protect_, los gráficos aparecen así:
-
-image:adp-src-1.png["base principal mcc"]
-
-.Qué puede ver para la suscripción secundaria (sitio de reflejo)
-Al verificar la suscripción secundaria, puede ver que el gráfico de barras para el nivel de servicio de rendimiento _Extremo_ (nivel de servicio de rendimiento base) en el mismo punto de recopilación de datos que el sitio del socio está invertido, y la distribución del consumo en los sitios principal y espejo es 14,86 TiB y 22,24 TiB respectivamente.
-
-image:mcc-chart-mirror-1.png["espejo mcc"]
-
-Para el nivel de servicio de rendimiento _Advanced Data-Protect_, el gráfico se ve así para el mismo punto de recopilación que en el sitio del socio:
-
-image:adp-mir-1.png["base de espejo mcc"]
-
-Para obtener más información sobre cómo MetroCluster protege sus datos, consulte https://docs.netapp.com/us-en/ontap-metrocluster/manage/concept_understanding_mcc_data_protection_and_disaster_recovery.html["Comprender la protección de datos y la recuperación ante desastres de MetroCluster"^].

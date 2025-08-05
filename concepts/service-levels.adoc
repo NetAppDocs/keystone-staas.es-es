@@ -20,7 +20,7 @@ Una suscripción puede tener varios planes de tarifas, y cada uno corresponde a 
 
 Un nivel de servicio de rendimiento puede tener varias instancias, cada una de las cuales representa una matriz de almacenamiento independiente asignada a dicho nivel en el entorno del cliente. Cada nivel de servicio de rendimiento se define por las operaciones de entrada/salida por segundo (IOPS), el rendimiento (GBps) y la latencia (ms); estas métricas se miden y aplican por instancia de nivel de servicio de rendimiento.
 
-Puede seleccionar los niveles de servicio de rendimiento según su entorno de almacenamiento y sus necesidades de almacenamiento y consumo. Los niveles de servicio de rendimiento básicos están disponibles por defecto. Si ha optado por servicios complementarios, también dispone de niveles de servicio de rendimiento específicos. Por ejemplo, para el servicio complementario de protección de datos avanzada, el nivel de servicio de rendimiento _Advanced Data-Protect_ se asigna a su suscripción.
+Usted selecciona los niveles de servicio de rendimiento según su entorno de almacenamiento y sus necesidades de almacenamiento y consumo. Los niveles de servicio de rendimiento básico están disponibles para usted de forma predeterminada. También están disponibles niveles de servicio de rendimiento específicos, si ha optado por servicios complementarios.
 
 
 TIP: Está disponible una descripción detallada del servicio para los niveles de rendimiento del servicio NetApp Keystone STaaS  https://www.netapp.com/services/keystone/terms-and-conditions/["aquí"^] .

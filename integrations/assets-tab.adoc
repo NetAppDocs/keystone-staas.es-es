@@ -40,10 +40,10 @@ Serás redirigido a la pestaña *Consumo actual*.
 . Seleccione la pestaña *Activos*.
 . Seleccione *Volúmenes en el clúster* en el menú desplegable *Ver*.
 +
-image:bxp-volumes-clusters-single-subscription.png["Una captura de pantalla de volúmenes en clústeres para una suscripción"]
+image:bxp-volumes-clusters-single-subscription-1.png["Una captura de pantalla de volúmenes en clústeres para una suscripción"]
 
 +
-Puede ver información detallada sobre los volúmenes en clústeres, incluyendo el nombre del volumen, el número de serie del nodo, el cumplimiento de las políticas de QoS, el nombre del clúster, el nombre del host y los niveles de rendimiento del servicio. También puede supervisar la capacidad aprovisionada, la utilización lógica y física, y los datos inactivos.
+Verá información detallada sobre los volúmenes en clústeres, incluido el nombre del volumen, el número de serie del nodo, el nombre del clúster, el nombre del host y los niveles del servicio de rendimiento. También puede supervisar la capacidad aprovisionada, la utilización lógica y física y los datos fríos.
 
 +
 

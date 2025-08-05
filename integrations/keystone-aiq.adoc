@@ -31,13 +31,8 @@ Puede ver el desglose del uso de la capacidad en función de sus suscripciones, 
 * *Uso de capacidad*: datos de consumo, como falta de uso, consumo que excede el 80 % de la capacidad comprometida, uso explosivo y consumo por encima de la capacidad explotada.
 * *Alertas*: Usted ve alertas para varios escenarios si son aplicables a usted.
 +
-** *Venciendo pronto*: En caso de que tus suscripciones venzan dentro de los 90 días.
-** *Advertencias QoS*: Tienes volúmenes sin políticas AQoS asignadas.
-+
 
 TIP: Haga clic en el enlace *Suscripciones* para ver la lista de suscripciones filtradas en la pestaña *Suscripciones*.
-
-
 
 
 

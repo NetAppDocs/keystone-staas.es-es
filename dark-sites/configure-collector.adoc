@@ -54,14 +54,14 @@ image:dark-site-generate-collector-keypair-1.png["Opción Generar par de claves 
 
 . Asegúrese de que el recopilador Keystone esté en buen estado volviendo a la pantalla principal de la TUI y verificando la información de *Estado del servicio*. El sistema debe mostrar que los servicios están en un estado *general: Saludable*. Espere hasta 10 minutos, si el estado general no es correcto después de este período, revise los pasos de configuración anteriores y póngase en contacto con el equipo de soporte de NetApp.
 +
-image:dark-site-overall-healthy-1.png["Estado del servicio"]
+image:dark-site-overall-healthy-2.png["Estado del servicio"]
 
 . Salga de la TUI de administración de Keystone Collector seleccionando la opción *Salir a Shell* en la pantalla de inicio.
 . Recupere la clave pública generada:
 +
 `~/collector-public.pem`
 
-. Envíe un correo electrónico con este archivo a keystone.services@NetApp.com.
+. Envíe un correo electrónico con este archivo a ng-keystone-secure-site-upload@netapp.com para sitios seguros que no sean de USPS, o a ng-keystone-secure-site-usps-upload@netapp.com para sitios seguros de USPS.
 
 
 
@@ -73,7 +73,7 @@ Debe enviar el informe de resumen de uso mensual a NetApp al final de cada mes. 
 Siga estos pasos para generar el informe de uso:
 
 . Vaya a *Export Usage* en la pantalla de inicio de Keystone Collector TUI.
-. Recoja los archivos y envíelos a keystone.services@NetApp.com.
+. Recopile los archivos y envíelos a ng-keystone-secure-site-upload@netapp.com para sitios seguros que no sean de USPS, o a ng-keystone-secure-site-usps-upload@netapp.com para sitios seguros de USPS.
 +
 Keystone Collector genera tanto un archivo transparente como un archivo cifrado, que se debe enviar manualmente a NetApp. El informe de borrado de archivos contiene los siguientes detalles que puede validar el cliente.
 

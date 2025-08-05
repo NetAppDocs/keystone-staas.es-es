@@ -22,7 +22,7 @@ Puede buscar y filtrar sus datos, generar informes de suscripciones y uso, y ver
 
 En BlueXP, puede buscar y filtrar datos de Keystone según los parámetros de columna disponibles en la tabla dentro de una pestaña. Por ejemplo, en la subpestaña *Suscripciones*, dentro de la pestaña *Suscripciones*, puede filtrar datos introduciendo la versión de Keystone en el cuadro de búsqueda. De igual forma, en la pestaña *Volúmenes en clústeres*, dentro de la pestaña *Recursos*, puede filtrar volúmenes introduciendo el nombre del volumen en el cuadro de búsqueda.
 
-Puede refinar sus búsquedas usando la opción de filtro avanzado, si está disponible. Por ejemplo, en la subpestaña *Suscripciones*, puede filtrar datos por versión de Keystone, período de facturación, capacidad máxima y días para el vencimiento de la suscripción. En la pestaña *Volúmenes en clústeres*, puede filtrar por nombre de volumen, nombre de clúster, cumplimiento de QoS, tipo de volumen y más. Se pueden aplicar varios filtros simultáneamente para refinar los resultados con precisión. image:bxp-filter-search.png["opción de filtro avanzado"]
+Puede refinar sus búsquedas utilizando la opción de filtro avanzado cuando esté disponible. Por ejemplo, en la subpestaña *Suscripciones*, puede filtrar datos por versión de Keystone , período de facturación, capacidad máxima y días hasta el vencimiento de la suscripción, y en la pestaña *Volúmenes en clústeres*, puede filtrar por nombre de volumen, nombre de clúster, tipo de volumen y más. Se pueden aplicar varios filtros simultáneamente para limitar los resultados con precisión.image:bxp-filter-search.png["opción de filtro avanzado"]
 
 
 
@@ -43,18 +43,3 @@ image:report-generation.png["Crear informe"]
 El informe se genera en formato Excel, con cada tipo de información, como detalles de suscripción o historial de uso, que se muestra en hojas separadas. Estas hojas se nombran de acuerdo con las pestañas de la página *Suscripciones Keystone* para una fácil visualización. Es posible guardar el informe para usarlo en el futuro.
 
 Para obtener más información sobre la generación de informes, consulte link:https://docs.netapp.com/us-en/active-iq/task_generate_reports.html["Generar informes personalizados"^].
-
-
-
-== Ver alertas de Digital Advisor
-
-En Digital Advisor, el panel de Keystone proporciona notificaciones de alerta que le permiten comprender los problemas que ocurren en su entorno de almacenamiento. Estas notificaciones pueden aparecer como alertas o advertencias informativas. Por ejemplo, con Keystone versión 2 (v2), si hay volúmenes dentro de los clústeres administrados que no tienen políticas de QoS adaptativas (AQoS) adjuntas, puede ver un mensaje de advertencia. Seleccione el mensaje de advertencia para ver la lista de volúmenes no conformes en la pestaña *Volúmenes y objetos*.
-
-
-NOTE: Si se ha suscrito a un único nivel de servicio de rendimiento o plan de tarifas, no podrá ver la alerta para volúmenes no compatibles.
-
-image:alert-aiq-3.png["alerta"]
-
-Para obtener información acerca de las políticas AQoS, consulte link:../concepts/qos.html["Calidad de servicio adaptativa"].
-
-Para obtener más información sobre estos mensajes, póngase en contacto con el soporte técnico de NetApp Keystone. Para obtener información sobre cómo generar solicitudes de servicio, consulte link:../concepts/gssc.html#generating-service-requests["Generando solicitudes de servicio"] .

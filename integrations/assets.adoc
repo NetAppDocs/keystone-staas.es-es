@@ -50,7 +50,7 @@ TIP: Puede personalizar la tabla utilizando el selector de columnas image:column
 . Desde el menú de navegación izquierdo de BlueXP, seleccione *Almacenamiento > Keystone > Activos*.
 . Seleccione la pestaña *Volúmenes en clústeres*.
 +
-image:bxp-volumes-clusters-multiple-sub.png["Una captura de pantalla de volúmenes en clústeres para múltiples suscripciones"]
+image:bxp-volumes-clusters-multiple-sub-1.png["Una captura de pantalla de volúmenes en clústeres para múltiples suscripciones"]
 
 +
 Puede ver información detallada sobre todos los volúmenes en clústeres de las suscripciones de Keystone, incluyendo el nombre del volumen, el número de suscripción, el número de serie del nodo, el cumplimiento de las políticas de QoS, el nombre del clúster, el nombre del host y los niveles de rendimiento del servicio. Puede supervisar la capacidad aprovisionada, la utilización lógica y física, y los datos inactivos. También obtendrá una visión general de:

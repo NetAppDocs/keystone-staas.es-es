@@ -14,10 +14,10 @@ summary: Use el servicio complementario de protección de datos avanzada para ga
 
 
 [role="lead"]
-Puede suscribirse al servicio complementario de protección de datos avanzada como parte de su suscripción a STaaS de Keystone. Este servicio complementario aprovecha la tecnología NetApp MetroCluster para garantizar una protección de datos eficiente de sus cargas de trabajo esenciales en un objetivo de punto de recuperación (RPO) de 0.
+Puede suscribirse al servicio complementario de protección de datos avanzada con su suscripción a Keystone STaaS. Este servicio complementario utiliza la tecnología NetApp MetroCluster para garantizar una protección de datos eficiente de sus cargas de trabajo de misión crítica con un objetivo de punto de recuperación (RPO) de 0.
 
 
-NOTE: Los servicios estándar de Keystone STaaS para almacenamiento de archivos y bloques ofrecen servicios de protección de datos predeterminados aprovechando las tecnologías de NetApp, como SnapMirror, SnapVault y Snapshot.
+NOTE: Los servicios estándar de Keystone STaaS para almacenamiento de archivos y bloques ofrecen servicios de protección de datos predeterminados mediante el uso de tecnologías de NetApp , como SnapMirror, SnapVault y Snapshot.
 
 Para obtener información acerca del servicio estándar y cloud, consulte link:../concepts/supported-storage-services.html["Servicios Keystone STaaS"].
 

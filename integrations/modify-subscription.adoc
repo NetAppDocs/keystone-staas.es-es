@@ -36,7 +36,7 @@ La página *Modificar suscripción* muestra los detalles de los niveles de servi
 NOTE: Opcionalmente, puede acceder a la página *Modificar suscripción* haciendo clic en *Administrar suscripción* en la sección de detalles de la suscripción y luego seleccionando *Modificar*.
 
 +
-image:bxp-modify-subscription.png["Una captura de pantalla que muestra la opción de modificar de la lista de suscripciones."]
+image:bxp-modify-subscription-1.png["Una captura de pantalla que muestra la opción de modificar de la lista de suscripciones."]
 
 . Haga clic en *Editar capacidad* para modificar la capacidad comprometida para los niveles de servicio de rendimiento, proporcione los detalles necesarios y haga clic en *Enviar*.
 +

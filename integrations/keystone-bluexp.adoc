@@ -18,18 +18,14 @@ Puede usar la pestaña *Descripción general* para determinar rápidamente las c
 
 Para ver la pestaña *Descripción general*, desde el menú de navegación izquierdo de BlueXP, vaya a *Almacenamiento > Keystone > Descripción general*.
 
-image:bxp-dashboard-overview.png["una captura de pantalla de la pestaña Descripción general"]
+image:bxp-dashboard-overview-1.png["una captura de pantalla de la pestaña Descripción general"]
 
 La pestaña *Descripción general* ofrece la siguiente información:
 
 * Resumen: Muestra el número total de suscripciones, clústeres de ONTAP, nodos de StorageGRID y nodos de ONTAP. Cada categoría cuenta con un botón "Ver" para navegar fácilmente a las secciones detalladas en las pestañas "Suscripciones" o "Recursos".
+* *Vencerá pronto*: La cantidad de suscripciones que vencen dentro de los próximos 6 meses. Haga clic en *Ver* para ver estas suscripciones en la pestaña *Suscripciones*.
 * *Solicitudes abiertas*: El número total de solicitudes de servicio abiertas.
-* *Estado de la capacidad de suscripción*: El estado de consumo de capacidad de las suscripciones que están por encima del límite, en uso y subutilizadas. Cada categoría incluye un botón *Ver* para acceder a la pestaña *Suscripciones* con los filtros correspondientes aplicados.
-* *Estado de vencimiento de la suscripción*: El número de suscripciones vencidas y las que están a punto de vencer en los próximos 90 días. Cada categoría incluye un botón *Ver* para acceder a la pestaña *Suscripciones* con los filtros correspondientes aplicados.
-* *Versión de Keystone en todas las suscripciones*: Desglose de sus suscripciones de Keystone por versión. Las reglas del plan de tarifas para los niveles de rendimiento del servicio pueden variar según la versión de la suscripción. Puede filtrar las suscripciones por versión con el botón *Ver*, que le lleva a la pestaña *Suscripciones* con los filtros correspondientes aplicados. Para obtener más información sobre la versión v1, consulte  https://docs.netapp.com/us-en/keystone/index.html["Servicios de suscripción de Keystone | Documentación de la versión 1"^] .
-+
-image:version-across-subscriptions.png["Un gráfico circular de las suscripciones de Keystone en las versiones v1, v2 y v3."]
-
+* *Uso de capacidad*: el estado de consumo de capacidad para las suscripciones que están por encima del límite, que utilizan el límite y que están subutilizadas. Cada categoría incluye un botón *Ver* para navegar a la pestaña *Suscripciones* con los filtros relevantes aplicados.
 * *Las 5 suscripciones principales con mayor utilización de capacidad*: Muestra una tabla con las cinco suscripciones de Keystone con mayor porcentaje de utilización de capacidad. Puede hacer clic en el número de suscripción en la columna *Suscripción* para obtener información detallada.
 
 
