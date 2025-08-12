@@ -16,7 +16,7 @@ summary: Keystone ofrece un modelo de pago por crecimiento para sus necesidades 
 [role="lead"]
 El servicio de suscripción de pago por uso NetApp Keystone STaaS ofrece un consumo flexible y escalable con precios predecibles y por adelantado para sus necesidades de almacenamiento.
 
-Keystone para la versión 3 (v3) le ofrece las siguientes facilidades de facturación:
+Keystone le ofrece las siguientes facilidades de facturación:
 
 * Puede pagar según las IOPS y la capacidad comprometida de latencia para satisfacer las necesidades de cargas de trabajo múltiples. Los diferentes niveles de servicio de rendimiento (Extreme, Premium, Standard, Value, Object y Cloud Volumes ONTAP) le permiten administrar su almacenamiento en función del nivel de servicio adquirido.
 * Presenta una facturación predecible para la capacidad comprometida y el pago por uso de la capacidad variable (en ráfaga).

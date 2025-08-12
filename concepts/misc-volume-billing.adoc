@@ -14,7 +14,7 @@ summary: Obtén más información sobre la facturación de Keystone para configu
 
 
 [role="lead"]
-Comprender la facturación de Keystone para configuraciones específicas en la versión 3 (v3) puede ayudarlo a optimizar el uso del servicio y administrar los costos.  Las configuraciones incluyen volúmenes clonados, volúmenes temporales, destinos SnapMirror , LUN y volúmenes de sistema/raíz.
+Comprender la facturación de Keystone para configuraciones específicas puede ayudarlo a optimizar el uso del servicio y administrar los costos. Las configuraciones incluyen volúmenes clonados, volúmenes temporales, destinos SnapMirror , LUN y volúmenes de sistema/raíz.
 
 
 
@@ -46,28 +46,6 @@ El precio de los volúmenes de destino de SnapMirror, ya sea para recuperación 
 == Facturación para LUN
 
 Para los LUN, la facturación se basa en los niveles de servicio de rendimiento del volumen.
-
-
-
-== Volúmenes raíz y del sistema
-
-Los volúmenes raíz y del sistema se supervisan como parte de la supervisión general del servicio de Keystone, pero no se cuentan o se facturan. El consumo en estos volúmenes está exento de facturación.
-
-
-
-== Facturación de destinos de SnapMirror
-
-El precio del volumen de destino de SnapMirror se rige por la política de calidad de servicio adaptativa correspondiente al nivel de servicio asignado en el origen. Sin embargo, si el origen no tiene una política de calidad de servicio adaptativa asociada, el destino se factura en función del nivel de servicio más bajo disponible.
-
-
-
-== Facturación para LUN
-
-Para las LUN, se sigue el mismo patrón de facturación que para los volúmenes que se rigen por las políticas de calidad de servicio adaptativas. Si se establecen políticas de calidad de servicio adaptativas independientes en las LUN, realice lo siguiente:
-
-* El tamaño de la LUN se cuenta para su consumo en función del nivel de servicio asociado de esa LUN.
-* El resto del espacio del volumen, si corresponde, se carga según la política de calidad de servicio adaptativa del nivel de servicio establecido en el volumen.
-
 
 
 

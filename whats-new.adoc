@@ -36,6 +36,8 @@ Puede ver el consumo actual y los datos históricos de cada instancia de nivel d
 
 Ahora puede suscribirse a Keystone versión 3 (v3), la última versión de la oferta NetApp Keystone STaaS. Esta versión presenta varias mejoras, incluidos niveles de servicio de rendimiento simplificados, opciones de capacidad de ráfaga adicionales y frecuencias de facturación flexibles. Estas mejoras simplifican la gestión, la optimización y el escalamiento de las soluciones de almacenamiento. Para obtener más información, consultelink:https://docs.netapp.com/us-en/keystone-staas/concepts/metrics.html["Servicios Keystone STaaS para v3"] .
 
+Puede ponerse en contacto con el equipo de soporte de Keystone para suscribirse a Keystone versión 3 (v3). Para más detalles, consultelink:https://docs.netapp.com/us-en/keystone-staas/concepts/gssc.html["Obtén ayuda con Keystone"] .
+
 
 
 == 19 de junio de 2025

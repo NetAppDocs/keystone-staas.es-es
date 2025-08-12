@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: concepts/billing-schedules.html 
 keywords: billing schedules, schedule for payment 
-summary: Las suscripciones a Keystone STaaS se facturan mensualmente y anualmente. 
+summary: Las suscripciones de Keystone STaaS se facturan de forma mensual, trimestral, semestral o anual. 
 ---
 = Horarios de facturación
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Las suscripciones a Keystone STaaS se facturan mensualmente y anualment
 
 
 [role="lead"]
-Las suscripciones de Keystone STaaS en la versión 3 (v3) se facturan de forma mensual, trimestral, semestral o anual.
+Las suscripciones de Keystone STaaS se facturan de forma mensual, trimestral, semestral o anual.
 
 
 
@@ -29,8 +29,8 @@ Las facturas se envían mensualmente. Para el mes en el que se han hecho los ser
 Para la facturación trimestral, semestral y anual, el proceso es similar con ligeras variaciones en los tiempos:
 
 * *Facturación trimestral*: Se genera una factura al inicio de cada trimestre de suscripción por el pago mínimo de la capacidad comprometida. Se envía otra factura al final del trimestre por cualquier aumento repentino de consumo.
-* *Facturación semestral*: Se genera una factura al inicio de cada semestre por el pago mínimo de la capacidad comprometida. Se envía otra factura al final de cada trimestre por cualquier exceso de consumo acumulado.
-* *Facturación anual*: Se genera una factura al inicio de cada año de suscripción por el pago mínimo de la capacidad comprometida. Se envía otra factura al final de cada trimestre por cualquier aumento repentino de consumo.
+* *Facturación semestral*: Se genera una factura a principios de cada seis meses por el pago mínimo de la capacidad comprometida.  Al final de cada trimestre se envía otra factura por cualquier exceso de uso acumulado.
+* *Facturación anual*: Al inicio de cada año de suscripción se genera una factura por el pago mínimo de la capacidad comprometida.  Al final de cada trimestre se envía otra factura por cualquier exceso de uso acumulado.
 
 
-Para la facturación trimestral, semestral y anual, si la capacidad comprometida se modifica durante una suscripción, se envía una factura el mismo día por los pagos mínimos prorrateados por el resto de ese año de suscripción. La facturación se calcula a partir del día en que el cambio en la capacidad comprometida es efectivo.
+Para la facturación trimestral, semestral y anual, si la capacidad comprometida se modifica durante una suscripción, se envía una factura el mismo día por los pagos mínimos prorrateados por el resto de ese año de suscripción.  La facturación se calcula a partir del día en que se hace efectivo el cambio en la capacidad comprometida.

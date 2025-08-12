@@ -14,7 +14,7 @@ summary: Conozca los tipos de capacidades de almacenamiento compatibles con el s
 
 
 [role="lead"]
-El servicio NetApp Keystone STaaS para la versión 3 (v3) admite varios tipos de capacidades de almacenamiento. Entender estos diferentes términos de capacidad puede ayudar cuando usa Keystone.
+El servicio NetApp Keystone STaaS admite varios tipos de capacidades de almacenamiento. Comprender estos diferentes términos de capacidad puede resultar útil al utilizar Keystone.
 
 
 
@@ -49,7 +49,7 @@ Durante la duración de una suscripción, puede cambiar las capacidades comprome
 
 La capacidad consumida hace referencia a la capacidad (en TIB de almacenamiento) que se está consumiendo actualmente en el servicio. Se calcula de forma diferente según el tipo de almacenamiento:
 
-* *Almacenamiento unificado u optimizado por bloques*: La capacidad consumida se calcula según el tipo de capacidad seleccionado en el pedido, que puede ser lógica o física. El cálculo se realiza por instancia de nivel de servicio de rendimiento.
+* *Almacenamiento unificado u optimizado por bloques*: la capacidad consumida se calcula en función del tipo de capacidad (lógica o física) seleccionada durante el proceso de pedido.  El cálculo se realiza por instancia de nivel de servicio de rendimiento.
 +
 .. *Capacidad lógica*: Es la suma de:
 +

@@ -14,7 +14,7 @@ summary: Los requisitos de capacidad para los niveles de servicio difieren con e
 
 
 [role="lead"]
-Los requisitos de capacidad para los niveles de servicio de rendimiento de Keystone STaaS en la versión 3 (v3) difieren entre las ofertas de almacenamiento unificado, optimizado por bloques, de objetos o en la nube compatibles con la suscripción de Keystone STaaS.
+Los requisitos de capacidad para los niveles de servicio de rendimiento de Keystone STaaS difieren entre las ofertas de almacenamiento unificado, optimizado por bloques, de objetos o en la nube compatibles con la suscripción de Keystone STaaS.
 
 
 
