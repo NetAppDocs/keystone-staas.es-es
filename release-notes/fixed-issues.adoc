@@ -22,6 +22,15 @@ Los problemas encontrados en versiones anteriores de los servicios de STaaS de N
 
 
  a| 
+Falta la línea de umbral de ráfaga en los gráficos de tendencias de consumo para las suscripciones configuradas con una configuración MetroCluster en el panel de Digital Advisor , lo que muestra un estado incorrecto de *Por encima del límite de ráfaga*.
+ a| 
+Fija
+ a| 
+28 de agosto de 2025
+
+
+
+ a| 
 En la pestaña *Activos*, los activos de StorageGRID no son visibles.
  a| 
 Fija

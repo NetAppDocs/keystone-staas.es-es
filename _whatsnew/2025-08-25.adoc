@@ -1,0 +1,15 @@
+= Seguimiento de uso lógico mejorado con una nueva columna
+:allow-uri-read: 
+
+
+
+
+=== Seguimiento de uso lógico mejorado con una nueva columna
+
+Se agrega una nueva columna, Huella total, para mejorar el seguimiento del consumo de Keystone para los volúmenes de FabricPool :
+
+* * Panel de control de Keystone en BlueXP*: puede ver la columna *Huella total* en la pestaña *Volúmenes en clústeres* dentro de la pestaña *Activos*.
+* * Digital Advisor*: Puede ver la columna * Huella total * en la pestaña * Detalles de volumen * dentro de la pestaña * Volúmenes y objetos *.
+
+
+Esta columna muestra la huella lógica total de los volúmenes que utilizan niveles de FabricPool , incluidos datos de los niveles de rendimiento y de los niveles fríos, para que pueda calcular con precisión el consumo de Keystone .

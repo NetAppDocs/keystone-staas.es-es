@@ -919,7 +919,6 @@ A continuación se muestra un ejemplo:</block>
   <block id="af17398e2b948fd6715e1bdf5857d48e" category="paragraph">TCP 7777</block>
   <block id="6178fec7016b28af42fcd47c64d4da81" category="list-text">Incluyes los subsistemas en los paquetes diarios y semanales de AutoSupport para garantizar la recogida de datos precisa para Keystone. Para obtener información sobre los subsistemas de AutoSupport, consulte<block ref="5cc209367930dbf9b2a8c95126c2b0b9" category="inline-link-rx"></block>.</block>
   <block id="001d654c5d010b25a953ace0dce0f14d" category="list-text">Modifique el contenido del log.</block>
-  <block id="a35e5b3497716ca18010e0be265afb3b" category="list-text">Ejecute este comando para modificar el contenido del registro diario:</block>
   <block id="9060a638913c522309cdbab6919eef2b" category="list-text">Ejecute este comando para modificar el contenido del log semanal:</block>
   <block id="7186d4f0f71f9b706a05940b8abcacd0" category="cell">Descripción del problema</block>
   <block id="c8cfdcd3f2e7ef01cbd8180e33c9bf8d" category="summary">Keystone Collector incluye funciones de seguridad que supervisan las métricas de rendimiento y uso de los sistemas Keystone y está configurado para utilizar configuraciones reforzadas de seguridad.</block>
@@ -1608,7 +1607,6 @@ A continuación se muestra un ejemplo:</block>
   <block id="3b70df30112e474cb2dcc361a3e3f76f" category="paragraph">Verá los detalles de la cuadrícula, clasificados por identificadores de grid y nodo, información del sitio, especificaciones de hardware y detalles de capacidad, que ayudan a supervisar y gestionar los nodos en la infraestructura de StorageGRID.</block>
   <block id="a5c5b30c416c34eb8d2fb09f3946721b" category="inline-image-macro">Captura de pantalla para mostrar información a nivel de cuadrícula para StorageGRID</block>
   <block id="dcaaab8361575caaad35a500d6864bd1" category="paragraph"><block ref="dcaaab8361575caaad35a500d6864bd1" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="1cedef25ccb6885eb8bfdc7660435962" category="paragraph">Puede usar *Ocultar/Mostrar columnas* para agregar o eliminar columnas mostradas en la tabla. Por defecto, todas las columnas están seleccionadas excepto la columna *Departamento*. Puede seleccionar o anular la selección de cualquier columna, incluida la columna *Departamento*, y sus preferencias se guardarán para su uso posterior. Al descargar el informe CSV, los detalles de la columna *Departamento* se incluirán si se selecciona, mientras que otras columnas aparecerán independientemente del estado de selección en la tabla.</block>
   <block id="4e80b9aaf481494b7698c02bcd4558ab" category="section-title">Columna Lógica Usada renombrada</block>
   <block id="4067362b8a27e9feb45b3dad3b225588" category="paragraph">La columna *Lógica usada* de la pestaña *Detalles del volumen* de *Volúmenes y objetos* ahora se cambia a *Lógica de Keystone usada*.</block>
   <block id="5676116bf1b268637a4e6fe8dd1485ca" category="section-title">Pestaña Activos mejorados</block>
@@ -2325,4 +2323,15 @@ A continuación se muestra un ejemplo:</block>
   <block id="845131517a9dd7f41b73102338bac133" category="list-text">*Capacidad lógica*: Es la suma de:</block>
   <block id="0649df2b2e490a85273ef7528dbeb91a" category="list-text">*Capacidad física*: Es la suma de:</block>
   <block id="eb80e5c63a486d3698858f87d747e461" category="paragraph">Puede ponerse en contacto con el equipo de soporte de Keystone para suscribirse a Keystone versión 3 (v3). Para más detalles, consulte<block ref="ba5860e7066469b734064f44e703aa5c" category="inline-link-macro-rx"></block> .</block>
+  <block id="7e8fe67b005603b496012796735f2d36" category="doc">Seguimiento de uso lógico mejorado con una nueva columna</block>
+  <block id="b79d3069a7b9ca9140a5c9b1bf2f8d81" category="paragraph">Se agrega una nueva columna, Huella total, para mejorar el seguimiento del consumo de Keystone para los volúmenes de FabricPool :</block>
+  <block id="729a65ff91860ad65935d125d788f643" category="list-text">* Panel de control de Keystone en BlueXP*: puede ver la columna *Huella total* en la pestaña *Volúmenes en clústeres* dentro de la pestaña *Activos*.</block>
+  <block id="61f4e69294ec080e5cb7bce32f2f8b99" category="list-text">* Digital Advisor*: Puede ver la columna * Huella total * en la pestaña * Detalles de volumen * dentro de la pestaña * Volúmenes y objetos *.</block>
+  <block id="610355e82f0e7cf01bdfa1df13985f3f" category="paragraph">Esta columna muestra la huella lógica total de los volúmenes que utilizan niveles de FabricPool , incluidos datos de los niveles de rendimiento y de los niveles fríos, para que pueda calcular con precisión el consumo de Keystone .</block>
+  <block id="bff820430728f0b409c26641dc8ddd41" category="list-text">Para ONTAP 9.16.1 y superior, ejecute este comando para modificar el contenido del registro diario:</block>
+  <block id="63af57ffe551ed93c0576ba741b36e47" category="list-text">Para versiones anteriores de ONTAP , ejecute este comando para modificar el contenido del registro diario:</block>
+  <block id="8e65b1fa60d467c8850acfb3f1d1b8b9" category="paragraph">Puede utilizar *Ocultar/Mostrar columnas* para agregar o eliminar columnas mostradas en la tabla. De forma predeterminada, la tabla muestra las preferencias de columna guardadas previamente.  Las columnas recientemente agregadas, como las columnas *Departamento* o *Huella total*, están ocultas de manera predeterminada y deben seleccionarse manualmente para que aparezcan en la tabla.  Puede seleccionar o deseleccionar cualquier columna y sus preferencias se guardarán para su uso posterior.  Al descargar el informe CSV, todas las columnas disponibles se incluyen en la exportación, independientemente de sus preferencias de visualización.</block>
+  <block id="56a9fe5a3d171069cb125956f6186c86" category="paragraph">Falta la línea de umbral de ráfaga en los gráficos de tendencias de consumo para las suscripciones configuradas con una configuración MetroCluster en el panel de Digital Advisor , lo que muestra un estado incorrecto de *Por encima del límite de ráfaga*.</block>
+  <block id="8d317448388884cae15b07e53f9c9fbc" category="paragraph">28 de agosto de 2025</block>
+  <block id="b8d454c9414aa4b52ad019b0311711b5" category="section-title">28 de agosto de 2025</block>
 </blocks>
