@@ -36,5 +36,6 @@ La pestaña *Descripción general* ofrece la siguiente información:
 * link:..//integrations/keystone-aiq.html["Panel de control de Keystone en Digital Advisor"]
 * link:../integrations/subscriptions-tab.html["Ver los detalles de su suscripción"]
 * link:../integrations/current-usage-tab.html["Ver detalles de su consumo actual"]
+* link:../integrations/monitoring-alerts.html["Ver y administrar alertas y monitores"]
 * link:../integrations/consumption-tab.html["Ver tendencias de consumo"]
 

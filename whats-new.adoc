@@ -18,6 +18,28 @@ Obtenga información sobre las últimas características y mejoras en los servic
 
 
 
+== 22 de septiembre de 2025
+
+
+
+=== Adición de monitoreo de alertas
+
+El panel de Keystone en BlueXP ahora incluye una pestaña *Monitoreo* para administrar alertas y monitores en todas sus suscripciones.  Esta nueva pestaña le permite:
+
+* Ver y resolver alertas activas, incluidas las alertas generadas por el sistema y definidas por el usuario sobre el uso de la capacidad y el vencimiento de la suscripción.
+* Cree monitores de alerta para rastrear el uso de la capacidad y los eventos de vencimiento de suscripciones.
+
+
+Para obtener más información, consultelink:https://docs.netapp.com/us-en/keystone-staas/integrations/monitoring-alerts.html["Ver y administrar alertas y monitores"] .
+
+
+
+=== Visualización optimizada de los niveles de servicio de rendimiento
+
+Puede ver la información de los niveles de rendimiento del servicio, ahora movida de una pestaña separada a una vista expandible, dentro de la pestaña *Suscripciones*.  Haga clic en la flecha hacia abajo junto a la columna *Fecha de vencimiento* para verlas para cada suscripción. Para obtener más información, consultelink:https://docs.netapp.com/us-en/keystone-staas/integrations/subscriptions-tab.html["Ver detalles sobre sus suscripciones a Keystone"] .
+
+
+
 == 28 de agosto de 2025
 
 

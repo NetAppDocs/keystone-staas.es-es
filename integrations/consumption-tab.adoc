@@ -31,7 +31,7 @@ Serás redirigido a la pestaña *Consumo actual*.
 . Seleccione la pestaña *Tendencia de consumo*.
 . Seleccione *Consumo histórico* en el menú desplegable *Vista* y elija el rango de tiempo usando el ícono de calendario en el campo *Período* para analizar las tendencias de uso de la capacidad.
 +
-Los datos históricos de consumo para cada nivel de servicio de rendimiento se muestran en un gráfico de líneas según el rango de tiempo seleccionado.
+Los datos históricos de consumo para cada nivel de servicio de rendimiento se muestran en un gráfico de líneas según el rango de tiempo seleccionado. Si se modifica o renueva una suscripción de Keystone , puede establecer la fecha de inicio en una fecha anterior para ver datos de consumo anteriores.
 
 +
 

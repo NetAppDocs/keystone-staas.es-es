@@ -76,6 +76,11 @@ link:../integrations/assets-tab.html["Ver activos asociados con una suscripción
 
 
  a| 
+link:../integrations/monitoring-alerts.html["Ver y administrar alertas y monitores"]
+| Sí | No 
+
+
+ a| 
 link:../integrations/modify-subscription.html["Modificar sus suscripciones"] (sólo para administradores de Keystone)
 | Sí | No 
 

@@ -100,5 +100,6 @@ Puede hacer clic en un número de suscripción en la columna *Número de suscrip
 * link:../integrations/consumption-tab.html["Ver tendencias de consumo"]
 * link:../integrations/subscription-timeline.html["Ver el cronograma de su suscripción"]
 * link:../integrations/assets-tab.html["Ver sus activos de suscripción de Keystone"]
+* link:../integrations/monitoring-alerts.html["Ver y administrar alertas y monitores"]
 * link:../integrations/volumes-objects-tab.html["Ver volúmenes y detalles de objetos"]
 

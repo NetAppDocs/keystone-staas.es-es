@@ -1,0 +1,62 @@
+---
+sidebar: sidebar 
+permalink: integrations/monitoring-alerts.html 
+keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, monitoring, bluexp. console 
+summary: Utilice la pestaña Monitoreo para ver y administrar alertas de sus suscripciones a Keystone . 
+---
+= Ver y administrar alertas para suscripciones de Keystone
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+El panel de Keystone en BlueXP le permite ver y administrar alertas activas en su entorno de almacenamiento de Keystone .  Puede ver alertas generadas por el sistema y alertas definidas por el usuario sobre el uso de la capacidad y el vencimiento de la suscripción.  Desde esta vista, puede evaluar rápidamente la gravedad de la alerta, identificar problemas de almacenamiento y tomar medidas correctivas. Esta vista no está disponible en Digital Advisor.
+
+Para configurar alertas definidas por el usuario, consultelink:../integrations/monitoring-alert-monitors.html#create-and-manage-alert-monitors["Crear y administrar monitores de alertas"] .
+
+
+
+== Ver alertas
+
+Para ver las alertas activas, siga estos pasos:
+
+.Pasos
+. Desde el menú de navegación izquierdo de BlueXP , seleccione *Almacenamiento > Keystone > Monitoreo > Alertas*.
++
+image:monitoring-alerts-default-view.png["Una captura de pantalla de alertas activas para suscripciones de Keystone"]
+
++
+Puede ver detalles de la alerta, como gravedad, ID, descripción, hora de activación, número de suscripción, ID de seguimiento, nivel de servicio de rendimiento y estado.  La página también muestra el total de alertas no resueltas por gravedad y tipo.
+
+
+
+
+
+== Administrar alertas
+
+Desde la pestaña *Alertas*, puedes realizar las siguientes acciones:
+
+* *Revisar y resolver alertas*: seleccione el número de ID de la alerta para abrir una vista detallada de la alerta.  Esta vista muestra la descripción de la alerta y los pasos de resolución sugeridos.  Desde esta vista detallada, puedes:
++
+** Marque la alerta como resuelta seleccionando el botón *Editar* después de abordar el problema.
+** Agregue notas de apoyo seleccionando el botón *Agregar nota* si es necesario.
+
+
+* *Filtrar alertas*: utilice el ícono de filtro en la columna *Estado* para ver solo alertas activas, alertas resueltas o ambas.
+* *Ver detalles de la suscripción*: seleccione el número de suscripción en la columna *Suscripción* para acceder a los detalles de la suscripción, las tendencias de consumo y la información de los activos que pueden ayudarlo a comprender y abordar la alerta. Para obtener más información, consulte link:../integrations/current-usage-tab.html["Ver detalles de su consumo actual"] .
+
+
+*Información relacionada*
+
+* link:../integrations/dashboard-overview.html["Comprender el panel de control de Keystone"]
+* link:../integrations/subscriptions-tab.html["Ver los detalles de su suscripción"]
+* link:../integrations/consumption-tab.html["Ver tendencias de consumo"]
+* link:../integrations/subscription-timeline.html["Ver el cronograma de su suscripción"]
+* link:../integrations/assets-tab.html["Ver sus activos de suscripción de Keystone"]
+* link:../integrations/monitoring-alert-monitors.html["Ver y crear monitores de alertas"]
+* link:../integrations/volumes-objects-tab.html["Ver detalles de volúmenes y objetos"]
+

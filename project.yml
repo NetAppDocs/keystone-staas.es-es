@@ -122,6 +122,12 @@ sidebar:
         url: "/integrations/assets-tab.html"
       - title: Ver activos en múltiples suscripciones
         url: "/integrations/assets.html"
+    - title: Ver y administrar alertas y monitores
+      entries:
+      - title: Ver y administrar alertas
+        url: "/integrations/monitoring-alerts.html"
+      - title: Ver y crear monitores de alertas
+        url: "/integrations/monitoring-alert-monitors.html"
     - title: Modificar sus suscripciones
       url: "/integrations/modify-subscription.html"
     - title: Ver su solicitud de servicio

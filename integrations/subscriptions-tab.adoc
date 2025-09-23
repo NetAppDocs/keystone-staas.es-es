@@ -20,18 +20,15 @@ Puedes ver una lista de todas tus suscripciones en la pestaña *Suscripciones* t
 ====
 .BlueXP
 --
-La pestaña *Suscripciones* de BlueXP se divide en dos secciones: *Suscripciones* y *Niveles de rendimiento del servicio*. Cada sección ofrece información específica para ayudarle a administrar y supervisar sus suscripciones de Keystone. Para ver información detallada de sus suscripciones, siga estos pasos:
+Para ver información detallada de sus suscripciones, siga estos pasos:
 
 .Pasos
 . Desde el menú de navegación izquierdo de BlueXP, vaya a *Almacenamiento > Keystone > Suscripciones*.
 +
-image:bxp-subscription-list-1.png["ver los detalles de la pestaña de suscripción"]
+image:bxp-subscription-list-2.png["ver los detalles de la pestaña de suscripción"]
 
 +
-Verá las métricas clave, como el uso de la capacidad, el estado de vencimiento de la suscripción y la versión de Keystone en todas las suscripciones. Para obtener más información, consultelink:../integrations/keystone-bluexp.html["Panel de control de Keystone en BlueXP"] .
-
-+
-Puedes ver los siguientes detalles en la tabla:
+Verá las métricas clave, como el uso de la capacidad, el estado de vencimiento de la suscripción y las alertas no resueltas. Puedes ver los siguientes detalles en la tabla:
 
 +
 ** *Número de suscripción*: el número de suscripción de Keystone asignado por NetApp.
@@ -45,19 +42,11 @@ Puedes ver los siguientes detalles en la tabla:
 ** *Días para el vencimiento de la suscripción*: El número de días restantes hasta que expire la suscripción.
 +
 
+NOTE: Puede hacer clic en la flecha hacia abajo junto a la columna *Fecha de vencimiento* para ver la información de los niveles de rendimiento del servicio para cada suscripción.  Esto muestra información detallada sobre la capacidad, incluido el uso actual, la capacidad comprometida, la capacidad aprovisionada, la capacidad de ráfaga y la capacidad disponible.
+
++
+
 TIP: Puede personalizar las columnas que se muestran en la tabla utilizando el selector de columnas image:column-selector.png["icono del selector de columnas"] icono. Para determinados campos y columnas, puede ver información o iconos de advertencia y sugerencias de herramientas que le proporcionan información adicional sobre los datos.
-
-
-
-. Puede seleccionar la subpestaña *Niveles de servicio de rendimiento* para ver los niveles de servicio de rendimiento en todas las suscripciones.
-+
-image:bxp-performance-levels.png["Ver los niveles de rendimiento del servicio en todas las suscripciones"]
-
-+
-** *Niveles de servicio de rendimiento en todas las suscripciones*: muestra la cantidad de niveles de servicio de rendimiento en todas las suscripciones.
-** *Consistencia de aprovisionamiento entre suscripciones*: muestra los recuentos de los niveles de servicio de rendimiento con exceso y defecto de aprovisionamiento.
-+
-Puede ver la lista de niveles de servicio de rendimiento, incluidos detalles clave como el nombre del cliente, el número de suscripción, el tipo de nivel de servicio de rendimiento y la cantidad total de volúmenes. La tabla también muestra el recuento de volúmenes protegidos, la capacidad total comprometida, consumida, aprovisionada y disponible (con y sin ráfagas) y la capacidad de ráfagas acumulada.
 
 
 
@@ -110,5 +99,6 @@ image:icon-grey.png["icono de punto gris"] *Sin consumo*: No se registra ningún
 * link:../integrations/subscription-timeline.html["Ver el cronograma de su suscripción"]
 * link:../integrations/assets-tab.html["Ver sus activos de suscripción de Keystone"]
 * link:../integrations/assets.html["Visualiza los activos en todas tus suscripciones de Keystone"]
+* link:../integrations/monitoring-alerts.html["Ver y administrar alertas y monitores"]
 * link:../integrations/volumes-objects-tab.html["Ver volúmenes y detalles de objetos"]
 
