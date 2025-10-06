@@ -17,12 +17,12 @@ summary: Para supervisar el rendimiento de tus sistemas, puedes ver las métrica
 Para supervisar el rendimiento de tus sistemas, puedes ver las métricas de rendimiento de los volúmenes de ONTAP gestionados por tus suscripciones de Keystone.
 
 
-TIP: Esta pestaña es opcional en Digital Advisor. Póngase en contacto con el soporte técnico para ver esta pestaña. No está disponible en BlueXP.
+TIP: Esta pestaña está disponible de forma opcional para usted en Digital Advisor. Comuníquese con el soporte técnico para ver esta pestaña. No está disponible en la consola de NetApp .
 
 Para ver esta pestaña en Digital Advisor, siga estos pasos:
 
 .Pasos
-. Haga clic en *General > Suscripciones Keystone > Rendimiento*.
+. Seleccione *General > Suscripciones Keystone > Rendimiento*.
 . Seleccione el número de suscripción. De forma predeterminada, se selecciona el primer número de suscripción.
 . Seleccione el nombre del volumen requerido de la lista.
 +

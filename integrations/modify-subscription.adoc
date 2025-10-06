@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: integrations/modify-subscription.html 
-keywords: performance service levels, keystone-bluexp, modify subscription, edit capacity, manage subscription 
-summary: Modifique su suscripción de Keystone para cambiar la capacidad comprometida para los niveles de servicio de rendimiento asociados a través de BlueXP. 
+keywords: performance service levels, keystone-bluexp, modify subscription, edit capacity, manage subscription, NetApp Console, Console 
+summary: Modifique su suscripción de Keystone para cambiar la capacidad comprometida para los niveles de servicio de rendimiento asociados a través de la consola de NetApp . 
 ---
-= Modifique su suscripción a Keystone desde BlueXP
+= Modifique su suscripción de Keystone desde la consola de NetApp
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,19 +14,19 @@ summary: Modifique su suscripción de Keystone para cambiar la capacidad comprom
 
 
 [role="lead"]
-Puede modificar la capacidad comprometida de su suscripción a Keystone para los niveles de servicio de rendimiento asociados a través de BlueXP.
+Puede modificar la capacidad comprometida de su suscripción a Keystone para los niveles de servicio de rendimiento asociados a través de la consola de NetApp .
 
 [NOTE]
 ====
 * Puede modificar la capacidad comprometida si a la suscripción le quedan más de 90 días antes de que expire.
-* Debe estar asignado al rol de *administrador de Keystone* para modificar la capacidad comprometida. Para obtener más información, consulte link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["Obtenga más información sobre los roles de acceso de BlueXP"^].
+* Debe estar asignado al rol de *administrador de Keystone * para modificar la capacidad comprometida. Para obtener más información, consultelink:https://docs.netapp.com/console-setup-admin/reference-iam-predefined-roles.html["Obtenga más información sobre los roles de acceso a la consola de NetApp"^] .
 
 
 ====
 Para cambiar la capacidad comprometida, siga estos pasos:
 
 .Pasos
-. Desde el menú de BlueXP, seleccione *Almacenamiento > Keystone > Suscripciones*.
+. Desde el menú de navegación izquierdo de la consola, seleccione *Almacenamiento > Keystone > Suscripciones*.
 . Haga clic en el icono de puntos suspensivos de la tabla correspondiente a la suscripción que desea modificar y luego seleccione *Modificar*.
 +
 La página *Modificar suscripción* muestra los detalles de los niveles de servicio de rendimiento suscritos asociados con el número de suscripción seleccionado.
@@ -36,7 +36,7 @@ La página *Modificar suscripción* muestra los detalles de los niveles de servi
 NOTE: Opcionalmente, puede acceder a la página *Modificar suscripción* haciendo clic en *Administrar suscripción* en la sección de detalles de la suscripción y luego seleccionando *Modificar*.
 
 +
-image:bxp-modify-subscription-1.png["Una captura de pantalla que muestra la opción de modificar de la lista de suscripciones."]
+image:console-modify-subscription.png["Una captura de pantalla que muestra la opción de modificar de la lista de suscripciones."]
 
 . Haga clic en *Editar capacidad* para modificar la capacidad comprometida para los niveles de servicio de rendimiento, proporcione los detalles necesarios y haga clic en *Enviar*.
 +

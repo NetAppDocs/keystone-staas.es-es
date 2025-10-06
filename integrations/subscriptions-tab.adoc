@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: integrations/subscriptions-tab.html 
-keywords: keystone-aiq, digital advisor keystone, subscriptions-tab, performance levels, keystone-bluexp 
+keywords: keystone-aiq, digital advisor keystone, subscriptions-tab, performance levels, keystone-bluexp, NetApp Console, Console 
 summary: Para obtener más información sobre tus suscripciones de Keystone, puedes ver una lista de todas tus suscripciones en la pestaña Suscripciones. 
 ---
 = Ver detalles sobre sus suscripciones a Keystone
@@ -14,21 +14,24 @@ summary: Para obtener más información sobre tus suscripciones de Keystone, pue
 
 
 [role="lead"]
-Puedes ver una lista de todas tus suscripciones en la pestaña *Suscripciones* tanto en BlueXP como en Digital Advisor. Esta pestaña proporciona información clara y sencilla basada en el estado y el uso de tu suscripción, lo que te ayuda a mantenerte informado y a tomar las medidas necesarias.
+Puede ver una lista de todas sus suscripciones desde *Suscripciones* en la consola de NetApp y Digital Advisor. Esta vista proporciona información fácil de entender basada en el estado y el uso de su suscripción, lo que le ayuda a mantenerse informado y tomar medidas cuando sea necesario.
 
 [role="tabbed-block"]
 ====
-.BlueXP
+.Consola de NetApp
 --
 Para ver información detallada de sus suscripciones, siga estos pasos:
 
 .Pasos
-. Desde el menú de navegación izquierdo de BlueXP, vaya a *Almacenamiento > Keystone > Suscripciones*.
+. Desde el menú de navegación izquierdo de la consola, seleccione *Almacenamiento > Keystone > Suscripciones*.
 +
-image:bxp-subscription-list-2.png["ver los detalles de la pestaña de suscripción"]
+image:bxp-subscription-list-3.png["ver los detalles de la pestaña de suscripción"]
 
 +
-Verá las métricas clave, como el uso de la capacidad, el estado de vencimiento de la suscripción y las alertas no resueltas. Puedes ver los siguientes detalles en la tabla:
+Verá las métricas clave, como el uso de la capacidad, el estado de vencimiento de la suscripción y las alertas no resueltas.
+
++
+Puedes ver los siguientes detalles en la tabla:
 
 +
 ** *Número de suscripción*: el número de suscripción de Keystone asignado por NetApp.

@@ -21,7 +21,7 @@ En un nivel alto, el flujo de trabajo para interactuar con la API REST DE Digita
 . Configura tu cuenta de Digital Advisor. Debe tener credenciales válidas del sitio de soporte de NetApp para iniciar sesión en el asesor digital. Para obtener más información, consulte https://docs.netapp.com/us-en/active-iq/task_login_activeiq.html["Inicie sesión en Digital Advisor."]
 . Comprender el proceso de autenticación en dos pasos.
 +
-.. *Generar un token de actualización*: Se obtiene un token de actualización a través de la consola del Asesor Digital usando credenciales de NetApp. Este token se utiliza para garantizar el acceso continuo sin la necesidad de inicios de sesión repetidos.
+.. *Generar un token de actualización*: un token de actualización se obtiene a través de la consola de Digital Advisor usando credenciales de NetApp . Este token se utiliza para garantizar el acceso continuo sin necesidad de inicios de sesión repetidos.
 .. *Generar un token de acceso*: El token refresh se utiliza para generar tokens de acceso. Se necesita un token de acceso para autorizar llamadas API al servicio Keystone y es válido durante una hora.
 
 

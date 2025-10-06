@@ -14,7 +14,7 @@ summary: La API REST DE Digital Advisor recupera una lista de todas las suscripc
 
 
 [role="lead"]
-Esta API recupera una lista de todas las suscripciones y niveles de servicio asociados con el CustomerID especificado.
+Esta API recupera una lista de todas las suscripciones y niveles de servicio de rendimiento asociados con el customerID dado.
 
 *Solicitud:*
 
@@ -43,7 +43,7 @@ Esta API recupera una lista de todas las suscripciones y niveles de servicio aso
 |===
 *Respuesta:*
 
-La API responderá con un objeto JSON que contiene una lista de todas las suscripciones y detalles de nivel de servicio asociados para el cliente dado. He aquí un ejemplo de respuesta:
+La API responderá con un objeto JSON que contiene una lista de todas las suscripciones y detalles del nivel de servicio de rendimiento asociado para el cliente determinado. He aquí un ejemplo de respuesta:
 
 [listing]
 ----

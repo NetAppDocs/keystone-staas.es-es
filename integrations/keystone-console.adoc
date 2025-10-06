@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
-permalink: integrations/keystone-bluexp.html 
-keywords: Keystone, BlueXP, Keystone dashboard, overview, subscription manage, monitor 
-summary: Como suscriptor de NetApp Keystone STaaS, puede obtener una descripción general de sus suscripciones de NetApp BlueXP. 
+permalink: integrations/keystone-console.html 
+keywords: Keystone, BlueXP, Keystone dashboard, overview, subscription manage, monitor, NetApp Console, Console 
+summary: Como suscriptor de NetApp Keystone STaaS, puede obtener una descripción general de sus suscripciones desde la consola de NetApp . 
 ---
-= Panel de control de Keystone en BlueXP
+= Panel de control de Keystone en la consola de NetApp
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,13 +14,13 @@ summary: Como suscriptor de NetApp Keystone STaaS, puede obtener una descripció
 
 
 [role="lead"]
-Puede usar la pestaña *Descripción general* para determinar rápidamente las cargas de trabajo en riesgo, ver la capacidad y el estado de vencimiento de las suscripciones, identificar las alertas sin resolver y ver las suscripciones con mayor utilización de capacidad. También puede ver el estado de sus suscripciones en las diferentes versiones de Keystone, destacando cualquier problema que requiera su atención.
+Puede utilizar la página *Descripción general* para determinar rápidamente las cargas de trabajo en riesgo, ver la capacidad y el estado de vencimiento de las suscripciones, identificar las alertas no resueltas y ver las suscripciones con la mayor utilización de capacidad. También puede ver el estado de sus suscripciones en diferentes versiones de Keystone, resaltando cualquier problema que requiera su atención.
 
-Para ver la pestaña *Descripción general*, desde el menú de navegación izquierdo de BlueXP, vaya a *Almacenamiento > Keystone > Descripción general*.
+Para ver la página *Descripción general*, desde el menú de navegación izquierdo de la Consola, vaya a *Almacenamiento > Keystone > Descripción general*.
 
-image:bxp-dashboard-overview-1.png["una captura de pantalla de la pestaña Descripción general"]
+image:bxp-dashboard-overview-2.png["una captura de pantalla de la página de descripción general"]
 
-La pestaña *Descripción general* ofrece la siguiente información:
+La página *Descripción general* ofrece la siguiente información:
 
 * Resumen: Muestra el número total de suscripciones, clústeres de ONTAP, nodos de StorageGRID y nodos de ONTAP. Cada categoría cuenta con un botón "Ver" para navegar fácilmente a las secciones detalladas en las pestañas "Suscripciones" o "Recursos".
 * *Vencerá pronto*: La cantidad de suscripciones que vencen dentro de los próximos 6 meses. Haga clic en *Ver* para ver estas suscripciones en la pestaña *Suscripciones*.
@@ -36,6 +36,5 @@ La pestaña *Descripción general* ofrece la siguiente información:
 * link:..//integrations/keystone-aiq.html["Panel de control de Keystone en Digital Advisor"]
 * link:../integrations/subscriptions-tab.html["Ver los detalles de su suscripción"]
 * link:../integrations/current-usage-tab.html["Ver detalles de su consumo actual"]
-* link:../integrations/monitoring-alerts.html["Ver y administrar alertas y monitores"]
 * link:../integrations/consumption-tab.html["Ver tendencias de consumo"]
 

@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: integrations/subscription-timeline.html 
-keywords: keystone, BlueXP, subscriptions, timeline, lifecycle, activation, modification, renewal 
-summary: Vea el cronograma de suscripción de BlueXP, que incluye eventos como fechas de activación, modificación y renovación. 
+keywords: keystone, BlueXP, subscriptions, timeline, lifecycle, activation, modification, renewal, NetApp Console, Console 
+summary: Vea el cronograma de suscripción desde la consola de NetApp , que incluye eventos como fechas de activación, modificación y renovación. 
 ---
 = Ver la cronología de sus suscripciones a Keystone
 :hardbreaks:
@@ -14,12 +14,12 @@ summary: Vea el cronograma de suscripción de BlueXP, que incluye eventos como f
 
 
 [role="lead"]
-El panel de control de Keystone en BlueXP ofrece una vista cronológica de sus suscripciones a Keystone, mostrando eventos como las fechas de activación, modificación y renovación. Esta vista cronológica no está disponible en Digital Advisor.
+El panel de Keystone en la consola de NetApp proporciona una vista cronológica de sus suscripciones de Keystone y muestra eventos como fechas de activación, modificación y renovación. Esta vista de línea de tiempo no está disponible en Digital Advisor.
 
 Para ver el cronograma de suscripción, siga estos pasos:
 
 .Pasos
-. Desde el menú de navegación izquierdo de BlueXP, seleccione *Almacenamiento > Keystone > Suscripciones*.
+. Desde el menú de navegación izquierdo de la consola, seleccione *Almacenamiento > Keystone > Suscripciones*.
 . Seleccione el número de suscripción en la columna *Número de suscripción* para ver el cronograma de suscripción.
 +
 Serás redirigido a la pestaña *Consumo actual*.
@@ -29,7 +29,7 @@ Serás redirigido a la pestaña *Consumo actual*.
 image:bxp-subscription-timeline-graph.png["Una captura de pantalla para mostrar el cronograma de suscripción en un formato de gráfico de líneas junto con eventos importantes."]
 
 +
-El cronograma de suscripciones se muestra como un gráfico lineal de forma predeterminada, con iconos que marcan los eventos importantes. Pase el cursor sobre un evento para ver información detallada, como la fecha y los cambios realizados en la capacidad comprometida durante una modificación. Para ver estos eventos en una tabla, seleccione la opción *Tabla* en el menú desplegable *Ver como*. También puede ver el cronograma de otras suscripciones seleccionando o buscando en el menú desplegable *ID de seguimiento*.
+La línea de tiempo de suscripción se muestra como un gráfico de líneas de forma predeterminada, con íconos que marcan eventos importantes. Pase el cursor sobre un evento para ver los detalles, incluida la fecha y los cambios de capacidad comprometidos. Para ver estos eventos en una tabla, seleccione la opción *Tabla* del menú desplegable *Ver como*. Para ver otros cronogramas de suscripción, seleccione o busque en el menú desplegable *ID de seguimiento*.
 
 +
 image:bxp-subscription-timeline.png["Una captura de pantalla para mostrar el cronograma de suscripción en un formato de gráfico de tabla junto con eventos importantes"]

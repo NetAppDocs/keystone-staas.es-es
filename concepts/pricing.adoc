@@ -18,7 +18,7 @@ El servicio de suscripción de pago por uso NetApp Keystone STaaS ofrece un cons
 
 Keystone le ofrece las siguientes facilidades de facturación:
 
-* Puede pagar según las IOPS y la capacidad comprometida de latencia para satisfacer las necesidades de cargas de trabajo múltiples. Los diferentes niveles de servicio de rendimiento (Extreme, Premium, Standard, Value, Object y Cloud Volumes ONTAP) le permiten administrar su almacenamiento en función del nivel de servicio adquirido.
+* Puede pagar en función de la capacidad comprometida de IOPS y latencia para satisfacer diversas necesidades de carga de trabajo. Los diferentes niveles de servicio de rendimiento (Extreme, Premium, Standard, Value, Object y Cloud Volumes ONTAP) le permiten administrar su almacenamiento en función del nivel de servicio de rendimiento adquirido.
 * Presenta una facturación predecible para la capacidad comprometida y el pago por uso de la capacidad variable (en ráfaga).
 * Puede seleccionar un precio de paquete para el hardware, el SO principal y el soporte para un precio de $/TIB. Tienes una única factura para cada tipo de almacenamiento, ya sea unificado, en bloques, optimizado, de objetos o servicios de almacenamiento en la nube.
 * Puede seleccionar un plazo flexible para los servicios y opciones de pago, como mensual, trimestral, semestral o anual.

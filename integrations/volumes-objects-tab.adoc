@@ -16,7 +16,7 @@ summary: Vea los detalles de la capacidad en el nivel de almacenamiento de objet
 [role="lead"]
 Si desea ver detalles de capacidad a nivel de volumen o de almacenamiento de objetos, puede navegar a la pestaña *Volúmenes y objetos* en Digital Advisor. Para StorageGRID, puede utilizar esta pestaña para leer el uso de los nodos individuales del entorno de almacenamiento de objetos.
 
-Puede consultar la pestaña *Activos* en BlueXP para ver estos detalles. consulte link:../integrations/assets.html["Visualiza los activos en todas tus suscripciones de Keystone"] .
+Puede consultar la página *Activos* en la consola de NetApp para ver estos detalles. Para ver los detalles de una suscripción específica de Keystone STaaS, consultelink:../integrations/assets-tab.html["Ver activos asociados con una suscripción de Keystone"] . Si desea ver detalles de varias suscripciones de Keystone , consultelink:../integrations/assets.html["Visualiza los activos en todas tus suscripciones de Keystone"] .
 
 
 NOTE: El título de esta pestaña varía según la naturaleza de la puesta en marcha en el sitio. Si tiene tanto ONTAP como almacenamiento de objetos, el título de la pestaña aparece como *Volúmenes y objetos*. Solo para ONTAP, el nombre aparece *VOLUMES*. Para el almacenamiento de objetos StorageGRID, puede ver la pestaña *Objetos*.

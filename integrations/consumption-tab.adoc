@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: integrations/consumption-tab.html 
-keywords: keystone-aiq, digital advisor keystone, consumption trends, subscriptions, historical data, bluexp 
+keywords: keystone-aiq, digital advisor keystone, consumption trends, subscriptions, historical data, bluexp, NetApp Console, Console 
 summary: Para comprender el uso de su suscripción, puede ver la capacidad comprometida, la capacidad consumida, la capacidad disponible, etc. 
 ---
 = Vea las tendencias de consumo de sus suscripciones a Keystone
@@ -16,14 +16,14 @@ summary: Para comprender el uso de su suscripción, puede ver la capacidad compr
 [role="lead"]
 Puede supervisar el uso de su suscripción consultando el historial de sus suscripciones a Keystone durante un periodo específico. Esto le permite obtener información valiosa sobre sus patrones de uso.
 
-Puede ver datos históricos de sus suscripciones de Keystone a través de BlueXP o Digital Advisor:
+Puede ver datos históricos de sus suscripciones de Keystone a través de la consola de NetApp o Digital Advisor:
 
 [role="tabbed-block"]
 ====
-.BlueXP
+.Consola de NetApp
 --
 .Pasos
-. Desde el menú de navegación izquierdo de BlueXP, seleccione *Almacenamiento > Keystone > Suscripciones*.
+. Desde el menú de navegación izquierdo de la consola, seleccione *Almacenamiento > Keystone > Suscripciones*.
 . Seleccione el número de suscripción en la columna *Número de suscripción*.
 +
 Serás redirigido a la pestaña *Consumo actual*.
@@ -129,7 +129,7 @@ La ráfaga es la diferencia entre la capacidad consumida y la capacidad comprome
 
 == Ver ráfaga acumulada
 
-Puede consultar el consumo de datos acumulado por ráfagas a través de BlueXP o Digital Advisor. Si ha seleccionado *Ráfaga acumulada* en el menú desplegable *Ver* de la pestaña *Tendencia de consumo* de BlueXP, o la opción *Ráfaga acumulada facturada* de la pestaña *Tendencia de consumo* de Digital Advisor, podrá ver el consumo de datos acumulado por ráfagas mensual o trimestralmente, según el período de facturación seleccionado. Estos datos están disponibles para los últimos 12 meses que se han facturado y puede consultar por rango de fechas hasta los últimos 30 meses. Los gráficos de barras muestran los datos facturados y, si el uso aún no se ha facturado, se marcarán como _Pendiente_ para ese período.
+Puede ver el uso de datos acumulados a través de la Consola o el Digital Advisor. Si ha seleccionado *Ráfaga acumulada* en el menú desplegable *Ver* en la pestaña *Tendencia de consumo* en la Consola, o la opción *Ráfaga acumulada facturada* en la pestaña *Tendencia de consumo* en Digital Advisor, puede ver el uso de datos de ráfaga acumulada de forma mensual o trimestral, según el período de facturación seleccionado. Estos datos están disponibles para los últimos 12 meses facturados y se pueden consultar por rango de fechas de hasta los últimos 30 meses. Los gráficos de barras muestran los datos facturados y, si aún no se ha facturado el uso, se marcará como _Pendiente_ para ese período.
 
 
 TIP: El uso acumulado facturado se calcula por período de facturación, en función de la capacidad comprometida y consumida para un nivel de servicio de rendimiento.
@@ -146,7 +146,7 @@ Esta función está disponible en modo de sólo vista previa. Póngase en contac
 
 == Ver el uso diario de datos de ráfaga acumulados
 
-Puede consultar el consumo diario acumulado de datos por ráfaga para un período de facturación mensual o trimestral a través de BlueXP o Digital Advisor. En BlueXP, la tabla "Ráfaga acumulada por días" proporciona datos detallados, incluyendo la marca de tiempo, la capacidad comprometida, consumida y acumulada por ráfaga si selecciona "Ráfaga acumulada" en el menú desplegable "Ver" de la pestaña "Tendencia de consumo".
+Puede ver el uso de datos acumulado diariamente para un período de facturación mensual o trimestral a través de la Consola o el Digital Advisor. En la consola, la tabla *Ráfaga acumulada por días* proporciona datos detallados que incluyen la marca de tiempo, la capacidad comprometida, consumida y acumulada si selecciona *Ráfaga acumulada* en el menú desplegable *Ver* en la pestaña *Tendencia de consumo*.
 
 image:bxp-accrued-burst-days.png["Captura de pantalla que muestra la tabla de ráfagas acumuladas por días"]
 

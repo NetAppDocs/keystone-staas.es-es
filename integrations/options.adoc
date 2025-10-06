@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: integrations/options.html 
-keywords: Keystone, BlueXP, Keystone dashboard, search and filter, Keystone data, generate reports, view alerts, digital advisor 
+keywords: Keystone, BlueXP, Keystone dashboard, search and filter, Keystone data, generate reports, view alerts, digital advisor, NetApp Console, Console 
 summary: Como suscriptor de NetApp Keystone STaaS, puede buscar y filtrar sus datos, generar informes de suscripciones y uso, verificar marcas de tiempo y ver alertas. 
 ---
 = Busque datos de Keystone, genere informes y vea alertas
@@ -18,17 +18,17 @@ Puede buscar y filtrar sus datos, generar informes de suscripciones y uso, y ver
 
 
 
-== Buscar y filtrar datos de BlueXP
+== Busque y filtre datos desde la consola de NetApp
 
-En BlueXP, puede buscar y filtrar datos de Keystone según los parámetros de columna disponibles en la tabla dentro de una pestaña. Por ejemplo, en la subpestaña *Suscripciones*, dentro de la pestaña *Suscripciones*, puede filtrar datos introduciendo la versión de Keystone en el cuadro de búsqueda. De igual forma, en la pestaña *Volúmenes en clústeres*, dentro de la pestaña *Recursos*, puede filtrar volúmenes introduciendo el nombre del volumen en el cuadro de búsqueda.
+En la consola, puede buscar y filtrar datos de Keystone según los parámetros de columna disponibles en la tabla dentro de una pestaña. Por ejemplo, en la pestaña *Suscripciones* de la página *Suscripciones*, puede filtrar datos ingresando la versión de Keystone en el cuadro de búsqueda. De manera similar, en la pestaña *Volúmenes en clústeres* debajo de la página *Activos*, puede filtrar volúmenes ingresando el nombre del volumen en el cuadro de búsqueda.
 
-Puede refinar sus búsquedas utilizando la opción de filtro avanzado cuando esté disponible. Por ejemplo, en la subpestaña *Suscripciones*, puede filtrar datos por versión de Keystone , período de facturación, capacidad máxima y días hasta el vencimiento de la suscripción, y en la pestaña *Volúmenes en clústeres*, puede filtrar por nombre de volumen, nombre de clúster, tipo de volumen y más. Se pueden aplicar varios filtros simultáneamente para limitar los resultados con precisión.image:bxp-filter-search.png["opción de filtro avanzado"]
+Puede refinar sus búsquedas utilizando la opción de filtro avanzado cuando esté disponible. Por ejemplo, en la pestaña *Suscripciones*, puede filtrar datos por versión de Keystone , período de facturación, capacidad máxima y días hasta el vencimiento de la suscripción, y en la pestaña *Volúmenes en clústeres*, puede filtrar por nombre de volumen, nombre de clúster, tipo de volumen y más. Se pueden aplicar varios filtros simultáneamente para limitar los resultados con precisión.image:bxp-filter-search.png["opción de filtro avanzado"]
 
 
 
-== Generar informes desde BlueXP o Digital Advisor
+== Genere informes desde la consola de NetApp o Digital Advisor
 
-Puede generar y ver informes de sus datos de Keystone utilizando el botón de descarga image:bluexp-download-report-2.png["Icono de descarga de informe 2 en BlueXP"] disponible en pestañas dentro de BlueXP o Digital Advisor. Estas pestañas le permiten generar informes sobre sus suscripciones, historial de uso, uso por ráfagas, rendimiento, activos, volúmenes y objetos.
+Puede generar y ver informes de sus datos de Keystone utilizando el botón de descargaimage:bluexp-download-report-2.png["Icono de descarga de informe 2 en la consola"] disponible en pestañas dentro de la Consola o el Digital Advisor. Estas pestañas le permiten generar informes sobre sus suscripciones, uso histórico, uso intensivo, rendimiento, activos, volúmenes y objetos.
 
 Los detalles se generan en formato CSV que puede guardar para usarlos y compararlos en el futuro.
 

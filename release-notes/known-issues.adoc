@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: release-notes/known-issues.html 
 keywords: netapp, keystone, release notes, known issues 
-summary: Los problemas conocidos identifican problemas que pueden impedirle usar de forma efectiva los servicios de suscripción de Keystone. 
+summary: Los problemas conocidos identifican problemas que podrían impedirle utilizar Keystone de manera eficaz. 
 ---
 = Problemas conocidos en STaaS de Keystone
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Los problemas conocidos identifican problemas que pueden impedirle usar
 
 
 [role="lead"]
-Los problemas conocidos identifican problemas que pueden impedirle usar de forma efectiva los servicios de suscripción de Keystone.
+Los problemas conocidos identifican problemas que podrían impedirle utilizar Keystone STaaS de manera eficaz.
 
 En STaaS de NetApp Keystone se notifican los siguientes problemas conocidos:
 

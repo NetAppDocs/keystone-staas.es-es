@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: integrations/dashboard-access.html 
-keywords: Keystone, Digital Advisor, keystone-aiq, aiq, BlueXP, Keystone dashboard, Keystone subscriptions 
-summary: Como suscriptor de NetApp Keystone STaaS, puede acceder al panel de Keystone a través de NetApp BlueXP o Digital Advisor 
+keywords: Keystone, Digital Advisor, keystone-aiq, aiq, BlueXP, Keystone dashboard, Keystone subscriptions, NetApp Console, Console 
+summary: Como suscriptor de NetApp Keystone STaaS, puede obtener acceso al panel de Keystone a través de la consola de NetApp o Digital Advisor. 
 ---
 = Comience a utilizar el panel de control de Keystone
 :hardbreaks:
@@ -14,22 +14,22 @@ summary: Como suscriptor de NetApp Keystone STaaS, puede acceder al panel de Key
 
 
 [role="lead"]
-Puede acceder al panel de Keystone a través de NetApp BlueXP o Digital Advisor después de suscribirse a los servicios de NetApp Keystone.
+Puede acceder al panel de Keystone a través de la consola de NetApp o Digital Advisor después de suscribirse a los servicios de NetApp Keystone .
 
 [role="tabbed-block"]
 ====
-.BlueXP
+.Consola de NetApp
 --
-Para iniciar sesión en BlueXP, puede usar sus credenciales del sitio de soporte de NetApp o puede registrarse en BlueXP usando su correo electrónico y una contraseña. Más información sobre link:https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-logging-in.html["Inicio de sesión en BlueXP"^].
+Inicie sesión en la consola usando sus credenciales del sitio de soporte de NetApp o regístrese para iniciar sesión en la nube de NetApp usando su correo electrónico y una contraseña. Para obtener más información, consulte link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-logging-in.html["Iniciar sesión en la consola"^] .
 
 .Pasos
-. Inicie sesión en BlueXP.
-. Desde el menú de navegación izquierdo de BlueXP, seleccione *Almacenamiento > Keystone*.
+. Inicie sesión en la consola.
+. Desde el menú de navegación izquierdo de la Consola, seleccione *Almacenamiento > Keystone*.
 +
 Aparece el panel de control de Keystone.
 
 +
-image:discover-subscriptions-1.png["la página del panel de control de Keystone"]
+image:discover-subscriptions-2.png["la página del panel de control de Keystone"]
 
 +
 
@@ -54,7 +54,7 @@ Puede consultar los detalles de su suscripción y uso, así como un resumen del 
 ====
 *Información relacionada*
 
-* link:../integrations/keystone-bluexp.html["Panel de control de Keystone en BlueXP"]
+* link:../integrations/keystone-console.html["Panel de control de Keystone en la consola de NetApp"]
 * link:..//integrations/keystone-aiq.html["Panel de control de Keystone en Digital Advisor"]
 * link:../integrations/subscriptions-tab.html["Ver los detalles de su suscripción"]
 

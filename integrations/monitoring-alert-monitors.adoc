@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: integrations/monitoring-alert-monitors.html 
-keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, monitoring, bluexp. console 
+keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, monitoring, bluexp, netapp console 
 summary: Utilice la pestaña Monitoreo para ver y crear monitores de alertas para sus suscripciones de Keystone . 
 ---
 = Ver y crear monitores de alertas para suscripciones de Keystone
@@ -14,7 +14,7 @@ summary: Utilice la pestaña Monitoreo para ver y crear monitores de alertas par
 
 
 [role="lead"]
-Puede ver y crear monitores de alerta para sus suscripciones de Keystone desde el panel de Keystone en BlueXP.  El panel muestra monitores generados por el sistema y definidos por el usuario para el uso de la capacidad y el vencimiento de la suscripción.  Puede crear monitores para establecer umbrales, elegir la gravedad de las alertas y agregar destinatarios de correo electrónico para las notificaciones.  Esta funcionalidad no está disponible en Digital Advisor.
+Puede ver y crear monitores de alerta para sus suscripciones de Keystone desde el panel de Keystone en la consola de NetApp . El panel muestra monitores generados por el sistema y definidos por el usuario para el uso de la capacidad y el vencimiento de la suscripción. Puede crear monitores para establecer umbrales, elegir la gravedad de las alertas y agregar destinatarios de correo electrónico para las notificaciones. Esta funcionalidad no está disponible en Digital Advisor.
 
 
 
@@ -23,9 +23,9 @@ Puede ver y crear monitores de alerta para sus suscripciones de Keystone desde e
 Para ver los monitores de alerta, siga estos pasos:
 
 .Pasos
-. Desde el menú de navegación izquierdo de BlueXP , seleccione *Almacenamiento > Keystone > Monitoreo > Monitores de alerta*.
+. Desde el menú de navegación izquierdo de la Consola, seleccione *Almacenamiento > Keystone > Monitoreo > Monitores de alerta*.
 +
-image:monitoring-alert-monitors-default-view.png["Una captura de pantalla de los monitores de alerta para las suscripciones de Keystone"]
+image:monitoring-alert-monitors-default-view-1.png["Una captura de pantalla de los monitores de alerta para las suscripciones de Keystone"]
 
 +
 Puede ver una lista de monitores de alerta en sus suscripciones de Keystone , incluidos los nombres de los monitores, las condiciones de alerta que activan notificaciones, los niveles de gravedad, los números de suscripción, los niveles de servicio de rendimiento y el estado.  Puede consultar la columna *Creado por* para determinar si los monitores de alerta son generados por el sistema o definidos por el usuario.
