@@ -19,7 +19,7 @@ Puede modificar la capacidad comprometida de su suscripción a Keystone para los
 [NOTE]
 ====
 * Puede modificar la capacidad comprometida si a la suscripción le quedan más de 90 días antes de que expire.
-* Debe estar asignado al rol de *administrador de Keystone * para modificar la capacidad comprometida. Para obtener más información, consultelink:https://docs.netapp.com/console-setup-admin/reference-iam-predefined-roles.html["Obtenga más información sobre los roles de acceso a la consola de NetApp"^] .
+* Debe estar asignado al rol de *administrador de Keystone * para modificar la capacidad comprometida. Para obtener más información, consultelink:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["Obtenga más información sobre los roles de acceso a la consola de NetApp"^] .
 
 
 ====

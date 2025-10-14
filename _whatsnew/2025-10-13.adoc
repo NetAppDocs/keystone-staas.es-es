@@ -1,0 +1,20 @@
+= Columna de anulación de la política de QoS en la pestaña Activos
+:allow-uri-read: 
+
+
+Nuevas mejoras en el panel de Keystone en la NetApp Console:
+
+
+
+=== Columna de anulación de la política de QoS en la pestaña Activos
+
+La pestaña *Volúmenes en clústeres* dentro de la pestaña *Activos* ahora incluye una columna *Anulación de política de QoS* que indica si se omiten las reglas de QoS para los volúmenes de respaldo y espejo, mostrando *verdadero* (reglas ignoradas), *falso* (reglas aplicadas) o *N/D* (para volúmenes espejo).
+
+
+NOTE: Para las suscripciones de Keystone v3, esta columna muestra *N/D* ya que las políticas de QoS no son aplicables en la oferta v3.
+
+
+
+=== Visibilidad mejorada de alertas en la página Descripción general
+
+La página *Descripción general* ahora incluye dos nuevas secciones de alerta denominadas *Alertas no resueltas por gravedad* y *Alertas de Keystone no resueltas más antiguas*. Para obtener más información, consultelink:https://docs.netapp.com/us-en/keystone-staas/integrations/keystone-console.html["Panel de control de Keystone en la consola de NetApp"] .

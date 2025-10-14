@@ -29,7 +29,7 @@ Para ver el estado de consumo actual de sus suscripciones a través de la consol
 Serás redirigido a la pestaña *Consumo actual*.
 
 +
-image:bxp-current-consumption-graph-1.png["Detalles del consumo actual en formato gráfico"]
+image:console-current-consumption-graph.png["Detalles del consumo actual en formato gráfico"]
 
 +
 Para la suscripción seleccionada, puede ver los detalles de consumo en formato de tabla o gráfico utilizando la opción *Tabla* o *Gráfico* del menú desplegable *Ver como*. En la vista gráfica, puede ver el consumo actual por nivel de servicio de rendimiento, incluyendo la capacidad utilizada, la capacidad aprovisionada, el límite de capacidad comprometida y el límite de capacidad de ráfaga.
@@ -39,10 +39,10 @@ Para la suscripción seleccionada, puede ver los detalles de consumo en formato 
 NOTE: Si un nivel de servicio de rendimiento tiene varias instancias, puede expandir *Ver por instancias* en cualquiera de las vistas para ver los detalles de consumo actual de cada instancia por separado.  Por ejemplo, si tiene dos instancias del nivel de servicio de rendimiento Extremo dentro de una suscripción, cada instancia mostrará sus propias capacidades comprometidas, consumidas y disponibles por separado.
 
 +
-En la vista de tabla, puede ver detalles como la capacidad máxima consumida y los días restantes hasta el vencimiento. Para supervisar el uso de su suscripción, puede ver el nombre del nivel de servicio de rendimiento, el estado del consumo, las capacidades comprometidas y utilizadas, las capacidades aprovisionadas y en ráfagas, la capacidad disponible y los volúmenes. Puede personalizar la tabla con el selector de columnas. image:column-selector.png["icono del selector de columnas"] icono.
+En la vista de tabla, puede ver detalles como la capacidad máxima consumida y los días restantes hasta el vencimiento. Como parte del monitoreo del uso de su suscripción, puede ver el nombre del nivel de servicio de rendimiento, el uso de la capacidad, las capacidades comprometidas y utilizadas, las capacidades aprovisionadas y en ráfagas, la capacidad disponible y los volúmenes. Puede personalizar la tabla utilizando el selector de columnasimage:column-selector.png["icono del selector de columnas"] icono.
 
 +
-image:bxp-current-consumption-table-1.png["Detalles del consumo actual en formato de tabla"]
+image:console-current-consumption-table.png["Detalles del consumo actual en formato de tabla"]
 
 
 

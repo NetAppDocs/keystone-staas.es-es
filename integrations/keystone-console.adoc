@@ -18,14 +18,16 @@ Puede utilizar la página *Descripción general* para determinar rápidamente la
 
 Para ver la página *Descripción general*, desde el menú de navegación izquierdo de la Consola, vaya a *Almacenamiento > Keystone > Descripción general*.
 
-image:bxp-dashboard-overview-2.png["una captura de pantalla de la página de descripción general"]
+image:console-overview.png["una captura de pantalla de la página de descripción general"]
 
 La página *Descripción general* ofrece la siguiente información:
 
 * Resumen: Muestra el número total de suscripciones, clústeres de ONTAP, nodos de StorageGRID y nodos de ONTAP. Cada categoría cuenta con un botón "Ver" para navegar fácilmente a las secciones detalladas en las pestañas "Suscripciones" o "Recursos".
 * *Vencerá pronto*: La cantidad de suscripciones que vencen dentro de los próximos 6 meses. Haga clic en *Ver* para ver estas suscripciones en la pestaña *Suscripciones*.
 * *Solicitudes abiertas*: El número total de solicitudes de servicio abiertas.
+* *Alertas no resueltas por gravedad*: enumera el total de alertas no resueltas según la gravedad: crítica, advertencia e informativa.  Cada categoría incluye un botón *Ver* para revisar los detalles y tomar más medidas.
 * *Uso de capacidad*: el estado de consumo de capacidad para las suscripciones que están por encima del límite, que utilizan el límite y que están subutilizadas. Cada categoría incluye un botón *Ver* para navegar a la pestaña *Suscripciones* con los filtros relevantes aplicados.
+* *Alertas de Keystone sin resolver más antiguas*: muestra una tabla de las alertas críticas sin resolver más antiguas en todas las suscripciones.
 * *Las 5 suscripciones principales con mayor utilización de capacidad*: Muestra una tabla con las cinco suscripciones de Keystone con mayor porcentaje de utilización de capacidad. Puede hacer clic en el número de suscripción en la columna *Suscripción* para obtener información detallada.
 
 

@@ -55,9 +55,9 @@ image:create-alert-monitor.png["Una captura de pantalla de la creación de un mo
 . Seleccione *Uso de capacidad* o *Vencimiento de suscripción* para definir el tipo de monitor.  En función de su selección, proporcione los siguientes detalles:
 +
 ** *Detalles generales*: proporcione un nombre de alerta y seleccione el nivel de gravedad.
-** *Selección de recursos*: elija crear el monitor para suscripciones específicas.  Según el tipo de monitor seleccionado, complete los campos obligatorios que aparecen, como números de suscripción y niveles de servicio de rendimiento para monitores de uso de capacidad, o solo números de suscripción para monitores de vencimiento de suscripción.
+** *Selección de recursos*: elija crear el monitor para suscripciones específicas o para todas las suscripciones. Según el tipo de monitor seleccionado, complete los campos obligatorios que aparecen, como números de suscripción y niveles de servicio de rendimiento para monitores de uso de capacidad, o solo números de suscripción para monitores de vencimiento de suscripción.
 +
-image:resource-selection.png["Una captura de pantalla de la selección de recursos para el monitor de uso de capacidad"]
+image:resource-selection-1.png["Una captura de pantalla de la selección de recursos para el monitor de uso de capacidad"]
 
 ** *Condición*: Establezca la condición de umbral que activa la alerta.  Por ejemplo, activar una alerta cuando el uso de la capacidad supere un porcentaje específico.
 ** *Notificaciones*: Seleccione los usuarios que recibirán notificaciones de alerta.

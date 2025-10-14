@@ -78,6 +78,10 @@ La siguiente lista es un ejemplo representativo de los datos de consumo de capac
 ** Tipo de almacenamiento
 ** Nombre del agregado
 ** UUID de agregado
+** Usado Físico
+** Talla disponible
+** Tamaño
+** Tamaño usado
 
 
 * Almacenes de objetos agregados
@@ -174,6 +178,17 @@ La siguiente lista es un ejemplo representativo de los datos de consumo de capac
 ** VolumeBlocksFootprintBin1
 
 
+* MetroCluster
++
+** Node
+** Agregado
+** LIF
+** Replicación de configuración
+** Conexiones
+** De clúster
+** Volúmenes
+
+
 * Clústeres MetroCluster
 +
 ** ClusterUUID
@@ -182,6 +197,36 @@ La siguiente lista es un ejemplo representativo de los datos de consumo de capac
 ** RemoteCluserName
 ** LocalConfigurationState
 ** RemoteConfigurationState
+
+
+* Nodos de MetroCluster
++
+** Estado de duplicación de DR
+** LIF entre clústeres
+** Accesibilidad del nodo
+** Nodo socio de DR
+** Nodo de socio auxiliar de DR
+** Relación simétrica entre los nodos DR, DR Aux y HA
+** Cambio automático no planificado
+
+
+* Replicación de configuración de MetroCluster
++
+** Latido del corazón remoto
+** Último latido enviado
+** Último latido recibido
+** Transmisión de Vserver
+** Flujo de clúster
+** Reducida
+** Volumen de almacenamiento en uso
+
+
+* Mediadores de MetroCluster
++
+** Dirección del mediador
+** Puerto Mediador
+** Mediador configurado
+** Mediador accesible
 ** Modo
 
 
@@ -243,6 +288,13 @@ La siguiente lista es un ejemplo representativo de los datos de rendimiento reco
 * QoSPolicyGroupLatency
 * ReadMBps
 * QoSSyncSnapmirrorLatency
+* Datos a nivel de sistema
++
+** Escritura/Lectura/Otros/Total IOPS
+** Escritura/Lectura/Otros/Rendimiento total
+** Escritura/Lectura/Otro/Latencia total
+
+
 * WriteIOPS
 
 
@@ -298,6 +350,11 @@ La siguiente lista es un ejemplo representativo de `Physical Data` Recopilado pa
 * Instancia
 * Bytes de utilización del almacenamiento StorageGRID
 * Bytes de metadatos de utilización del almacenamiento StorageGRID
+
+
+La siguiente lista es una muestra representativa de la `Availability/Uptime Data` recopilados para StorageGRID:
+
+* Porcentaje de tiempo de actividad del SLA
 
 
 ====
