@@ -33,11 +33,27 @@ Debe tener en cuenta lo siguiente antes de configurar AutoSupport para que inclu
 ----
 autosupport trigger modify -node * -autosupport-message management.log -basic-additional wafl,performance,snapshot,object_store_server,san,raid,snapmirror -troubleshooting-additional wafl
 ----
++
+Si el clúster está en una configuración MetroCluster , ejecute este comando:
+
++
+[source]
+----
+autosupport trigger modify -node * -autosupport-message management.log -basic-additional wafl,performance,snapshot,object_store_server,san,raid,snapmirror,metrocluster -troubleshooting-additional wafl
+----
 ** Para versiones anteriores de ONTAP , ejecute este comando para modificar el contenido del registro diario:
 +
 [source]
 ----
 autosupport trigger modify -node * -autosupport-message management.log -basic-additional wafl,performance,snapshot,platform,object_store_server,san,raid,snapmirror -troubleshooting-additional wafl
+----
++
+Si el clúster está en una configuración MetroCluster , ejecute este comando:
+
++
+[source]
+----
+autosupport trigger modify -node * -autosupport-message management.log -basic-additional wafl,performance,snapshot,platform,object_store_server,san,raid,snapmirror,metrocluster -troubleshooting-additional wafl
 ----
 ** Ejecute este comando para modificar el contenido del log semanal:
 +
