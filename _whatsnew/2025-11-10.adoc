@@ -1,0 +1,11 @@
+= Complete su casilla de notificación de cobertura
+:allow-uri-read: 
+
+
+Nuevas mejoras en el panel de Keystone en la NetApp Console:
+
+
+
+=== Complete su casilla de notificación de cobertura
+
+La pestaña *Monitores de alertas* en la página *Monitoreo* incluye un cuadro de notificación *Complete su cobertura* que aparece cuando existen brechas de cobertura.  Esta casilla muestra las suscripciones a las que les falta capacidad o que están próximas a vencer, y los monitores que no tienen suscripción.  Puede solucionar estos problemas añadiendo suscripciones a los monitores existentes, creando nuevos monitores o eliminando los monitores que no se utilicen. Para obtener más información, consulte link:https://docs.netapp.com/us-en/keystone-staas/integrations/monitoring-alert-monitors.html#manage-coverage-gaps["Gestionar las brechas de cobertura para los monitores de alertas"].

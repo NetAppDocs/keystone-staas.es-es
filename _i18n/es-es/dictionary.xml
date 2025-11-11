@@ -2228,12 +2228,10 @@ A continuación se muestra un ejemplo:</block>
   <block id="0189c782e04bc566597908eddaee3dd5" category="section-title">Ver monitores de alerta</block>
   <block id="d8d1f09f12d3047d0b1d5264e0fbb3d4" category="paragraph">Para ver los monitores de alerta, siga estos pasos:</block>
   <block id="8891b6740bffe77b967f8fe0f2bb0320" category="inline-image-macro">Una captura de pantalla de los monitores de alerta para las suscripciones de Keystone</block>
-  <block id="ae75ac6ecba83cd82e353c5c2dddf9ca" category="paragraph">Puede ver una lista de monitores de alerta en sus suscripciones de Keystone , incluidos los nombres de los monitores, las condiciones de alerta que activan notificaciones, los niveles de gravedad, los números de suscripción, los niveles de servicio de rendimiento y el estado.  Puede consultar la columna *Creado por* para determinar si los monitores de alerta son generados por el sistema o definidos por el usuario.</block>
   <block id="6b29e04f1a3d7126b32fea3e35336be6" category="section-title">Crear y administrar monitores de alertas</block>
   <block id="c52ec421c31615867815fd4658197c12" category="paragraph">Desde la pestaña *Monitores de alerta*, puede crear monitores para rastrear el uso de la capacidad y el vencimiento de la suscripción.  También puede editar, duplicar o eliminar monitores existentes según sea necesario.</block>
   <block id="57ff1be6332a578fa82ccb64d9259d54" category="open-title">Crear un monitor</block>
   <block id="64c64a9516f4ac5c0006a03c872e7317" category="paragraph">Para crear un monitor de alertas, siga estos pasos:</block>
-  <block id="a3513012c18df0c1a7b8764f4e9f1ff9" category="list-text">Haga clic en el botón *Crear monitor*.</block>
   <block id="f4743dcb07fb533885399ef1728ce857" category="paragraph">Aparece la página *Crear monitor de alerta*.</block>
   <block id="704b16afc2be166a3265886d6a494bb5" category="inline-image-macro">Una captura de pantalla de la creación de un monitor de alertas para las suscripciones de Keystone</block>
   <block id="b2aa832e4d8d1fd7361158475afea146" category="paragraph"><block ref="b2aa832e4d8d1fd7361158475afea146" category="inline-image-macro-rx" type="image"></block></block>
@@ -2258,7 +2256,6 @@ A continuación se muestra un ejemplo:</block>
   <block id="37436487b6f97021df7ee2c4adbdfa45" category="list-text">Seleccione el icono de puntos suspensivos del monitor que desea copiar.</block>
   <block id="3cf3a984f792c68d00d0ddbaa1549d75" category="list-text">Seleccione *Duplicar*.</block>
   <block id="1c9486cebc61c5048cf6288719fae578" category="paragraph">Aparece la página *Crear monitor de alerta* con los valores de los campos existentes ya completados.</block>
-  <block id="7a170bf7d609f40a91657be5b2c92dc3" category="list-text">Modifique los campos según sea necesario y haga clic en *Crear*.</block>
   <block id="59c8147f6a6c89c779cc9c0e0d31057d" category="paragraph">Se crea un nuevo monitor de alerta con la configuración actualizada y aparece en la lista *Monitores de alerta*.</block>
   <block id="f9fcefd0027bc07ce00160c69b1e0c90" category="open-title">Eliminar monitor</block>
   <block id="85fc8a3c54b846eae784ce216c74002f" category="list-text">Seleccione el icono de puntos suspensivos del monitor que desea eliminar.</block>
@@ -2355,7 +2352,6 @@ A continuación se muestra un ejemplo:</block>
   <block id="2227728e15b4a8b218a3533e278cf342" category="doc">Modifique su suscripción de Keystone desde la consola de NetApp</block>
   <block id="84b1a13bc7964ae4f7768e4f9c3c8756" category="paragraph">Puede modificar la capacidad comprometida de su suscripción a Keystone para los niveles de servicio de rendimiento asociados a través de la consola de NetApp .</block>
   <block id="7a91109a620e891743c65eea451a0cf2" category="paragraph"><block ref="7a91109a620e891743c65eea451a0cf2" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="cb873e65402011d905122364da690822" category="paragraph">Puede ver y crear monitores de alerta para sus suscripciones de Keystone desde el panel de Keystone en la consola de NetApp . El panel muestra monitores generados por el sistema y definidos por el usuario para el uso de la capacidad y el vencimiento de la suscripción. Puede crear monitores para establecer umbrales, elegir la gravedad de las alertas y agregar destinatarios de correo electrónico para las notificaciones. Esta funcionalidad no está disponible en Digital Advisor.</block>
   <block id="b5c32e6c2b4476154d229af70df8cf7a" category="list-text">Desde el menú de navegación izquierdo de la Consola, seleccione *Almacenamiento &gt; Keystone &gt; Monitoreo &gt; Monitores de alerta*.</block>
   <block id="187aba3af65d3bb1230dc8604f0acb91" category="paragraph"><block ref="187aba3af65d3bb1230dc8604f0acb91" category="inline-image-macro-rx" type="image"></block></block>
   <block id="293028e42f8edb8a2749fa8fca8130fa" category="paragraph">El panel de Keystone en la consola de NetApp le permite ver y administrar alertas activas en su entorno de almacenamiento de Keystone . Puede ver alertas generadas por el sistema y alertas definidas por el usuario sobre el uso de la capacidad y el vencimiento de la suscripción. Desde esta vista, puede evaluar rápidamente la gravedad de la alerta, identificar problemas de almacenamiento y tomar medidas correctivas. Esta vista no está disponible en Digital Advisor.</block>
@@ -2446,4 +2442,32 @@ A continuación se muestra un ejemplo:</block>
   <block id="b96ad4ab266c25b5492620bb2563d5d0" category="list-text">Descarga el certificado de CA de firma de código de Sectigo.<block ref="7342f89b7e38eb427d641531b8da4ba6" category="inline-link-rx"></block>.</block>
   <block id="5107c2f981fc9d221af2aedb4d9c3f10" category="paragraph">Cuando se valide la integridad y autenticidad del OVA de Keystone Collector, podrá ver el texto.<block ref="2e5f0dac7b8d485649c8f829e8ba09da" prefix=" " category="inline-code"></block> con la editorial. <block ref="4bb910ce06804868c88e19dd6ff9e83c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f4d3f733b36c05e3bcdf4287f293b20f" category="paragraph">Si el clúster está en una configuración MetroCluster , ejecute este comando:</block>
+  <block id="6df7635d9934b92e0bdbe5e5a544fccb" category="doc">Complete su casilla de notificación de cobertura</block>
+  <block id="8583cba6ee38a66f6e19ca7c15a5c1ed" category="inline-link-macro">Gestionar las brechas de cobertura para los monitores de alertas</block>
+  <block id="a60761706ec1d12934bfc1dd049da2df" category="paragraph">La pestaña *Monitores de alertas* en la página *Monitoreo* incluye un cuadro de notificación *Complete su cobertura* que aparece cuando existen brechas de cobertura.  Esta casilla muestra las suscripciones a las que les falta capacidad o que están próximas a vencer, y los monitores que no tienen suscripción.  Puede solucionar estos problemas añadiendo suscripciones a los monitores existentes, creando nuevos monitores o eliminando los monitores que no se utilicen. Para obtener más información, consulte <block ref="1ef75ae1f09bcc7a95c6bbe07a54229c" category="inline-link-macro-rx"></block>.</block>
+  <block id="39fb73624dac610b8274b1bd6e2c1193" category="paragraph">Puedes ver y crear monitores de alertas para tus suscripciones de Keystone desde el panel de control de Keystone en la NetApp Console.  El panel de control muestra indicadores tanto generados por el sistema como definidos por el usuario para el uso de la capacidad y el vencimiento de la suscripción. Puede crear monitores para establecer umbrales, elegir la gravedad de las alertas y agregar destinatarios de correo electrónico para las notificaciones.  Puede solucionar las deficiencias de cobertura agregando monitores a las suscripciones no cubiertas o resolviendo los problemas relacionados con los monitores no utilizados. Esta funcionalidad no está disponible en Digital Advisor.</block>
+  <block id="60adeaffad8e127352095573a6e3157f" category="paragraph">Puede ver una lista de monitores de alerta en sus suscripciones de Keystone , incluidos los nombres de los monitores, las condiciones de alerta que activan notificaciones, los niveles de gravedad, los números de suscripción, los niveles de servicio de rendimiento y el estado. Puedes consultar la columna *Creado por* para ver si los monitores de alertas son generados por el sistema o definidos por el usuario.</block>
+  <block id="ac092a2bcbdb5857ae37a4756db46a49" category="list-text">Seleccione el botón *Crear monitor*.</block>
+  <block id="cb5198d92b18cf007a9117aa50f90c3e" category="list-text">Modifica los campos que necesites y haz clic en *Crear*.</block>
+  <block id="2fd74b6a7fe875798408a25e1558c434" category="section-title">Gestionar las brechas de cobertura</block>
+  <block id="27693e14a82cbe43a67100eb4538ddd9" category="paragraph">Cuando se requiere alguna acción, aparece un cuadro de notificación desplegable que indica *Complete su cobertura*, situado encima de la lista de monitores de alertas.  Te ayuda a:</block>
+  <block id="15412d2b0949c1eabadcefaed9f6f8d0" category="list-text">Identificar y abordar las suscripciones que no cuentan con un monitor de uso de capacidad o de vencimiento de suscripción.</block>
+  <block id="72cf9e6c56443b9eb5c5d28a0a693ac1" category="list-text">Revisar y gestionar los monitores que actualmente no están asociados a ninguna suscripción.</block>
+  <block id="4606189d5b77f103c0e503d8048ad8f7" category="inline-image-macro">Captura de pantalla de las brechas de cobertura para los monitores de alertas de las suscripciones de Keystone</block>
+  <block id="db3c34c51d992294e98f857c62b4cf47" category="paragraph"><block ref="db3c34c51d992294e98f857c62b4cf47" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="6c84c1a10e1c87172a9fadb894dd8445" category="paragraph">Para solucionar los problemas de suscripciones sin monitores o con monitores sin usar, siga estos pasos:</block>
+  <block id="ac81eda7e7da15651a4c3d6a60e8f290" category="open-title">Suscripciones sin monitores</block>
+  <block id="f9fc4f7dade8ed75242e3918921812c2" category="list-text">Seleccione la pestaña *Caducidad de suscripciones* o *Uso de capacidad*.</block>
+  <block id="226f73c9504a7560a9a6543e7686879d" category="list-text">En la columna *Resolver*, seleccione el icono de puntos suspensivos para la suscripción que desea abordar.</block>
+  <block id="4c0349a30e44fe2e3989a278d0a1f1e1" category="list-text">Elige una:</block>
+  <block id="55075c37621639cb4058160f8872944a" category="list-text">*Añadir al monitor existente*: Aparece una ventana emergente.  Seleccione un monitor y confirme.</block>
+  <block id="8f9840a1a3c6e0d946a2c7230f2cc4a8" category="list-text">*Crear nuevo monitor*: El sistema muestra la página *Crear monitor de alertas*.  Siga los pasos en<block ref="f5b0d13ec8e410cddd0c73aae96856f8" category="inline-link-macro-rx"></block> para crear un nuevo monitor.</block>
+  <block id="c63b72e256a63e39fd4833b7a7c43f16" category="paragraph">La suscripción desaparece de la pestaña una vez añadida la cobertura.</block>
+  <block id="7652a06e5287973e36402a720937090f" category="open-title">monitores sin usar</block>
+  <block id="599e408ddca0ab40965afad26b9dd5ed" category="list-text">Seleccione la pestaña *Sin usar*.</block>
+  <block id="11ea68b14110fa7cbc61ea38b5a4fcec" category="list-text">En la columna *Resolver*, seleccione el icono de puntos suspensivos del monitor que desea solucionar.</block>
+  <block id="41825a04a8338881f026e0e8b933fd54" category="list-text">*Editar*: El sistema muestra la página *Editar monitor de alertas*.  Modifique los campos necesarios y guarde.  Para obtener más información, consulte la sección correspondiente.<block ref="b047d326fc106faf3f12ef4efac0005e" category="inline-link-macro-rx"></block> .</block>
+  <block id="0cfa773235daafece9ec96fac7a4ae83" category="list-text">*Eliminar*: Confirme la eliminación para quitar el monitor.</block>
+  <block id="9516b8db60240fe5a0c189f3a9d20181" category="paragraph">El monitor se elimina de la pestaña después de agregar o eliminar suscripciones.</block>
+  <block id="77750efa6f5ff153acdc42067058017f" category="section-title">10 de noviembre de 2025</block>
 </blocks>

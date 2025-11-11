@@ -14,7 +14,7 @@ summary: Utilice la pestaña Monitoreo para ver y crear monitores de alertas par
 
 
 [role="lead"]
-Puede ver y crear monitores de alerta para sus suscripciones de Keystone desde el panel de Keystone en la consola de NetApp . El panel muestra monitores generados por el sistema y definidos por el usuario para el uso de la capacidad y el vencimiento de la suscripción. Puede crear monitores para establecer umbrales, elegir la gravedad de las alertas y agregar destinatarios de correo electrónico para las notificaciones. Esta funcionalidad no está disponible en Digital Advisor.
+Puedes ver y crear monitores de alertas para tus suscripciones de Keystone desde el panel de control de Keystone en la NetApp Console.  El panel de control muestra indicadores tanto generados por el sistema como definidos por el usuario para el uso de la capacidad y el vencimiento de la suscripción. Puede crear monitores para establecer umbrales, elegir la gravedad de las alertas y agregar destinatarios de correo electrónico para las notificaciones.  Puede solucionar las deficiencias de cobertura agregando monitores a las suscripciones no cubiertas o resolviendo los problemas relacionados con los monitores no utilizados. Esta funcionalidad no está disponible en Digital Advisor.
 
 
 
@@ -28,7 +28,7 @@ Para ver los monitores de alerta, siga estos pasos:
 image:monitoring-alert-monitors-default-view-1.png["Una captura de pantalla de los monitores de alerta para las suscripciones de Keystone"]
 
 +
-Puede ver una lista de monitores de alerta en sus suscripciones de Keystone , incluidos los nombres de los monitores, las condiciones de alerta que activan notificaciones, los niveles de gravedad, los números de suscripción, los niveles de servicio de rendimiento y el estado.  Puede consultar la columna *Creado por* para determinar si los monitores de alerta son generados por el sistema o definidos por el usuario.
+Puede ver una lista de monitores de alerta en sus suscripciones de Keystone , incluidos los nombres de los monitores, las condiciones de alerta que activan notificaciones, los niveles de gravedad, los números de suscripción, los niveles de servicio de rendimiento y el estado. Puedes consultar la columna *Creado por* para ver si los monitores de alertas son generados por el sistema o definidos por el usuario.
 
 
 
@@ -45,7 +45,7 @@ Desde la pestaña *Monitores de alerta*, puede crear monitores para rastrear el 
 Para crear un monitor de alertas, siga estos pasos:
 
 .Pasos
-. Haga clic en el botón *Crear monitor*.
+. Seleccione el botón *Crear monitor*.
 +
 Aparece la página *Crear monitor de alerta*.
 
@@ -101,7 +101,7 @@ El sistema lo regresa a la página *Monitores de alerta*, donde el monitor actua
 +
 Aparece la página *Crear monitor de alerta* con los valores de los campos existentes ya completados.
 
-. Modifique los campos según sea necesario y haga clic en *Crear*.
+. Modifica los campos que necesites y haz clic en *Crear*.
 +
 Se crea un nuevo monitor de alerta con la configuración actualizada y aparece en la lista *Monitores de alerta*.
 
@@ -119,6 +119,58 @@ Después de la eliminación, las suscripciones conectadas al monitor dejan de re
 +
 
 NOTE: Los usuarios no pueden eliminar los monitores generados por el sistema.
+
+
+
+--
+====
+
+
+== Gestionar las brechas de cobertura
+
+Cuando se requiere alguna acción, aparece un cuadro de notificación desplegable que indica *Complete su cobertura*, situado encima de la lista de monitores de alertas.  Te ayuda a:
+
+* Identificar y abordar las suscripciones que no cuentan con un monitor de uso de capacidad o de vencimiento de suscripción.
+* Revisar y gestionar los monitores que actualmente no están asociados a ninguna suscripción.
++
+image:coverage-gaps.png["Captura de pantalla de las brechas de cobertura para los monitores de alertas de las suscripciones de Keystone"]
+
+
+
+Para solucionar los problemas de suscripciones sin monitores o con monitores sin usar, siga estos pasos:
+
+[role="tabbed-block"]
+====
+.Suscripciones sin monitores
+--
+.Pasos
+. Seleccione la pestaña *Caducidad de suscripciones* o *Uso de capacidad*.
+. En la columna *Resolver*, seleccione el icono de puntos suspensivos para la suscripción que desea abordar.
+. Elige una:
++
+** *Añadir al monitor existente*: Aparece una ventana emergente.  Seleccione un monitor y confirme.
+** *Crear nuevo monitor*: El sistema muestra la página *Crear monitor de alertas*.  Siga los pasos enlink:../integrations/monitoring-alert-monitors.html#create-and-manage-alert-monitors["Crear un monitor"] para crear un nuevo monitor.
++
+La suscripción desaparece de la pestaña una vez añadida la cobertura.
+
+
+
+
+
+--
+.monitores sin usar
+--
+.Pasos
+. Seleccione la pestaña *Sin usar*.
+. En la columna *Resolver*, seleccione el icono de puntos suspensivos del monitor que desea solucionar.
+. Elige una:
++
+** *Editar*: El sistema muestra la página *Editar monitor de alertas*.  Modifique los campos necesarios y guarde.  Para obtener más información, consulte la sección correspondiente.link:../integrations/monitoring-alert-monitors.html#create-and-manage-alert-monitors["Monitor de edición"] .
+** *Eliminar*: Confirme la eliminación para quitar el monitor.
++
+El monitor se elimina de la pestaña después de agregar o eliminar suscripciones.
+
+
 
 
 
