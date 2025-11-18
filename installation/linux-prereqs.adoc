@@ -23,6 +23,7 @@ Asegúrese de que su máquina virtual del servidor de recopilador de Linux y Key
 +
 ** Debian 12
 ** Red Hat Enterprise Linux 8,6 o versiones posteriores 8.x.
+** Red Hat Enterprise Linux 9.0 o versiones posteriores
 ** CentOS 7 (sólo para entornos existentes)
 
 

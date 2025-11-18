@@ -17,10 +17,19 @@ summary: Los sistemas deben cumplir varios requisitos antes de poder instalar IT
 Antes de instalar ITOM Collector, asegúrese de que sus sistemas estén preparados con el software necesario y cumplan todos los requisitos previos requeridos.
 
 .Requisitos previos para la VM del servidor de recopilador ITOM:
-* Sistema operativo compatible: Debian 12, Windows Server 2016, Ubuntu 20,04 LTS, Red Hat Enterprise Linux (RHEL) 8.x, Amazon Linux 2023 o versiones más recientes de estos sistemas operativos.
+* Sistemas operativos compatibles:
++
+** Debian 12 o posterior
+** Windows Server 2016 o posterior
+** Ubuntu 20.04 LTS o posterior
+** Red Hat Enterprise Linux (RHEL) 8.x
+** Red Hat Enterprise Linux 9.0 o posterior
+** Amazon Linux 2023 o posterior
 +
 
 NOTE: Los sistemas operativos recomendados son Debian 12, Windows Server 2016 o versiones más recientes.
+
+
 
 * Requisito de recurso: Los requisitos de recursos de la máquina virtual según la cantidad de nodos NetApp supervisados son los siguientes:
 +

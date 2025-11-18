@@ -60,7 +60,7 @@ indexpage:
   - title: Haz más con los servicios de Keystone
     links:
     - title: Conozca a su equipo de soporte
-      url: "/concepts/gssc.html"
+      url: "/concepts/support-services.html"
     - title: Aumentar la capacidad de ráfaga
       url: "/concepts/burst-capacity.html"
     - title: "¿Qué puedo hacer con mis datos inactivos o menos utilizados?"
