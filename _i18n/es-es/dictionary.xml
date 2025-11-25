@@ -1684,7 +1684,6 @@ A continuación se muestra un ejemplo:</block>
   <block id="98d28e0357b1d103f21ba89dd0d19e08" category="paragraph">Verá una lista de todas las solicitudes de servicio, incluido el número de solicitud, el tipo de solicitud y el estado actual.</block>
   <block id="d47cec4b54da960eb97da1285dba00bf" category="inline-image-macro">icono de flecha hacia abajo</block>
   <block id="b8915f85e20c41695f7695ce198af59a" category="list-text">Puede hacer clic en el <block ref="97aa861acb085111dcd2b43caf6c79a2" category="inline-image-macro-rx" type="image"></block> Icono junto a la columna *Fecha de envío* para ampliar el número de solicitud y ver los detalles. Verá los niveles de rendimiento del servicio para los que se generan las solicitudes.</block>
-  <block id="de30be97e27dee0a131478825b7f19bd" category="inline-image-macro">Una captura de pantalla muestra para qué niveles de servicio de rendimiento se generan las solicitudes de modificación.</block>
   <block id="6f611e4ccc824406e0de3f7a09110159" category="list-text">Seleccione el número de solicitud para ver información detallada, incluidos los detalles de modificación de la suscripción solicitada y el estado de progreso actual.</block>
   <block id="a92c0535191745976db8964221708fe4" category="inline-image-macro">una captura de pantalla que muestra el estado de progreso actual</block>
   <block id="fc1597aa65903b595ab66b315f8b1878" category="paragraph"><block ref="fc1597aa65903b595ab66b315f8b1878" category="inline-image-macro-rx" type="image"></block></block>
@@ -2288,8 +2287,6 @@ A continuación se muestra un ejemplo:</block>
   <block id="ca0d168dfc9d3eec3e502042fa77ec2f" category="admonition">Puede seleccionar varios niveles de servicio de rendimiento simultáneamente para crear PSL.</block>
   <block id="b3eed4304ada05a16ec5ec8b501efe72" category="admonition">Si ya existe un PSL para el nivel de servicio de rendimiento seleccionado en el servidor Active IQ Unified Manager especificado, no podrá crearlo nuevamente. Si intenta hacerlo, recibirá un mensaje de error.<block ref="b503f359d5754d7d4260112bc56a05d7" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ea25018c2d045851b6c9e6567fb76051" category="paragraph">Puede ver y realizar un seguimiento de las solicitudes de servicio para modificar las suscripciones de Keystone a través de la consola de NetApp , lo que proporciona un resumen rápido y supervisa el progreso.</block>
-  <block id="2fbcdf41574fdac1e466d4dad9bb3a55" category="list-text">Desde el menú de navegación izquierdo de la Consola, seleccione *Almacenamiento &gt; Keystone &gt; Administración*.</block>
-  <block id="26a02c6592f7d54ca37b8c1a48780136" category="paragraph"><block ref="26a02c6592f7d54ca37b8c1a48780136" category="inline-image-macro-rx" type="image"></block></block>
   <block id="aaaea723208b33ae079e357878d9a9cb" category="paragraph">Puede ver información detallada sobre los clústeres y nodos de ONTAP y las redes, sitios y nodos de StorageGRID , administrados por una única suscripción de Keystone . Puede acceder a estos activos de suscripción en el panel de Keystone desde la consola de NetApp o Digital Advisor.</block>
   <block id="d1c3a83a967f6dcdc9a6ad9e94a8bbed" category="section-title">Ver los activos de suscripción de Keystone desde la consola de NetApp</block>
   <block id="d79f885d7740bdd0320f954c06a36686" category="paragraph">La pestaña *Activos* en la página *Suscripciones* muestra información detallada sobre los volúmenes en clústeres, nodos StorageGRID y nodos ONTAP asociados con la suscripción, incluidos varios detalles y el estado de la capacidad.</block>
@@ -2443,7 +2440,6 @@ A continuación se muestra un ejemplo:</block>
   <block id="15412d2b0949c1eabadcefaed9f6f8d0" category="list-text">Identificar y abordar las suscripciones que no cuentan con un monitor de uso de capacidad o de vencimiento de suscripción.</block>
   <block id="72cf9e6c56443b9eb5c5d28a0a693ac1" category="list-text">Revisar y gestionar los monitores que actualmente no están asociados a ninguna suscripción.</block>
   <block id="4606189d5b77f103c0e503d8048ad8f7" category="inline-image-macro">Captura de pantalla de las brechas de cobertura para los monitores de alertas de las suscripciones de Keystone</block>
-  <block id="db3c34c51d992294e98f857c62b4cf47" category="paragraph"><block ref="db3c34c51d992294e98f857c62b4cf47" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6c84c1a10e1c87172a9fadb894dd8445" category="paragraph">Para solucionar los problemas de suscripciones sin monitores o con monitores sin usar, siga estos pasos:</block>
   <block id="ac81eda7e7da15651a4c3d6a60e8f290" category="open-title">Suscripciones sin monitores</block>
   <block id="f9fc4f7dade8ed75242e3918921812c2" category="list-text">Seleccione la pestaña *Caducidad de suscripciones* o *Uso de capacidad*.</block>
@@ -2480,4 +2476,13 @@ A continuación se muestra un ejemplo:</block>
   <block id="45d6736fdd879f91b2a538e05e0a3b12" category="list-text">Red Hat Enterprise Linux 9.0 o posterior</block>
   <block id="cc20f1cec12842b9bed0a2fb4b579509" category="list-text">Amazon Linux 2023 o posterior</block>
   <block id="f0fc80440f66cd06e8621cfb9578824b" category="paragraph">Puede ponerse en contacto con el equipo de soporte de Keystone para suscribirse a Keystone versión 3 (v3). Para obtener más detalles, consulte <block ref="90d872d2a90e66f6330f06f20805c0ef" category="inline-link-macro-rx"></block>.</block>
+  <block id="18b429fb243989438d2e534cfa60ad10" category="doc">Identificación de seguimiento para suscripciones con brecha de cobertura</block>
+  <block id="b483bafe873ecad663b8e6c8949045d7" category="paragraph">En el cuadro de notificación *Complete su cobertura* en *Monitoreo &gt; Monitores de alerta*, cada suscripción ahora muestra su ID de seguimiento junto al número de suscripción.</block>
+  <block id="06d55ded719647ad67f379d0f9afc0e2" category="list-text">Desde el menú de navegación izquierdo de la Consola, seleccione *Almacenamiento &gt; Keystone &gt; Administración &gt; Solicitudes*.</block>
+  <block id="21ffef0c637fd0891ae9b41f52742b09" category="admonition">Las pestañas *Administración de agentes* e *Informes* no están disponibles actualmente para las suscripciones de Keystone .</block>
+  <block id="5d2cdc919ce893613b66b876a7c2782d" category="inline-image-macro">Una captura de pantalla muestra los niveles de servicio de rendimiento para las solicitudes de modificación.</block>
+  <block id="a91bb8801531bd0f94f5726293b87485" category="paragraph"><block ref="a91bb8801531bd0f94f5726293b87485" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="fa37f1bdab27c9577ff178edf4ff4fef" category="admonition">La pestaña *Informes* actualmente no está disponible para las suscripciones de Keystone .</block>
+  <block id="2193640916b96caede95ed8f42c339e8" category="paragraph"><block ref="2193640916b96caede95ed8f42c339e8" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="3a51c5c35df88316b8d012c010e340f7" category="section-title">24 de noviembre de 2025</block>
 </blocks>

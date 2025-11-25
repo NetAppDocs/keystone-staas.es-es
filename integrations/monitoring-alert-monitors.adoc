@@ -30,6 +30,10 @@ image:monitoring-alert-monitors-default-view-1.png["Una captura de pantalla de l
 +
 Puede ver una lista de monitores de alerta en sus suscripciones de Keystone , incluidos los nombres de los monitores, las condiciones de alerta que activan notificaciones, los niveles de gravedad, los números de suscripción, los niveles de servicio de rendimiento y el estado. Puedes consultar la columna *Creado por* para ver si los monitores de alertas son generados por el sistema o definidos por el usuario.
 
++
+
+NOTE: La pestaña *Informes* actualmente no está disponible para las suscripciones de Keystone .
+
 
 
 
@@ -133,7 +137,7 @@ Cuando se requiere alguna acción, aparece un cuadro de notificación desplegabl
 * Identificar y abordar las suscripciones que no cuentan con un monitor de uso de capacidad o de vencimiento de suscripción.
 * Revisar y gestionar los monitores que actualmente no están asociados a ninguna suscripción.
 +
-image:coverage-gaps.png["Captura de pantalla de las brechas de cobertura para los monitores de alertas de las suscripciones de Keystone"]
+image:coverage-gaps-1.png["Captura de pantalla de las brechas de cobertura para los monitores de alertas de las suscripciones de Keystone"]
 
 
 

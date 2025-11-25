@@ -19,13 +19,17 @@ Puede ver y realizar un seguimiento de las solicitudes de servicio para modifica
 Para ver el progreso o cancelar una solicitud, siga estos pasos:
 
 .Pasos
-. Desde el menú de navegación izquierdo de la Consola, seleccione *Almacenamiento > Keystone > Administración*.
+. Desde el menú de navegación izquierdo de la Consola, seleccione *Almacenamiento > Keystone > Administración > Solicitudes*.
 +
 Verá una lista de todas las solicitudes de servicio, incluido el número de solicitud, el tipo de solicitud y el estado actual.
 
++
+
+NOTE: Las pestañas *Administración de agentes* e *Informes* no están disponibles actualmente para las suscripciones de Keystone .
+
 . Puede hacer clic en el image:down-arrow.png["icono de flecha hacia abajo"] Icono junto a la columna *Fecha de envío* para ampliar el número de solicitud y ver los detalles. Verá los niveles de rendimiento del servicio para los que se generan las solicitudes.
 +
-image:console-service-request-list.png["Una captura de pantalla muestra para qué niveles de servicio de rendimiento se generan las solicitudes de modificación."]
+image:console-service-request-list.png["Una captura de pantalla muestra los niveles de servicio de rendimiento para las solicitudes de modificación."]
 
 . Seleccione el número de solicitud para ver información detallada, incluidos los detalles de modificación de la suscripción solicitada y el estado de progreso actual.
 +

@@ -18,6 +18,18 @@ Obtenga información sobre las últimas características y mejoras en los servic
 
 
 
+== 24 de noviembre de 2025
+
+Nuevas mejoras en el panel de Keystone en la NetApp Console:
+
+
+
+=== Identificación de seguimiento para suscripciones con brecha de cobertura
+
+En el cuadro de notificación *Complete su cobertura* en *Monitoreo > Monitores de alerta*, cada suscripción ahora muestra su ID de seguimiento junto al número de suscripción.
+
+
+
 == 10 de noviembre de 2025
 
 Nuevas mejoras en el panel de Keystone en la NetApp Console:

@@ -32,6 +32,10 @@ image:monitoring-alerts-default-view-1.png["Una captura de pantalla de alertas a
 +
 Puede ver detalles de la alerta, como gravedad, ID, descripción, hora de activación, número de suscripción, ID de seguimiento, nivel de servicio de rendimiento y estado.  La página también muestra el total de alertas no resueltas por gravedad y tipo.
 
++
+
+NOTE: La pestaña *Informes* actualmente no está disponible para las suscripciones de Keystone .
+
 
 
 

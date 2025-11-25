@@ -1,0 +1,11 @@
+= Identificación de seguimiento para suscripciones con brecha de cobertura
+:allow-uri-read: 
+
+
+Nuevas mejoras en el panel de Keystone en la NetApp Console:
+
+
+
+=== Identificación de seguimiento para suscripciones con brecha de cobertura
+
+En el cuadro de notificación *Complete su cobertura* en *Monitoreo > Monitores de alerta*, cada suscripción ahora muestra su ID de seguimiento junto al número de suscripción.
