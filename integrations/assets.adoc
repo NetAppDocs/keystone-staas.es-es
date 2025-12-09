@@ -16,6 +16,9 @@ summary: Usa la pestaña Assets para ver detalles de los clústeres y nodos de O
 [role="lead"]
 El panel de Keystone en la consola de NetApp le permite ver información detallada sobre los nodos en clústeres, volúmenes aprovisionados y nodos StorageGRID en múltiples suscripciones de Keystone , de acuerdo con sus permisos de acceso. Esta vista no está disponible en Digital Advisor.
 
+
+NOTE: La página *Activos* muestra pestañas basadas en las plataformas asociadas con sus suscripciones de Keystone . Para ONTAP, están disponibles las pestañas *Nodos en clústeres* y *Volúmenes en clústeres*. Para StorageGRID, la tabla *Nodos en cuadrículas* se muestra directamente sin una selección de pestañas. Si las suscripciones incluyen ambas plataformas, las tres pestañas estarán disponibles.
+
 [role="tabbed-block"]
 ====
 .Nodos en clústeres

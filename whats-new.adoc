@@ -18,6 +18,18 @@ Obtenga información sobre las últimas características y mejoras en los servic
 
 
 
+== 08 de diciembre de 2025
+
+Nuevas mejoras en el panel de Keystone en la NetApp Console:
+
+
+
+=== Etiqueta de capacidad de ráfaga acumulada renombrada
+
+La etiqueta *Capacidad de ráfaga acumulada* pasa a llamarse *Ráfaga acumulada*.
+
+
+
 == 24 de noviembre de 2025
 
 Nuevas mejoras en el panel de Keystone en la NetApp Console:

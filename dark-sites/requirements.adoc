@@ -20,7 +20,7 @@ Antes de instalar Keystone Collector en un entorno sin acceso a Internet, tambi√
 
 == Requisitos para VMware vSphere
 
-* Sistema operativo: VMware vCenter Server y ESXi 6,7 o posterior
+* Sistema operativo: servidor VMware vCenter y ESXi 8.0 o posterior
 * N√∫cleo: 1 CPU
 * RAM: 2 GB
 * Espacio en disco: 20 GB vDisk

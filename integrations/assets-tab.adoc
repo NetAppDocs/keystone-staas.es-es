@@ -22,9 +22,13 @@ Puede ver información detallada sobre los clústeres y nodos de ONTAP y las red
 
 La pestaña *Activos* en la página *Suscripciones* muestra información detallada sobre los volúmenes en clústeres, nodos StorageGRID y nodos ONTAP asociados con la suscripción, incluidos varios detalles y el estado de la capacidad.
 
+[NOTE]
+====
+* Esta vista está limitada a una suscripción de Keystone a la vez. También puede ver los activos de otras suscripciones seleccionándolos en la lista desplegable *ID de seguimiento*. El panel de Keystone en NetApp Console le permite ver activos en múltiples suscripciones de Keystone . Para obtener más información, consultelink:../integrations/assets.html["Visualiza los activos en todas tus suscripciones de Keystone"] .
+* Las opciones del menú desplegable *Ver* dependen de sus plataformas de suscripción de Keystone . Los *volúmenes en clústeres* y los *nodos en clústeres* están disponibles para ONTAP. Para StorageGRID, el menú desplegable *Ver* no está disponible, la tabla *Nodos en cuadrículas* se muestra automáticamente. Si su suscripción incluye ambas plataformas, las tres opciones están disponibles.
 
-NOTE: Esta vista está limitada a una suscripción de Keystone a la vez. También puede ver los activos de otras suscripciones seleccionándolos en la lista desplegable *ID de seguimiento*. El panel de Keystone en NetApp Console le permite ver activos en múltiples suscripciones de Keystone . Para obtener más información, consultelink:../integrations/assets.html["Visualiza los activos en todas tus suscripciones de Keystone"] .
 
+====
 Puede ver esta información siguiendo estos pasos:
 
 [role="tabbed-block"]
@@ -34,9 +38,6 @@ Puede ver esta información siguiendo estos pasos:
 .Pasos
 . Desde el menú de navegación izquierdo de la consola, seleccione *Almacenamiento > Keystone > Suscripciones*.
 . Seleccione el número de suscripción en la columna *Número de suscripción* de la tabla.
-+
-El sistema abre la pestaña *Consumo actual*.
-
 . Seleccione la pestaña *Activos*.
 . Seleccione *Volúmenes en el clúster* en el menú desplegable *Ver*.
 +

@@ -91,7 +91,6 @@
   <block id="9a87285999e76f01064e09d4163dacb4" category="list-text">En _Paso 1_ del asistente *implementar plantilla OVF*, haga clic en *Seleccionar y plantilla OVF* para seleccionar la descarga<block ref="10e7fe8d7233c9952d9060893052d234" prefix=" " category="inline-code"></block> archivo.</block>
   <block id="eb2f786d0356dd1cd28f20f376d5da2b" category="list-text">En _Paso 2_, especifique el nombre del equipo virtual y seleccione la carpeta del equipo virtual.</block>
   <block id="ef93bcb8e06b73273019082b41d87115" category="list-text">En _Paso 3_, especifique el recurso informático necesario que se va a ejecutar el equipo virtual.</block>
-  <block id="41466009ab38ed0e1dbd7f2358fa3825" category="list-text">Haga clic en el enlace *Publisher* para descargar el certificado de resumen de firma completo.</block>
   <block id="09ecce71a847e29076b9c49beb846dae" category="list-text">En _Paso 5_ del asistente *implementar plantilla OVF*, especifique la ubicación para almacenar la VM.</block>
   <block id="8cd29cf88dddb3b6287a9351d1b4c067" category="list-text">En _Paso 7 Personalizar plantilla_, especifique la dirección de red inicial y la contraseña para la cuenta de usuario administrador.</block>
   <block id="4ff6b73315fa76bc8171f5548ebb79ef" category="list-text">En _Paso 8 Listo para completar_ del asistente *implementar plantilla OVF*, revise la configuración y compruebe que ha definido correctamente los parámetros para la implementación del OVA.</block>
@@ -602,10 +601,6 @@
   <block id="85701aafc47f53d769db3988637e595c" category="admonition">Un gráfico en blanco indica que no hay datos disponibles en el entorno en ese punto de recopilación de datos.</block>
   <block id="c2e2fce3a995f59900d7afbbe58683f5" category="inline-link">este enlace</block>
   <block id="7656f92cecd653f72ca596d6def21867" category="list-text">Descargue el archivo OVA desde<block ref="6a1066e952a937beb3c2b32013fd7738" category="inline-link-rx"></block> Y almacénelo en su sistema VMware vSphere.</block>
-  <block id="6948cdf9e6c5bdc7d80925f15f8f873e" category="list-text">En _Paso 4: Revise los detalles_, verifique la corrección y autenticidad del archivo OVA.
-Las versiones de vCentre anteriores a 7.0u2 no pueden verificar automáticamente la autenticidad del certificado de firma de código. VCentre 7.0u2 y posteriores pueden realizar las verificaciones, sin embargo, para esto, la autoridad de certificación de firma debe añadirse a vCentre. Siga estas instrucciones para su versión de vCentre:</block>
-  <block id="8b6cfff06473c4cd5cde3fa4ab929f0a" category="paragraph">VCentre valida la integridad del contenido del archivo OVA y que se proporciona un resumen de firma de código válido para los archivos contenidos en el archivo OVA. Sin embargo, no valida la autenticidad del certificado de firma de código. Para verificar la integridad, debe descargar el certificado de resumen de firma completo y verificarlo con el certificado público publicado por Keystone.</block>
-  <block id="45c3e42547d79b15a504fc354a5ea227" category="paragraph">7.0u2 y las versiones posteriores de vCenter pueden validar la integridad del contenido del archivo OVA y la autenticidad del certificado de firma de código cuando se proporciona un resumen de firma de código válido. El almacén de confianza raíz de vCenter solo contiene certificados de VMware. NetApp utiliza Entrust como autoridad certificadora, y dichos certificados deben agregarse al almacén de confianza de vCenter.</block>
   <block id="6c92285fa6d3e827b198d120ea3ac674" category="inline-link">aquí</block>
   <block id="f35abf22d965c5c506fba6f9273a2895" category="list-text">Siga los pasos de la<block ref="b5a4b64b2aa505bd7c11f79b8a9f458d" prefix=" " category="inline-code"></block> Sección de este artículo de la base de conocimientos (KB):<block ref="2e578ca4f24dfc2cfe15357800b939d4" category="inline-link-rx"></block>.</block>
   <block id="6db4d1fb4f168710dad43e921e4fec52" category="inline-image-macro">Interfaz de usuario de OVA que muestra un certificado verificado</block>
@@ -613,8 +608,6 @@ Las versiones de vCentre anteriores a 7.0u2 no pueden verificar automáticamente
   <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">Tenga en cuenta lo siguiente:</block>
   <block id="89daf59b9c591b51911d438bdad9f762" category="list-text">*Estado de uso*: Muestra el indicador de uso para indicar si el consumo está dentro o fuera del límite de suscripción. Puede ordenar la lista por esta columna si desea ver los registros de consumo más altos.</block>
   <block id="6645e0ebb53d4b6e68be7936af3a8039" category="inline-link">AutoSupport</block>
-  <block id="ed55999d50b7451fbe4281de85f01c45" category="example-title">VCentre 7.0u1 y anteriores: Más información</block>
-  <block id="ae33212e0f96fd19173ab021f7909861" category="example-title">VCentre 7.0u2 y posteriores: Más información</block>
   <block id="ee5ca5bbfae8b59d25890e341fb270f9" category="example-title">&lt;strong&gt;Datos de uso recopilados para ONTAP: Learn more&lt;/strong&gt;</block>
   <block id="c1180c8c32ead64506dbcd62aa47c4c9" category="example-title">&lt;strong&gt;Datos de rendimiento recopilados para ONTAP: Más información sobre &lt;/strong&gt;</block>
   <block id="fb4c693ae1537fcd9bba0f68cbeef17b" category="example-title">&lt;strong&gt;Lista de elementos eliminados al limitar el acceso privado a los datos: Learn more&lt;/strong&gt;</block>
@@ -1185,7 +1178,6 @@ A continuación se muestra un ejemplo:</block>
   <block id="e481e00ab54faed62b9dea98ed860aea" category="inline-image-macro">Captura de pantalla de la interfaz de usuario para mostrar las políticas de AQoS creadas</block>
   <block id="43b019fa12d041b6c5cbfe89c5f52205" category="paragraph"><block ref="43b019fa12d041b6c5cbfe89c5f52205" category="inline-image-macro-rx" type="image"></block></block>
   <block id="86e86c82820734a68c07adc56b6390a2" category="inline-image-macro">Pantalla de TUI para mostrar el mensaje de error para la creación de políticas</block>
-  <block id="1b787eed58abedc58337d9fef037fb67" category="list-text">Sistema operativo: VMware vCenter Server y ESXi 6.7 o posterior</block>
   <block id="f7e13857abd03bc318b89fe886669d7d" category="paragraph">El campo *Desde Fecha* para seleccionar el rango de fechas muestra una fecha futura de forma predeterminada al navegar a la pestaña *Tendencia de consumo*.</block>
   <block id="443c63f2975d5902a80f1597e417d9f2" category="paragraph">4 de septiembre de 2024</block>
   <block id="3564049af4b6d8549eeccf2c18fc9bb7" category="summary">Complete algunas tareas de configuración para permitir que Keystone Collector recopile datos de uso en un entorno que no tenga acceso a Internet, también conocido como _sitio oscuro_ o _modo privado_.</block>
@@ -1287,7 +1279,6 @@ A continuación se muestra un ejemplo:</block>
   <block id="ddedaabf1afb461a6e3d2fe1320dcca0" category="summary">Antes de instalar Keystone Collector en un entorno sin acceso a Internet, también conocido como _dark site_ o _private mode_, asegúrese de que sus sistemas estén preparados con el software necesario y cumplan con todos los requisitos previos necesarios.</block>
   <block id="fd7fae83015d688b86a7ec1ed256864e" category="doc">Prepárese para la instalación en modo privado</block>
   <block id="2b9854b0330b42530e0aaf8e893e2f28" category="section-title">Requisitos para VMware vSphere</block>
-  <block id="4b78be970b5500221a819608df5616e7" category="list-text">Sistema operativo: VMware vCenter Server y ESXi 6,7 o posterior</block>
   <block id="0a07fd95ca9bf6935ce5e61609730be6" category="list-text">RAM: 2 GB</block>
   <block id="c53de6b17f1d8da5e4d60aca127be380" category="section-title">Requisitos para Linux</block>
   <block id="6adf0487ff5b4dadf30c70a5107314fc" category="list-text">Núcleo: 2 CPU</block>
@@ -2423,8 +2414,6 @@ A continuación se muestra un ejemplo:</block>
   <block id="b5e09b8913194b721a7e21626585dfc5" category="list-text">Asegúrese de que se ha importado el certificado público correcto comprobando la huella digital de Keystone Billing Platform en la base de datos RPM:<block ref="46ce6ee7c7afe96ac26dd093842fe062" prefix=" " category="inline-code"></block> La huella dactilar correcta tiene este aspecto:<block ref="b91be68b3b67e632293886e3790eccc7" prefix=" " category="inline-code"></block></block>
   <block id="f4baeef0e68eefa8ecbde2db1c9bb6af" category="list-text">Descarga el<block ref="5bec9e04971ed49ee2b3c939afa7a801" prefix=" " category="inline-code"></block> archivo:<block ref="55192ff2cd286fc1b545da5fb86c86fb" prefix=" " category="inline-code"></block></block>
   <block id="859d80b97dc3be93d17073cb53fd1183" category="list-text">Verifique la autenticidad del archivo:<block ref="50a551e75e87c897a8ad2128c42de747" prefix=" " category="inline-code"></block> La firma de un archivo auténtico tiene este aspecto:<block ref="ae3578a86bb737e9e2439ece85303ecb" prefix=" " category="inline-code"></block></block>
-  <block id="1eba34a29908de527656c195c6a4418a" category="list-text">Descargue el certificado público _Keystone Billing_ desde<block ref="5520f333fe3958930d4ca351e896a12f" category="inline-link-rx"></block>.</block>
-  <block id="8dd9e9a8650be62b5350b1743ec0c25a" category="list-text">Verifique la autenticidad del certificado de firma OVA comparándolo con el certificado público mediante OpenSSL:<block ref="f41dec976ad8e65c3e38fceba0104101" prefix=" " category="inline-code"></block></block>
   <block id="b96ad4ab266c25b5492620bb2563d5d0" category="list-text">Descarga el certificado de CA de firma de código de Sectigo.<block ref="7342f89b7e38eb427d641531b8da4ba6" category="inline-link-rx"></block>.</block>
   <block id="5107c2f981fc9d221af2aedb4d9c3f10" category="paragraph">Cuando se valide la integridad y autenticidad del OVA de Keystone Collector, podrá ver el texto.<block ref="2e5f0dac7b8d485649c8f829e8ba09da" prefix=" " category="inline-code"></block> con la editorial. <block ref="4bb910ce06804868c88e19dd6ff9e83c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f4d3f733b36c05e3bcdf4287f293b20f" category="paragraph">Si el clúster está en una configuración MetroCluster , ejecute este comando:</block>
@@ -2485,4 +2474,16 @@ A continuación se muestra un ejemplo:</block>
   <block id="fa37f1bdab27c9577ff178edf4ff4fef" category="admonition">La pestaña *Informes* actualmente no está disponible para las suscripciones de Keystone .</block>
   <block id="2193640916b96caede95ed8f42c339e8" category="paragraph"><block ref="2193640916b96caede95ed8f42c339e8" category="inline-image-macro-rx" type="image"></block></block>
   <block id="3a51c5c35df88316b8d012c010e340f7" category="section-title">24 de noviembre de 2025</block>
+  <block id="236430e108e8394ac19913076b10fb55" category="doc">Etiqueta de capacidad de ráfaga acumulada renombrada</block>
+  <block id="73ba7647571e18c30e8b5b930b7d7ffb" category="paragraph">La etiqueta *Capacidad de ráfaga acumulada* pasa a llamarse *Ráfaga acumulada*.</block>
+  <block id="a6145fbfb28ae332bb61854cc43b2999" category="list-text">Sistema operativo: servidor VMware vCenter y ESXi 8.0 o posterior</block>
+  <block id="19c50fb6e1d8179976234d4afbeaf824" category="list-text">En el _Paso 4: Revisar detalles_, verifique la exactitud y autenticidad del archivo OVA.</block>
+  <block id="89982b0af4c1ad3b86da7a82b021fed7" category="paragraph">El almacén de confianza raíz de vCenter contiene únicamente certificados de VMware. NetApp utiliza Entrust como autoridad de certificación y esos certificados deben agregarse al almacén de confianza de vCenter.</block>
+  <block id="6421324a362bee91e5fee16704e6b0e5" category="admonition">Para las versiones 7.x y anteriores de vCenter, debe actualizar vCenter y ESXi a la versión 8.0 o posterior. Las versiones anteriores ya no reciben soporte.</block>
+  <block id="21f65ffde9511843c6e3b86b7a0de865" category="list-text">Sistema operativo: servidor VMware vCentre y ESXi 8.0 o posterior</block>
+  <block id="effa0f06c02c1da56e0eada86a5982ec" category="list-text">Las opciones del menú desplegable *Ver* dependen de sus plataformas de suscripción de Keystone . Los *volúmenes en clústeres* y los *nodos en clústeres* están disponibles para ONTAP. Para StorageGRID, el menú desplegable *Ver* no está disponible, la tabla *Nodos en cuadrículas* se muestra automáticamente. Si su suscripción incluye ambas plataformas, las tres opciones están disponibles.</block>
+  <block id="a71fbcfaa67815b8c0edea5059cb96fb" category="admonition">La página *Activos* muestra pestañas basadas en las plataformas asociadas con sus suscripciones de Keystone . Para ONTAP, están disponibles las pestañas *Nodos en clústeres* y *Volúmenes en clústeres*. Para StorageGRID, la tabla *Nodos en cuadrículas* se muestra directamente sin una selección de pestañas. Si las suscripciones incluyen ambas plataformas, las tres pestañas estarán disponibles.</block>
+  <block id="7a29351a5aff62fec009044b13aad77f" category="paragraph">Las suscripciones muestran incorrectamente el estado *Por encima del límite de ráfaga* en el panel de control del Digital Advisor a pesar de que el consumo está dentro de los límites de ráfaga permitidos.</block>
+  <block id="81899b5a6230dd4cf7e0bff4dbc71dfb" category="paragraph">8 de diciembre de 2025</block>
+  <block id="2727f68982ff25e8b3c57e026120561d" category="section-title">08 de diciembre de 2025</block>
 </blocks>

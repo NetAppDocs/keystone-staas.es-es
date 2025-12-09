@@ -1,0 +1,11 @@
+= Etiqueta de capacidad de ráfaga acumulada renombrada
+:allow-uri-read: 
+
+
+Nuevas mejoras en el panel de Keystone en la NetApp Console:
+
+
+
+=== Etiqueta de capacidad de ráfaga acumulada renombrada
+
+La etiqueta *Capacidad de ráfaga acumulada* pasa a llamarse *Ráfaga acumulada*.
