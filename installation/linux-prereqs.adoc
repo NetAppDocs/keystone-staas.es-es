@@ -36,7 +36,7 @@ El mismo servidor también debería tener los siguientes paquetes de terceros:
 * Podman (POD Manager)
 * sos
 * crony
-* python 3 (3.6.8 a 3.9.13)
+* Python 3 (3.9.14 a 3.11.8)
 
 
 .Máquina virtual del servidor de recopilador Keystone:
