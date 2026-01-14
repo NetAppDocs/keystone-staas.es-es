@@ -4,7 +4,7 @@ permalink: rest-api/get-customer-consumption.html
 keywords: api, consumption, subscriptions, customerID, keystone, Digital Advisor 
 summary: La API REST del asesor digital recupera los detalles de consumo actual de todas las suscripciones asociadas al ID de cliente especificado. 
 ---
-= Obtenga información sobre el consumo de los clientes con la API REST del asesor digital
+= Obtenga detalles del consumo de los clientes de Keystone mediante la API REST de Digital Advisor
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

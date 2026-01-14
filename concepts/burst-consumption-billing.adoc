@@ -4,7 +4,7 @@ permalink: concepts/burst-consumption-billing.html
 keywords: burst consumption billing 
 summary: La facturación de STaaS de Keystone se basa en la capacidad de bursting, que es la capacidad que consumes, además de la capacidad comprometida de tu suscripción. 
 ---
-= Facturación basada en consumo en ráfaga
+= Comprenda la facturación por consumo de ráfagas de Keystone
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

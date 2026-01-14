@@ -4,7 +4,7 @@ permalink: installation/vapp-prereqs.html
 keywords: prerequisites, VMware vSphere, vApp 
 summary: El sistema VMware vSphere debe cumplir varios requisitos antes de poder instalar Keystone Collector. 
 ---
-= Requisitos de infraestructura virtual
+= Requisitos de infraestructura virtual para Keystone Collector
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

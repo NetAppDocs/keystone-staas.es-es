@@ -4,7 +4,7 @@ permalink: rest-api/get-customer-subscriptions.html
 keywords: subscriptions, service levels, customer IDs, keystone, api 
 summary: La API REST DE Digital Advisor recupera una lista de todas las suscripciones y niveles de servicio asociados con el CustomerID especificado. 
 ---
-= Obtenga suscripciones de clientes con la API REST del asesor digital
+= Obtenga suscripciones de clientes de Keystone mediante la API REST de Digital Advisor
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

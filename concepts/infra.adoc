@@ -4,7 +4,7 @@ permalink: concepts/infra.html
 keywords: keystone infrastructure, infra 
 summary: La infraestructura, el diseño, la selección de tecnología y los productos de componentes de Keystone residen únicamente en NetApp. 
 ---
-= Infraestructura Keystone
+= Comprender la infraestructura de Keystone
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

@@ -4,7 +4,7 @@ permalink: integrations/performance-tab.html
 keywords: keystone-aiq, digital advisor keystone, performance tab 
 summary: Para supervisar el rendimiento de tus sistemas, puedes ver las métricas de rendimiento de los volúmenes de ONTAP gestionados por tus suscripciones de Keystone. 
 ---
-= Ver métricas de rendimiento
+= Ver métricas de rendimiento de las suscripciones de Keystone
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

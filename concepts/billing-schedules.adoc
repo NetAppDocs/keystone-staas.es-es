@@ -4,7 +4,7 @@ permalink: concepts/billing-schedules.html
 keywords: billing schedules, schedule for payment 
 summary: Las suscripciones de Keystone STaaS se facturan de forma mensual, trimestral, semestral o anual. 
 ---
-= Horarios de facturación
+= Obtenga más información sobre los cronogramas de facturación de Keystone
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
