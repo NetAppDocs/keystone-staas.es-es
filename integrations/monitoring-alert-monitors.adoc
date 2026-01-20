@@ -42,6 +42,9 @@ NOTE: La pestaña *Informes* actualmente no está disponible para las suscripcio
 
 Desde la pestaña *Monitores de alerta*, puede crear monitores para rastrear el uso de la capacidad y el vencimiento de la suscripción.  También puede editar, duplicar o eliminar monitores existentes según sea necesario.
 
+
+NOTE: Debe estar asignado al rol de *administrador de Keystone * para crear y administrar monitores de alerta. Para obtener más información, consulte link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-keystone-roles.html["Roles de acceso de Keystone en la NetApp Console"^].
+
 [role="tabbed-block"]
 ====
 .Crear un monitor

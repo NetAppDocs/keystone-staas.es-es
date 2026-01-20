@@ -47,8 +47,7 @@ Obtenga más información sobre ellink:https://docs.netapp.com/us-en/bluexp-setu
 
 Tenga en cuenta lo siguiente:
 
-* Si bien la consola y el Digital Advisor ofrecen algunas funciones exclusivas, la consola proporciona funcionalidad administrativa para Keystone, lo que le permite administrar suscripciones y realizar los ajustes necesarios.
-* Debe estar asignado al rol de *administrador de Keystone * para modificar las suscripciones. Para obtener más información, consultelink:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["Obtenga más información sobre los roles de acceso a la consola de NetApp"^] .
+* Si bien la consola y el Digital Advisor ofrecen algunas funciones exclusivas, la consola proporciona funcionalidad administrativa para Keystone, lo que le permite administrar suscripciones y realizar los ajustes necesarios. Para obtener más información, consulte link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-keystone-roles.html["Roles de acceso de Keystone en la NetApp Console"^].
 * Digital Advisor está integrado con la consola, lo que le permite acceder a todas las funciones de Digital Advisor , incluido el panel de Keystone , directamente desde la consola. Para obtener más información, consultelink:https://docs.netapp.com/us-en/active-iq/digital-advisor-integration-with-console.html#netapp-console["Integración de Digital Advisor con la consola de NetApp"^] .
 
 
@@ -89,11 +88,6 @@ link:../integrations/assets-tab.html["Ver activos asociados con una suscripción
 
  a| 
 link:../integrations/monitoring-alerts.html["Ver y administrar alertas y monitores"]
-| Sí | No 
-
-
- a| 
-link:../integrations/modify-subscription.html["Modificar sus suscripciones"] (sólo para administradores de Keystone)
 | Sí | No 
 
 

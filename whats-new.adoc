@@ -18,6 +18,18 @@ Obtenga información sobre las últimas características y mejoras en los servic
 
 
 
+== 19 de enero de 2026
+
+Actualizaciones en el panel de Keystone en la NetApp Console:
+
+
+
+=== Modificar suscripción no disponible
+
+La opción para modificar la capacidad comprometida para las suscripciones de Keystone no está disponible actualmente. Esta funcionalidad se reintroducirá en una versión futura.
+
+
+
 == 08 de diciembre de 2025
 
 Nuevas mejoras en el panel de Keystone en la NetApp Console:

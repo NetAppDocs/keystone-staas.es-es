@@ -130,8 +130,6 @@ sidebar:
         url: "/integrations/monitoring-alerts.html"
       - title: Ver y crear monitores de alertas
         url: "/integrations/monitoring-alert-monitors.html"
-    - title: Modificar sus suscripciones
-      url: "/integrations/modify-subscription.html"
     - title: Ver su solicitud de servicio
       url: "/integrations/administration-tab.html"
     - title: Ver volúmenes y detalles de almacenamiento de objetos

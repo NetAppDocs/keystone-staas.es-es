@@ -1,0 +1,11 @@
+= Modificar suscripción no disponible
+:allow-uri-read: 
+
+
+Actualizaciones en el panel de Keystone en la NetApp Console:
+
+
+
+=== Modificar suscripción no disponible
+
+La opción para modificar la capacidad comprometida para las suscripciones de Keystone no está disponible actualmente. Esta funcionalidad se reintroducirá en una versión futura.
