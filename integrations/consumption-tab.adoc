@@ -129,18 +129,20 @@ La ráfaga es la diferencia entre la capacidad consumida y la capacidad comprome
 
 == Ver ráfaga acumulada
 
-Puede ver el uso de datos acumulados a través de la Consola o el Digital Advisor. Si ha seleccionado *Ráfaga acumulada* en el menú desplegable *Ver* en la pestaña *Tendencia de consumo* en la Consola, o la opción *Ráfaga acumulada facturada* en la pestaña *Tendencia de consumo* en Digital Advisor, puede ver el uso de datos de ráfaga acumulada de forma mensual o trimestral, según el período de facturación seleccionado. Estos datos están disponibles para los últimos 12 meses facturados y se pueden consultar por rango de fechas de hasta los últimos 30 meses. Los gráficos de barras muestran los datos facturados y, si aún no se ha facturado el uso, se marcará como _Pendiente_ para ese período.
+Puedes ver el uso de datos de ráfaga acumulada a través de la NetApp Console o Digital Advisor. Si has seleccionado *Accrued burst* en el menú desplegable *View* de la pestaña *Consumption trend* en la NetApp Console, o la opción *Invoiced Accrued Burst* de la pestaña *Consumption Trend* en Digital Advisor, puedes ver el uso de datos de ráfaga acumulada de forma mensual o trimestral, dependiendo del periodo de facturación que elijas. Estos datos están disponibles para los últimos 12 meses que han sido facturados y puedes consultarlos por rango de fechas hasta los últimos 30 meses.
+
+[TIP]
+====
+* En la NetApp Console, puedes interactuar con el gráfico de facturación de ráfagas acumuladas para filtrar el uso diario de datos. Para saber más, consulta link:../integrations/consumption-tab.html#view-daily-accrued-burst-data-usage["Ver el uso diario de datos de ráfaga acumulados"].
+* El uso acumulado facturado se calcula por período de facturación, en función de la capacidad comprometida y consumida para un nivel de servicio de rendimiento.
 
 
-TIP: El uso acumulado facturado se calcula por período de facturación, en función de la capacidad comprometida y consumida para un nivel de servicio de rendimiento.
-
+====
 Para un período de facturación trimestral, si la suscripción comienza en una fecha distinta del 1^st ^ del mes, la factura trimestral cubrirá el período de 90 días subsiguientes. Por ejemplo, si su suscripción comienza el 15 de agosto, la factura se generará para el período comprendido entre el 15 de agosto y el 14 de octubre.
 
 Si cambia de la facturación trimestral a la mensual, la factura trimestral seguirá cubriendo el período de 90 días, con dos facturas generadas en el último mes del trimestre: Una para el período de facturación trimestral y otra para los días restantes de ese mes. Esta transición permite que el período de facturación mensual comience el 1^st ^ del mes siguiente. Por ejemplo, si su suscripción comienza el 15 de octubre, recibirá dos facturas en enero, una del 15 de octubre al 14 de enero y otra del 15 al 31 de enero, antes de que el período de facturación mensual comience el 1 de febrero.
 
 image:accr-burst-2.png["uso de bursting acumulado trimestralmente"]
-
-Esta función está disponible en modo de sólo vista previa. Póngase en contacto con su KSM para obtener más información sobre esta función.
 
 
 
@@ -148,7 +150,9 @@ Esta función está disponible en modo de sólo vista previa. Póngase en contac
 
 Puede ver el uso de datos acumulado diariamente para un período de facturación mensual o trimestral a través de la Consola o el Digital Advisor. En la consola, la tabla *Ráfaga acumulada por días* proporciona datos detallados que incluyen la marca de tiempo, la capacidad comprometida, consumida y acumulada si selecciona *Ráfaga acumulada* en el menú desplegable *Ver* en la pestaña *Tendencia de consumo*.
 
-image:bxp-accrued-burst-days.png["Captura de pantalla que muestra la tabla de ráfagas acumuladas por días"]
+En la Console, puedes filtrar la tabla seleccionando cualquier barra que represente un periodo de facturación en el gráfico de facturación de ráfagas acumuladas. Cuando está filtrada, la tabla muestra solo los días dentro del periodo de facturación seleccionado. Para ver el conjunto de datos completo de nuevo, usa la opción *Clear filters*. Si no hay datos disponibles para el periodo seleccionado, aparece un mensaje indicando que no hay datos disponibles.
+
+image:bxp-accrued-burst-days-1.png["Captura de pantalla que muestra la tabla de ráfagas acumuladas por días"]
 
 En Digital Advisor, cuando hace clic en la barra que muestra los datos facturados de la opción *Ráfaga acumulada facturada*, verá la sección Capacidad aprovisionada facturable debajo del gráfico de barras, que ofrece opciones de visualización de gráficos y tablas. La vista de gráfico predeterminada muestra el uso diario de los datos de ráfaga acumulados en un formato de gráfico de líneas, donde se muestran los cambios en el uso a lo largo del tiempo.
 

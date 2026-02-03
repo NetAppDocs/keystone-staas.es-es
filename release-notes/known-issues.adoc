@@ -24,6 +24,15 @@ En STaaS de NetApp Keystone se notifican los siguientes problemas conocidos:
 
 
  a| 
+Modificar suscripción no disponible
+ a| 
+La opción de modificar la capacidad comprometida para las suscripciones de Keystone actualmente no está disponible en la NetApp Console. Esta funcionalidad se volverá a incluir en una próxima versión.
+ a| 
+Ninguno
+
+
+
+ a| 
 Factura incorrecta debido a que los datos no coinciden
  a| 
 Una discrepancia en los datos de consumo para las suscripciones de AutoSupport provoca la generación de facturas incorrectas, lo que provoca imprecisiones en la facturación.

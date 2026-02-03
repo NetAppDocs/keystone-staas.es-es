@@ -25,7 +25,7 @@ Para ver información detallada de sus suscripciones, siga estos pasos:
 .Pasos
 . Desde el menú de navegación izquierdo de la consola, seleccione *Almacenamiento > Keystone > Suscripciones*.
 +
-image:bxp-subscription-list-3.png["ver los detalles de la pestaña de suscripción"]
+image:bxp-subscription-list-4.png["ver los detalles de la pestaña de suscripción"]
 
 +
 Verá las métricas clave, como el uso de la capacidad, el estado de vencimiento de la suscripción y las alertas no resueltas.
@@ -39,13 +39,14 @@ Puedes ver los siguientes detalles en la tabla:
 ** *Nombre del cliente*: el nombre del cliente asociado a la suscripción de Keystone.
 ** *Suscripciones vinculadas*: Si tiene alguna suscripción secundaria vinculada a su suscripción principal, esta columna muestra los números de suscripción vinculados a la suscripción principal. Este número puede ser de su suscripción principal o secundaria (vinculada).
 ** *Versión de Keystone *: La versión del servicio Keystone que se utiliza para la suscripción. Las reglas del plan de tarifas para los niveles de servicio de rendimiento pueden diferir entre las versiones de suscripción. Para obtener más información sobre la versión v1, consulte https://docs.netapp.com/us-en/keystone/index.html["Servicios de suscripción de Keystone | Documentación de la versión 1"^] .
+** *Tipo de uso*: Puede que te hayas suscrito a varias versiones de Keystone. Las reglas del plan de tarifas para los niveles de servicio de rendimiento pueden variar entre versiones de suscripción. Al mirar el valor en esta columna, sabes si el tipo de uso se factura según el uso aprovisionado, físico o lógico. Para saber más sobre la versión 1, consulta https://docs.netapp.com/us-en/keystone/index.html["Servicios de suscripción de Keystone | Documentación de la versión 1"^].
 ** *Período de facturación*: El período de facturación de la suscripción.
 ** *Niveles de servicio de rendimiento*: la cantidad de planes de tarifas asociados con la suscripción, y cada plan de tarifas corresponde a un nivel de servicio de rendimiento específico y una capacidad comprometida.
 ** *Capacidad máxima*: La capacidad máxima consumida dentro de la suscripción.
 ** *Días para el vencimiento de la suscripción*: El número de días restantes hasta que expire la suscripción.
 +
 
-NOTE: Puede hacer clic en la flecha hacia abajo junto a la columna *Fecha de vencimiento* para ver la información de los niveles de rendimiento del servicio para cada suscripción.  Esto muestra información detallada sobre la capacidad, incluido el uso actual, la capacidad comprometida, la capacidad aprovisionada, la capacidad de ráfaga y la capacidad disponible.
+NOTE: Puedes hacer clic en la flecha hacia abajo image:down-arrow.png["icono de expandir"] en el encabezado de la tabla para expandir todas las suscripciones y ver la información de los niveles de servicio de rendimiento para cada suscripción al mismo tiempo. Esto muestra información detallada de la capacidad, incluyendo el uso actual, la capacidad comprometida, la capacidad aprovisionada, la capacidad de ráfaga y la capacidad disponible para todas las suscripciones. O también puedes hacer clic en la flecha hacia abajo junto a la columna *Expiration date* en las filas de suscripción individuales para expandirlas una por una.
 
 +
 

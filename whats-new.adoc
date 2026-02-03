@@ -18,15 +18,33 @@ Obtenga información sobre las últimas características y mejoras en los servic
 
 
 
-== 19 de enero de 2026
+== 02 de febrero de 2026
 
-Actualizaciones en el panel de Keystone en la NetApp Console:
+Nuevas mejoras en el panel de Keystone en la NetApp Console:
 
 
 
-=== Modificar suscripción no disponible
+=== Filtrado interactivo para los datos diarios de ráfagas acumuladas
 
-La opción para modificar la capacidad comprometida para las suscripciones de Keystone no está disponible actualmente. Esta funcionalidad se reintroducirá en una versión futura.
+La tabla *Ráfaga acumulada por días* de la pestaña *Tendencia de consumo* ahora admite el filtrado interactivo. Selecciona cualquier barra del gráfico de facturación de la ráfaga acumulada para ver solo los días de ese periodo de facturación. Para saber más, consulta link:./integrations/consumption-tab.html#view-daily-accrued-burst-data-usage["Ver el uso diario de datos de ráfaga acumulados"].
+
+
+
+=== Visualización mejorada del intervalo de fechas en el gráfico de ráfagas acumuladas
+
+El gráfico de facturación de ráfagas acumuladas en la pestaña *Tendencia de consumo* ahora muestra intervalos de fechas completos para cada periodo de facturación, como del 01 de oct de 2025 al 31 de oct de 2025, en vez de solo el mes y el año.
+
+
+
+=== Vista ampliable de los detalles de suscripción
+
+La pestaña *Suscripciones* incluye una opción para expandir todas las suscripciones y ver la información de los niveles de servicio de rendimiento de cada suscripción simultáneamente. Para saber más, consulta link:./integrations/subscriptions-tab.html["Ver detalles sobre sus suscripciones a Keystone"].
+
+
+
+=== Nueva columna de tipo de uso
+
+La pestaña *Suscripciones* incluye una columna *Tipo de uso* que muestra si la suscripción se factura en función del uso aprovisionado, físico o lógico. Para saber más, consulta link:./integrations/subscriptions-tab.html["Ver detalles sobre sus suscripciones a Keystone"].
 
 
 
