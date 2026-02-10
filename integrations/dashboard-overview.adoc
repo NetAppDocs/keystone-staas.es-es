@@ -102,6 +102,11 @@ link:../integrations/volumes-objects-tab.html["Ver detalles de volúmenes y obje
 
 
  a| 
+link:../integrations/adp-tab.html["Ver el consumo y la salud de MetroCluster"]
+| Sí (incluye estado de salud, vista de topología y monitoreo de sincronización) | Sí (solo datos de consumo) 
+
+
+ a| 
 link:../integrations/performance-tab.html["Ver métricas de rendimiento"]
 | No | Sí 
 |===

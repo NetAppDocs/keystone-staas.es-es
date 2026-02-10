@@ -34,7 +34,7 @@ Verá las métricas clave, como el uso de la capacidad, el estado de vencimiento
 Puedes ver los siguientes detalles en la tabla:
 
 +
-** *Número de suscripción*: el número de suscripción de Keystone asignado por NetApp.
+** *Número de suscripción*: el número de suscripción de Keystone asignado por NetApp. Las suscripciones con el icono image:metrocluster-icon.png["MetroCluster símbolo de suscripción"] son suscripciones MetroCluster. Para saber más sobre las suscripciones MetroCluster, consulta link:../integrations/adp-tab.html["Consulta el consumo y la salud de tus suscripciones Keystone MetroCluster"].
 ** *ID de seguimiento*: El ID de seguimiento asignado en el momento de la activación de la suscripción. Se trata de un ID exclusivo para cada suscripción y sitio, que se utiliza para realizar el seguimiento de la suscripción.
 ** *Nombre del cliente*: el nombre del cliente asociado a la suscripción de Keystone.
 ** *Suscripciones vinculadas*: Si tiene alguna suscripción secundaria vinculada a su suscripción principal, esta columna muestra los números de suscripción vinculados a la suscripción principal. Este número puede ser de su suscripción principal o secundaria (vinculada).

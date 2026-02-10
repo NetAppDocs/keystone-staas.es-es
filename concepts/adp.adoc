@@ -1,8 +1,72 @@
 ---
+sidebar: sidebar 
 permalink: concepts/adp.html 
-redirect: keystone-staas/concepts/metrics.html 
+keywords: data protection advanced 
+summary: Usa el servicio adicional de protección avanzada de datos para asegurar una protección eficiente de los datos en cargas de trabajo críticas. 
 ---
-= 
+= Complemento avanzado de protección de datos para Keystone
+:hardbreaks:
 :allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
 
 
+[role="lead"]
+Puedes suscribirte al servicio complementario de protección avanzada de datos (ADP) con tu suscripción a Keystone STaaS. Mientras que los servicios estándar de Keystone incluyen protección de datos predeterminada usando SnapMirror, SnapVault y Snapshot, este servicio complementario usa la tecnología NetApp MetroCluster para asegurar una protección de datos eficiente de tus cargas de trabajo de misión crítica con un objetivo de punto de recuperación (RPO) de 0.
+
+El servicio avanzado de protección de datos de Keystone puede reflejar datos de forma sincrónica en un sitio secundario. En caso de un desastre en el sitio primario, el sitio secundario puede tomar el control sin ninguna pérdida de datos. Esta función usa la configuración link:https://docs.netapp.com/us-en/ontap-metrocluster["MetroCluster"^] entre dos sitios para habilitar la protección de datos. Puedes usar los servicios complementarios avanzados de protección de datos solo para tus servicios de almacenamiento de archivos y bloques. Como parte de este servicio complementario, el nivel de servicio de rendimiento `Advanced Data-Protect` se asigna a tu suscripción.
+
+Puedes monitorear el consumo y las métricas de salud de tu configuración de MetroCluster. Para más información, consulta link:../integrations/adp-tab.html["Ver el consumo y la salud de tus suscripciones de MetroCluster"].
+
+
+
+== Entiende los precios
+
+El servicio adicional de protección avanzada de datos tiene un precio basado en la capacidad comprometida en cada sitio. Esto ayuda a determinar el costo real del servicio de protección avanzada de datos en $/TiB. Los cargos adicionales se aplican a todas las capacidades de tu suscripción, incluyendo los datos de origen, las copias reflejadas y los datos no reflejados.
+
+Para la configuración de MetroCluster, cada sitio requiere su propia suscripción y te cobran por la capacidad comprometida en cada sitio de forma independiente.
+
+Tenga en cuenta lo siguiente:
+
+* El servicio utiliza el 100% de la capacidad comprometida en el almacenamiento asociado como capacidad comprometida.
+* Se aplican cargos tanto a los sitios primarios como a los secundarios, cubriendo tanto los clústeres de origen como los de destino.
+* Los cargos se aplican solo a tus servicios de almacenamiento de archivos y bloques.
+
+
+
+
+== Configuraciones compatibles de MetroCluster
+
+Keystone es compatible con los siguientes escenarios de implementación de MetroCluster:
+
+Configuración activa/pasiva:: En esta configuración, los datos primarios de un sitio se reflejan en un sitio secundario. Por ejemplo, si se consumen 100 TiB de datos lógicos en el sitio A, se replican en el sitio B. Ambos sitios requieren suscripciones idénticas:
++
+--
+* *Suscripción 1 (sitio A):* 100 TiB storage service + 100 TiB ADP
+* *Suscripción 2 (sitio B):* 100 TiB storage service + 100 TiB ADP
+
+
+--
+Configuración activa/activa con reflejo completo:: En esta configuración, ambos sitios alojan datos primarios que se reflejan bidireccionalmente. Por ejemplo, 100 TiB de datos primarios en el sitio A se reflejan en el sitio B, y 100 TiB de datos primarios en el sitio B se reflejan en el sitio A. Ambos sitios requieren suscripciones para la capacidad combinada:
++
+--
+* *Suscripción 1 (sitio A):* 200 TiB storage service + 200 TiB ADP
+* *Suscripción 2 (sitio B):* 200 TiB storage service + 200 TiB ADP
+
+
+--
+Configuración activa/activa con reflejo parcial:: En esta configuración, un sitio aloja datos reflejados mientras que el otro sitio aloja tanto datos reflejados como no reflejados. Por ejemplo, 100 TiB de datos primarios en el sitio A se reflejan en el sitio B, mientras que el sitio B también aloja 100 TiB adicionales de datos no reflejados. Las suscripciones difieren según la capacidad en cada sitio:
++
+--
+* *Suscripción 1 (sitio A):* 100 TiB storage service + 100 TiB ADP
+* *Suscripción 2 (sitio B):* 200 TiB storage service + 200 TiB ADP
+
+
+--
+
+
+El siguiente diagrama muestra estas configuraciones compatibles con MetroCluster:
+
+image:mcc-1.png["Diagrama que muestra tres configuraciones de MetroCluster: activo/pasivo con reflejo simétrico, activo/activo con reflejo bidireccional completo y activo/activo con reflejo parcial"]
