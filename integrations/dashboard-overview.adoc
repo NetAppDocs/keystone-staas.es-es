@@ -16,7 +16,7 @@ summary: Como suscriptor de NetApp Keystone STaaS, puede obtener una descripció
 [role="lead"]
 El panel de control de Keystone es su solución ideal para supervisar, analizar y gestionar eficazmente sus suscripciones de Keystone. A través del panel de control de Keystone, puede lograr los siguientes objetivos:
 
-* *Supervisar detalles de suscripción*: vea información detallada sobre sus suscripciones de Keystone, incluidos los niveles de servicio de rendimiento, el uso de la capacidad, los activos y las alertas.
+* *Supervisa los detalles de las suscripciones*: Mira información detallada sobre tus suscripciones a Keystone, incluidos los niveles de servicio de rendimiento (servicios base y complementarios como la protección avanzada de datos y Data Infrastructure Insights), el uso de capacidad, los activos y las alertas.
 * *Realice un seguimiento del uso de la capacidad y genere informes*: realice un seguimiento del uso de la capacidad actual e histórico y genere informes para analizar los datos de suscripción y tomar decisiones informadas.
 * *Ver cronograma de suscripciones*: Manténgase informado sobre fechas y eventos clave monitoreando el cronograma de sus suscripciones.
 * *Administrar suscripciones*: envíe solicitudes para modificar los niveles de rendimiento del servicio u otros parámetros de suscripción a medida que cambien sus necesidades.
