@@ -139,7 +139,7 @@ Si se detecta una infracción del acuerdo de nivel de servicio, abra un ticket d
 .. Cualquier otro documento aplicable
 
 
-* Facilite los detalles en la hoja de excel como se muestra a continuación para un ticket P3 abierto con soporte de NetApp Keystone.
+* Proporciona los detalles en la hoja de Excel como se muestra a continuación para un ticket P3 abierto con NetApp Keystone support.
 +
 image:sla-breach.png["plantilla de hoja de excel"]
 
@@ -148,7 +148,7 @@ image:sla-breach.png["plantilla de hoja de excel"]
 [NOTE]
 ====
 * La solicitud de crédito de servicio debe iniciarse en el plazo de seis semanas después de que el soporte de NetApp Keystone haya validado una infracción. Todos los créditos de servicios deben ser reconocidos y aprobados por NetApp.
-* Los créditos de servicio se pueden aplicar a una factura futura. Los créditos de servicio no se aplican a suscripciones de Keystone vencidas. Para obtener más información, consulte link:../concepts/support-services.html["Soporte de NetApp Keystone"].
+* Los créditos de servicio podrían aplicarse a una factura futura. Los créditos de servicio no se aplican a las suscripciones Keystone caducadas. Para saber más, consulta link:../concepts/support-services.html["Soporte de NetApp Keystone"].
 
 
 ====

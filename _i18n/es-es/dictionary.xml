@@ -1085,19 +1085,11 @@ A continuación se muestra un ejemplo:</block>
   <block id="892db0165f2238f40c3370386d79cac7" category="inline-image-macro">plantilla de hoja de excel</block>
   <block id="f0fbc9cddebee973debd106e878bebdd" category="paragraph"><block ref="f0fbc9cddebee973debd106e878bebdd" category="inline-image-macro-rx" type="image"></block></block>
   <block id="23f04236d1f84e52d087f768059adbbe" category="list-text">*Rendimiento degradado*: La cantidad de tiempo, en minutos, por incidente, durante el cual no se cumple el objetivo de latencia de percentil 90^th^.</block>
-  <block id="3fe43b4ffa54563c104bbdf1eeea2b59" category="list-text">La latencia de percentil *90^th^* se mide por volumen, por nivel de rendimiento, para todos los volúmenes dentro de una orden Keystone. La latencia se muestrea cada cinco minutos, y el valor del percentil 90^th^ calculado en un período de 24 horas se utiliza como medida diaria, teniendo en cuenta los siguientes puntos:</block>
   <block id="35254eb51c71659b3cf343855354b8b1" category="list-text">Los volúmenes que registran al menos cinco IOPS en el momento de la recogida de métricas se tendrán en cuenta como muestra.</block>
   <block id="0e0e9d5bae73de26860af74cb8fc6ac2" category="list-text">Los volúmenes con operaciones de escritura superiores al 30 % en el momento de la recopilación de métricas se excluyen de la muestra.</block>
-  <block id="ab4c900b0e1430edc1bd09939be8859a" category="list-text">La latencia añadida por AQoS para las IOPS/TiB solicitadas que son mayores que las IOPS/TiB objetivo se excluye de la muestra.</block>
-  <block id="565d8433df6c6c23be6de8fd7871abae" category="list-text">La latencia añadida por AQoS para mantener el número mínimo de IOPS por volumen se excluye de la muestra.</block>
   <block id="f901dbc53f8dea2d74e68635ec84a298" category="list-text">Para los volúmenes con la FabricPool habilitada, no se cuenta la latencia incurrida debido a la transferencia de datos hacia y desde el almacenamiento (frío) de destino.</block>
   <block id="23ca5c8d56457bbd625ff236b3c706ef" category="list-text">La latencia causada por la aplicación, el host o la red del cliente fuera del clúster de ONTAP no se cuenta.</block>
-  <block id="efbd8d78a7008161e0e4f42c63d84ad6" category="list-text">Durante un período de 24 horas, deben estar disponibles al menos diez métricas válidas. De lo contrario, se descartarán las métricas.</block>
-  <block id="5b8e1d393a8c6bf1b5c0be8eb268aba3" category="list-text">Si uno o varios volúmenes de una cabina de almacenamiento no tienen aplicada una política de calidad de servicio válida, puede verse afectada la cantidad de IOPS disponible para otros volúmenes y NetApp no será responsable del establecimiento o cumplimiento de los niveles de rendimiento en esa cabina de almacenamiento.</block>
   <block id="d8ace9c4f3c105767c7ec01ce669eca3" category="list-text">En configuraciones de FabricPool, los niveles de rendimiento son aplicables cuando todos los bloques de datos solicitados se encuentran en un almacenamiento de origen FabricPool (activo) y el almacenamiento de origen no está en una relación de SnapMirror síncrono.</block>
-  <block id="ce8f4bd254d7fa591c64caccc3aa3eeb" category="cell">&lt;1 ms</block>
-  <block id="101d21e523f12f01303be5acdf4141d9" category="cell">&lt;2 ms</block>
-  <block id="65e7d97f5e59814284d01d2b0cd62581" category="cell">&lt;4 ms</block>
   <block id="4528f5e882cc88c8842dcf9b1ac1b1bc" category="paragraph">NetApp emite créditos de servicio para el rendimiento degradado:</block>
   <block id="72c2dabc519f204563247ef9d2fd1c7a" category="cell">*Umbral de rendimiento*</block>
   <block id="133c2090971805c26a4b7780a43a4e1f" category="paragraph">latencia percentil 90^th^ &gt; latencia objetivo</block>
@@ -1105,13 +1097,11 @@ A continuación se muestra un ejemplo:</block>
   <block id="68bff7f600a4d4bddae207bf52b8dbdb" category="paragraph">Créditos de servicio = (Capacidad afectada / Capacidad comprometida total) X Cuotas por capacidad X Días afectados X Porcentaje de crédito</block>
   <block id="518fb0e9794f4b9e14b0dc061ac61fda" category="list-text">*Tasas por capacidad*: Las tarifas para el nivel de rendimiento afectado según la orden de Keystone.</block>
   <block id="9bd7cf79d77a54ab7c62e80f778e9d2a" category="list-text">*Días afectados*: El número de días naturales afectados.</block>
-  <block id="b452a2e7bf15034c9bd63c001b3e6e64" category="cell">*Días de calendario afectados*</block>
   <block id="a22d50cab82690cbdc8113c3ff9c2076" category="cell">10 Tib</block>
   <block id="58f24a17f570c7949880710fdf616d32" category="cell">50 Tib</block>
   <block id="c81e728d9d4c2f636f067f89cc14862c" category="cell">2</block>
   <block id="dcfe0b3ef8eb8156a5e83949c2e2f7b6" category="cell">3%</block>
   <block id="b9ad6821bc2a0e4300b5b91ca5245476" category="paragraph">Usando la fórmula: Créditos de servicio = ( 10 / 50 ) X 1000 x 2 x 0,03</block>
-  <block id="732192040cca36723308ae6b02982093" category="paragraph">Según el cálculo, los créditos de servicio serán de $12.</block>
   <block id="fed70707a2e768c22f4b0fc06a401786" category="summary">NetApp garantiza la recuperación de los datos de las copias snapshot desde volúmenes para el cumplimiento de normativas de SnapLock en caso de un ataque de ransomware con el programa de garantía de recuperación de ransomware</block>
   <block id="30a37a729e8d5bdf11c9e3c6965f6872" category="doc">Garantía de recuperación frente a ransomware</block>
   <block id="c314df61fd93029a87d16eb15b842e7d" category="paragraph">NetApp garantiza la recuperación de los datos de las copias snapshot desde volúmenes para el cumplimiento de normativas de SnapLock en caso de un ataque de ransomware con el programa de garantía de recuperación de ransomware. El Servicio de garantía de recuperación de ransomware de NetApp se requiere para admitir el programa de garantía de recuperación de ransomware y debe adquirirse por separado del pedido de Keystone asociado.</block>
@@ -1562,7 +1552,6 @@ A continuación se muestra un ejemplo:</block>
   <block id="bcd6ed294af34e837c537b83a1a3de21" category="list-text">CentOS 7 (sólo para entornos existentes)</block>
   <block id="265561b81e51364d306e58144832b7a8" category="summary">Si necesita ayuda, póngase en contacto con el equipo de soporte de NetApp Keystone.</block>
   <block id="9dc4e2b4f34e5f118e35019c46b06a4a" category="paragraph">Si se detecta una infracción del acuerdo de nivel de servicio, abra un ticket de soporte de prioridad 3 (P3) con soporte de NetApp Keystone.</block>
-  <block id="5ece80a8e6fc51ca90ea8b795dbe7f83" category="list-text">Facilite los detalles en la hoja de excel como se muestra a continuación para un ticket P3 abierto con soporte de NetApp Keystone.</block>
   <block id="cac189ace7fac11fbcff63b35adf8770" category="list-text">La solicitud de crédito de servicio debe iniciarse en el plazo de seis semanas después de que el soporte de NetApp Keystone haya validado una infracción. Todos los créditos de servicios deben ser reconocidos y aprobados por NetApp.</block>
   <block id="3a36d2372ffa5421518253f5c68f7c51" category="paragraph">Si se detecta una violación del SLA, abra un ticket de soporte de prioridad 3 (P3) con soporte de NetApp Keystone y proporcione los detalles según lo solicitado en la hoja de excel como se muestra a continuación:</block>
   <block id="cb74be13d3a600957d1ee583265f537d" category="section-title">Ver el uso diario de datos de ráfaga acumulados</block>
@@ -1643,8 +1632,6 @@ A continuación se muestra un ejemplo:</block>
   <block id="5f351af05581a0eadaf1177970b72a10" category="section-title">Niveles de servicio de rendimiento</block>
   <block id="e1a2df339e5e1d4b2b6d447c58823500" category="list-text">*Capacidad total comprometida*: La capacidad comprometida para el nivel de servicio de rendimiento del pedido de Keystone.</block>
   <block id="651923524521408d98ff12d09f60af11" category="list-text">*tarifas de capacidad*: Las tarifas por el nivel de servicio de rendimiento afectado para el mes.</block>
-  <block id="b4b730f8748f9304cf03a7bd9ca06fbf" category="inline-link-macro">Niveles de servicio de rendimiento en Keystone</block>
-  <block id="256f997b6fa99f6bde704d4194be3d6c" category="paragraph">Para obtener más información sobre los requisitos de latencia de los niveles de servicio de rendimiento, consulte <block ref="d8f18ae99fd2b456a3470321b1aded8e" category="inline-link-macro-rx"></block> .</block>
   <block id="edab02bbfaf3788182e3fa77788a9e44" category="list-text">la capacidad comprometida + la capacidad de ráfaga asignada para el nivel de servicio de rendimiento, o</block>
   <block id="1ef86c84141cbf98bc2a59eeffa9afd3" category="paragraph">Para obtener más información, consulte <block ref="b7d94ab5747cf2f7821847d435faf714" category="inline-link-macro-rx"></block>.</block>
   <block id="33a7d9c43d0ae3063679287913d61f25" category="summary">Ver o cancelar la solicitud de servicio de suscripción de Keystone.</block>
@@ -2392,7 +2379,6 @@ A continuación se muestra un ejemplo:</block>
   <block id="77750efa6f5ff153acdc42067058017f" category="section-title">10 de noviembre de 2025</block>
   <block id="0c359189f8e07afc4bf0a432b108a2f7" category="list-text">El cliente proporciona un servidor Linux que se ejecuta en uno de los siguientes sistemas operativos: Debian 12, Red Hat Enterprise Linux 8.6 o versiones 8.x posteriores, Red Hat Enterprise Linux 9.0 o versiones posteriores, o CentOS 7 (solo para entornos existentes). El software Keystone se instala mediante<block ref="27b0f8226ae1a7f1b973155b13221df6" prefix=" " category="inline-code"></block> o<block ref="a0d068ed6db680cb6ae54d799e889954" prefix=" " category="inline-code"></block> paquete, dependiendo de la distribución de Linux.</block>
   <block id="188a74af3438876c97ac7877f4af6cc9" category="list-text">El cliente proporciona un servidor Linux que se ejecuta en Debian 12, Ubuntu 20.04 LTS, Red Hat Enterprise Linux (RHEL) 8.x, Red Hat Enterprise Linux 9.0, Amazon Linux 2023 o versiones más recientes.</block>
-  <block id="079d46d4e807d9ca797d92cd97e9c5ea" category="list-text">Los créditos de servicio se pueden aplicar a una factura futura. Los créditos de servicio no se aplican a suscripciones de Keystone vencidas. Para obtener más información, consulte <block ref="4e739353290fa4a9ebb5e0d958a5945c" category="inline-link-macro-rx"></block>.</block>
   <block id="75269ad6e7abe01d12768761ab748b48" category="paragraph"><block ref="75269ad6e7abe01d12768761ab748b48" category="inline-link-rx"></block></block>
   <block id="8e3e0d66dd46c331ec4b3a698a38a9e7" category="list-text">Puede solicitar cambios en la capacidad comprometida a través de la Consola o desde su Keystone Success Manager (KSM). Para obtener información sobre cómo solicitar cambios, consulte <block ref="4e739353290fa4a9ebb5e0d958a5945c" category="inline-link-macro-rx"></block>.</block>
   <block id="17766f6125f71fd7cf26ceef70d4e504" category="list-text">Una vez descargado el archivo, puedes adjuntarlo al ticket de soporte de Keystone ServiceNow. Para obtener información sobre cómo recaudar fondos, consulte <block ref="fa4c1fe482109028db7ac27dab34833d" category="inline-link-macro-rx"></block>.</block>
@@ -2610,4 +2596,14 @@ A continuación se muestra un ejemplo:</block>
   <block id="3a0ac91f607c4908d1e3d47d382884f8" category="list-text">*Suscripciones vinculadas*: si tienes alguna suscripción secundaria vinculada a tu suscripción principal, esta columna muestra los números de suscripción vinculados a la suscripción principal.</block>
   <block id="b3f613e3d8f464b4f2aaf03e58cd7343" category="list-text">*Suscripciones vinculadas*: si tienes alguna suscripción secundaria vinculada a tu suscripción principal, esta columna muestra los números de suscripción vinculados a la suscripción principal.</block>
   <block id="fb042b7b99959e391eeb7c417511098a" category="section-title">16 febrero 2026</block>
+  <block id="5232623a9d0949665269220e42d1050b" category="list-text">Proporciona los detalles en la hoja de Excel como se muestra a continuación para un ticket P3 abierto con NetApp Keystone support.</block>
+  <block id="13505dac4434596c4a796389e650eb08" category="list-text">Los créditos de servicio podrían aplicarse a una factura futura. Los créditos de servicio no se aplican a las suscripciones Keystone caducadas. Para saber más, consulta <block ref="4e739353290fa4a9ebb5e0d958a5945c" category="inline-link-macro-rx"></block>.</block>
+  <block id="1f5595c5befe745db8dadf46b35fce52" category="list-text">La *latencia del percentil 90^th^* se mide por volumen, por instancia de nivel de servicio de rendimiento, para todos los volúmenes dentro de un Keystone Order. La latencia se muestrea cada cinco minutos y el valor del percentil 90^th^ calculado durante un período de 24 horas se utiliza como la medida diaria, considerando los siguientes puntos:</block>
+  <block id="40f098b2e9bcd6666815272fd1d0b84e" category="list-text">Durante un periodo de 24 horas, al menos diez métricas válidas deberían estar disponibles. Si no se cumple la condición, las métricas se descartarán.</block>
+  <block id="0e20d6162625fb8fb8b7b598f96e52da" category="cell">&amp;lt;=1ms</block>
+  <block id="692ed37295bb7f348009da0eb9d9f9ba" category="cell">&lt;=4ms</block>
+  <block id="6efe08597c08ab2309936c3460daafb5" category="cell">&gt;=4ms</block>
+  <block id="da4bea38cc1244c367fa4751943a1de3" category="paragraph">Para saber más sobre los requisitos de latencia de los niveles de servicio de rendimiento, consulta <block ref="d534e2cd061f06b6e0ad742d6dda7fee" category="inline-link-macro-rx"></block>.</block>
+  <block id="b4508efb1fe09000c916385cb19795aa" category="cell">*Días de calendario afectados*</block>
+  <block id="2f8ed0b357b613711aa9e5d215bc6566" category="paragraph">Según el cálculo, los créditos de servicio serán $12.</block>
 </blocks>
