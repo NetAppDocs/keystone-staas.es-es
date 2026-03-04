@@ -44,7 +44,11 @@ Puede ver esta información siguiendo estos pasos:
 image:bxp-volumes-clusters-single-subscription-1.png["Una captura de pantalla de volúmenes en clústeres para una suscripción"]
 
 +
-Verá información detallada sobre los volúmenes en clústeres, incluido el nombre del volumen, el número de serie del nodo, el nombre del clúster, el nombre del host y los niveles del servicio de rendimiento. También puede supervisar la capacidad aprovisionada, la utilización lógica y física y los datos fríos.
+Ves la información detallada sobre los volúmenes en los clústeres, incluyendo el nombre del volumen, el número de serie del nodo, el nombre del clúster, el nombre de host y los niveles de servicio de rendimiento. También puedes monitorear la capacidad aprovisionada, la utilización lógica y física, los datos fríos y los datos calientes.
+
++
+
+NOTE: Las columnas *Cold tier %* y *Hot tier %* muestran el porcentaje de datos en cada nivel, calculado como (Cold data / Total footprint) × 100 y (Hot data / Total footprint) × 100 respectivamente.
 
 +
 

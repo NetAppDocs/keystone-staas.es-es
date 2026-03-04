@@ -77,6 +77,9 @@ El mismo servidor también debe tener instalados los siguientes paquetes de terc
 
 
 
+NOTE: Sólo los paquetes de terceros enumerados anteriormente son compatibles con Keystone Collector. Instalar software adicional no es compatible y puede afectar el rendimiento del recopilador, la recopilación de datos y la precisión de la facturación.
+
+
 
 == Requisitos de red
 

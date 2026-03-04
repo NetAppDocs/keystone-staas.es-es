@@ -27,14 +27,18 @@ Para ver las alertas activas, siga estos pasos:
 .Pasos
 . Desde el menú de navegación izquierdo de la consola, seleccione *Almacenamiento > Keystone > Monitoreo > Alertas*.
 +
-image:monitoring-alerts-default-view-1.png["Una captura de pantalla de alertas activas para suscripciones de Keystone"]
+image:monitoring-alerts-default-view-2.png["Una captura de pantalla de alertas activas para suscripciones de Keystone"]
 
 +
-Puede ver detalles de la alerta, como gravedad, ID, descripción, hora de activación, número de suscripción, ID de seguimiento, nivel de servicio de rendimiento y estado.  La página también muestra el total de alertas no resueltas por gravedad y tipo.
+Puedes ver detalles de las alertas como gravedad, ID, tipo y condición, descripción, hora de activación, número de suscripción, ID de seguimiento, nivel de servicio de rendimiento y estado. La página también muestra el total de alertas sin resolver por gravedad y tipo.
 
 +
 
 NOTE: La pestaña *Informes* actualmente no está disponible para las suscripciones de Keystone .
+
++
+
+TIP: Puedes personalizar la tabla usando el icono del selector de columnas image:column-selector.png["icono del selector de columnas"].
 
 
 
@@ -44,10 +48,14 @@ NOTE: La pestaña *Informes* actualmente no está disponible para las suscripcio
 
 Desde la pestaña *Alertas*, puedes realizar las siguientes acciones:
 
-* *Revisar y resolver alertas*: seleccione el número de ID de la alerta para abrir una vista detallada de la alerta.  Esta vista muestra la descripción de la alerta y los pasos de resolución sugeridos.  Desde esta vista detallada, puedes:
+* *Revisa y resuelve alertas*: selecciona el ID de la alerta para abrir una vista detallada de la alerta. Esta vista muestra la descripción de la alerta y los pasos sugeridos para resolverla. Desde esta vista detallada, puedes marcar la alerta como resuelta usando el botón *Editar* o agregar notas de apoyo usando el botón *Agregar nota*.
 +
-** Marque la alerta como resuelta seleccionando el botón *Editar* después de abordar el problema.
-** Agregue notas de apoyo seleccionando el botón *Agregar nota* si es necesario.
+También puedes usar el icono de la elipsis junto a la columna *Estado* para realizar las siguientes acciones:
+
++
+** *Editar*: abre una ventana emergente para cambiar el estado de la alerta y añadir detalles de resolución.
+** *Add note*: Abre una ventana emergente para añadir una nota a la alerta.
+** *Vista*: abre la misma vista detallada que al seleccionar el ID de la alerta.
 +
 
 NOTE: Para editar alertas se requiere el rol de *administrador de Keystone *. El rol de *visor de Keystone * solo puede ver detalles de alertas. Para obtener más información, consulte link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-keystone-roles.html["Roles de acceso de Keystone en la NetApp Console"^].

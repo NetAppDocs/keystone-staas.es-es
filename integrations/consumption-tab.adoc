@@ -45,7 +45,11 @@ NOTE: Si te has suscrito a servicios complementarios como la protección avanzad
 image:bxp-consumption-trend-1.png["captura de pantalla que muestra el consumo histórico"]
 
 +
-El gráfico de líneas muestra datos históricos de consumo y permite a los usuarios analizar tendencias durante un rango de fechas seleccionado. El gráfico muestra métricas como la capacidad utilizada (capacidad de almacenamiento total, incluidos los datos y los datos de instantáneas), los datos (capacidad de almacenamiento utilizada por los datos del usuario) y las instantáneas (capacidad de almacenamiento utilizada por los datos de instantáneas), junto con la capacidad comprometida y en ráfagas. La fecha y la hora de cada punto de datos se muestran en la parte inferior del gráfico. Según el rango de fechas de su consulta, los gráficos de uso muestran hasta 30 puntos de recopilación de datos. Puede pasar el cursor del mouse sobre el gráfico para ver el desglose del uso en cada punto de recopilación de datos.
+El gráfico de líneas muestra datos históricos de consumo y permite a los usuarios analizar tendencias en un intervalo de fechas seleccionado. El gráfico muestra métricas como capacidad utilizada (capacidad total de almacenamiento, incluyendo tanto datos como datos de captura de pantalla), datos (capacidad de almacenamiento utilizada por datos de usuario) y captura de pantalla (capacidad de almacenamiento utilizada por datos de captura de pantalla), junto con capacidad comprometida y de ráfaga. Según el intervalo de fechas de tu consulta, los gráficos de uso muestran hasta 30 puntos de recopilación de datos. Puedes pasar el cursor del ratón por encima del gráfico para ver el desglose de uso en cada punto de recopilación de datos.
+
++
+
+NOTE: El intervalo de fechas que selecciones determina el nivel de detalle mostrado en la parte inferior del gráfico. Para periodos de 30 días o menos, se muestran tanto la fecha como la hora para cada punto de datos. Para periodos superiores a 30 días, solo se muestra la fecha.
 
 +
 
@@ -135,6 +139,10 @@ La ráfaga es la diferencia entre la capacidad consumida y la capacidad comprome
 
 Puedes ver el uso de datos de ráfaga acumulada a través de la NetApp Console o Digital Advisor. Si has seleccionado *Accrued burst* en el menú desplegable *View* de la pestaña *Consumption trend* en la NetApp Console, o la opción *Invoiced Accrued Burst* de la pestaña *Consumption Trend* en Digital Advisor, puedes ver el uso de datos de ráfaga acumulada de forma mensual o trimestral, dependiendo del periodo de facturación que elijas. Estos datos están disponibles para los últimos 12 meses que han sido facturados y puedes consultarlos por rango de fechas hasta los últimos 30 meses.
 
+En la Consola, además del uso de ráfagas facturado, también puedes ver el uso de ráfagas no facturado (devengado pero aún no facturado) y el uso de ráfagas provisional (devengado en el periodo de facturación actual y aún no facturado).
+
+image:accr-burst-provision-invoice.png["captura de pantalla que muestra el uso acumulado de ráfagas en la Console"]
+
 [TIP]
 ====
 * En la NetApp Console, puedes interactuar con el gráfico de facturación de ráfagas acumuladas para filtrar el uso diario de datos. Para saber más, consulta link:../integrations/consumption-tab.html#view-daily-accrued-burst-data-usage["Ver el uso diario de datos de ráfaga acumulados"].
@@ -157,6 +165,8 @@ Puede ver el uso de datos acumulado diariamente para un período de facturación
 En la Console, puedes filtrar la tabla seleccionando cualquier barra que represente un periodo de facturación en el gráfico de facturación de ráfagas acumuladas. Cuando está filtrada, la tabla muestra solo los días dentro del periodo de facturación seleccionado. Para ver el conjunto de datos completo de nuevo, usa la opción *Clear filters*. Si no hay datos disponibles para el periodo seleccionado, aparece un mensaje indicando que no hay datos disponibles.
 
 image:bxp-accrued-burst-days-1.png["Captura de pantalla que muestra la tabla de ráfagas acumuladas por días"]
+
+También puedes descargar los datos en formato Excel, incluido el estado de las ráfagas (facturadas, no facturadas o provisionales) y el periodo de facturación.
 
 En Digital Advisor, cuando hace clic en la barra que muestra los datos facturados de la opción *Ráfaga acumulada facturada*, verá la sección Capacidad aprovisionada facturable debajo del gráfico de barras, que ofrece opciones de visualización de gráficos y tablas. La vista de gráfico predeterminada muestra el uso diario de los datos de ráfaga acumulados en un formato de gráfico de líneas, donde se muestran los cambios en el uso a lo largo del tiempo.
 

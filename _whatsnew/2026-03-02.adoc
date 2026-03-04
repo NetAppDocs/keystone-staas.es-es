@@ -1,0 +1,29 @@
+= Nuevas columnas en la pestaña Volumes in clusters
+:allow-uri-read: 
+
+
+Nuevas mejoras en el panel de Keystone en la NetApp Console:
+
+
+
+=== Nuevas columnas en la pestaña Volumes in clusters
+
+Tres nuevas columnas, *Hot data*, *Cold tier (%)* y *Hot tier (%)*, se añaden a la pestaña *Volumes in clusters* en *Assets*. Para más información, consulta link:./integrations/assets-tab.html["Ver activos asociados con una suscripción de Keystone"] y link:./integrations/assets.html["Visualiza los activos en todas tus suscripciones de Keystone"].
+
+
+
+=== Uso de ráfagas facturadas, no facturadas y provisionales en la tendencia de consumo
+
+El gráfico de facturación de ráfagas acumuladas en la pestaña *Tendencia de consumo* ahora muestra el uso de ráfagas facturado, no facturado y provisional. Para saber más, consulta link:./integrations/consumption-tab.html#view-accrued-burst["Ver ráfaga acumulada"].
+
+
+
+=== Mejoras en la vista de Monitoring
+
+La vista *Monitoring* incluye las siguientes actualizaciones:
+
+* *Pestaña Alerts*: La columna *Alert* ahora se llama *Alert type & condition*. Ahora también puedes usar el icono de elipsis junto a la columna *Status* para editar una alerta, agregar una nota o ver los detalles de la alerta.
+* *Pestaña Alert monitors*: La columna *Condition* ahora se llama *Monitor type & condition*.
+
+
+Para saber más, consulta link:./integrations/monitoring-alerts.html["Ver y administrar alertas para suscripciones de Keystone"] y link:./integrations/monitoring-alert-monitors.html["Ver y crear monitores de alertas para suscripciones de Keystone"].

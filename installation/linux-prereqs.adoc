@@ -39,6 +39,9 @@ El mismo servidor también debería tener los siguientes paquetes de terceros:
 * Python 3 (3.9.14 a 3.11.8)
 
 
+
+NOTE: Sólo los paquetes de terceros enumerados anteriormente son compatibles con Keystone Collector. Instalar software adicional no es compatible y puede afectar el rendimiento del recopilador, la recopilación de datos y la precisión de la facturación.
+
 .Máquina virtual del servidor de recopilador Keystone:
 * Básico: 2 CPU
 * RAM: 4 GB DE RAM
