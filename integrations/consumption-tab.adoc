@@ -42,10 +42,20 @@ NOTE: Puede seleccionar *Ráfaga acumulada* en el menú desplegable *Ver* si des
 NOTE: Si te has suscrito a servicios complementarios como la protección avanzada de datos (ADP) o Data Infrastructure Insights (DII), los datos de consumo de estos servicios aparecen junto a tus niveles de servicio de rendimiento base tanto en el consumo histórico como en la vista de ráfagas acumuladas. Para saber más sobre los servicios complementarios, consulta link:../concepts/adp.html["Conoce los servicios añadidos"].
 
 +
-image:bxp-consumption-trend-1.png["captura de pantalla que muestra el consumo histórico"]
+image:consumption-trend-burst.png["captura de pantalla que muestra el consumo histórico"]
 
 +
-El gráfico de líneas muestra datos históricos de consumo y permite a los usuarios analizar tendencias en un intervalo de fechas seleccionado. El gráfico muestra métricas como capacidad utilizada (capacidad total de almacenamiento, incluyendo tanto datos como datos de captura de pantalla), datos (capacidad de almacenamiento utilizada por datos de usuario) y captura de pantalla (capacidad de almacenamiento utilizada por datos de captura de pantalla), junto con capacidad comprometida y de ráfaga. Según el intervalo de fechas de tu consulta, los gráficos de uso muestran hasta 30 puntos de recopilación de datos. Puedes pasar el cursor del ratón por encima del gráfico para ver el desglose de uso en cada punto de recopilación de datos.
+El gráfico lineal muestra datos históricos de consumo y permite a los usuarios analizar tendencias en un intervalo de fechas seleccionado. El gráfico muestra las siguientes métricas:
+
++
+** *Capacidad utilizada*: Almacenamiento total en uso, incluida la capacidad de datos y de instantáneas.
+** *Datos*: Capacidad de almacenamiento utilizada por los datos del usuario.
+** *Instantánea*: Capacidad de almacenamiento utilizada por los datos de la instantánea.
+** *Comprometida*: la capacidad comprometida contratada.
+** *Capacidad de ráfagas*: el límite máximo de ráfagas permitido para tu suscripción.
+** *Por encima de la capacidad de ráfaga*: Consumo de almacenamiento por encima del límite de ráfaga. Esta métrica aparece solo cuando se supera el límite de ráfaga.
++
+Según el intervalo de fechas de tu consulta, los gráficos de uso muestran hasta 30 puntos de recopilación de datos. Puedes pasar el cursor del ratón por encima del gráfico para ver el desglose de uso en cada punto de recopilación de datos.
 
 +
 
@@ -57,6 +67,8 @@ NOTE: Si un nivel de servicio de rendimiento tiene varias instancias, puede filt
 
 +
 También puede ver un resumen del consumo actual junto con el consumo histórico para obtener una comprensión clara de su uso.
+
+
 
 
 
@@ -123,6 +135,20 @@ Puede hacer clic en el botón de alternar *Mostrar uso actual* para ver el consu
 
 --
 ====
+
+
+== Ver datos de previsión
+
+Puedes ver el uso de capacidad proyectado para los próximos 120 días a partir de la fecha actual usando el interruptor *Forecast* disponible en la vista *Consumo histórico* de la pestaña *Tendencia de consumo* en la Console. El interruptor está activado por defecto.
+
+Por defecto, el gráfico muestra los últimos 30 días de consumo histórico y una proyección de 120 días a partir de la fecha actual en el mismo gráfico. Se trazan hasta 30 puntos de datos en total (20 para datos históricos y 10 para datos de pronóstico), con una línea vertical que separa los dos segmentos.
+
+image:forecast-1.png["captura de pantalla con datos de previsión"]
+
+Si seleccionas un intervalo de fechas que no termina en la fecha actual, la previsión se desactiva automáticamente. Para volver a activarla, un cuadro de diálogo de confirmación te informa que los datos de previsión solo están disponibles cuando la línea temporal seleccionada termina en la fecha actual. Al confirmar, la vista se restablece al intervalo predeterminado de los últimos 30 días de datos históricos más los próximos 120 días de previsión.
+
+Si se prevé que el consumo superará la capacidad de ráfagas, aparecerá un indicador de alerta en el gráfico, recomendando una actualización de la capacidad.
+
 
 
 == Cálculo de ráfagas acumuladas
