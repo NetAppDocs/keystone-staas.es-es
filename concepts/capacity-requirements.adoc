@@ -124,46 +124,66 @@ Capacidad incremental (y en múltiplos) permitida como complemento durante la su
 
 == Ajustes de capacidad
 
-Obtenga más información sobre los ajustes de capacidad:
+Comunica cualquier cambio de capacidad previsto a NetApp de manera oportuna para permitir la planificación y el despliegue. Las siguientes condiciones se aplican a todos los ajustes de capacidad:
 
-* Se puede agregar capacidad en cualquier momento durante el plazo, excepto durante los últimos 90 días del plazo del contrato, en incrementos por nivel de servicio de rendimiento como se describe en las tablas de la sección anterior. Se permite la adición de capacidad o servicios dentro de los últimos 90 días del plazo del contrato siempre que exista consentimiento de renovación del servicio. Cualquier adición de capacidad, el nuevo servicio en las instalaciones o el cloud puede coexistir con el período existente. La factura que se le ha enviado tras la activación de los nuevos servicios refleja la facturación revisada. La capacidad comprometida de los servicios cloud no puede reducirse en ningún momento durante el plazo de suscripción. Mientras tanto, la capacidad comprometida y el gasto comprometido en los servicios en las instalaciones durante la duración del contrato pueden reducirse en base a ciertos criterios definidos en la siguiente sección _reducción de capacidad_.
-* Cada sitio dispone de una capacidad de ráfaga según el acuerdo de Keystone. Generalmente se establece hasta un 20% por encima de la capacidad comprometida para un nivel de servicio de rendimiento. Cualquier uso en ráfaga se factura sólo durante ese período de facturación. Si tiene un requisito de ráfaga adicional mayor que la capacidad acordada, póngase en contacto con el servicio de soporte.
-* La capacidad comprometida puede modificarse durante un contrato, sólo en determinadas condiciones, como se describe en la siguiente sección _reducción de capacidad_.
-* Se permite aumentar la capacidad o cambiar a un nivel de servicio de mayor rendimiento durante el período de suscripción. Sin embargo, no se permite cambiar de un nivel de servicio de mayor rendimiento a uno de menor rendimiento.
-* Cualquier solicitud de cambio en los últimos 90 días del periodo de servicio requiere una renovación del servicio por un mínimo de un año.
+* *Aumentos de capacidad*: La capacidad comprometida puede aumentarse durante el periodo de suscripción en los incrementos especificados, excepto en los últimos 90 días antes de su vencimiento a menos que se renueve la suscripción. Una vez confirmado por NetApp, el aumento se aplica durante el resto del periodo y el pago mínimo se revisa en consecuencia. Todas las adiciones de capacidad y los nuevos servicios, ya sean locales o en la nube, coexisten con la suscripción existente. La capacidad comprometida para los servicios en la nube no puede reducirse en ningún momento durante el periodo de suscripción.
+* *Facturación por incrementos*: Para las suscripciones con el modelo de pago _Anual por adelantado_, NetApp facturará cualquier aumento prorrateado de los pagos mínimos adeudados para el resto del periodo de facturación actual. La factura enviada tras la activación de los nuevos servicios refleja la facturación revisada.
+* *Capacidad de ráfaga*: Capacidad adicional por encima del nivel comprometido disponible en cada sitio, normalmente hasta un 20% por nivel de servicio de rendimiento. Para más detalles sobre los límites de ráfaga y la facturación, consulta link:../concepts/supported-storage-capacity.html["Capacidades de almacenamiento compatibles con Keystone"].
+* *Cambios en el nivel de servicio de rendimiento*: aumentar a un nivel de servicio de rendimiento superior está permitido durante el periodo de suscripción. Reducir a un nivel de servicio de rendimiento inferior no está permitido.
+* *Reducción de la capacidad local*: La capacidad comprometida para servicios locales puede reducirse en determinadas condiciones. Consulta _Reducción de capacidad_ para más detalles.
 
 
 
 
 === Reducción de capacidad
 
-La reducción de la capacidad (anual) es aplicable al modelo de pago _Anual por adelantado_ y a las puestas en marcha únicamente en las instalaciones. No está disponible para servicios cloud ni para servicios de cloud híbrido. Proporciona capacidad en las instalaciones, lo que puede reducirse hasta en un 25 % por nivel de servicio por suscripción. Esta reducción se permite una vez al año para ser efectiva al comienzo del próximo período de facturación anual. Los pagos anuales basados en servicios en las instalaciones deben ser >= 200 000 dólares en cualquier momento durante el plazo para poder aprovechar la reducción de capacidad. Como solo se admite para puestas en marcha en las instalaciones, este modelo de facturación no permite reasignar el gasto de servicios en las instalaciones a servicios de cloud. En la imagen siguiente se ilustra un ejemplo de reducción de capacidad anual.
+La reducción de capacidad comprometida se aplica únicamente al modelo de pago _Anual por adelantado_ y a las implementaciones locales de Keystone. Se requiere un periodo de suscripción mínimo de 24 meses para ser elegible. Los servicios en la nube y las implementaciones en la nube híbrida no son elegibles para la reducción de capacidad.
 
-image:reallocation.png["explicación de la lógica de reasignación"]
+Las siguientes condiciones rigen todas las solicitudes de reducción de capacidad comprometida:
+
+* *Solicitud por escrito*: Las solicitudes deben presentarse por escrito y recibirse en NetApp al menos 60 días antes del siguiente periodo de suscripción anual en el que surta efecto la reducción.
+* *Reducciones permitidas por período*:
++
+** Para periodos de suscripción de 2 o 3 años: se permite una reducción durante el periodo de suscripción.
+** Para periodos de suscripción de 4 o 5 años: se permiten dos reducciones durante el periodo de suscripción.
+
+
+* *Límite de reducción por solicitud*: Una sola reducción no puede superar el 25% de la capacidad comprometida en el momento de la solicitud.
+* *Umbral mínimo de capacidad*: Una reducción no puede hacer que la capacidad comprometida caiga por debajo del requisito mínimo de capacidad comprometida para el nivel de servicio de rendimiento aplicable.
+* *Fecha de entrada en vigor*: Las reducciones aprobadas entran en vigor al inicio del siguiente periodo de suscripción anual.
+
+
+Para que se apruebe una solicitud de reducción, los pagos anuales basados en el servicio on-premises deben seguir siendo iguales o superiores a USD 200K después de aplicar la reducción.
+
+La siguiente imagen muestra un ejemplo de cómo se aplican las reducciones de capacidad a una suscripción Keystone de 3 años.
+
+image:capacity-reduction.png["explicación de la lógica de reasignación"]
+
+En este ejemplo, la capacidad comprometida inicial es de 300 TiB (pago anual de 300K USD). En el año 1, se recibe una solicitud para reducir la capacidad a 225 TiB. NetApp valida que la reducción (75 TiB) está dentro del límite del 25% y que el pago resultante se mantiene en o por encima de 200K USD. La solicitud se aprueba y entra en vigor al comienzo del año 2. En el año 2, se recibe una solicitud para reducir la capacidad a 100 TiB. NetApp rechaza la solicitud porque la reducción supera el 25% de la capacidad comprometida actual (225 TiB) y ya se ha utilizado la única reducción permitida para este periodo de 3 años. La capacidad para el año 3 se mantiene en 225 TiB (pago anual de 225K USD) y no se permiten más reducciones.
 
 
 
 === Reasignación trimestral del gasto
 
-STaaS Keystone te ofrece la opción de reasignar el gasto del servicio on-premises a los gastos de Cloud Volumes ONTAP.
+La reasignación trimestral de gastos solo está disponible para los servicios de nube híbrida. Permite reasignar los gastos de servicios locales a gastos de servicios en la nube de forma trimestral. No se permite la reasignación de servicios en la nube a servicios locales.
 
-Requisitos y condiciones en un nivel de suscripción:
+Las siguientes condiciones se aplican a todas las solicitudes de reasignación:
 
-* Se aplica sólo a la facturación mensual en el modelo arrear.
-* Se aplica sólo a suscripciones con compromisos de plazo de 1, 2 o 3 años.
-* La capacidad de Cloud Volumes ONTAP y Cloud Backup Service debe adquirirse a través de Keystone.
-* Se puede utilizar hasta el 25 % de los pagos mensuales basados en servicios en las instalaciones para reasignar servicios a servicios cloud.
-* Las solicitudes de reasignación sólo se realizan después de 90 días a partir de la fecha de activación anterior de la reasignación.
-* La reasignación no se puede realizar desde los servicios en la nube a los servicios on-premises.
-* El cliente o partner deben enviar formalmente una solicitud de reasignación a Keystone Success Manager (KSM), al menos una semana antes del siguiente ciclo de facturación.
-* Las nuevas solicitudes entran en vigor sólo a partir del ciclo de facturación consecutivo.
+* *Límite de reasignación*: hasta el 25% del valor contractual anual (VCA) en el momento de la solicitud se puede reasignar.
+* *Pago mínimo tras la reasignación*: Tras la reasignación, el pago mínimo mensual local por suscripción debe seguir siendo igual o superior a USD 16,667.
+* *bloqueo de 90 días*: No se puede activar una nueva solicitud de reasignación hasta que hayan transcurrido al menos 90 días desde la activación de la reasignación anterior.
+* *Restricción de fin de plazo*: No se permite la reasignación durante los últimos 90 días del periodo de suscripción, a menos que se renueve la suscripción.
+* *Plazo de solicitud*: Las solicitudes deben presentarse al menos 5 días laborables antes del siguiente ciclo de facturación.
+* *Fecha de entrada en vigor*: Las solicitudes aprobadas entran en vigor el primer día del siguiente ciclo de facturación.
 
 
-Puede asignar una parte de sus gastos a los niveles de rendimiento del servicio de almacenamiento de archivos, bloques u objetos suscritos a servicios de almacenamiento en la nube híbridos. Se puede reasignar hasta un 25% del valor contractual anual (ACV) trimestralmente a los servicios principal y secundario de Cloud Volumes ONTAP y Cloud Volumes ONTAP:
+La imagen siguiente ilustra el funcionamiento de la reasignación trimestral de gastos.
 
 image:reallocation.png["explicación de la lógica de reasignación"]
 
-Esta tabla proporciona un juego de valores de ejemplo para demostrar cómo funciona la reasignación de gastos. En este ejemplo: `$5000` desde la cuota mensual se reasigna al servicio de almacenamiento en cloud híbrido.
+En este ejemplo, el gasto local es de 30K USD al mes. En febrero, la solicitud A para mover 5K USD a servicios en la nube se aprueba y activa en marzo, lo que desencadena un bloqueo de 90 días hasta mayo. La solicitud B, enviada durante el período de bloqueo, se activa después de que expire el bloqueo, reduciendo el gasto local a 20K USD y aumentando el gasto en servicios en la nube a 10K USD a partir de julio. No se permite ninguna reasignación en los últimos 90 días del plazo.
+
+Esta tabla proporciona una serie de valores de ejemplo para demostrar cómo funciona la reasignación de gastos. En este ejemplo, 5.000 USD de los gastos mensuales se reasignan al servicio de almacenamiento en la nube híbrida.
 
 |===
 
@@ -187,4 +207,6 @@ Esta tabla proporciona un juego de valores de ejemplo para demostrar cómo funci
 |===
 La reducción es de (125-108) = 17 TiB de la capacidad asignada para el nivel de servicio de rendimiento Extremo. En la reasignación de gastos, el almacenamiento en cloud híbrido asignado no es de 17 TiB, sino una capacidad equivalente que puede adquirir $5000. En este ejemplo, por $5000, puede obtener 17 TiB de capacidad de almacenamiento local para el nivel de servicio de rendimiento Extremo y 47 TiB de capacidad de nube híbrida para el nivel de servicio de rendimiento de Cloud Volumes ONTAP. Por lo tanto, la reasignación es con respecto al gasto, no la capacidad.
 
-Ponte en contacto con tu Keystone Success Manager (KSM) si deseas reasignar los gastos de tus servicios on-premises a los servicios en la nube.
+Contacta a tu Keystone Success Manager (KSM) para enviar una solicitud de reasignación.
+
+Para más información, consulta la  https://fieldportal.netapp.com/s/article/Changes-to-Keystone-STaaS-Service-Description-and-Supplement-v3-Reference-Guide["Guía de referencia de la descripción del servicio y suplemento Keystone STaaS v3"^].

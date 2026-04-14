@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: concepts/operational-models.html 
-keywords: Operational models, partner operations, customer operations, roles and responsibilities, r&r 
+keywords: Operational models, partner operations, customer operations, roles and responsibilities, 
 summary: STaaS de NetApp Keystone ofrece dos modelos operativos para la prestación de servicios. Debe comprender estas opciones antes de empezar a usar Keystone. 
 ---
 = Los modelos operativos en Keystone
