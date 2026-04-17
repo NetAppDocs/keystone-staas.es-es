@@ -14,7 +14,10 @@ summary: Usa el servicio adicional de protección avanzada de datos para asegura
 
 
 [role="lead"]
-Puedes suscribirte al servicio complementario de protección avanzada de datos (ADP) con tu suscripción a Keystone STaaS. Mientras que los servicios estándar de Keystone incluyen protección de datos predeterminada usando SnapMirror, SnapVault y Snapshot, este servicio complementario usa la tecnología NetApp MetroCluster para asegurar una protección de datos eficiente de tus cargas de trabajo de misión crítica con un objetivo de punto de recuperación (RPO) de 0.
+Suscríbete al complemento de protección avanzada de datos (ADP) con tu suscripción a Keystone STaaS. ADP utiliza la tecnología NetApp MetroCluster para la duplicación síncrona de datos de sitio a sitio. Con un objetivo de punto de recuperación (RPO) de 0, evitas la pérdida de datos durante los fallos del sitio. Descubre cómo funciona ADP, las configuraciones compatibles y los precios.
+
+
+NOTE: El servicio adicional de protección avanzada de datos solo está disponible para almacenamiento unificado en matrices de almacenamiento AFF (niveles de servicio de rendimiento _Extreme_, _Premium_ y _Standard_). No se admite en matrices de almacenamiento FAS (nivel de servicio de rendimiento _Value_).
 
 El servicio avanzado de protección de datos de Keystone puede reflejar datos de forma sincrónica en un sitio secundario. En caso de un desastre en el sitio primario, el sitio secundario puede tomar el control sin ninguna pérdida de datos. Esta función usa la configuración link:https://docs.netapp.com/us-en/ontap-metrocluster["MetroCluster"^] entre dos sitios para habilitar la protección de datos. Puedes usar los servicios complementarios avanzados de protección de datos solo para tus servicios de almacenamiento de archivos y bloques. Como parte de este servicio complementario, el nivel de servicio de rendimiento `Advanced Data-Protect` se asigna a tu suscripción.
 
@@ -24,7 +27,7 @@ Puedes monitorear el consumo y las métricas de salud de tu configuración de Me
 
 == Entiende los precios
 
-El servicio adicional de protección avanzada de datos tiene un precio basado en la capacidad comprometida en cada sitio. Esto ayuda a determinar el costo real del servicio de protección avanzada de datos en $/TiB. Los cargos adicionales se aplican a todas las capacidades de tu suscripción, incluyendo los datos de origen, las copias reflejadas y los datos no reflejados.
+El servicio adicional de protección avanzada de datos tiene un precio basado en la capacidad comprometida en cada sitio. Los cargos adicionales se aplican a todas las capacidades de tu suscripción, incluyendo los datos de origen, las copias reflejadas y los datos no reflejados.
 
 Para la configuración de MetroCluster, cada sitio requiere su propia suscripción y te cobran por la capacidad comprometida en cada sitio de forma independiente.
 

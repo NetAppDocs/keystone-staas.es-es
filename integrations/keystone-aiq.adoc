@@ -43,7 +43,7 @@ Puede hacer clic en *Ver todas las suscripciones* para ver los detalles de uso y
 Los detalles de las suscripciones, los gráficos de uso para cada nivel de servicio de rendimiento y los detalles de volumen se muestran en las diferentes pestañas de la pantalla *Suscripciones Keystone*.
 
 
-NOTE: El consumo de capacidad en las suscripciones de Keystone se muestra en TIBs en las consolas e informes, y se redondea a dos posiciones decimales. Si el uso es inferior a 0,01 TiB, el valor se muestra como 0 o Sin uso. Los datos de estas pantallas se muestran en la hora UTC (zona horaria del servidor). Al introducir una fecha para la consulta, se considera automáticamente que está en la hora UTC. Para obtener más información sobre las métricas de uso, consulte link:../concepts/metrics.html#metrics-measurement["Medición de métricas"]. Para obtener información sobre las diferentes capacidades utilizadas en Keystone, consulte link:../concepts/supported-storage-capacity.html["Capacidades de almacenamiento admitidas"].
+NOTE: El consumo de capacidad en las suscripciones de Keystone se muestra en TiBs en los paneles e informes y se redondea a dos decimales. Si el uso es inferior a 0,01 TiB, el valor se muestra como 0 o Sin uso. Los datos de estas pantallas se muestran en hora UTC (zona horaria del servidor). Cuando introduces una fecha para la consulta, se considera automáticamente que está en hora UTC. Para saber más sobre las métricas de uso, consulta link:../concepts/metrics.html#metrics-measurement["Medición de métricas"]. Para información sobre las diferentes capacidades usadas en Keystone, consulta link:../concepts/supported-storage-capacity.html["Tipos de capacidad de almacenamiento en Keystone"].
 
 
 

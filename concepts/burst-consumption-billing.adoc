@@ -24,4 +24,4 @@ Cuando la capacidad consumida es mayor que la capacidad comprometida para un niv
 
 Este proceso tiene lugar para cada registro de consumo generado. Por lo tanto, el consumo de ráfaga es un reflejo de la cantidad y tenencia de sus capacidades consumidas en exceso, además de sus capacidades comprometidas. Para obtener más información, consulte link:../integrations/consumption-tab.html["Vea las tendencias de consumo de sus suscripciones a Keystone"].
 
-Si desea obtener información sobre las distintas capacidades compatibles con Keystone, consulte link:../concepts/supported-storage-capacity.html["Capacidades de almacenamiento compatibles con Keystone"].
+Para obtener información sobre las distintas capacidades admitidas en Keystone, consulta link:../concepts/supported-storage-capacity.html["Tipos de capacidad de almacenamiento en Keystone"].

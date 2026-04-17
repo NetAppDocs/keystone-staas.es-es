@@ -26,7 +26,7 @@ Keystone le ofrece las siguientes facilidades de facturación:
 
 La facturación de Keystone se basa en la capacidad comprometida y en el consumo en ráfaga variable.
 
-Si desea obtener información sobre las distintas capacidades compatibles con Keystone, consulte link:../concepts/supported-storage-capacity.html["Capacidades de almacenamiento compatibles con Keystone"].
+Para obtener información sobre las distintas capacidades admitidas en Keystone, consulta link:../concepts/supported-storage-capacity.html["Tipos de capacidad de almacenamiento en Keystone"].
 
 *Información relacionada*
 

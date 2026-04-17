@@ -4,7 +4,7 @@ permalink: concepts/supported-storage-capacity.html
 keywords: storage capacity, capacity definition, keystone STaaS storage capacity, 
 summary: Conozca los tipos de capacidades de almacenamiento compatibles con el servicio NetApp Keystone STaaS para la versión 3. 
 ---
-= Capacidades de almacenamiento compatibles con Keystone
+= Tipos de capacidad de almacenamiento en Keystone
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: Conozca los tipos de capacidades de almacenamiento compatibles con el s
 
 
 [role="lead"]
-El servicio NetApp Keystone STaaS admite varios tipos de capacidades de almacenamiento. Comprender estos diferentes términos de capacidad puede resultar útil al utilizar Keystone.
+Keystone STaaS utiliza varios términos de capacidad para medir, comprometer y facturar el almacenamiento. Entender estos términos te ayudará a planificar tu suscripción y a interpretar tus informes de uso y facturas.
 
 
 
@@ -28,7 +28,7 @@ Esta es la cantidad de capacidad de almacenamiento necesaria para almacenar dato
 
 La capacidad lógica mínima facturada cada mes durante la suscripción:
 
-* La capacidad está comprometida con cada nivel de servicio de rendimiento.
+* La capacidad se asigna a cada instancia de nivel de servicio de rendimiento para almacenamiento unificado u optimizado por bloques, o por clúster AFX.
 * Se pueden agregar capacidad comprometida y niveles de servicio de rendimiento adicionales durante el plazo.
 
 
@@ -36,13 +36,13 @@ La capacidad lógica mínima facturada cada mes durante la suscripción:
 
 === Cambios en la capacidad comprometida
 
-Durante una suscripción, puedes cambiar las capacidades comprometidas sujetas a ciertas condiciones. Para ver todos los detalles sobre las reglas para aumentar o reducir la capacidad, consulta link:../concepts/capacity-requirements.html["Requisitos de capacidad para los niveles de servicio de rendimiento de Keystone"]. Para solicitar un cambio, contacta a tu Keystone Success Manager (KSM) o consulta link:../concepts/support-services.html["Soporte de NetApp Keystone"].
+Durante una suscripción, puedes cambiar las capacidades comprometidas sujetas a ciertas condiciones. Para ver todos los detalles sobre las reglas para aumentar o disminuir la capacidad, consulta link:../concepts/capacity-requirements.html["Requisitos de capacidad para los niveles de servicio de rendimiento de Keystone"]. Para solicitar un cambio, contacta a tu Keystone Success Manager (KSM) o link:../concepts/support-services.html["NetApp soporte"].
 
 
 
 == La capacidad consumida
 
-La capacidad consumida hace referencia a la capacidad (en TIB de almacenamiento) que se está consumiendo actualmente en el servicio. Se calcula de forma diferente según el tipo de almacenamiento:
+La capacidad consumida se refiere a la capacidad (en TiB de almacenamiento) que se consume actualmente en el servicio. Se calcula de forma diferente en función del tipo de almacenamiento de datos:
 
 * *Almacenamiento unificado u optimizado por bloques*: la capacidad consumida se calcula en función del tipo de capacidad (lógica o física) seleccionada durante el proceso de pedido.  El cálculo se realiza por instancia de nivel de servicio de rendimiento.
 +
@@ -55,15 +55,22 @@ La capacidad consumida hace referencia a la capacidad (en TIB de almacenamiento)
 
 .. *Capacidad física*: Es la suma de:
 +
-*** Capacidad física medida, después de las eficiencias de los datos de la matriz de almacenamiento, para almacenar todas las instancias y tipos de datos del cliente, como copias, copias reflejadas, versiones, clones.
+*** Capacidad física medida, tras la eficiencia de los datos de la matriz de almacenamiento, para almacenar todas las instancias y tipos de datos de cliente, como copias, copias reflejadas, versiones y clones.
 *** Capacidad física utilizada para almacenar metadatos y datos diferenciales de instantáneas.
 *** Cualquier capacidad física con gran capacidad de aprovisionamiento.
 
 
 
 
+* *Almacenamiento AFX*: se calcula por clúster AFX como la suma de:
++
+** Capacidad física medida, tras la eficiencia de los datos de la matriz de almacenamiento, para almacenar todas las instancias y tipos de datos de cliente, como copias, copias reflejadas, versiones y clones.
+** Capacidad física utilizada para almacenar metadatos y datos diferenciales de instantáneas.
+** Cualquier capacidad física con gran capacidad de aprovisionamiento.
+
+
 * Almacenamiento de objetos: La capacidad consumida se calcula como la cantidad de capacidad física medida utilizada para almacenar todas las instancias y tipos de datos de clientes en todos los nodos. Este cálculo se basa en las políticas de gestión del ciclo de vida de la información (ILM) configuradas.
-* *Cloud Volumes ONTAP*: la capacidad consumida se calcula como la cantidad de capacidad aprovisionada medida de todos los volúmenes de Cloud Volumes ONTAP.
+* *Cloud Volumes ONTAP*: La capacidad consumida se calcula como la cantidad de capacidad lógica aprovisionada medida de todos los volúmenes Cloud Volumes ONTAP.
 
 
 
@@ -74,8 +81,8 @@ El servicio NetApp Keystone STaaS le permite usar capacidad adicional a la capac
 
 Tenga en cuenta estos puntos:
 
-* La capacidad de ráfaga se acuerda en el acuerdo de Keystone. Generalmente se configura hasta un 20 % por encima de la capacidad comprometida, por instancia de nivel de servicio de rendimiento, con opciones adicionales disponibles para seleccionar límites de capacidad de ráfaga del 40 % o 60 % de la capacidad comprometida.
-* El consumo de capacidad máxima se factura a la misma tarifa que la capacidad comprometida correspondiente al nivel de servicio de rendimiento seleccionado.
+* El límite de capacidad de ráfaga se acuerda en el pedido Keystone. Suele establecerse por defecto en un 20% por encima de la capacidad comprometida por instancia de nivel de servicio de rendimiento o por clúster AFX, con opciones adicionales disponibles para el almacenamiento unificado y optimizado por bloques para seleccionar límites de capacidad de ráfaga del 40% o el 60% de la capacidad comprometida.
+* El consumo de capacidad en ráfagas se factura al mismo ritmo que la capacidad comprometida correspondiente al tipo de almacenamiento de datos (DST) y al nivel de servicio de rendimiento seleccionados.
 * Los servicios STaaS de Keystone brindan un período de exención de ráfaga de 60 días a partir de la fecha de inicio.
 
 
