@@ -39,6 +39,10 @@ NOTE: Puede seleccionar *Ráfaga acumulada* en el menú desplegable *Ver* si des
 
 +
 
+NOTE: Puedes usar el conmutador *Previsión* para ver el uso de capacidad proyectado en la vista *Consumo histórico* y la ráfaga acumulada proyectada en la vista *Ráfaga acumulada*. Para obtener más información, consulta link:../integrations/consumption-tab.html#view-forecast-data["Ver datos de previsión"].
+
++
+
 NOTE: Si te has suscrito a servicios complementarios como la protección avanzada de datos (ADP) o Data Infrastructure Insights (DII), los datos de consumo de estos servicios aparecen junto a tus niveles de servicio de rendimiento base tanto en el consumo histórico como en la vista de ráfagas acumuladas. Para saber más sobre los servicios complementarios, consulta link:../concepts/adp.html["Conoce los servicios añadidos"].
 
 +
@@ -137,20 +141,6 @@ Puede hacer clic en el botón de alternar *Mostrar uso actual* para ver el consu
 ====
 
 
-== Ver datos de previsión
-
-Puedes ver el uso de capacidad proyectado para los próximos 120 días a partir de la fecha actual usando el interruptor *Forecast* disponible en la vista *Consumo histórico* de la pestaña *Tendencia de consumo* en la Console. El interruptor está activado por defecto.
-
-Por defecto, el gráfico muestra los últimos 30 días de consumo histórico y una proyección de 120 días a partir de la fecha actual en el mismo gráfico. Se trazan hasta 30 puntos de datos en total (20 para datos históricos y 10 para datos de pronóstico), con una línea vertical que separa los dos segmentos.
-
-image:forecast-1.png["captura de pantalla con datos de previsión"]
-
-Si seleccionas un intervalo de fechas que no termina en la fecha actual, la previsión se desactiva automáticamente. Para volver a activarla, un cuadro de diálogo de confirmación te informa que los datos de previsión solo están disponibles cuando la línea temporal seleccionada termina en la fecha actual. Al confirmar, la vista se restablece al intervalo predeterminado de los últimos 30 días de datos históricos más los próximos 120 días de previsión.
-
-Si se prevé que el consumo superará la capacidad de ráfagas, aparecerá un indicador de alerta en el gráfico, recomendando una actualización de la capacidad.
-
-
-
 == Cálculo de ráfagas acumuladas
 
 El uso de ráfaga acumulado para un mes completo se calcula de la siguiente manera:
@@ -167,9 +157,9 @@ La ráfaga es la diferencia entre la capacidad consumida y la capacidad comprome
 
 == Ver ráfaga acumulada
 
-Puedes ver el uso de datos de ráfaga acumulada a través de la NetApp Console o Digital Advisor. Si has seleccionado *Accrued burst* en el menú desplegable *View* de la pestaña *Consumption trend* en la NetApp Console, o la opción *Invoiced Accrued Burst* de la pestaña *Consumption Trend* en Digital Advisor, puedes ver el uso de datos de ráfaga acumulada de forma mensual o trimestral, dependiendo del periodo de facturación que elijas. Estos datos están disponibles para los últimos 12 meses que han sido facturados y puedes consultarlos por rango de fechas hasta los últimos 30 meses.
+Puedes ver el uso de datos de ráfaga acumulada a través de la NetApp Console o Digital Advisor. Si has seleccionado *Accrued burst* en el menú desplegable *View* de la pestaña *Consumption trend* en la NetApp Console, o la opción *Invoiced Accrued Burst* de la pestaña *Consumption Trend* en Digital Advisor, puedes ver el uso de datos de ráfaga acumulada de forma mensual o trimestral, dependiendo del periodo de facturación que elijas.
 
-En la Consola, además del uso de ráfagas facturado, también puedes ver el uso de ráfagas no facturado (devengado pero aún no facturado) y el uso de ráfagas provisional (devengado en el periodo de facturación actual y aún no facturado).
+En la Consola, cuando el conmutador *Previsión* está desactivado, puedes ver el uso de ráfagas facturado junto con el uso de ráfagas no facturado (acumulado pero aún no facturado) y el uso de ráfagas provisional (acumulado en el periodo de facturación actual y aún no facturado). Cuando el conmutador *Previsión* está activado, el gráfico también muestra el uso de ráfagas acumulado proyectado para los próximos 120 días a partir de la fecha actual. Para saber más sobre el conmutador *Previsión*, consulta link:../integrations/consumption-tab.html#view-forecast-data["Ver datos de previsión"].
 
 image:accr-burst-provision-invoice.png["captura de pantalla que muestra el uso acumulado de ráfagas en la Console"]
 
@@ -188,15 +178,36 @@ image:accr-burst-2.png["uso de bursting acumulado trimestralmente"]
 
 
 
+== Ver datos de previsión
+
+En la Consola, puedes usar el conmutador *Previsión* en la pestaña *Tendencia de consumo* para ver el uso de capacidad proyectado en la vista *Consumo histórico* y la ráfaga acumulada proyectada en la vista *Ráfaga acumulada*. El conmutador está activado por defecto en ambas vistas.
+
+En la vista *Consumo histórico*, el gráfico muestra los últimos 30 días de datos históricos y una proyección de 120 días a partir de la fecha actual en el mismo gráfico. Se trazan hasta 30 puntos de datos en total (20 para datos históricos y 10 para datos de previsión), con una línea vertical que separa los dos segmentos.
+
+image:forecast-1.png["captura de pantalla con datos de previsión"]
+
+En la vista *Ráfaga acumulada*, el gráfico muestra los últimos 6 meses de historial de ráfagas acumuladas y una proyección de 120 días a partir de la fecha actual, con una línea vertical que separa los datos históricos de los datos previstos. La barra del periodo de facturación actual muestra tanto el uso provisional de ráfagas como los datos de previsión para los días restantes. Puedes hacer clic en cualquier barra para ver el desglose día a día en la tabla *Ráfagas acumuladas por días*. Para saber más sobre la tabla *Ráfagas acumuladas por días*, consulta link:../integrations/consumption-tab.html#view-daily-accrued-burst-data-usage["Ver el uso diario de datos de ráfaga acumulados"].
+
+image:accrued-burst-forecast.png["captura de pantalla de la previsión de ráfagas acumuladas"]
+
+Si seleccionas un intervalo de fechas que no termina en la fecha actual, la previsión se desactiva automáticamente. Para volver a activarla, un cuadro de confirmación te informa que los datos de previsión solo están disponibles cuando la línea de tiempo seleccionada termina en la fecha actual. Si confirmas el cuadro de diálogo, la vista se restablece al intervalo predeterminado para la vista seleccionada: los últimos 30 días de datos históricos más los próximos 120 días de previsión en la vista *Consumo histórico*, o los últimos 6 meses de historial de ráfagas acumuladas más los próximos 120 días de previsión en la vista *Ráfagas acumuladas*.
+
+Si se espera que el consumo previsto supere la capacidad comprometida, aparece un indicador de alerta naranja en el gráfico, recomendando una ampliación de la capacidad. Si se espera que supere la capacidad de ráfaga, también aparece un indicador de alerta rojo, recomendando una ampliación de la capacidad.
+
+
+
 == Ver el uso diario de datos de ráfaga acumulados
 
 Puede ver el uso de datos acumulado diariamente para un período de facturación mensual o trimestral a través de la Consola o el Digital Advisor. En la consola, la tabla *Ráfaga acumulada por días* proporciona datos detallados que incluyen la marca de tiempo, la capacidad comprometida, consumida y acumulada si selecciona *Ráfaga acumulada* en el menú desplegable *Ver* en la pestaña *Tendencia de consumo*.
 
 En la Console, puedes filtrar la tabla seleccionando cualquier barra que represente un periodo de facturación en el gráfico de facturación de ráfagas acumuladas. Cuando está filtrada, la tabla muestra solo los días dentro del periodo de facturación seleccionado. Para ver el conjunto de datos completo de nuevo, usa la opción *Clear filters*. Si no hay datos disponibles para el periodo seleccionado, aparece un mensaje indicando que no hay datos disponibles.
 
+
+NOTE: Los datos mostrados en el gráfico dependen de si la opción *Forecast* está activada o desactivada.
+
 image:bxp-accrued-burst-days-1.png["Captura de pantalla que muestra la tabla de ráfagas acumuladas por días"]
 
-También puedes descargar los datos en formato Excel, incluido el estado de las ráfagas (facturadas, no facturadas o provisionales) y el periodo de facturación.
+También puedes descargar los datos disponibles en formato Excel, incluido el estado de las ráfagas (facturadas, no facturadas, provisionales o previstas, según corresponda) y el periodo de facturación.
 
 En Digital Advisor, cuando hace clic en la barra que muestra los datos facturados de la opción *Ráfaga acumulada facturada*, verá la sección Capacidad aprovisionada facturable debajo del gráfico de barras, que ofrece opciones de visualización de gráficos y tablas. La vista de gráfico predeterminada muestra el uso diario de los datos de ráfaga acumulados en un formato de gráfico de líneas, donde se muestran los cambios en el uso a lo largo del tiempo.
 

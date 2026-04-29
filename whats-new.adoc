@@ -18,6 +18,24 @@ Obtenga información sobre las últimas características y mejoras en los servic
 
 
 
+== 27 abril 2026
+
+Nuevas mejoras en el panel de Keystone en la NetApp Console:
+
+
+
+=== Etiqueta de capacidad provisionada renombrada
+
+La etiqueta *Capacidad provisionada* pasa a llamarse *Capacidad de volumen provisionada*. La etiqueta actualizada también se refleja en los informes CSV y Excel relacionados.
+
+
+
+=== Alternar previsión para ráfaga acumulada
+
+Ahora puedes usar el conmutador *Previsión* en la vista *Ráfaga acumulada* de la pestaña *Tendencia de consumo* para proyectar el uso de la ráfaga acumulada para los próximos 120 días a partir de la fecha actual. Para obtener más información, consulta link:./integrations/consumption-tab.html#view-forecast-data["Ver datos de previsión"].
+
+
+
 == 30 de marzo de 2026
 
 Nuevas mejoras en el panel de Keystone en la NetApp Console:

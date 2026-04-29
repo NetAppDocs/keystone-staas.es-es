@@ -24,6 +24,15 @@ En STaaS de NetApp Keystone se notifican los siguientes problemas conocidos:
 
 
  a| 
+Tendencia a la baja inexacta en los datos de consumo previstos
+ a| 
+En la pestaña *Tendencia de consumo*, cuando se activa el conmutador *Previsión* en la vista *Consumo histórico*, el uso previsto de la capacidad muestra una tendencia a la baja significativa e imprecisa.
+ a| 
+Ninguno
+
+
+
+ a| 
 Modificar suscripción no disponible
  a| 
 La opción de modificar la capacidad comprometida para las suscripciones de Keystone actualmente no está disponible en la NetApp Console. Esta funcionalidad se volverá a incluir en una próxima versión.
