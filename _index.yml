@@ -49,14 +49,14 @@ indexpage:
     links:
     - title: Obtenga más información sobre los precios de Keystone
       url: "/concepts/pricing.html"
-    - title: Mis horarios de facturación
-      url: "/concepts/billing-schedules.html"
-    - title: Facturación basada en la capacidad comprometida
-      url: "/concepts/committed-capacity-billing.html"
-    - title: Medición basada en la capacidad consumida
-      url: "/concepts/consumed-capacity-billing.html"
-    - title: "¿Qué sucede si he consumido más que mi capacidad comprometida?"
-      url: "/concepts/burst-consumption-billing.html"
+    - title: "¿Cómo mide Keystone la capacidad?"
+      url: "/concepts/pricing.html#how-keystone-measures-capacity"
+    - title: "¿Qué es la capacidad comprometida?"
+      url: "/concepts/pricing.html#committed-capacity"
+    - title: "¿Qué ocurre cuando supero mi capacidad comprometida?"
+      url: "/concepts/pricing.html#burst-consumption"
+    - title: "¿Cuándo se generan las facturas?"
+      url: "/concepts/pricing.html#billing-schedules"
   - title: Haz más con los servicios de Keystone
     links:
     - title: Conozca a su equipo de soporte

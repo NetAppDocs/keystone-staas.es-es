@@ -177,20 +177,12 @@ sidebar:
         url: "/concepts/sla-sustainability.html"
       - title: Garantía de recuperación frente a ransomware
         url: "/concepts/sla-ransomware.html"
-    - title: Entender la facturación
+    - title: Entiende la facturación Keystone
       entries:
-      - title: Precios Keystone
+      - title: Conoce la facturación de Keystone
         url: "/concepts/pricing.html"
-      - title: Facturación basada en la capacidad comprometida
-        url: "/concepts/committed-capacity-billing.html"
-      - title: Medición basada en la capacidad consumida
-        url: "/concepts/consumed-capacity-billing.html"
-      - title: Facturación basada en consumo en ráfaga
-        url: "/concepts/burst-consumption-billing.html"
-      - title: Facturación para configuraciones de volumen específicas
+      - title: Facturación Keystone para tipos de volumen específicos
         url: "/concepts/misc-volume-billing.html"
-      - title: Horarios de facturación
-        url: "/concepts/billing-schedules.html"
   - title: Acceda a Keystone desde la API de REST del asesor digital
     entries:
     - title: Empieza a usar la API REST del asesor digital para recuperar los datos

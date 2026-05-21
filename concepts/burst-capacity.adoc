@@ -20,4 +20,4 @@ La capacidad de ráfaga se refiere a la capacidad de almacenamiento adicional qu
 
 Para cambiar el límite de ráfaga al 40 % o al 60 %, comuníquese con el equipo de soporte de NetApp Keystone.
 
-Para obtener más información sobre cómo se factura la capacidad de ráfaga, consulte link:../concepts/burst-consumption-billing.html["Facturación basada en consumo en ráfaga"] .
+Para saber más sobre cómo se factura la capacidad de ráfagas, consulta link:../concepts/pricing.html["Conoce la facturación de Keystone"].

@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: concepts/misc-volume-billing.html 
-keywords: Billing and miscellaneous scenarios 
-summary: Obtén más información sobre la facturación de Keystone para configuraciones específicas, incluidos volúmenes clonados, protección de datos avanzada, etc. 
+keywords: Keystone billing, special volume types, cloned volumes, SnapMirror destinations, LUNs, temporary volumes 
+summary: Las reglas de facturación de Keystone difieren para determinadas configuraciones de volumen. En esta página se explica la facturación de volúmenes clonados, destinos SnapMirror, LUNs, volúmenes temporales y volúmenes de sistema. 
 ---
-= Obtenga información sobre la facturación de Keystone para configuraciones de volumen específicas
+= Facturación Keystone para tipos de volumen específicos
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,20 +14,34 @@ summary: Obtén más información sobre la facturación de Keystone para configu
 
 
 [role="lead"]
-Comprender la facturación de Keystone para configuraciones específicas puede ayudarlo a optimizar el uso del servicio y administrar los costos. Las configuraciones incluyen volúmenes clonados, volúmenes temporales, destinos SnapMirror , LUN y volúmenes de sistema/raíz.
+Las reglas de facturación de Keystone difieren para determinadas configuraciones de volumen. Conocer estas excepciones te ayuda a evitar cargos inesperados cuando trabajas con volúmenes clonados, destinos SnapMirror, LUNs o almacenamiento temporal.
 
+La siguiente tabla resume las reglas de facturación para cada tipo de volumen.
+
+[cols="1,2"]
+|===
+| Tipo de volumen | Norma de facturación 
+
+
+| Volúmenes clonados | Facturados como volúmenes estándar 
+
+
+| Volúmenes temporales | No facturado 
+
+
+| SnapMirror destinos | Facturado según el nivel de servicio de rendimiento de destino 
+
+
+| LUN | Facturado al nivel de servicio de rendimiento del volumen contenedor 
+
+
+| Volúmenes raíz y del sistema | Controlado pero no facturado 
+|===
 
 
 == Facturación de volúmenes clonados
 
-Si los volúmenes se clonan en ONTAP y se los utiliza para realizar un backup y restaurar los datos, puede continuar mediante los clones sin ningún pago adicional. Sin embargo, se cobrarán volúmenes clonados utilizados para cualquier otro fin en el negocio durante un gran período de tiempo.
-
-Tenga en cuenta lo siguiente:
-
-* Los volúmenes clonados no pueden cargarse siempre que su tamaño sea inferior al 10 % del volumen principal (la capacidad física utilizada en el volumen clonado en comparación con la capacidad física utilizada en el volumen principal).
-* No existe un período de gracia de 24 horas para los volúmenes clonados. Solo se considera el tamaño del clon.
-* Una vez que el volumen clonado supera el 10 % del tamaño físico del volumen principal, el clon se factura como volumen estándar (capacidad utilizada lógica).
-
+Los volúmenes clonados se facturan como volúmenes estándar al mismo nivel de servicio de rendimiento que el volumen del que se clonaron. Todos los volúmenes clonados se miden y facturan independientemente de su tamaño o finalidad.
 
 
 
