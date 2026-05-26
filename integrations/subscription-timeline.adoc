@@ -26,13 +26,13 @@ Serás redirigido a la pestaña *Consumo actual*.
 
 . Seleccione la pestaña *Cronograma de suscripción*.
 +
-image:bxp-subscription-timeline-graph.png["Una captura de pantalla para mostrar el cronograma de suscripción en un formato de gráfico de líneas junto con eventos importantes."]
+image:console-subscription-timeline-graph.png["Una captura de pantalla para mostrar el cronograma de suscripción en un formato de gráfico de líneas junto con eventos importantes."]
 
 +
-La línea de tiempo de suscripción se muestra como un gráfico de líneas de forma predeterminada, con íconos que marcan eventos importantes. Pase el cursor sobre un evento para ver los detalles, incluida la fecha y los cambios de capacidad comprometidos. Para ver estos eventos en una tabla, seleccione la opción *Tabla* del menú desplegable *Ver como*. Para ver otros cronogramas de suscripción, seleccione o busque en el menú desplegable *ID de seguimiento*.
+Por defecto, la cronología de suscripciones se muestra como un gráfico de líneas, con iconos que marcan eventos importantes. Cuando se producen varias actualizaciones de suscripciones de distintos tipos el mismo día, el gráfico muestra un número en lugar de iconos separados. Pasa el ratón sobre el número para ver todos los tipos de actualización que ocurrieron ese día, o sobre cualquier icono de evento para ver detalles como la fecha y los cambios de capacidad comprometida. Para ver estos eventos en una tabla, selecciona la opción *Table* del menú desplegable *View as*. Para ver otras cronologías de suscripción, selecciona o busca en el menú desplegable *Tracking ID*.
 
 +
-image:bxp-subscription-timeline.png["Una captura de pantalla para mostrar el cronograma de suscripción en un formato de gráfico de tabla junto con eventos importantes"]
+image:console-subscription-timeline.png["Una captura de pantalla para mostrar el cronograma de suscripción en un formato de gráfico de tabla junto con eventos importantes"]
 
 
 

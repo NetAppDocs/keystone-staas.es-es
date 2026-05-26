@@ -18,6 +18,18 @@ Obtenga información sobre las últimas características y mejoras en los servic
 
 
 
+== 25 de mayo de 2026
+
+Nuevas mejoras en el panel de Keystone en la NetApp Console:
+
+
+
+=== Mejora de la visualización de varias actualizaciones en el mismo día en la cronología de suscripción
+
+El gráfico cronológico de suscripciones ahora muestra un número cuando se producen varias actualizaciones de suscripciones de distintos tipos en el mismo día, en lugar de iconos separados. Pasa el ratón por encima del número para ver todos los tipos de actualización de ese día. El informe descargado incluye una fila separada para cada actualización, dándote un registro completo de todos los cambios. Para saber más, consulta link:./integrations/subscription-timeline.html["Ver la cronología de sus suscripciones a Keystone"].
+
+
+
 == 27 abril 2026
 
 Nuevas mejoras en el panel de Keystone en la NetApp Console:

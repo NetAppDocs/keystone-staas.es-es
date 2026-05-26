@@ -24,6 +24,15 @@ En STaaS de NetApp Keystone se notifican los siguientes problemas conocidos:
 
 
  a| 
+Fecha de caducidad incorrecta para las suscripciones caducadas
+ a| 
+En la pestaña *Suscripciones*, las suscripciones caducadas muestran la fecha de ayer como fecha de caducidad en lugar de la fecha real de finalización de la suscripción.
+ a| 
+Ninguno
+
+
+
+ a| 
 Tendencia a la baja inexacta en los datos de consumo previstos
  a| 
 En la pestaña *Tendencia de consumo*, cuando se activa el conmutador *Previsión* en la vista *Consumo histórico*, el uso previsto de la capacidad muestra una tendencia a la baja significativa e imprecisa.
