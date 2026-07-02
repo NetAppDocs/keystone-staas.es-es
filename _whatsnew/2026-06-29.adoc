@@ -1,0 +1,35 @@
+= Ver la distribución de licencias de ADP para las suscripciones de MetroCluster
+:allow-uri-read: 
+
+
+Nuevas mejoras en el panel de Keystone en la NetApp Console:
+
+
+
+=== Ver la distribución de licencias de ADP para las suscripciones de MetroCluster
+
+Ya está disponible una nueva subpestaña *Distribución de licencias* en la pestaña *Protección avanzada de datos (ADP)*, que te da visibilidad sobre el uso de licencias de ADP en todos tus clústeres asociados de MetroCluster. Para saber más, consulta link:./integrations/adp-tab.html["Consulta el consumo y la salud de tus suscripciones Keystone MetroCluster"].
+
+
+
+=== Ver el estado de la protección contra ransomware de tus volúmenes
+
+La pestaña *Volúmenes en clústeres* de *Activos* ahora incluye una columna *Estado de ARP* que muestra si la Protección Autónoma contra Ransomware (ARP) está activada o desactivada para cada volumen, dándote visibilidad sobre tu postura de protección contra ransomware en todos los activos gestionados. Para obtener más información sobre ARP, consulta link:https://docs.netapp.com/us-en/ontap/anti-ransomware/["Protección autónoma contra el ransomware (ARP) en ONTAP"].
+
+
+
+=== Envía tus comentarios a través de la pestaña Feedback
+
+Ahora puedes enviar tus comentarios desde cualquier pantalla del panel de control de Keystone utilizando la nueva pestaña *Comentarios*, situada en la esquina inferior derecha de la pantalla. Al hacer clic en ella, se abre un panel en el que puedes compartir tu experiencia y enviar comentarios directamente a NetApp.
+
+
+
+=== Mejora las alertas sobre el uso de la capacidad y la caducidad de las suscripciones
+
+Los monitores generados por el sistema ahora ofrecen alertas más granulares sobre el uso de la capacidad y la expiración de la suscripción.
+
+Para el vencimiento de la suscripción, ahora las alertas se activan en cinco umbrales: 180, 90, 60, 30 y 7 días antes del vencimiento, con la gravedad aumentando de informativa a crítica a medida que se acerca la fecha.
+
+Para el uso de la capacidad, el umbral de alerta de picos ahora se basa en el porcentaje de picos comprometido de tu suscripción en lugar de un 20% fijo. Por ejemplo, si tu pico comprometido es del 40%, la alerta crítica se activa al 140% del uso de la capacidad comprometida.
+
+Para saber más, consulta link:./integrations/monitoring-alert-monitors.html["Ver y crear monitores de alertas para suscripciones de Keystone"].

@@ -14,7 +14,7 @@ summary: Keystone STaaS para la versión 3 ofrece capacidad de almacenamiento en
 
 
 [role="lead"]
-Keystone STaaS ofrece niveles de servicio de rendimiento (PSL) predefinidos para cada tipo de almacenamiento. Cada PSL especifica los objetivos de rendimiento (IOPS, rendimiento y latencia), los protocolos compatibles, la plataforma y los requisitos mínimos de capacidad. Revisa los PSL disponibles para seleccionar el nivel de servicio adecuado para tu carga de trabajo y planear tu suscripción.
+Keystone STaaS ofrece niveles de servicio de rendimiento predefinidos (PSL), también llamados niveles de servicio de rendimiento base, para cada tipo de almacenamiento. Cada PSL especifica los objetivos de rendimiento (IOPS, rendimiento y latencia), los protocolos compatibles, la plataforma y los requisitos mínimos de capacidad. Revisa los PSL disponibles para elegir el nivel de servicio adecuado para tu carga de trabajo y planear tu suscripción.
 
 Una suscripción Keystone puede incluir varios PSL en uno o varios tipos de almacenamiento. Cada PSL tiene una capacidad comprometida, que es la capacidad mínima facturada para ese nivel de servicio durante el periodo de suscripción.
 
