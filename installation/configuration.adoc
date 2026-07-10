@@ -55,6 +55,7 @@ Debe realizar algunas tareas de configuración para permitir a Keystone Collecto
 
 
 
+[[configure-http-proxy-on-keystone-collector]]
 == Configure el proxy HTTP en el colector de Keystone
 
 El software Collector admite el uso de un proxy HTTP para comunicarse con Internet. Esta opción se puede configurar en la TUI.
@@ -68,6 +69,7 @@ El software Collector admite el uso de un proxy HTTP para comunicarse con Intern
 
 
 
+[[limit-collection-of-private-data]]
 == Limitar la recopilación de datos privados
 
 Keystone Collector recopila información limitada sobre configuración, estado y rendimiento necesaria para realizar la medición de suscripción. Existe la opción de limitar aún más la información recopilada mediante el enmascaramiento de la información confidencial del contenido cargado. Esto no afecta al cálculo de facturación. Sin embargo, limitar la información podría afectar a la facilidad de uso de la información reporting, ya que algunos elementos, que pueden ser fácilmente identificados por los usuarios, como el nombre del volumen, se reemplaza por UUID.
@@ -80,6 +82,7 @@ Para obtener más información acerca de los elementos eliminados sobre la limit
 
 
 
+[[trust-a-custom-root-ca]]
 == Confíe en una CA raíz personalizada
 
 La verificación de certificados con una entidad de certificación raíz pública (CA) forma parte de las funciones de seguridad de Keystone Collector. Sin embargo, si es necesario, puede configurar Keystone Collector para que confíe en una CA raíz personalizada.
@@ -111,6 +114,7 @@ image:kc-custom-ca.png["Pantalla TUI para personalización de CA"]
 
 
 
+[[create-performance-service-levels]]
 == Crear niveles de servicio de rendimiento
 
 Puede crear niveles de servicio de rendimiento (PSL) mediante la utilidad TUI de administración de Keystone Collector. La creación de PSL a través de TUI selecciona automáticamente los valores predeterminados establecidos para cada nivel de servicio de rendimiento, lo que reduce la posibilidad de errores que pueden ocurrir al configurar manualmente estos valores al crear PSL a través de Active IQ Unified Manager.

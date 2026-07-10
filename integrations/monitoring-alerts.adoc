@@ -20,6 +20,7 @@ Para configurar alertas definidas por el usuario, consultelink:../integrations/m
 
 
 
+[[view-alerts]]
 == Ver alertas
 
 Para ver las alertas activas, siga estos pasos:
@@ -44,6 +45,7 @@ TIP: Puedes personalizar la tabla usando el icono del selector de columnas image
 
 
 
+[[manage-alerts]]
 == Administrar alertas
 
 Desde la pestaña *Alertas*, puedes realizar las siguientes acciones:

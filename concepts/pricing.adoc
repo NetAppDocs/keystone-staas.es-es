@@ -18,6 +18,7 @@ Con NetApp Keystone STaaS, pagas por lo que te comprometes y solo pagas un extra
 
 
 
+[[keystone-pricing-model]]
 == Modelo de precios Keystone
 
 Tu suscripción a Keystone te da costes predecibles con la flexibilidad de escalar cuando las cargas de trabajo lo requieran. Los cargos de Keystone se basan en el nivel de servicio de rendimiento que elijas y en la capacidad a la que te comprometas.
@@ -36,12 +37,14 @@ Para obtener información sobre las distintas capacidades admitidas en Keystone,
 
 
 
+[[how-keystone-measures-capacity]]
 == Cómo mide Keystone la capacidad
 
 Keystone utiliza tres conceptos de capacidad para calcular tu factura. Conocer cada uno te ayuda a evitar cargos inesperados.
 
 
 
+[[committed-capacity]]
 === Capacidad comprometida
 
 La capacidad comprometida es la capacidad que aceptas adquirir para un nivel de servicio de rendimiento específico cuando firmas tu suscripción a Keystone. Esta cantidad se fija en tu pedido de Keystone y se factura en su totalidad en cada periodo de facturación, independientemente de cuánta capacidad utilicen realmente tus cargas de trabajo.
@@ -54,6 +57,7 @@ Para ver tu capacidad comprometida y hacer un seguimiento del uso real, consulta
 
 
 
+[[consumed-capacity]]
 === La capacidad consumida
 
 La capacidad consumida es la capacidad que tus cargas de trabajo realmente usan en cualquier momento. Keystone supervisa y mide continuamente tu consumo durante todo el periodo de facturación. Al menos una vez cada cinco minutos, se genera un registro de consumo que captura la capacidad consumida actual para tu suscripción. Estos registros se agregan durante el periodo de facturación para generar facturas e informes de uso.
@@ -64,6 +68,7 @@ Cuando la capacidad consumida se mantiene igual o por debajo de tu capacidad com
 
 
 
+[[burst-consumption]]
 === Consumo en ráfagas
 
 El consumo en ráfagas es la capacidad que usas por encima de tu capacidad comprometida. Tu límite de ráfagas se determina y especifica en tu acuerdo de Keystone. Por defecto, se establece en un 20% por encima de la capacidad comprometida. También puedes elegir límites de capacidad en ráfagas del 40% o 60% de la capacidad comprometida. Para saber más, consulta link:../concepts/burst-capacity.html["Opciones de capacidad de ráfaga"].
@@ -76,6 +81,7 @@ El consumo en ráfagas se calcula para cada registro de consumo generado a lo la
 
 
 
+[[billing-schedules]]
 == Horarios de facturación
 
 La frecuencia de facturación se establece en tu contrato Keystone. La siguiente tabla muestra cuándo puedes esperar las facturas por capacidad comprometida y uso de ráfagas en cada opción.
@@ -101,6 +107,7 @@ NOTE: Para la facturación trimestral, semestral y anual, si tu capacidad compro
 
 
 
+[[related-information]]
 == Información relacionada
 
 * link:../concepts/supported-storage-capacity.html["Tipos de capacidad de almacenamiento en Keystone"]

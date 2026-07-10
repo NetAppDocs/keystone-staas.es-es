@@ -18,6 +18,7 @@ Los requisitos mínimos de capacidad y los aumentos incrementales para los nivel
 
 
 
+[[minimum-capacity-requirements-for-unified-and-block-optimized-storage]]
 == Requisitos mínimos de capacidad para el almacenamiento unificado y optimizado por bloques
 
 Puede ver la capacidad mínima y la capacidad incremental permitida por suscripción para el almacenamiento unificado y optimizado por bloques en las siguientes tablas:
@@ -70,6 +71,7 @@ La capacidad mínima para cada nivel de servicio de rendimiento es la misma en t
 
 
 
+[[minimum-capacity-requirements-for-afx-storage]]
 == Requisitos de capacidad mínimos para el almacenamiento de AFX
 
 Puedes ver los requisitos mínimos de capacidad para el almacenamiento AFX en la siguiente tabla:
@@ -99,6 +101,7 @@ NOTE: Para el almacenamiento AFX, la capacidad se compromete y se mide a nivel d
 
 
 
+[[minimum-capacity-requirements-for-object-storage]]
 == Requisitos de capacidad mínima para el almacenamiento de objetos
 
 Puede ver los requisitos mínimos de capacidad para el almacenamiento de objetos en la siguiente tabla:
@@ -125,6 +128,7 @@ Capacidad incremental (y en múltiplos) permitida como complemento durante la su
 |===
 
 
+[[minimum-capacity-requirements-for-cloud-services]]
 == Requisitos mínimos de capacidad para los servicios en la nube
 
 Puedes ver los requisitos mínimos de capacidad para los servicios en la nube en la siguiente tabla:
@@ -151,6 +155,7 @@ Capacidad incremental (y en múltiplos) permitida como complemento durante la su
 |===
 
 
+[[capacity-adjustments]]
 == Ajustes de capacidad
 
 Comunica cualquier cambio de capacidad previsto a NetApp de manera oportuna para permitir la planificación y el despliegue. Las siguientes condiciones se aplican a todos los ajustes de capacidad:
@@ -164,6 +169,7 @@ Comunica cualquier cambio de capacidad previsto a NetApp de manera oportuna para
 
 
 
+[[capacity-reduction]]
 === Reducción de capacidad
 
 La reducción de capacidad comprometida se aplica únicamente al modelo de pago _Anual por adelantado_ y a las implementaciones locales de Keystone. Se requiere un periodo de suscripción mínimo de 24 meses para ser elegible. Los servicios en la nube y las implementaciones en la nube híbrida no son elegibles para la reducción de capacidad.
@@ -192,6 +198,7 @@ En este ejemplo, la capacidad comprometida inicial es de 300 TiB (pago anual de 
 
 
 
+[[quarterly-spend-reallocation]]
 === Reasignación trimestral del gasto
 
 La reasignación trimestral de gastos solo está disponible para los servicios de nube híbrida. Permite reasignar los gastos de servicios locales a gastos de servicios en la nube de forma trimestral. No se permite la reasignación de servicios en la nube a servicios locales.

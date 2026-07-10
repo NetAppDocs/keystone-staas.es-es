@@ -4,12 +4,14 @@
 
 
 
+[[other-requirements]]
 == Otros requisitos
 
 Asegúrese de que se cumplen los siguientes requisitos genéricos:
 
 
 
+[[networking-requirements]]
 === Requisitos de red
 
 Los requisitos de red de Keystone Collector se enumeran en la siguiente tabla.
@@ -177,6 +179,7 @@ NOTE: El puerto predeterminado para MySQL, 3306, solo está restringido al host 
 
 
 
+[[url-access]]
 === Acceso a URL
 
 Keystone Collector necesita acceder a los siguientes hosts de Internet:

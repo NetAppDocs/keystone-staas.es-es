@@ -20,6 +20,7 @@ Para obtener más información sobre Data Infrastructure Insights, consulte link
 
 
 
+[[about-dii-for-keystone-subscriptions]]
 == Acerca de DII para suscripciones de Keystone
 
 DII está disponible tanto para suscripciones nuevas como para suscripciones existentes. Puede integrarse en una suscripción Keystone como un complemento para la capacidad comprometida.
@@ -28,6 +29,7 @@ Cuando DII se integra en una suscripción Keystone, tendrá un nivel de servicio
 
 
 
+[[deployment-of-dii-for-keystone]]
 == Implementación de DII para Keystone
 
 Los clientes pueden integrar DII para Keystone de dos formas: Ya sea como parte de una instancia existente que supervise otros entornos que no son de Keystone o como parte de una nueva instancia. Es responsabilidad del cliente configurar DII. Si se necesita ayuda para configurar DII en un entorno complejo, el equipo de la cuenta puede ponerse en contacto con link:https://www.netapp.com/services/["Servicios profesionales de NetApp"^].
@@ -62,6 +64,7 @@ NOTE: Si bien DII ofrece amplias capacidades de monitoreo del hardware implement
 
 
 
+[[view-dii-consumption]]
 == Ver consumo de DII
 
 Puedes ver el consumo de tus servicios adicionales de DII a través de la NetApp Console o Digital Advisor. Los datos de consumo de los niveles de servicio de rendimiento de DII (como DII Extreme, DII Premium y DII Performance) aparecen junto a tus niveles de servicio de rendimiento base en las vistas de consumo actual y tendencia de consumo.
@@ -82,6 +85,7 @@ Para más información sobre cómo ver el consumo, consulta:
 
 
 
+[[billing-and-metering]]
 == Facturación y medición
 
 A continuación se describen los detalles de facturación y medición del servicio adicional DII:
@@ -94,6 +98,7 @@ A continuación se describen los detalles de facturación y medición del servic
 
 
 
+[[support-and-user-access]]
 == Soporte y acceso de usuarios
 
 Los miembros aprobados del equipo de soporte de NetApp pueden acceder a la instancia de DII del cliente si el cliente habilita la opción *Permitir acceso a NetApp a su entorno de información de infraestructura de datos*. Para ello, vaya a *Ayuda > Soporte* y active la opción.

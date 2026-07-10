@@ -18,6 +18,7 @@ El objetivo de nivel de servicio de disponibilidad (SLO) se fija en un 99,999% d
 
 
 
+[[metrics]]
 == Métricas
 
 * *Porcentaje mensual de tiempo de actividad* = [(número de segundos elegibles en un mes - número de segundos de indisponibilidad del servicio por un PSLI en ese mes) / número de segundos elegibles en un mes] x 100%
@@ -27,6 +28,7 @@ El objetivo de nivel de servicio de disponibilidad (SLO) se fija en un 99,999% d
 
 
 
+[[service-credits]]
 == Créditos de servicios
 
 
@@ -67,6 +69,7 @@ Si la disponibilidad de las cabinas de almacenamiento flash de ONTAP para suscri
 |===
 
 
+[[service-credit-calculation]]
 === Cálculo de crédito de servicio
 
 Los créditos de servicio se determinan mediante la siguiente fórmula:
@@ -119,6 +122,7 @@ Según los cálculos, los créditos de servicio son $5.
 
 
 
+[[service-credit-request]]
 === Solicitud de crédito de servicio
 
 Si se detecta una infracción del acuerdo de nivel de servicio, abra un ticket de soporte de prioridad 3 (P3) con soporte de NetApp Keystone.

@@ -38,6 +38,7 @@ NOTE: *Descripción del problema*: Keystone Collector ejecuta una serie de conte
 
 
 
+[[view-system-logs]]
 == Ver los registros del sistema
 
 Puede ver los registros del sistema Keystone Collector para revisar la información del sistema y solucionar problemas mediante esos registros. Keystone Collector utiliza el sistema de registro _journald_ del host y los registros del sistema se pueden revisar a través de la utilidad estándar del sistema _journaltl_. Puede disponer de los siguientes servicios clave para examinar los registros:
@@ -96,6 +97,7 @@ A continuación se muestra un ejemplo de un trabajo correcto para la recogida de
 ----
 
 
+[[generate-and-collect-support-bundles]]
 == Genere y recoja paquetes de soporte
 
 La TUI de Keystone Collector permite generar paquetes de soporte y luego añadir solicitudes de servicio para solucionar problemas de soporte. Siga este procedimiento:

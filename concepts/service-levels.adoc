@@ -23,6 +23,7 @@ NOTE: Una suscripción AFX está limitada al tipo de almacenamiento AFX y actual
 
 
 
+[[performance-service-levels-instances]]
 == Instancias de niveles de servicio de rendimiento
 
 Un nivel de servicio de rendimiento (PSL) puede tener varias instancias, llamadas instancias de nivel de servicio de rendimiento (PSLI), en tu entorno. Cada PSLI es un sistema de almacenamiento independiente asignado a ese nivel de servicio de rendimiento, con capacidad comprometida medida por PSLI.
@@ -40,6 +41,7 @@ Los niveles de servicio de rendimiento básico para los tipos de almacenamiento 
 
 
 
+[[performance-service-levels-for-unified-storage]]
 == Niveles de servicio de rendimiento para almacenamiento unificado
 
 |===
@@ -76,6 +78,7 @@ Los niveles de servicio de rendimiento básico para los tipos de almacenamiento 
 |===
 
 
+[[performance-service-levels-for-block-optimized-storage]]
 == Niveles de servicio de rendimiento para almacenamiento optimizado por bloques
 
 |===
@@ -112,6 +115,7 @@ Los niveles de servicio de rendimiento básico para los tipos de almacenamiento 
 |===
 
 
+[[performance-service-levels-for-afx-storage]]
 == Niveles de servicio de rendimiento para el almacenamiento AFX
 
 |===
@@ -155,6 +159,7 @@ Los niveles de servicio de rendimiento básico para los tipos de almacenamiento 
 ====
 
 
+[[performance-measurement-conditions-for-unified-block-optimized-and-afx-storage]]
 == Condiciones de medición del rendimiento para almacenamiento unificado, optimizado por bloques y AFX
 
 Las métricas de nivel de servicio de rendimiento base dependen de las siguientes condiciones:
@@ -191,6 +196,7 @@ Las métricas de nivel de servicio de rendimiento base dependen de las siguiente
 
 
 
+[[performance-service-levels-for-object-storage]]
 == Niveles de servicio de rendimiento para el almacenamiento de objetos
 
 |===
@@ -215,6 +221,7 @@ Las métricas de nivel de servicio de rendimiento base dependen de las siguiente
 |===
 
 
+[[cloud-storage]]
 == Almacenamiento en cloud
 
 |===

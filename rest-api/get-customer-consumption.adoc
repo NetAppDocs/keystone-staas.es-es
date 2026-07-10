@@ -83,6 +83,7 @@ curl -X 'GET' \ 'https://api.activeiq.netapp.com/v1/keystone/customer/consumptio
 ----
 
 
+[[get-the-historical-consumption-details-for-a-customer]]
 == Obtener los detalles históricos de consumo de un cliente
 
 Esta API recupera los detalles de consumo histórico de todas las suscripciones asociadas al ID de cliente especificado según el rango de tiempo especificado.

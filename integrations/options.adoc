@@ -18,6 +18,7 @@ Puede buscar y filtrar sus datos, generar informes de suscripciones y uso, y ver
 
 
 
+[[search-and-filter-data-from-netapp-console]]
 == Busque y filtre datos desde la consola de NetApp
 
 En la consola, puede buscar y filtrar datos de Keystone según los parámetros de columna disponibles en la tabla dentro de una pestaña. Por ejemplo, en la pestaña *Suscripciones* de la página *Suscripciones*, puede filtrar datos ingresando la versión de Keystone en el cuadro de búsqueda. De manera similar, en la pestaña *Volúmenes en clústeres* debajo de la página *Activos*, puede filtrar volúmenes ingresando el nombre del volumen en el cuadro de búsqueda.
@@ -26,6 +27,7 @@ Puede refinar sus búsquedas utilizando la opción de filtro avanzado cuando est
 
 
 
+[[generate-reports-from-netapp-console-or-digital-advisor]]
 == Genere informes desde la consola de NetApp o Digital Advisor
 
 Puede generar y ver informes de sus datos de Keystone utilizando el botón de descargaimage:bluexp-download-report-2.png["Icono de descarga de informe 2 en la consola"] disponible en pestañas dentro de la Consola o el Digital Advisor. Estas pestañas le permiten generar informes sobre sus suscripciones, uso histórico, uso intensivo, rendimiento, activos, volúmenes y objetos.
@@ -34,6 +36,7 @@ Los detalles se generan en formato CSV que puede guardar para usarlos y comparar
 
 
 
+[[generate-consolidated-report-from-digital-advisor]]
 == Generar informe consolidado de Digital Advisor
 
 En Digital Advisor, puede generar y ver un informe consolidado de sus suscripciones, uso histórico, uso intensivo, rendimiento, activos y volúmenes y objetos. Para ello, seleccione *Suscripciones Keystone* como tipo de informe en la función Informe en Digital Advisor. Puede generar estos informes en el nivel de cliente, clúster, lista de seguimiento o suscripción.

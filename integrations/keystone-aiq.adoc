@@ -47,6 +47,7 @@ NOTE: El consumo de capacidad en las suscripciones de Keystone se muestra en TiB
 
 
 
+[[search-by-keystone-watchlists]]
 == Busca por listas de comprobaciones de Keystone
 
 La lista de seguimiento es una función disponible en Digital Advisor. Para obtener más información, consulte https://docs.netapp.com/us-en/active-iq/concept_overview_dashboard.html["Entender la lista de observación"^]. Para obtener información sobre cómo crear listas de seguimiento, consulte  https://docs.netapp.com/us-en/active-iq/task_add_watchlist.html["Cree una lista de observación"^] .

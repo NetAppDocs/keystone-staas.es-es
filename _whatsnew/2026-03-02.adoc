@@ -6,18 +6,21 @@ Nuevas mejoras en el panel de Keystone en la NetApp Console:
 
 
 
+[[new-columns-in-the-volumes-in-clusters-tab]]
 === Nuevas columnas en la pestaña Volumes in clusters
 
-Tres nuevas columnas, *Hot data*, *Cold tier (%)* y *Hot tier (%)*, se añaden a la pestaña *Volumes in clusters* en *Assets*. Para más información, consulta link:./integrations/assets-tab.html["Ver activos asociados con una suscripción de Keystone"] y link:./integrations/assets.html["Visualiza los activos en todas tus suscripciones de Keystone"].
+Se han añadido tres nuevas columnas, *Datos activos*, *Nivel frío (%)* y *Nivel activo (%)*, a la pestaña *Volúmenes en clústeres* de *Activos*. Para obtener más información, consulta https://docs.netapp.com/us-en/keystone-staas/integrations/assets-tab.html["Ver activos asociados con una suscripción de Keystone"] y https://docs.netapp.com/us-en/keystone-staas/integrations/assets.html["Visualiza los activos en todas tus suscripciones de Keystone"].
 
 
 
+[[invoiced-uninvoiced-and-provisional-burst-usage-in-consumption-trend]]
 === Uso de ráfagas facturadas, no facturadas y provisionales en la tendencia de consumo
 
-El gráfico de facturación de ráfagas acumuladas en la pestaña *Tendencia de consumo* ahora muestra el uso de ráfagas facturado, no facturado y provisional. Para saber más, consulta link:./integrations/consumption-tab.html#view-accrued-burst["Ver ráfaga acumulada"].
+El gráfico de facturación de ráfagas acumuladas en la pestaña *Tendencia de consumo* ahora muestra el uso de ráfagas facturado, no facturado y provisional. Para obtener más información, consulta https://docs.netapp.com/us-en/keystone-staas/integrations/consumption-tab.html#view-accrued-burst["Ver ráfaga acumulada"].
 
 
 
+[[enhancements-to-the-monitoring-view]]
 === Mejoras en la vista de Monitoring
 
 La vista *Monitoring* incluye las siguientes actualizaciones:
@@ -26,4 +29,4 @@ La vista *Monitoring* incluye las siguientes actualizaciones:
 * *Pestaña Alert monitors*: La columna *Condition* ahora se llama *Monitor type & condition*.
 
 
-Para saber más, consulta link:./integrations/monitoring-alerts.html["Ver y administrar alertas para suscripciones de Keystone"] y link:./integrations/monitoring-alert-monitors.html["Ver y crear monitores de alertas para suscripciones de Keystone"].
+Para obtener más información, consulta https://docs.netapp.com/us-en/keystone-staas/integrations/monitoring-alerts.html["Ver y administrar alertas para suscripciones de Keystone"] y https://docs.netapp.com/us-en/keystone-staas/integrations/monitoring-alert-monitors.html["Ver y crear monitores de alertas para suscripciones de Keystone"].

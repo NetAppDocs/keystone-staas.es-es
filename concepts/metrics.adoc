@@ -18,6 +18,7 @@ Conoce los términos clave que Keystone STaaS utiliza para medir e informar sobr
 
 
 
+[[metrics-measurement]]
 == Medición de métricas
 
 * *Medición de capacidad en GiB, TiB y PiB*: Mediciones de la capacidad de almacenamiento de datos utilizando la base de 1024 (1 GiB = 1024^3^ bytes, 1 TiB = 1024^4^ bytes y 1 PiB = 1024^5^ bytes).

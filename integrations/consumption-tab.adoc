@@ -141,6 +141,7 @@ Puede hacer clic en el botón de alternar *Mostrar uso actual* para ver el consu
 ====
 
 
+[[accrued-burst-computation]]
 == Cálculo de ráfagas acumuladas
 
 El uso de ráfaga acumulado para un mes completo se calcula de la siguiente manera:
@@ -155,6 +156,7 @@ La ráfaga es la diferencia entre la capacidad consumida y la capacidad comprome
 
 
 
+[[view-accrued-burst]]
 == Ver ráfaga acumulada
 
 Puedes ver el uso de datos de ráfaga acumulada a través de la NetApp Console o Digital Advisor. Si has seleccionado *Accrued burst* en el menú desplegable *View* de la pestaña *Consumption trend* en la NetApp Console, o la opción *Invoiced Accrued Burst* de la pestaña *Consumption Trend* en Digital Advisor, puedes ver el uso de datos de ráfaga acumulada de forma mensual o trimestral, dependiendo del periodo de facturación que elijas.
@@ -178,6 +180,7 @@ image:accr-burst-2.png["uso de bursting acumulado trimestralmente"]
 
 
 
+[[view-forecast-data]]
 == Ver datos de previsión
 
 En la Consola, puedes usar el conmutador *Previsión* en la pestaña *Tendencia de consumo* para ver el uso de capacidad proyectado en la vista *Consumo histórico* y la ráfaga acumulada proyectada en la vista *Ráfaga acumulada*. El conmutador está activado por defecto en ambas vistas.
@@ -196,6 +199,7 @@ Si se espera que el consumo previsto supere la capacidad comprometida, aparece u
 
 
 
+[[view-daily-accrued-burst-data-usage]]
 == Ver el uso diario de datos de ráfaga acumulados
 
 Puede ver el uso de datos acumulado diariamente para un período de facturación mensual o trimestral a través de la Consola o el Digital Advisor. En la consola, la tabla *Ráfaga acumulada por días* proporciona datos detallados que incluyen la marca de tiempo, la capacidad comprometida, consumida y acumulada si selecciona *Ráfaga acumulada* en el menú desplegable *Ver* en la pestaña *Tendencia de consumo*.

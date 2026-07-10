@@ -4,6 +4,7 @@
 
 
 
+[[enhanced-logical-usage-tracking-with-a-new-column]]
 === Seguimiento de uso lógico mejorado con una nueva columna
 
 Se agrega una nueva columna, Huella total, para mejorar el seguimiento del consumo de Keystone para los volúmenes de FabricPool :

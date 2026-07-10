@@ -18,12 +18,14 @@ NetApp garantiza la recuperación de los datos de las copias snapshot desde vol�
 
 
 
+[[service-levels]]
 == Niveles de servicio
 
 Se requiere el servicio de garantía de recuperación de ransomware para todo el hardware que admita la suscripción de Keystone durante el período de suscripción aplicable.
 
 
 
+[[service-credits]]
 == Créditos de servicios
 
 

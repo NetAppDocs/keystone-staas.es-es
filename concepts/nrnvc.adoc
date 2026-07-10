@@ -32,6 +32,7 @@ Para obtener información sobre los niveles de servicio de rendimiento, consulte
 
 
 
+[[snaplock-compliance]]
 == Cumplimiento de normativas de SnapLock
 
 La tecnología SnapLock habilita la función NRNVC para que la unidad no sea utilizable tras la fecha de caducidad establecida en el volumen. Para utilizar la tecnología SnapLock en sus volúmenes, debe suscribirse a NRNVC. Esto solo se aplica a los servicios de archivos y bloques.

@@ -40,6 +40,7 @@ image:cidr-list.png["cigarros de red permitidos"]
 
 
 
+[[generate-and-collect-support-bundles]]
 == Genere y recoja paquetes de soporte
 
 Para solucionar problemas con el recopilador de Keystone, puede trabajar con el soporte de NetApp que puede solicitar un archivo _.tar_. Puede generar este archivo mediante la utilidad TUI de gestión del recopilador Keystone.

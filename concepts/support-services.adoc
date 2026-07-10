@@ -18,6 +18,7 @@ NetApp proporciona a los clientes de Keystone servicios operativos. Los clientes
 
 
 
+[[netapp-support-services]]
 == NetApp servicios de soporte
 
 NetApp ofrece servicios operativos de forma remota a los clientes de Keystone. Estos servicios abarcan una gama de actividades de gestión del almacenamiento, incluyendo la gestión de activos y configuraciones, la gestión de capacidad y rendimiento, la gestión de cambios, la gestión de eventos e incidentes, la atención de solicitudes de servicio y la elaboración de informes.
@@ -27,6 +28,7 @@ Tu KSM trabaja estrechamente contigo en tus servicios Keystone y te proporciona 
 
 
 
+[[contact-support]]
 == Contacta con soporte técnico
 
 Si tienes algún problema con tu suscripción a Keystone, inicia sesión en link:https://support.netapp.com["Sitio de soporte de NetApp"^] con tus credenciales de NSS para crear un caso de soporte técnico.
@@ -45,12 +47,14 @@ Si prefieres hablar directamente con un representante de soporte, llama a uno de
 
 
 
+[[support-monitoring]]
 == Supervisión de soporte
 
 NetApp utiliza la solución de supervisión ITOM para supervisar de forma proactiva el estado de tus productos y servicios suscritos y conectarse al entorno NetApp Keystone para la resolución de problemas.
 
 
 
+[[additional-resources]]
 == Recursos adicionales
 
 Para obtener más información sobre los servicios de Keystone, consulte:

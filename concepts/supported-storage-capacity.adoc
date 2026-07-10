@@ -18,12 +18,14 @@ Keystone STaaS utiliza varios términos de capacidad para medir, comprometer y f
 
 
 
+[[logical-capacity]]
 == Capacidad lógica
 
 Esta es la cantidad de capacidad de almacenamiento necesaria para almacenar datos del usuario antes de que se apliquen las eficiencias de datos proporcionadas por la matriz de almacenamiento.
 
 
 
+[[committed-capacity]]
 == Capacidad comprometida
 
 La capacidad lógica mínima facturada cada mes durante la suscripción:
@@ -34,12 +36,14 @@ La capacidad lógica mínima facturada cada mes durante la suscripción:
 
 
 
+[[changes-to-committed-capacity]]
 === Cambios en la capacidad comprometida
 
 Durante una suscripción, puedes cambiar las capacidades comprometidas sujetas a ciertas condiciones. Para ver todos los detalles sobre las reglas para aumentar o disminuir la capacidad, consulta link:../concepts/capacity-requirements.html["Requisitos de capacidad para los niveles de servicio de rendimiento de Keystone"]. Para solicitar un cambio, contacta a tu Keystone Success Manager (KSM) o link:../concepts/support-services.html["NetApp soporte"].
 
 
 
+[[consumed-capacity]]
 == La capacidad consumida
 
 La capacidad consumida se refiere a la capacidad (en TiB de almacenamiento) que se consume actualmente en el servicio. Se calcula de forma diferente en función del tipo de almacenamiento de datos:
@@ -75,6 +79,7 @@ La capacidad consumida se refiere a la capacidad (en TiB de almacenamiento) que 
 
 
 
+[[burst-capacity]]
 == Capacidad de ráfaga
 
 El servicio NetApp Keystone STaaS le permite usar capacidad adicional a la capacidad comprometida para un nivel de servicio de alto rendimiento. Esto se conoce como uso de capacidad en ráfagas.
@@ -88,6 +93,7 @@ Tenga en cuenta estos puntos:
 
 
 
+[[billed-capacity]]
 == Capacidad facturada
 
 Factura mensual = (capacidad comprometida [TIB] * tasa comprometida [$/TIB]) + (capacidad de ráfaga aprovisionada media diaria [TIB] * tasa de ráfaga [$/TIB]). La factura mensual contiene un cargo mínimo basado en la capacidad comprometida.

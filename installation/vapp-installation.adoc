@@ -18,6 +18,7 @@ La puesta en marcha de Keystone Collector en sistemas VMware vSphere incluye la 
 
 
 
+[[deploying-the-ova-template]]
 == Despliegue de la plantilla OVA
 
 Siga estos pasos:
@@ -59,6 +60,7 @@ Después de implementar el equipo virtual desde la plantilla y encender, abra un
 
 
 
+[[initial-system-configuration]]
 == Configuración inicial del sistema
 
 Realice estos pasos en sus sistemas VMware vSphere para obtener una configuración inicial de los servidores de recopilador de Keystone implementados mediante OVA:

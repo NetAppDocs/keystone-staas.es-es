@@ -18,6 +18,7 @@ Keystone STaaS admite almacenamiento unificado, optimizado por bloques, AFX y de
 
 
 
+[[keystone-staas-standard-and-add-on-services]]
 == Servicios estándar y adicionales de Keystone STaaS
 
 Keystone STaaS proporciona servicios estándar y opcionales para su almacenamiento.
@@ -33,6 +34,7 @@ NOTE: Una suscripción AFX es independiente y no puede combinarse con almacenami
 
 
 
+[[supported-data-storage-types]]
 == Tipos de almacenamiento de datos compatibles
 
 Los servicios Keystone STaaS para almacenamiento unificado, optimizado por bloques, de objetos y AFX, son compatibles con múltiples funciones y protocolos, y se describen en la siguiente tabla:
@@ -96,6 +98,7 @@ Para obtener más información sobre ONTAP One, consulte link:https://docs.netap
 
 
 
+[[services-for-cloud-storage]]
 == Servicios para almacenamiento en cloud
 
 Keystone STaaS proporciona servicios de almacenamiento en cloud. Keystone STaaS admite funcionalidades de gestión de datos Cloud Volumes ONTAP en Amazon Web Services (AWS), Microsoft Azure y Google Cloud Platform.

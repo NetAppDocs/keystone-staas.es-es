@@ -6,6 +6,7 @@ Nuevas mejoras en el panel de Keystone en la NetApp Console:
 
 
 
+[[dii-add-on-consumption-display]]
 === Visualización de consumo de DII add-on
 
-El consumo del complemento Data Infrastructure Insights (DII) ahora se muestra en las pestañas *Consumo actual* y *Tendencia de consumo*. Para saber más, consulta link:./concepts/data-infra-insights.html#view-dii-consumption["Ver consumo de DII"].
+El consumo del complemento Data Infrastructure Insights (DII) ahora se muestra en las pestañas *Consumo actual* y *Tendencia de consumo*. Para obtener más información, consulta https://docs.netapp.com/us-en/keystone-staas/concepts/data-infra-insights.html#view-dii-consumption["Ver consumo de DII"].

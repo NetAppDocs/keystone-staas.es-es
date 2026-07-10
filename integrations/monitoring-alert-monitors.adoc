@@ -18,6 +18,7 @@ Puedes ver y crear monitores de alertas para tus suscripciones de Keystone desde
 
 
 
+[[view-alert-monitors]]
 == Ver monitores de alerta
 
 Para ver los monitores de alerta, siga estos pasos:
@@ -38,6 +39,7 @@ NOTE: La pestaña *Informes* actualmente no está disponible para las suscripcio
 
 
 
+[[create-and-manage-alert-monitors]]
 == Crear y administrar monitores de alertas
 
 Desde la pestaña *Monitores de alerta*, puede crear monitores para rastrear el uso de la capacidad y el vencimiento de la suscripción.  También puede editar, duplicar o eliminar monitores existentes según sea necesario.
@@ -137,6 +139,7 @@ Después de la eliminación, las suscripciones conectadas al monitor dejan de re
 ====
 
 
+[[manage-coverage-gaps]]
 == Gestionar las brechas de cobertura
 
 Cuando se requiere alguna acción, aparece un cuadro de notificación desplegable que indica *Complete su cobertura*, situado encima de la lista de monitores de alertas.  Te ayuda a:

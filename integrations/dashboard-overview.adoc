@@ -25,6 +25,7 @@ El panel de control de Keystone es su solución ideal para supervisar, analizar 
 
 
 
+[[access-the-keystone-dashboard]]
 == Acceda al panel de control de Keystone
 
 Puede acceder al panel de control de Keystone a través de:
@@ -35,6 +36,7 @@ Puede acceder al panel de control de Keystone a través de:
 
 
 
+[[about-netapp-console]]
 == Acerca de la consola de NetApp
 
 Se puede acceder a Keystone a través de la consola NetApp .
@@ -53,6 +55,7 @@ Tenga en cuenta lo siguiente:
 
 
 
+[[keystone-features-in-netapp-console-and-digital-advisor]]
 == Funciones Keystone en NetApp Console y Digital Advisor
 
 La siguiente tabla muestra la disponibilidad de funciones en NetApp Console y Digital Advisor, lo que le ayudará a identificar rápidamente la plataforma adecuada para sus necesidades:

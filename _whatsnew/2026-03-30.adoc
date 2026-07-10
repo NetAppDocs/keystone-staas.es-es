@@ -6,24 +6,28 @@ Nuevas mejoras en el panel de Keystone en la NetApp Console:
 
 
 
+[[above-burst-capacity-on-the-historical-consumption-chart]]
 === Por encima de la capacidad de ráfaga en el gráfico de consumo histórico
 
-El gráfico de consumo histórico de la pestaña *Tendencia de consumo* ahora resalta el uso que supera el límite de ráfagas. Para obtener más información, consulta link:./integrations/consumption-tab.html["Vea las tendencias de consumo de sus suscripciones a Keystone"].
+El gráfico de consumo histórico de la pestaña *Tendencia de consumo* ahora resalta el uso que supera el límite de ráfagas. Para obtener más información, consulta https://docs.netapp.com/us-en/keystone-staas/integrations/consumption-tab.html["Vea las tendencias de consumo de sus suscripciones a Keystone"].
 
 
 
+[[forecast-for-capacity-usage]]
 === Previsión de uso de la capacidad
 
-Puedes usar la opción *Previsión* en la vista *Consumo histórico* de la pestaña *Tendencia de consumo* para proyectar el uso de capacidad durante los próximos 120 días a partir de la fecha actual. Para saber más, consulta link:./integrations/consumption-tab.html#view-forecast-data["Ver datos de previsión"].
+Puedes usar la opción *Previsión* en la vista *Consumo histórico* de la pestaña *Tendencia de consumo* para proyectar el uso de capacidad durante los próximos 120 días a partir de la fecha actual. Para obtener más información, consulta https://docs.netapp.com/us-en/keystone-staas/integrations/consumption-tab.html#view-forecast-data["Ver datos de previsión"].
 
 
 
+[[tracking-id-in-subscription-export]]
 === ID de seguimiento en la exportación de suscripciones
 
 El informe de suscripciones descargado de la página *Suscripciones* ahora incluye el *ID de seguimiento* en los datos de nivel de servicio de rendimiento para los formatos Excel y CSV.
 
 
 
+[[subscriptions-page-column-visibility-updates]]
 === Actualizaciones de la visibilidad de la columna de la página Subscriptions
 
 En la página *Suscripciones*, la columna *Keystone version* ahora está oculta por defecto y la columna *Linked subscriptions* solo aparece cuando hay suscripciones vinculadas disponibles.

@@ -18,6 +18,7 @@ El objetivo de nivel de servicio de sostenibilidad (SLO) apunta al consumo de en
 
 
 
+[[metrics]]
 == Métricas
 
 * *Vatios*: La energía consumida por las matrices de almacenamiento, o clúster AFX, y según lo informado por la herramienta de supervisión. Los límites máximos de consumo de energía de referencia se proporcionan en link:https://hwu.netapp.com["NetApp Hardware Universe"^].
@@ -33,6 +34,7 @@ Para obtener más información sobre la tasa de eficiencia del almacenamiento, c
 
 
 
+[[supported-configurations]]
 === Configuraciones compatibles
 
 El SLO de sostenibilidad se aplica a los pedidos estándar de Keystone STaaS con las siguientes configuraciones compatibles:
@@ -47,6 +49,7 @@ El SLO de sostenibilidad se aplica a los pedidos estándar de Keystone STaaS con
 
 
 
+[[service-credits]]
 == Créditos de servicios
 
 
@@ -80,6 +83,7 @@ Si el consumo de energía durante un periodo de facturación supera los vatios n
 |===
 
 
+[[service-credit-request]]
 === Solicitud de crédito de servicio
 
 Para solicitar un crédito de servicio, abre un ticket de soporte de prioridad 3 (P3) con NetApp Keystone support dentro de los 7 días posteriores al final del mes de servicio y proporciona los detalles que se solicitan en la hoja de Excel como se muestra a continuación:

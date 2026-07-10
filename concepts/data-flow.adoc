@@ -18,6 +18,7 @@ Los datos de los sistemas STaaS de Keystone fluyen a través de Keystone Collect
 
 
 
+[[keystone-collector-data-flow]]
 == Flujo de datos de Keystone Collector
 
 Keystone Collector inicia llamadas API DE REST a las controladoras de almacenamiento y obtiene detalles de uso de las controladoras periódicamente, como se indica en este diagrama de flujo:
@@ -33,6 +34,7 @@ image:data-collector-flow.png["muestra el flujo de datos dentro de los component
 
 
 
+[[monitoring-data-flows]]
 == Supervisar flujos de datos
 
 La supervisión continua del estado de la infraestructura de almacenamiento es una de las funciones más importantes del servicio Keystone. Para la supervisión y la generación de informes, Keystone utiliza la solución de supervisión ITOM. En la siguiente imagen se describe cómo la solución de supervisión de ITOM protege el acceso remoto a la ubicación del cliente. Los clientes pueden optar por habilitar la función de sesión remota, que permite al equipo de soporte de Keystone conectarse a dispositivos supervisados para solucionar problemas.
@@ -50,6 +52,7 @@ image:monitoring-flow-2.png["flujo de datos"]
 
 
 
+[[compliance-standards]]
 == Normas de cumplimiento
 
 La solución de supervisión ITOM de Keystone cumple con el Reglamento general de protección de datos de la Unión Europea (RGPD) y la Ley de privacidad de los consumidores de California (CCPA). También proporciona un link:https://www.logicmonitor.com/legal/data-processing-addendum["Anexo de protección de datos (DPA)"^]documento para documentar estos compromisos. La solución de monitoreo ITOM no recopila ni almacena ningún dato personal.
