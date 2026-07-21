@@ -1,0 +1,14 @@
+= Ver la fecha de vencimiento de la suscripción y el estado de la renovación automática
+:allow-uri-read: 
+
+
+Nuevas mejoras en el panel de Keystone en la NetApp Console:
+
+
+
+[[view-subscription-expiry-and-auto-renewal-status]]
+=== Ver la fecha de vencimiento de la suscripción y el estado de la renovación automática
+
+La columna *Días hasta el vencimiento de la suscripción* de la tabla de suscripciones (*Almacenamiento > Keystone > Suscripciones*) muestra ahora un icono junto a la fecha de vencimiento. El color del icono indica la proximidad de la fecha de vencimiento cuando la renovación automática está desactivada: verde (>120 días), naranja (91–120 días), rojo (<90 días) o gris (caducada). En el caso de las suscripciones con la renovación automática activada, se muestra un icono de renovación automática que indica que la suscripción se renovará automáticamente al final del periodo actual. El estado es de solo lectura y refleja las condiciones de tu contrato. Una vez que abres una suscripción, estos iconos aparecen en el encabezado de los detalles de la suscripción en las pestañas *Consumo actual*, *Tendencia de consumo*, *Cronología de la suscripción* y *Activos*, lo que te permite ver el estado de vencimiento y renovación mientras navegas.
+
+Para obtener más información, consulta https://docs.netapp.com/us-en/keystone-staas/integrations/subscriptions-tab.html["Ver detalles sobre sus suscripciones a Keystone"].

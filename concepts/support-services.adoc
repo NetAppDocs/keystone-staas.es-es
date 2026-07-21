@@ -59,7 +59,7 @@ NetApp utiliza la solución de supervisión ITOM para supervisar de forma proact
 
 Para obtener más información sobre los servicios de Keystone, consulte:
 
-* link:https://www.netapp.com/us/solutions/keystone/index.aspx["NetApp Keystone"^]
+* link:https://www.netapp.com/keystone/["NetApp Keystone"^]
 * link:https://docs.netapp.com["NetApp Documentación del producto"^]
 
 

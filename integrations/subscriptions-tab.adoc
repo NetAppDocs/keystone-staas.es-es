@@ -25,7 +25,7 @@ Para ver información detallada de sus suscripciones, siga estos pasos:
 .Pasos
 . Desde el menú de navegación izquierdo de la consola, seleccione *Almacenamiento > Keystone > Suscripciones*.
 +
-image:bxp-subscription-list-4.png["ver los detalles de la pestaña de suscripción"]
+image:console-subscription.png["ver los detalles de la pestaña de suscripción"]
 
 +
 Verá las métricas clave, como el uso de la capacidad, el estado de vencimiento de la suscripción y las alertas no resueltas.
@@ -43,7 +43,18 @@ Puedes ver los siguientes detalles en la tabla:
 ** *Período de facturación*: El período de facturación de la suscripción.
 ** *Niveles de servicio de rendimiento*: la cantidad de planes de tarifas asociados con la suscripción, y cada plan de tarifas corresponde a un nivel de servicio de rendimiento específico y una capacidad comprometida.
 ** *Capacidad máxima*: La capacidad máxima consumida dentro de la suscripción.
-** *Días para el vencimiento de la suscripción*: El número de días restantes hasta que expire la suscripción.
+** *Días hasta el vencimiento de la suscripción*: Muestra un icono junto a la fecha de vencimiento para indicar cuánto tiempo queda para que venza la suscripción y si se renovará automáticamente. Este estado es de solo lectura y refleja las condiciones de tu contrato. Para consultar los detalles del contrato, consulta link:../integrations/subscription-timeline.html["Ver la cronología de sus suscripciones a Keystone"].
++
+Cuando la renovación automática está desactivada, el color del icono indica la proximidad de la fecha de caducidad:
+
++
+*** *Verde*: Quedan más de 120 días para que caduque.
+*** *Naranja*: Quedan entre 91 y 120 días para que caduque.
+*** *Rojo*: Quedan menos de 90 días para que caduque. Para evitar interrupciones en el servicio, envía una solicitud de renovación al soporte de NetApp Keystone.
+*** *Gris*: la suscripción ha caducado.
++
+En el caso de las suscripciones con la renovación automática activada, aparece un icono de renovación automática que indica que la suscripción se renovará automáticamente al finalizar el periodo actual.
+
 +
 
 NOTE: Puedes hacer clic en la flecha hacia abajo image:down-arrow.png["icono de expandir"] en el encabezado de la tabla para expandir todas las suscripciones y ver la información de los niveles de servicio de rendimiento para cada suscripción al mismo tiempo. Esto muestra información detallada de la capacidad, incluyendo el uso actual, la capacidad comprometida, la capacidad aprovisionada, la capacidad de ráfaga y la capacidad disponible para todas las suscripciones. O también puedes hacer clic en la flecha hacia abajo junto a la columna *Expiration date* en las filas de suscripción individuales para expandirlas una por una.
@@ -51,6 +62,8 @@ NOTE: Puedes hacer clic en la flecha hacia abajo image:down-arrow.png["icono de 
 +
 
 TIP: Puede personalizar las columnas que se muestran en la tabla utilizando el selector de columnas image:column-selector.png["icono del selector de columnas"] icono. Para determinados campos y columnas, puede ver información o iconos de advertencia y sugerencias de herramientas que le proporcionan información adicional sobre los datos.
+
+
 
 
 
