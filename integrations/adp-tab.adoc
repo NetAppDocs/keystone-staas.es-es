@@ -79,7 +79,7 @@ TIP: Puedes seleccionar la suscripción al Cluster B (espejo) desde la topologí
 
 +
 
-TIP: Si el estado de la sincronización muestra out of sync o el estado de la conexión muestra degraded, consulta link:../concepts/support-services.html["Obtén ayuda con Keystone"] para solucionar el problema.
+TIP: Si el estado de la sincronización muestra out of sync o el estado de la conexión muestra degraded, consulta link:../concepts/support-services.html["Servicios de asistencia para Keystone"] para solucionar el problema.
 
 ** Consulta las tendencias históricas de consumo para el sitio primario o reflejado.
 +

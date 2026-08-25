@@ -42,6 +42,6 @@ Las ofertas de almacenamiento como servicio (STaaS) tienen como objetivo proporc
 * link:../concepts/pricing.html["Precios Keystone"]
 * link:../concepts/add-on.html["Servicios complementarios en STaaS de Keystone"]
 * link:../concepts/service-levels.html["Niveles de servicio de rendimiento en Keystone"]
-* link:../concepts/infra.html["Infraestructura Keystone"]
+* link:../concepts/infra.html["Conoce la infraestructura de Keystone"]
 * link:../concepts/operational-models.html["Los modelos operativos en Keystone"]
 
