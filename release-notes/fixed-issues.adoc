@@ -22,6 +22,15 @@ Los problemas encontrados en versiones anteriores de los servicios de STaaS de N
 
 
  a| 
+En la pestaña *Tendencia de consumo* de Digital Advisor, el gráfico de picos acumulados facturados muestra valores diferentes para el mismo periodo de facturación cuando se seleccionan distintos intervalos de fechas.
+ a| 
+Fija
+ a| 
+31 de agosto de 2026
+
+
+
+ a| 
 En la pestaña *Tendencia de consumo* de Digital Advisor, el gráfico de tendencia de consumo no muestra los datos de consumo del día actual, sino que solo muestra los datos hasta el día anterior.
  a| 
 Fija
