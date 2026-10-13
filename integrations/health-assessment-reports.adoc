@@ -1,0 +1,103 @@
+---
+sidebar: sidebar 
+permalink: integrations/health-assessment-reports.html 
+keywords: keystone-aiq, keystone reports, health assessment report, health reports, keystone dashboard, monitoring, console 
+summary: Utiliza los informes de evaluación del estado de Keystone en la NetApp Console para consultar los detalles de la suscripción, evaluar el estado, analizar las tendencias de uso e identificar riesgos y vulnerabilidades en una o varias suscripciones. Puedes generar informes bajo demanda o programarlos para compartir información operativa precisa y de cumplimiento normativo con las partes interesadas. 
+---
+= Generar y programar informes de estado para las suscripciones de Keystone
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Genera o programa informes de estado para una o varias suscripciones de Keystone desde el dashboard de Keystone en la NetApp Console. Estos informes ofrecen una vista consolidada del uso de las suscripciones, el estado operativo, los riesgos y las vulnerabilidades que puedes compartir con los destinatarios que quieras. Esta funcionalidad no está disponible en Digital Advisor.
+
+.Acerca de esta tarea
+Los informes de estado te ofrecen una visión general del uso de las suscripciones, el estado operativo y los riesgos identificados en las suscripciones que selecciones. En la página *Nuevo informe*, utiliza el panel *Configuración del informe* para definir el alcance y las opciones del informe. Utiliza el área de vista previa para revisar el orden de las diapositivas y el diseño antes de generar o programar el informe. La vista previa muestra únicamente la estructura del informe y no muestra los datos reales de las suscripciones.
+
+Sigue estos pasos para generar un informe que puedas descargar inmediatamente o para programar un informe, ya sea único o periódico, para recibirlo más tarde:
+
+.Pasos
+. En el menú de navegación izquierdo de Console, selecciona *Storage > Keystone > Monitoring > Reports*.
+. Selecciona *Nuevo informe*.
+. En el *panel de configuración del informe*, introduce un nombre en el campo *Nombre del informe*.
+. Selecciona un intervalo de tiempo en el menú desplegable *Intervalo de tiempo*.
++
+Selecciona un intervalo predefinido, como *Últimos 60 días*, o selecciona *Personalizado* para introducir tus propias fechas. El intervalo seleccionado determina los datos históricos que se muestran en la sección *Tendencia de consumo* y en otras secciones basadas en el tiempo. Si seleccionas *Personalizado*, no podrás programar el informe.
+
++
+image:../media/schedule-report.png["configuración del informe de salud que muestra que la programación está desactivada cuando se selecciona un intervalo de fechas personalizado"]
+
+. Selecciona una o varias suscripciones en el menú desplegable *Suscripciones*.
++
+
+NOTE: NetApp partners pueden seleccionar suscripciones en una o varias cuentas de cliente de Keystone que gestionan.
+
+. En *Secciones del informe*, selecciona las secciones que quieras incluir.
++
+Cada sección que selecciones aparecerá en el área de vista previa y se incluirá en el informe generado. Por ejemplo, puedes incluir un resumen de tus suscripciones, el uso actual de la capacidad, las tendencias de consumo, la capacidad física, el estado del sistema y los riesgos y vulnerabilidades. En el caso de *Consumption trend*, puedes incluir un gráfico del consumo histórico y, opcionalmente, una previsión del consumo futuro.
+
+. Elige un tema para la presentación.
+. Revisa las secciones que aparecen en el área de vista previa para confirmar que coinciden con tus selecciones.
+. Elige cómo quieres crear el informe.
++
+** *Generar informe*
++
+Selecciona *Generar informe* para descargar el informe inmediatamente.
+
++
+El informe se envía para su generación y vuelves a la pestaña *Informes*. El informe aparece con el estado *En ejecución*.
+
++
+Cuando el estado cambie a *Generado*, selecciona el icono de los tres puntos situado al final de la fila del informe y, a continuación, selecciona *Descargar*.
+
+** *Programar informe*
++
+Selecciona *Programar* para crear un informe puntual o periódico, y sigue estos pasos:
+
++
+... Selecciona una periodicidad: *una vez*, *semanal*, *mensual* o *trimestral*.
+... Selecciona una *fecha de inicio*.
++
+image:../media/schedule-dialog.png["Cuadro de diálogo del informe de programación en el que se muestra la frecuencia semanal seleccionada, los campos de fecha de inicio y fecha de finalización vacíos, un campo «Destinatarios» y el formato PPT seleccionado"]
+
++
+La fecha de inicio determina cuándo se ejecuta el informe por primera vez. En el caso de las frecuencias periódicas, el informe se vuelve a ejecutar según la periodicidad seleccionada: semanal, mensual o trimestral.
+
+... Si lo deseas, selecciona una *fecha de finalización*.
++
+Si no seleccionas una fecha de finalización, la programación continuará hasta que la cambies.
+
+... Selecciona *Programar informe*.
++
+Una vez creada la programación, el informe aparece en la pestaña *Reports* con el tipo de ejecución *Scheduled run*. Utiliza las columnas *Last run*, *Next run* y *Status* para hacer un seguimiento de cada ejecución.
+
++
+Para editar una programación semanal, mensual o trimestral, selecciona el icono de los tres puntos al final de la fila del informe y, a continuación, selecciona *Editar programación*. Puedes hacerlo tanto si el estado es *Programado* como *Generado*. No puedes editar una programación *Una vez* después de que se genere el informe.
+
++
+Cuando el estado cambie a *Generado*, selecciona el icono de los tres puntos situado junto al informe y selecciona *Descargar*.
+
+
+
+
+
+
+
+.Resultado
+Los informes generados se descargan como presentaciones de PowerPoint. Puedes seleccionar *Generar de nuevo* en el menú de los tres puntos para crear un nuevo informe con la misma configuración.
+
+*Información relacionada*
+
+* link:../integrations/dashboard-access.html["Comience a utilizar el panel de control de Keystone"]
+* link:../integrations/subscriptions-tab.html["Ver detalles sobre sus suscripciones a Keystone"]
+* link:../integrations/current-usage-tab.html["Ver el consumo actual"]
+* link:../integrations/consumption-tab.html["Ver tendencias de consumo"]
+* link:../integrations/assets-tab.html["Ver los recursos asociados a tus suscripciones"]
+* link:../integrations/monitoring-alerts.html["Ver y administrar alertas"]
+* link:../integrations/monitoring-alert-monitors.html["Ver y crear monitores de alertas"]
+

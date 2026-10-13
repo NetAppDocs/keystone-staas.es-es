@@ -18,6 +18,7 @@ El panel de control de Keystone es su solución ideal para supervisar, analizar 
 
 * *Supervisa los detalles de las suscripciones*: Mira información detallada sobre tus suscripciones a Keystone, incluidos los niveles de servicio de rendimiento (servicios base y complementarios como la protección avanzada de datos y Data Infrastructure Insights), el uso de capacidad, los activos y las alertas.
 * *Realice un seguimiento del uso de la capacidad y genere informes*: realice un seguimiento del uso de la capacidad actual e histórico y genere informes para analizar los datos de suscripción y tomar decisiones informadas.
+* *Generar informes de estado*: crea informes de evaluación del estado bajo demanda o programados para revisar el uso de las suscripciones, el estado operativo, los riesgos y las vulnerabilidades.
 * *Ver cronograma de suscripciones*: Manténgase informado sobre fechas y eventos clave monitoreando el cronograma de sus suscripciones.
 * *Administrar suscripciones*: envíe solicitudes para modificar los niveles de rendimiento del servicio u otros parámetros de suscripción a medida que cambien sus necesidades.
 * *Analizar volúmenes y objetos*: obtenga información detallada sobre los volúmenes y objetos de sus suscripciones, incluida su capacidad tanto a nivel de volumen como de objeto.
@@ -100,6 +101,11 @@ link:../integrations/options.html#generate-reports-from-netapp-console-or-digita
 
 
  a| 
+link:../integrations/health-assessment-reports.html["Generar y programar informes de estado"]
+| Sí | No 
+
+
+ a| 
 link:../integrations/volumes-objects-tab.html["Ver detalles de volúmenes y objetos"]
 | Sí | Sí 
 
@@ -116,6 +122,7 @@ link:../integrations/performance-tab.html["Ver métricas de rendimiento"]
 *Información relacionada*
 
 * link:../integrations/dashboard-access.html["Comience a utilizar el panel de control de Keystone"]
+* link:../integrations/health-assessment-reports.html["Generar y programar informes de estado"]
 * link:../integrations/keystone-console.html["Panel de control de Keystone en la consola de NetApp"]
 * link:..//integrations/keystone-aiq.html["Panel de control de Keystone en Digital Advisor"]
 

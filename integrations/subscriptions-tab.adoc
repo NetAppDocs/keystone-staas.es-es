@@ -113,6 +113,7 @@ image:icon-grey.png["icono de punto gris"] *Sin consumo*: No se registra ningún
 * link:../integrations/dashboard-overview.html["Comprender el panel de control de Keystone"]
 * link:../integrations/current-usage-tab.html["Ver detalles de su consumo actual"]
 * link:../integrations/consumption-tab.html["Ver tendencias de consumo"]
+* link:../integrations/health-assessment-reports.html["Generar y programar informes de estado"]
 * link:../integrations/subscription-timeline.html["Ver el cronograma de su suscripción"]
 * link:../integrations/assets-tab.html["Ver sus activos de suscripción de Keystone"]
 * link:../integrations/assets.html["Visualiza los activos en todas tus suscripciones de Keystone"]

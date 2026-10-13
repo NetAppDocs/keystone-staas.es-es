@@ -36,6 +36,15 @@ Los detalles se generan en formato CSV que puede guardar para usarlos y comparar
 
 
 
+[[generate-health-reports-from-netapp-console]]
+== Genera informes de estado desde NetApp Console
+
+Usa NetApp Console para generar o programar informes de estado de una o varias suscripciones. Estos informes de PowerPoint recopilan el uso de las suscripciones, el estado operativo, los riesgos y las vulnerabilidades. Digital Advisor no admite la generación ni la programación de informes de evaluación del estado.
+
+Para obtener más información, consulta link:../integrations/health-assessment-reports.html["Generar y programar informes de estado para las suscripciones de Keystone"].
+
+
+
 [[generate-consolidated-report-from-digital-advisor]]
 == Generar informe consolidado de Digital Advisor
 

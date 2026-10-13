@@ -33,6 +33,8 @@ indexpage:
       url: "/integrations/subscriptions-tab.html"
     - title: Consulta de activos
       url: "/integrations/assets-tab.html"
+    - title: Generar y programar informes de estado
+      url: "/integrations/health-assessment-reports.html"
     - title: Buscar datos y generar informes
       url: "/integrations/options.html"
   - title: Servicios compatibles en Keystone

@@ -14,10 +14,10 @@ summary: Usa la pestaña Assets para ver detalles de los clústeres y nodos de O
 
 
 [role="lead"]
-El panel de Keystone en la consola de NetApp le permite ver información detallada sobre los nodos en clústeres, volúmenes aprovisionados y nodos StorageGRID en múltiples suscripciones de Keystone , de acuerdo con sus permisos de acceso. Esta vista no está disponible en Digital Advisor.
+El panel de Keystone en NetApp Console te permite ver información detallada sobre nodos, volúmenes, clústeres y agregados de ONTAP, y nodos de StorageGRID en varias suscripciones de Keystone, según tus permisos de acceso. Esta vista no está disponible en Digital Advisor.
 
 
-NOTE: La página *Activos* muestra pestañas basadas en las plataformas asociadas con sus suscripciones de Keystone . Para ONTAP, están disponibles las pestañas *Nodos en clústeres* y *Volúmenes en clústeres*. Para StorageGRID, la tabla *Nodos en cuadrículas* se muestra directamente sin una selección de pestañas. Si las suscripciones incluyen ambas plataformas, las tres pestañas estarán disponibles.
+NOTE: La página *Activos* muestra pestañas en función de las plataformas asociadas a tus suscripciones de Keystone. Para ONTAP, están disponibles las pestañas *Nodos en clústeres* y *Volúmenes en clústeres*. La pestaña *Clústeres y agregados* solo está disponible para ONTAP si tienes suscripciones de Keystone STaaS facturadas por capacidad física. Para StorageGRID, la tabla *Nodos en grids* se muestra directamente sin seleccionar ninguna pestaña. Si tus suscripciones incluyen ambas plataformas, están disponibles todas las pestañas.
 
 [role="tabbed-block"]
 ====
@@ -73,6 +73,30 @@ TIP: Puede personalizar la tabla utilizando el selector de columnas image:column
 Puede hacer clic en un número de suscripción en la columna *Número de suscripción* para ir a la pestaña *Suscripciones*, donde puede ver los detalles del consumo de la suscripción, los cronogramas y la información de los activos asociados. Para obtener más información, consulte link:../integrations/current-usage-tab.html["Ver detalles de su consumo actual"].
 
 
+
+
+
+--
+.Clústeres y agregados
+--
+
+NOTE: La pestaña *Clústeres y agregados* solo aparece en las suscripciones a Keystone STaaS facturadas por capacidad física.
+
+.Pasos
+. Desde el menú de navegación izquierdo de la consola, seleccione *Almacenamiento > Keystone > Activos*.
+. Selecciona la pestaña *Clusters and aggregates*.
++
+image:console-clusters-aggregates-multiple-subscriptions.png["Clústeres y agregados en varias suscripciones de Keystone"]
+
++
+Puedes consultar los detalles de capacidad de los clústeres ONTAP en todas tus suscripciones de Keystone. Para cada clúster, la tabla muestra la capacidad física utilizada, la capacidad física utilizable, la capacidad física disponible, la relación de eficiencia del almacenamiento, la capacidad lógica efectiva, la capacidad utilizada lógica y la versión de ONTAP. Despliega un clúster para ver los detalles correspondientes de sus agregados.
+
++
+Esta información te ayuda a identificar qué clústeres y agregados son los que más consumen capacidad, a comparar la capacidad disponible en toda tu infraestructura implementada y a comprender cómo el uso a nivel de clúster y de agregado contribuye al consumo total de la suscripción.
+
++
+
+TIP: Puedes personalizar la tabla con el icono image:column-selector.png["icono del selector de columnas"] del selector de columnas y usar la barra de búsqueda para filtrar la tabla según los valores disponibles en las columnas.
 
 
 

@@ -36,6 +36,7 @@ La página *Descripción general* ofrece la siguiente información:
 * link:../integrations/dashboard-overview.html["Obtenga más información sobre el panel de control de Keystone"]
 * link:../integrations/dashboard-access.html["Comience a utilizar el panel de control de Keystone"]
 * link:..//integrations/keystone-aiq.html["Panel de control de Keystone en Digital Advisor"]
+* link:../integrations/health-assessment-reports.html["Generar y programar informes de estado"]
 * link:../integrations/subscriptions-tab.html["Ver los detalles de su suscripción"]
 * link:../integrations/current-usage-tab.html["Ver detalles de su consumo actual"]
 * link:../integrations/consumption-tab.html["Ver tendencias de consumo"]
