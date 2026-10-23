@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: concepts/service-levels.html 
 keywords: service levels, service level, rate plan or service level 
-summary: Keystone STaaS para la versión 3 ofrece capacidad de almacenamiento en niveles de servicio predefinidos. Cada volumen que gestiona Keystone está asociado con un nivel de servicio. 
+summary: Keystone STaaS de la versión 3 ofrece capacidad de almacenamiento con niveles de servicio predefinidos. Cada volumen gestionado por Keystone STaaS está asociado a un nivel de servicio. 
 ---
-= Niveles de servicio de rendimiento en Keystone
+= Niveles de servicio de rendimiento en Keystone STaaS
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

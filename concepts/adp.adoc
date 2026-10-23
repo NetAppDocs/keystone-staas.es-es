@@ -4,7 +4,7 @@ permalink: concepts/adp.html
 keywords: data protection advanced 
 summary: Usa el servicio adicional de protección avanzada de datos para asegurar una protección eficiente de los datos en cargas de trabajo críticas. 
 ---
-= Complemento avanzado de protección de datos para Keystone
+= Complemento avanzado de protección de datos para Keystone STaaS
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

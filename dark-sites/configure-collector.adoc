@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: dark-sites/configure-collector.html 
 keywords: configure, keystone, collector, private mode, darksite mode, tui utility 
-summary: Complete algunas tareas de configuración para permitir que Keystone Collector recopile datos de uso en un entorno que no tenga acceso a Internet, también conocido como _sitio oscuro_ o _modo privado_. 
+summary: Configura Keystone Collector para que recopile datos de uso en modo privado en un entorno de _dark site_ sin acceso a internet. 
 ---
 = Configura Keystone Collector en modo privado
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Complete algunas tareas de configuración para permitir que Keystone Co
 
 
 [role="lead"]
-Complete algunas tareas de configuración para permitir que Keystone Collector recopile datos de uso en un entorno que no tenga acceso a Internet, también conocido como _sitio oscuro_ o _modo privado_. Se trata de una actividad única para activar y asociar los componentes requeridos con su entorno de almacenamiento. Una vez que se haya configurado, Keystone Collector supervisará todos los clústeres ONTAP que gestione Active IQ Unified Manager.
+Configura Keystone Collector para que recopile datos de uso en modo privado en un entorno _dark site_ sin acceso a internet. Esta configuración, que solo tienes que realizar una vez, activa y asocia los componentes necesarios con tu entorno de almacenamiento. Una vez configurado, Keystone Collector supervisará todos los clústeres ONTAP gestionados por Active IQ Unified Manager.
 
 
 NOTE: Keystone Collector ofrece la utilidad Interfaz de usuario del terminal (TUI) de gestión de recopiladores de Keystone para realizar actividades de configuración y supervisión. Puede usar varios controles del teclado, como las teclas Entrar y flecha, para seleccionar las opciones y navegar por esta TUI.

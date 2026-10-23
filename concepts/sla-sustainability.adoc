@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: concepts/sla-sustainability.html 
 keywords: sustainability, sla, service level agreement, slo, service level objectives 
-summary: Aprende cómo el SLO de sostenibilidad de Keystone define los objetivos de consumo de energía para tu despliegue STaaS y cómo reclamar créditos de servicio si no se cumplen esos objetivos. 
+summary: Descubre cómo el SLO de sostenibilidad de Keystone STaaS define los objetivos de consumo energético para tu despliegue y cómo solicitar créditos de servicio si no se cumplen esos objetivos. 
 ---
-= SLO de sostenibilidad para Keystone
+= Objetivo de sostenibilidad (SLO) para Keystone STaaS
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

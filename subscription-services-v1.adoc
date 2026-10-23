@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: subscription-services-v1.html 
 keywords: Keystone Flex Subscriptions, kfs v1, keystone legacy, Keystone subscription services version 1 
-summary: Servicios de STaaS de Keystone a través de Keystone Flex Subscription 
+summary: Descubre en qué se diferencian los servicios de suscripción tradicionales de Keystone de Keystone STaaS 
 ---
 = Servicios de suscripción Keystone | Versión 1
 :hardbreaks:

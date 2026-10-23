@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: concepts/sla-performance.html 
 keywords: sustainability, sla, service level agreement, slo, service level objectives 
-summary: Keystone ofrece SLO basado en latencia por nivel de servicio de rendimiento, como se describe en el pedido de Keystone para la capacidad consumida hasta el límite de ráfaga. 
+summary: Keystone STaaS ofrece un SLO basado en la latencia para cada nivel de servicio de rendimiento, tal y como se describe en la orden de Keystone para la capacidad consumida hasta el límite de ráfaga. 
 ---
-= Nivel de nivel de servicio de rendimiento para Keystone
+= Objetivo de nivel de servicio (SLO) de rendimiento para Keystone STaaS
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

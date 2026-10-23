@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: concepts/support-services.html 
 keywords: Keystone support, service request, support ticket 
-summary: Usa el sitio de soporte de NetApp para crear un caso de soporte o encontrar información de contacto para tus suscripciones de Keystone. 
+summary: Utiliza el sitio de soporte de NetApp para crear un caso de asistencia o encontrar la información de contacto de tus suscripciones a Keystone STaaS. 
 ---
-= Servicios de asistencia para Keystone
+= Servicios de asistencia para Keystone STaaS
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,14 +14,14 @@ summary: Usa el sitio de soporte de NetApp para crear un caso de soporte o encon
 
 
 [role="lead"]
-NetApp proporciona a los clientes de Keystone servicios operativos. Los clientes reciben un Keystone Success Manager (KSM) dedicado, opciones de contacto de soporte técnico directo y supervisión proactiva a través de la solución ITOM.
+NetApp ofrece servicios operativos a los clientes de Keystone STaaS. Los clientes cuentan con un Keystone Success Manager (KSM) dedicado, opciones de contacto directo para recibir asistencia y supervisión proactiva a través de la solución ITOM.
 
 
 
 [[netapp-support-services]]
 == NetApp servicios de soporte
 
-NetApp ofrece servicios operativos de forma remota a los clientes de Keystone. Estos servicios abarcan una gama de actividades de gestión del almacenamiento, incluyendo la gestión de activos y configuraciones, la gestión de capacidad y rendimiento, la gestión de cambios, la gestión de eventos e incidentes, la atención de solicitudes de servicio y la elaboración de informes.
+NetApp presta servicios operativos de forma remota a los clientes de Keystone STaaS. Estos servicios abarcan una amplia gama de actividades de gestión del almacenamiento, como la gestión de activos y configuraciones, la gestión de la capacidad y el rendimiento, la gestión de cambios, la gestión de eventos e incidencias, la atención de solicitudes de servicio y la elaboración de informes.
 
 .Keystone Success Manager
 Tu KSM trabaja estrechamente contigo en tus servicios Keystone y te proporciona informes semanales o mensuales de facturación y operativos. Las responsabilidades específicas se definen en tu acuerdo NetApp Keystone.

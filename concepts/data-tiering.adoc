@@ -4,7 +4,7 @@ permalink: concepts/data-tiering.html
 keywords: add-on services, add-on, data tiering 
 summary: El servicio adicional de organización en niveles identifica los datos que se utilizan con menos frecuencia y los ordena en niveles en el almacenamiento que se da soporte. 
 ---
-= Servicio complementario de niveles de datos para Keystone
+= Servicio complementario de tiering de datos para Keystone STaaS
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

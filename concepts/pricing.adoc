@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: concepts/pricing.html 
 keywords: pricing, Keystone billing, committed capacity, consumed capacity, burst consumption, billing schedules 
-summary: 'Con NetApp Keystone STaaS, pagas por lo que te comprometes y solo pagas extra por lo que usas más allá de eso. En esta página se explica cómo funciona el modelo de pago por uso: desde cómo se fija el precio de tu compromiso de almacenamiento, cómo se mide y factura la capacidad, hasta cuándo se generan las facturas.' 
+summary: 'Con NetApp Keystone STaaS, pagas por lo que te comprometes y solo pagas un suplemento por lo que uses por encima de eso. Esta página explica cómo funciona el modelo de pago por uso: desde cómo se calcula el precio de tu compromiso de almacenamiento hasta cómo se mide y se factura la capacidad de almacenamiento y cuándo se generan las facturas.' 
 ---
-= Conoce la facturación de Keystone
+= Más información sobre la facturación de Keystone STaaS
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

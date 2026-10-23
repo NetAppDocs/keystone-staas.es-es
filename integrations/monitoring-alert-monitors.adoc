@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: integrations/monitoring-alert-monitors.html 
 keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, monitoring, bluexp, netapp console 
-summary: Utilice la pestaña Monitoreo para ver y crear monitores de alertas para sus suscripciones de Keystone . 
+summary: Utiliza la pestaña «Supervisión» para ver y crear monitores de alertas para tus suscripciones de Keystone. 
 ---
 = Ver y crear monitores de alertas para suscripciones de Keystone
 :hardbreaks:

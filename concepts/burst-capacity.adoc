@@ -4,7 +4,7 @@ permalink: concepts/burst-capacity.html
 keywords: burst consumption, add-on service, burst capacity, burst limit, NetApp Keystone 
 summary: Permite a los clientes utilizar capacidad de almacenamiento adicional más allá de su capacidad comprometida. 
 ---
-= Complemento de capacidad de ráfaga para suscripciones de Keystone
+= Complemento de capacidad de ráfaga para las suscripciones a Keystone STaaS
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
